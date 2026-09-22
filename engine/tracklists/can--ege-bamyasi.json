@@ -1,0 +1,81 @@
+{
+ "artist": "Can",
+ "album": "Ege Bamyasi",
+ "spotify_uri": "spotify:album:3Qa2CdymyGvXkqoqIZykmT",
+ "spotify_url": "https://open.spotify.com/album/3Qa2CdymyGvXkqoqIZykmT?si=mKHhXzJrQo-uNSmbHpn4sw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Pinch - 2004 Remastered Version",
+   "clean_title": "Pinch - 2004 Remastered Version",
+   "duration_ms": 568666,
+   "spotify_uri": "spotify:track:2v5kF956aZIcm1du9NmelQ",
+   "spotify_url": "https://open.spotify.com/track/2v5kF956aZIcm1du9NmelQ?si=wAENiK5ORTajpiL4xomH1Q",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Sing Swan Song - 2004 Remastered Version",
+   "clean_title": "Sing Swan Song - 2004 Remastered Version",
+   "duration_ms": 289333,
+   "spotify_uri": "spotify:track:38jqyFghcqZbGubCgOvCkJ",
+   "spotify_url": "https://open.spotify.com/track/38jqyFghcqZbGubCgOvCkJ?si=TbRFMCV8RauWnDeP07V8Ew",
+   "starts_at_ms": 568666,
+   "starts_at": "9:28"
+  },
+  {
+   "n": 3,
+   "title": "One More Night - 2004 Remastered Version",
+   "clean_title": "One More Night - 2004 Remastered Version",
+   "duration_ms": 335199,
+   "spotify_uri": "spotify:track:13Q0XPq59cQ6E948WMPYR0",
+   "spotify_url": "https://open.spotify.com/track/13Q0XPq59cQ6E948WMPYR0?si=76248xZuQk2A5usEbsyOkA",
+   "starts_at_ms": 857999,
+   "starts_at": "14:17"
+  },
+  {
+   "n": 4,
+   "title": "Vitamin C - 2004 Remastered Version",
+   "clean_title": "Vitamin C - 2004 Remastered Version",
+   "duration_ms": 214066,
+   "spotify_uri": "spotify:track:1tzXnPndBrd2G5GXrOBc1c",
+   "spotify_url": "https://open.spotify.com/track/1tzXnPndBrd2G5GXrOBc1c?si=-qXJ_k_1SFSlBLG8VVTQbw",
+   "starts_at_ms": 1193198,
+   "starts_at": "19:53"
+  },
+  {
+   "n": 5,
+   "title": "Soup - 2004 Remastered Version",
+   "clean_title": "Soup - 2004 Remastered Version",
+   "duration_ms": 631559,
+   "spotify_uri": "spotify:track:0WRdOVjKkKWyEPW2kZtVpS",
+   "spotify_url": "https://open.spotify.com/track/0WRdOVjKkKWyEPW2kZtVpS?si=yaUTuVb7SOeVy18Dv0itRg",
+   "starts_at_ms": 1407264,
+   "starts_at": "23:27"
+  },
+  {
+   "n": 6,
+   "title": "I'm So Green - 2004 Remastered Version",
+   "clean_title": "I'm So Green - 2004 Remastered Version",
+   "duration_ms": 184666,
+   "spotify_uri": "spotify:track:1mAQwbVDwer2Q5fJZHqfF2",
+   "spotify_url": "https://open.spotify.com/track/1mAQwbVDwer2Q5fJZHqfF2?si=cTNTQfd3QJmqlo581K88hQ",
+   "starts_at_ms": 2038823,
+   "starts_at": "33:58"
+  },
+  {
+   "n": 7,
+   "title": "Spoon - 2004 Remastered Version",
+   "clean_title": "Spoon - 2004 Remastered Version",
+   "duration_ms": 185839,
+   "spotify_uri": "spotify:track:2K9flHsIQNruLaYDU5oyP2",
+   "spotify_url": "https://open.spotify.com/track/2K9flHsIQNruLaYDU5oyP2?si=_L1WU9HyRvOz_oTj99CZgA",
+   "starts_at_ms": 2223489,
+   "starts_at": "37:03"
+  }
+ ],
+ "week": 8,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:57.737415+00:00"
+}
