@@ -1,0 +1,131 @@
+{
+ "artist": "Fleet Foxes",
+ "album": "Helplessness Blues",
+ "spotify_uri": "spotify:album:7D0rCfJjFj9x0bdgRKtvzb",
+ "spotify_url": "https://open.spotify.com/album/7D0rCfJjFj9x0bdgRKtvzb?si=sYUmI1gbRi67HtznqxlbGg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Montezuma",
+   "clean_title": "Montezuma",
+   "duration_ms": 216604,
+   "spotify_uri": "spotify:track:5Civg4JEWHLe2gqMG5vW6E",
+   "spotify_url": "https://open.spotify.com/track/5Civg4JEWHLe2gqMG5vW6E?si=QqedILaMTAy0dQq6upTXWw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Bedouin Dress",
+   "clean_title": "Bedouin Dress",
+   "duration_ms": 269800,
+   "spotify_uri": "spotify:track:5bpLzcR6II5zhsqJWTMEqw",
+   "spotify_url": "https://open.spotify.com/track/5bpLzcR6II5zhsqJWTMEqw?si=YEd0h5wDS0unwwZp_s2jAg",
+   "starts_at_ms": 216604,
+   "starts_at": "3:36"
+  },
+  {
+   "n": 3,
+   "title": "Sim Sala Bim",
+   "clean_title": "Sim Sala Bim",
+   "duration_ms": 194053,
+   "spotify_uri": "spotify:track:0SDjmcEJPltb2Rur7usWN2",
+   "spotify_url": "https://open.spotify.com/track/0SDjmcEJPltb2Rur7usWN2?si=-WXI5Y48ShWA5fLdkpsCBg",
+   "starts_at_ms": 486404,
+   "starts_at": "8:06"
+  },
+  {
+   "n": 4,
+   "title": "Battery Kinzie",
+   "clean_title": "Battery Kinzie",
+   "duration_ms": 169000,
+   "spotify_uri": "spotify:track:64rUORJh4zikFaieRu9xVq",
+   "spotify_url": "https://open.spotify.com/track/64rUORJh4zikFaieRu9xVq?si=LlV9_FtMR6OzF8oqdOFtNQ",
+   "starts_at_ms": 680457,
+   "starts_at": "11:20"
+  },
+  {
+   "n": 5,
+   "title": "The Plains / Bitter Dancer",
+   "clean_title": "The Plains / Bitter Dancer",
+   "duration_ms": 353906,
+   "spotify_uri": "spotify:track:5Z45r13JrsFiOb6MJFnpKi",
+   "spotify_url": "https://open.spotify.com/track/5Z45r13JrsFiOb6MJFnpKi?si=nkCGYnzWTCGM6LJ5Blsfvg",
+   "starts_at_ms": 849457,
+   "starts_at": "14:09"
+  },
+  {
+   "n": 6,
+   "title": "Helplessness Blues",
+   "clean_title": "Helplessness Blues",
+   "duration_ms": 303386,
+   "spotify_uri": "spotify:track:02VdHwnGhy5fTW2CTZkYsb",
+   "spotify_url": "https://open.spotify.com/track/02VdHwnGhy5fTW2CTZkYsb?si=PxixA2AsSte9VLc0aQQJNA",
+   "starts_at_ms": 1203363,
+   "starts_at": "20:03"
+  },
+  {
+   "n": 7,
+   "title": "The Cascades",
+   "clean_title": "The Cascades",
+   "duration_ms": 127640,
+   "spotify_uri": "spotify:track:0doAllpYP3hnusnTwFqmdG",
+   "spotify_url": "https://open.spotify.com/track/0doAllpYP3hnusnTwFqmdG?si=d2-l4Y0XRS-ANqH-PIpocg",
+   "starts_at_ms": 1506749,
+   "starts_at": "25:06"
+  },
+  {
+   "n": 8,
+   "title": "Lorelai",
+   "clean_title": "Lorelai",
+   "duration_ms": 264840,
+   "spotify_uri": "spotify:track:5TrrlZ2s8g2vlaYacWtaNI",
+   "spotify_url": "https://open.spotify.com/track/5TrrlZ2s8g2vlaYacWtaNI?si=RftLpaVjRLyvXyhCceNKHA",
+   "starts_at_ms": 1634389,
+   "starts_at": "27:14"
+  },
+  {
+   "n": 9,
+   "title": "Someone You'd Admire",
+   "clean_title": "Someone You'd Admire",
+   "duration_ms": 149373,
+   "spotify_uri": "spotify:track:477zmYGCIR3pzTyqnoStlr",
+   "spotify_url": "https://open.spotify.com/track/477zmYGCIR3pzTyqnoStlr?si=YOOhQ09qTvaOHNscAqQlRw",
+   "starts_at_ms": 1899229,
+   "starts_at": "31:39"
+  },
+  {
+   "n": 10,
+   "title": "The Shrine / An Argument",
+   "clean_title": "The Shrine / An Argument",
+   "duration_ms": 487293,
+   "spotify_uri": "spotify:track:6rN4c80To1rKvYvqpJNqYo",
+   "spotify_url": "https://open.spotify.com/track/6rN4c80To1rKvYvqpJNqYo?si=ED_TKqLTQDufXdNlxp8eaw",
+   "starts_at_ms": 2048602,
+   "starts_at": "34:08"
+  },
+  {
+   "n": 11,
+   "title": "Blue Spotted Tail",
+   "clean_title": "Blue Spotted Tail",
+   "duration_ms": 185293,
+   "spotify_uri": "spotify:track:7DVVuEwuBOx7fcUvYwqngv",
+   "spotify_url": "https://open.spotify.com/track/7DVVuEwuBOx7fcUvYwqngv?si=Q9xpLdOdT0CEICJzOmyJ6g",
+   "starts_at_ms": 2535895,
+   "starts_at": "42:15"
+  },
+  {
+   "n": 12,
+   "title": "Grown Ocean",
+   "clean_title": "Grown Ocean",
+   "duration_ms": 275871,
+   "spotify_uri": "spotify:track:5T4GDSTBjPHLyhZ8cobgu6",
+   "spotify_url": "https://open.spotify.com/track/5T4GDSTBjPHLyhZ8cobgu6?si=-Uis1BbhThufM-EJ2pU3Yg",
+   "starts_at_ms": 2721188,
+   "starts_at": "45:21"
+  }
+ ],
+ "week": 15,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:30.581321+00:00"
+}
