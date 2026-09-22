@@ -1,0 +1,101 @@
+{
+ "artist": "Mahavishnu Orchestra",
+ "album": "The Inner Mounting Flame",
+ "spotify_uri": "spotify:album:6XHQCPGwvSaqv9MZ2tauqr",
+ "spotify_url": "https://open.spotify.com/album/6XHQCPGwvSaqv9MZ2tauqr?si=XI9AlalHR1iMgA6izH-h4Q",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Meeting of the Spirits (with John McLaughlin)",
+   "clean_title": "Meeting of the Spirits (with John McLaughlin)",
+   "duration_ms": 411662,
+   "spotify_uri": "spotify:track:41ZgVC4H14ajbV2adh3D7s",
+   "spotify_url": "https://open.spotify.com/track/41ZgVC4H14ajbV2adh3D7s?si=bxJQPCttRQe21LbrxM3Khg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Dawn (with John McLaughlin)",
+   "clean_title": "Dawn (with John McLaughlin)",
+   "duration_ms": 309866,
+   "spotify_uri": "spotify:track:7uOR6TIGeytCAnKrUT4X91",
+   "spotify_url": "https://open.spotify.com/track/7uOR6TIGeytCAnKrUT4X91?si=uxkc3zn2SNSGUAPSWpJkSw",
+   "starts_at_ms": 411662,
+   "starts_at": "6:51"
+  },
+  {
+   "n": 3,
+   "title": "The Noonward Race (with John McLaughlin)",
+   "clean_title": "The Noonward Race (with John McLaughlin)",
+   "duration_ms": 388063,
+   "spotify_uri": "spotify:track:4BWrLhJXXYAlVIHOLSPsmN",
+   "spotify_url": "https://open.spotify.com/track/4BWrLhJXXYAlVIHOLSPsmN?si=JKjwCAXhRw2s976n-dXRiA",
+   "starts_at_ms": 721528,
+   "starts_at": "12:01"
+  },
+  {
+   "n": 4,
+   "title": "A Lotus on Irish Streams (with John McLaughlin)",
+   "clean_title": "A Lotus on Irish Streams (with John McLaughlin)",
+   "duration_ms": 340078,
+   "spotify_uri": "spotify:track:371VEMXqEyWyK8C4jtpIPq",
+   "spotify_url": "https://open.spotify.com/track/371VEMXqEyWyK8C4jtpIPq?si=rh-mcRgUQu2af48ZakUMsQ",
+   "starts_at_ms": 1109591,
+   "starts_at": "18:29"
+  },
+  {
+   "n": 5,
+   "title": "Vital Transformation (with John McLaughlin)",
+   "clean_title": "Vital Transformation (with John McLaughlin)",
+   "duration_ms": 375600,
+   "spotify_uri": "spotify:track:76UO345JoM0FJWHwDOYz5y",
+   "spotify_url": "https://open.spotify.com/track/76UO345JoM0FJWHwDOYz5y?si=a2IwQt4SSvKViQm5G_4wjw",
+   "starts_at_ms": 1449669,
+   "starts_at": "24:09"
+  },
+  {
+   "n": 6,
+   "title": "The Dance of Maya (with John McLaughlin)",
+   "clean_title": "The Dance of Maya (with John McLaughlin)",
+   "duration_ms": 436506,
+   "spotify_uri": "spotify:track:5OlgaiQ3rG7LfVGFxeXEl6",
+   "spotify_url": "https://open.spotify.com/track/5OlgaiQ3rG7LfVGFxeXEl6?si=ofi9i4ctQyqxqaFsb78bnw",
+   "starts_at_ms": 1825269,
+   "starts_at": "30:25"
+  },
+  {
+   "n": 7,
+   "title": "You Know You Know (with John McLaughlin)",
+   "clean_title": "You Know You Know (with John McLaughlin)",
+   "duration_ms": 307400,
+   "spotify_uri": "spotify:track:6A8IR5kVgXncIBC9W0YHjL",
+   "spotify_url": "https://open.spotify.com/track/6A8IR5kVgXncIBC9W0YHjL?si=Oen6-n38REyUDC25_cp0mw",
+   "starts_at_ms": 2261775,
+   "starts_at": "37:41"
+  },
+  {
+   "n": 8,
+   "title": "Awakening (with John McLaughlin)",
+   "clean_title": "Awakening (with John McLaughlin)",
+   "duration_ms": 210102,
+   "spotify_uri": "spotify:track:0m3inEADLWYnN2tAXND2tV",
+   "spotify_url": "https://open.spotify.com/track/0m3inEADLWYnN2tAXND2tV?si=K3MHoM_vQLWD_0h4I1jtxg",
+   "starts_at_ms": 2569175,
+   "starts_at": "42:49"
+  },
+  {
+   "n": 9,
+   "title": "The Noonward Race (Live) (with John McLaughlin)",
+   "clean_title": "The Noonward Race (Live) (with John McLaughlin)",
+   "duration_ms": 923375,
+   "spotify_uri": "spotify:track:4UbkiFLOZY2LTw58iH0hpA",
+   "spotify_url": "https://open.spotify.com/track/4UbkiFLOZY2LTw58iH0hpA?si=fq6Rj6ukScSQCLzcSOr_EA",
+   "starts_at_ms": 2779277,
+   "starts_at": "46:19"
+  }
+ ],
+ "week": 11,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:11.981131+00:00"
+}
