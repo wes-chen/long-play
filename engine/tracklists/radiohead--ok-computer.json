@@ -1,0 +1,131 @@
+{
+ "artist": "Radiohead",
+ "album": "OK Computer",
+ "spotify_uri": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
+ "spotify_url": "https://open.spotify.com/album/6dVIqQ8qmQ5GBnJ9shOYGE?si=UhuO_MgxSPaI1xHK4qpoYg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Airbag",
+   "clean_title": "Airbag",
+   "duration_ms": 287880,
+   "spotify_uri": "spotify:track:7c378mlmubSu7NGkLFa4sN",
+   "spotify_url": "https://open.spotify.com/track/7c378mlmubSu7NGkLFa4sN?si=oOZYbzWYQjyeMLg2XwlExQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Paranoid Android",
+   "clean_title": "Paranoid Android",
+   "duration_ms": 387213,
+   "spotify_uri": "spotify:track:6LgJvl0Xdtc73RJ1mmpotq",
+   "spotify_url": "https://open.spotify.com/track/6LgJvl0Xdtc73RJ1mmpotq?si=27xTLMWlQG-LUIZaU_empA",
+   "starts_at_ms": 287880,
+   "starts_at": "4:47"
+  },
+  {
+   "n": 3,
+   "title": "Subterranean Homesick Alien",
+   "clean_title": "Subterranean Homesick Alien",
+   "duration_ms": 267693,
+   "spotify_uri": "spotify:track:2CVV8PtUYYsux8XOzWkCP0",
+   "spotify_url": "https://open.spotify.com/track/2CVV8PtUYYsux8XOzWkCP0?si=AGUurDI6TqyRh-bscsdBAQ",
+   "starts_at_ms": 675093,
+   "starts_at": "11:15"
+  },
+  {
+   "n": 4,
+   "title": "Exit Music (For A Film)",
+   "clean_title": "Exit Music (For A Film)",
+   "duration_ms": 267186,
+   "spotify_uri": "spotify:track:0z1o5L7HJx562xZSATcIpY",
+   "spotify_url": "https://open.spotify.com/track/0z1o5L7HJx562xZSATcIpY?si=mSF4lnXBS5OJv_AHis2F7Q",
+   "starts_at_ms": 942786,
+   "starts_at": "15:42"
+  },
+  {
+   "n": 5,
+   "title": "Let Down",
+   "clean_title": "Let Down",
+   "duration_ms": 299560,
+   "spotify_uri": "spotify:track:2fuYa3Lx06QQJAm0MjztKr",
+   "spotify_url": "https://open.spotify.com/track/2fuYa3Lx06QQJAm0MjztKr?si=MjEBI6OPT4ST0zvTpZOU8A",
+   "starts_at_ms": 1209972,
+   "starts_at": "20:09"
+  },
+  {
+   "n": 6,
+   "title": "Karma Police",
+   "clean_title": "Karma Police",
+   "duration_ms": 264066,
+   "spotify_uri": "spotify:track:63OQupATfueTdZMWTxW03A",
+   "spotify_url": "https://open.spotify.com/track/63OQupATfueTdZMWTxW03A?si=X838sndLQXqqfzAwmJMYvg",
+   "starts_at_ms": 1509532,
+   "starts_at": "25:09"
+  },
+  {
+   "n": 7,
+   "title": "Fitter Happier",
+   "clean_title": "Fitter Happier",
+   "duration_ms": 117333,
+   "spotify_uri": "spotify:track:6wnmRxEbwUK7WLyUtiRuT7",
+   "spotify_url": "https://open.spotify.com/track/6wnmRxEbwUK7WLyUtiRuT7?si=FkiKugYVQq-LMKTAiyFzVg",
+   "starts_at_ms": 1773598,
+   "starts_at": "29:33"
+  },
+  {
+   "n": 8,
+   "title": "Electioneering",
+   "clean_title": "Electioneering",
+   "duration_ms": 230626,
+   "spotify_uri": "spotify:track:0gTRROuntlrPQ64W3J2Etv",
+   "spotify_url": "https://open.spotify.com/track/0gTRROuntlrPQ64W3J2Etv?si=Dn0sZflETvOZ7Ff0s1N_3g",
+   "starts_at_ms": 1890931,
+   "starts_at": "31:30"
+  },
+  {
+   "n": 9,
+   "title": "Climbing Up the Walls",
+   "clean_title": "Climbing Up the Walls",
+   "duration_ms": 285200,
+   "spotify_uri": "spotify:track:2PDQReEXBViVwkrbQ34vd7",
+   "spotify_url": "https://open.spotify.com/track/2PDQReEXBViVwkrbQ34vd7?si=VZ7BsbXoS5-PrT3djKP2jg",
+   "starts_at_ms": 2121557,
+   "starts_at": "35:21"
+  },
+  {
+   "n": 10,
+   "title": "No Surprises",
+   "clean_title": "No Surprises",
+   "duration_ms": 229120,
+   "spotify_uri": "spotify:track:10nyNJ6zNy2YVYLrcwLccB",
+   "spotify_url": "https://open.spotify.com/track/10nyNJ6zNy2YVYLrcwLccB?si=A50rERRbSYKxxh8jHdg1Bw",
+   "starts_at_ms": 2406757,
+   "starts_at": "40:06"
+  },
+  {
+   "n": 11,
+   "title": "Lucky",
+   "clean_title": "Lucky",
+   "duration_ms": 258813,
+   "spotify_uri": "spotify:track:14xj58ZexBaEaHARb11Cqs",
+   "spotify_url": "https://open.spotify.com/track/14xj58ZexBaEaHARb11Cqs?si=WOCvt0NfQ6WzpDbOzEeOUg",
+   "starts_at_ms": 2635877,
+   "starts_at": "43:55"
+  },
+  {
+   "n": 12,
+   "title": "The Tourist",
+   "clean_title": "The Tourist",
+   "duration_ms": 326533,
+   "spotify_uri": "spotify:track:1UuaWKypSkIHxFZD03zw4m",
+   "spotify_url": "https://open.spotify.com/track/1UuaWKypSkIHxFZD03zw4m?si=a1AdLuPoRrO1u7-vbkg2-Q",
+   "starts_at_ms": 2894690,
+   "starts_at": "48:14"
+  }
+ ],
+ "week": 2,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:30:26.514550+00:00"
+}
