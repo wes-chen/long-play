@@ -1,0 +1,111 @@
+{
+ "artist": "Slowdive",
+ "album": "Souvlaki",
+ "spotify_uri": "spotify:album:53eHm1f3sFiSzWMaKOl98Z",
+ "spotify_url": "https://open.spotify.com/album/53eHm1f3sFiSzWMaKOl98Z?si=JERiVC4hTO265ypm214ymw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Alison",
+   "clean_title": "Alison",
+   "duration_ms": 230986,
+   "spotify_uri": "spotify:track:33HRECrmuelZxOpid6XTNX",
+   "spotify_url": "https://open.spotify.com/track/33HRECrmuelZxOpid6XTNX?si=Yq2S4sDyQk60M5K3YJ8kUw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Machine Gun",
+   "clean_title": "Machine Gun",
+   "duration_ms": 266706,
+   "spotify_uri": "spotify:track:1wXJjKJy5Pt38Bu3tUzTUL",
+   "spotify_url": "https://open.spotify.com/track/1wXJjKJy5Pt38Bu3tUzTUL?si=lKB8COktS2y2Diofv7TLRg",
+   "starts_at_ms": 230986,
+   "starts_at": "3:50"
+  },
+  {
+   "n": 3,
+   "title": "40 Days",
+   "clean_title": "40 Days",
+   "duration_ms": 194120,
+   "spotify_uri": "spotify:track:4qyJE4D584f7qJCRSy7HOE",
+   "spotify_url": "https://open.spotify.com/track/4qyJE4D584f7qJCRSy7HOE?si=E6YoARB4SrWBWoiF7cZKHQ",
+   "starts_at_ms": 497692,
+   "starts_at": "8:17"
+  },
+  {
+   "n": 4,
+   "title": "Sing",
+   "clean_title": "Sing",
+   "duration_ms": 288493,
+   "spotify_uri": "spotify:track:1dmph9kxaIm9btfmCT9r2c",
+   "spotify_url": "https://open.spotify.com/track/1dmph9kxaIm9btfmCT9r2c?si=CCsnStmRSRGAw8yd2ZBDFg",
+   "starts_at_ms": 691812,
+   "starts_at": "11:31"
+  },
+  {
+   "n": 5,
+   "title": "Here She Comes",
+   "clean_title": "Here She Comes",
+   "duration_ms": 137853,
+   "spotify_uri": "spotify:track:5FuYgi1xinZAQyD5CYLpUJ",
+   "spotify_url": "https://open.spotify.com/track/5FuYgi1xinZAQyD5CYLpUJ?si=p1dA7-WES8qqbZWPIYkSNA",
+   "starts_at_ms": 980305,
+   "starts_at": "16:20"
+  },
+  {
+   "n": 6,
+   "title": "Souvlaki Space Station",
+   "clean_title": "Souvlaki Space Station",
+   "duration_ms": 357373,
+   "spotify_uri": "spotify:track:76JhicgPtW4zbN72tpnMyA",
+   "spotify_url": "https://open.spotify.com/track/76JhicgPtW4zbN72tpnMyA?si=NMu8kAt7TJ2JYJYY5ldRlg",
+   "starts_at_ms": 1118158,
+   "starts_at": "18:38"
+  },
+  {
+   "n": 7,
+   "title": "When the Sun Hits",
+   "clean_title": "When the Sun Hits",
+   "duration_ms": 285906,
+   "spotify_uri": "spotify:track:0oxYB9GoOIDrdzniNdKC44",
+   "spotify_url": "https://open.spotify.com/track/0oxYB9GoOIDrdzniNdKC44?si=8sd7876HQ-Wg2JwF2uMh_A",
+   "starts_at_ms": 1475531,
+   "starts_at": "24:35"
+  },
+  {
+   "n": 8,
+   "title": "Altogether",
+   "clean_title": "Altogether",
+   "duration_ms": 221133,
+   "spotify_uri": "spotify:track:1I3f8tsoYbIPEgQ1TPvJPb",
+   "spotify_url": "https://open.spotify.com/track/1I3f8tsoYbIPEgQ1TPvJPb?si=lrQLlkJYS86pwTuu4OiiSQ",
+   "starts_at_ms": 1761437,
+   "starts_at": "29:21"
+  },
+  {
+   "n": 9,
+   "title": "Melon Yellow",
+   "clean_title": "Melon Yellow",
+   "duration_ms": 232946,
+   "spotify_uri": "spotify:track:1G6E8yhilqdeZuduRrob1S",
+   "spotify_url": "https://open.spotify.com/track/1G6E8yhilqdeZuduRrob1S?si=TRUFQ6zjQHemf8_1RzgbqQ",
+   "starts_at_ms": 1982570,
+   "starts_at": "33:02"
+  },
+  {
+   "n": 10,
+   "title": "Dagger",
+   "clean_title": "Dagger",
+   "duration_ms": 218253,
+   "spotify_uri": "spotify:track:3MmRfG64qt04Efx9gK9Ec8",
+   "spotify_url": "https://open.spotify.com/track/3MmRfG64qt04Efx9gK9Ec8?si=O29YStozSb6K4zvKEYzBcA",
+   "starts_at_ms": 2215516,
+   "starts_at": "36:55"
+  }
+ ],
+ "week": 6,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:47.759662+00:00"
+}
