@@ -1,6 +1,6 @@
 # The long-play syllabus
 
-*Draft v0.1 — 24 weeks. Numbering corrected 2026-09-21 (classical 21–22, cinematic 23–24).*
+*Draft v0.2 — 24 weeks. Numbering corrected 2026-09-21 (classical 21–22, cinematic 23–24).*
 *This is a living document: weeks move as the listening log shows what lands and what bounces. Revision process: `reference/syllabus-revision-process.md`.*
 
 **The learner:** Wesley, 26. Trained ear, advanced classical theory, beginner on
@@ -54,7 +54,7 @@ behind those vast guitar spaces.
 
 **Week 4 — Taking the rock album apart.** Anchor: Radiohead — Kid A (the
 electronic turn). Adventurous: Talk Talk — Laughing Stock, Björk — Homogenic,
-The Smile — A Light for Attracting Attention. Wild card: Black Midi — Hellfire.
+These New Puritans — Field of Reeds. Wild card: Black Midi — Hellfire.
 Concept: **krautrock and motorik** — 1970s West Germany's relentless 4/4 pulse;
 the well OK Computer drinks from. Technique: **sampling** — the break, the loop,
 hip-hop's founding technology.
@@ -309,3 +309,8 @@ One terse entry per revision: date, weeks affected, evidence, change, run.
   23–24) — run: syllabus build.
 - 2026-09-22 — no content changes — changelog section added; revision process
   published at `reference/syllabus-revision-process.md` — run: improve-loop.
+- 2026-09-22 — week 4 — evidence: duplicate spotted by Wesley in chat (The
+  Smile — A Light for Attracting Attention also assigned in week 1) —
+  swapped week 4 adventurous: The Smile — A Light for Attracting Attention →
+  These New Puritans — Field of Reeds (his pick; unheard, sounds fun) —
+  run: chat.
