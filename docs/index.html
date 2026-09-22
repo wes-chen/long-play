@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE LONG-PLAY SYLLABUS — LP-24</title>
+<meta name="description" content="The long-play syllabus: a 24-week personal listening course, presented as a TE-style instrument panel.">
+<style>
+  :root{
+    --ink:#111111;
+    --paper:#e9e9e6;
+    --paper-2:#dededb;
+    --chassis:#0b0b0b;
+    --panel-dark:#141414;
+    --hairline:#b9b9b4;
+    --muted:#6f6f6a;
+    --orange:#ff4a00;
+    --orange-dim:#a83a05;
+    --led-bg:#0e0e0e;
+    --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:var(--chassis);
+    color:var(--paper);
+    font-family:var(--mono);
+    font-size:14px;
+    line-height:1.45;
+    padding:18px;
+  }
+  .chassis{
+    max-width:1180px;
+    margin:0 auto;
+    background:var(--chassis);
+    border:1px solid #2a2a2a;
+    border-radius:10px;
+    padding:14px;
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+  }
+  .panel{
+    position:relative;
+    background:var(--paper);
+    color:var(--ink);
+    border-radius:8px;
+    padding:22px 24px;
+  }
+  .panel-dark{
+    background:var(--panel-dark);
+    color:var(--paper);
+    border:1px solid #2a2a2a;
+    border-radius:8px;
+    padding:12px 18px;
+  }
+  /* corner screws */
+  .screws::before,.screws::after{
+    content:"";
+    position:absolute;
+    width:10px;height:10px;border-radius:50%;
+    background:radial-gradient(circle at 35% 35%, #8a8a86, #3c3c3a 70%);
+    top:10px;
+  }
+  .screws::before{left:10px}
+  .screws::after{right:10px}
+  .screws .screw-b{position:absolute;bottom:10px;width:10px;height:10px;border-radius:50%;
+    background:radial-gradient(circle at 35% 35%, #8a8a86, #3c3c3a 70%)}
+  .screws .screw-b.l{left:10px}
+  .screws .screw-b.r{right:10px}
+
+  /* ---- top status bar ---- */
+  .topbar{
+    display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+    font-size:12px;letter-spacing:.08em;
+  }
+  .topbar .brand{font-weight:700;font-size:15px;letter-spacing:.12em}
+  .topbar .spacer{flex:1}
+  .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--orange);margin-right:6px;vertical-align:1px}
+  .dot.off{background:#4a4a4a}
+  .blink{animation:blink 1.2s steps(2,start) infinite}
+  @keyframes blink{to{visibility:hidden}}
+
+  /* ---- hero ---- */
+  .hero{display:grid;grid-template-columns:1.2fr 1fr;gap:24px;align-items:stretch}
+  .hero h1{
+    font-size:clamp(30px,4.6vw,58px);
+    line-height:1.02;
+    letter-spacing:-.01em;
+    font-weight:700;
+    text-transform:uppercase;
+  }
+  .hero .sub{
+    margin-top:14px;font-size:12px;letter-spacing:.14em;color:var(--ink);
+  }
+  .hero .sub .o{color:var(--orange-dim);font-weight:700}
+  .leds{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+  .led{
+    background:var(--led-bg);color:var(--orange);
+    border-radius:6px;padding:10px 8px 8px;text-align:center;
+    box-shadow:inset 0 0 18px rgba(0,0,0,.85);
+  }
+  .led .lab{font-size:9px;letter-spacing:.18em;color:#c9c9c4;margin-bottom:6px}
+  .led .val{
+    font-size:clamp(20px,2.6vw,32px);font-weight:700;letter-spacing:.06em;
+    text-shadow:0 0 10px rgba(255,74,0,.75),0 0 2px rgba(255,74,0,.9);
+    font-variant-numeric:tabular-nums;
+  }
+  .led .unit{font-size:9px;letter-spacing:.18em;color:#c9c9c4;margin-top:4px}
+
+  /* ---- main grid ---- */
+  .grid{display:grid;grid-template-columns:1.65fr 1fr;gap:14px}
+  .panel h2{
+    font-size:13px;letter-spacing:.16em;font-weight:700;
+    margin-bottom:16px;text-transform:uppercase;
+  }
+  .panel h2 .o{color:var(--orange-dim)}
+
+  /* sequencer */
+  .seq{display:grid;grid-template-columns:repeat(12,1fr);gap:8px}
+  .pad{
+    font-family:var(--mono);
+    background:#1b1b1b;color:#d8d8d3;
+    border:1px solid #2c2c2c;border-radius:5px;
+    padding:9px 4px 7px;cursor:pointer;text-align:center;
+    min-height:74px;display:flex;flex-direction:column;justify-content:center;gap:3px;
+    transition:background .12s,border-color .12s,color .12s;
+  }
+  .pad .wk{font-size:11px;font-weight:700;letter-spacing:.1em}
+  .pad .unt{font-size:8px;letter-spacing:.2em;color:#8f8f8a}
+  .pad .anc{font-size:8px;line-height:1.3;color:#a9a9a3;overflow:hidden;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+  .pad:hover{border-color:#6a6a64}
+  .pad.current{background:var(--orange);border-color:var(--orange-dim);color:#fff}
+  .pad.current .unt,.pad.current .anc{color:#ffe4d4}
+  .pad.selected{outline:2px solid var(--orange-dim);outline-offset:2px}
+  .seq-legend{margin-top:14px;font-size:10px;letter-spacing:.1em;color:#55554f;display:flex;gap:18px;flex-wrap:wrap}
+  .sw{display:inline-block;width:10px;height:10px;border-radius:2px;background:#1b1b1b;border:1px solid #2c2c2c;vertical-align:-1px;margin-right:6px}
+  .sw.o{background:var(--orange);border-color:var(--orange-dim)}
+
+  /* module / now-cued panel */
+  .module{background:var(--paper-2)}
+  .cue-tag{
+    display:inline-block;background:var(--orange);color:#fff;
+    font-size:10px;font-weight:700;letter-spacing:.16em;
+    padding:5px 10px;border-radius:3px;margin-bottom:12px;
+  }
+  .cue-tag.planned{background:#1b1b1b;color:#d8d8d3}
+  #mod-week{font-size:12px;letter-spacing:.14em;font-weight:700;margin-bottom:2px}
+  #mod-title{font-size:21px;font-weight:700;line-height:1.2;margin-bottom:14px}
+  .mod-row{border-top:1px solid var(--hairline);padding:9px 0;font-size:12px}
+  .mod-row .k{display:block;font-size:9px;letter-spacing:.2em;color:var(--muted);margin-bottom:3px}
+  .mod-row .v{font-weight:700}
+  .mod-row ul{list-style:none}
+  .mod-row li{padding:2px 0}
+  .mod-row li::before{content:"▸ ";color:var(--orange-dim)}
+  .transport{display:flex;gap:12px;margin-top:16px;align-items:center}
+  .tbtn{
+    font-family:var(--mono);font-size:11px;letter-spacing:.1em;font-weight:700;
+    border:1px solid #2c2c2c;background:#1b1b1b;color:#d8d8d3;
+    width:64px;height:56px;border-radius:8px;cursor:pointer;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;
+  }
+  .tbtn .glyph{font-size:18px;line-height:1}
+  .tbtn.play{background:var(--orange);border-color:var(--orange-dim);color:#fff}
+  .tbtn:active{transform:translateY(1px)}
+  .mod-status{margin-top:14px;font-size:10px;letter-spacing:.12em;color:#55554f}
+
+  /* units panel */
+  .units-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--hairline);border-radius:6px;overflow:hidden}
+  .unit-cell{border-bottom:1px solid var(--hairline);border-right:1px solid var(--hairline);padding:12px 14px;font-size:11px}
+  .unit-cell:nth-child(3n){border-right:none}
+  .unit-cell:nth-last-child(-n+3){border-bottom:none}
+  .unit-cell .code{display:inline-block;background:#1b1b1b;color:#e8e8e6;font-weight:700;
+    font-size:10px;letter-spacing:.12em;padding:2px 8px;border-radius:3px;margin-bottom:6px}
+  .unit-cell .name{font-weight:700;margin-bottom:2px}
+  .unit-cell .weeks{color:var(--muted);font-size:10px;letter-spacing:.08em}
+
+  footer.topbar{font-size:11px}
+  footer .btn{
+    font-family:var(--mono);font-size:11px;letter-spacing:.12em;
+    background:transparent;color:var(--paper);border:1px solid #3a3a3a;
+    border-radius:5px;padding:8px 14px;cursor:pointer;text-decoration:none;
+  }
+  footer .btn:hover{border-color:var(--orange);color:var(--orange)}
+  footer .btn.solid{border-color:var(--orange-dim);color:var(--orange)}
+
+  @media (max-width:900px){
+    .hero{grid-template-columns:1fr}
+    .grid{grid-template-columns:1fr}
+    .seq{grid-template-columns:repeat(6,1fr)}
+    .units-grid{grid-template-columns:1fr}
+    .unit-cell{border-right:none}
+    .unit-cell:nth-last-child(-n+3){border-bottom:1px solid var(--hairline)}
+    .unit-cell:last-child{border-bottom:none}
+    body{padding:10px}
+    .chassis{padding:10px;gap:10px}
+    .panel{padding:18px 16px}
+  }
+</style>
+</head>
+<body>
+<div class="chassis">
+
+  <header class="panel-dark topbar screws">
+    <span class="screw-b l"></span><span class="screw-b r"></span>
+    <span class="brand">[ T.E ]&nbsp;&nbsp;LONGPLAY v1.02</span>
+    <span><span class="dot"></span>SYLLABUS</span>
+    <span><span class="dot"></span>SYNCED</span>
+    <span class="spacer"></span>
+    <span>DEVICE: LP-24</span>
+  </header>
+
+  <section class="panel hero screws">
+    <span class="screw-b l"></span><span class="screw-b r"></span>
+    <div>
+      <h1>The<br>Long-Play<br>Syllabus</h1>
+      <div class="sub">A 24-WEEK LISTENING COURSE <span class="o">●</span> FULL ALBUMS ONLY <span class="o">●</span> CONTEXT UNLOCKS APPRECIATION</div>
+    </div>
+    <div class="leds" aria-label="Course statistics">
+      <div class="led"><div class="lab">WEEK</div><div class="val" id="led-week">01/24</div><div class="unit">POSITION</div></div>
+      <div class="led"><div class="lab">ALBUMS</div><div class="val">120</div><div class="unit">IN COURSE</div></div>
+      <div class="led"><div class="lab">UNITS</div><div class="val">08</div><div class="unit">+ FOUNDATIONS</div></div>
+      <div class="led"><div class="lab">CONCEPTS</div><div class="val">24</div><div class="unit">ONE PER WEEK</div></div>
+    </div>
+  </section>
+
+  <main class="grid">
+    <section class="panel screws" aria-label="Week step sequencer">
+      <span class="screw-b l"></span><span class="screw-b r"></span>
+      <h2>Step-Sequencer <span class="o">●</span> 24 Weeks</h2>
+      <div class="seq" id="seq" role="listbox" aria-label="Select a week"></div>
+      <div class="seq-legend">
+        <span><span class="sw o"></span>CUED / NOW</span>
+        <span><span class="sw"></span>PLANNED</span>
+        <span>TAP A PAD FOR THE FULL MODULE</span>
+      </div>
+    </section>
+
+    <aside class="panel module screws" aria-label="Selected week detail">
+      <span class="screw-b l"></span><span class="screw-b r"></span>
+      <h2>Module View</h2>
+      <div id="cue-tag" class="cue-tag">▸ CUED</div>
+      <div id="mod-week">WEEK 01</div>
+      <div id="mod-title">How to listen on purpose</div>
+      <div class="mod-row"><span class="k">ANCHOR — CANONICAL TEXT</span><span class="v" id="mod-anchor"></span></div>
+      <div class="mod-row"><span class="k">ADVENTUROUS — ADJACENT READINGS</span><ul id="mod-adv"></ul></div>
+      <div class="mod-row"><span class="k">WILD CARD — STRETCH ASSIGNMENT</span><span class="v" id="mod-wild"></span></div>
+      <div class="mod-row"><span class="k">CONCEPT</span><span class="v" id="mod-concept"></span></div>
+      <div class="mod-row"><span class="k">TECHNIQUE</span><span class="v" id="mod-tech"></span></div>
+      <div class="transport" aria-hidden="true">
+        <button class="tbtn" type="button"><span class="glyph">■</span>STOP</button>
+        <button class="tbtn play" type="button"><span class="glyph">▶</span>PLAY</button>
+        <button class="tbtn" type="button"><span class="glyph">●</span>REC</button>
+      </div>
+      <div class="mod-status" id="mod-status"></div>
+    </aside>
+  </main>
+
+  <section class="panel screws" aria-label="Course units">
+    <span class="screw-b l"></span><span class="screw-b r"></span>
+    <h2>Units <span class="o">●</span> Course Map</h2>
+    <div class="units-grid" id="units"></div>
+  </section>
+
+  <footer class="panel-dark topbar screws">
+    <span class="screw-b l"></span><span class="screw-b r"></span>
+    <span>SRC: SYLLABUS v1.0 <span class="blink">▮</span></span>
+    <span class="spacer"></span>
+    <a class="btn" href="https://github.com/wes-chen/long-play" rel="noopener">REPO</a>
+    <a class="btn solid" href="https://github.com/wes-chen/long-play/blob/main/reference/curriculum.md" rel="noopener">[ DOCS ]</a>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var WEEKS = [
+    {n:1, u:"FDN", t:"How to listen on purpose", a:"Pink Floyd — The Dark Side of the Moon",
+     adv:["Pink Floyd — Animals","The Smile — A Light for Attracting Attention","Four Tet — Beautiful Rewind"],
+     w:"Can — Tago Mago", c:"timbre", tech:"reverb"},
+    {n:2, u:"FDN", t:"The album as a designed object", a:"Radiohead — OK Computer",
+     adv:["The Beatles — Abbey Road","Kendrick Lamar — To Pimp a Butterfly","SZA — SOS"],
+     w:"Swans — To Be Kind", c:"groove and the pocket", tech:"panning / stereo image"},
+    {n:3, u:"U1", t:"Where Wish You Were Here comes from", a:"King Crimson — In the Court of the Crimson King",
+     adv:["Pink Floyd — Animals","Yes — Close to the Edge","Genesis — Selling England by the Pound"],
+     w:"Van der Graaf Generator — Pawn Hearts", c:"the Barrett story", tech:"tape delay"},
+    {n:4, u:"U1", t:"Taking the rock album apart", a:"Radiohead — Kid A",
+     adv:["Talk Talk — Laughing Stock","Björk — Homogenic","The Smile — A Light for Attracting Attention"],
+     w:"Black Midi — Hellfire", c:"krautrock and motorik", tech:"sampling"},
+    {n:5, u:"U1", t:"Confession as craft", a:"Frank Ocean — Blonde",
+     adv:["FKA twigs — MAGDALENE","Solange — A Seat at the Table","Kelela — Take Me Apart"],
+     w:"Ethel Cain — Preacher's Daughter", c:"the confessional lineage", tech:"vocal layering"},
+    {n:6, u:"U1", t:"Texture as an instrument", a:"My Bloody Valentine — Loveless",
+     adv:["Cocteau Twins — Heaven or Las Vegas","Slowdive — Souvlaki","Ride — Nowhere"],
+     w:"Have A Nice Life — Deathconsciousness", c:"shoegaze", tech:"distortion as texture"},
+    {n:7, u:"U2", t:"Melodic electronic, formalized", a:"ODESZA — A Moment Apart",
+     adv:["Jamie xx — In Colour","Disclosure — Settle","Four Tet — There Is Love in You"],
+     w:"Burial — Untrue", c:"build and drop as form", tech:"sidechain compression"},
+    {n:8, u:"U2", t:"Kraftwerk week", a:"Kraftwerk — Trans-Europe Express",
+     adv:["Neu! — Neu! 2","Can — Ege Bamyasi","Tangerine Dream — Phaedra"],
+     w:"Suicide — Suicide", c:"context as appreciation", tech:"sequencers and synthesizers"},
+    {n:9, u:"U2", t:"Ambient: music for conditions", a:"Brian Eno — Ambient 1: Music for Airports",
+     adv:["Aphex Twin — Selected Ambient Works 85–92","Tim Hecker — Ravedeath, 1972","Stars of the Lid — And Their Refinement of the Decline"],
+     w:"Oneohtrix Point Never — R Plus Seven", c:"furniture music", tech:"tape loops and generative systems"},
+    {n:10, u:"U2", t:"Weird electronic", a:"SOPHIE — Oil of Every Pearl's Un-Insides",
+     adv:["Arca — Kick I","Flying Lotus — Cosmogramma","Iglooghost — Neo Wax Bloom"],
+     w:"100 gecs — 1000 gecs", c:"sound design as composition", tech:"synthesis basics"},
+    {n:11, u:"U3", t:"The fusion doorway", a:"Weather Report — Heavy Weather",
+     adv:["Herbie Hancock — Head Hunters","Mahavishnu Orchestra — The Inner Mounting Flame","Snarky Puppy — We Like It Here"],
+     w:"Jaco Pastorius — Jaco Pastorius", c:"fusion", tech:"follow one instrument per spin"},
+    {n:12, u:"U3", t:"The Miles doorway", a:"Miles Davis — Kind of Blue",
+     adv:["Miles Davis — In a Silent Way","John Coltrane — Blue Train","Cannonball Adderley — Somethin' Else"],
+     w:"Miles Davis — Bitches Brew", c:"modal playing", tech:"the room as instrument"},
+    {n:13, u:"U3", t:"Coltrane and the album as statement", a:"John Coltrane — A Love Supreme",
+     adv:["Charles Mingus — Mingus Ah Um","Bill Evans — Waltz for Debby","Alice Coltrane — Journey in Satchidananda"],
+     w:"Kamasi Washington — The Epic", c:"the suite", tech:"recorded live, no fixes"},
+    {n:14, u:"U4", t:"The confessional songwriter", a:"Jeff Buckley — Grace",
+     adv:["Nick Drake — Pink Moon","Elliott Smith — Either/Or","Phoebe Bridgers — Punisher"],
+     w:"Lingua Ignota — CALIGULA", c:"vocal dynamics", tech:"close-mic'ing"},
+    {n:15, u:"U4", t:"Harmony nerd week", a:"The Beach Boys — Pet Sounds",
+     adv:["Fleet Foxes — Helplessness Blues","Bon Iver — Bon Iver","The Beatles — Abbey Road"],
+     w:"Dirty Projectors — Bitte Orca", c:"vocal arrangement", tech:"multitrack tape"},
+    {n:16, u:"U4", t:"The piano songwriter", a:"Joni Mitchell — Blue",
+     adv:["Sufjan Stevens — Carrie & Lowell","Laura Marling — Song for Our Daughter","Big Thief — U.F.O.F."],
+     w:"Fiona Apple — Fetch the Bolt Cutters", c:"alternate tunings", tech:"dry recording"},
+    {n:17, u:"U5", t:"Alt-metal doorway", a:"Deftones — White Pony",
+     adv:["Tool — Lateralus","Mastodon — Crack the Skye","Sleep Token — Take Me Back to Eden"],
+     w:"Have A Nice Life — Deathconsciousness *", c:"dynamics as heaviness", tech:"odd meters"},
+    {n:18, u:"U5", t:"Heavy as texture", a:"Alcest — Écailles de Lune",
+     adv:["Deafheaven — Sunbather","Chelsea Wolfe — Abyss","Boris — Flood"],
+     w:"Swans — To Be Kind *", c:"heaviness as texture, not aggression", tech:"lo-fi as aesthetic"},
+    {n:19, u:"U6", t:"The Red Velvet doorway", a:"Red Velvet — Perfect Velvet",
+     adv:["f(x) — 4 Walls","SHINee — Odd","ARTMS — DALL"],
+     w:"NewJeans — Get Up", c:"the Red/Velvet duality", tech:"the songwriting camp"},
+    {n:20, u:"U6", t:"The industry as context", a:"BTS — Love Yourself: Tear",
+     adv:["Balming Tiger — January Never Dies","Yaeji — With a Hammer","Crush — From Midnight to Sunrise"],
+     w:"the LOONA lore deep-dive", c:"the idol system", tech:"vocal production stacks"},
+    {n:21, u:"U7", t:"Orchestral: the riot and the regime", a:"Stravinsky — The Rite of Spring",
+     adv:["Shostakovich — Symphony No. 5","Mahler — Symphony No. 5","Ligeti — Atmosphères / Requiem"],
+     w:"Messiaen — Quartet for the End of Time", c:"interpretation as the text", tech:"the hall as studio"},
+    {n:22, u:"U7", t:"Solo piano beyond the exam room", a:"Bach — Goldberg Variations (Gould, 1981)",
+     adv:["Ligeti — Études","Ravel — Gaspard de la nuit","Chopin — the Ballades"],
+     w:"Rzewski — The People United Will Never Be Defeated!", c:"the recording is the album", tech:"close vs. distant mic'ing"},
+    {n:23, u:"U8", t:"The Zimmer week", a:"Hans Zimmer — Interstellar (OST)",
+     adv:["Hans Zimmer — Dune (OST)","Ludwig Göransson — Oppenheimer (OST)","Hildur Guðnadóttir — Chernobyl (OST)"],
+     w:"Mica Levi — Under the Skin (OST)", c:"leitmotif", tech:"the Shepard tone"},
+    {n:24, u:"U8", t:"The composer as auteur", a:"Ryuichi Sakamoto — async",
+     adv:["Max Richter — Sleep","Joe Hisaishi — Spirited Away (OST)","Sakamoto — Merry Christmas Mr. Lawrence (OST)"],
+     w:"Oneohtrix Point Never — Uncut Gems (OST)", c:"ma (negative space)", tech:"prepared piano"}
+  ];
+  var UNITS = [
+    {code:"FDN", name:"Foundations", weeks:"01–02", desc:"How to listen on purpose; the album as a designed object."},
+    {code:"U1", name:"His canon, formalized", weeks:"03–06", desc:"Prog/psych, art-rock, confessional R&B: names for music he already loves."},
+    {code:"U2", name:"Electronic, melodic to weird", weeks:"07–10", desc:"Melodic electronic through Kraftwerk, ambient, and the weird edge."},
+    {code:"U3", name:"Jazz, fusion doorway in", weeks:"11–13", desc:"Mood doorways — fusion, Miles, Coltrane. Never the avant-garde first."},
+    {code:"U4", name:"Songwriters and the voice", weeks:"14–16", desc:"Confession, harmony, piano: the voice as instrument."},
+    {code:"U5", name:"Heavy alternative", weeks:"17–18", desc:"Alt-metal doorway; heaviness as texture, not aggression."},
+    {code:"U6", name:"K-pop, fandom-first", weeks:"19–20", desc:"Sell the era and the world, not the tracklist."},
+    {code:"U7", name:"Classical", weeks:"21–22", desc:"The repertoire he never got assigned; performance is the text."},
+    {code:"U8", name:"Cinematic scores", weeks:"23–24", desc:"Scores as standalone mood records; the composer as auteur."}
+  ];
+  var CUED_WEEK = 1; /* weeks/CURRENT */
+
+  function pad2(n){ return (n<10?"0":"")+n; }
+
+  var seq = document.getElementById("seq");
+  var pads = [];
+  WEEKS.forEach(function(wk){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "pad" + (wk.n === CUED_WEEK ? " current" : "");
+    b.setAttribute("role","option");
+    b.setAttribute("aria-label","Week "+pad2(wk.n)+": "+wk.a);
+    b.innerHTML = '<span class="wk">WK '+pad2(wk.n)+'</span>'+
+                  '<span class="unt">'+wk.u+'</span>'+
+                  '<span class="anc">'+wk.a+'</span>';
+    b.addEventListener("click", function(){ select(wk.n); });
+    seq.appendChild(b);
+    pads.push(b);
+  });
+
+  var unitsEl = document.getElementById("units");
+  UNITS.forEach(function(u){
+    var d = document.createElement("div");
+    d.className = "unit-cell";
+    d.innerHTML = '<span class="code">'+u.code+'</span>'+
+                  '<div class="name">'+u.name+'</div>'+
+                  '<div class="weeks">WEEKS '+u.weeks+'</div>'+
+                  '<div>'+u.desc+'</div>';
+    unitsEl.appendChild(d);
+  });
+
+  function select(n){
+    var wk = WEEKS[n-1];
+    pads.forEach(function(p,i){ p.classList.toggle("selected", i===n-1); });
+    var tag = document.getElementById("cue-tag");
+    var cued = (wk.n === CUED_WEEK);
+    tag.textContent = cued ? "▸ CUED — FIRST DIGEST 2026-09-28" : "▸ PLANNED";
+    tag.className = "cue-tag" + (cued ? "" : " planned");
+    document.getElementById("mod-week").textContent = "WEEK "+pad2(wk.n)+" · "+wk.u;
+    document.getElementById("mod-title").textContent = wk.t;
+    document.getElementById("mod-anchor").textContent = wk.a;
+    document.getElementById("mod-adv").innerHTML =
+      wk.adv.map(function(x){ return "<li>"+x+"</li>"; }).join("");
+    document.getElementById("mod-wild").textContent = wk.w.replace(/\s\*$/,"") +
+      (/\s\*$/.test(wk.w) ? "  — conditional: only if not already assigned earlier" : "");
+    document.getElementById("mod-concept").textContent = wk.c;
+    document.getElementById("mod-tech").textContent = wk.tech;
+    document.getElementById("mod-status").textContent =
+      cued ? "STATUS: CUED — WEEK 1 DELIVERS WITH THE FIRST MONDAY DIGEST."
+           : "STATUS: PLANNED — SEQUENCER ADVANCES ONE STEP PER DELIVERED WEEK.";
+  }
+  select(CUED_WEEK);
+})();
+</script>
+</body>
+</html>
