@@ -1,0 +1,24 @@
+{
+ "generated_at": "2026-09-22T05:33:12.996221+00:00",
+ "version": 1,
+ "dimensions": {},
+ "artist_affinity": {},
+ "context_modifiers": {},
+ "prediction_calibration": {
+  "weeks_scored": 0
+ },
+ "sources": {
+  "explicit_reactions": 0,
+  "implicit_album_signals": 0,
+  "library": "de-weighted 0.1x weak prior (standing rule)",
+  "wild_card_weight": "2.0x (standing rule)"
+ },
+ "pending": [
+  "explicit feedback (course has not started)",
+  "library snapshot absent (de-weighted by rule; pending)",
+  "no context tags yet",
+  "no scored prediction weeks yet",
+  "no taste-blend overlap yet"
+ ],
+ "notes": "Explicit chat reactions are ground truth. Sampler completion is a proxy (>=85% max progress), not ground truth. Library saves are weak priors at most \u2014 never steering signals."
+}
