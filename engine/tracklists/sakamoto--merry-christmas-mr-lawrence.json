@@ -1,0 +1,201 @@
+{
+ "artist": "Sakamoto",
+ "album": "Merry Christmas Mr. Lawrence",
+ "spotify_uri": "spotify:album:0BlM8Qd8rxj4wLd9ioGZZU",
+ "spotify_url": "https://open.spotify.com/album/0BlM8Qd8rxj4wLd9ioGZZU?si=SY_srHhIS72nSdLVxdYDbg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Merry Christmas Mr. Lawrence",
+   "clean_title": "Merry Christmas Mr. Lawrence",
+   "duration_ms": 276560,
+   "spotify_uri": "spotify:track:4NFIUZzAAJ5cvw6WurI9Kl",
+   "spotify_url": "https://open.spotify.com/track/4NFIUZzAAJ5cvw6WurI9Kl?si=vujyXOjEQSWOsiEygYzYaw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Batavia",
+   "clean_title": "Batavia",
+   "duration_ms": 78600,
+   "spotify_uri": "spotify:track:4zayA4iJdj3crs6R3ILB8I",
+   "spotify_url": "https://open.spotify.com/track/4zayA4iJdj3crs6R3ILB8I?si=hPVTeUURRy-hUB1rpMKBuA",
+   "starts_at_ms": 276560,
+   "starts_at": "4:36"
+  },
+  {
+   "n": 3,
+   "title": "Germination",
+   "clean_title": "Germination",
+   "duration_ms": 109066,
+   "spotify_uri": "spotify:track:2kAw46gk20ZAgAHNlq8eoS",
+   "spotify_url": "https://open.spotify.com/track/2kAw46gk20ZAgAHNlq8eoS?si=oC94xFGDSzeFp3_XZzzkKw",
+   "starts_at_ms": 355160,
+   "starts_at": "5:55"
+  },
+  {
+   "n": 4,
+   "title": "A Hearty Breakfast",
+   "clean_title": "A Hearty Breakfast",
+   "duration_ms": 83733,
+   "spotify_uri": "spotify:track:6ihEbKDPnKN4oA8ZuErqwx",
+   "spotify_url": "https://open.spotify.com/track/6ihEbKDPnKN4oA8ZuErqwx?si=rcYS1u7mQruQ6sDQIic66Q",
+   "starts_at_ms": 464226,
+   "starts_at": "7:44"
+  },
+  {
+   "n": 5,
+   "title": "Before The War",
+   "clean_title": "Before The War",
+   "duration_ms": 135173,
+   "spotify_uri": "spotify:track:2ENNsPK3NQlXDbFUkgSj2e",
+   "spotify_url": "https://open.spotify.com/track/2ENNsPK3NQlXDbFUkgSj2e?si=Yt-oOzn6SHWzuVkjs2j0Eg",
+   "starts_at_ms": 547959,
+   "starts_at": "9:07"
+  },
+  {
+   "n": 6,
+   "title": "The Seed and The Sower",
+   "clean_title": "The Seed and The Sower",
+   "duration_ms": 303000,
+   "spotify_uri": "spotify:track:06M5hclH61pGubPpWEgRSB",
+   "spotify_url": "https://open.spotify.com/track/06M5hclH61pGubPpWEgRSB?si=1kivsH6JToGn50WTJqJmDQ",
+   "starts_at_ms": 683132,
+   "starts_at": "11:23"
+  },
+  {
+   "n": 7,
+   "title": "A Brief Encounter",
+   "clean_title": "A Brief Encounter",
+   "duration_ms": 142733,
+   "spotify_uri": "spotify:track:0pxf6cNagRcqyIqRv2belK",
+   "spotify_url": "https://open.spotify.com/track/0pxf6cNagRcqyIqRv2belK?si=VnFX6EyfS4S2kIgy4I6dXg",
+   "starts_at_ms": 986132,
+   "starts_at": "16:26"
+  },
+  {
+   "n": 8,
+   "title": "Ride, Ride, Ride (Celliers' Brother's Song)",
+   "clean_title": "Ride, Ride, Ride (Celliers' Brother's Song)",
+   "duration_ms": 64400,
+   "spotify_uri": "spotify:track:0az9a3niAWfk9UWIINNqO4",
+   "spotify_url": "https://open.spotify.com/track/0az9a3niAWfk9UWIINNqO4?si=cB1FGPaAR0mLkUXPLvAr4g",
+   "starts_at_ms": 1128865,
+   "starts_at": "18:48"
+  },
+  {
+   "n": 9,
+   "title": "The Fight",
+   "clean_title": "The Fight",
+   "duration_ms": 90800,
+   "spotify_uri": "spotify:track:4wrRWeItp8FG1G06tVqKIo",
+   "spotify_url": "https://open.spotify.com/track/4wrRWeItp8FG1G06tVqKIo?si=ThuiwbaMQwKRQCv8jdaF2A",
+   "starts_at_ms": 1193265,
+   "starts_at": "19:53"
+  },
+  {
+   "n": 10,
+   "title": "Father Christmas",
+   "clean_title": "Father Christmas",
+   "duration_ms": 127960,
+   "spotify_uri": "spotify:track:149urhtSy2NwdbK5sibEix",
+   "spotify_url": "https://open.spotify.com/track/149urhtSy2NwdbK5sibEix?si=PdcFajZISMGYrzeGAPuXxQ",
+   "starts_at_ms": 1284065,
+   "starts_at": "21:24"
+  },
+  {
+   "n": 11,
+   "title": "Dismissed",
+   "clean_title": "Dismissed",
+   "duration_ms": 10373,
+   "spotify_uri": "spotify:track:5YWxhWHno4RS943d9Y6dOE",
+   "spotify_url": "https://open.spotify.com/track/5YWxhWHno4RS943d9Y6dOE?si=dFBSN1GMQyKVt9V0w7QbkA",
+   "starts_at_ms": 1412025,
+   "starts_at": "23:32"
+  },
+  {
+   "n": 12,
+   "title": "Assembly",
+   "clean_title": "Assembly",
+   "duration_ms": 137093,
+   "spotify_uri": "spotify:track:274DMSV1XQ4J00HctX2PJZ",
+   "spotify_url": "https://open.spotify.com/track/274DMSV1XQ4J00HctX2PJZ?si=V30oX-vsT9CpgElAIcQkXA",
+   "starts_at_ms": 1422398,
+   "starts_at": "23:42"
+  },
+  {
+   "n": 13,
+   "title": "Beyond Reason",
+   "clean_title": "Beyond Reason",
+   "duration_ms": 121306,
+   "spotify_uri": "spotify:track:6OrYx1p3fs6m1T7nUjwJBJ",
+   "spotify_url": "https://open.spotify.com/track/6OrYx1p3fs6m1T7nUjwJBJ?si=K90ggKzGT7GiK1bnM7C3TA",
+   "starts_at_ms": 1559491,
+   "starts_at": "25:59"
+  },
+  {
+   "n": 14,
+   "title": "Sowing The Seed",
+   "clean_title": "Sowing The Seed",
+   "duration_ms": 114960,
+   "spotify_uri": "spotify:track:0UFSebXXO79I6xHqtQV5KT",
+   "spotify_url": "https://open.spotify.com/track/0UFSebXXO79I6xHqtQV5KT?si=du52WosBSsmQeIBk_Gmk0w",
+   "starts_at_ms": 1680797,
+   "starts_at": "28:00"
+  },
+  {
+   "n": 15,
+   "title": "23rd Psalm",
+   "clean_title": "23rd Psalm",
+   "duration_ms": 123373,
+   "spotify_uri": "spotify:track:4jz5trmxvO2E2ZAjdPej6W",
+   "spotify_url": "https://open.spotify.com/track/4jz5trmxvO2E2ZAjdPej6W?si=Re1QVI1HR6GI2UU6H2TomQ",
+   "starts_at_ms": 1795757,
+   "starts_at": "29:55"
+  },
+  {
+   "n": 16,
+   "title": "Last Regrets",
+   "clean_title": "Last Regrets",
+   "duration_ms": 103426,
+   "spotify_uri": "spotify:track:6jCqV5cJQLOhn60j9YMTYu",
+   "spotify_url": "https://open.spotify.com/track/6jCqV5cJQLOhn60j9YMTYu?si=ACgVeEXLSISdXbe0yu1efA",
+   "starts_at_ms": 1919130,
+   "starts_at": "31:59"
+  },
+  {
+   "n": 17,
+   "title": "Ride, Ride, Ride (Reprise)",
+   "clean_title": "Ride, Ride, Ride (Reprise)",
+   "duration_ms": 66133,
+   "spotify_uri": "spotify:track:0xL1zV2D3iPCFl2X4evXu4",
+   "spotify_url": "https://open.spotify.com/track/0xL1zV2D3iPCFl2X4evXu4?si=uWRpeoYXSnCDOQ6G1N1lNg",
+   "starts_at_ms": 2022556,
+   "starts_at": "33:42"
+  },
+  {
+   "n": 18,
+   "title": "The Seed",
+   "clean_title": "The Seed",
+   "duration_ms": 64933,
+   "spotify_uri": "spotify:track:1KI9Hq2L21020EgoCpqtTW",
+   "spotify_url": "https://open.spotify.com/track/1KI9Hq2L21020EgoCpqtTW?si=v2MFu4v_RmeLI0jgx4uduQ",
+   "starts_at_ms": 2088689,
+   "starts_at": "34:48"
+  },
+  {
+   "n": 19,
+   "title": "Forbidden Colors",
+   "clean_title": "Forbidden Colors",
+   "duration_ms": 282973,
+   "spotify_uri": "spotify:track:5mvOFm7fHLFLyEQtusCmUf",
+   "spotify_url": "https://open.spotify.com/track/5mvOFm7fHLFLyEQtusCmUf?si=fvURoJe1QtCHrWlLmumAxQ",
+   "starts_at_ms": 2153622,
+   "starts_at": "35:53"
+  }
+ ],
+ "week": 24,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:32:14.872608+00:00"
+}
