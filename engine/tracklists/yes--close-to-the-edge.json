@@ -1,0 +1,41 @@
+{
+ "artist": "Yes",
+ "album": "Close to the Edge",
+ "spotify_uri": "spotify:album:252LyflX4wUeISSzgL392F",
+ "spotify_url": "https://open.spotify.com/album/252LyflX4wUeISSzgL392F?si=mUyZm9IRSbuH37JFxQ07rw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Close to the Edge (I. The Solid Time of Change, II. Total Mass Retain, III. I Get up I Get Down, IV. Seasons of Man)",
+   "clean_title": "Close to the Edge (I. The Solid Time of Change, II. Total Mass Retain, III. I Get up I Get Down, IV. Seasons of Man)",
+   "duration_ms": 1118773,
+   "spotify_uri": "spotify:track:1oJ2a13bVN1RssKIWxKLe2",
+   "spotify_url": "https://open.spotify.com/track/1oJ2a13bVN1RssKIWxKLe2?si=AKzu_sVMQz-NsdbjpZk0Og",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "And You and I",
+   "clean_title": "And You and I",
+   "duration_ms": 608573,
+   "spotify_uri": "spotify:track:0BlY6gmEradqgbFf5uGbAG",
+   "spotify_url": "https://open.spotify.com/track/0BlY6gmEradqgbFf5uGbAG?si=4nC2IEfVQyWF-2AQbhFAUw",
+   "starts_at_ms": 1118773,
+   "starts_at": "18:38"
+  },
+  {
+   "n": 3,
+   "title": "Siberian Khatru",
+   "clean_title": "Siberian Khatru",
+   "duration_ms": 535413,
+   "spotify_uri": "spotify:track:17sTUE1DweDdop28Okl2hj",
+   "spotify_url": "https://open.spotify.com/track/17sTUE1DweDdop28Okl2hj?si=_7U7S4ilRGe01DnQryxNxw",
+   "starts_at_ms": 1727346,
+   "starts_at": "28:47"
+  }
+ ],
+ "week": 3,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:32.661106+00:00"
+}
