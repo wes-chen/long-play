@@ -28,3 +28,6 @@ challenging album without its story first.
 Draft. Week 1 is assigned; the listening log and the now-playing sampler that
 will feed the engine are still being built. The syllabus will move as the log
 shows what lands and what bounces — a bounced wild card is data, not failure.
+
+The repo improves itself: a daily job picks one small, tested improvement
+(from sampler data and listener feedback) and pushes it here. Silent unless blocked.
