@@ -1,0 +1,141 @@
+{
+ "artist": "Ethel Cain",
+ "album": "Preacher's Daughter",
+ "spotify_uri": "spotify:album:3WmujGwOS0ANHkJRnMH6n8",
+ "spotify_url": "https://open.spotify.com/album/3WmujGwOS0ANHkJRnMH6n8?si=8itjU-KhQtWsZraRlo74fA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Family Tree (Intro)",
+   "clean_title": "Family Tree (Intro)",
+   "duration_ms": 221466,
+   "spotify_uri": "spotify:track:4fjSiuY9b3uBeGd1KBUNZE",
+   "spotify_url": "https://open.spotify.com/track/4fjSiuY9b3uBeGd1KBUNZE?si=79d655nuSaqZUpyvTLBbUg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "American Teenager",
+   "clean_title": "American Teenager",
+   "duration_ms": 258418,
+   "spotify_uri": "spotify:track:4ltqfN12ohaVZdM6C45gMg",
+   "spotify_url": "https://open.spotify.com/track/4ltqfN12ohaVZdM6C45gMg?si=bNO8aJ9YRkWS-iaFSJmPAw",
+   "starts_at_ms": 221466,
+   "starts_at": "3:41"
+  },
+  {
+   "n": 3,
+   "title": "A House In Nebraska",
+   "clean_title": "A House In Nebraska",
+   "duration_ms": 466466,
+   "spotify_uri": "spotify:track:6UxAKocZd98MRn0u5obryV",
+   "spotify_url": "https://open.spotify.com/track/6UxAKocZd98MRn0u5obryV?si=VDq2HncLQQKfJJ0MPCyEbg",
+   "starts_at_ms": 479884,
+   "starts_at": "7:59"
+  },
+  {
+   "n": 4,
+   "title": "Western Nights",
+   "clean_title": "Western Nights",
+   "duration_ms": 365000,
+   "spotify_uri": "spotify:track:0CMlcNJpLFaQxMTLFYpFdg",
+   "spotify_url": "https://open.spotify.com/track/0CMlcNJpLFaQxMTLFYpFdg?si=FxGh-Ww9T9GurkJIAuyAbA",
+   "starts_at_ms": 946350,
+   "starts_at": "15:46"
+  },
+  {
+   "n": 5,
+   "title": "Family Tree",
+   "clean_title": "Family Tree",
+   "duration_ms": 430613,
+   "spotify_uri": "spotify:track:5l79pLYX6NwTa6FiT8Eoyo",
+   "spotify_url": "https://open.spotify.com/track/5l79pLYX6NwTa6FiT8Eoyo?si=T31TuhBGQc61dvVcwgbRKQ",
+   "starts_at_ms": 1311350,
+   "starts_at": "21:51"
+  },
+  {
+   "n": 6,
+   "title": "Hard Times",
+   "clean_title": "Hard Times",
+   "duration_ms": 303066,
+   "spotify_uri": "spotify:track:7JPmhsHbjaDGmTCKBZxVVU",
+   "spotify_url": "https://open.spotify.com/track/7JPmhsHbjaDGmTCKBZxVVU?si=J6AMigZPQyCYV_i7eubq2w",
+   "starts_at_ms": 1741963,
+   "starts_at": "29:01"
+  },
+  {
+   "n": 7,
+   "title": "Thoroughfare",
+   "clean_title": "Thoroughfare",
+   "duration_ms": 567906,
+   "spotify_uri": "spotify:track:04P1ylRDzyxBIl9W0UNWXC",
+   "spotify_url": "https://open.spotify.com/track/04P1ylRDzyxBIl9W0UNWXC?si=R2r9AoNOSySc9EEkUbOHhg",
+   "starts_at_ms": 2045029,
+   "starts_at": "34:05"
+  },
+  {
+   "n": 8,
+   "title": "Gibson Girl",
+   "clean_title": "Gibson Girl",
+   "duration_ms": 342099,
+   "spotify_uri": "spotify:track:02yzNsWcv7BtITeIoIqeVU",
+   "spotify_url": "https://open.spotify.com/track/02yzNsWcv7BtITeIoIqeVU?si=lIF6BHscSK2YAD90GS2UlA",
+   "starts_at_ms": 2612935,
+   "starts_at": "43:32"
+  },
+  {
+   "n": 9,
+   "title": "Ptolemaea",
+   "clean_title": "Ptolemaea",
+   "duration_ms": 383866,
+   "spotify_uri": "spotify:track:29LsI5izZL8txZEJhegSBs",
+   "spotify_url": "https://open.spotify.com/track/29LsI5izZL8txZEJhegSBs?si=bJ_TwuDxRQ-KYeSDlQfzsQ",
+   "starts_at_ms": 2955034,
+   "starts_at": "49:15"
+  },
+  {
+   "n": 10,
+   "title": "August Underground",
+   "clean_title": "August Underground",
+   "duration_ms": 220480,
+   "spotify_uri": "spotify:track:3JuoY84eCBqfDPb0Caggcg",
+   "spotify_url": "https://open.spotify.com/track/3JuoY84eCBqfDPb0Caggcg?si=Bfgto-xbTq2Fw55B_tscTA",
+   "starts_at_ms": 3338900,
+   "starts_at": "55:38"
+  },
+  {
+   "n": 11,
+   "title": "Televangelism",
+   "clean_title": "Televangelism",
+   "duration_ms": 183946,
+   "spotify_uri": "spotify:track:6jd7Cv7yfWGTs7g89eA9Ss",
+   "spotify_url": "https://open.spotify.com/track/6jd7Cv7yfWGTs7g89eA9Ss?si=ip_w7Qt2QaChs_mZhQsvXQ",
+   "starts_at_ms": 3559380,
+   "starts_at": "59:19"
+  },
+  {
+   "n": 12,
+   "title": "Sun Bleached Flies",
+   "clean_title": "Sun Bleached Flies",
+   "duration_ms": 456026,
+   "spotify_uri": "spotify:track:6fKIyDJHZ9m84jRhSmpuwS",
+   "spotify_url": "https://open.spotify.com/track/6fKIyDJHZ9m84jRhSmpuwS?si=H6UYkMVRQoiZ6t7paeFS4g",
+   "starts_at_ms": 3743326,
+   "starts_at": "62:23"
+  },
+  {
+   "n": 13,
+   "title": "Strangers",
+   "clean_title": "Strangers",
+   "duration_ms": 344344,
+   "spotify_uri": "spotify:track:5Cc0Pe8p7c2OJxMj07ywvc",
+   "spotify_url": "https://open.spotify.com/track/5Cc0Pe8p7c2OJxMj07ywvc?si=PrHMSsdoSPOaWCzmFaAreQ",
+   "starts_at_ms": 4199352,
+   "starts_at": "69:59"
+  }
+ ],
+ "week": 5,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:30:44.820909+00:00"
+}
