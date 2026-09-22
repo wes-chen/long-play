@@ -1,0 +1,81 @@
+{
+ "artist": "Deafheaven",
+ "album": "Sunbather",
+ "spotify_uri": "spotify:album:2kKXGWaCEl06EKZ4DxBJIT",
+ "spotify_url": "https://open.spotify.com/album/2kKXGWaCEl06EKZ4DxBJIT?si=J7cRaAAmSZC5oHAJKv5FyQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Dream House",
+   "clean_title": "Dream House",
+   "duration_ms": 554573,
+   "spotify_uri": "spotify:track:6l3A2EWZSOA8LTMmzRCyD3",
+   "spotify_url": "https://open.spotify.com/track/6l3A2EWZSOA8LTMmzRCyD3?si=cqHIUj1JQ7CSQfB3jSLXhQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Irresistible",
+   "clean_title": "Irresistible",
+   "duration_ms": 193120,
+   "spotify_uri": "spotify:track:3EAUSlUzVTLhxLn8Fhpz5V",
+   "spotify_url": "https://open.spotify.com/track/3EAUSlUzVTLhxLn8Fhpz5V?si=OMYk4NsxQ8GDVEu5loB3lg",
+   "starts_at_ms": 554573,
+   "starts_at": "9:14"
+  },
+  {
+   "n": 3,
+   "title": "Sunbather",
+   "clean_title": "Sunbather",
+   "duration_ms": 616786,
+   "spotify_uri": "spotify:track:1XIlhPjBt4udymVWzcPrwm",
+   "spotify_url": "https://open.spotify.com/track/1XIlhPjBt4udymVWzcPrwm?si=vcN7SRp-Qz-KKOjaz-PJIQ",
+   "starts_at_ms": 747693,
+   "starts_at": "12:27"
+  },
+  {
+   "n": 4,
+   "title": "Please Remember",
+   "clean_title": "Please Remember",
+   "duration_ms": 386173,
+   "spotify_uri": "spotify:track:7gTyR63h4FXXxOIXTZYDzv",
+   "spotify_url": "https://open.spotify.com/track/7gTyR63h4FXXxOIXTZYDzv?si=HN4f9D06TRq6LwthFb9wHg",
+   "starts_at_ms": 1364479,
+   "starts_at": "22:44"
+  },
+  {
+   "n": 5,
+   "title": "Vertigo",
+   "clean_title": "Vertigo",
+   "duration_ms": 877053,
+   "spotify_uri": "spotify:track:1Oe2Um6K7AsiDjKOBKKbZP",
+   "spotify_url": "https://open.spotify.com/track/1Oe2Um6K7AsiDjKOBKKbZP?si=3MewWLu5QAWrB5cRBvTu4A",
+   "starts_at_ms": 1750652,
+   "starts_at": "29:10"
+  },
+  {
+   "n": 6,
+   "title": "Windows",
+   "clean_title": "Windows",
+   "duration_ms": 282813,
+   "spotify_uri": "spotify:track:1NClfLPFneHXcvHSkF64JK",
+   "spotify_url": "https://open.spotify.com/track/1NClfLPFneHXcvHSkF64JK?si=arokvKdkSLOjHSmB9M9Dpw",
+   "starts_at_ms": 2627705,
+   "starts_at": "43:47"
+  },
+  {
+   "n": 7,
+   "title": "The Pecan Tree",
+   "clean_title": "The Pecan Tree",
+   "duration_ms": 686920,
+   "spotify_uri": "spotify:track:0whlO9oEAYISh4plID7lXa",
+   "spotify_url": "https://open.spotify.com/track/0whlO9oEAYISh4plID7lXa?si=OxfS7FQfSM6cK5N8Hf27IQ",
+   "starts_at_ms": 2910518,
+   "starts_at": "48:30"
+  }
+ ],
+ "week": 18,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:44.363140+00:00"
+}
