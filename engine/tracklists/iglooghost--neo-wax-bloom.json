@@ -1,0 +1,121 @@
+{
+ "artist": "Iglooghost",
+ "album": "Neo Wax Bloom",
+ "spotify_uri": "spotify:album:68aZtDbgNargCMYgNvw5JG",
+ "spotify_url": "https://open.spotify.com/album/68aZtDbgNargCMYgNvw5JG?si=U4D00Mn4TQ-b6fbxZEv_tA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Pale Eyes",
+   "clean_title": "Pale Eyes",
+   "duration_ms": 144547,
+   "spotify_uri": "spotify:track:4de2p3iNoCa1BZXYA8QG0W",
+   "spotify_url": "https://open.spotify.com/track/4de2p3iNoCa1BZXYA8QG0W?si=01f2QhABTwq-WXNWVh_7rg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Super Ink Burst",
+   "clean_title": "Super Ink Burst",
+   "duration_ms": 207955,
+   "spotify_uri": "spotify:track:1ODY49po0ITbdqqnp8pXs1",
+   "spotify_url": "https://open.spotify.com/track/1ODY49po0ITbdqqnp8pXs1?si=5PopvjDzSRWWAZEQVFVM_w",
+   "starts_at_ms": 144547,
+   "starts_at": "2:24"
+  },
+  {
+   "n": 3,
+   "title": "Bug Thief",
+   "clean_title": "Bug Thief",
+   "duration_ms": 201341,
+   "spotify_uri": "spotify:track:58jMrMZePOvsOUmR7VlKT3",
+   "spotify_url": "https://open.spotify.com/track/58jMrMZePOvsOUmR7VlKT3?si=lu5MSzsYQWmHgj-Vr4s-7g",
+   "starts_at_ms": 352502,
+   "starts_at": "5:52"
+  },
+  {
+   "n": 4,
+   "title": "S\u014dlar Blade",
+   "clean_title": "S\u014dlar Blade",
+   "duration_ms": 233194,
+   "spotify_uri": "spotify:track:2UA06ACLq2talstOFyhJuX",
+   "spotify_url": "https://open.spotify.com/track/2UA06ACLq2talstOFyhJuX?si=971nBdBxS8KrhZDOb1vHbA",
+   "starts_at_ms": 553843,
+   "starts_at": "9:13"
+  },
+  {
+   "n": 5,
+   "title": "White Gum",
+   "clean_title": "White Gum",
+   "duration_ms": 250648,
+   "spotify_uri": "spotify:track:4FAEJJpnB5xO7DvyBErsdK",
+   "spotify_url": "https://open.spotify.com/track/4FAEJJpnB5xO7DvyBErsdK?si=a61Bfp4cQVSGgvOonfUNQQ",
+   "starts_at_ms": 787037,
+   "starts_at": "13:07"
+  },
+  {
+   "n": 6,
+   "title": "Purity Shards",
+   "clean_title": "Purity Shards",
+   "duration_ms": 98733,
+   "spotify_uri": "spotify:track:4nabVG39oRESv4QOw3sfEU",
+   "spotify_url": "https://open.spotify.com/track/4nabVG39oRESv4QOw3sfEU?si=aKeWBX8LRBem-AR5Zg_A9A",
+   "starts_at_ms": 1037685,
+   "starts_at": "17:17"
+  },
+  {
+   "n": 7,
+   "title": "Zen Champ",
+   "clean_title": "Zen Champ",
+   "duration_ms": 203615,
+   "spotify_uri": "spotify:track:7yiilvOLOptf5UmiJMdaVg",
+   "spotify_url": "https://open.spotify.com/track/7yiilvOLOptf5UmiJMdaVg?si=Sez8HFVKRNW8Cw4R1FXNfg",
+   "starts_at_ms": 1136418,
+   "starts_at": "18:56"
+  },
+  {
+   "n": 8,
+   "title": "Infinite Mint",
+   "clean_title": "Infinite Mint",
+   "duration_ms": 335082,
+   "spotify_uri": "spotify:track:0myKJwxEYLMsugWtUzDMAX",
+   "spotify_url": "https://open.spotify.com/track/0myKJwxEYLMsugWtUzDMAX?si=KSDK-pouQUO9mJSyV5BFeQ",
+   "starts_at_ms": 1340033,
+   "starts_at": "22:20"
+  },
+  {
+   "n": 9,
+   "title": "Teal Yomi / Olivine",
+   "clean_title": "Teal Yomi / Olivine",
+   "duration_ms": 314476,
+   "spotify_uri": "spotify:track:4qsjJPhWgBHzRmCqK7Ef9s",
+   "spotify_url": "https://open.spotify.com/track/4qsjJPhWgBHzRmCqK7Ef9s?si=18L510mfQk6pDJDew1v7Hg",
+   "starts_at_ms": 1675115,
+   "starts_at": "27:55"
+  },
+  {
+   "n": 10,
+   "title": "Peanut Choker",
+   "clean_title": "Peanut Choker",
+   "duration_ms": 216769,
+   "spotify_uri": "spotify:track:3PhON1mTBm7xv3YOmocnEv",
+   "spotify_url": "https://open.spotify.com/track/3PhON1mTBm7xv3YOmocnEv?si=gxxVFgWPSOeTAnQlbfvHgA",
+   "starts_at_ms": 1989591,
+   "starts_at": "33:09"
+  },
+  {
+   "n": 11,
+   "title": "G\u00f6d Grid",
+   "clean_title": "G\u00f6d Grid",
+   "duration_ms": 259234,
+   "spotify_uri": "spotify:track:7Eodgw3peRCUBFc6g29PXO",
+   "spotify_url": "https://open.spotify.com/track/7Eodgw3peRCUBFc6g29PXO?si=ivKpvLGIRS6V7-RGLRYOXw",
+   "starts_at_ms": 2206360,
+   "starts_at": "36:46"
+  }
+ ],
+ "week": 10,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:07.977238+00:00"
+}
