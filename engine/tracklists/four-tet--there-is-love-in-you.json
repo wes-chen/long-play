@@ -1,0 +1,191 @@
+{
+ "artist": "Four Tet",
+ "album": "There Is Love in You",
+ "spotify_uri": "spotify:album:1HSe7aUzdxkRSZy7gucJpr",
+ "spotify_url": "https://open.spotify.com/album/1HSe7aUzdxkRSZy7gucJpr?si=cjaqeKXWT12wRcx1Lgfhxg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Angel Echoes",
+   "clean_title": "Angel Echoes",
+   "duration_ms": 239432,
+   "spotify_uri": "spotify:track:4ja4D4qcwGC5Zg1IwDWsIL",
+   "spotify_url": "https://open.spotify.com/track/4ja4D4qcwGC5Zg1IwDWsIL?si=ovKOFLrZQNGWqBRDwh1zfw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Love Cry",
+   "clean_title": "Love Cry",
+   "duration_ms": 553499,
+   "spotify_uri": "spotify:track:53o10x3HGmlYoIiy77hq6T",
+   "spotify_url": "https://open.spotify.com/track/53o10x3HGmlYoIiy77hq6T?si=ALu17QgJQqSLKDm2LpvaDw",
+   "starts_at_ms": 239432,
+   "starts_at": "3:59"
+  },
+  {
+   "n": 3,
+   "title": "Circling",
+   "clean_title": "Circling",
+   "duration_ms": 317068,
+   "spotify_uri": "spotify:track:5nNMtLl5V7AlZDT8QIdCSm",
+   "spotify_url": "https://open.spotify.com/track/5nNMtLl5V7AlZDT8QIdCSm?si=fug68oosTg2iNW4a7V1TZw",
+   "starts_at_ms": 792931,
+   "starts_at": "13:12"
+  },
+  {
+   "n": 4,
+   "title": "Pablo's Heart",
+   "clean_title": "Pablo's Heart",
+   "duration_ms": 11992,
+   "spotify_uri": "spotify:track:5SRstPHCRHP0Vvu67k5JXJ",
+   "spotify_url": "https://open.spotify.com/track/5SRstPHCRHP0Vvu67k5JXJ?si=u8V4WMz1QZ2Gnn8C_iuU8A",
+   "starts_at_ms": 1109999,
+   "starts_at": "18:29"
+  },
+  {
+   "n": 5,
+   "title": "Sing",
+   "clean_title": "Sing",
+   "duration_ms": 408706,
+   "spotify_uri": "spotify:track:3pOnjFb8q7itcxMfyvOIuP",
+   "spotify_url": "https://open.spotify.com/track/3pOnjFb8q7itcxMfyvOIuP?si=VYeh9DI1RraNpG0KWzOThA",
+   "starts_at_ms": 1121991,
+   "starts_at": "18:41"
+  },
+  {
+   "n": 6,
+   "title": "This Unfolds",
+   "clean_title": "This Unfolds",
+   "duration_ms": 475356,
+   "spotify_uri": "spotify:track:48Kme9fQHGIV1sBLcaJvXc",
+   "spotify_url": "https://open.spotify.com/track/48Kme9fQHGIV1sBLcaJvXc?si=qt4WIUB5Tdm1v1lqdhnBgw",
+   "starts_at_ms": 1530697,
+   "starts_at": "25:30"
+  },
+  {
+   "n": 7,
+   "title": "Reversing",
+   "clean_title": "Reversing",
+   "duration_ms": 159738,
+   "spotify_uri": "spotify:track:4LfKIh5UahhWrs0kZBMF4v",
+   "spotify_url": "https://open.spotify.com/track/4LfKIh5UahhWrs0kZBMF4v?si=5sVu_x5sQcimWIjU_kjIyw",
+   "starts_at_ms": 2006053,
+   "starts_at": "33:26"
+  },
+  {
+   "n": 8,
+   "title": "Plastic People",
+   "clean_title": "Plastic People",
+   "duration_ms": 394057,
+   "spotify_uri": "spotify:track:15VrORSMG5FrR5GoSPWsjA",
+   "spotify_url": "https://open.spotify.com/track/15VrORSMG5FrR5GoSPWsjA?si=4kJ8IBTjSR2wptofaovbzw",
+   "starts_at_ms": 2165791,
+   "starts_at": "36:05"
+  },
+  {
+   "n": 9,
+   "title": "She Just Likes to Fight",
+   "clean_title": "She Just Likes to Fight",
+   "duration_ms": 281303,
+   "spotify_uri": "spotify:track:2dxtGo6FGs3Hxyv73tDsx7",
+   "spotify_url": "https://open.spotify.com/track/2dxtGo6FGs3Hxyv73tDsx7?si=sW3QdQvGTR6o0jEig5HLwQ",
+   "starts_at_ms": 2559848,
+   "starts_at": "42:39"
+  },
+  {
+   "n": 10,
+   "title": "Angel Echoes - Jon Hopkins Remix",
+   "clean_title": "Angel Echoes - Jon Hopkins Remix",
+   "duration_ms": 306712,
+   "spotify_uri": "spotify:track:62Ws0LPi5yZJ7nWMdN8ZcI",
+   "spotify_url": "https://open.spotify.com/track/62Ws0LPi5yZJ7nWMdN8ZcI?si=YA7cmFaPQ-ygaI80Fk2jxw",
+   "starts_at_ms": 2841151,
+   "starts_at": "47:21"
+  },
+  {
+   "n": 11,
+   "title": "Sing - Floating Points Remix",
+   "clean_title": "Sing - Floating Points Remix",
+   "duration_ms": 837299,
+   "spotify_uri": "spotify:track:5c1sQKsBkYTGdDQgICwSo5",
+   "spotify_url": "https://open.spotify.com/track/5c1sQKsBkYTGdDQgICwSo5?si=zSL7xnIiQ6KNKYQ8eU6N1A",
+   "starts_at_ms": 3147863,
+   "starts_at": "52:27"
+  },
+  {
+   "n": 12,
+   "title": "Angel Echoes - Caribou Remix",
+   "clean_title": "Angel Echoes - Caribou Remix",
+   "duration_ms": 476090,
+   "spotify_uri": "spotify:track:0YaOSbHHzG4Gq7WeAidYj3",
+   "spotify_url": "https://open.spotify.com/track/0YaOSbHHzG4Gq7WeAidYj3?si=Ji_7ayFlRPeOSXEmtW1KLw",
+   "starts_at_ms": 3985162,
+   "starts_at": "66:25"
+  },
+  {
+   "n": 13,
+   "title": "Love Cry - Joy Orbison Remix",
+   "clean_title": "Love Cry - Joy Orbison Remix",
+   "duration_ms": 295508,
+   "spotify_uri": "spotify:track:52NFVE1pLnsL4Lj9al5rDW",
+   "spotify_url": "https://open.spotify.com/track/52NFVE1pLnsL4Lj9al5rDW?si=5lLxNDsZQ3u8baqlzftqTA",
+   "starts_at_ms": 4461252,
+   "starts_at": "74:21"
+  },
+  {
+   "n": 14,
+   "title": "Sing - Mosca Remix",
+   "clean_title": "Sing - Mosca Remix",
+   "duration_ms": 387256,
+   "spotify_uri": "spotify:track:4hWeCDq1aM6DaTMwAK5rlk",
+   "spotify_url": "https://open.spotify.com/track/4hWeCDq1aM6DaTMwAK5rlk?si=R5MSVtN4QDSFBsDqfO0zKw",
+   "starts_at_ms": 4756760,
+   "starts_at": "79:16"
+  },
+  {
+   "n": 15,
+   "title": "Sing - Banton's Indian Chants Remix",
+   "clean_title": "Sing - Banton's Indian Chants Remix",
+   "duration_ms": 463853,
+   "spotify_uri": "spotify:track:6FAwb63m3yXcgiHw7SSWzG",
+   "spotify_url": "https://open.spotify.com/track/6FAwb63m3yXcgiHw7SSWzG?si=DHsbJSkDQIC8buMN8yhI-g",
+   "starts_at_ms": 5144016,
+   "starts_at": "85:44"
+  },
+  {
+   "n": 16,
+   "title": "Love Cry - Roska Remix",
+   "clean_title": "Love Cry - Roska Remix",
+   "duration_ms": 370311,
+   "spotify_uri": "spotify:track:3OVbEoM8jRQwtYu6T32AOY",
+   "spotify_url": "https://open.spotify.com/track/3OVbEoM8jRQwtYu6T32AOY?si=UrAK3AAeR7ufkSaSMr_6tQ",
+   "starts_at_ms": 5607869,
+   "starts_at": "93:27"
+  },
+  {
+   "n": 17,
+   "title": "Our Bells",
+   "clean_title": "Our Bells",
+   "duration_ms": 433475,
+   "spotify_uri": "spotify:track:2GSCcuR4CkdoB93kjcpYis",
+   "spotify_url": "https://open.spotify.com/track/2GSCcuR4CkdoB93kjcpYis?si=Oqd7n6KISaaSd_NsLXO8jg",
+   "starts_at_ms": 5978180,
+   "starts_at": "99:38"
+  },
+  {
+   "n": 18,
+   "title": "Sing - Extended Mix",
+   "clean_title": "Sing - Extended Mix",
+   "duration_ms": 649579,
+   "spotify_uri": "spotify:track:5tK9wr5sRK0HYJHs0mPLG6",
+   "spotify_url": "https://open.spotify.com/track/5tK9wr5sRK0HYJHs0mPLG6?si=Ut3sz9AvTtKGPDhbY0nnhg",
+   "starts_at_ms": 6411655,
+   "starts_at": "106:51"
+  }
+ ],
+ "week": 7,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:53.996737+00:00"
+}
