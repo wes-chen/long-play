@@ -1,0 +1,141 @@
+{
+ "artist": "Have A Nice Life",
+ "album": "Deathconsciousness",
+ "spotify_uri": "spotify:album:6MH3CAXp8AN8ELrbex18dM",
+ "spotify_url": "https://open.spotify.com/album/6MH3CAXp8AN8ELrbex18dM?si=B0_5o-MPRsOxzDXFhjvPxA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "A Quick One Before the Eternal Worm Devours Connecticut",
+   "clean_title": "A Quick One Before the Eternal Worm Devours Connecticut",
+   "duration_ms": 472695,
+   "spotify_uri": "spotify:track:34dkZZNQJzEJRqPkywYmEY",
+   "spotify_url": "https://open.spotify.com/track/34dkZZNQJzEJRqPkywYmEY?si=h4ZO9rO6SdChMPt_2KU9mg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Bloodhail",
+   "clean_title": "Bloodhail",
+   "duration_ms": 338000,
+   "spotify_uri": "spotify:track:5qZ4c1EBVWpmz1GBaks8Uq",
+   "spotify_url": "https://open.spotify.com/track/5qZ4c1EBVWpmz1GBaks8Uq?si=wXbAV_raQDaBf1Cn6T8AkQ",
+   "starts_at_ms": 472695,
+   "starts_at": "7:52"
+  },
+  {
+   "n": 3,
+   "title": "The Big Gloom",
+   "clean_title": "The Big Gloom",
+   "duration_ms": 483957,
+   "spotify_uri": "spotify:track:6r4Ux7Szu6ncGMjVh0tmCB",
+   "spotify_url": "https://open.spotify.com/track/6r4Ux7Szu6ncGMjVh0tmCB?si=6a4F1dsBSMuI9ATue9ncYQ",
+   "starts_at_ms": 810695,
+   "starts_at": "13:30"
+  },
+  {
+   "n": 4,
+   "title": "Hunter",
+   "clean_title": "Hunter",
+   "duration_ms": 583160,
+   "spotify_uri": "spotify:track:052QjISGAv9TPgtypVETn1",
+   "spotify_url": "https://open.spotify.com/track/052QjISGAv9TPgtypVETn1?si=XbEAMr8GS92rFdGDIY9tVA",
+   "starts_at_ms": 1294652,
+   "starts_at": "21:34"
+  },
+  {
+   "n": 5,
+   "title": "Telephony",
+   "clean_title": "Telephony",
+   "duration_ms": 276000,
+   "spotify_uri": "spotify:track:3tmQWvFXANFgOd6jJgdIVQ",
+   "spotify_url": "https://open.spotify.com/track/3tmQWvFXANFgOd6jJgdIVQ?si=YQoIDIQoTQ6UDNHHYwjLCA",
+   "starts_at_ms": 1877812,
+   "starts_at": "31:17"
+  },
+  {
+   "n": 6,
+   "title": "Who Would Leave Their Son out in the Sun?",
+   "clean_title": "Who Would Leave Their Son out in the Sun?",
+   "duration_ms": 317040,
+   "spotify_uri": "spotify:track:0YyazmHAuu1j8wxSZXSPK4",
+   "spotify_url": "https://open.spotify.com/track/0YyazmHAuu1j8wxSZXSPK4?si=Y_qMpi9BSGK2FkuptbFIFA",
+   "starts_at_ms": 2153812,
+   "starts_at": "35:53"
+  },
+  {
+   "n": 7,
+   "title": "There Is No Food",
+   "clean_title": "There Is No Food",
+   "duration_ms": 240040,
+   "spotify_uri": "spotify:track:30j2ZsXF9MpdbDrCwYwPNk",
+   "spotify_url": "https://open.spotify.com/track/30j2ZsXF9MpdbDrCwYwPNk?si=C1HVqX5FQYuxhfVTrpSPMw",
+   "starts_at_ms": 2470852,
+   "starts_at": "41:10"
+  },
+  {
+   "n": 8,
+   "title": "Waiting for Black Metal Records to Come in the Mail",
+   "clean_title": "Waiting for Black Metal Records to Come in the Mail",
+   "duration_ms": 375000,
+   "spotify_uri": "spotify:track:3uIA46kBcrbOII0DEXFfkI",
+   "spotify_url": "https://open.spotify.com/track/3uIA46kBcrbOII0DEXFfkI?si=m18An3jPRcSKkT8sv3zTbA",
+   "starts_at_ms": 2710892,
+   "starts_at": "45:10"
+  },
+  {
+   "n": 9,
+   "title": "Holy Fucking Shit: 40,000",
+   "clean_title": "Holy Fucking Shit: 40,000",
+   "duration_ms": 386500,
+   "spotify_uri": "spotify:track:0oPnyCLqcn2ZNzwy5pLKDR",
+   "spotify_url": "https://open.spotify.com/track/0oPnyCLqcn2ZNzwy5pLKDR?si=U4bw31VXRcKy1BlQHFtqXw",
+   "starts_at_ms": 3085892,
+   "starts_at": "51:25"
+  },
+  {
+   "n": 10,
+   "title": "The Future",
+   "clean_title": "The Future",
+   "duration_ms": 228000,
+   "spotify_uri": "spotify:track:36hfuJ6XOZdOuToo4SgLVv",
+   "spotify_url": "https://open.spotify.com/track/36hfuJ6XOZdOuToo4SgLVv?si=qxixQfn1Rva6Rx4OzusRog",
+   "starts_at_ms": 3472392,
+   "starts_at": "57:52"
+  },
+  {
+   "n": 11,
+   "title": "Deep, Deep",
+   "clean_title": "Deep, Deep",
+   "duration_ms": 323555,
+   "spotify_uri": "spotify:track:71zmhACsxU6kGNtZBWSiiZ",
+   "spotify_url": "https://open.spotify.com/track/71zmhACsxU6kGNtZBWSiiZ?si=gGfpv5CxTa-Vc3HkqSyKCw",
+   "starts_at_ms": 3700392,
+   "starts_at": "61:40"
+  },
+  {
+   "n": 12,
+   "title": "I Don't Love",
+   "clean_title": "I Don't Love",
+   "duration_ms": 366656,
+   "spotify_uri": "spotify:track:1AOisyOwLgQ7EveVBCo0GG",
+   "spotify_url": "https://open.spotify.com/track/1AOisyOwLgQ7EveVBCo0GG?si=s6Yt5fP3SHSRx0w3VS6d1A",
+   "starts_at_ms": 4023947,
+   "starts_at": "67:03"
+  },
+  {
+   "n": 13,
+   "title": "Earthmover",
+   "clean_title": "Earthmover",
+   "duration_ms": 688000,
+   "spotify_uri": "spotify:track:77yGZRjuWfSzbDT0ROSSUG",
+   "spotify_url": "https://open.spotify.com/track/77yGZRjuWfSzbDT0ROSSUG?si=9kpRZ5ttS_We4Djm7Iv-kQ",
+   "starts_at_ms": 4390603,
+   "starts_at": "73:10"
+  }
+ ],
+ "week": 6,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:30:49.645978+00:00"
+}
