@@ -1,0 +1,151 @@
+{
+ "artist": "Ryuichi Sakamoto",
+ "album": "async",
+ "spotify_uri": "spotify:album:2OKN3NwlITzfVpDJecA4Z3",
+ "spotify_url": "https://open.spotify.com/album/2OKN3NwlITzfVpDJecA4Z3?si=vYWqYdbiRr6ZMhT94x96nA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "andata",
+   "clean_title": "andata",
+   "duration_ms": 278641,
+   "spotify_uri": "spotify:track:2DuFmqmY2DatBTiWz2tXcF",
+   "spotify_url": "https://open.spotify.com/track/2DuFmqmY2DatBTiWz2tXcF?si=o4TmzjuEShanuCK2B1yC1A",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "disintegration",
+   "clean_title": "disintegration",
+   "duration_ms": 346434,
+   "spotify_uri": "spotify:track:21jdI68hnC0YmN48N2KeI8",
+   "spotify_url": "https://open.spotify.com/track/21jdI68hnC0YmN48N2KeI8?si=8KRhaAKtRgOkJQi7UOUBHQ",
+   "starts_at_ms": 278641,
+   "starts_at": "4:38"
+  },
+  {
+   "n": 3,
+   "title": "solari",
+   "clean_title": "solari",
+   "duration_ms": 232073,
+   "spotify_uri": "spotify:track:2ZYyuqKe7T64UqWVuW7CkS",
+   "spotify_url": "https://open.spotify.com/track/2ZYyuqKe7T64UqWVuW7CkS?si=5WyGsYl1TAO30WdSWYlD7A",
+   "starts_at_ms": 625075,
+   "starts_at": "10:25"
+  },
+  {
+   "n": 4,
+   "title": "ZURE",
+   "clean_title": "ZURE",
+   "duration_ms": 311716,
+   "spotify_uri": "spotify:track:5ZJUC56dfmK9Ef76M7xk5K",
+   "spotify_url": "https://open.spotify.com/track/5ZJUC56dfmK9Ef76M7xk5K?si=m_9NO8b8SQmX9CetwPBENQ",
+   "starts_at_ms": 857148,
+   "starts_at": "14:17"
+  },
+  {
+   "n": 5,
+   "title": "walker",
+   "clean_title": "walker",
+   "duration_ms": 260246,
+   "spotify_uri": "spotify:track:74yUJyQzseNuSB1M2wapkB",
+   "spotify_url": "https://open.spotify.com/track/74yUJyQzseNuSB1M2wapkB?si=gNSGBNlwQYWLCd5v0l9g_Q",
+   "starts_at_ms": 1168864,
+   "starts_at": "19:28"
+  },
+  {
+   "n": 6,
+   "title": "stakra",
+   "clean_title": "stakra",
+   "duration_ms": 221192,
+   "spotify_uri": "spotify:track:0dsQwuYOK4h0oaQAxcbn5l",
+   "spotify_url": "https://open.spotify.com/track/0dsQwuYOK4h0oaQAxcbn5l?si=s7PUTFRvTc-CweYpG5dO0A",
+   "starts_at_ms": 1429110,
+   "starts_at": "23:49"
+  },
+  {
+   "n": 7,
+   "title": "ubi",
+   "clean_title": "ubi",
+   "duration_ms": 243181,
+   "spotify_uri": "spotify:track:25Sv3SN7Xz3r5rz5xzOMPm",
+   "spotify_url": "https://open.spotify.com/track/25Sv3SN7Xz3r5rz5xzOMPm?si=_sx1fcCbQQqSZA4nVf3WaA",
+   "starts_at_ms": 1650302,
+   "starts_at": "27:30"
+  },
+  {
+   "n": 8,
+   "title": "fullmoon",
+   "clean_title": "fullmoon",
+   "duration_ms": 313320,
+   "spotify_uri": "spotify:track:5WAr0V4VNkQcgotjQeQSA3",
+   "spotify_url": "https://open.spotify.com/track/5WAr0V4VNkQcgotjQeQSA3?si=2H0Xd4iGRTWwCSZLEqDnCw",
+   "starts_at_ms": 1893483,
+   "starts_at": "31:33"
+  },
+  {
+   "n": 9,
+   "title": "async",
+   "clean_title": "async",
+   "duration_ms": 164674,
+   "spotify_uri": "spotify:track:6iJPqBW3vRze0trMHEvXqY",
+   "spotify_url": "https://open.spotify.com/track/6iJPqBW3vRze0trMHEvXqY?si=Qbhd1zHTT62gOEjrWr6d2g",
+   "starts_at_ms": 2206803,
+   "starts_at": "36:46"
+  },
+  {
+   "n": 10,
+   "title": "tri",
+   "clean_title": "tri",
+   "duration_ms": 208908,
+   "spotify_uri": "spotify:track:1LCNl8mLOcisiNpgR5h0a8",
+   "spotify_url": "https://open.spotify.com/track/1LCNl8mLOcisiNpgR5h0a8?si=hUgJOZ8gRGi17FuiJuaAdA",
+   "starts_at_ms": 2371477,
+   "starts_at": "39:31"
+  },
+  {
+   "n": 11,
+   "title": "Life, Life",
+   "clean_title": "Life, Life",
+   "duration_ms": 263580,
+   "spotify_uri": "spotify:track:7npQjukEKQQYiqSWtqeCvW",
+   "spotify_url": "https://open.spotify.com/track/7npQjukEKQQYiqSWtqeCvW?si=oG5Gj3qjTlW5OrdC24fysg",
+   "starts_at_ms": 2580385,
+   "starts_at": "43:00"
+  },
+  {
+   "n": 12,
+   "title": "honj",
+   "clean_title": "honj",
+   "duration_ms": 221612,
+   "spotify_uri": "spotify:track:2BYI4X8PyBA34zhhAeyFTP",
+   "spotify_url": "https://open.spotify.com/track/2BYI4X8PyBA34zhhAeyFTP?si=jOcvcTKYR_GLnFIMPzwfrQ",
+   "starts_at_ms": 2843965,
+   "starts_at": "47:23"
+  },
+  {
+   "n": 13,
+   "title": "ff",
+   "clean_title": "ff",
+   "duration_ms": 312603,
+   "spotify_uri": "spotify:track:76cdacob7dlZFDIyhhq0g7",
+   "spotify_url": "https://open.spotify.com/track/76cdacob7dlZFDIyhhq0g7?si=dWr_gWK1Tmu05rX43fRSEQ",
+   "starts_at_ms": 3065577,
+   "starts_at": "51:05"
+  },
+  {
+   "n": 14,
+   "title": "garden",
+   "clean_title": "garden",
+   "duration_ms": 256203,
+   "spotify_uri": "spotify:track:64k9ofXMqzVfB01m2emxIw",
+   "spotify_url": "https://open.spotify.com/track/64k9ofXMqzVfB01m2emxIw?si=460KHoqzTLu73JT76xuAJw",
+   "starts_at_ms": 3378180,
+   "starts_at": "56:18"
+  }
+ ],
+ "week": 24,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:32:12.281428+00:00"
+}
