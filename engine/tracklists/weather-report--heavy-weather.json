@@ -1,0 +1,91 @@
+{
+ "artist": "Weather Report",
+ "album": "Heavy Weather",
+ "spotify_uri": "spotify:album:2M9F2yYsUvqiBPwUGeNvn1",
+ "spotify_url": "https://open.spotify.com/album/2M9F2yYsUvqiBPwUGeNvn1?si=82W3CQ1bTKSmtkB7n3Xc5w",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Birdland",
+   "clean_title": "Birdland",
+   "duration_ms": 358694,
+   "spotify_uri": "spotify:track:19vVghIuHm3IAfN4xpRF3q",
+   "spotify_url": "https://open.spotify.com/track/19vVghIuHm3IAfN4xpRF3q?si=IygVPluqQrqpeJz5LlB-wQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "A Remark You Made",
+   "clean_title": "A Remark You Made",
+   "duration_ms": 411533,
+   "spotify_uri": "spotify:track:0k4XkPxJMQKQa7Ali1qske",
+   "spotify_url": "https://open.spotify.com/track/0k4XkPxJMQKQa7Ali1qske?si=H3i0dDhyR9mRVFw6JEQk_g",
+   "starts_at_ms": 358694,
+   "starts_at": "5:58"
+  },
+  {
+   "n": 3,
+   "title": "Teen Town",
+   "clean_title": "Teen Town",
+   "duration_ms": 171616,
+   "spotify_uri": "spotify:track:4OzXE9NnSdD9aEAwBcnYBI",
+   "spotify_url": "https://open.spotify.com/track/4OzXE9NnSdD9aEAwBcnYBI?si=mcl7VDxRSVKOcHC4pQ2JTw",
+   "starts_at_ms": 770227,
+   "starts_at": "12:50"
+  },
+  {
+   "n": 4,
+   "title": "Harlequin",
+   "clean_title": "Harlequin",
+   "duration_ms": 240498,
+   "spotify_uri": "spotify:track:4AB1oc7TYPx68VSpcr7x7h",
+   "spotify_url": "https://open.spotify.com/track/4AB1oc7TYPx68VSpcr7x7h?si=LmPDr9fCQ62MPx348evGyA",
+   "starts_at_ms": 941843,
+   "starts_at": "15:41"
+  },
+  {
+   "n": 5,
+   "title": "Rumba Mama",
+   "clean_title": "Rumba Mama",
+   "duration_ms": 131428,
+   "spotify_uri": "spotify:track:7cplnQy5GFx43AFO6YaC3d",
+   "spotify_url": "https://open.spotify.com/track/7cplnQy5GFx43AFO6YaC3d?si=_yzFux5fTteVw_YXa1Crrw",
+   "starts_at_ms": 1182341,
+   "starts_at": "19:42"
+  },
+  {
+   "n": 6,
+   "title": "Palladium",
+   "clean_title": "Palladium",
+   "duration_ms": 289356,
+   "spotify_uri": "spotify:track:6I7TNJP6ZqPxGNUBeNiy14",
+   "spotify_url": "https://open.spotify.com/track/6I7TNJP6ZqPxGNUBeNiy14?si=VHrXh2yUQoGk8yoEVfviWg",
+   "starts_at_ms": 1313769,
+   "starts_at": "21:53"
+  },
+  {
+   "n": 7,
+   "title": "The Juggler",
+   "clean_title": "The Juggler",
+   "duration_ms": 305138,
+   "spotify_uri": "spotify:track:07EB7Lm8fcbUIhLYl43OaF",
+   "spotify_url": "https://open.spotify.com/track/07EB7Lm8fcbUIhLYl43OaF?si=yKyslHfDRA2ztdOQRCOqsA",
+   "starts_at_ms": 1603125,
+   "starts_at": "26:43"
+  },
+  {
+   "n": 8,
+   "title": "Havona",
+   "clean_title": "Havona",
+   "duration_ms": 361400,
+   "spotify_uri": "spotify:track:3DiRtCH2QXIuDxcRTwtsiF",
+   "spotify_url": "https://open.spotify.com/track/3DiRtCH2QXIuDxcRTwtsiF?si=52b_09_6SNaMuj-65kMW4Q",
+   "starts_at_ms": 1908263,
+   "starts_at": "31:48"
+  }
+ ],
+ "week": 11,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:31:10.185516+00:00"
+}
