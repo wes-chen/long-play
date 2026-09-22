@@ -1,0 +1,31 @@
+{
+ "artist": "Miles Davis",
+ "album": "In a Silent Way",
+ "spotify_uri": "spotify:album:0Hs3BomCdwIWRhgT57x22T",
+ "spotify_url": "https://open.spotify.com/album/0Hs3BomCdwIWRhgT57x22T?si=mhLnSNTAQm6-KoGjIuYdCQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Shhh / Peaceful",
+   "clean_title": "Shhh / Peaceful",
+   "duration_ms": 1098215,
+   "spotify_uri": "spotify:track:267lVml7gJ9xefwgO6E2Ag",
+   "spotify_url": "https://open.spotify.com/track/267lVml7gJ9xefwgO6E2Ag?si=w2c7kVSHRYyqiCoVpu3_sQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "In a Silent Way",
+   "clean_title": "In a Silent Way",
+   "duration_ms": 1192849,
+   "spotify_uri": "spotify:track:54a3lHJAwce1dOKrsDPEHv",
+   "spotify_url": "https://open.spotify.com/track/54a3lHJAwce1dOKrsDPEHv?si=o_6eAKIPRcy8vuSJkS6KQw",
+   "starts_at_ms": 1098215,
+   "starts_at": "18:18"
+  }
+ ],
+ "week": 12,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:15.734634+00:00"
+}
