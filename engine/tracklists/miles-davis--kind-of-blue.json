@@ -1,0 +1,61 @@
+{
+ "artist": "Miles Davis",
+ "album": "Kind of Blue",
+ "spotify_uri": "spotify:album:1weenld61qoidwYuZ1GESA",
+ "spotify_url": "https://open.spotify.com/album/1weenld61qoidwYuZ1GESA?si=PyU1Tp68TxuEXJF0HYEG2Q",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "So What (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+   "clean_title": "So What (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+   "duration_ms": 547983,
+   "spotify_uri": "spotify:track:7q3kkfAVpmcZ8g6JUThi3o",
+   "spotify_url": "https://open.spotify.com/track/7q3kkfAVpmcZ8g6JUThi3o?si=gQN_4HDnS0aZGGiiNkrdfw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Freddie Freeloader (feat. John Coltrane, Cannonball Adderley, Wynton Kelly & Paul Chambers)",
+   "clean_title": "Freddie Freeloader (feat. John Coltrane, Cannonball Adderley, Wynton Kelly & Paul Chambers)",
+   "duration_ms": 588410,
+   "spotify_uri": "spotify:track:3NvYPUNu6nwQgN31UnoDbn",
+   "spotify_url": "https://open.spotify.com/track/3NvYPUNu6nwQgN31UnoDbn?si=fwSZqAvaRjGapQcZt0LOkw",
+   "starts_at_ms": 547983,
+   "starts_at": "9:07"
+  },
+  {
+   "n": 3,
+   "title": "Blue in Green (feat. John Coltrane & Bill Evans)",
+   "clean_title": "Blue in Green (feat. John Coltrane & Bill Evans)",
+   "duration_ms": 335938,
+   "spotify_uri": "spotify:track:6bP4GyrKNbcKPMDqWJqpxI",
+   "spotify_url": "https://open.spotify.com/track/6bP4GyrKNbcKPMDqWJqpxI?si=Z4_CcUuaTUuaJg4nZQOiIg",
+   "starts_at_ms": 1136393,
+   "starts_at": "18:56"
+  },
+  {
+   "n": 4,
+   "title": "All Blues (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+   "clean_title": "All Blues (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+   "duration_ms": 692896,
+   "spotify_uri": "spotify:track:0TUa7gBg7LJH6B8dkNVioU",
+   "spotify_url": "https://open.spotify.com/track/0TUa7gBg7LJH6B8dkNVioU?si=GkCmjHwDQ3mUo-SwE0zDWg",
+   "starts_at_ms": 1472331,
+   "starts_at": "24:32"
+  },
+  {
+   "n": 5,
+   "title": "Flamenco Sketches (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+   "clean_title": "Flamenco Sketches (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+   "duration_ms": 561104,
+   "spotify_uri": "spotify:track:3R3fcrKaeBr3U6s9R2belr",
+   "spotify_url": "https://open.spotify.com/track/3R3fcrKaeBr3U6s9R2belr?si=aqyfR2tNTCuv4DPBb7nT0g",
+   "starts_at_ms": 2165227,
+   "starts_at": "36:05"
+  }
+ ],
+ "week": 12,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:31:14.835857+00:00"
+}
