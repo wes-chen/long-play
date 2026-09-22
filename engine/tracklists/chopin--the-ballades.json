@@ -1,0 +1,51 @@
+{
+ "artist": "Chopin",
+ "album": "the Ballades",
+ "spotify_uri": "spotify:album:1cGBfuFHbwH77j0zOYiUDn",
+ "spotify_url": "https://open.spotify.com/album/1cGBfuFHbwH77j0zOYiUDn?si=CrSCuq-ERoK6AGyOW_BmwQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Ballade No. 1 In G Minor, Op. 23",
+   "clean_title": "Ballade No. 1 In G Minor, Op. 23",
+   "duration_ms": 562413,
+   "spotify_uri": "spotify:track:0sfsCVsQFRZTAmmP4iS60n",
+   "spotify_url": "https://open.spotify.com/track/0sfsCVsQFRZTAmmP4iS60n?si=oeF_89OtS_-AhB2msnPMGw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Ballade No. 2 in F Major, Op. 38",
+   "clean_title": "Ballade No. 2 in F Major, Op. 38",
+   "duration_ms": 403973,
+   "spotify_uri": "spotify:track:23Temk2bmOcg3JJCREkpxv",
+   "spotify_url": "https://open.spotify.com/track/23Temk2bmOcg3JJCREkpxv?si=RCDftfwqTOSe1stXpsMoiw",
+   "starts_at_ms": 562413,
+   "starts_at": "9:22"
+  },
+  {
+   "n": 3,
+   "title": "Ballade No. 3 in A-Flat Major, Op. 47",
+   "clean_title": "Ballade No. 3 in A-Flat Major, Op. 47",
+   "duration_ms": 440533,
+   "spotify_uri": "spotify:track:1x12JU0Kypd0Qhoj95x6dR",
+   "spotify_url": "https://open.spotify.com/track/1x12JU0Kypd0Qhoj95x6dR?si=WfFZ0vrJRAy0xJ-9qPD5gQ",
+   "starts_at_ms": 966386,
+   "starts_at": "16:06"
+  },
+  {
+   "n": 4,
+   "title": "Ballade No. 4 in F Minor, Op. 52",
+   "clean_title": "Ballade No. 4 in F Minor, Op. 52",
+   "duration_ms": 648866,
+   "spotify_uri": "spotify:track:7KHtvDH4YoVOlgC0T3E2d3",
+   "spotify_url": "https://open.spotify.com/track/7KHtvDH4YoVOlgC0T3E2d3?si=oLKRoeL4RuCPEU1PGobmHQ",
+   "starts_at_ms": 1406919,
+   "starts_at": "23:26"
+  }
+ ],
+ "week": 22,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:32:05.278702+00:00"
+}
