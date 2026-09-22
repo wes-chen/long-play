@@ -1,0 +1,101 @@
+{
+ "artist": "Dirty Projectors",
+ "album": "Bitte Orca",
+ "spotify_uri": "spotify:album:2Geg4mwE8z9DO5BSSUoMKz",
+ "spotify_url": "https://open.spotify.com/album/2Geg4mwE8z9DO5BSSUoMKz?si=MI6InAttSIarPmpfLZs9UA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Cannibal Resource",
+   "clean_title": "Cannibal Resource",
+   "duration_ms": 234920,
+   "spotify_uri": "spotify:track:1pbRrSj6CBZGcG5i2BSv5L",
+   "spotify_url": "https://open.spotify.com/track/1pbRrSj6CBZGcG5i2BSv5L?si=lXpL7YIGTTmqi4Sz2JJbdg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Temecula Sunrise",
+   "clean_title": "Temecula Sunrise",
+   "duration_ms": 305213,
+   "spotify_uri": "spotify:track:5wneejDwJ4rGJ12hH5H47Y",
+   "spotify_url": "https://open.spotify.com/track/5wneejDwJ4rGJ12hH5H47Y?si=f0MKKUG2TcyoZGa364GFKw",
+   "starts_at_ms": 234920,
+   "starts_at": "3:54"
+  },
+  {
+   "n": 3,
+   "title": "The Bride",
+   "clean_title": "The Bride",
+   "duration_ms": 169146,
+   "spotify_uri": "spotify:track:5tu4lR230cALFoUL0YoIjw",
+   "spotify_url": "https://open.spotify.com/track/5tu4lR230cALFoUL0YoIjw?si=ewmNnegJRwG1rBeNT76Rgg",
+   "starts_at_ms": 540133,
+   "starts_at": "9:00"
+  },
+  {
+   "n": 4,
+   "title": "Stillness Is The Move",
+   "clean_title": "Stillness Is The Move",
+   "duration_ms": 314320,
+   "spotify_uri": "spotify:track:477XuL6LgQdlwrbuEVClDh",
+   "spotify_url": "https://open.spotify.com/track/477XuL6LgQdlwrbuEVClDh?si=yvuqn4hRRUOTEw1FpZ8SZA",
+   "starts_at_ms": 709279,
+   "starts_at": "11:49"
+  },
+  {
+   "n": 5,
+   "title": "Two Doves",
+   "clean_title": "Two Doves",
+   "duration_ms": 221680,
+   "spotify_uri": "spotify:track:66VLscP5FZHPeMmtWaopbJ",
+   "spotify_url": "https://open.spotify.com/track/66VLscP5FZHPeMmtWaopbJ?si=Vy7SNjasQKKfdWqZzIUUbQ",
+   "starts_at_ms": 1023599,
+   "starts_at": "17:03"
+  },
+  {
+   "n": 6,
+   "title": "Useful Chamber",
+   "clean_title": "Useful Chamber",
+   "duration_ms": 388173,
+   "spotify_uri": "spotify:track:6u3aMqebcXanCogTwRK4x2",
+   "spotify_url": "https://open.spotify.com/track/6u3aMqebcXanCogTwRK4x2?si=LGpDkwsqSWOPJVDLd_mGjg",
+   "starts_at_ms": 1245279,
+   "starts_at": "20:45"
+  },
+  {
+   "n": 7,
+   "title": "No Intention",
+   "clean_title": "No Intention",
+   "duration_ms": 257133,
+   "spotify_uri": "spotify:track:6Cun8mawHkOhMZRzZOrZ8m",
+   "spotify_url": "https://open.spotify.com/track/6Cun8mawHkOhMZRzZOrZ8m?si=oCmlVuR0Qvmb319LrJL3eg",
+   "starts_at_ms": 1633452,
+   "starts_at": "27:13"
+  },
+  {
+   "n": 8,
+   "title": "Remade Horizon",
+   "clean_title": "Remade Horizon",
+   "duration_ms": 235320,
+   "spotify_uri": "spotify:track:0DiARdApb7YaagUyWZRoEP",
+   "spotify_url": "https://open.spotify.com/track/0DiARdApb7YaagUyWZRoEP?si=pTiMEkfrT7KAHpM2-ObeQQ",
+   "starts_at_ms": 1890585,
+   "starts_at": "31:30"
+  },
+  {
+   "n": 9,
+   "title": "Fluorescent Half Dome",
+   "clean_title": "Fluorescent Half Dome",
+   "duration_ms": 345146,
+   "spotify_uri": "spotify:track:1OTZxQwp2APyI2f6H2V4tp",
+   "spotify_url": "https://open.spotify.com/track/1OTZxQwp2APyI2f6H2V4tp?si=ooVlCYQtTyim-KqrNRjkdw",
+   "starts_at_ms": 2125905,
+   "starts_at": "35:25"
+  }
+ ],
+ "week": 15,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:31:32.332441+00:00"
+}
