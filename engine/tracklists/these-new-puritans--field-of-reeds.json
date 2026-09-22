@@ -1,0 +1,99 @@
+{
+ "artist": "These New Puritans",
+ "album": "Field of Reeds",
+ "spotify_uri": "spotify:album:2h2cuwDTdkdnM3juffjyTr",
+ "spotify_url": "https://open.spotify.com/album/2h2cuwDTdkdnM3juffjyTr?si=IQ2jO3daS8ev83dAkf6Q-g",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "This Guy's In Love with You",
+   "clean_title": "This Guy's In Love with You",
+   "duration_ms": 182986,
+   "spotify_uri": "spotify:track:3vdtIokPTxl1YaMOlWOWQI",
+   "spotify_url": "https://open.spotify.com/track/3vdtIokPTxl1YaMOlWOWQI?si=flUG1JUbRzGfy_AJWDzybw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Fragment Two",
+   "clean_title": "Fragment Two",
+   "duration_ms": 270543,
+   "spotify_uri": "spotify:track:4UAF6dCVoJcWZaoOCRKfxD",
+   "spotify_url": "https://open.spotify.com/track/4UAF6dCVoJcWZaoOCRKfxD?si=0WCgJke0QZ6Gqc3zfJXKXg",
+   "starts_at_ms": 182986,
+   "starts_at": "3:02"
+  },
+  {
+   "n": 3,
+   "title": "The Light in Your Name",
+   "clean_title": "The Light in Your Name",
+   "duration_ms": 363133,
+   "spotify_uri": "spotify:track:5uEqoE0Ypx4jIzxUt1UVod",
+   "spotify_url": "https://open.spotify.com/track/5uEqoE0Ypx4jIzxUt1UVod?si=_2k-V-ZKQMSYSAI4VfTaHA",
+   "starts_at_ms": 453529,
+   "starts_at": "7:33"
+  },
+  {
+   "n": 4,
+   "title": "V (Island Song)",
+   "clean_title": "V (Island Song)",
+   "duration_ms": 556400,
+   "spotify_uri": "spotify:track:4q5sRsrGoQUr9efejpSpoD",
+   "spotify_url": "https://open.spotify.com/track/4q5sRsrGoQUr9efejpSpoD?si=l7yivZg1Q-2E1vLDfEt_NQ",
+   "starts_at_ms": 816662,
+   "starts_at": "13:36"
+  },
+  {
+   "n": 5,
+   "title": "Spiral",
+   "clean_title": "Spiral",
+   "duration_ms": 363826,
+   "spotify_uri": "spotify:track:0IfcuzeBBtsTlQn6YaeyCX",
+   "spotify_url": "https://open.spotify.com/track/0IfcuzeBBtsTlQn6YaeyCX?si=FT2SouoWSA-lw-3jcyhVZQ",
+   "starts_at_ms": 1373062,
+   "starts_at": "22:53"
+  },
+  {
+   "n": 6,
+   "title": "Organ Eternal",
+   "clean_title": "Organ Eternal",
+   "duration_ms": 331573,
+   "spotify_uri": "spotify:track:0JuA0DlunCCMowZyll1iR0",
+   "spotify_url": "https://open.spotify.com/track/0JuA0DlunCCMowZyll1iR0?si=Kp0PvrE9SGCAtJsbG3ii0A",
+   "starts_at_ms": 1736888,
+   "starts_at": "28:56"
+  },
+  {
+   "n": 7,
+   "title": "Nothing Else",
+   "clean_title": "Nothing Else",
+   "duration_ms": 469413,
+   "spotify_uri": "spotify:track:59AYx22AEpcXk2yOHa8ZZM",
+   "spotify_url": "https://open.spotify.com/track/59AYx22AEpcXk2yOHa8ZZM?si=_wzWBoT_TdyVGploVvRPNA",
+   "starts_at_ms": 2068461,
+   "starts_at": "34:28"
+  },
+  {
+   "n": 8,
+   "title": "Dream",
+   "clean_title": "Dream",
+   "duration_ms": 254840,
+   "spotify_uri": "spotify:track:7HOfHRdCaEzmUU2INkR5Fv",
+   "spotify_url": "https://open.spotify.com/track/7HOfHRdCaEzmUU2INkR5Fv?si=T9zG3WGCTGClZZd6m7qKUg",
+   "starts_at_ms": 2537874,
+   "starts_at": "42:17"
+  },
+  {
+   "n": 9,
+   "title": "Field of Reeds",
+   "clean_title": "Field of Reeds",
+   "duration_ms": 388893,
+   "spotify_uri": "spotify:track:2eakp6qWtYjuH0OTzxz8xU",
+   "spotify_url": "https://open.spotify.com/track/2eakp6qWtYjuH0OTzxz8xU?si=rDyeeRC7Qi-_j8PNU7H3kg",
+   "starts_at_ms": 2792714,
+   "starts_at": "46:32"
+  }
+ ],
+ "fetched_at": "2026-09-22T19:08:11.916779+00:00"
+}
