@@ -1,0 +1,121 @@
+{
+ "artist": "Jaco Pastorius",
+ "album": "Jaco Pastorius",
+ "spotify_uri": "spotify:album:6SsT4Zyev0zS7eocL0B72m",
+ "spotify_url": "https://open.spotify.com/album/6SsT4Zyev0zS7eocL0B72m?si=2SwDQfCaSaKmui5sZgI6HA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Donna Lee",
+   "clean_title": "Donna Lee",
+   "duration_ms": 147200,
+   "spotify_uri": "spotify:track:1zWG5Jk6mcC1ewXlYYVaxC",
+   "spotify_url": "https://open.spotify.com/track/1zWG5Jk6mcC1ewXlYYVaxC?si=C8spNFPTQNGikSo7VKdRIw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Come On, Come Over",
+   "clean_title": "Come On, Come Over",
+   "duration_ms": 233200,
+   "spotify_uri": "spotify:track:4RflGBhUpxjrs2fMJD0QVX",
+   "spotify_url": "https://open.spotify.com/track/4RflGBhUpxjrs2fMJD0QVX?si=hlYbqnaaRWKAGHAFLqeAUA",
+   "starts_at_ms": 147200,
+   "starts_at": "2:27"
+  },
+  {
+   "n": 3,
+   "title": "Continuum",
+   "clean_title": "Continuum",
+   "duration_ms": 273333,
+   "spotify_uri": "spotify:track:5t74NZUEHOTjBqv4IjPLe8",
+   "spotify_url": "https://open.spotify.com/track/5t74NZUEHOTjBqv4IjPLe8?si=-yMzlE7sS5SbZdXT2L5IoA",
+   "starts_at_ms": 380400,
+   "starts_at": "6:20"
+  },
+  {
+   "n": 4,
+   "title": "Kuru/Speak Like A Child",
+   "clean_title": "Kuru/Speak Like A Child",
+   "duration_ms": 461933,
+   "spotify_uri": "spotify:track:516EWCnp9NMZe1Zq5a1dX6",
+   "spotify_url": "https://open.spotify.com/track/516EWCnp9NMZe1Zq5a1dX6?si=i1_2xUejQw2kRi35NVMjRg",
+   "starts_at_ms": 653733,
+   "starts_at": "10:53"
+  },
+  {
+   "n": 5,
+   "title": "Portrait of Tracy",
+   "clean_title": "Portrait of Tracy",
+   "duration_ms": 142466,
+   "spotify_uri": "spotify:track:5NBAy2oiS9OIWyAZhklsH2",
+   "spotify_url": "https://open.spotify.com/track/5NBAy2oiS9OIWyAZhklsH2?si=irnVc5XVQSCpDVGVXOFo0Q",
+   "starts_at_ms": 1115666,
+   "starts_at": "18:35"
+  },
+  {
+   "n": 6,
+   "title": "Opus Pocus",
+   "clean_title": "Opus Pocus",
+   "duration_ms": 329266,
+   "spotify_uri": "spotify:track:1hk6KMDQwGWsdy08PYotmM",
+   "spotify_url": "https://open.spotify.com/track/1hk6KMDQwGWsdy08PYotmM?si=st-Kbc9rRCqxSmXogxDexA",
+   "starts_at_ms": 1258132,
+   "starts_at": "20:58"
+  },
+  {
+   "n": 7,
+   "title": "Okonkole y Trompa",
+   "clean_title": "Okonkole y Trompa",
+   "duration_ms": 265040,
+   "spotify_uri": "spotify:track:3xQ3FEG0or0daG3evoIOoy",
+   "spotify_url": "https://open.spotify.com/track/3xQ3FEG0or0daG3evoIOoy?si=jxu0VlI1Q82D1rQ1nRqKCg",
+   "starts_at_ms": 1587398,
+   "starts_at": "26:27"
+  },
+  {
+   "n": 8,
+   "title": "(Used To Be A) Cha-Cha",
+   "clean_title": "(Used To Be A) Cha-Cha",
+   "duration_ms": 537040,
+   "spotify_uri": "spotify:track:5JMnULSn4qcyP8C0EPQtIa",
+   "spotify_url": "https://open.spotify.com/track/5JMnULSn4qcyP8C0EPQtIa?si=q0zXxphWRsiYmry4tWmmRg",
+   "starts_at_ms": 1852438,
+   "starts_at": "30:52"
+  },
+  {
+   "n": 9,
+   "title": "Forgotten Love",
+   "clean_title": "Forgotten Love",
+   "duration_ms": 134440,
+   "spotify_uri": "spotify:track:7rZXBuFZlIa1gWkhKK06Fu",
+   "spotify_url": "https://open.spotify.com/track/7rZXBuFZlIa1gWkhKK06Fu?si=cS26vufLSsyC80nFJer9xw",
+   "starts_at_ms": 2389478,
+   "starts_at": "39:49"
+  },
+  {
+   "n": 10,
+   "title": "(Used To Be A) Cha-Cha",
+   "clean_title": "(Used To Be A) Cha-Cha",
+   "duration_ms": 528933,
+   "spotify_uri": "spotify:track:6xZw8TtFV1tlR9NmK6UcE2",
+   "spotify_url": "https://open.spotify.com/track/6xZw8TtFV1tlR9NmK6UcE2?si=ryzKKjIITAS29pSIAGhnMA",
+   "starts_at_ms": 2523918,
+   "starts_at": "42:03"
+  },
+  {
+   "n": 11,
+   "title": "6/4 Jam",
+   "clean_title": "6/4 Jam",
+   "duration_ms": 264666,
+   "spotify_uri": "spotify:track:42kREGwRXeF0NVMi9XPVrG",
+   "spotify_url": "https://open.spotify.com/track/42kREGwRXeF0NVMi9XPVrG?si=72fuFsoDRc2f7K0E-LVHkQ",
+   "starts_at_ms": 3052851,
+   "starts_at": "50:52"
+  }
+ ],
+ "week": 11,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:31:13.750465+00:00"
+}
