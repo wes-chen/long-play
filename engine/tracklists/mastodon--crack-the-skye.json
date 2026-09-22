@@ -1,0 +1,81 @@
+{
+ "artist": "Mastodon",
+ "album": "Crack the Skye",
+ "spotify_uri": "spotify:album:2W2nqEKXWBorbq5yvm3jZg",
+ "spotify_url": "https://open.spotify.com/album/2W2nqEKXWBorbq5yvm3jZg?si=_peSu9SRRoWmcxW0tCX1og",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Oblivion",
+   "clean_title": "Oblivion",
+   "duration_ms": 346573,
+   "spotify_uri": "spotify:track:4Ynr1SPCeUI0W0YPeSFSIK",
+   "spotify_url": "https://open.spotify.com/track/4Ynr1SPCeUI0W0YPeSFSIK?si=AfeuIXDxRySetazoXOvChA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Divinations",
+   "clean_title": "Divinations",
+   "duration_ms": 218880,
+   "spotify_uri": "spotify:track:6HZ8zBamcVKjO46vsLj9vh",
+   "spotify_url": "https://open.spotify.com/track/6HZ8zBamcVKjO46vsLj9vh?si=1Tq4AtBgTr68ORaBdOKDbw",
+   "starts_at_ms": 346573,
+   "starts_at": "5:46"
+  },
+  {
+   "n": 3,
+   "title": "Quintessence",
+   "clean_title": "Quintessence",
+   "duration_ms": 327480,
+   "spotify_uri": "spotify:track:7n2K9HW8OhwFpWEdzeYu79",
+   "spotify_url": "https://open.spotify.com/track/7n2K9HW8OhwFpWEdzeYu79?si=U1gpkXS2TnaRW1U7YFfKVQ",
+   "starts_at_ms": 565453,
+   "starts_at": "9:25"
+  },
+  {
+   "n": 4,
+   "title": "The Czar: Usurper / Escape / Martyr / Spiral",
+   "clean_title": "The Czar: Usurper / Escape / Martyr / Spiral",
+   "duration_ms": 654293,
+   "spotify_uri": "spotify:track:2LMjQnKH7sQzOD0l8q6eWz",
+   "spotify_url": "https://open.spotify.com/track/2LMjQnKH7sQzOD0l8q6eWz?si=CHWOpnQ9RFWjiZeMsdA3wQ",
+   "starts_at_ms": 892933,
+   "starts_at": "14:52"
+  },
+  {
+   "n": 5,
+   "title": "Ghost of Karelia",
+   "clean_title": "Ghost of Karelia",
+   "duration_ms": 324786,
+   "spotify_uri": "spotify:track:2VzyWKHUmuxUq7J7I8wbng",
+   "spotify_url": "https://open.spotify.com/track/2VzyWKHUmuxUq7J7I8wbng?si=Rgi5xJ3VRX6QNb4BMY365w",
+   "starts_at_ms": 1547226,
+   "starts_at": "25:47"
+  },
+  {
+   "n": 6,
+   "title": "Crack the Skye",
+   "clean_title": "Crack the Skye",
+   "duration_ms": 354306,
+   "spotify_uri": "spotify:track:4nwwFLQqopxAL0g2L0Fg0B",
+   "spotify_url": "https://open.spotify.com/track/4nwwFLQqopxAL0g2L0Fg0B?si=hYy22fyDRMO8_17d4qdThQ",
+   "starts_at_ms": 1872012,
+   "starts_at": "31:12"
+  },
+  {
+   "n": 7,
+   "title": "The Last Baron",
+   "clean_title": "The Last Baron",
+   "duration_ms": 780626,
+   "spotify_uri": "spotify:track:6MUc3qu8WOqO7hAY6gdhJY",
+   "spotify_url": "https://open.spotify.com/track/6MUc3qu8WOqO7hAY6gdhJY?si=fwnPXkh_TU-kdUA0wciZuw",
+   "starts_at_ms": 2226318,
+   "starts_at": "37:06"
+  }
+ ],
+ "week": 17,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:41.158177+00:00"
+}
