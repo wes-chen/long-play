@@ -1,0 +1,51 @@
+{
+ "artist": "Shostakovich",
+ "album": "Symphony No. 5",
+ "spotify_uri": "spotify:album:00d6wTUJHGsrxPmbETXGWm",
+ "spotify_url": "https://open.spotify.com/album/00d6wTUJHGsrxPmbETXGWm?si=ahHm_AMPTNS1Zm-ul2jSpw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Symphony No. 5 in D Minor, Op. 47: I. Moderato - 2017 Remastered Version",
+   "clean_title": "Symphony No. 5 in D Minor, Op. 47: I. Moderato - 2017 Remastered Version",
+   "duration_ms": 979720,
+   "spotify_uri": "spotify:track:0P0LAsqiavYc6V54JSeseB",
+   "spotify_url": "https://open.spotify.com/track/0P0LAsqiavYc6V54JSeseB?si=0NtEF13iSmKsEHvRXYpC_Q",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Symphony No. 5 in D Minor, Op. 47: II. Allegretto - 2017 Remastered Version",
+   "clean_title": "Symphony No. 5 in D Minor, Op. 47: II. Allegretto - 2017 Remastered Version",
+   "duration_ms": 297546,
+   "spotify_uri": "spotify:track:5kYrcC7Vp0aQlZmNxdEzJE",
+   "spotify_url": "https://open.spotify.com/track/5kYrcC7Vp0aQlZmNxdEzJE?si=XsKKd6fGTS-B03ZCRGhTQA",
+   "starts_at_ms": 979720,
+   "starts_at": "16:19"
+  },
+  {
+   "n": 3,
+   "title": "Symphony No. 5 in D Minor, Op. 47: III. Largo - 2017 Remastered Version",
+   "clean_title": "Symphony No. 5 in D Minor, Op. 47: III. Largo - 2017 Remastered Version",
+   "duration_ms": 939946,
+   "spotify_uri": "spotify:track:6dv10gFDnFYIOl8SFxVwK0",
+   "spotify_url": "https://open.spotify.com/track/6dv10gFDnFYIOl8SFxVwK0?si=a5ERyMHSQgW_5L2QUEYzdg",
+   "starts_at_ms": 1277266,
+   "starts_at": "21:17"
+  },
+  {
+   "n": 4,
+   "title": "Symphony No. 5 in D Minor, Op. 47: IV. Allegro non troppo - 2017 Remastered Version",
+   "clean_title": "Symphony No. 5 in D Minor, Op. 47: IV. Allegro non troppo - 2017 Remastered Version",
+   "duration_ms": 539120,
+   "spotify_uri": "spotify:track:2LR6lZHhpdzlTQsEfiJQaP",
+   "spotify_url": "https://open.spotify.com/track/2LR6lZHhpdzlTQsEfiJQaP?si=8UOTdcQ4TSC3ETs5t2iFlg",
+   "starts_at_ms": 2217212,
+   "starts_at": "36:57"
+  }
+ ],
+ "week": 21,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:57.793057+00:00"
+}
