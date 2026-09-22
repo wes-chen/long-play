@@ -1,0 +1,141 @@
+{
+ "artist": "The Smile",
+ "album": "A Light for Attracting Attention",
+ "spotify_uri": "spotify:album:009EjjwUjtdjvH7UP0wHzi",
+ "spotify_url": "https://open.spotify.com/album/009EjjwUjtdjvH7UP0wHzi?si=VuPXDHDLT8ywP6qSK84Ydw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "The Same",
+   "clean_title": "The Same",
+   "duration_ms": 259466,
+   "spotify_uri": "spotify:track:5fTCU82IwY3barEA7iYjHg",
+   "spotify_url": "https://open.spotify.com/track/5fTCU82IwY3barEA7iYjHg?si=_F-80LaTQpiiVPof980Wbg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "The Opposite",
+   "clean_title": "The Opposite",
+   "duration_ms": 186186,
+   "spotify_uri": "spotify:track:6adP4Nm71rKd9TKeRIMYZw",
+   "spotify_url": "https://open.spotify.com/track/6adP4Nm71rKd9TKeRIMYZw?si=IBy7A8l0TimfueV7p35y8g",
+   "starts_at_ms": 259466,
+   "starts_at": "4:19"
+  },
+  {
+   "n": 3,
+   "title": "You Will Never Work In Television Again",
+   "clean_title": "You Will Never Work In Television Again",
+   "duration_ms": 168172,
+   "spotify_uri": "spotify:track:2ownDSIYHvydbtauGZW4ln",
+   "spotify_url": "https://open.spotify.com/track/2ownDSIYHvydbtauGZW4ln?si=pOiZG7kAQ3ifiSpHovRP2w",
+   "starts_at_ms": 445652,
+   "starts_at": "7:25"
+  },
+  {
+   "n": 4,
+   "title": "Pana-vision",
+   "clean_title": "Pana-vision",
+   "duration_ms": 248218,
+   "spotify_uri": "spotify:track:4FXQibsmo2XbStLEBtmIAd",
+   "spotify_url": "https://open.spotify.com/track/4FXQibsmo2XbStLEBtmIAd?si=tWgHbamLSoC_UpykHn-eHw",
+   "starts_at_ms": 613824,
+   "starts_at": "10:13"
+  },
+  {
+   "n": 5,
+   "title": "The Smoke",
+   "clean_title": "The Smoke",
+   "duration_ms": 219727,
+   "spotify_uri": "spotify:track:1usvtV2D0EBPb7Rk1l0PwQ",
+   "spotify_url": "https://open.spotify.com/track/1usvtV2D0EBPb7Rk1l0PwQ?si=oL1jRKKERpWjiw1yLs7BHA",
+   "starts_at_ms": 862042,
+   "starts_at": "14:22"
+  },
+  {
+   "n": 6,
+   "title": "Speech Bubbles",
+   "clean_title": "Speech Bubbles",
+   "duration_ms": 256972,
+   "spotify_uri": "spotify:track:5pzfcBv5riLKb74cq0wjFd",
+   "spotify_url": "https://open.spotify.com/track/5pzfcBv5riLKb74cq0wjFd?si=5wLWOvdMT2Oe6oa4JAIaYg",
+   "starts_at_ms": 1081769,
+   "starts_at": "18:01"
+  },
+  {
+   "n": 7,
+   "title": "Thin Thing",
+   "clean_title": "Thin Thing",
+   "duration_ms": 270945,
+   "spotify_uri": "spotify:track:1Sbdw0lMZXkfVmjuH1UTb8",
+   "spotify_url": "https://open.spotify.com/track/1Sbdw0lMZXkfVmjuH1UTb8?si=AdLII_lPTsGwrysQeteeRQ",
+   "starts_at_ms": 1338741,
+   "starts_at": "22:18"
+  },
+  {
+   "n": 8,
+   "title": "Open The Floodgates",
+   "clean_title": "Open The Floodgates",
+   "duration_ms": 269307,
+   "spotify_uri": "spotify:track:5xqKA0qQQwprSERzubZk2n",
+   "spotify_url": "https://open.spotify.com/track/5xqKA0qQQwprSERzubZk2n?si=Bj6ouW1RSM-ABZj4qlFJtQ",
+   "starts_at_ms": 1609686,
+   "starts_at": "26:49"
+  },
+  {
+   "n": 9,
+   "title": "Free In The Knowledge",
+   "clean_title": "Free In The Knowledge",
+   "duration_ms": 252864,
+   "spotify_uri": "spotify:track:0p8esvsm33EFp9iABb8wH9",
+   "spotify_url": "https://open.spotify.com/track/0p8esvsm33EFp9iABb8wH9?si=EgDvysqyRYyjnVm4JkC5tQ",
+   "starts_at_ms": 1878993,
+   "starts_at": "31:18"
+  },
+  {
+   "n": 10,
+   "title": "A Hairdryer",
+   "clean_title": "A Hairdryer",
+   "duration_ms": 317535,
+   "spotify_uri": "spotify:track:5eGvUvIliCcmFqwC8kQSAw",
+   "spotify_url": "https://open.spotify.com/track/5eGvUvIliCcmFqwC8kQSAw?si=GHZnfTnqQeaSzRfzJs_l9g",
+   "starts_at_ms": 2131857,
+   "starts_at": "35:31"
+  },
+  {
+   "n": 11,
+   "title": "Waving A White Flag",
+   "clean_title": "Waving A White Flag",
+   "duration_ms": 227487,
+   "spotify_uri": "spotify:track:4wbO4Xe9wtw0RxRye0ybN9",
+   "spotify_url": "https://open.spotify.com/track/4wbO4Xe9wtw0RxRye0ybN9?si=jBZtVLeDR0yXfcjLaGrMUw",
+   "starts_at_ms": 2449392,
+   "starts_at": "40:49"
+  },
+  {
+   "n": 12,
+   "title": "We Don't Know What Tomorrow Brings",
+   "clean_title": "We Don't Know What Tomorrow Brings",
+   "duration_ms": 196752,
+   "spotify_uri": "spotify:track:0ks2zjjl7XhJVqBU60GhHR",
+   "spotify_url": "https://open.spotify.com/track/0ks2zjjl7XhJVqBU60GhHR?si=05jed1JiRq2TwEg1waa0BQ",
+   "starts_at_ms": 2676879,
+   "starts_at": "44:36"
+  },
+  {
+   "n": 13,
+   "title": "Skrting On The Surface",
+   "clean_title": "Skrting On The Surface",
+   "duration_ms": 331914,
+   "spotify_uri": "spotify:track:0AmkMHfI5zFNuptoglfmOp",
+   "spotify_url": "https://open.spotify.com/track/0AmkMHfI5zFNuptoglfmOp?si=_y4g0I64Q2mXmufXCpJirA",
+   "starts_at_ms": 2873631,
+   "starts_at": "47:53"
+  }
+ ],
+ "week": 1,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:23.662621+00:00"
+}
