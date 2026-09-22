@@ -1,0 +1,71 @@
+{
+ "artist": "Alcest",
+ "album": "\u00c9cailles de Lune",
+ "spotify_uri": "spotify:album:6b9NZDM5QhD2FViyXKwBRT",
+ "spotify_url": "https://open.spotify.com/album/6b9NZDM5QhD2FViyXKwBRT?si=uwW84Gp2TcGUWfFC3oiDyg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Ecailles de lune, Pt. 1",
+   "clean_title": "Ecailles de lune, Pt. 1",
+   "duration_ms": 592266,
+   "spotify_uri": "spotify:track:0EEdMW3fUV2lJUv5MsZzxl",
+   "spotify_url": "https://open.spotify.com/track/0EEdMW3fUV2lJUv5MsZzxl?si=DZ-wO35GSz2F8NRmEBAdkA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Ecailles de lune, Pt. 2",
+   "clean_title": "Ecailles de lune, Pt. 2",
+   "duration_ms": 588706,
+   "spotify_uri": "spotify:track:2ogFZdO6ACAMFn1YyrZtAL",
+   "spotify_url": "https://open.spotify.com/track/2ogFZdO6ACAMFn1YyrZtAL?si=17_FG6AKStWvoeKtERr4Uw",
+   "starts_at_ms": 592266,
+   "starts_at": "9:52"
+  },
+  {
+   "n": 3,
+   "title": "Perc\u00e9es de lumi\u00e8re",
+   "clean_title": "Perc\u00e9es de lumi\u00e8re",
+   "duration_ms": 398426,
+   "spotify_uri": "spotify:track:2cAxqSzAijG4jm8YUlGX51",
+   "spotify_url": "https://open.spotify.com/track/2cAxqSzAijG4jm8YUlGX51?si=sEdz_tyxRvCRxEYNmym1DQ",
+   "starts_at_ms": 1180972,
+   "starts_at": "19:40"
+  },
+  {
+   "n": 4,
+   "title": "Abysses",
+   "clean_title": "Abysses",
+   "duration_ms": 100800,
+   "spotify_uri": "spotify:track:6v1YuFKOtSpSjskrUy84DD",
+   "spotify_url": "https://open.spotify.com/track/6v1YuFKOtSpSjskrUy84DD?si=mrUsoNz4ThK_IXlkZ7fPPg",
+   "starts_at_ms": 1579398,
+   "starts_at": "26:19"
+  },
+  {
+   "n": 5,
+   "title": "Solar Song",
+   "clean_title": "Solar Song",
+   "duration_ms": 324213,
+   "spotify_uri": "spotify:track:02TfEK4pbzgVlrB5mSMTCP",
+   "spotify_url": "https://open.spotify.com/track/02TfEK4pbzgVlrB5mSMTCP?si=R212iIDVS6WzdD57TAnI3Q",
+   "starts_at_ms": 1680198,
+   "starts_at": "28:00"
+  },
+  {
+   "n": 6,
+   "title": "Sur l'oc\u00e9an couleur de fer",
+   "clean_title": "Sur l'oc\u00e9an couleur de fer",
+   "duration_ms": 498706,
+   "spotify_uri": "spotify:track:038PaU9vPDq2itJcSQrawe",
+   "spotify_url": "https://open.spotify.com/track/038PaU9vPDq2itJcSQrawe?si=M8t513mrQlyQxRx0Ks51_A",
+   "starts_at_ms": 2004411,
+   "starts_at": "33:24"
+  }
+ ],
+ "week": 18,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:31:43.291140+00:00"
+}
