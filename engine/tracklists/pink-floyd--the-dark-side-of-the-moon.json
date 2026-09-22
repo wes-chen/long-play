@@ -1,0 +1,111 @@
+{
+ "artist": "Pink Floyd",
+ "album": "The Dark Side of the Moon",
+ "spotify_uri": "spotify:album:4LH4d3cOWNNsVw41Gqt2kv",
+ "spotify_url": "https://open.spotify.com/album/4LH4d3cOWNNsVw41Gqt2kv?si=dSsNNT-9S8mooOp2Mnvo-A",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Speak to Me",
+   "clean_title": "Speak to Me",
+   "duration_ms": 64333,
+   "spotify_uri": "spotify:track:574y1r7o2tRA009FW0LE7v",
+   "spotify_url": "https://open.spotify.com/track/574y1r7o2tRA009FW0LE7v?si=vuy_IazfQtquS2fWSdVTcA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Breathe (In the Air)",
+   "clean_title": "Breathe (In the Air)",
+   "duration_ms": 169560,
+   "spotify_uri": "spotify:track:2ctvdKmETyOzPb2GiJJT53",
+   "spotify_url": "https://open.spotify.com/track/2ctvdKmETyOzPb2GiJJT53?si=w2gglyjyTeKpFHGAdAXJ3Q",
+   "starts_at_ms": 64333,
+   "starts_at": "1:04"
+  },
+  {
+   "n": 3,
+   "title": "On the Run",
+   "clean_title": "On the Run",
+   "duration_ms": 216106,
+   "spotify_uri": "spotify:track:73OIUNKRi2y24Cu9cOLrzM",
+   "spotify_url": "https://open.spotify.com/track/73OIUNKRi2y24Cu9cOLrzM?si=iTxBvP8JQZOXaJ2xHcXjIw",
+   "starts_at_ms": 233893,
+   "starts_at": "3:53"
+  },
+  {
+   "n": 4,
+   "title": "Time",
+   "clean_title": "Time",
+   "duration_ms": 422853,
+   "spotify_uri": "spotify:track:3TO7bbrUKrOSPGRTB5MeCz",
+   "spotify_url": "https://open.spotify.com/track/3TO7bbrUKrOSPGRTB5MeCz?si=uBTcCw0DRdiO_eKFa7LudA",
+   "starts_at_ms": 449999,
+   "starts_at": "7:29"
+  },
+  {
+   "n": 5,
+   "title": "The Great Gig in the Sky",
+   "clean_title": "The Great Gig in the Sky",
+   "duration_ms": 284413,
+   "spotify_uri": "spotify:track:2TjdnqlpwOjhijHCwHCP2d",
+   "spotify_url": "https://open.spotify.com/track/2TjdnqlpwOjhijHCwHCP2d?si=L0HJOQPHR4KFtZEiVZS97g",
+   "starts_at_ms": 872852,
+   "starts_at": "14:32"
+  },
+  {
+   "n": 6,
+   "title": "Money",
+   "clean_title": "Money",
+   "duration_ms": 380080,
+   "spotify_uri": "spotify:track:0vFOzaXqZHahrZp6enQwQb",
+   "spotify_url": "https://open.spotify.com/track/0vFOzaXqZHahrZp6enQwQb?si=a0J3UupJT1eMUFv5vbOToQ",
+   "starts_at_ms": 1157265,
+   "starts_at": "19:17"
+  },
+  {
+   "n": 7,
+   "title": "Us and Them",
+   "clean_title": "Us and Them",
+   "duration_ms": 472626,
+   "spotify_uri": "spotify:track:1TKTiKp3zbNgrBH2IwSwIx",
+   "spotify_url": "https://open.spotify.com/track/1TKTiKp3zbNgrBH2IwSwIx?si=VKvKSYvcRvGdd2r8JbRT6w",
+   "starts_at_ms": 1537345,
+   "starts_at": "25:37"
+  },
+  {
+   "n": 8,
+   "title": "Any Colour You Like",
+   "clean_title": "Any Colour You Like",
+   "duration_ms": 205773,
+   "spotify_uri": "spotify:track:6FBPOJLxUZEair6x4kLDhf",
+   "spotify_url": "https://open.spotify.com/track/6FBPOJLxUZEair6x4kLDhf?si=SfoAvjPpQ427BIvTvR_yLg",
+   "starts_at_ms": 2009971,
+   "starts_at": "33:29"
+  },
+  {
+   "n": 9,
+   "title": "Brain Damage",
+   "clean_title": "Brain Damage",
+   "duration_ms": 230493,
+   "spotify_uri": "spotify:track:05uGBKRCuePsf43Hfm0JwX",
+   "spotify_url": "https://open.spotify.com/track/05uGBKRCuePsf43Hfm0JwX?si=0CP94cLKQ1mUaIVlXZojrg",
+   "starts_at_ms": 2215744,
+   "starts_at": "36:55"
+  },
+  {
+   "n": 10,
+   "title": "Eclipse",
+   "clean_title": "Eclipse",
+   "duration_ms": 126720,
+   "spotify_uri": "spotify:track:1tDWVeCR9oWGX8d5J9rswk",
+   "spotify_url": "https://open.spotify.com/track/1tDWVeCR9oWGX8d5J9rswk?si=rDq4LtX4QPiQFtukYHskjg",
+   "starts_at_ms": 2446237,
+   "starts_at": "40:46"
+  }
+ ],
+ "week": 1,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:30:21.854375+00:00"
+}
