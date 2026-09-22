@@ -1,0 +1,121 @@
+{
+ "artist": "Sufjan Stevens",
+ "album": "Carrie & Lowell",
+ "spotify_uri": "spotify:album:64xtjfsPHNHch0CZ7fPTjS",
+ "spotify_url": "https://open.spotify.com/album/64xtjfsPHNHch0CZ7fPTjS?si=wh8MAAWnSbmXgoO6nrBuAw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Death with Dignity",
+   "clean_title": "Death with Dignity",
+   "duration_ms": 239508,
+   "spotify_uri": "spotify:track:73uJybGAhwGRD9MZYrOmTY",
+   "spotify_url": "https://open.spotify.com/track/73uJybGAhwGRD9MZYrOmTY?si=giT5eXCASGOipYvruUf4TA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Should Have Known Better",
+   "clean_title": "Should Have Known Better",
+   "duration_ms": 307697,
+   "spotify_uri": "spotify:track:3AyuigFWbuirWHvidbMz8O",
+   "spotify_url": "https://open.spotify.com/track/3AyuigFWbuirWHvidbMz8O?si=WRkyBGukSPiWgdJaaho6sg",
+   "starts_at_ms": 239508,
+   "starts_at": "3:59"
+  },
+  {
+   "n": 3,
+   "title": "All of Me Wants All of You",
+   "clean_title": "All of Me Wants All of You",
+   "duration_ms": 221711,
+   "spotify_uri": "spotify:track:4lyIHAc8sk6lm9iN5B8nmj",
+   "spotify_url": "https://open.spotify.com/track/4lyIHAc8sk6lm9iN5B8nmj?si=nuCc0J3MRKCeHjv67XlMJg",
+   "starts_at_ms": 547205,
+   "starts_at": "9:07"
+  },
+  {
+   "n": 4,
+   "title": "Drawn to the Blood",
+   "clean_title": "Drawn to the Blood",
+   "duration_ms": 198478,
+   "spotify_uri": "spotify:track:7tL59eSR3yM1iSr4PjmgyX",
+   "spotify_url": "https://open.spotify.com/track/7tL59eSR3yM1iSr4PjmgyX?si=fordhhGLSaKFra8V-4aDDQ",
+   "starts_at_ms": 768916,
+   "starts_at": "12:48"
+  },
+  {
+   "n": 5,
+   "title": "Eugene",
+   "clean_title": "Eugene",
+   "duration_ms": 146893,
+   "spotify_uri": "spotify:track:7o3Zup0nTRFAFAPKBpS72G",
+   "spotify_url": "https://open.spotify.com/track/7o3Zup0nTRFAFAPKBpS72G?si=k-Ev14lhTQqG5Sp0oyU_3g",
+   "starts_at_ms": 967394,
+   "starts_at": "16:07"
+  },
+  {
+   "n": 6,
+   "title": "Fourth of July",
+   "clean_title": "Fourth of July",
+   "duration_ms": 279316,
+   "spotify_uri": "spotify:track:5Qnrgqy1pAm9GyNQOgyVFz",
+   "spotify_url": "https://open.spotify.com/track/5Qnrgqy1pAm9GyNQOgyVFz?si=jlCT3Rn7Sla-LX0IZwKIMA",
+   "starts_at_ms": 1114287,
+   "starts_at": "18:34"
+  },
+  {
+   "n": 7,
+   "title": "The Only Thing",
+   "clean_title": "The Only Thing",
+   "duration_ms": 284130,
+   "spotify_uri": "spotify:track:17UVxL0MYEmKzXppfUL5in",
+   "spotify_url": "https://open.spotify.com/track/17UVxL0MYEmKzXppfUL5in?si=dSd9BewSSgyxbhwJXc5IXw",
+   "starts_at_ms": 1393603,
+   "starts_at": "23:13"
+  },
+  {
+   "n": 8,
+   "title": "Carrie & Lowell",
+   "clean_title": "Carrie & Lowell",
+   "duration_ms": 194639,
+   "spotify_uri": "spotify:track:7E9T9Essmxgu98kaOjTVNM",
+   "spotify_url": "https://open.spotify.com/track/7E9T9Essmxgu98kaOjTVNM?si=J7CmHJ3HSRSxJV7Ap4pgcQ",
+   "starts_at_ms": 1677733,
+   "starts_at": "27:57"
+  },
+  {
+   "n": 9,
+   "title": "John My Beloved",
+   "clean_title": "John My Beloved",
+   "duration_ms": 304870,
+   "spotify_uri": "spotify:track:4CB57FBhfhq2q1GHQN7bjm",
+   "spotify_url": "https://open.spotify.com/track/4CB57FBhfhq2q1GHQN7bjm?si=oHP3l_b3SjmjKVdODflLeQ",
+   "starts_at_ms": 1872372,
+   "starts_at": "31:12"
+  },
+  {
+   "n": 10,
+   "title": "No Shade in the Shadow of The Cross",
+   "clean_title": "No Shade in the Shadow of The Cross",
+   "duration_ms": 160881,
+   "spotify_uri": "spotify:track:55ga87o2ysqBY5pbzTt2eo",
+   "spotify_url": "https://open.spotify.com/track/55ga87o2ysqBY5pbzTt2eo?si=ZvKt8DRNTFW2sXaQPBQsEQ",
+   "starts_at_ms": 2177242,
+   "starts_at": "36:17"
+  },
+  {
+   "n": 11,
+   "title": "Blue Bucket of Gold",
+   "clean_title": "Blue Bucket of Gold",
+   "duration_ms": 285466,
+   "spotify_uri": "spotify:track:4rDpP5uHieSTcblNk7wQ2y",
+   "spotify_url": "https://open.spotify.com/track/4rDpP5uHieSTcblNk7wQ2y?si=Z53wnBO7RqClursh59q3Yg",
+   "starts_at_ms": 2338123,
+   "starts_at": "38:58"
+  }
+ ],
+ "week": 16,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:34.415296+00:00"
+}
