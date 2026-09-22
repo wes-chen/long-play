@@ -1,0 +1,51 @@
+{
+ "artist": "Herbie Hancock",
+ "album": "Head Hunters",
+ "spotify_uri": "spotify:album:5fmIolILp5NAtNYiRPjhzA",
+ "spotify_url": "https://open.spotify.com/album/5fmIolILp5NAtNYiRPjhzA?si=CMevRDDGRv-Umhi34NDrgQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Chameleon",
+   "clean_title": "Chameleon",
+   "duration_ms": 944616,
+   "spotify_uri": "spotify:track:4Ce66JznW8QbeyTdSzdGwR",
+   "spotify_url": "https://open.spotify.com/track/4Ce66JznW8QbeyTdSzdGwR?si=3hXnFsODTPmhpKGZ8DMmJw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Watermelon Man",
+   "clean_title": "Watermelon Man",
+   "duration_ms": 390432,
+   "spotify_uri": "spotify:track:2zQl59dZMzwhrmeSBEgiXY",
+   "spotify_url": "https://open.spotify.com/track/2zQl59dZMzwhrmeSBEgiXY?si=ty8Et5mqTEa2KzXla1ye5w",
+   "starts_at_ms": 944616,
+   "starts_at": "15:44"
+  },
+  {
+   "n": 3,
+   "title": "Sly",
+   "clean_title": "Sly",
+   "duration_ms": 621121,
+   "spotify_uri": "spotify:track:4WyVRn3L2uXnSUkY762gqN",
+   "spotify_url": "https://open.spotify.com/track/4WyVRn3L2uXnSUkY762gqN?si=PPd5BLmhTAKOh-hIilJAAA",
+   "starts_at_ms": 1335048,
+   "starts_at": "22:15"
+  },
+  {
+   "n": 4,
+   "title": "Vein Melter",
+   "clean_title": "Vein Melter",
+   "duration_ms": 549376,
+   "spotify_uri": "spotify:track:6c0ziyel6ZMTQ37vKRooGZ",
+   "spotify_url": "https://open.spotify.com/track/6c0ziyel6ZMTQ37vKRooGZ?si=m9Rab7XQQceRsBrDe1Mf7A",
+   "starts_at_ms": 1956169,
+   "starts_at": "32:36"
+  }
+ ],
+ "week": 11,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:11.088126+00:00"
+}
