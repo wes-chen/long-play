@@ -1,0 +1,21 @@
+{
+ "artist": "Boris",
+ "album": "Flood",
+ "spotify_uri": "spotify:album:6U9ckLnnzFuLMtPCSEo36N",
+ "spotify_url": "https://open.spotify.com/album/6U9ckLnnzFuLMtPCSEo36N?si=0EjjF-e5SIKhzFvZfzDtmQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "flood",
+   "clean_title": "flood",
+   "duration_ms": 4230421,
+   "spotify_uri": "spotify:track:4KnLHWT5uiCAhrW1Dsyim9",
+   "spotify_url": "https://open.spotify.com/track/4KnLHWT5uiCAhrW1Dsyim9?si=WMGMEviTT2Gyv7Tb20AJrA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  }
+ ],
+ "week": 18,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:46.308049+00:00"
+}
