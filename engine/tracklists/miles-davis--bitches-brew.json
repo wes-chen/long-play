@@ -1,0 +1,81 @@
+{
+ "artist": "Miles Davis",
+ "album": "Bitches Brew",
+ "spotify_uri": "spotify:album:3Q0zkOZEOC855ErOOJ1AdO",
+ "spotify_url": "https://open.spotify.com/album/3Q0zkOZEOC855ErOOJ1AdO?si=-JOJ6MHIR0-wCW_EZqn-0g",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Pharaoh's Dance",
+   "clean_title": "Pharaoh's Dance",
+   "duration_ms": 1204066,
+   "spotify_uri": "spotify:track:7eEp1mm5xRfPMpilLFUKwX",
+   "spotify_url": "https://open.spotify.com/track/7eEp1mm5xRfPMpilLFUKwX?si=KzmiJn0CSby2Hcx74_nCVg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Bitches Brew (feat. Wayne Shorter, Bennie Maupin, John McLaughlin, Chick Corea, Joe Zawinul, Dave Holland & Harvey Brooks)",
+   "clean_title": "Bitches Brew (feat. Wayne Shorter, Bennie Maupin, John McLaughlin, Chick Corea, Joe Zawinul, Dave Holland & Harvey Brooks)",
+   "duration_ms": 1619373,
+   "spotify_uri": "spotify:track:15tLhnzO4o8fMOEjdZGfII",
+   "spotify_url": "https://open.spotify.com/track/15tLhnzO4o8fMOEjdZGfII?si=6mGx1kniQJaTwcJm-TS8DA",
+   "starts_at_ms": 1204066,
+   "starts_at": "20:04"
+  },
+  {
+   "n": 3,
+   "title": "Spanish Key (feat. Wayne Shorter, Bennie Maupin, John McLaughlin, Chick Corea, Joe Zawinul, Dave Holland & Harvey Brooks)",
+   "clean_title": "Spanish Key (feat. Wayne Shorter, Bennie Maupin, John McLaughlin, Chick Corea, Joe Zawinul, Dave Holland & Harvey Brooks)",
+   "duration_ms": 1052200,
+   "spotify_uri": "spotify:track:2W195plKmSrcoXops3ZjxN",
+   "spotify_url": "https://open.spotify.com/track/2W195plKmSrcoXops3ZjxN?si=LdC6krKSQL6R48gTdVVegw",
+   "starts_at_ms": 2823439,
+   "starts_at": "47:03"
+  },
+  {
+   "n": 4,
+   "title": "John McLaughlin (feat. Wayne Shorter, Bennie Maupin, John McLaughlin, Chick Corea, Joe Zawinul, Dave Holland & Harvey Brooks)",
+   "clean_title": "John McLaughlin (feat. Wayne Shorter, Bennie Maupin, John McLaughlin, Chick Corea, Joe Zawinul, Dave Holland & Harvey Brooks)",
+   "duration_ms": 262706,
+   "spotify_uri": "spotify:track:2bGs2tuqoThglpGFBWmXoz",
+   "spotify_url": "https://open.spotify.com/track/2bGs2tuqoThglpGFBWmXoz?si=rDx2iFlwS4C7fQxXtamVIA",
+   "starts_at_ms": 3875639,
+   "starts_at": "64:35"
+  },
+  {
+   "n": 5,
+   "title": "Miles Runs the Voodoo Down (feat. Wayne Shorter, Bennie Maupin, John McLaughlin, Chick Corea, Joe Zawinul, Dave Holland & Harvey Brooks)",
+   "clean_title": "Miles Runs the Voodoo Down (feat. Wayne Shorter, Bennie Maupin, John McLaughlin, Chick Corea, Joe Zawinul, Dave Holland & Harvey Brooks)",
+   "duration_ms": 841333,
+   "spotify_uri": "spotify:track:0n8sBhOtUb6pDFKjpxfakj",
+   "spotify_url": "https://open.spotify.com/track/0n8sBhOtUb6pDFKjpxfakj?si=fLSNLzQ0QuGQFbz-SdFaTw",
+   "starts_at_ms": 4138345,
+   "starts_at": "68:58"
+  },
+  {
+   "n": 6,
+   "title": "Sanctuary (feat. Wayne Shorter, Bennie Maupin, John McLaughlin, Chick Corea, Joe Zawinul, Dave Holland & Harvey Brooks)",
+   "clean_title": "Sanctuary (feat. Wayne Shorter, Bennie Maupin, John McLaughlin, Chick Corea, Joe Zawinul, Dave Holland & Harvey Brooks)",
+   "duration_ms": 656426,
+   "spotify_uri": "spotify:track:1NC8eNwaKmJs8IvSBQEU38",
+   "spotify_url": "https://open.spotify.com/track/1NC8eNwaKmJs8IvSBQEU38?si=GohJdjqbQ3mGKRO2k5tAOA",
+   "starts_at_ms": 4979678,
+   "starts_at": "82:59"
+  },
+  {
+   "n": 7,
+   "title": "Feio (feat. Wayne Shorter, John McLaughlin, Chick Corea, Joe Zawinul & Dave Holland)",
+   "clean_title": "Feio (feat. Wayne Shorter, John McLaughlin, Chick Corea, Joe Zawinul & Dave Holland)",
+   "duration_ms": 709160,
+   "spotify_uri": "spotify:track:7DpXEh9OAJ90AxIiBMr6Gt",
+   "spotify_url": "https://open.spotify.com/track/7DpXEh9OAJ90AxIiBMr6Gt?si=_z7iyra3S9COSq3liGWhgw",
+   "starts_at_ms": 5636104,
+   "starts_at": "93:56"
+  }
+ ],
+ "week": 12,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:31:18.957413+00:00"
+}
