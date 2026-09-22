@@ -1,0 +1,151 @@
+{
+ "artist": "Balming Tiger",
+ "album": "January Never Dies",
+ "spotify_uri": "spotify:album:3KfVspuHZTMj8eg5wAH5t1",
+ "spotify_url": "https://open.spotify.com/album/3KfVspuHZTMj8eg5wAH5t1?si=E2ZT2MU6TOSGm98WU28UnA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "BTB",
+   "clean_title": "BTB",
+   "duration_ms": 188996,
+   "spotify_uri": "spotify:track:2ejGSIDLEBoniM8SfkjHLi",
+   "spotify_url": "https://open.spotify.com/track/2ejGSIDLEBoniM8SfkjHLi?si=mvkP2oXWR3eGpz7FefkEYw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Buriburi",
+   "clean_title": "Buriburi",
+   "duration_ms": 220071,
+   "spotify_uri": "spotify:track:67jY28XGWZzr5YaOju8AIL",
+   "spotify_url": "https://open.spotify.com/track/67jY28XGWZzr5YaOju8AIL?si=BM-pYMkMTtWpnXRPFwWPRg",
+   "starts_at_ms": 188996,
+   "starts_at": "3:08"
+  },
+  {
+   "n": 3,
+   "title": "Pigeon and Plastic",
+   "clean_title": "Pigeon and Plastic",
+   "duration_ms": 79342,
+   "spotify_uri": "spotify:track:6nEEfEv7VUpIsv0SNqEW9L",
+   "spotify_url": "https://open.spotify.com/track/6nEEfEv7VUpIsv0SNqEW9L?si=WKlbavcfQN6_R8p3F9by_g",
+   "starts_at_ms": 409067,
+   "starts_at": "6:49"
+  },
+  {
+   "n": 4,
+   "title": "Bodycoke",
+   "clean_title": "Bodycoke",
+   "duration_ms": 192112,
+   "spotify_uri": "spotify:track:2mDF18iNsQ2Hp6gXQewqJG",
+   "spotify_url": "https://open.spotify.com/track/2mDF18iNsQ2Hp6gXQewqJG?si=1a9E28aTTd6Uko6qMaK-XQ",
+   "starts_at_ms": 488409,
+   "starts_at": "8:08"
+  },
+  {
+   "n": 5,
+   "title": "Kamehameha",
+   "clean_title": "Kamehameha",
+   "duration_ms": 219921,
+   "spotify_uri": "spotify:track:0Io001Al0HYuQNMofvPNrE",
+   "spotify_url": "https://open.spotify.com/track/0Io001Al0HYuQNMofvPNrE?si=7m3JtvYoQJO9AiW2CYva_w",
+   "starts_at_ms": 680521,
+   "starts_at": "11:20"
+  },
+  {
+   "n": 6,
+   "title": "5:5 Dharma",
+   "clean_title": "5:5 Dharma",
+   "duration_ms": 107849,
+   "spotify_uri": "spotify:track:1DtxyDKFO0lHJ3QuxFjXtT",
+   "spotify_url": "https://open.spotify.com/track/1DtxyDKFO0lHJ3QuxFjXtT?si=pTT8SBAURBWx7Lszx3Rcqg",
+   "starts_at_ms": 900442,
+   "starts_at": "15:00"
+  },
+  {
+   "n": 7,
+   "title": "Sudden Attack",
+   "clean_title": "Sudden Attack",
+   "duration_ms": 148150,
+   "spotify_uri": "spotify:track:22olr1EGGOopPItq2HtGEp",
+   "spotify_url": "https://open.spotify.com/track/22olr1EGGOopPItq2HtGEp?si=TLjIc8pUQC27vQqJufXDNg",
+   "starts_at_ms": 1008291,
+   "starts_at": "16:48"
+  },
+  {
+   "n": 8,
+   "title": "SEXY NUKIM",
+   "clean_title": "SEXY NUKIM",
+   "duration_ms": 230728,
+   "spotify_uri": "spotify:track:5EOZTsZ3szMYaIm7POU4aX",
+   "spotify_url": "https://open.spotify.com/track/5EOZTsZ3szMYaIm7POU4aX?si=_kOaa2MgQFurpOYEjBF_8g",
+   "starts_at_ms": 1156441,
+   "starts_at": "19:16"
+  },
+  {
+   "n": 9,
+   "title": "Trust Yourself",
+   "clean_title": "Trust Yourself",
+   "duration_ms": 175355,
+   "spotify_uri": "spotify:track:4PSR7IZ7pS789At0izH1o5",
+   "spotify_url": "https://open.spotify.com/track/4PSR7IZ7pS789At0izH1o5?si=NQN3SvLFSpKrUtaFX6_kjQ",
+   "starts_at_ms": 1387169,
+   "starts_at": "23:07"
+  },
+  {
+   "n": 10,
+   "title": "Riot",
+   "clean_title": "Riot",
+   "duration_ms": 160879,
+   "spotify_uri": "spotify:track:3Y5LaTsgR3HGXsqdxBXinl",
+   "spotify_url": "https://open.spotify.com/track/3Y5LaTsgR3HGXsqdxBXinl?si=_vxQKkdVTvq0qOCwgSNJSw",
+   "starts_at_ms": 1562524,
+   "starts_at": "26:02"
+  },
+  {
+   "n": 11,
+   "title": "UP!",
+   "clean_title": "UP!",
+   "duration_ms": 224983,
+   "spotify_uri": "spotify:track:1T0ZSCFOdvbgZrjnq5L5SC",
+   "spotify_url": "https://open.spotify.com/track/1T0ZSCFOdvbgZrjnq5L5SC?si=xgIWdVsJSo21b7enz6UqkQ",
+   "starts_at_ms": 1723403,
+   "starts_at": "28:43"
+  },
+  {
+   "n": 12,
+   "title": "Moving Forward",
+   "clean_title": "Moving Forward",
+   "duration_ms": 205399,
+   "spotify_uri": "spotify:track:4kO9Q1jUCLhuuWOQs3hBa3",
+   "spotify_url": "https://open.spotify.com/track/4kO9Q1jUCLhuuWOQs3hBa3?si=CCJ119JNRn-cOUI5q4GPyw",
+   "starts_at_ms": 1948386,
+   "starts_at": "32:28"
+  },
+  {
+   "n": 13,
+   "title": "Scumbag",
+   "clean_title": "Scumbag",
+   "duration_ms": 157628,
+   "spotify_uri": "spotify:track:34w9ZOiHeVucoEkssdWG94",
+   "spotify_url": "https://open.spotify.com/track/34w9ZOiHeVucoEkssdWG94?si=ayrqMEHJSO-OhiFgmmOcjw",
+   "starts_at_ms": 2153785,
+   "starts_at": "35:53"
+  },
+  {
+   "n": 14,
+   "title": "SOS",
+   "clean_title": "SOS",
+   "duration_ms": 219390,
+   "spotify_uri": "spotify:track:5gIOktFwX7sCpcllYCPZNO",
+   "spotify_url": "https://open.spotify.com/track/5gIOktFwX7sCpcllYCPZNO?si=oZ-Sg3cMSXKU6Pt_N3fNUg",
+   "starts_at_ms": 2311413,
+   "starts_at": "38:31"
+  }
+ ],
+ "week": 20,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:52.839269+00:00"
+}
