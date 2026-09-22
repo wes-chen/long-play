@@ -1,0 +1,81 @@
+{
+ "artist": "Alice Coltrane",
+ "album": "Journey in Satchidananda",
+ "spotify_uri": "spotify:album:43TGHl1qZfMwrcNBUxJoOi",
+ "spotify_url": "https://open.spotify.com/album/43TGHl1qZfMwrcNBUxJoOi?si=uOkI50b_StuwHnoOljSX1g",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Radhe-Shyam",
+   "clean_title": "Radhe-Shyam",
+   "duration_ms": 418600,
+   "spotify_uri": "spotify:track:2fDO2zCS7e6a6yGcqVjtQ0",
+   "spotify_url": "https://open.spotify.com/track/2fDO2zCS7e6a6yGcqVjtQ0?si=E_aAo1CgQy6kMoI6H6Cyew",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Vrindavana Sanchara",
+   "clean_title": "Vrindavana Sanchara",
+   "duration_ms": 243293,
+   "spotify_uri": "spotify:track:575o6fSPk6tBAkiumpboUT",
+   "spotify_url": "https://open.spotify.com/track/575o6fSPk6tBAkiumpboUT?si=u4Bc7xQxQpK1jsxILivqcg",
+   "starts_at_ms": 418600,
+   "starts_at": "6:58"
+  },
+  {
+   "n": 3,
+   "title": "Transcendence",
+   "clean_title": "Transcendence",
+   "duration_ms": 356933,
+   "spotify_uri": "spotify:track:5dwnM2V9n3axiktPG9YceZ",
+   "spotify_url": "https://open.spotify.com/track/5dwnM2V9n3axiktPG9YceZ?si=xa-vgv-uSgaIiDTgxCEAtA",
+   "starts_at_ms": 661893,
+   "starts_at": "11:01"
+  },
+  {
+   "n": 4,
+   "title": "Sivaya",
+   "clean_title": "Sivaya",
+   "duration_ms": 289666,
+   "spotify_uri": "spotify:track:49cf6ULWHUsq7gmplxyxNs",
+   "spotify_url": "https://open.spotify.com/track/49cf6ULWHUsq7gmplxyxNs?si=nNYNNMAkQRmDOi8Qb-VdDw",
+   "starts_at_ms": 1018826,
+   "starts_at": "16:58"
+  },
+  {
+   "n": 5,
+   "title": "Ghana Nila",
+   "clean_title": "Ghana Nila",
+   "duration_ms": 386533,
+   "spotify_uri": "spotify:track:5ZqYIINClnRVN18l5GgSvJ",
+   "spotify_url": "https://open.spotify.com/track/5ZqYIINClnRVN18l5GgSvJ?si=wP5KvQlsTXWuYe1IkEru3g",
+   "starts_at_ms": 1308492,
+   "starts_at": "21:48"
+  },
+  {
+   "n": 6,
+   "title": "Bhaja Govindam",
+   "clean_title": "Bhaja Govindam",
+   "duration_ms": 273560,
+   "spotify_uri": "spotify:track:11sB4iDyOnPVNUPSmTR5O1",
+   "spotify_url": "https://open.spotify.com/track/11sB4iDyOnPVNUPSmTR5O1?si=-kVLoJocSvGU23VpNyRexw",
+   "starts_at_ms": 1695025,
+   "starts_at": "28:15"
+  },
+  {
+   "n": 7,
+   "title": "Sri Nrsimha",
+   "clean_title": "Sri Nrsimha",
+   "duration_ms": 296240,
+   "spotify_uri": "spotify:track:1i3BhrMmpOq2OCM4DKwmhy",
+   "spotify_url": "https://open.spotify.com/track/1i3BhrMmpOq2OCM4DKwmhy?si=Zus15_Z2TXuptKuI4HeFsQ",
+   "starts_at_ms": 1968585,
+   "starts_at": "32:48"
+  }
+ ],
+ "week": 13,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:22.729696+00:00"
+}
