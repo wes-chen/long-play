@@ -1,0 +1,131 @@
+{
+ "artist": "Deftones",
+ "album": "White Pony",
+ "spotify_uri": "spotify:album:5LEXck3kfixFaA3CqVE7bC",
+ "spotify_url": "https://open.spotify.com/album/5LEXck3kfixFaA3CqVE7bC?si=YzG_zbbOSQ-Fc-BSbxkh3Q",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Back to School (Mini Maggit)",
+   "clean_title": "Back to School (Mini Maggit)",
+   "duration_ms": 237360,
+   "spotify_uri": "spotify:track:0Qrb3L8JgreLBW8g4qyan9",
+   "spotify_url": "https://open.spotify.com/track/0Qrb3L8JgreLBW8g4qyan9?si=ZGUMspBhRiCQhoUi3DFOBg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Feiticeira",
+   "clean_title": "Feiticeira",
+   "duration_ms": 189760,
+   "spotify_uri": "spotify:track:0FpYnuKYFJXHAmHbS1CycY",
+   "spotify_url": "https://open.spotify.com/track/0FpYnuKYFJXHAmHbS1CycY?si=RQt-ZPiQR-6UvxaVAEMgcA",
+   "starts_at_ms": 237360,
+   "starts_at": "3:57"
+  },
+  {
+   "n": 3,
+   "title": "Digital Bath",
+   "clean_title": "Digital Bath",
+   "duration_ms": 255373,
+   "spotify_uri": "spotify:track:2jSJm3Gv6GLxduWLenmjKS",
+   "spotify_url": "https://open.spotify.com/track/2jSJm3Gv6GLxduWLenmjKS?si=GwWOYcA2ToufIqaANHeHDw",
+   "starts_at_ms": 427120,
+   "starts_at": "7:07"
+  },
+  {
+   "n": 4,
+   "title": "Elite",
+   "clean_title": "Elite",
+   "duration_ms": 241800,
+   "spotify_uri": "spotify:track:3jnYlchDDAiLzfkPPy12ig",
+   "spotify_url": "https://open.spotify.com/track/3jnYlchDDAiLzfkPPy12ig?si=rFSRW-NnTHSPgqxIVNoNzA",
+   "starts_at_ms": 682493,
+   "starts_at": "11:22"
+  },
+  {
+   "n": 5,
+   "title": "Rx Queen",
+   "clean_title": "Rx Queen",
+   "duration_ms": 268026,
+   "spotify_uri": "spotify:track:6HgrJfzfj9WRBABdussy8z",
+   "spotify_url": "https://open.spotify.com/track/6HgrJfzfj9WRBABdussy8z?si=8FC-GwX_QGWwbxStfVHsZg",
+   "starts_at_ms": 924293,
+   "starts_at": "15:24"
+  },
+  {
+   "n": 6,
+   "title": "Street Carp",
+   "clean_title": "Street Carp",
+   "duration_ms": 161600,
+   "spotify_uri": "spotify:track:5qNr7GnEmD3zA2oQTAdI3a",
+   "spotify_url": "https://open.spotify.com/track/5qNr7GnEmD3zA2oQTAdI3a?si=HT600ChLReSLnMbDLVy4gw",
+   "starts_at_ms": 1192319,
+   "starts_at": "19:52"
+  },
+  {
+   "n": 7,
+   "title": "Teenager",
+   "clean_title": "Teenager",
+   "duration_ms": 200466,
+   "spotify_uri": "spotify:track:3JVtnUPy4JhlbhQnfzw85l",
+   "spotify_url": "https://open.spotify.com/track/3JVtnUPy4JhlbhQnfzw85l?si=78dUePZRTMutVORS6VcocA",
+   "starts_at_ms": 1353919,
+   "starts_at": "22:33"
+  },
+  {
+   "n": 8,
+   "title": "Knife Prty",
+   "clean_title": "Knife Prty",
+   "duration_ms": 289200,
+   "spotify_uri": "spotify:track:42Kv1RoTAm09FeytxiuZIB",
+   "spotify_url": "https://open.spotify.com/track/42Kv1RoTAm09FeytxiuZIB?si=IiPJRhcnTrq0XYSZWHs44Q",
+   "starts_at_ms": 1554385,
+   "starts_at": "25:54"
+  },
+  {
+   "n": 9,
+   "title": "Korea",
+   "clean_title": "Korea",
+   "duration_ms": 203600,
+   "spotify_uri": "spotify:track:7cYKGj2j9AWNwQukTl2Jev",
+   "spotify_url": "https://open.spotify.com/track/7cYKGj2j9AWNwQukTl2Jev?si=FyB4jwhDRwOPH38If1Cn2Q",
+   "starts_at_ms": 1843585,
+   "starts_at": "30:43"
+  },
+  {
+   "n": 10,
+   "title": "Passenger",
+   "clean_title": "Passenger",
+   "duration_ms": 368666,
+   "spotify_uri": "spotify:track:7IoK6jZBxY7NMoQPoPXZCF",
+   "spotify_url": "https://open.spotify.com/track/7IoK6jZBxY7NMoQPoPXZCF?si=TJ-b9TzHRxG1vu4wbC4D0A",
+   "starts_at_ms": 2047185,
+   "starts_at": "34:07"
+  },
+  {
+   "n": 11,
+   "title": "Change (In the House of Flies)",
+   "clean_title": "Change (In the House of Flies)",
+   "duration_ms": 299533,
+   "spotify_uri": "spotify:track:51c94ac31swyDQj9B3Lzs3",
+   "spotify_url": "https://open.spotify.com/track/51c94ac31swyDQj9B3Lzs3?si=gfFgs1UJQrqDV4rt5N8m1w",
+   "starts_at_ms": 2415851,
+   "starts_at": "40:15"
+  },
+  {
+   "n": 12,
+   "title": "Pink Maggit",
+   "clean_title": "Pink Maggit",
+   "duration_ms": 453226,
+   "spotify_uri": "spotify:track:0FrT8a39eo6siL1yIxVGTP",
+   "spotify_url": "https://open.spotify.com/track/0FrT8a39eo6siL1yIxVGTP?si=rH1E0Y8zQsS8JiYKYog53g",
+   "starts_at_ms": 2715384,
+   "starts_at": "45:15"
+  }
+ ],
+ "week": 17,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:31:39.541508+00:00"
+}
