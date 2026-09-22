@@ -1,0 +1,21 @@
+{
+ "artist": "Brian Eno",
+ "album": "Ambient 1: Music for Airports",
+ "spotify_uri": "spotify:album:3mC0M0TrujmEDFGtUxJtqi",
+ "spotify_url": "https://open.spotify.com/album/3mC0M0TrujmEDFGtUxJtqi?si=LgBjnRl-R-eU3Rp-Ofl8yg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Music for Airports, 1/2 - Bows Version",
+   "clean_title": "Music for Airports, 1/2 - Bows Version",
+   "duration_ms": 257866,
+   "spotify_uri": "spotify:track:4Aiy9bOQdnX5Df5QcKetgg",
+   "spotify_url": "https://open.spotify.com/track/4Aiy9bOQdnX5Df5QcKetgg?si=oJhRgblLTiOJHBigCf1bKg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  }
+ ],
+ "week": 9,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:31:00.271197+00:00"
+}
