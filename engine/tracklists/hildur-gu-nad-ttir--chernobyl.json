@@ -1,0 +1,181 @@
+{
+ "artist": "Hildur Gu\u00f0nad\u00f3ttir",
+ "album": "Chernobyl",
+ "spotify_uri": "spotify:album:16bF6lLLeVcBNgYNreGjYZ",
+ "spotify_url": "https://open.spotify.com/album/16bF6lLLeVcBNgYNreGjYZ?si=TQ5PR1RxSqGcTkgV82wvVg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hoyt's Office",
+   "clean_title": "Hoyt's Office",
+   "duration_ms": 84760,
+   "spotify_uri": "spotify:track:1UdiJ6Y2eisfQQ76MZOX4B",
+   "spotify_url": "https://open.spotify.com/track/1UdiJ6Y2eisfQQ76MZOX4B?si=hh5Pq88OR2iWsIe1fK3Y4g",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Defeated Clown",
+   "clean_title": "Defeated Clown",
+   "duration_ms": 159266,
+   "spotify_uri": "spotify:track:2S2ASICVK0L1LtjaysKsel",
+   "spotify_url": "https://open.spotify.com/track/2S2ASICVK0L1LtjaysKsel?si=Pqn9I6Z-R_mvhll9u71P3w",
+   "starts_at_ms": 84760,
+   "starts_at": "1:24"
+  },
+  {
+   "n": 3,
+   "title": "Following Sophie",
+   "clean_title": "Following Sophie",
+   "duration_ms": 93213,
+   "spotify_uri": "spotify:track:3iX22wD2o9YQLvkXOPUHgx",
+   "spotify_url": "https://open.spotify.com/track/3iX22wD2o9YQLvkXOPUHgx?si=77QVsW47To6dSxaJB8dL4g",
+   "starts_at_ms": 244026,
+   "starts_at": "4:04"
+  },
+  {
+   "n": 4,
+   "title": "Penny in the Hospital",
+   "clean_title": "Penny in the Hospital",
+   "duration_ms": 78253,
+   "spotify_uri": "spotify:track:0J4ZIUe41KyDVDd4ZjgHak",
+   "spotify_url": "https://open.spotify.com/track/0J4ZIUe41KyDVDd4ZjgHak?si=pl4GfwhcTTiihLyXV8-9ag",
+   "starts_at_ms": 337239,
+   "starts_at": "5:37"
+  },
+  {
+   "n": 5,
+   "title": "Young Penny",
+   "clean_title": "Young Penny",
+   "duration_ms": 121813,
+   "spotify_uri": "spotify:track:0u2NLEpkGaPwFptuhWkVwY",
+   "spotify_url": "https://open.spotify.com/track/0u2NLEpkGaPwFptuhWkVwY?si=oJRPe3ziTNWMjqSFSkXwHA",
+   "starts_at_ms": 415492,
+   "starts_at": "6:55"
+  },
+  {
+   "n": 6,
+   "title": "Meeting Bruce Wayne",
+   "clean_title": "Meeting Bruce Wayne",
+   "duration_ms": 275760,
+   "spotify_uri": "spotify:track:5HaKAODFS4Md49bVyYSp1y",
+   "spotify_url": "https://open.spotify.com/track/5HaKAODFS4Md49bVyYSp1y?si=kuOSE7B0SSG4x5zl_UCj6Q",
+   "starts_at_ms": 537305,
+   "starts_at": "8:57"
+  },
+  {
+   "n": 7,
+   "title": "Hiding in the Fridge",
+   "clean_title": "Hiding in the Fridge",
+   "duration_ms": 83333,
+   "spotify_uri": "spotify:track:7v9PHznmxWpqLnDC2ZJXTB",
+   "spotify_url": "https://open.spotify.com/track/7v9PHznmxWpqLnDC2ZJXTB?si=fi6-oX9zRHOExCey_7Vuyg",
+   "starts_at_ms": 813065,
+   "starts_at": "13:33"
+  },
+  {
+   "n": 8,
+   "title": "A Bad Comedian",
+   "clean_title": "A Bad Comedian",
+   "duration_ms": 88493,
+   "spotify_uri": "spotify:track:5x7zV8WBDXfNCkUYOffc8d",
+   "spotify_url": "https://open.spotify.com/track/5x7zV8WBDXfNCkUYOffc8d?si=Gl1XlzlaRe6DKpTo9LLOCA",
+   "starts_at_ms": 896398,
+   "starts_at": "14:56"
+  },
+  {
+   "n": 9,
+   "title": "Arthur Comes to Sophie",
+   "clean_title": "Arthur Comes to Sophie",
+   "duration_ms": 99013,
+   "spotify_uri": "spotify:track:0dvAO2KbsqDZGv8g03JFRy",
+   "spotify_url": "https://open.spotify.com/track/0dvAO2KbsqDZGv8g03JFRy?si=SjIk60C5R-C00ffIYEZ8rw",
+   "starts_at_ms": 984891,
+   "starts_at": "16:24"
+  },
+  {
+   "n": 10,
+   "title": "Looking for Answers",
+   "clean_title": "Looking for Answers",
+   "duration_ms": 51106,
+   "spotify_uri": "spotify:track:6CYwk3fy8OPIy4ibjNlNv6",
+   "spotify_url": "https://open.spotify.com/track/6CYwk3fy8OPIy4ibjNlNv6?si=nWirHN_JTouXmr63ZGHfmQ",
+   "starts_at_ms": 1083904,
+   "starts_at": "18:03"
+  },
+  {
+   "n": 11,
+   "title": "Penny Taken to the Hospital",
+   "clean_title": "Penny Taken to the Hospital",
+   "duration_ms": 109426,
+   "spotify_uri": "spotify:track:40RaUosMp8ROAFVeqrKZGw",
+   "spotify_url": "https://open.spotify.com/track/40RaUosMp8ROAFVeqrKZGw?si=N9L1fLZIQR6GDqMz15ubRw",
+   "starts_at_ms": 1135010,
+   "starts_at": "18:55"
+  },
+  {
+   "n": 12,
+   "title": "Subway",
+   "clean_title": "Subway",
+   "duration_ms": 213666,
+   "spotify_uri": "spotify:track:5v4fLdYC2vnAZkNiUQOzMM",
+   "spotify_url": "https://open.spotify.com/track/5v4fLdYC2vnAZkNiUQOzMM?si=k_JFggnhQVOuyF_9SkWhUw",
+   "starts_at_ms": 1244436,
+   "starts_at": "20:44"
+  },
+  {
+   "n": 13,
+   "title": "Bathroom Dance",
+   "clean_title": "Bathroom Dance",
+   "duration_ms": 128280,
+   "spotify_uri": "spotify:track:4WiqPbWvLbv317E8fB4SJC",
+   "spotify_url": "https://open.spotify.com/track/4WiqPbWvLbv317E8fB4SJC?si=PCpfxwX4SA-bbEWtFDkprw",
+   "starts_at_ms": 1458102,
+   "starts_at": "24:18"
+  },
+  {
+   "n": 14,
+   "title": "Learning How to Act Normal",
+   "clean_title": "Learning How to Act Normal",
+   "duration_ms": 77600,
+   "spotify_uri": "spotify:track:0voDqz72ORk3JETp1OUZiz",
+   "spotify_url": "https://open.spotify.com/track/0voDqz72ORk3JETp1OUZiz?si=85DacLNLQSuXWgLk5XgmFw",
+   "starts_at_ms": 1586382,
+   "starts_at": "26:26"
+  },
+  {
+   "n": 15,
+   "title": "Confession",
+   "clean_title": "Confession",
+   "duration_ms": 89053,
+   "spotify_uri": "spotify:track:510PIa8YyYMp4rfeni1N07",
+   "spotify_url": "https://open.spotify.com/track/510PIa8YyYMp4rfeni1N07?si=gFOGn1AZQuakVKG8jWrIQQ",
+   "starts_at_ms": 1663982,
+   "starts_at": "27:43"
+  },
+  {
+   "n": 16,
+   "title": "Escape from the Train",
+   "clean_title": "Escape from the Train",
+   "duration_ms": 151493,
+   "spotify_uri": "spotify:track:73AkJzcsv5pm3uNqcUd9pZ",
+   "spotify_url": "https://open.spotify.com/track/73AkJzcsv5pm3uNqcUd9pZ?si=g0sTFhrASy-kvDtuUJsY7A",
+   "starts_at_ms": 1753035,
+   "starts_at": "29:13"
+  },
+  {
+   "n": 17,
+   "title": "Call Me Joker",
+   "clean_title": "Call Me Joker",
+   "duration_ms": 288800,
+   "spotify_uri": "spotify:track:257SoE95qEweGItCB9Q5rE",
+   "spotify_url": "https://open.spotify.com/track/257SoE95qEweGItCB9Q5rE?si=OAi54adtQ6ubEM4ISTxkWA",
+   "starts_at_ms": 1904528,
+   "starts_at": "31:44"
+  }
+ ],
+ "week": 23,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:32:10.346164+00:00"
+}
