@@ -1,0 +1,41 @@
+{
+ "artist": "Ravel",
+ "album": "Gaspard de la nuit",
+ "spotify_uri": "spotify:album:3RP8wgPIwvclLUxv0DiZ4N",
+ "spotify_url": "https://open.spotify.com/album/3RP8wgPIwvclLUxv0DiZ4N?si=uYD4j0YnQQqJxWAZ7khaHw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Ravel: Gaspard de la nuit, M. 55: I. Ondine",
+   "clean_title": "Ravel: Gaspard de la nuit, M. 55: I. Ondine",
+   "duration_ms": 407346,
+   "spotify_uri": "spotify:track:5yto65hFGOHkvTs6giQ6wV",
+   "spotify_url": "https://open.spotify.com/track/5yto65hFGOHkvTs6giQ6wV?si=mRRp1a3jRLaREPxVqa0SRQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Ravel: Gaspard de la nuit, M. 55: II. Le Gibet",
+   "clean_title": "Ravel: Gaspard de la nuit, M. 55: II. Le Gibet",
+   "duration_ms": 430853,
+   "spotify_uri": "spotify:track:3T1deHpPmQ8duImGmmaKvn",
+   "spotify_url": "https://open.spotify.com/track/3T1deHpPmQ8duImGmmaKvn?si=FC8Jn53WQ_qOJCG2tgLrxA",
+   "starts_at_ms": 407346,
+   "starts_at": "6:47"
+  },
+  {
+   "n": 3,
+   "title": "Ravel: Gaspard de la nuit, M. 55: III. Scarbo",
+   "clean_title": "Ravel: Gaspard de la nuit, M. 55: III. Scarbo",
+   "duration_ms": 550613,
+   "spotify_uri": "spotify:track:26hp179g7IoCJlvQGhEb8k",
+   "spotify_url": "https://open.spotify.com/track/26hp179g7IoCJlvQGhEb8k?si=iiL2Cc5xTuWupCHBkokn5g",
+   "starts_at_ms": 838199,
+   "starts_at": "13:58"
+  }
+ ],
+ "week": 22,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:32:04.271335+00:00"
+}
