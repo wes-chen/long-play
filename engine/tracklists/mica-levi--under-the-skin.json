@@ -1,0 +1,131 @@
+{
+ "artist": "Mica Levi",
+ "album": "Under the Skin",
+ "spotify_uri": "spotify:album:1AwRkRCdw9qAKRtzwKUYcC",
+ "spotify_url": "https://open.spotify.com/album/1AwRkRCdw9qAKRtzwKUYcC?si=sqvuSNzxS2CmP3H5nwFrYQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Creation",
+   "clean_title": "Creation",
+   "duration_ms": 166533,
+   "spotify_uri": "spotify:track:4CKpAiTlrc5S7hDEQ2LXeg",
+   "spotify_url": "https://open.spotify.com/track/4CKpAiTlrc5S7hDEQ2LXeg?si=Zo7IcnJDR8CC-YQxjGikoQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Lipstick To Void",
+   "clean_title": "Lipstick To Void",
+   "duration_ms": 401466,
+   "spotify_uri": "spotify:track:5KIhRQnLiJVPvbd7c8pp3P",
+   "spotify_url": "https://open.spotify.com/track/5KIhRQnLiJVPvbd7c8pp3P?si=dv7m2gO1RgG0jR00hyAYKA",
+   "starts_at_ms": 166533,
+   "starts_at": "2:46"
+  },
+  {
+   "n": 3,
+   "title": "Andrew Void",
+   "clean_title": "Andrew Void",
+   "duration_ms": 134133,
+   "spotify_uri": "spotify:track:2C69Z8ImbaR3Cluyjqy2a5",
+   "spotify_url": "https://open.spotify.com/track/2C69Z8ImbaR3Cluyjqy2a5?si=laXFlYRWRNOrVbhHpfm-VA",
+   "starts_at_ms": 567999,
+   "starts_at": "9:27"
+  },
+  {
+   "n": 4,
+   "title": "Meat To Maths",
+   "clean_title": "Meat To Maths",
+   "duration_ms": 120666,
+   "spotify_uri": "spotify:track:289ZnfoTCNP0u0FTTkdQAD",
+   "spotify_url": "https://open.spotify.com/track/289ZnfoTCNP0u0FTTkdQAD?si=XpEbgtQgSOi8dIXpl9DRgw",
+   "starts_at_ms": 702132,
+   "starts_at": "11:42"
+  },
+  {
+   "n": 5,
+   "title": "Drift",
+   "clean_title": "Drift",
+   "duration_ms": 418533,
+   "spotify_uri": "spotify:track:4zlBB27vdlwiquk0zcV37b",
+   "spotify_url": "https://open.spotify.com/track/4zlBB27vdlwiquk0zcV37b?si=bG45HM1BSp2LMk992Ndbgg",
+   "starts_at_ms": 822798,
+   "starts_at": "13:42"
+  },
+  {
+   "n": 6,
+   "title": "Lonely Void",
+   "clean_title": "Lonely Void",
+   "duration_ms": 218733,
+   "spotify_uri": "spotify:track:4BaIewmQYzH77ovTPxhZnX",
+   "spotify_url": "https://open.spotify.com/track/4BaIewmQYzH77ovTPxhZnX?si=jM5shlHxQ-KgyTjiN9bfIg",
+   "starts_at_ms": 1241331,
+   "starts_at": "20:41"
+  },
+  {
+   "n": 7,
+   "title": "Mirror To Vortex",
+   "clean_title": "Mirror To Vortex",
+   "duration_ms": 155840,
+   "spotify_uri": "spotify:track:064ZUbM8DtZGg7KxODZCrN",
+   "spotify_url": "https://open.spotify.com/track/064ZUbM8DtZGg7KxODZCrN?si=qlbyDoMiQLGq2gJdwPhdHw",
+   "starts_at_ms": 1460064,
+   "starts_at": "24:20"
+  },
+  {
+   "n": 8,
+   "title": "Bedroom",
+   "clean_title": "Bedroom",
+   "duration_ms": 90320,
+   "spotify_uri": "spotify:track:3Is0fEg21iIng5nl9sQysr",
+   "spotify_url": "https://open.spotify.com/track/3Is0fEg21iIng5nl9sQysr?si=8ZT4_OORQG2x4z_yckHxIQ",
+   "starts_at_ms": 1615904,
+   "starts_at": "26:55"
+  },
+  {
+   "n": 9,
+   "title": "Love",
+   "clean_title": "Love",
+   "duration_ms": 310040,
+   "spotify_uri": "spotify:track:5S36WlMtVP72Cdooxvg8C5",
+   "spotify_url": "https://open.spotify.com/track/5S36WlMtVP72Cdooxvg8C5?si=53iEh7HgSTG-P6WlP7KKJQ",
+   "starts_at_ms": 1706224,
+   "starts_at": "28:26"
+  },
+  {
+   "n": 10,
+   "title": "Bothy",
+   "clean_title": "Bothy",
+   "duration_ms": 82160,
+   "spotify_uri": "spotify:track:29dmwZpz9ehjbjo2ZuRiDn",
+   "spotify_url": "https://open.spotify.com/track/29dmwZpz9ehjbjo2ZuRiDn?si=Vhnp1DQlSmm0trx3dLaATw",
+   "starts_at_ms": 2016264,
+   "starts_at": "33:36"
+  },
+  {
+   "n": 11,
+   "title": "Death",
+   "clean_title": "Death",
+   "duration_ms": 279066,
+   "spotify_uri": "spotify:track:6biNb08xv6ZMRlsjICZGDu",
+   "spotify_url": "https://open.spotify.com/track/6biNb08xv6ZMRlsjICZGDu?si=ce1yvfqMRRGNVvuoxPqRVw",
+   "starts_at_ms": 2098424,
+   "starts_at": "34:58"
+  },
+  {
+   "n": 12,
+   "title": "Alien Loop",
+   "clean_title": "Alien Loop",
+   "duration_ms": 440066,
+   "spotify_uri": "spotify:track:3AsTKMfTgxdfYbbs1mpCeL",
+   "spotify_url": "https://open.spotify.com/track/3AsTKMfTgxdfYbbs1mpCeL?si=bGQJhxSWQxqsaOgi0Ga9jQ",
+   "starts_at_ms": 2377490,
+   "starts_at": "39:37"
+  }
+ ],
+ "week": 23,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:32:11.227103+00:00"
+}
