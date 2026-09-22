@@ -1,0 +1,111 @@
+{
+ "artist": "Joni Mitchell",
+ "album": "Blue",
+ "spotify_uri": "spotify:album:1vz94WpXDVYIEGja8cjFNa",
+ "spotify_url": "https://open.spotify.com/album/1vz94WpXDVYIEGja8cjFNa?si=Amu5EmGZR4W_vuvBz6sj4A",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "All I Want",
+   "clean_title": "All I Want",
+   "duration_ms": 214240,
+   "spotify_uri": "spotify:track:7jeSFewaQLq8t2x8OZFQxZ",
+   "spotify_url": "https://open.spotify.com/track/7jeSFewaQLq8t2x8OZFQxZ?si=G_eKwxhMSXm4DfAh792AZA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "My Old Man",
+   "clean_title": "My Old Man",
+   "duration_ms": 214826,
+   "spotify_uri": "spotify:track:6NQRhp9Vv5RRySazV7ttBl",
+   "spotify_url": "https://open.spotify.com/track/6NQRhp9Vv5RRySazV7ttBl?si=yld2UNgtR-K0kloVOduyQw",
+   "starts_at_ms": 214240,
+   "starts_at": "3:34"
+  },
+  {
+   "n": 3,
+   "title": "Little Green",
+   "clean_title": "Little Green",
+   "duration_ms": 207506,
+   "spotify_uri": "spotify:track:11ZNWD9Xzq9p3n07NbWSZw",
+   "spotify_url": "https://open.spotify.com/track/11ZNWD9Xzq9p3n07NbWSZw?si=ahMitHpXS6KUDjs_nMchKg",
+   "starts_at_ms": 429066,
+   "starts_at": "7:09"
+  },
+  {
+   "n": 4,
+   "title": "Carey",
+   "clean_title": "Carey",
+   "duration_ms": 182906,
+   "spotify_uri": "spotify:track:11dUk8E2z8Oj1JURwl7GJd",
+   "spotify_url": "https://open.spotify.com/track/11dUk8E2z8Oj1JURwl7GJd?si=-IQj2Y1QTYWCuRppH1CtKQ",
+   "starts_at_ms": 636572,
+   "starts_at": "10:36"
+  },
+  {
+   "n": 5,
+   "title": "Blue",
+   "clean_title": "Blue",
+   "duration_ms": 177253,
+   "spotify_uri": "spotify:track:1yWIsH3TC51gmzvQxZNCQC",
+   "spotify_url": "https://open.spotify.com/track/1yWIsH3TC51gmzvQxZNCQC?si=YPWkGS5RTTKVxbtjxGXINQ",
+   "starts_at_ms": 819478,
+   "starts_at": "13:39"
+  },
+  {
+   "n": 6,
+   "title": "California",
+   "clean_title": "California",
+   "duration_ms": 230226,
+   "spotify_uri": "spotify:track:5eM6Rrk8rwLpUhrh7Kk5R1",
+   "spotify_url": "https://open.spotify.com/track/5eM6Rrk8rwLpUhrh7Kk5R1?si=YwM3mCxHQV-7M5TZAdGsYg",
+   "starts_at_ms": 996731,
+   "starts_at": "16:36"
+  },
+  {
+   "n": 7,
+   "title": "This Flight Tonight",
+   "clean_title": "This Flight Tonight",
+   "duration_ms": 172600,
+   "spotify_uri": "spotify:track:0bpXQ5CZ9rzAaGUSPKzI1r",
+   "spotify_url": "https://open.spotify.com/track/0bpXQ5CZ9rzAaGUSPKzI1r?si=_wIWp5DWR9KGXfOeJOQRsw",
+   "starts_at_ms": 1226957,
+   "starts_at": "20:26"
+  },
+  {
+   "n": 8,
+   "title": "River",
+   "clean_title": "River",
+   "duration_ms": 245040,
+   "spotify_uri": "spotify:track:0DAmSYQW9kq9gQNDI002KP",
+   "spotify_url": "https://open.spotify.com/track/0DAmSYQW9kq9gQNDI002KP?si=r-NeBknvRxmNNtEh-7QkyQ",
+   "starts_at_ms": 1399557,
+   "starts_at": "23:19"
+  },
+  {
+   "n": 9,
+   "title": "A Case of You",
+   "clean_title": "A Case of You",
+   "duration_ms": 263480,
+   "spotify_uri": "spotify:track:7shVwhUdVbHpykOfbzvDc1",
+   "spotify_url": "https://open.spotify.com/track/7shVwhUdVbHpykOfbzvDc1?si=Mpxm9l8rQLKs_NC6WugBZw",
+   "starts_at_ms": 1644597,
+   "starts_at": "27:24"
+  },
+  {
+   "n": 10,
+   "title": "The Last Time I Saw Richard",
+   "clean_title": "The Last Time I Saw Richard",
+   "duration_ms": 256773,
+   "spotify_uri": "spotify:track:5LZLOOTwrA0HgTszqCgZ3C",
+   "spotify_url": "https://open.spotify.com/track/5LZLOOTwrA0HgTszqCgZ3C?si=WP0dXSO7Rj-aaKBO_Q0UKg",
+   "starts_at_ms": 1908077,
+   "starts_at": "31:48"
+  }
+ ],
+ "week": 16,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:31:33.563431+00:00"
+}
