@@ -1,0 +1,181 @@
+{
+ "artist": "Frank Ocean",
+ "album": "Blonde",
+ "spotify_uri": "spotify:album:3mH6qwIy9crq0I9YQbOuDf",
+ "spotify_url": "https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf?si=6bLRULoYT5Oa_4Pa2b-5AA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Nikes",
+   "clean_title": "Nikes",
+   "duration_ms": 314075,
+   "spotify_uri": "spotify:track:19YKaevk2bce4odJkP5L22",
+   "spotify_url": "https://open.spotify.com/track/19YKaevk2bce4odJkP5L22?si=kmBqWP1tS1eT3ZfO1IAUTA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Ivy",
+   "clean_title": "Ivy",
+   "duration_ms": 249191,
+   "spotify_uri": "spotify:track:2ZWlPOoWh0626oTaHrnl2a",
+   "spotify_url": "https://open.spotify.com/track/2ZWlPOoWh0626oTaHrnl2a?si=OYIbf28lR9Gq1ysVwT3WlQ",
+   "starts_at_ms": 314075,
+   "starts_at": "5:14"
+  },
+  {
+   "n": 3,
+   "title": "Pink + White",
+   "clean_title": "Pink + White",
+   "duration_ms": 184516,
+   "spotify_uri": "spotify:track:3xKsf9qdS1CyvXSMEid6g8",
+   "spotify_url": "https://open.spotify.com/track/3xKsf9qdS1CyvXSMEid6g8?si=0Ci5LtvkQYqC70_RVpDBMw",
+   "starts_at_ms": 563266,
+   "starts_at": "9:23"
+  },
+  {
+   "n": 4,
+   "title": "Be Yourself",
+   "clean_title": "Be Yourself",
+   "duration_ms": 86943,
+   "spotify_uri": "spotify:track:1IdZvb2XK8NmsovQlV6CPn",
+   "spotify_url": "https://open.spotify.com/track/1IdZvb2XK8NmsovQlV6CPn?si=Cm23mjmERgeV6PQPx6Vbvw",
+   "starts_at_ms": 747782,
+   "starts_at": "12:27"
+  },
+  {
+   "n": 5,
+   "title": "Solo",
+   "clean_title": "Solo",
+   "duration_ms": 257380,
+   "spotify_uri": "spotify:track:35xSkNIXi504fcEwz9USRB",
+   "spotify_url": "https://open.spotify.com/track/35xSkNIXi504fcEwz9USRB?si=7WC_9nSJSuSdRM0gGZWOdg",
+   "starts_at_ms": 834725,
+   "starts_at": "13:54"
+  },
+  {
+   "n": 6,
+   "title": "Skyline To",
+   "clean_title": "Skyline To",
+   "duration_ms": 184600,
+   "spotify_uri": "spotify:track:4xR3MAscflQ262kMeiKshQ",
+   "spotify_url": "https://open.spotify.com/track/4xR3MAscflQ262kMeiKshQ?si=vKyNvy0uR9G2XlCHWUgokg",
+   "starts_at_ms": 1092105,
+   "starts_at": "18:12"
+  },
+  {
+   "n": 7,
+   "title": "Self Control",
+   "clean_title": "Self Control",
+   "duration_ms": 249667,
+   "spotify_uri": "spotify:track:5GUYJTQap5F3RDQiCOJhrS",
+   "spotify_url": "https://open.spotify.com/track/5GUYJTQap5F3RDQiCOJhrS?si=vnDrwZgAQJ27PJaRaGO9YQ",
+   "starts_at_ms": 1276705,
+   "starts_at": "21:16"
+  },
+  {
+   "n": 8,
+   "title": "Good Guy",
+   "clean_title": "Good Guy",
+   "duration_ms": 66786,
+   "spotify_uri": "spotify:track:2JUqYobT8NvARdPmc4ES2x",
+   "spotify_url": "https://open.spotify.com/track/2JUqYobT8NvARdPmc4ES2x?si=KA5kaP3wQVOpbXm1lzELgQ",
+   "starts_at_ms": 1526372,
+   "starts_at": "25:26"
+  },
+  {
+   "n": 9,
+   "title": "Nights",
+   "clean_title": "Nights",
+   "duration_ms": 307151,
+   "spotify_uri": "spotify:track:7eqoqGkKwgOaWNNHx90uEZ",
+   "spotify_url": "https://open.spotify.com/track/7eqoqGkKwgOaWNNHx90uEZ?si=UPeWT8rGQ-CiyvlksMHMDg",
+   "starts_at_ms": 1593158,
+   "starts_at": "26:33"
+  },
+  {
+   "n": 10,
+   "title": "Solo (Reprise)",
+   "clean_title": "Solo (Reprise)",
+   "duration_ms": 78742,
+   "spotify_uri": "spotify:track:2qtoRFCOEL1gRn5q9DJC7F",
+   "spotify_url": "https://open.spotify.com/track/2qtoRFCOEL1gRn5q9DJC7F?si=OBUEte2gRDWRCwryrI6eKQ",
+   "starts_at_ms": 1900309,
+   "starts_at": "31:40"
+  },
+  {
+   "n": 11,
+   "title": "Pretty Sweet",
+   "clean_title": "Pretty Sweet",
+   "duration_ms": 158478,
+   "spotify_uri": "spotify:track:17yrCsl1Ai6CZLBmGj6d6p",
+   "spotify_url": "https://open.spotify.com/track/17yrCsl1Ai6CZLBmGj6d6p?si=vw4mLEBKSU6X_BCzmHt7-Q",
+   "starts_at_ms": 1979051,
+   "starts_at": "32:59"
+  },
+  {
+   "n": 12,
+   "title": "Facebook Story",
+   "clean_title": "Facebook Story",
+   "duration_ms": 68588,
+   "spotify_uri": "spotify:track:73D5hBkiVZkopZrmBZTBWf",
+   "spotify_url": "https://open.spotify.com/track/73D5hBkiVZkopZrmBZTBWf?si=lwBWWs28SuSCMrRUtko9cw",
+   "starts_at_ms": 2137529,
+   "starts_at": "35:37"
+  },
+  {
+   "n": 13,
+   "title": "Close To You",
+   "clean_title": "Close To You",
+   "duration_ms": 85754,
+   "spotify_uri": "spotify:track:1VZLEW5ZfcAbKZ94XQiSZF",
+   "spotify_url": "https://open.spotify.com/track/1VZLEW5ZfcAbKZ94XQiSZF?si=9IESJs9iRNeqTr7c5B78yw",
+   "starts_at_ms": 2206117,
+   "starts_at": "36:46"
+  },
+  {
+   "n": 14,
+   "title": "White Ferrari",
+   "clean_title": "White Ferrari",
+   "duration_ms": 248807,
+   "spotify_uri": "spotify:track:2LMkwUfqC6S6s6qDVlEuzV",
+   "spotify_url": "https://open.spotify.com/track/2LMkwUfqC6S6s6qDVlEuzV?si=n2cgoaY8QUWWlZ9UyV1PZQ",
+   "starts_at_ms": 2291871,
+   "starts_at": "38:11"
+  },
+  {
+   "n": 15,
+   "title": "Seigfried",
+   "clean_title": "Seigfried",
+   "duration_ms": 334570,
+   "spotify_uri": "spotify:track:1BViPjTT585XAhkUUrkts0",
+   "spotify_url": "https://open.spotify.com/track/1BViPjTT585XAhkUUrkts0?si=GowOHF_HTL6gifjKCd3esg",
+   "starts_at_ms": 2540678,
+   "starts_at": "42:20"
+  },
+  {
+   "n": 16,
+   "title": "Godspeed",
+   "clean_title": "Godspeed",
+   "duration_ms": 177922,
+   "spotify_uri": "spotify:track:34xTFwjPQ1dC6uJmleno7x",
+   "spotify_url": "https://open.spotify.com/track/34xTFwjPQ1dC6uJmleno7x?si=gYTKRit5QSqWSLNO7OC1_Q",
+   "starts_at_ms": 2875248,
+   "starts_at": "47:55"
+  },
+  {
+   "n": 17,
+   "title": "Futura Free",
+   "clean_title": "Futura Free",
+   "duration_ms": 564165,
+   "spotify_uri": "spotify:track:5k8LB57xOq8UUNVaKWSqrf",
+   "spotify_url": "https://open.spotify.com/track/5k8LB57xOq8UUNVaKWSqrf?si=l470STfPTRashnsMt_xOng",
+   "starts_at_ms": 3053170,
+   "starts_at": "50:53"
+  }
+ ],
+ "week": 5,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:30:40.655576+00:00"
+}
