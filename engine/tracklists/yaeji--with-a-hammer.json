@@ -1,0 +1,141 @@
+{
+ "artist": "Yaeji",
+ "album": "With a Hammer",
+ "spotify_uri": "spotify:album:2VYo0PSqdxVTMI0ydKUtoL",
+ "spotify_url": "https://open.spotify.com/album/2VYo0PSqdxVTMI0ydKUtoL?si=6KAbELG5So-UkTJ0jn4-6g",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Submerge FM",
+   "clean_title": "Submerge FM",
+   "duration_ms": 205306,
+   "spotify_uri": "spotify:track:7n5e6Snjp8tbqwzAPoYjXn",
+   "spotify_url": "https://open.spotify.com/track/7n5e6Snjp8tbqwzAPoYjXn?si=JBoZH1ZUQBK0k2zx__CXxg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "For Granted",
+   "clean_title": "For Granted",
+   "duration_ms": 161946,
+   "spotify_uri": "spotify:track:6YmhApkbGfwiXlQ5tdyJbL",
+   "spotify_url": "https://open.spotify.com/track/6YmhApkbGfwiXlQ5tdyJbL?si=a_ZyB_s6T9OvuByspqIFiA",
+   "starts_at_ms": 205306,
+   "starts_at": "3:25"
+  },
+  {
+   "n": 3,
+   "title": "Fever",
+   "clean_title": "Fever",
+   "duration_ms": 248973,
+   "spotify_uri": "spotify:track:4uCwlBl11LtnGk4WpsIyOE",
+   "spotify_url": "https://open.spotify.com/track/4uCwlBl11LtnGk4WpsIyOE?si=wsqmRahpQaqNxfyBTQv3xA",
+   "starts_at_ms": 367252,
+   "starts_at": "6:07"
+  },
+  {
+   "n": 4,
+   "title": "Passed Me By",
+   "clean_title": "Passed Me By",
+   "duration_ms": 243173,
+   "spotify_uri": "spotify:track:57dUowZzkeMGBLLrfxeqcb",
+   "spotify_url": "https://open.spotify.com/track/57dUowZzkeMGBLLrfxeqcb?si=pWLCVkFTQSiHIrFnZ0Wt7Q",
+   "starts_at_ms": 616225,
+   "starts_at": "10:16"
+  },
+  {
+   "n": 5,
+   "title": "With A Hammer",
+   "clean_title": "With A Hammer",
+   "duration_ms": 225933,
+   "spotify_uri": "spotify:track:2RgQKoWxEB6KGu8h4a7R46",
+   "spotify_url": "https://open.spotify.com/track/2RgQKoWxEB6KGu8h4a7R46?si=jEdc9jfpQ0qv1lf_J4OkuQ",
+   "starts_at_ms": 859398,
+   "starts_at": "14:19"
+  },
+  {
+   "n": 6,
+   "title": "I'll Remember For Me, I'll Remember For You",
+   "clean_title": "I'll Remember For Me, I'll Remember For You",
+   "duration_ms": 122600,
+   "spotify_uri": "spotify:track:4TQTxlRQkVkQAtRkZvtlSS",
+   "spotify_url": "https://open.spotify.com/track/4TQTxlRQkVkQAtRkZvtlSS?si=ts9cOAcLQj6IoHMsAcOmew",
+   "starts_at_ms": 1085331,
+   "starts_at": "18:05"
+  },
+  {
+   "n": 7,
+   "title": "Done (Let's Get It)",
+   "clean_title": "Done (Let's Get It)",
+   "duration_ms": 172613,
+   "spotify_uri": "spotify:track:6kmrQVMDgQGKU7zW460x3I",
+   "spotify_url": "https://open.spotify.com/track/6kmrQVMDgQGKU7zW460x3I?si=pEQ1bWGiSpSa0R5Iy5J0Ng",
+   "starts_at_ms": 1207931,
+   "starts_at": "20:07"
+  },
+  {
+   "n": 8,
+   "title": "Ready or Not",
+   "clean_title": "Ready or Not",
+   "duration_ms": 271893,
+   "spotify_uri": "spotify:track:1gRSwhh1QmmsEfp2wB44Iq",
+   "spotify_url": "https://open.spotify.com/track/1gRSwhh1QmmsEfp2wB44Iq?si=lzTSeX8LT5COtMVOnm1O3g",
+   "starts_at_ms": 1380544,
+   "starts_at": "23:00"
+  },
+  {
+   "n": 9,
+   "title": "Michin",
+   "clean_title": "Michin",
+   "duration_ms": 213880,
+   "spotify_uri": "spotify:track:3kP8ole19xwHdHj1DKN0PC",
+   "spotify_url": "https://open.spotify.com/track/3kP8ole19xwHdHj1DKN0PC?si=8_8NzTbRTAGsh349FY0N8w",
+   "starts_at_ms": 1652437,
+   "starts_at": "27:32"
+  },
+  {
+   "n": 10,
+   "title": "Away x5",
+   "clean_title": "Away x5",
+   "duration_ms": 153066,
+   "spotify_uri": "spotify:track:2SfC5ESU0UwDyVlYLOtmli",
+   "spotify_url": "https://open.spotify.com/track/2SfC5ESU0UwDyVlYLOtmli?si=5Lp3XptzSgudebWjBzqUTg",
+   "starts_at_ms": 1866317,
+   "starts_at": "31:06"
+  },
+  {
+   "n": 11,
+   "title": "Happy",
+   "clean_title": "Happy",
+   "duration_ms": 239080,
+   "spotify_uri": "spotify:track:6D0yO8i46nW7qn8mDxsKTJ",
+   "spotify_url": "https://open.spotify.com/track/6D0yO8i46nW7qn8mDxsKTJ?si=TQds8ZehRu-2nZmX62o7rA",
+   "starts_at_ms": 2019383,
+   "starts_at": "33:39"
+  },
+  {
+   "n": 12,
+   "title": "1 Thing To Smash",
+   "clean_title": "1 Thing To Smash",
+   "duration_ms": 195480,
+   "spotify_uri": "spotify:track:6Jti0GHsuVCsLCjqf6S5ZZ",
+   "spotify_url": "https://open.spotify.com/track/6Jti0GHsuVCsLCjqf6S5ZZ?si=lSaQhOPwSU2xsPVIap6h5Q",
+   "starts_at_ms": 2258463,
+   "starts_at": "37:38"
+  },
+  {
+   "n": 13,
+   "title": "Be Alone In This",
+   "clean_title": "Be Alone In This",
+   "duration_ms": 165920,
+   "spotify_uri": "spotify:track:6hB2yfZV3EW3CxkU7WkOo1",
+   "spotify_url": "https://open.spotify.com/track/6hB2yfZV3EW3CxkU7WkOo1?si=0ZEuX2kdRQCKaUiUjDF4qw",
+   "starts_at_ms": 2453943,
+   "starts_at": "40:53"
+  }
+ ],
+ "week": 20,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:53.860106+00:00"
+}
