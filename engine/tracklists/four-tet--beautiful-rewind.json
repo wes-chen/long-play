@@ -1,0 +1,121 @@
+{
+ "artist": "Four Tet",
+ "album": "Beautiful Rewind",
+ "spotify_uri": "spotify:album:7gN7gWms3Uz0GLLtLYHybk",
+ "spotify_url": "https://open.spotify.com/album/7gN7gWms3Uz0GLLtLYHybk?si=vtnzSsz7RDCJgwrc7zQXrw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Gong",
+   "clean_title": "Gong",
+   "duration_ms": 194922,
+   "spotify_uri": "spotify:track:0zxw7oUcWVO5S4SKNyibzz",
+   "spotify_url": "https://open.spotify.com/track/0zxw7oUcWVO5S4SKNyibzz?si=Ut0DVBnjTMu3FRTUDPCl1w",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Parallel Jalebi",
+   "clean_title": "Parallel Jalebi",
+   "duration_ms": 233882,
+   "spotify_uri": "spotify:track:73cn6vDBBOS74HXf27l9t4",
+   "spotify_url": "https://open.spotify.com/track/73cn6vDBBOS74HXf27l9t4?si=YbXWSPMETUqp5nUEnZ7SVA",
+   "starts_at_ms": 194922,
+   "starts_at": "3:14"
+  },
+  {
+   "n": 3,
+   "title": "Our Navigation",
+   "clean_title": "Our Navigation",
+   "duration_ms": 233595,
+   "spotify_uri": "spotify:track:7GfVMqaBfm2cSgsqnO5qPj",
+   "spotify_url": "https://open.spotify.com/track/7GfVMqaBfm2cSgsqnO5qPj?si=g_X862DETW-PrPuZeDAkKA",
+   "starts_at_ms": 428804,
+   "starts_at": "7:08"
+  },
+  {
+   "n": 4,
+   "title": "Ba Teaches Yoga",
+   "clean_title": "Ba Teaches Yoga",
+   "duration_ms": 199873,
+   "spotify_uri": "spotify:track:4gKUybezMhjRvoKmTfrNHO",
+   "spotify_url": "https://open.spotify.com/track/4gKUybezMhjRvoKmTfrNHO?si=HM4gZbBCSM2IxmpNb14QxQ",
+   "starts_at_ms": 662399,
+   "starts_at": "11:02"
+  },
+  {
+   "n": 5,
+   "title": "Kool FM",
+   "clean_title": "Kool FM",
+   "duration_ms": 309269,
+   "spotify_uri": "spotify:track:4cOh2zxZHeltmzVDFC3Nyn",
+   "spotify_url": "https://open.spotify.com/track/4cOh2zxZHeltmzVDFC3Nyn?si=-wyAXprWSK21os3E6FL2-A",
+   "starts_at_ms": 862272,
+   "starts_at": "14:22"
+  },
+  {
+   "n": 6,
+   "title": "Crush",
+   "clean_title": "Crush",
+   "duration_ms": 145798,
+   "spotify_uri": "spotify:track:6GArDCIo6ScjYQgMPtca8c",
+   "spotify_url": "https://open.spotify.com/track/6GArDCIo6ScjYQgMPtca8c?si=qSZ9anPMS221_pD7KUb5yQ",
+   "starts_at_ms": 1171541,
+   "starts_at": "19:31"
+  },
+  {
+   "n": 7,
+   "title": "Buchla",
+   "clean_title": "Buchla",
+   "duration_ms": 251858,
+   "spotify_uri": "spotify:track:1gUFqfi5WHugd5LFJUktWE",
+   "spotify_url": "https://open.spotify.com/track/1gUFqfi5WHugd5LFJUktWE?si=zEn_RFI5QUeteg3abGuvnw",
+   "starts_at_ms": 1317339,
+   "starts_at": "21:57"
+  },
+  {
+   "n": 8,
+   "title": "Aerial",
+   "clean_title": "Aerial",
+   "duration_ms": 356867,
+   "spotify_uri": "spotify:track:206B9hfye0qhMsAy45r6Su",
+   "spotify_url": "https://open.spotify.com/track/206B9hfye0qhMsAy45r6Su?si=3FSk3m4PQKyPllmtLgI5sg",
+   "starts_at_ms": 1569197,
+   "starts_at": "26:09"
+  },
+  {
+   "n": 9,
+   "title": "Ever Never",
+   "clean_title": "Ever Never",
+   "duration_ms": 31621,
+   "spotify_uri": "spotify:track:4ftI4MoJrPb1DkfhLr5Cnq",
+   "spotify_url": "https://open.spotify.com/track/4ftI4MoJrPb1DkfhLr5Cnq?si=DBQDjG1zSeGXy1F26iLRqg",
+   "starts_at_ms": 1926064,
+   "starts_at": "32:06"
+  },
+  {
+   "n": 10,
+   "title": "Unicorn",
+   "clean_title": "Unicorn",
+   "duration_ms": 210993,
+   "spotify_uri": "spotify:track:5HbQmBAlDCO4ksmcbvAeHX",
+   "spotify_url": "https://open.spotify.com/track/5HbQmBAlDCO4ksmcbvAeHX?si=v6DP6ZfFRKK9d1AniKbgiQ",
+   "starts_at_ms": 1957685,
+   "starts_at": "32:37"
+  },
+  {
+   "n": 11,
+   "title": "Your Body Feels",
+   "clean_title": "Your Body Feels",
+   "duration_ms": 243438,
+   "spotify_uri": "spotify:track:6c27svZZ0wwmjn6JTP7aGW",
+   "spotify_url": "https://open.spotify.com/track/6c27svZZ0wwmjn6JTP7aGW?si=-CSPC7MWSdC3NLLP1BFQPg",
+   "starts_at_ms": 2168678,
+   "starts_at": "36:08"
+  }
+ ],
+ "week": 1,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:24.780296+00:00"
+}
