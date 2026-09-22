@@ -1,0 +1,121 @@
+{
+ "artist": "Chelsea Wolfe",
+ "album": "Abyss",
+ "spotify_uri": "spotify:album:7lJjly9VUQie2Jc5Wg0nPz",
+ "spotify_url": "https://open.spotify.com/album/7lJjly9VUQie2Jc5Wg0nPz?si=uDZQ6x69TieAbU-mupTAQg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Carrion Flowers",
+   "clean_title": "Carrion Flowers",
+   "duration_ms": 290736,
+   "spotify_uri": "spotify:track:1CxQcw6AI6zjV01dN4NSfp",
+   "spotify_url": "https://open.spotify.com/track/1CxQcw6AI6zjV01dN4NSfp?si=l8K_CvdoRB2LkZqeOFkdcg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Iron Moon",
+   "clean_title": "Iron Moon",
+   "duration_ms": 346852,
+   "spotify_uri": "spotify:track:2ZkYBSJZILpF5IZkuhnPmD",
+   "spotify_url": "https://open.spotify.com/track/2ZkYBSJZILpF5IZkuhnPmD?si=9ghGnhsZRo28czRXrs0j6g",
+   "starts_at_ms": 290736,
+   "starts_at": "4:50"
+  },
+  {
+   "n": 3,
+   "title": "Dragged Out",
+   "clean_title": "Dragged Out",
+   "duration_ms": 260498,
+   "spotify_uri": "spotify:track:6N5ClEfXri4aiZ1NSNWSO9",
+   "spotify_url": "https://open.spotify.com/track/6N5ClEfXri4aiZ1NSNWSO9?si=7v_2blKXQS6NNeyUdQp_Ow",
+   "starts_at_ms": 637588,
+   "starts_at": "10:37"
+  },
+  {
+   "n": 4,
+   "title": "Maw",
+   "clean_title": "Maw",
+   "duration_ms": 354328,
+   "spotify_uri": "spotify:track:08lcA6sxMxwfbfSsiQNKvs",
+   "spotify_url": "https://open.spotify.com/track/08lcA6sxMxwfbfSsiQNKvs?si=U3iRNcRQQkSqEYxw9eN5Bw",
+   "starts_at_ms": 898086,
+   "starts_at": "14:58"
+  },
+  {
+   "n": 5,
+   "title": "Grey Days",
+   "clean_title": "Grey Days",
+   "duration_ms": 319754,
+   "spotify_uri": "spotify:track:7jkv2E9X1XnWTZlvioevq8",
+   "spotify_url": "https://open.spotify.com/track/7jkv2E9X1XnWTZlvioevq8?si=7FcCeVo7R-ezNecGCKyHjA",
+   "starts_at_ms": 1252414,
+   "starts_at": "20:52"
+  },
+  {
+   "n": 6,
+   "title": "After the Fall",
+   "clean_title": "After the Fall",
+   "duration_ms": 335903,
+   "spotify_uri": "spotify:track:239xp9nNzsV1MRNUHnjll8",
+   "spotify_url": "https://open.spotify.com/track/239xp9nNzsV1MRNUHnjll8?si=YRpA_NXKTsmniO43o8Nitw",
+   "starts_at_ms": 1572168,
+   "starts_at": "26:12"
+  },
+  {
+   "n": 7,
+   "title": "Crazy Love",
+   "clean_title": "Crazy Love",
+   "duration_ms": 213784,
+   "spotify_uri": "spotify:track:7txbHuwA4tcKHVSPFp65bF",
+   "spotify_url": "https://open.spotify.com/track/7txbHuwA4tcKHVSPFp65bF?si=9zf24rczSnWKGL8LW7Oa3A",
+   "starts_at_ms": 1908071,
+   "starts_at": "31:48"
+  },
+  {
+   "n": 8,
+   "title": "Simple Death",
+   "clean_title": "Simple Death",
+   "duration_ms": 322289,
+   "spotify_uri": "spotify:track:08S8nvFyrcr9anyZQ5SrWL",
+   "spotify_url": "https://open.spotify.com/track/08S8nvFyrcr9anyZQ5SrWL?si=3oQ69ZcsR8e25H6l8bM0Vg",
+   "starts_at_ms": 2121855,
+   "starts_at": "35:21"
+  },
+  {
+   "n": 9,
+   "title": "Survive",
+   "clean_title": "Survive",
+   "duration_ms": 338781,
+   "spotify_uri": "spotify:track:5ShX3ECTJQvehMfqulSZ4n",
+   "spotify_url": "https://open.spotify.com/track/5ShX3ECTJQvehMfqulSZ4n?si=WlhdDKOTSoaa2zkR4sLQAw",
+   "starts_at_ms": 2444144,
+   "starts_at": "40:44"
+  },
+  {
+   "n": 10,
+   "title": "Color of Blood",
+   "clean_title": "Color of Blood",
+   "duration_ms": 288618,
+   "spotify_uri": "spotify:track:00YobD9sFMHAMX1M1iyOsE",
+   "spotify_url": "https://open.spotify.com/track/00YobD9sFMHAMX1M1iyOsE?si=YI-aiG31Q3ePHrSld6-miQ",
+   "starts_at_ms": 2782925,
+   "starts_at": "46:22"
+  },
+  {
+   "n": 11,
+   "title": "The Abyss",
+   "clean_title": "The Abyss",
+   "duration_ms": 252964,
+   "spotify_uri": "spotify:track:53O2Y6n2ZyozLBzv90mUJN",
+   "spotify_url": "https://open.spotify.com/track/53O2Y6n2ZyozLBzv90mUJN?si=JJ83ZF3_TR2358lTPLRP3g",
+   "starts_at_ms": 3071543,
+   "starts_at": "51:11"
+  }
+ ],
+ "week": 18,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:45.284538+00:00"
+}
