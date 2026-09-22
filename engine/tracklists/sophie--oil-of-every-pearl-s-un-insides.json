@@ -1,0 +1,71 @@
+{
+ "artist": "SOPHIE",
+ "album": "Oil of Every Pearl's Un-Insides",
+ "spotify_uri": "spotify:album:6vN56bokUiEQ5Sot6D8Uxn",
+ "spotify_url": "https://open.spotify.com/album/6vN56bokUiEQ5Sot6D8Uxn?si=DDErWEWGSAiZGL_vYNfvWw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Architecture of Collapse",
+   "clean_title": "Architecture of Collapse",
+   "duration_ms": 257565,
+   "spotify_uri": "spotify:track:167K52zbBdV5tMSxxh4uJu",
+   "spotify_url": "https://open.spotify.com/track/167K52zbBdV5tMSxxh4uJu?si=jRRvkxMeToq5LPp5PlhQEA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Holy Ghost",
+   "clean_title": "Holy Ghost",
+   "duration_ms": 216403,
+   "spotify_uri": "spotify:track:6KgFkjmMVh17WYDhpCxgmA",
+   "spotify_url": "https://open.spotify.com/track/6KgFkjmMVh17WYDhpCxgmA?si=jU0D4lGtRQeWtcJTB736Mg",
+   "starts_at_ms": 257565,
+   "starts_at": "4:17"
+  },
+  {
+   "n": 3,
+   "title": "Heaven In My Veins",
+   "clean_title": "Heaven In My Veins",
+   "duration_ms": 295603,
+   "spotify_uri": "spotify:track:6zvrHfnHpfdC4hEw2wiFX1",
+   "spotify_url": "https://open.spotify.com/track/6zvrHfnHpfdC4hEw2wiFX1?si=DsBmCw-ER7uEns-UWPRInw",
+   "starts_at_ms": 473968,
+   "starts_at": "7:53"
+  },
+  {
+   "n": 4,
+   "title": "Alone Tonight",
+   "clean_title": "Alone Tonight",
+   "duration_ms": 250389,
+   "spotify_uri": "spotify:track:0sU7fDjhIHhcQ2JsDLU23c",
+   "spotify_url": "https://open.spotify.com/track/0sU7fDjhIHhcQ2JsDLU23c?si=u0JI5bzJRp-We52ium4mpA",
+   "starts_at_ms": 769571,
+   "starts_at": "12:49"
+  },
+  {
+   "n": 5,
+   "title": "After Midnight",
+   "clean_title": "After Midnight",
+   "duration_ms": 268205,
+   "spotify_uri": "spotify:track:0pKXS2mGliWoPaj0L23pNq",
+   "spotify_url": "https://open.spotify.com/track/0pKXS2mGliWoPaj0L23pNq?si=gX3PlZ0gTYiLjNsBK_IodA",
+   "starts_at_ms": 1019960,
+   "starts_at": "16:59"
+  },
+  {
+   "n": 6,
+   "title": "I'm Not Who I Was",
+   "clean_title": "I'm Not Who I Was",
+   "duration_ms": 276970,
+   "spotify_uri": "spotify:track:7q2gdcDuT03iAH2XbZ8hOe",
+   "spotify_url": "https://open.spotify.com/track/7q2gdcDuT03iAH2XbZ8hOe?si=vAhH-eblStukeD4suPWJpg",
+   "starts_at_ms": 1288165,
+   "starts_at": "21:28"
+  }
+ ],
+ "week": 10,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:31:05.223088+00:00"
+}
