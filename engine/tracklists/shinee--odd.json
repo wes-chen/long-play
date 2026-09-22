@@ -1,0 +1,121 @@
+{
+ "artist": "SHINee",
+ "album": "Odd",
+ "spotify_uri": "spotify:album:47zSQLQWjPLmiEbCpOOEJa",
+ "spotify_url": "https://open.spotify.com/album/47zSQLQWjPLmiEbCpOOEJa?si=x2F0CEuORkizEnWdd8wecA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Odd Eye",
+   "clean_title": "Odd Eye",
+   "duration_ms": 201449,
+   "spotify_uri": "spotify:track:66f9BsEekmGOQimdPEjFlG",
+   "spotify_url": "https://open.spotify.com/track/66f9BsEekmGOQimdPEjFlG?si=zwSnC9sbSWOrnUDfHWmrmA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Love Sick",
+   "clean_title": "Love Sick",
+   "duration_ms": 200181,
+   "spotify_uri": "spotify:track:7GQGxxjku3NdnjZELQwMbF",
+   "spotify_url": "https://open.spotify.com/track/7GQGxxjku3NdnjZELQwMbF?si=QVgDxBTPTUWKTa5KyfCdPw",
+   "starts_at_ms": 201449,
+   "starts_at": "3:21"
+  },
+  {
+   "n": 3,
+   "title": "View",
+   "clean_title": "View",
+   "duration_ms": 190821,
+   "spotify_uri": "spotify:track:46E1ic6n099e76t5J1TbHn",
+   "spotify_url": "https://open.spotify.com/track/46E1ic6n099e76t5J1TbHn?si=Wx2ktdpETtq8bPGPr2UT2A",
+   "starts_at_ms": 401630,
+   "starts_at": "6:41"
+  },
+  {
+   "n": 4,
+   "title": "Romance",
+   "clean_title": "Romance",
+   "duration_ms": 216009,
+   "spotify_uri": "spotify:track:61YsdyXJPVKL5YOH70D3gR",
+   "spotify_url": "https://open.spotify.com/track/61YsdyXJPVKL5YOH70D3gR?si=s_n19ZayQdyBU-b2E-TdqA",
+   "starts_at_ms": 592451,
+   "starts_at": "9:52"
+  },
+  {
+   "n": 5,
+   "title": "Trigger",
+   "clean_title": "Trigger",
+   "duration_ms": 241832,
+   "spotify_uri": "spotify:track:2AppE6JeQQsLycDiycaCYK",
+   "spotify_url": "https://open.spotify.com/track/2AppE6JeQQsLycDiycaCYK?si=v9ffkmI6SU6TqqmqJUb3rw",
+   "starts_at_ms": 808460,
+   "starts_at": "13:28"
+  },
+  {
+   "n": 6,
+   "title": "\uc774\ubcc4\uc758 \uae38 Farewell My Love",
+   "clean_title": "\uc774\ubcc4\uc758 \uae38 Farewell My Love",
+   "duration_ms": 240934,
+   "spotify_uri": "spotify:track:1CajjfLBczYjYgcwKQRjEj",
+   "spotify_url": "https://open.spotify.com/track/1CajjfLBczYjYgcwKQRjEj?si=bw8C7VK6TmmDQzapNC_Rrg",
+   "starts_at_ms": 1050292,
+   "starts_at": "17:30"
+  },
+  {
+   "n": 7,
+   "title": "\ub108\uc758 \ub178\ub798\uac00 \ub418\uc5b4 An Ode To You",
+   "clean_title": "\ub108\uc758 \ub178\ub798\uac00 \ub418\uc5b4 An Ode To You",
+   "duration_ms": 257755,
+   "spotify_uri": "spotify:track:6kHk38aUwGdVQzKK3xjqKU",
+   "spotify_url": "https://open.spotify.com/track/6kHk38aUwGdVQzKK3xjqKU?si=yowkMnJ2QKyQlcEsr56cfw",
+   "starts_at_ms": 1291226,
+   "starts_at": "21:31"
+  },
+  {
+   "n": 8,
+   "title": "Alive",
+   "clean_title": "Alive",
+   "duration_ms": 185319,
+   "spotify_uri": "spotify:track:4uDj3BPYBfhMgHDiIgMo7m",
+   "spotify_url": "https://open.spotify.com/track/4uDj3BPYBfhMgHDiIgMo7m?si=0qTHmm2yTdOhprwBR1sYtQ",
+   "starts_at_ms": 1548981,
+   "starts_at": "25:48"
+  },
+  {
+   "n": 9,
+   "title": "Woof Woof",
+   "clean_title": "Woof Woof",
+   "duration_ms": 196609,
+   "spotify_uri": "spotify:track:3ZBieMYzrxKPr5uDFrlVUS",
+   "spotify_url": "https://open.spotify.com/track/3ZBieMYzrxKPr5uDFrlVUS?si=fv2J32ECSZaLZdxXYGeS8Q",
+   "starts_at_ms": 1734300,
+   "starts_at": "28:54"
+  },
+  {
+   "n": 10,
+   "title": "Black Hole",
+   "clean_title": "Black Hole",
+   "duration_ms": 172395,
+   "spotify_uri": "spotify:track:1SPX6Np13QyoLF1qdlLl6C",
+   "spotify_url": "https://open.spotify.com/track/1SPX6Np13QyoLF1qdlLl6C?si=9SEzajzVQ9Ojs8EFPEov9Q",
+   "starts_at_ms": 1930909,
+   "starts_at": "32:10"
+  },
+  {
+   "n": 11,
+   "title": "\uc7ac\uc5f0 An Encore",
+   "clean_title": "\uc7ac\uc5f0 An Encore",
+   "duration_ms": 244998,
+   "spotify_uri": "spotify:track:2BanAml9j9AQjqFhLVILTm",
+   "spotify_url": "https://open.spotify.com/track/2BanAml9j9AQjqFhLVILTm?si=QdLAnOqpR7W1m164xDi9Ig",
+   "starts_at_ms": 2103304,
+   "starts_at": "35:03"
+  }
+ ],
+ "week": 19,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:49.168896+00:00"
+}
