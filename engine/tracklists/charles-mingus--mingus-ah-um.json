@@ -1,0 +1,101 @@
+{
+ "artist": "Charles Mingus",
+ "album": "Mingus Ah Um",
+ "spotify_uri": "spotify:album:4Z8nWz3dGybOP7lhMZpcOo",
+ "spotify_url": "https://open.spotify.com/album/4Z8nWz3dGybOP7lhMZpcOo?si=Sbv51rdlTnCKQND_npdoIg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Better Get Hit In Your Soul - Instrumental",
+   "clean_title": "Better Get Hit In Your Soul - Instrumental",
+   "duration_ms": 443293,
+   "spotify_uri": "spotify:track:0mbJqo6y9E3d57fhvYQKyT",
+   "spotify_url": "https://open.spotify.com/track/0mbJqo6y9E3d57fhvYQKyT?si=Eu4I3EN9QDyN7lqNzQyOPA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Goodbye Pork Pie Hat",
+   "clean_title": "Goodbye Pork Pie Hat",
+   "duration_ms": 287800,
+   "spotify_uri": "spotify:track:5eKnpzuUKdgjAKqEpWtbwD",
+   "spotify_url": "https://open.spotify.com/track/5eKnpzuUKdgjAKqEpWtbwD?si=8QXq5LjMQWql6dIMwY30uQ",
+   "starts_at_ms": 443293,
+   "starts_at": "7:23"
+  },
+  {
+   "n": 3,
+   "title": "Boogie Stop Shuffle",
+   "clean_title": "Boogie Stop Shuffle",
+   "duration_ms": 222906,
+   "spotify_uri": "spotify:track:4FGv56aPO9C1rcPDdvNz8l",
+   "spotify_url": "https://open.spotify.com/track/4FGv56aPO9C1rcPDdvNz8l?si=zrJiNzecSMGHp6XL66o7Qg",
+   "starts_at_ms": 731093,
+   "starts_at": "12:11"
+  },
+  {
+   "n": 4,
+   "title": "Self-Portrait In Three Colours",
+   "clean_title": "Self-Portrait In Three Colours",
+   "duration_ms": 186706,
+   "spotify_uri": "spotify:track:1dLb36wK59q5QgGCZE9YyK",
+   "spotify_url": "https://open.spotify.com/track/1dLb36wK59q5QgGCZE9YyK?si=X_UjvdvMQRyep58bXVBW4Q",
+   "starts_at_ms": 953999,
+   "starts_at": "15:53"
+  },
+  {
+   "n": 5,
+   "title": "Open Letter to Duke",
+   "clean_title": "Open Letter to Duke",
+   "duration_ms": 297093,
+   "spotify_uri": "spotify:track:2gFBaR1YsD54R0jpwSNzcs",
+   "spotify_url": "https://open.spotify.com/track/2gFBaR1YsD54R0jpwSNzcs?si=mn4I1JTTTNqExgSHof0_VQ",
+   "starts_at_ms": 1140705,
+   "starts_at": "19:00"
+  },
+  {
+   "n": 6,
+   "title": "Bird Calls",
+   "clean_title": "Bird Calls",
+   "duration_ms": 194266,
+   "spotify_uri": "spotify:track:0DIQNz84XpsUaDE0z1z1eP",
+   "spotify_url": "https://open.spotify.com/track/0DIQNz84XpsUaDE0z1z1eP?si=oTTxvnjgRE2zif27rtWAHw",
+   "starts_at_ms": 1437798,
+   "starts_at": "23:57"
+  },
+  {
+   "n": 7,
+   "title": "Fables Of Faubus",
+   "clean_title": "Fables Of Faubus",
+   "duration_ms": 495800,
+   "spotify_uri": "spotify:track:7DoBL69h4MBOiq5bRvMBzp",
+   "spotify_url": "https://open.spotify.com/track/7DoBL69h4MBOiq5bRvMBzp?si=YE-axsPLTOK8cfYqrEvFVg",
+   "starts_at_ms": 1632064,
+   "starts_at": "27:12"
+  },
+  {
+   "n": 8,
+   "title": "Pussy Cat Dues",
+   "clean_title": "Pussy Cat Dues",
+   "duration_ms": 390200,
+   "spotify_uri": "spotify:track:0WXNk1DvDdPJFFGZLMRtX5",
+   "spotify_url": "https://open.spotify.com/track/0WXNk1DvDdPJFFGZLMRtX5?si=5beQ6Z5mQNGxg30kPRyK2Q",
+   "starts_at_ms": 2127864,
+   "starts_at": "35:27"
+  },
+  {
+   "n": 9,
+   "title": "Jelly Roll",
+   "clean_title": "Jelly Roll",
+   "duration_ms": 242706,
+   "spotify_uri": "spotify:track:6gK2KADphfKnwsrxT3XFYe",
+   "spotify_url": "https://open.spotify.com/track/6gK2KADphfKnwsrxT3XFYe?si=Wtu_G0DDQmybeNsfMAw07A",
+   "starts_at_ms": 2518064,
+   "starts_at": "41:58"
+  }
+ ],
+ "week": 13,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:20.842023+00:00"
+}
