@@ -154,6 +154,9 @@
   .mod-row ul{list-style:none}
   .mod-row li{padding:2px 0}
   .mod-row li::before{content:"▸ ";color:var(--orange-dim)}
+  .mod-row a{color:var(--orange-dim);text-decoration:none;border-bottom:1px solid rgba(168,58,5,.4)}
+  .mod-row a:hover{color:var(--orange);border-bottom-color:var(--orange)}
+  .mod-row a::after{content:" ↗";font-size:.8em}
   .transport{display:flex;gap:12px;margin-top:16px;align-items:center}
   .tbtn{
     font-family:var(--mono);font-size:11px;letter-spacing:.1em;font-weight:700;
@@ -372,6 +375,127 @@
   ];
   var CUED_WEEK = 1; /* weeks/CURRENT */
 
+  var SPOT = {
+    "100 gecs — 1000 gecs": "https://open.spotify.com/album/0qnExDZfz0kVeBjixPsyjS",
+    "ARTMS — DALL": "https://open.spotify.com/album/0hJloArA2Kb9xNBIv34osS",
+    "Alcest — Écailles de Lune": "https://open.spotify.com/album/6b9NZDM5QhD2FViyXKwBRT",
+    "Alice Coltrane — Journey in Satchidananda": "https://open.spotify.com/album/43TGHl1qZfMwrcNBUxJoOi",
+    "Aphex Twin — Selected Ambient Works 85–92": "https://open.spotify.com/album/7aNclGRxTysfh6z0d8671k",
+    "Arca — Kick I": "https://open.spotify.com/album/3B2AK06ZiCvuZz0VPRvAF9",
+    "BTS — Love Yourself: Tear": "https://open.spotify.com/album/3dviBwFcDYCcpXUbeacrIl",
+    "Bach — Goldberg Variations (Gould, 1981)": "https://open.spotify.com/album/1aCpHSQE5ghxibsQ5gkBe0",
+    "Balming Tiger — January Never Dies": "https://open.spotify.com/album/3KfVspuHZTMj8eg5wAH5t1",
+    "Big Thief — U.F.O.F.": "https://open.spotify.com/album/0sLnNGW4PzCYFQ4Pn7aVCP",
+    "Bill Evans — Waltz for Debby": "https://open.spotify.com/album/5KMFvQIC2Of0UtJe9w5e0n",
+    "Björk — Homogenic": "https://open.spotify.com/album/0HMsmYvoT1h2x1C4di5faf",
+    "Black Midi — Hellfire": "https://open.spotify.com/album/68z6MWYYNmvTcru1QMcYId",
+    "Bon Iver — Bon Iver": "https://open.spotify.com/album/2LpfNj3vB5rOXfaawLcOBg",
+    "Boris — Flood": "https://open.spotify.com/album/6U9ckLnnzFuLMtPCSEo36N",
+    "Brian Eno — Ambient 1: Music for Airports": "https://open.spotify.com/album/3mC0M0TrujmEDFGtUxJtqi",
+    "Burial — Untrue": "https://open.spotify.com/album/1iRPiEYHIX2zpF8lkW54SK",
+    "Can — Ege Bamyasi": "https://open.spotify.com/album/3Qa2CdymyGvXkqoqIZykmT",
+    "Can — Tago Mago": "https://open.spotify.com/album/1txmvzex0gtGwbqQCcXEtt",
+    "Cannonball Adderley — Somethin' Else": "https://open.spotify.com/album/7v3viWq0XcFNof8JpP8fCK",
+    "Charles Mingus — Mingus Ah Um": "https://open.spotify.com/album/4Z8nWz3dGybOP7lhMZpcOo",
+    "Chelsea Wolfe — Abyss": "https://open.spotify.com/album/7lJjly9VUQie2Jc5Wg0nPz",
+    "Chopin — the Ballades": "https://open.spotify.com/album/1cGBfuFHbwH77j0zOYiUDn",
+    "Cocteau Twins — Heaven or Las Vegas": "https://open.spotify.com/album/5lEphbceIgaK1XxWeSrC9E",
+    "Crush — From Midnight to Sunrise": "https://open.spotify.com/album/4HejSNN1hxuW9AVVE9cr6h",
+    "Deafheaven — Sunbather": "https://open.spotify.com/album/2kKXGWaCEl06EKZ4DxBJIT",
+    "Deftones — White Pony": "https://open.spotify.com/album/5LEXck3kfixFaA3CqVE7bC",
+    "Dirty Projectors — Bitte Orca": "https://open.spotify.com/album/2Geg4mwE8z9DO5BSSUoMKz",
+    "Disclosure — Settle": "https://open.spotify.com/album/1cfRD3rySaKM5oqxwn7Jm9",
+    "Elliott Smith — Either/Or": "https://open.spotify.com/album/5bmpvyP7UGqB4VuXmrJUMy",
+    "Ethel Cain — Preacher's Daughter": "https://open.spotify.com/album/3WmujGwOS0ANHkJRnMH6n8",
+    "FKA twigs — MAGDALENE": "https://open.spotify.com/album/3DMR3yM5crnt1dG9lLaMTZ",
+    "Fiona Apple — Fetch the Bolt Cutters": "https://open.spotify.com/album/0fO1KemWL2uCCQmM22iKlj",
+    "Fleet Foxes — Helplessness Blues": "https://open.spotify.com/album/7D0rCfJjFj9x0bdgRKtvzb",
+    "Flying Lotus — Cosmogramma": "https://open.spotify.com/album/26yWpyWgFK6xuxi1UsLUFW",
+    "Four Tet — Beautiful Rewind": "https://open.spotify.com/album/7gN7gWms3Uz0GLLtLYHybk",
+    "Four Tet — There Is Love in You": "https://open.spotify.com/album/1HSe7aUzdxkRSZy7gucJpr",
+    "Frank Ocean — Blonde": "https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf",
+    "Genesis — Selling England by the Pound": "https://open.spotify.com/album/1rZGSWC3pMmejDwYG0ZXma",
+    "Hans Zimmer — Dune (OST)": "https://open.spotify.com/album/56k8ay5oE5apR61WIeE4wQ",
+    "Hans Zimmer — Interstellar (OST)": "https://open.spotify.com/album/3B61kSKTxlY36cYgzvf3cP",
+    "Have A Nice Life — Deathconsciousness": "https://open.spotify.com/album/6MH3CAXp8AN8ELrbex18dM",
+    "Herbie Hancock — Head Hunters": "https://open.spotify.com/album/5fmIolILp5NAtNYiRPjhzA",
+    "Iglooghost — Neo Wax Bloom": "https://open.spotify.com/album/68aZtDbgNargCMYgNvw5JG",
+    "Jaco Pastorius — Jaco Pastorius": "https://open.spotify.com/album/6SsT4Zyev0zS7eocL0B72m",
+    "Jamie xx — In Colour": "https://open.spotify.com/album/04Duapg2mNlVykd895xcfZ",
+    "Jeff Buckley — Grace": "https://open.spotify.com/album/7yQtjAjhtNi76KRu05XWFS",
+    "Joe Hisaishi — Spirited Away (OST)": "https://open.spotify.com/album/766a5fKJYFy9ii4Kz2bQy9",
+    "John Coltrane — A Love Supreme": "https://open.spotify.com/album/4khBAMNknbpYeck2ZwZcVq",
+    "John Coltrane — Blue Train": "https://open.spotify.com/album/4khBAMNknbpYeck2ZwZcVq",
+    "Joni Mitchell — Blue": "https://open.spotify.com/album/1vz94WpXDVYIEGja8cjFNa",
+    "Kamasi Washington — The Epic": "https://open.spotify.com/album/2j2q2ySuVk43eHB8wI5XQj",
+    "Kelela — Take Me Apart": "https://open.spotify.com/album/4mQ6UTM71F02O1jMVi625N",
+    "Kendrick Lamar — To Pimp a Butterfly": "https://open.spotify.com/album/1bkN9nIkkCnXeG4yitVS1J",
+    "King Crimson — In the Court of the Crimson King": "https://open.spotify.com/album/75ol9OP8bJaRqzGimpFHDm",
+    "Kraftwerk — Trans-Europe Express": "https://open.spotify.com/album/0HHRIVjvBcnTepfeRVgS2f",
+    "Laura Marling — Song for Our Daughter": "https://open.spotify.com/album/71ASh2z3Y2LQNsEpuW35Kc",
+    "Ligeti — Atmosphères / Requiem": "https://open.spotify.com/album/6u6xyeAYduVoORqSEb2y1Y",
+    "Ligeti — Études": "https://open.spotify.com/album/5Wc9lvzfJj6sPdOqu4HZKg",
+    "Lingua Ignota — CALIGULA": "https://open.spotify.com/album/2GBJg7nTQs3go1w24ECKvy",
+    "Ludwig Göransson — Oppenheimer (OST)": "https://open.spotify.com/album/0rwbMKjNkp4ehQTwf9V2Jk",
+    "Mahavishnu Orchestra — The Inner Mounting Flame": "https://open.spotify.com/album/6XHQCPGwvSaqv9MZ2tauqr",
+    "Mahler — Symphony No. 5": "https://open.spotify.com/album/44EES7Qq2QQ7inKyl6EXAU",
+    "Mastodon — Crack the Skye": "https://open.spotify.com/album/2W2nqEKXWBorbq5yvm3jZg",
+    "Max Richter — Sleep": "https://open.spotify.com/album/6RpPv20iDOS4H3WO8jrrvf",
+    "Messiaen — Quartet for the End of Time": "https://open.spotify.com/album/7rC6IrCzShnanTdT87w1JT",
+    "Mica Levi — Under the Skin (OST)": "https://open.spotify.com/album/1AwRkRCdw9qAKRtzwKUYcC",
+    "Miles Davis — Bitches Brew": "https://open.spotify.com/album/3Q0zkOZEOC855ErOOJ1AdO",
+    "Miles Davis — In a Silent Way": "https://open.spotify.com/album/0Hs3BomCdwIWRhgT57x22T",
+    "Miles Davis — Kind of Blue": "https://open.spotify.com/album/1weenld61qoidwYuZ1GESA",
+    "My Bloody Valentine — Loveless": "https://open.spotify.com/album/2SlSnUYW5bgtdWXVymv18a",
+    "Neu! — Neu! 2": "https://open.spotify.com/album/0BQ6ITK2Y38ODwF7ui8Orx",
+    "NewJeans — Get Up": "https://open.spotify.com/album/1ApD8OqR9g1n3BVgf8dV6G",
+    "Nick Drake — Pink Moon": "https://open.spotify.com/album/6RoEhsWUSLVTh9wILDBfGJ",
+    "ODESZA — A Moment Apart": "https://open.spotify.com/album/3VzsvmhnUb9OZ59bq2aoNZ",
+    "Oneohtrix Point Never — R Plus Seven": "https://open.spotify.com/album/0p7nH5bz0pWBor10osUBuD",
+    "Oneohtrix Point Never — Uncut Gems (OST)": "https://open.spotify.com/album/5VtraJMECaqnl4szWLLCTK",
+    "Phoebe Bridgers — Punisher": "https://open.spotify.com/album/6Pp6qGEywDdofgFC1oFbSH",
+    "Pink Floyd — Animals": "https://open.spotify.com/album/3b4E89rxzZQ9zkhgKpj8N4",
+    "Pink Floyd — The Dark Side of the Moon": "https://open.spotify.com/album/4LH4d3cOWNNsVw41Gqt2kv",
+    "Radiohead — Kid A": "https://open.spotify.com/album/6GjwtEZcfenmOf6l18N7T7",
+    "Radiohead — OK Computer": "https://open.spotify.com/album/6dVIqQ8qmQ5GBnJ9shOYGE",
+    "Ravel — Gaspard de la nuit": "https://open.spotify.com/album/3RP8wgPIwvclLUxv0DiZ4N",
+    "Red Velvet — Perfect Velvet": "https://open.spotify.com/album/0rvrbZvaDX5S9ZBhwOwFfH",
+    "Ride — Nowhere": "https://open.spotify.com/album/5l70cCHX1QzN680J68rblF",
+    "Ryuichi Sakamoto — async": "https://open.spotify.com/album/2OKN3NwlITzfVpDJecA4Z3",
+    "Rzewski — The People United Will Never Be Defeated!": "https://open.spotify.com/album/6Zeyr7TBcCaxzNrluXD1VU",
+    "SHINee — Odd": "https://open.spotify.com/album/47zSQLQWjPLmiEbCpOOEJa",
+    "SOPHIE — Oil of Every Pearl's Un-Insides": "https://open.spotify.com/album/6vN56bokUiEQ5Sot6D8Uxn",
+    "SZA — SOS": "https://open.spotify.com/album/07w0rG5TETcyihsEIZR3qG",
+    "Sakamoto — Merry Christmas Mr. Lawrence (OST)": "https://open.spotify.com/album/0BlM8Qd8rxj4wLd9ioGZZU",
+    "Shostakovich — Symphony No. 5": "https://open.spotify.com/album/00d6wTUJHGsrxPmbETXGWm",
+    "Sleep Token — Take Me Back to Eden": "https://open.spotify.com/album/1gjugH97doz3HktiEjx2vY",
+    "Slowdive — Souvlaki": "https://open.spotify.com/album/53eHm1f3sFiSzWMaKOl98Z",
+    "Snarky Puppy — We Like It Here": "https://open.spotify.com/album/4GzjQ0xXRlLl78ih481BUi",
+    "Solange — A Seat at the Table": "https://open.spotify.com/album/3Yko2SxDk4hc6fncIBQlcM",
+    "Stars of the Lid — And Their Refinement of the Decline": "https://open.spotify.com/album/6cHPEbPryLpH5VX5Eb1Vvo",
+    "Stravinsky — The Rite of Spring": "https://open.spotify.com/album/5HXl4Q5vba5n2qwsXQ9pRV",
+    "Sufjan Stevens — Carrie & Lowell": "https://open.spotify.com/album/64xtjfsPHNHch0CZ7fPTjS",
+    "Suicide — Suicide": "https://open.spotify.com/album/46kw5FsFdJhNRL8wfHM9Bp",
+    "Swans — To Be Kind": "https://open.spotify.com/album/4dq7JNcHKrnozzFQg5bpmn",
+    "Talk Talk — Laughing Stock": "https://open.spotify.com/album/4YXo7p7aubyVIbNLoVlBp9",
+    "Tangerine Dream — Phaedra": "https://open.spotify.com/album/1UahWRecXUrQeuFeCzv3Hh",
+    "The Beach Boys — Pet Sounds": "https://open.spotify.com/album/0KOzSK4msKHMszFboxHY9E",
+    "The Beatles — Abbey Road": "https://open.spotify.com/album/5gRj0X8Bl2dKidoC428AoB",
+    "The Smile — A Light for Attracting Attention": "https://open.spotify.com/album/009EjjwUjtdjvH7UP0wHzi",
+    "Tim Hecker — Ravedeath, 1972": "https://open.spotify.com/album/6Iu8toVsvCc3I4INxYiVIy",
+    "Tool — Lateralus": "https://open.spotify.com/album/5l5m1hnH4punS1GQXgEi3T",
+    "Van der Graaf Generator — Pawn Hearts": "https://open.spotify.com/album/4BkiEmhvmh8J9DI4f52XPK",
+    "Weather Report — Heavy Weather": "https://open.spotify.com/album/2M9F2yYsUvqiBPwUGeNvn1",
+    "Yaeji — With a Hammer": "https://open.spotify.com/album/2VYo0PSqdxVTMI0ydKUtoL",
+    "Yes — Close to the Edge": "https://open.spotify.com/album/252LyflX4wUeISSzgL392F",
+    "f(x) — 4 Walls": "https://open.spotify.com/album/6yJdchE7ARS996BxRgplFH"
+  };
+  function spotURL(name){ var k = String(name).replace(/\s\*$/, ""); return SPOT[k] || null; }
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function albumLink(name){
+    var u = spotURL(name), t = esc(String(name).replace(/\s\*$/, ""));
+    return u ? '<a href="' + u + '" target="_blank" rel="noopener">' + t + '</a>' : t;
+  }
   function pad2(n){ return (n<10?"0":"")+n; }
 
   var seq = document.getElementById("seq");
@@ -410,10 +534,10 @@
     tag.className = "cue-tag" + (cued ? "" : " planned");
     document.getElementById("mod-week").textContent = "WEEK "+pad2(wk.n)+" · "+wk.u;
     document.getElementById("mod-title").textContent = wk.t;
-    document.getElementById("mod-anchor").textContent = wk.a;
+    document.getElementById("mod-anchor").innerHTML = albumLink(wk.a);
     document.getElementById("mod-adv").innerHTML =
-      wk.adv.map(function(x){ return "<li>"+x+"</li>"; }).join("");
-    document.getElementById("mod-wild").textContent = wk.w.replace(/\s\*$/,"") +
+      wk.adv.map(function(x){ return "<li>"+albumLink(x)+"</li>"; }).join("");
+    document.getElementById("mod-wild").innerHTML = albumLink(wk.w) +
       (/\s\*$/.test(wk.w) ? "  — conditional: only if not already assigned earlier" : "");
     document.getElementById("mod-concept").textContent = wk.c;
     document.getElementById("mod-tech").textContent = wk.tech;
