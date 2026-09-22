@@ -1,0 +1,61 @@
+{
+ "artist": "Disclosure",
+ "album": "Settle",
+ "spotify_uri": "spotify:album:1cfRD3rySaKM5oqxwn7Jm9",
+ "spotify_url": "https://open.spotify.com/album/1cfRD3rySaKM5oqxwn7Jm9?si=ro8SWkDXS6SsNa_zk0n_2A",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Disclosure",
+   "clean_title": "Disclosure",
+   "duration_ms": 264439,
+   "spotify_uri": "spotify:track:5yG0eSbgvIGyPxMWmODhOO",
+   "spotify_url": "https://open.spotify.com/track/5yG0eSbgvIGyPxMWmODhOO?si=_tUoLXPrTj6NWYcC5s3kHQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Flur",
+   "clean_title": "Flur",
+   "duration_ms": 239507,
+   "spotify_uri": "spotify:track:1jESranCKh5hBzYn51rw9T",
+   "spotify_url": "https://open.spotify.com/track/1jESranCKh5hBzYn51rw9T?si=b8qGBBHXSm63vq9ixhbLJg",
+   "starts_at_ms": 264439,
+   "starts_at": "4:24"
+  },
+  {
+   "n": 3,
+   "title": "Suspending",
+   "clean_title": "Suspending",
+   "duration_ms": 199725,
+   "spotify_uri": "spotify:track:46IPDLk62OxS25Q4fdT0wi",
+   "spotify_url": "https://open.spotify.com/track/46IPDLk62OxS25Q4fdT0wi?si=nXw2Vtg9QuWii5IVVogzQw",
+   "starts_at_ms": 503946,
+   "starts_at": "8:23"
+  },
+  {
+   "n": 4,
+   "title": "Flooded",
+   "clean_title": "Flooded",
+   "duration_ms": 245908,
+   "spotify_uri": "spotify:track:6VjKmR4WejtNcIirLSK8uU",
+   "spotify_url": "https://open.spotify.com/track/6VjKmR4WejtNcIirLSK8uU?si=tK7dHIEKTrSY3HnnX1aOSg",
+   "starts_at_ms": 703671,
+   "starts_at": "11:43"
+  },
+  {
+   "n": 5,
+   "title": "Emergence",
+   "clean_title": "Emergence",
+   "duration_ms": 215220,
+   "spotify_uri": "spotify:track:3h5G1hii58y3hcHEPoeeFn",
+   "spotify_url": "https://open.spotify.com/track/3h5G1hii58y3hcHEPoeeFn?si=61wDsWg8QHu7jhttLE8Fxw",
+   "starts_at_ms": 949579,
+   "starts_at": "15:49"
+  }
+ ],
+ "week": 7,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:52.954767+00:00"
+}
