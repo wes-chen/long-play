@@ -1,0 +1,121 @@
+{
+ "artist": "Jamie xx",
+ "album": "In Colour",
+ "spotify_uri": "spotify:album:04Duapg2mNlVykd895xcfZ",
+ "spotify_url": "https://open.spotify.com/album/04Duapg2mNlVykd895xcfZ?si=-gjn4D8NQuSBfisLnBFK7g",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Gosh",
+   "clean_title": "Gosh",
+   "duration_ms": 291018,
+   "spotify_uri": "spotify:track:4mlZurguzNJior9siewA8C",
+   "spotify_url": "https://open.spotify.com/track/4mlZurguzNJior9siewA8C?si=Y5E7Nuo_S_u-xdvhiz2iJw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Sleep Sound",
+   "clean_title": "Sleep Sound",
+   "duration_ms": 232622,
+   "spotify_uri": "spotify:track:4N6BM15Cjn497nxvy7JcBT",
+   "spotify_url": "https://open.spotify.com/track/4N6BM15Cjn497nxvy7JcBT?si=Bc_LGACqRDekeAY9iMoXeA",
+   "starts_at_ms": 291018,
+   "starts_at": "4:51"
+  },
+  {
+   "n": 3,
+   "title": "SeeSaw",
+   "clean_title": "SeeSaw",
+   "duration_ms": 268788,
+   "spotify_uri": "spotify:track:6N9NpkIKu7SLAjZd0IewoV",
+   "spotify_url": "https://open.spotify.com/track/6N9NpkIKu7SLAjZd0IewoV?si=Ip7onZJ_QiK0g5KuotJfpQ",
+   "starts_at_ms": 523640,
+   "starts_at": "8:43"
+  },
+  {
+   "n": 4,
+   "title": "Obvs",
+   "clean_title": "Obvs",
+   "duration_ms": 231039,
+   "spotify_uri": "spotify:track:7HTnBZgjsp1T9uF286kQ7o",
+   "spotify_url": "https://open.spotify.com/track/7HTnBZgjsp1T9uF286kQ7o?si=ySQO6kDJSxWYhkaxsgf6Lg",
+   "starts_at_ms": 792428,
+   "starts_at": "13:12"
+  },
+  {
+   "n": 5,
+   "title": "Just Saying",
+   "clean_title": "Just Saying",
+   "duration_ms": 83898,
+   "spotify_uri": "spotify:track:5X6tXbeeE2Gk5XDNb8I5Ku",
+   "spotify_url": "https://open.spotify.com/track/5X6tXbeeE2Gk5XDNb8I5Ku?si=8QTQCgNITvuVOSgzuVxgCQ",
+   "starts_at_ms": 1023467,
+   "starts_at": "17:03"
+  },
+  {
+   "n": 6,
+   "title": "Stranger in a Room",
+   "clean_title": "Stranger in a Room",
+   "duration_ms": 177511,
+   "spotify_uri": "spotify:track:47A5n8BBYsghFUbVmVUsYC",
+   "spotify_url": "https://open.spotify.com/track/47A5n8BBYsghFUbVmVUsYC?si=JP3EBqftQXSPOXTFAKVOPg",
+   "starts_at_ms": 1107365,
+   "starts_at": "18:27"
+  },
+  {
+   "n": 7,
+   "title": "Hold Tight",
+   "clean_title": "Hold Tight",
+   "duration_ms": 243399,
+   "spotify_uri": "spotify:track:7awZVNtfOXP9Sxb4IYwBUj",
+   "spotify_url": "https://open.spotify.com/track/7awZVNtfOXP9Sxb4IYwBUj?si=QMerJGupTMSB3QC8Gq7PRw",
+   "starts_at_ms": 1284876,
+   "starts_at": "21:24"
+  },
+  {
+   "n": 8,
+   "title": "Loud Places",
+   "clean_title": "Loud Places",
+   "duration_ms": 283066,
+   "spotify_uri": "spotify:track:7lPgKA5mLFNmGPMdb07OlM",
+   "spotify_url": "https://open.spotify.com/track/7lPgKA5mLFNmGPMdb07OlM?si=B4X37MyHRLq_FtwriQAEiQ",
+   "starts_at_ms": 1528275,
+   "starts_at": "25:28"
+  },
+  {
+   "n": 9,
+   "title": "I Know There's Gonna Be (Good Times)",
+   "clean_title": "I Know There's Gonna Be (Good Times)",
+   "duration_ms": 213622,
+   "spotify_uri": "spotify:track:06UOL50QYtDR5l06ohu88m",
+   "spotify_url": "https://open.spotify.com/track/06UOL50QYtDR5l06ohu88m?si=qJzV8wxqQba2Y9yrgyZ9HA",
+   "starts_at_ms": 1811341,
+   "starts_at": "30:11"
+  },
+  {
+   "n": 10,
+   "title": "The Rest Is Noise",
+   "clean_title": "The Rest Is Noise",
+   "duration_ms": 298305,
+   "spotify_uri": "spotify:track:1MhQrrQjPRL8o6m18viaZ1",
+   "spotify_url": "https://open.spotify.com/track/1MhQrrQjPRL8o6m18viaZ1?si=09gmfHjKT1GpISi_Kf_oMQ",
+   "starts_at_ms": 2024963,
+   "starts_at": "33:44"
+  },
+  {
+   "n": 11,
+   "title": "Girl",
+   "clean_title": "Girl",
+   "duration_ms": 245585,
+   "spotify_uri": "spotify:track:0s2ziTuwyOfnpNbpctNwqO",
+   "spotify_url": "https://open.spotify.com/track/0s2ziTuwyOfnpNbpctNwqO?si=SvhlsdetR0Wb3wDIC9YJSg",
+   "starts_at_ms": 2323268,
+   "starts_at": "38:43"
+  }
+ ],
+ "week": 7,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:52.056080+00:00"
+}
