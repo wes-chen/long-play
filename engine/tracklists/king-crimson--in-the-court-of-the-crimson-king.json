@@ -1,0 +1,91 @@
+{
+ "artist": "King Crimson",
+ "album": "In the Court of the Crimson King",
+ "spotify_uri": "spotify:album:75ol9OP8bJaRqzGimpFHDm",
+ "spotify_url": "https://open.spotify.com/album/75ol9OP8bJaRqzGimpFHDm?si=VH3CoBRcRcWuGVGYC2djOA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "21st Century Schizoid Man - Including \"Mirrors\"",
+   "clean_title": "21st Century Schizoid Man - Including \"Mirrors\"",
+   "duration_ms": 442580,
+   "spotify_uri": "spotify:track:2MfrET7Nc3StKQcGoZKqr9",
+   "spotify_url": "https://open.spotify.com/track/2MfrET7Nc3StKQcGoZKqr9?si=8CXMTsQFTSG_-Wync3eNVw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "I Talk To The Wind",
+   "clean_title": "I Talk To The Wind",
+   "duration_ms": 365659,
+   "spotify_uri": "spotify:track:1T0CdfKPKb1gJi4vCKpZ9C",
+   "spotify_url": "https://open.spotify.com/track/1T0CdfKPKb1gJi4vCKpZ9C?si=rx6SJN6GS1ewF7I5MiM7YA",
+   "starts_at_ms": 442580,
+   "starts_at": "7:22"
+  },
+  {
+   "n": 3,
+   "title": "Epitaph - Including \"March for No Reason\" and \"Tomorrow and Tomorrow\"",
+   "clean_title": "Epitaph - Including \"March for No Reason\" and \"Tomorrow and Tomorrow\"",
+   "duration_ms": 526822,
+   "spotify_uri": "spotify:track:5j4fSU12bw4G6JDVPU7JTB",
+   "spotify_url": "https://open.spotify.com/track/5j4fSU12bw4G6JDVPU7JTB?si=Xfs_AP1yQI6UXI_Is7H0nQ",
+   "starts_at_ms": 808239,
+   "starts_at": "13:28"
+  },
+  {
+   "n": 4,
+   "title": "Moonchild - Including \"The Dream\" and \"The Illusion\"",
+   "clean_title": "Moonchild - Including \"The Dream\" and \"The Illusion\"",
+   "duration_ms": 732807,
+   "spotify_uri": "spotify:track:0dRuTDUctXcQuYV7j6mhb2",
+   "spotify_url": "https://open.spotify.com/track/0dRuTDUctXcQuYV7j6mhb2?si=M2Rk3K5iSNyUvXnR1PgXhA",
+   "starts_at_ms": 1335061,
+   "starts_at": "22:15"
+  },
+  {
+   "n": 5,
+   "title": "The Court Of The Crimson King - Including \"The Return of the Fire Witch\" and \"The Dance of the Puppets\"",
+   "clean_title": "The Court Of The Crimson King - Including \"The Return of the Fire Witch\" and \"The Dance of the Puppets\"",
+   "duration_ms": 602530,
+   "spotify_uri": "spotify:track:3kzbkZtBqamTgyO31DO1Sn",
+   "spotify_url": "https://open.spotify.com/track/3kzbkZtBqamTgyO31DO1Sn?si=BK_UQxuhQ2-DZioHflCkDQ",
+   "starts_at_ms": 2067868,
+   "starts_at": "34:27"
+  },
+  {
+   "n": 6,
+   "title": "21st Century Schizoid Man [Bonus Track] - Radio Version",
+   "clean_title": "21st Century Schizoid Man [Bonus Track] - Radio Version",
+   "duration_ms": 401134,
+   "spotify_uri": "spotify:track:01wyQSit1329QB8M1lx9sj",
+   "spotify_url": "https://open.spotify.com/track/01wyQSit1329QB8M1lx9sj?si=C4gsW9MAS_-VN3z3ZbpspQ",
+   "starts_at_ms": 2670398,
+   "starts_at": "44:30"
+  },
+  {
+   "n": 7,
+   "title": "I Talk To The Wind [Bonus Track] - Duo Version",
+   "clean_title": "I Talk To The Wind [Bonus Track] - Duo Version",
+   "duration_ms": 285485,
+   "spotify_uri": "spotify:track:7rAd1Oev9jGWUMcYqkJQMz",
+   "spotify_url": "https://open.spotify.com/track/7rAd1Oev9jGWUMcYqkJQMz?si=uzYi3Jx5QaWaPn6yuJLtYw",
+   "starts_at_ms": 3071532,
+   "starts_at": "51:11"
+  },
+  {
+   "n": 8,
+   "title": "A Man A City [Bonus Track] - Live At the Fillmore West",
+   "clean_title": "A Man A City [Bonus Track] - Live At the Fillmore West",
+   "duration_ms": 704133,
+   "spotify_uri": "spotify:track:1yUnARPwsdS81S9LufkTFP",
+   "spotify_url": "https://open.spotify.com/track/1yUnARPwsdS81S9LufkTFP?si=L44BKTD4RO2mqmGdAqDWlA",
+   "starts_at_ms": 3357017,
+   "starts_at": "55:57"
+  }
+ ],
+ "week": 3,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:30:31.805694+00:00"
+}
