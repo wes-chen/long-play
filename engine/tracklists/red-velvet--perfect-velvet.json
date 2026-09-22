@@ -1,0 +1,101 @@
+{
+ "artist": "Red Velvet",
+ "album": "Perfect Velvet",
+ "spotify_uri": "spotify:album:0rvrbZvaDX5S9ZBhwOwFfH",
+ "spotify_url": "https://open.spotify.com/album/0rvrbZvaDX5S9ZBhwOwFfH?si=yFAZBh2gTxCht6Krxgw2uw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Peek-A-Boo",
+   "clean_title": "Peek-A-Boo",
+   "duration_ms": 189049,
+   "spotify_uri": "spotify:track:42tFTth2jcF7iSo0RBjfJF",
+   "spotify_url": "https://open.spotify.com/track/42tFTth2jcF7iSo0RBjfJF?si=M8N8Pf-pRrK5foMSqJW_6g",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Look",
+   "clean_title": "Look",
+   "duration_ms": 245598,
+   "spotify_uri": "spotify:track:48Nd8rdc0WVG4rHTd76Mh6",
+   "spotify_url": "https://open.spotify.com/track/48Nd8rdc0WVG4rHTd76Mh6?si=oTrVf5hhSKSSGwDcrwnx4Q",
+   "starts_at_ms": 189049,
+   "starts_at": "3:09"
+  },
+  {
+   "n": 3,
+   "title": "I Just",
+   "clean_title": "I Just",
+   "duration_ms": 188304,
+   "spotify_uri": "spotify:track:7BuFMtIknd3ewai0zhKhqb",
+   "spotify_url": "https://open.spotify.com/track/7BuFMtIknd3ewai0zhKhqb?si=shRnmRf4TFaLFCJpx34-nQ",
+   "starts_at_ms": 434647,
+   "starts_at": "7:14"
+  },
+  {
+   "n": 4,
+   "title": "Kingdom Come",
+   "clean_title": "Kingdom Come",
+   "duration_ms": 210162,
+   "spotify_uri": "spotify:track:5XJEdVQ5jl3C3dFsV7kCTZ",
+   "spotify_url": "https://open.spotify.com/track/5XJEdVQ5jl3C3dFsV7kCTZ?si=yh_Z8M31QBet8KjdF9OiqQ",
+   "starts_at_ms": 622951,
+   "starts_at": "10:22"
+  },
+  {
+   "n": 5,
+   "title": "My Second Date",
+   "clean_title": "My Second Date",
+   "duration_ms": 194591,
+   "spotify_uri": "spotify:track:6z8QDsRU25QbckFUajl553",
+   "spotify_url": "https://open.spotify.com/track/6z8QDsRU25QbckFUajl553?si=oAAxZmJ-RUqeWFTzk6BW6Q",
+   "starts_at_ms": 833113,
+   "starts_at": "13:53"
+  },
+  {
+   "n": 6,
+   "title": "Attaboy",
+   "clean_title": "Attaboy",
+   "duration_ms": 196836,
+   "spotify_uri": "spotify:track:1ni3URO3waGQI8R6GNZ6sz",
+   "spotify_url": "https://open.spotify.com/track/1ni3URO3waGQI8R6GNZ6sz?si=oEtSwmaeTEOypPYDIIrw8w",
+   "starts_at_ms": 1027704,
+   "starts_at": "17:07"
+  },
+  {
+   "n": 7,
+   "title": "Perfect 10",
+   "clean_title": "Perfect 10",
+   "duration_ms": 209778,
+   "spotify_uri": "spotify:track:3OK4va42j6de25ZPNdI5kC",
+   "spotify_url": "https://open.spotify.com/track/3OK4va42j6de25ZPNdI5kC?si=gl_SlXP3Qzum_mQj1GOx5Q",
+   "starts_at_ms": 1224540,
+   "starts_at": "20:24"
+  },
+  {
+   "n": 8,
+   "title": "About Love",
+   "clean_title": "About Love",
+   "duration_ms": 205974,
+   "spotify_uri": "spotify:track:2aSoUIBolhj734OqGn5ave",
+   "spotify_url": "https://open.spotify.com/track/2aSoUIBolhj734OqGn5ave?si=mjW4gEMSQTSHGS9yh74q1Q",
+   "starts_at_ms": 1434318,
+   "starts_at": "23:54"
+  },
+  {
+   "n": 9,
+   "title": "Moonlight Melody",
+   "clean_title": "Moonlight Melody",
+   "duration_ms": 220607,
+   "spotify_uri": "spotify:track:1WryFxHMRpm6SOl58n8BYz",
+   "spotify_url": "https://open.spotify.com/track/1WryFxHMRpm6SOl58n8BYz?si=WZ-laR7wSXufe5NOdAWc-g",
+   "starts_at_ms": 1640292,
+   "starts_at": "27:20"
+  }
+ ],
+ "week": 19,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:31:47.258088+00:00"
+}
