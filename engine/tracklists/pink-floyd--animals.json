@@ -1,0 +1,61 @@
+{
+ "artist": "Pink Floyd",
+ "album": "Animals",
+ "spotify_uri": "spotify:album:3b4E89rxzZQ9zkhgKpj8N4",
+ "spotify_url": "https://open.spotify.com/album/3b4E89rxzZQ9zkhgKpj8N4?si=Zk4taoF5RcidUDW1JGQWQw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Pigs on the Wing 1",
+   "clean_title": "Pigs on the Wing 1",
+   "duration_ms": 84693,
+   "spotify_uri": "spotify:track:19tHmIQsRnebkyK09m2UXE",
+   "spotify_url": "https://open.spotify.com/track/19tHmIQsRnebkyK09m2UXE?si=aJEK0kCVSHq1iCFozg6-fQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Dogs",
+   "clean_title": "Dogs",
+   "duration_ms": 1024853,
+   "spotify_uri": "spotify:track:2jvuMDqBK04WvCYYz5qjvG",
+   "spotify_url": "https://open.spotify.com/track/2jvuMDqBK04WvCYYz5qjvG?si=FfahqHlfSEydQ6QNoymOKQ",
+   "starts_at_ms": 84693,
+   "starts_at": "1:24"
+  },
+  {
+   "n": 3,
+   "title": "Pigs (Three Different Ones)",
+   "clean_title": "Pigs (Three Different Ones)",
+   "duration_ms": 686333,
+   "spotify_uri": "spotify:track:0gEaeqVRHPzRc7HMXtOKc7",
+   "spotify_url": "https://open.spotify.com/track/0gEaeqVRHPzRc7HMXtOKc7?si=aEkxajfrSsSO_PrOebfPtA",
+   "starts_at_ms": 1109546,
+   "starts_at": "18:29"
+  },
+  {
+   "n": 4,
+   "title": "Sheep",
+   "clean_title": "Sheep",
+   "duration_ms": 618933,
+   "spotify_uri": "spotify:track:55e99bv2wlgTYtNEYHWtN1",
+   "spotify_url": "https://open.spotify.com/track/55e99bv2wlgTYtNEYHWtN1?si=mpNCRiggTOKWvVjUdonw4A",
+   "starts_at_ms": 1795879,
+   "starts_at": "29:55"
+  },
+  {
+   "n": 5,
+   "title": "Pigs on the Wing 2",
+   "clean_title": "Pigs on the Wing 2",
+   "duration_ms": 86853,
+   "spotify_uri": "spotify:track:1OzTJHmUMMYPQpMLxZYHlU",
+   "spotify_url": "https://open.spotify.com/track/1OzTJHmUMMYPQpMLxZYHlU?si=ZdxbO5ASQXqvInW6PX7Fyg",
+   "starts_at_ms": 2414812,
+   "starts_at": "40:14"
+  }
+ ],
+ "week": 1,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:22.762362+00:00"
+}
