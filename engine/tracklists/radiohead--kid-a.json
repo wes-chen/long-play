@@ -1,0 +1,121 @@
+{
+ "artist": "Radiohead",
+ "album": "Kid A",
+ "spotify_uri": "spotify:album:6GjwtEZcfenmOf6l18N7T7",
+ "spotify_url": "https://open.spotify.com/album/6GjwtEZcfenmOf6l18N7T7?si=KxTmFXloSieaQC8GrLGu-g",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Everything In Its Right Place",
+   "clean_title": "Everything In Its Right Place",
+   "duration_ms": 251426,
+   "spotify_uri": "spotify:track:2kRFrWaLWiKq48YYVdGcm8",
+   "spotify_url": "https://open.spotify.com/track/2kRFrWaLWiKq48YYVdGcm8?si=YNxFFnTVRaOYJXqSZ44how",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Kid A",
+   "clean_title": "Kid A",
+   "duration_ms": 284506,
+   "spotify_uri": "spotify:track:3QDahKSqLwYJYQRbILdzS6",
+   "spotify_url": "https://open.spotify.com/track/3QDahKSqLwYJYQRbILdzS6?si=zw-f5vQCT3uVMWB4vOtIpA",
+   "starts_at_ms": 251426,
+   "starts_at": "4:11"
+  },
+  {
+   "n": 3,
+   "title": "The National Anthem",
+   "clean_title": "The National Anthem",
+   "duration_ms": 351693,
+   "spotify_uri": "spotify:track:4Wgj6jzoI2gYlumXdYAB8U",
+   "spotify_url": "https://open.spotify.com/track/4Wgj6jzoI2gYlumXdYAB8U?si=ljqV6-FrSGGcUiRvfmcp1w",
+   "starts_at_ms": 535932,
+   "starts_at": "8:55"
+  },
+  {
+   "n": 4,
+   "title": "How to Disappear Completely",
+   "clean_title": "How to Disappear Completely",
+   "duration_ms": 356333,
+   "spotify_uri": "spotify:track:2rtGaCAeYtmcIvuZsvgTf6",
+   "spotify_url": "https://open.spotify.com/track/2rtGaCAeYtmcIvuZsvgTf6?si=RppiOd9hTC6GocRuQsbyQw",
+   "starts_at_ms": 887625,
+   "starts_at": "14:47"
+  },
+  {
+   "n": 5,
+   "title": "Treefingers",
+   "clean_title": "Treefingers",
+   "duration_ms": 222600,
+   "spotify_uri": "spotify:track:4LrfsgQ5AGouvH3PlxW2PC",
+   "spotify_url": "https://open.spotify.com/track/4LrfsgQ5AGouvH3PlxW2PC?si=3SNiCkVMRXOPmy02TN_S5w",
+   "starts_at_ms": 1243958,
+   "starts_at": "20:43"
+  },
+  {
+   "n": 6,
+   "title": "Optimistic",
+   "clean_title": "Optimistic",
+   "duration_ms": 315973,
+   "spotify_uri": "spotify:track:1FoUsSi9BCTlNt2Vd7V8XA",
+   "spotify_url": "https://open.spotify.com/track/1FoUsSi9BCTlNt2Vd7V8XA?si=2EhHq8HHTiiEa90VjVsbwg",
+   "starts_at_ms": 1466558,
+   "starts_at": "24:26"
+  },
+  {
+   "n": 7,
+   "title": "In Limbo",
+   "clean_title": "In Limbo",
+   "duration_ms": 211000,
+   "spotify_uri": "spotify:track:0xivCtzVVrdeq32s8EnOO6",
+   "spotify_url": "https://open.spotify.com/track/0xivCtzVVrdeq32s8EnOO6?si=tMO-6QaNSvSpK2XEL66HHw",
+   "starts_at_ms": 1782531,
+   "starts_at": "29:42"
+  },
+  {
+   "n": 8,
+   "title": "Idioteque",
+   "clean_title": "Idioteque",
+   "duration_ms": 309093,
+   "spotify_uri": "spotify:track:1W5XugQJGhnSATMI5n002M",
+   "spotify_url": "https://open.spotify.com/track/1W5XugQJGhnSATMI5n002M?si=gDgFSxIvS-K-cjjHZCkEKw",
+   "starts_at_ms": 1993531,
+   "starts_at": "33:13"
+  },
+  {
+   "n": 9,
+   "title": "Morning Bell",
+   "clean_title": "Morning Bell",
+   "duration_ms": 275800,
+   "spotify_uri": "spotify:track:4h37RgtBg9iynN3BIL5lFU",
+   "spotify_url": "https://open.spotify.com/track/4h37RgtBg9iynN3BIL5lFU?si=27OQlE8rSTuFRt5FZLjBsg",
+   "starts_at_ms": 2302624,
+   "starts_at": "38:22"
+  },
+  {
+   "n": 10,
+   "title": "Motion Picture Soundtrack",
+   "clean_title": "Motion Picture Soundtrack",
+   "duration_ms": 200482,
+   "spotify_uri": "spotify:track:4SrRrB27n7fiRkQcPoKfpk",
+   "spotify_url": "https://open.spotify.com/track/4SrRrB27n7fiRkQcPoKfpk?si=oGpSmiylRS-78Nzmm1P2xg",
+   "starts_at_ms": 2578424,
+   "starts_at": "42:58"
+  },
+  {
+   "n": 11,
+   "title": "Untitled",
+   "clean_title": "Untitled",
+   "duration_ms": 52694,
+   "spotify_uri": "spotify:track:4aeCuOowYXJXrMZsVHZbfF",
+   "spotify_url": "https://open.spotify.com/track/4aeCuOowYXJXrMZsVHZbfF?si=gM1Ow5xiTjm4Rf5J7eX3ag",
+   "starts_at_ms": 2778906,
+   "starts_at": "46:18"
+  }
+ ],
+ "week": 4,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:30:36.630522+00:00"
+}
