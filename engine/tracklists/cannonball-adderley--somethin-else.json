@@ -1,0 +1,81 @@
+{
+ "artist": "Cannonball Adderley",
+ "album": "Somethin' Else",
+ "spotify_uri": "spotify:album:7v3viWq0XcFNof8JpP8fCK",
+ "spotify_url": "https://open.spotify.com/album/7v3viWq0XcFNof8JpP8fCK?si=FAYi4-TYRNqKCB8Zg325eA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "The Black Messiah - (Berliner Jazztage, Berlin November 2nd.1972 [Restauraci\u00f3n 2023])",
+   "clean_title": "The Black Messiah - (Berliner Jazztage, Berlin November 2nd.1972 [Restauraci\u00f3n 2023])",
+   "duration_ms": 1146075,
+   "spotify_uri": "spotify:track:6Ui3tFgq3cJnukxAsqiN1D",
+   "spotify_url": "https://open.spotify.com/track/6Ui3tFgq3cJnukxAsqiN1D?si=XUvcVknNRQm-GrQ2dV5EvA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Cannon Talks - Hummin' - (Berliner Jazztage, Berlin November 2nd.1972 [Restauraci\u00f3n 2023])",
+   "clean_title": "Cannon Talks - Hummin' - (Berliner Jazztage, Berlin November 2nd.1972 [Restauraci\u00f3n 2023])",
+   "duration_ms": 726383,
+   "spotify_uri": "spotify:track:1vNppSVJhF97geoaD7HE3J",
+   "spotify_url": "https://open.spotify.com/track/1vNppSVJhF97geoaD7HE3J?si=2Zw0MeCtTkWd4HMhDz7cjA",
+   "starts_at_ms": 1146075,
+   "starts_at": "19:06"
+  },
+  {
+   "n": 3,
+   "title": "Cannon Talks - Dr.Honorus Causa - (Berliner Jazztage, Berlin November 2nd.1972 [Restauraci\u00f3n 2023])",
+   "clean_title": "Cannon Talks - Dr.Honorus Causa - (Berliner Jazztage, Berlin November 2nd.1972 [Restauraci\u00f3n 2023])",
+   "duration_ms": 778651,
+   "spotify_uri": "spotify:track:3b9QjHb0nfsIPHIAF33ruS",
+   "spotify_url": "https://open.spotify.com/track/3b9QjHb0nfsIPHIAF33ruS?si=IxmiKA8AQRe67r-V6JG5Lw",
+   "starts_at_ms": 1872458,
+   "starts_at": "31:12"
+  },
+  {
+   "n": 4,
+   "title": "Directions - (Berliner Jazztage, Berlin November 2nd.1972 [Restauraci\u00f3n 2023])",
+   "clean_title": "Directions - (Berliner Jazztage, Berlin November 2nd.1972 [Restauraci\u00f3n 2023])",
+   "duration_ms": 257370,
+   "spotify_uri": "spotify:track:0XK1yxTqCxbSeQyZrcWF6F",
+   "spotify_url": "https://open.spotify.com/track/0XK1yxTqCxbSeQyZrcWF6F?si=2ySOSiCpSzeQQcXASQiCOg",
+   "starts_at_ms": 2651109,
+   "starts_at": "44:11"
+  },
+  {
+   "n": 5,
+   "title": "Mercy,Mercy,Mercy - (Berliner Jazztage, Berlin November 2nd.1972 [Restauraci\u00f3n 2023])",
+   "clean_title": "Mercy,Mercy,Mercy - (Berliner Jazztage, Berlin November 2nd.1972 [Restauraci\u00f3n 2023])",
+   "duration_ms": 131625,
+   "spotify_uri": "spotify:track:1bLgJFMQZvHQz3s1poa1OD",
+   "spotify_url": "https://open.spotify.com/track/1bLgJFMQZvHQz3s1poa1OD?si=Qt-xr-uYT46mYmU1kNGBKg",
+   "starts_at_ms": 2908479,
+   "starts_at": "48:28"
+  },
+  {
+   "n": 6,
+   "title": "Piano/Bass Duet - (Berliner Jazztage, Berlin November 2nd.1972 [Restauraci\u00f3n 2023])",
+   "clean_title": "Piano/Bass Duet - (Berliner Jazztage, Berlin November 2nd.1972 [Restauraci\u00f3n 2023])",
+   "duration_ms": 461064,
+   "spotify_uri": "spotify:track:1mBy7Xt2nWxf8n8TZC4GB2",
+   "spotify_url": "https://open.spotify.com/track/1mBy7Xt2nWxf8n8TZC4GB2?si=Wm27bLtpQ9Wwus-qWYNd5w",
+   "starts_at_ms": 3040104,
+   "starts_at": "50:40"
+  },
+  {
+   "n": 7,
+   "title": "Walk Tall - (Berliner Jazztage, Berlin November 2nd.1972 [Restauraci\u00f3n 2023])",
+   "clean_title": "Walk Tall - (Berliner Jazztage, Berlin November 2nd.1972 [Restauraci\u00f3n 2023])",
+   "duration_ms": 275127,
+   "spotify_uri": "spotify:track:0fCxD6vQofaKgt9SpbSNFT",
+   "spotify_url": "https://open.spotify.com/track/0fCxD6vQofaKgt9SpbSNFT?si=Li8mSzV2QBCzgkJ6ULBAWw",
+   "starts_at_ms": 3501168,
+   "starts_at": "58:21"
+  }
+ ],
+ "week": 12,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:18.240046+00:00"
+}
