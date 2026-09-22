@@ -1,0 +1,131 @@
+{
+ "artist": "Elliott Smith",
+ "album": "Either/Or",
+ "spotify_uri": "spotify:album:5bmpvyP7UGqB4VuXmrJUMy",
+ "spotify_url": "https://open.spotify.com/album/5bmpvyP7UGqB4VuXmrJUMy?si=9lMKLvipTVW_Q9WDYIZQVA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Speed Trials",
+   "clean_title": "Speed Trials",
+   "duration_ms": 181293,
+   "spotify_uri": "spotify:track:05lmqBrKGLHAmqsADEuU9a",
+   "spotify_url": "https://open.spotify.com/track/05lmqBrKGLHAmqsADEuU9a?si=qmVYeJaRR7-04eybz10wxw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Alameda",
+   "clean_title": "Alameda",
+   "duration_ms": 223400,
+   "spotify_uri": "spotify:track:7hg9DGPDztq8fjIr2YweZb",
+   "spotify_url": "https://open.spotify.com/track/7hg9DGPDztq8fjIr2YweZb?si=Myo9PH9qRAOL39qxGrYdkg",
+   "starts_at_ms": 181293,
+   "starts_at": "3:01"
+  },
+  {
+   "n": 3,
+   "title": "Ballad of Big Nothing",
+   "clean_title": "Ballad of Big Nothing",
+   "duration_ms": 168333,
+   "spotify_uri": "spotify:track:6L9uay2MM8qACwI1yQHnw2",
+   "spotify_url": "https://open.spotify.com/track/6L9uay2MM8qACwI1yQHnw2?si=qJDLLWDlTBWOWKaOc8FNAQ",
+   "starts_at_ms": 404693,
+   "starts_at": "6:44"
+  },
+  {
+   "n": 4,
+   "title": "Between the Bars",
+   "clean_title": "Between the Bars",
+   "duration_ms": 141200,
+   "spotify_uri": "spotify:track:1JbUMtVkQuaAPdHOvncVTm",
+   "spotify_url": "https://open.spotify.com/track/1JbUMtVkQuaAPdHOvncVTm?si=3Vlbf0H_Stmh3Sr-nNOi-Q",
+   "starts_at_ms": 573026,
+   "starts_at": "9:33"
+  },
+  {
+   "n": 5,
+   "title": "Pictures of Me",
+   "clean_title": "Pictures of Me",
+   "duration_ms": 226973,
+   "spotify_uri": "spotify:track:3SCgkLOzAf13rgHoempJs1",
+   "spotify_url": "https://open.spotify.com/track/3SCgkLOzAf13rgHoempJs1?si=6yVh8-GHQPOjMg-Z3MbB2A",
+   "starts_at_ms": 714226,
+   "starts_at": "11:54"
+  },
+  {
+   "n": 6,
+   "title": "No Name No. 5",
+   "clean_title": "No Name No. 5",
+   "duration_ms": 223493,
+   "spotify_uri": "spotify:track:1pDIEcL6F2iZfgFbwmktw9",
+   "spotify_url": "https://open.spotify.com/track/1pDIEcL6F2iZfgFbwmktw9?si=YD0QqZ5ETECaUlxgxExMKw",
+   "starts_at_ms": 941199,
+   "starts_at": "15:41"
+  },
+  {
+   "n": 7,
+   "title": "Rose Parade",
+   "clean_title": "Rose Parade",
+   "duration_ms": 208466,
+   "spotify_uri": "spotify:track:7krF2T7qvOTLjpGKx5zuR5",
+   "spotify_url": "https://open.spotify.com/track/7krF2T7qvOTLjpGKx5zuR5?si=ZqcNfFBkROCb7dxtS5nIKQ",
+   "starts_at_ms": 1164692,
+   "starts_at": "19:24"
+  },
+  {
+   "n": 8,
+   "title": "Punch and Judy",
+   "clean_title": "Punch and Judy",
+   "duration_ms": 145706,
+   "spotify_uri": "spotify:track:7rQJa4XaTfHuA4TVwU8m3Z",
+   "spotify_url": "https://open.spotify.com/track/7rQJa4XaTfHuA4TVwU8m3Z?si=LtTUKbV9SfuZQcRB0SD4-Q",
+   "starts_at_ms": 1373158,
+   "starts_at": "22:53"
+  },
+  {
+   "n": 9,
+   "title": "Angeles",
+   "clean_title": "Angeles",
+   "duration_ms": 176826,
+   "spotify_uri": "spotify:track:1aMafyDbpEw3a8FrVhwRlg",
+   "spotify_url": "https://open.spotify.com/track/1aMafyDbpEw3a8FrVhwRlg?si=RKoI6A2wToKltkr_iQYK8A",
+   "starts_at_ms": 1518864,
+   "starts_at": "25:18"
+  },
+  {
+   "n": 10,
+   "title": "Cupid's Trick",
+   "clean_title": "Cupid's Trick",
+   "duration_ms": 184933,
+   "spotify_uri": "spotify:track:02dNJoluauc40mVrZaQCs4",
+   "spotify_url": "https://open.spotify.com/track/02dNJoluauc40mVrZaQCs4?si=1FJx7bauSWqahPDkeupdgg",
+   "starts_at_ms": 1695690,
+   "starts_at": "28:15"
+  },
+  {
+   "n": 11,
+   "title": "2:45 AM",
+   "clean_title": "2:45 AM",
+   "duration_ms": 198973,
+   "spotify_uri": "spotify:track:1mNOLSQw42abtI2VM7wVRI",
+   "spotify_url": "https://open.spotify.com/track/1mNOLSQw42abtI2VM7wVRI?si=jmbKBP82Q-asBGk4J--OqA",
+   "starts_at_ms": 1880623,
+   "starts_at": "31:20"
+  },
+  {
+   "n": 12,
+   "title": "Say Yes",
+   "clean_title": "Say Yes",
+   "duration_ms": 139000,
+   "spotify_uri": "spotify:track:4IKMZtDIqyQDA6a4YvsgpK",
+   "spotify_url": "https://open.spotify.com/track/4IKMZtDIqyQDA6a4YvsgpK?si=ONBHb5C0S2K54Ie4g6zhnA",
+   "starts_at_ms": 2079596,
+   "starts_at": "34:39"
+  }
+ ],
+ "week": 14,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:26.799637+00:00"
+}
