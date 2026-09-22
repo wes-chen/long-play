@@ -1,0 +1,241 @@
+{
+ "artist": "Nick Drake",
+ "album": "Pink Moon",
+ "spotify_uri": "spotify:album:6RoEhsWUSLVTh9wILDBfGJ",
+ "spotify_url": "https://open.spotify.com/album/6RoEhsWUSLVTh9wILDBfGJ?si=mgVl58ylRUm0sFgxa1kf_g",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "' Cello Song",
+   "clean_title": "' Cello Song",
+   "duration_ms": 304310,
+   "spotify_uri": "spotify:track:0eSOj3dHB1MQQqqqRyWxb9",
+   "spotify_url": "https://open.spotify.com/track/0eSOj3dHB1MQQqqqRyWxb9?si=UtatnMv6Qdy4gci8Bwyo_Q",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Hazey Jane II",
+   "clean_title": "Hazey Jane II",
+   "duration_ms": 247106,
+   "spotify_uri": "spotify:track:3yudRPSiOwCruQCwqdhS2Q",
+   "spotify_url": "https://open.spotify.com/track/3yudRPSiOwCruQCwqdhS2Q?si=zWrQHNFESjyvBwo7banLRQ",
+   "starts_at_ms": 304310,
+   "starts_at": "5:04"
+  },
+  {
+   "n": 3,
+   "title": "Saturday Sun",
+   "clean_title": "Saturday Sun",
+   "duration_ms": 315974,
+   "spotify_uri": "spotify:track:1OratJBBwWrUcyhHUKs0S0",
+   "spotify_url": "https://open.spotify.com/track/1OratJBBwWrUcyhHUKs0S0?si=FE1LnamERyaf4WWxvDh8dQ",
+   "starts_at_ms": 551416,
+   "starts_at": "9:11"
+  },
+  {
+   "n": 4,
+   "title": "Road",
+   "clean_title": "Road",
+   "duration_ms": 156689,
+   "spotify_uri": "spotify:track:6LdShMhRMBP1deIQlHGH1U",
+   "spotify_url": "https://open.spotify.com/track/6LdShMhRMBP1deIQlHGH1U?si=jXyKeBCNQIOqEQK9yPUrVg",
+   "starts_at_ms": 867390,
+   "starts_at": "14:27"
+  },
+  {
+   "n": 5,
+   "title": "From The Morning",
+   "clean_title": "From The Morning",
+   "duration_ms": 220397,
+   "spotify_uri": "spotify:track:792cwRm3zGeX37J2MLmlex",
+   "spotify_url": "https://open.spotify.com/track/792cwRm3zGeX37J2MLmlex?si=cnHFVttLS1WnB3ZodX2y3A",
+   "starts_at_ms": 1024079,
+   "starts_at": "17:04"
+  },
+  {
+   "n": 6,
+   "title": "Place To Be",
+   "clean_title": "Place To Be",
+   "duration_ms": 211266,
+   "spotify_uri": "spotify:track:2kE25u3sDiNsE8LRteCjsu",
+   "spotify_url": "https://open.spotify.com/track/2kE25u3sDiNsE8LRteCjsu?si=TX3DXMcQTbq4SCIdInrjKQ",
+   "starts_at_ms": 1244476,
+   "starts_at": "20:44"
+  },
+  {
+   "n": 7,
+   "title": "Three Hours",
+   "clean_title": "Three Hours",
+   "duration_ms": 272567,
+   "spotify_uri": "spotify:track:4y2NYrixZo10KMQoF2Bjh6",
+   "spotify_url": "https://open.spotify.com/track/4y2NYrixZo10KMQoF2Bjh6?si=CBXipkKoSqWQM4-vpcqlhQ",
+   "starts_at_ms": 1455742,
+   "starts_at": "24:15"
+  },
+  {
+   "n": 8,
+   "title": "Parasite",
+   "clean_title": "Parasite",
+   "duration_ms": 291548,
+   "spotify_uri": "spotify:track:4eYqwnYgxgsXu8LVv5uuny",
+   "spotify_url": "https://open.spotify.com/track/4eYqwnYgxgsXu8LVv5uuny?si=rqMFOF9CRqi3X-nr17uHjQ",
+   "starts_at_ms": 1728309,
+   "starts_at": "28:48"
+  },
+  {
+   "n": 9,
+   "title": "Time Has Told Me",
+   "clean_title": "Time Has Told Me",
+   "duration_ms": 239527,
+   "spotify_uri": "spotify:track:0gh0fvCucAmR12pHBtoJhI",
+   "spotify_url": "https://open.spotify.com/track/0gh0fvCucAmR12pHBtoJhI?si=9pMrJcgxS3K7tRytZ_OqAA",
+   "starts_at_ms": 2019857,
+   "starts_at": "33:39"
+  },
+  {
+   "n": 10,
+   "title": "One Of These Things First",
+   "clean_title": "One Of These Things First",
+   "duration_ms": 219593,
+   "spotify_uri": "spotify:track:6HICb5BoUV3oVzXoVdOFfc",
+   "spotify_url": "https://open.spotify.com/track/6HICb5BoUV3oVzXoVdOFfc?si=MwxxzmJPTiqU0Bn-3vZ0GA",
+   "starts_at_ms": 2259384,
+   "starts_at": "37:39"
+  },
+  {
+   "n": 11,
+   "title": "Northern Sky",
+   "clean_title": "Northern Sky",
+   "duration_ms": 252269,
+   "spotify_uri": "spotify:track:4vibXZMSneMvbRUNYdaDxz",
+   "spotify_url": "https://open.spotify.com/track/4vibXZMSneMvbRUNYdaDxz?si=CYE9Uf6-TxixT0nvax3nug",
+   "starts_at_ms": 2478977,
+   "starts_at": "41:18"
+  },
+  {
+   "n": 12,
+   "title": "Black Eyed Dog",
+   "clean_title": "Black Eyed Dog",
+   "duration_ms": 225709,
+   "spotify_uri": "spotify:track:4fCEbTbvrepv6klTEa9LRG",
+   "spotify_url": "https://open.spotify.com/track/4fCEbTbvrepv6klTEa9LRG?si=w6ztpWoXTKeh9KzKP8t-Wg",
+   "starts_at_ms": 2731246,
+   "starts_at": "45:31"
+  },
+  {
+   "n": 13,
+   "title": "Poor Boy",
+   "clean_title": "Poor Boy",
+   "duration_ms": 275926,
+   "spotify_uri": "spotify:track:3FZx7laqFPycHFykD4Snjd",
+   "spotify_url": "https://open.spotify.com/track/3FZx7laqFPycHFykD4Snjd?si=Vst9wGviTmCn4g1ePAhjxw",
+   "starts_at_ms": 2956955,
+   "starts_at": "49:16"
+  },
+  {
+   "n": 14,
+   "title": "Which Will",
+   "clean_title": "Which Will",
+   "duration_ms": 244274,
+   "spotify_uri": "spotify:track:5Rzq6KivA4ZnjEo3pIZD3i",
+   "spotify_url": "https://open.spotify.com/track/5Rzq6KivA4ZnjEo3pIZD3i?si=OIhGL8o-SgGhbkYKBRXjKA",
+   "starts_at_ms": 3232881,
+   "starts_at": "53:52"
+  },
+  {
+   "n": 15,
+   "title": "Harvest Breed",
+   "clean_title": "Harvest Breed",
+   "duration_ms": 168079,
+   "spotify_uri": "spotify:track:1XUpladqAYzH5i8iXi5ZDT",
+   "spotify_url": "https://open.spotify.com/track/1XUpladqAYzH5i8iXi5ZDT?si=oeBMwZSJT1atsKtVi8DhOQ",
+   "starts_at_ms": 3477155,
+   "starts_at": "57:57"
+  },
+  {
+   "n": 16,
+   "title": "I Think They're Leaving Me Behind",
+   "clean_title": "I Think They're Leaving Me Behind",
+   "duration_ms": 272386,
+   "spotify_uri": "spotify:track:1Jh0S1KTULcHLgkN4mDPwU",
+   "spotify_url": "https://open.spotify.com/track/1Jh0S1KTULcHLgkN4mDPwU?si=EjmFfKoQR62BxgLpZUz4mQ",
+   "starts_at_ms": 3645234,
+   "starts_at": "60:45"
+  },
+  {
+   "n": 17,
+   "title": "Pink Moon",
+   "clean_title": "Pink Moon",
+   "duration_ms": 126902,
+   "spotify_uri": "spotify:track:0sKNoLJV5oM40O3RySRFVR",
+   "spotify_url": "https://open.spotify.com/track/0sKNoLJV5oM40O3RySRFVR?si=soTb0xdMSJKkqY-GiLZn4g",
+   "starts_at_ms": 3917620,
+   "starts_at": "65:17"
+  },
+  {
+   "n": 18,
+   "title": "Time Of No Reply",
+   "clean_title": "Time Of No Reply",
+   "duration_ms": 244935,
+   "spotify_uri": "spotify:track:1CITwovM6rlUUwWuC10vYe",
+   "spotify_url": "https://open.spotify.com/track/1CITwovM6rlUUwWuC10vYe?si=UI6hX6nJRTinehtRbXohWQ",
+   "starts_at_ms": 4044522,
+   "starts_at": "67:24"
+  },
+  {
+   "n": 19,
+   "title": "River Man",
+   "clean_title": "River Man",
+   "duration_ms": 238433,
+   "spotify_uri": "spotify:track:3yT8vv9rLRaqQS4V1gOl1i",
+   "spotify_url": "https://open.spotify.com/track/3yT8vv9rLRaqQS4V1gOl1i?si=5SzjQi6ZR5OTyutIe0Fu0Q",
+   "starts_at_ms": 4289457,
+   "starts_at": "71:29"
+  },
+  {
+   "n": 20,
+   "title": "Free Ride",
+   "clean_title": "Free Ride",
+   "duration_ms": 167278,
+   "spotify_uri": "spotify:track:5itcRATN2KbhAN6cG7NuNF",
+   "spotify_url": "https://open.spotify.com/track/5itcRATN2KbhAN6cG7NuNF?si=gIymXmdgSNKAgvwbqVkX-g",
+   "starts_at_ms": 4527890,
+   "starts_at": "75:27"
+  },
+  {
+   "n": 21,
+   "title": "Fly",
+   "clean_title": "Fly",
+   "duration_ms": 305740,
+   "spotify_uri": "spotify:track:1zoHtOLZNQ4HO3E3yeMDBY",
+   "spotify_url": "https://open.spotify.com/track/1zoHtOLZNQ4HO3E3yeMDBY?si=VukO6Zx7TyGYdi1IquHwbg",
+   "starts_at_ms": 4695168,
+   "starts_at": "78:15"
+  },
+  {
+   "n": 22,
+   "title": "Day Is Done",
+   "clean_title": "Day Is Done",
+   "duration_ms": 386319,
+   "spotify_uri": "spotify:track:0wP2CP4jj4aRr8dsBk17c9",
+   "spotify_url": "https://open.spotify.com/track/0wP2CP4jj4aRr8dsBk17c9?si=UbvSiWFoSUitdJnfEt6vvg",
+   "starts_at_ms": 5000908,
+   "starts_at": "83:20"
+  },
+  {
+   "n": 23,
+   "title": "Voices",
+   "clean_title": "Voices",
+   "duration_ms": 267013,
+   "spotify_uri": "spotify:track:0787vnGFbMzkMmAIaoaNRa",
+   "spotify_url": "https://open.spotify.com/track/0787vnGFbMzkMmAIaoaNRa?si=TYLAbGPwTLm0GO8VOyC-8w",
+   "starts_at_ms": 5387227,
+   "starts_at": "89:47"
+  }
+ ],
+ "week": 14,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:25.739844+00:00"
+}
