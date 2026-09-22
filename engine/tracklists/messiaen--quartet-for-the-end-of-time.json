@@ -1,0 +1,91 @@
+{
+ "artist": "Messiaen",
+ "album": "Quartet for the End of Time",
+ "spotify_uri": "spotify:album:7rC6IrCzShnanTdT87w1JT",
+ "spotify_url": "https://open.spotify.com/album/7rC6IrCzShnanTdT87w1JT?si=C3JY3yVwQRasIwMrdboktQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Quatuor pour la fin du Temps: I. Liturgie de cristal",
+   "clean_title": "Quatuor pour la fin du Temps: I. Liturgie de cristal",
+   "duration_ms": 144533,
+   "spotify_uri": "spotify:track:1acZHtdSxqTHjD5fv9elsv",
+   "spotify_url": "https://open.spotify.com/track/1acZHtdSxqTHjD5fv9elsv?si=21CXnyKYSamuoqgLg2JcJA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Quatuor pour la fin du Temps: II. Vocalise, pour l' Ange qui annonce la fin du Temps",
+   "clean_title": "Quatuor pour la fin du Temps: II. Vocalise, pour l' Ange qui annonce la fin du Temps",
+   "duration_ms": 326266,
+   "spotify_uri": "spotify:track:6Fw35iAYiLGlHqcf8Rvx8X",
+   "spotify_url": "https://open.spotify.com/track/6Fw35iAYiLGlHqcf8Rvx8X?si=tPM3LKUaTaCJ08VRz2oGbw",
+   "starts_at_ms": 144533,
+   "starts_at": "2:24"
+  },
+  {
+   "n": 3,
+   "title": "Quatuor pour la fin du Temps: III. Ab\u00eeme des oiseaux",
+   "clean_title": "Quatuor pour la fin du Temps: III. Ab\u00eeme des oiseaux",
+   "duration_ms": 460666,
+   "spotify_uri": "spotify:track:7iXJIY7B2MVsmaW3kTlfNX",
+   "spotify_url": "https://open.spotify.com/track/7iXJIY7B2MVsmaW3kTlfNX?si=wk7MnFS5SiWcfBX2Bf9tLw",
+   "starts_at_ms": 470799,
+   "starts_at": "7:50"
+  },
+  {
+   "n": 4,
+   "title": "Quatuor pour la fin du Temps: IV. Interm\u00e8de",
+   "clean_title": "Quatuor pour la fin du Temps: IV. Interm\u00e8de",
+   "duration_ms": 111026,
+   "spotify_uri": "spotify:track:1GaQMSvKlkHSu0s30pEcqD",
+   "spotify_url": "https://open.spotify.com/track/1GaQMSvKlkHSu0s30pEcqD?si=6vxw1hefR760yM7CWnoaRw",
+   "starts_at_ms": 931465,
+   "starts_at": "15:31"
+  },
+  {
+   "n": 5,
+   "title": "Quatuor pour la fin du Temps: V. Louange \u00e0 l'\u00e8ternit\u00e9 de J\u00e9sus",
+   "clean_title": "Quatuor pour la fin du Temps: V. Louange \u00e0 l'\u00e8ternit\u00e9 de J\u00e9sus",
+   "duration_ms": 465240,
+   "spotify_uri": "spotify:track:1uDEFyMlKB0liU5b2XXYdi",
+   "spotify_url": "https://open.spotify.com/track/1uDEFyMlKB0liU5b2XXYdi?si=budi7oifR4egM1YHM29ljw",
+   "starts_at_ms": 1042491,
+   "starts_at": "17:22"
+  },
+  {
+   "n": 6,
+   "title": "Quatuor pour la fin du Temps: VI. Danse de la fureur, pour les sept trompettes",
+   "clean_title": "Quatuor pour la fin du Temps: VI. Danse de la fureur, pour les sept trompettes",
+   "duration_ms": 379240,
+   "spotify_uri": "spotify:track:6bvXHPgmX8DOF1LpONwzXw",
+   "spotify_url": "https://open.spotify.com/track/6bvXHPgmX8DOF1LpONwzXw?si=zVBfGrtjRbSzD1BZNng54g",
+   "starts_at_ms": 1507731,
+   "starts_at": "25:07"
+  },
+  {
+   "n": 7,
+   "title": "Quatuor pour la fin du Temps: VII. Fouillis d'arcs-en-ciel, pour l' Ange qui annonce la fin du Temps",
+   "clean_title": "Quatuor pour la fin du Temps: VII. Fouillis d'arcs-en-ciel, pour l' Ange qui annonce la fin du Temps",
+   "duration_ms": 431440,
+   "spotify_uri": "spotify:track:2A5EoBeAt1EurZk2XJQ6hB",
+   "spotify_url": "https://open.spotify.com/track/2A5EoBeAt1EurZk2XJQ6hB?si=dH4Su_vlQC2UhcSW6J2oEA",
+   "starts_at_ms": 1886971,
+   "starts_at": "31:26"
+  },
+  {
+   "n": 8,
+   "title": "Quatuor pour la fin du Temps: VIII. Louange \u00e0 l'immortalit\u00e9 de J\u00e9sus",
+   "clean_title": "Quatuor pour la fin du Temps: VIII. Louange \u00e0 l'immortalit\u00e9 de J\u00e9sus",
+   "duration_ms": 491000,
+   "spotify_uri": "spotify:track:0t1c50sHs8a81IUrdecbi7",
+   "spotify_url": "https://open.spotify.com/track/0t1c50sHs8a81IUrdecbi7?si=vdi1hU8zTTu-G66fPoMthQ",
+   "starts_at_ms": 2318411,
+   "starts_at": "38:38"
+  }
+ ],
+ "week": 21,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:32:00.787224+00:00"
+}
