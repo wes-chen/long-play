@@ -1,0 +1,231 @@
+{
+ "artist": "Hans Zimmer",
+ "album": "Dune",
+ "spotify_uri": "spotify:album:56k8ay5oE5apR61WIeE4wQ",
+ "spotify_url": "https://open.spotify.com/album/56k8ay5oE5apR61WIeE4wQ?si=mS3nbX-uRnaeO2bPR9Yx0g",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Dream of Arrakis",
+   "clean_title": "Dream of Arrakis",
+   "duration_ms": 188746,
+   "spotify_uri": "spotify:track:5maXVyAZAkkB3Cf0vca9CY",
+   "spotify_url": "https://open.spotify.com/track/5maXVyAZAkkB3Cf0vca9CY?si=pFah4_4-TW6P3NRqUci8RQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Herald of the Change",
+   "clean_title": "Herald of the Change",
+   "duration_ms": 301013,
+   "spotify_uri": "spotify:track:4eYtg015W15Ik5dUGzFXje",
+   "spotify_url": "https://open.spotify.com/track/4eYtg015W15Ik5dUGzFXje?si=tadp0rLyQHKuOI_xMYJQxg",
+   "starts_at_ms": 188746,
+   "starts_at": "3:08"
+  },
+  {
+   "n": 3,
+   "title": "Bene Gesserit",
+   "clean_title": "Bene Gesserit",
+   "duration_ms": 234480,
+   "spotify_uri": "spotify:track:5Jwajocn1leNg7A3310iFB",
+   "spotify_url": "https://open.spotify.com/track/5Jwajocn1leNg7A3310iFB?si=6eX-f3sUTwCoWEFOoXIQbw",
+   "starts_at_ms": 489759,
+   "starts_at": "8:09"
+  },
+  {
+   "n": 4,
+   "title": "Gom Jabbar",
+   "clean_title": "Gom Jabbar",
+   "duration_ms": 120466,
+   "spotify_uri": "spotify:track:1dZud3NHGAeaEkTmE8lZR7",
+   "spotify_url": "https://open.spotify.com/track/1dZud3NHGAeaEkTmE8lZR7?si=LdZ_BASqTkSlrJX-iprNug",
+   "starts_at_ms": 724239,
+   "starts_at": "12:04"
+  },
+  {
+   "n": 5,
+   "title": "The One",
+   "clean_title": "The One",
+   "duration_ms": 150613,
+   "spotify_uri": "spotify:track:41AKwgxO3OB8YxddUjYwVo",
+   "spotify_url": "https://open.spotify.com/track/41AKwgxO3OB8YxddUjYwVo?si=jTGQ_cTeRq65fOvoEuWH3w",
+   "starts_at_ms": 844705,
+   "starts_at": "14:04"
+  },
+  {
+   "n": 6,
+   "title": "Leaving Caladan",
+   "clean_title": "Leaving Caladan",
+   "duration_ms": 115120,
+   "spotify_uri": "spotify:track:5glKprpzpGW5Pf4wB9gNPq",
+   "spotify_url": "https://open.spotify.com/track/5glKprpzpGW5Pf4wB9gNPq?si=uwggpe5LRGalwZKiQdL01w",
+   "starts_at_ms": 995318,
+   "starts_at": "16:35"
+  },
+  {
+   "n": 7,
+   "title": "Arrakeen",
+   "clean_title": "Arrakeen",
+   "duration_ms": 136120,
+   "spotify_uri": "spotify:track:2yFXeoB6uAMXfdgcdB8dsz",
+   "spotify_url": "https://open.spotify.com/track/2yFXeoB6uAMXfdgcdB8dsz?si=XKyICBLySemkXirPe3_cRQ",
+   "starts_at_ms": 1110438,
+   "starts_at": "18:30"
+  },
+  {
+   "n": 8,
+   "title": "Ripples in the Sand",
+   "clean_title": "Ripples in the Sand",
+   "duration_ms": 314786,
+   "spotify_uri": "spotify:track:1gqCO3x2MO4KbQfN9pGUlH",
+   "spotify_url": "https://open.spotify.com/track/1gqCO3x2MO4KbQfN9pGUlH?si=aNums0tgRPCvklpXw_1rIQ",
+   "starts_at_ms": 1246558,
+   "starts_at": "20:46"
+  },
+  {
+   "n": 9,
+   "title": "Visions of Chani",
+   "clean_title": "Visions of Chani",
+   "duration_ms": 267306,
+   "spotify_uri": "spotify:track:3rQPjH9jzcQ8vXRfJELpar",
+   "spotify_url": "https://open.spotify.com/track/3rQPjH9jzcQ8vXRfJELpar?si=rU_2eY6xQCSeUmQq0goSDA",
+   "starts_at_ms": 1561344,
+   "starts_at": "26:01"
+  },
+  {
+   "n": 10,
+   "title": "Night on Arrakis",
+   "clean_title": "Night on Arrakis",
+   "duration_ms": 303240,
+   "spotify_uri": "spotify:track:0ggw2MNONhaQ8VAfEq7n2R",
+   "spotify_url": "https://open.spotify.com/track/0ggw2MNONhaQ8VAfEq7n2R?si=f-R5vT2MSHqEzO4nRz7RCQ",
+   "starts_at_ms": 1828650,
+   "starts_at": "30:28"
+  },
+  {
+   "n": 11,
+   "title": "Armada",
+   "clean_title": "Armada",
+   "duration_ms": 309373,
+   "spotify_uri": "spotify:track:6Li3SBVnG9rEmMzABKs1EJ",
+   "spotify_url": "https://open.spotify.com/track/6Li3SBVnG9rEmMzABKs1EJ?si=Og1RM4UnSqycR-gCZNhzCw",
+   "starts_at_ms": 2131890,
+   "starts_at": "35:31"
+  },
+  {
+   "n": 12,
+   "title": "Burning Palms",
+   "clean_title": "Burning Palms",
+   "duration_ms": 244146,
+   "spotify_uri": "spotify:track:15IH9Ey7XJZYpZ0ByLQE5r",
+   "spotify_url": "https://open.spotify.com/track/15IH9Ey7XJZYpZ0ByLQE5r?si=YL9m1m4_SxOGymOnQTJCIA",
+   "starts_at_ms": 2441263,
+   "starts_at": "40:41"
+  },
+  {
+   "n": 13,
+   "title": "Stranded",
+   "clean_title": "Stranded",
+   "duration_ms": 58933,
+   "spotify_uri": "spotify:track:6WaMnIomt4iOthNrVaqoIR",
+   "spotify_url": "https://open.spotify.com/track/6WaMnIomt4iOthNrVaqoIR?si=X045SaWlR06qYlTZ4CZzXA",
+   "starts_at_ms": 2685409,
+   "starts_at": "44:45"
+  },
+  {
+   "n": 14,
+   "title": "Blood for Blood",
+   "clean_title": "Blood for Blood",
+   "duration_ms": 149360,
+   "spotify_uri": "spotify:track:6iTA9btMhqr9LUsuZCihej",
+   "spotify_url": "https://open.spotify.com/track/6iTA9btMhqr9LUsuZCihej?si=G2bpe6IyRwi1MHIZ0GvhOQ",
+   "starts_at_ms": 2744342,
+   "starts_at": "45:44"
+  },
+  {
+   "n": 15,
+   "title": "The Fall",
+   "clean_title": "The Fall",
+   "duration_ms": 152333,
+   "spotify_uri": "spotify:track:7xzzryJS6oFawhopX4w7dG",
+   "spotify_url": "https://open.spotify.com/track/7xzzryJS6oFawhopX4w7dG?si=4dtSwIbeROmVsI8VxDn7Nw",
+   "starts_at_ms": 2893702,
+   "starts_at": "48:13"
+  },
+  {
+   "n": 16,
+   "title": "Holy War",
+   "clean_title": "Holy War",
+   "duration_ms": 260533,
+   "spotify_uri": "spotify:track:7eVDCIw2l8u3Fy13xJyfaD",
+   "spotify_url": "https://open.spotify.com/track/7eVDCIw2l8u3Fy13xJyfaD?si=zVaCDsIvRFmwOLHyvbx91Q",
+   "starts_at_ms": 3046035,
+   "starts_at": "50:46"
+  },
+  {
+   "n": 17,
+   "title": "Sanctuary",
+   "clean_title": "Sanctuary",
+   "duration_ms": 110000,
+   "spotify_uri": "spotify:track:5rHHYoBRI19vk6DjUtynHh",
+   "spotify_url": "https://open.spotify.com/track/5rHHYoBRI19vk6DjUtynHh?si=2PZcQ0BbQNOdelhZudF1gQ",
+   "starts_at_ms": 3306568,
+   "starts_at": "55:06"
+  },
+  {
+   "n": 18,
+   "title": "Premonition",
+   "clean_title": "Premonition",
+   "duration_ms": 210066,
+   "spotify_uri": "spotify:track:1XzPMXMPQRPqpPs3s8UBta",
+   "spotify_url": "https://open.spotify.com/track/1XzPMXMPQRPqpPs3s8UBta?si=rY8NWRb1R0ailQ0yhWZ6dQ",
+   "starts_at_ms": 3416568,
+   "starts_at": "56:56"
+  },
+  {
+   "n": 19,
+   "title": "Ornithopter",
+   "clean_title": "Ornithopter",
+   "duration_ms": 114986,
+   "spotify_uri": "spotify:track:3uQQJzzCeKvtnjhmc7Q3ff",
+   "spotify_url": "https://open.spotify.com/track/3uQQJzzCeKvtnjhmc7Q3ff?si=kHAh84NZRvS4X36D339QXA",
+   "starts_at_ms": 3626634,
+   "starts_at": "60:26"
+  },
+  {
+   "n": 20,
+   "title": "Sandstorm",
+   "clean_title": "Sandstorm",
+   "duration_ms": 155146,
+   "spotify_uri": "spotify:track:3hDmBdZAPBXVgPuVw6CvEn",
+   "spotify_url": "https://open.spotify.com/track/3hDmBdZAPBXVgPuVw6CvEn?si=SjZPo1FiQC-fkauhIwbbhA",
+   "starts_at_ms": 3741620,
+   "starts_at": "62:21"
+  },
+  {
+   "n": 21,
+   "title": "Stillsuits",
+   "clean_title": "Stillsuits",
+   "duration_ms": 331000,
+   "spotify_uri": "spotify:track:0vwjnLRPofwvHFIhBIPfrM",
+   "spotify_url": "https://open.spotify.com/track/0vwjnLRPofwvHFIhBIPfrM?si=PVhzZTbxSZCUlEghMXMA2Q",
+   "starts_at_ms": 3896766,
+   "starts_at": "64:56"
+  },
+  {
+   "n": 22,
+   "title": "My Road Leads into the Desert",
+   "clean_title": "My Road Leads into the Desert",
+   "duration_ms": 232200,
+   "spotify_uri": "spotify:track:6pZAfbCHf1n85a3MSPuDDY",
+   "spotify_url": "https://open.spotify.com/track/6pZAfbCHf1n85a3MSPuDDY?si=2p_YWklpRAKCB5vr4n9mag",
+   "starts_at_ms": 4227766,
+   "starts_at": "70:27"
+  }
+ ],
+ "week": 23,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:32:08.361538+00:00"
+}
