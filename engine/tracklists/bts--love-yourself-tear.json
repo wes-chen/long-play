@@ -1,0 +1,41 @@
+{
+ "artist": "BTS",
+ "album": "Love Yourself: Tear",
+ "spotify_uri": "spotify:album:3dviBwFcDYCcpXUbeacrIl",
+ "spotify_url": "https://open.spotify.com/album/3dviBwFcDYCcpXUbeacrIl?si=VXwv4q8FSwCUiAKSyMXEuA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "For You",
+   "clean_title": "For You",
+   "duration_ms": 285066,
+   "spotify_uri": "spotify:track:43x0i2PPXrmOGTTgoyqGNZ",
+   "spotify_url": "https://open.spotify.com/track/43x0i2PPXrmOGTTgoyqGNZ?si=UTiM5LOGSe6QxZyoGGO79g",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Hormone Sensou - Japanese Ver.",
+   "clean_title": "Hormone Sensou - Japanese Ver.",
+   "duration_ms": 268400,
+   "spotify_uri": "spotify:track:0zFiJHcn41PbBeU4pYJdNF",
+   "spotify_url": "https://open.spotify.com/track/0zFiJHcn41PbBeU4pYJdNF?si=Ak8WuHSgRvuTtp9D12ON2A",
+   "starts_at_ms": 285066,
+   "starts_at": "4:45"
+  },
+  {
+   "n": 3,
+   "title": "Let Me Know - Japanese Ver.",
+   "clean_title": "Let Me Know - Japanese Ver.",
+   "duration_ms": 256533,
+   "spotify_uri": "spotify:track:07RpaipQDG3p4kSEZZVzf9",
+   "spotify_url": "https://open.spotify.com/track/07RpaipQDG3p4kSEZZVzf9?si=_SQPiH2LTOee4r-ODUgKwA",
+   "starts_at_ms": 553466,
+   "starts_at": "9:13"
+  }
+ ],
+ "week": 20,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:31:51.916993+00:00"
+}
