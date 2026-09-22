@@ -1,0 +1,807 @@
+{
+ "pink floyd|the dark side of the moon": {
+  "genre": "prog-rock",
+  "era": "1970s",
+  "region": "UK",
+  "artist": "Pink Floyd",
+  "album": "The Dark Side of the Moon"
+ },
+ "pink floyd|animals": {
+  "genre": "prog-rock",
+  "era": "1970s",
+  "region": "UK",
+  "artist": "Pink Floyd",
+  "album": "Animals"
+ },
+ "the smile|a light for attracting attention": {
+  "genre": "art-rock",
+  "era": "2020s",
+  "region": "UK",
+  "artist": "The Smile",
+  "album": "A Light for Attracting Attention"
+ },
+ "four tet|beautiful rewind": {
+  "genre": "electronic-melodic",
+  "era": "2010s",
+  "region": "UK",
+  "artist": "Four Tet",
+  "album": "Beautiful Rewind"
+ },
+ "can|tago mago": {
+  "genre": "krautrock",
+  "era": "1970s",
+  "region": "Germany",
+  "artist": "Can",
+  "album": "Tago Mago"
+ },
+ "radiohead|ok computer": {
+  "genre": "art-rock",
+  "era": "1990s",
+  "region": "UK",
+  "artist": "Radiohead",
+  "album": "OK Computer"
+ },
+ "the beatles|abbey road": {
+  "genre": "rock-classic",
+  "era": "1960s",
+  "region": "UK",
+  "artist": "The Beatles",
+  "album": "Abbey Road"
+ },
+ "kendrick lamar|to pimp a butterfly": {
+  "genre": "hip-hop",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Kendrick Lamar",
+  "album": "To Pimp a Butterfly"
+ },
+ "sza|sos": {
+  "genre": "confessional-rnb",
+  "era": "2020s",
+  "region": "US",
+  "artist": "SZA",
+  "album": "SOS"
+ },
+ "swans|to be kind": {
+  "genre": "noise-rock",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Swans",
+  "album": "To Be Kind"
+ },
+ "king crimson|in the court of the crimson king": {
+  "genre": "prog-rock",
+  "era": "1960s",
+  "region": "UK",
+  "artist": "King Crimson",
+  "album": "In the Court of the Crimson King"
+ },
+ "yes|close to the edge": {
+  "genre": "prog-rock",
+  "era": "1970s",
+  "region": "UK",
+  "artist": "Yes",
+  "album": "Close to the Edge"
+ },
+ "genesis|selling england by the pound": {
+  "genre": "prog-rock",
+  "era": "1970s",
+  "region": "UK",
+  "artist": "Genesis",
+  "album": "Selling England by the Pound"
+ },
+ "van der graaf generator|pawn hearts": {
+  "genre": "prog-rock",
+  "era": "1970s",
+  "region": "UK",
+  "artist": "Van der Graaf Generator",
+  "album": "Pawn Hearts"
+ },
+ "radiohead|kid a": {
+  "genre": "art-rock",
+  "era": "2000s",
+  "region": "UK",
+  "artist": "Radiohead",
+  "album": "Kid A"
+ },
+ "talk talk|laughing stock": {
+  "genre": "art-rock",
+  "era": "1990s",
+  "region": "UK",
+  "artist": "Talk Talk",
+  "album": "Laughing Stock"
+ },
+ "björk|homogenic": {
+  "genre": "art-rock",
+  "era": "1990s",
+  "region": "Iceland",
+  "artist": "Björk",
+  "album": "Homogenic"
+ },
+ "black midi|hellfire": {
+  "genre": "math-rock",
+  "era": "2020s",
+  "region": "UK",
+  "artist": "Black Midi",
+  "album": "Hellfire"
+ },
+ "frank ocean|blonde": {
+  "genre": "confessional-rnb",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Frank Ocean",
+  "album": "Blonde"
+ },
+ "fka twigs|magdalene": {
+  "genre": "alt-rnb",
+  "era": "2010s",
+  "region": "UK",
+  "artist": "FKA twigs",
+  "album": "MAGDALENE"
+ },
+ "solange|a seat at the table": {
+  "genre": "alt-rnb",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Solange",
+  "album": "A Seat at the Table"
+ },
+ "kelela|take me apart": {
+  "genre": "alt-rnb",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Kelela",
+  "album": "Take Me Apart"
+ },
+ "ethel cain|preacher's daughter": {
+  "genre": "southern-gothic",
+  "era": "2020s",
+  "region": "US",
+  "artist": "Ethel Cain",
+  "album": "Preacher's Daughter"
+ },
+ "my bloody valentine|loveless": {
+  "genre": "shoegaze",
+  "era": "1990s",
+  "region": "Ireland",
+  "artist": "My Bloody Valentine",
+  "album": "Loveless"
+ },
+ "cocteau twins|heaven or las vegas": {
+  "genre": "dream-pop",
+  "era": "1990s",
+  "region": "UK",
+  "artist": "Cocteau Twins",
+  "album": "Heaven or Las Vegas"
+ },
+ "slowdive|souvlaki": {
+  "genre": "shoegaze",
+  "era": "1990s",
+  "region": "UK",
+  "artist": "Slowdive",
+  "album": "Souvlaki"
+ },
+ "ride|nowhere": {
+  "genre": "shoegaze",
+  "era": "1990s",
+  "region": "UK",
+  "artist": "Ride",
+  "album": "Nowhere"
+ },
+ "have a nice life|deathconsciousness": {
+  "genre": "doomgaze",
+  "era": "2000s",
+  "region": "US",
+  "artist": "Have A Nice Life",
+  "album": "Deathconsciousness"
+ },
+ "odesza|a moment apart": {
+  "genre": "electronic-melodic",
+  "era": "2010s",
+  "region": "US",
+  "artist": "ODESZA",
+  "album": "A Moment Apart"
+ },
+ "jamie xx|in colour": {
+  "genre": "electronic-melodic",
+  "era": "2010s",
+  "region": "UK",
+  "artist": "Jamie xx",
+  "album": "In Colour"
+ },
+ "disclosure|settle": {
+  "genre": "house",
+  "era": "2010s",
+  "region": "UK",
+  "artist": "Disclosure",
+  "album": "Settle"
+ },
+ "four tet|there is love in you": {
+  "genre": "electronic-melodic",
+  "era": "2010s",
+  "region": "UK",
+  "artist": "Four Tet",
+  "album": "There Is Love in You"
+ },
+ "burial|untrue": {
+  "genre": "uk-garage",
+  "era": "2000s",
+  "region": "UK",
+  "artist": "Burial",
+  "album": "Untrue"
+ },
+ "kraftwerk|trans-europe express": {
+  "genre": "krautrock",
+  "era": "1970s",
+  "region": "Germany",
+  "artist": "Kraftwerk",
+  "album": "Trans-Europe Express"
+ },
+ "neu!|neu! 2": {
+  "genre": "krautrock",
+  "era": "1970s",
+  "region": "Germany",
+  "artist": "Neu!",
+  "album": "Neu! 2"
+ },
+ "can|ege bamyasi": {
+  "genre": "krautrock",
+  "era": "1970s",
+  "region": "Germany",
+  "artist": "Can",
+  "album": "Ege Bamyasi"
+ },
+ "tangerine dream|phaedra": {
+  "genre": "krautrock",
+  "era": "1970s",
+  "region": "Germany",
+  "artist": "Tangerine Dream",
+  "album": "Phaedra"
+ },
+ "suicide|suicide": {
+  "genre": "synth-punk",
+  "era": "1970s",
+  "region": "US",
+  "artist": "Suicide",
+  "album": "Suicide"
+ },
+ "brian eno|ambient 1: music for airports": {
+  "genre": "ambient",
+  "era": "1970s",
+  "region": "UK",
+  "artist": "Brian Eno",
+  "album": "Ambient 1: Music for Airports"
+ },
+ "aphex twin|selected ambient works 85–92": {
+  "genre": "ambient",
+  "era": "1990s",
+  "region": "UK",
+  "artist": "Aphex Twin",
+  "album": "Selected Ambient Works 85–92"
+ },
+ "tim hecker|ravedeath, 1972": {
+  "genre": "drone",
+  "era": "2010s",
+  "region": "Canada",
+  "artist": "Tim Hecker",
+  "album": "Ravedeath, 1972"
+ },
+ "stars of the lid|and their refinement of the decline": {
+  "genre": "drone",
+  "era": "2000s",
+  "region": "US",
+  "artist": "Stars of the Lid",
+  "album": "And Their Refinement of the Decline"
+ },
+ "oneohtrix point never|r plus seven": {
+  "genre": "electronic-experimental",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Oneohtrix Point Never",
+  "album": "R Plus Seven"
+ },
+ "sophie|oil of every pearl's un-insides": {
+  "genre": "electronic-weird",
+  "era": "2010s",
+  "region": "UK",
+  "artist": "SOPHIE",
+  "album": "Oil of Every Pearl's Un-Insides"
+ },
+ "arca|kick i": {
+  "genre": "electronic-weird",
+  "era": "2020s",
+  "region": "Venezuela",
+  "artist": "Arca",
+  "album": "Kick I"
+ },
+ "flying lotus|cosmogramma": {
+  "genre": "electronic-weird",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Flying Lotus",
+  "album": "Cosmogramma"
+ },
+ "iglooghost|neo wax bloom": {
+  "genre": "electronic-weird",
+  "era": "2010s",
+  "region": "UK",
+  "artist": "Iglooghost",
+  "album": "Neo Wax Bloom"
+ },
+ "100 gecs|1000 gecs": {
+  "genre": "hyperpop",
+  "era": "2010s",
+  "region": "US",
+  "artist": "100 gecs",
+  "album": "1000 gecs"
+ },
+ "weather report|heavy weather": {
+  "genre": "jazz-fusion",
+  "era": "1970s",
+  "region": "US",
+  "artist": "Weather Report",
+  "album": "Heavy Weather"
+ },
+ "herbie hancock|head hunters": {
+  "genre": "jazz-fusion",
+  "era": "1970s",
+  "region": "US",
+  "artist": "Herbie Hancock",
+  "album": "Head Hunters"
+ },
+ "mahavishnu orchestra|the inner mounting flame": {
+  "genre": "jazz-fusion",
+  "era": "1970s",
+  "region": "US",
+  "artist": "Mahavishnu Orchestra",
+  "album": "The Inner Mounting Flame"
+ },
+ "snarky puppy|we like it here": {
+  "genre": "jazz-fusion",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Snarky Puppy",
+  "album": "We Like It Here"
+ },
+ "jaco pastorius|jaco pastorius": {
+  "genre": "jazz-fusion",
+  "era": "1970s",
+  "region": "US",
+  "artist": "Jaco Pastorius",
+  "album": "Jaco Pastorius"
+ },
+ "miles davis|kind of blue": {
+  "genre": "jazz-modal",
+  "era": "1950s",
+  "region": "US",
+  "artist": "Miles Davis",
+  "album": "Kind of Blue"
+ },
+ "miles davis|in a silent way": {
+  "genre": "jazz-modal",
+  "era": "1960s",
+  "region": "US",
+  "artist": "Miles Davis",
+  "album": "In a Silent Way"
+ },
+ "john coltrane|blue train": {
+  "genre": "jazz-hardbop",
+  "era": "1950s",
+  "region": "US",
+  "artist": "John Coltrane",
+  "album": "Blue Train"
+ },
+ "cannonball adderley|somethin' else": {
+  "genre": "jazz-hardbop",
+  "era": "1950s",
+  "region": "US",
+  "artist": "Cannonball Adderley",
+  "album": "Somethin' Else"
+ },
+ "miles davis|bitches brew": {
+  "genre": "jazz-fusion",
+  "era": "1970s",
+  "region": "US",
+  "artist": "Miles Davis",
+  "album": "Bitches Brew"
+ },
+ "john coltrane|a love supreme": {
+  "genre": "jazz-spiritual",
+  "era": "1960s",
+  "region": "US",
+  "artist": "John Coltrane",
+  "album": "A Love Supreme"
+ },
+ "charles mingus|mingus ah um": {
+  "genre": "jazz",
+  "era": "1950s",
+  "region": "US",
+  "artist": "Charles Mingus",
+  "album": "Mingus Ah Um"
+ },
+ "bill evans|waltz for debby": {
+  "genre": "jazz-piano-trio",
+  "era": "1960s",
+  "region": "US",
+  "artist": "Bill Evans",
+  "album": "Waltz for Debby"
+ },
+ "alice coltrane|journey in satchidananda": {
+  "genre": "jazz-spiritual",
+  "era": "1970s",
+  "region": "US",
+  "artist": "Alice Coltrane",
+  "album": "Journey in Satchidananda"
+ },
+ "kamasi washington|the epic": {
+  "genre": "jazz-spiritual",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Kamasi Washington",
+  "album": "The Epic"
+ },
+ "jeff buckley|grace": {
+  "genre": "singer-songwriter",
+  "era": "1990s",
+  "region": "US",
+  "artist": "Jeff Buckley",
+  "album": "Grace"
+ },
+ "nick drake|pink moon": {
+  "genre": "singer-songwriter",
+  "era": "1970s",
+  "region": "UK",
+  "artist": "Nick Drake",
+  "album": "Pink Moon"
+ },
+ "elliott smith|either/or": {
+  "genre": "singer-songwriter",
+  "era": "1990s",
+  "region": "US",
+  "artist": "Elliott Smith",
+  "album": "Either/Or"
+ },
+ "phoebe bridgers|punisher": {
+  "genre": "singer-songwriter",
+  "era": "2020s",
+  "region": "US",
+  "artist": "Phoebe Bridgers",
+  "album": "Punisher"
+ },
+ "lingua ignota|caligula": {
+  "genre": "experimental",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Lingua Ignota",
+  "album": "CALIGULA"
+ },
+ "the beach boys|pet sounds": {
+  "genre": "harmony-pop",
+  "era": "1960s",
+  "region": "US",
+  "artist": "The Beach Boys",
+  "album": "Pet Sounds"
+ },
+ "fleet foxes|helplessness blues": {
+  "genre": "folk-harmony",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Fleet Foxes",
+  "album": "Helplessness Blues"
+ },
+ "bon iver|bon iver": {
+  "genre": "indie-folk",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Bon Iver",
+  "album": "Bon Iver"
+ },
+ "dirty projectors|bitte orca": {
+  "genre": "art-pop",
+  "era": "2000s",
+  "region": "US",
+  "artist": "Dirty Projectors",
+  "album": "Bitte Orca"
+ },
+ "joni mitchell|blue": {
+  "genre": "piano-songwriter",
+  "era": "1970s",
+  "region": "Canada",
+  "artist": "Joni Mitchell",
+  "album": "Blue"
+ },
+ "sufjan stevens|carrie & lowell": {
+  "genre": "indie-folk",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Sufjan Stevens",
+  "album": "Carrie & Lowell"
+ },
+ "laura marling|song for our daughter": {
+  "genre": "singer-songwriter",
+  "era": "2020s",
+  "region": "UK",
+  "artist": "Laura Marling",
+  "album": "Song for Our Daughter"
+ },
+ "big thief|u.f.o.f.": {
+  "genre": "indie-folk",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Big Thief",
+  "album": "U.F.O.F."
+ },
+ "big thief|u.f.o.f": {
+  "genre": "indie-folk",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Big Thief",
+  "album": "U.F.O.F"
+ },
+ "fiona apple|fetch the bolt cutters": {
+  "genre": "art-pop",
+  "era": "2020s",
+  "region": "US",
+  "artist": "Fiona Apple",
+  "album": "Fetch the Bolt Cutters"
+ },
+ "deftones|white pony": {
+  "genre": "alt-metal",
+  "era": "2000s",
+  "region": "US",
+  "artist": "Deftones",
+  "album": "White Pony"
+ },
+ "tool|lateralus": {
+  "genre": "alt-metal",
+  "era": "2000s",
+  "region": "US",
+  "artist": "Tool",
+  "album": "Lateralus"
+ },
+ "mastodon|crack the skye": {
+  "genre": "alt-metal",
+  "era": "2000s",
+  "region": "US",
+  "artist": "Mastodon",
+  "album": "Crack the Skye"
+ },
+ "sleep token|take me back to eden": {
+  "genre": "alt-metal",
+  "era": "2020s",
+  "region": "UK",
+  "artist": "Sleep Token",
+  "album": "Take Me Back to Eden"
+ },
+ "alcest|écailles de lune": {
+  "genre": "blackgaze",
+  "era": "2010s",
+  "region": "France",
+  "artist": "Alcest",
+  "album": "Écailles de Lune"
+ },
+ "deafheaven|sunbather": {
+  "genre": "blackgaze",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Deafheaven",
+  "album": "Sunbather"
+ },
+ "chelsea wolfe|abyss": {
+  "genre": "doom",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Chelsea Wolfe",
+  "album": "Abyss"
+ },
+ "boris|flood": {
+  "genre": "drone-metal",
+  "era": "2000s",
+  "region": "Japan",
+  "artist": "Boris",
+  "album": "Flood"
+ },
+ "red velvet|perfect velvet": {
+  "genre": "kpop",
+  "era": "2010s",
+  "region": "South Korea",
+  "artist": "Red Velvet",
+  "album": "Perfect Velvet"
+ },
+ "f(x)|4 walls": {
+  "genre": "kpop",
+  "era": "2010s",
+  "region": "South Korea",
+  "artist": "f(x)",
+  "album": "4 Walls"
+ },
+ "shinee|odd": {
+  "genre": "kpop",
+  "era": "2010s",
+  "region": "South Korea",
+  "artist": "SHINee",
+  "album": "Odd"
+ },
+ "artms|dall": {
+  "genre": "kpop",
+  "era": "2020s",
+  "region": "South Korea",
+  "artist": "ARTMS",
+  "album": "DALL"
+ },
+ "newjeans|get up": {
+  "genre": "kpop",
+  "era": "2020s",
+  "region": "South Korea",
+  "artist": "NewJeans",
+  "album": "Get Up"
+ },
+ "bts|love yourself: tear": {
+  "genre": "kpop",
+  "era": "2010s",
+  "region": "South Korea",
+  "artist": "BTS",
+  "album": "Love Yourself: Tear"
+ },
+ "balming tiger|january never dies": {
+  "genre": "kpop-alt",
+  "era": "2020s",
+  "region": "South Korea",
+  "artist": "Balming Tiger",
+  "album": "January Never Dies"
+ },
+ "yaeji|with a hammer": {
+  "genre": "electronic-melodic",
+  "era": "2020s",
+  "region": "South Korea",
+  "artist": "Yaeji",
+  "album": "With a Hammer"
+ },
+ "crush|from midnight to sunrise": {
+  "genre": "kpop-rnb",
+  "era": "2010s",
+  "region": "South Korea",
+  "artist": "Crush",
+  "album": "From Midnight to Sunrise"
+ },
+ "stravinsky|the rite of spring": {
+  "genre": "classical-orchestral",
+  "era": "1910s",
+  "region": "Russia",
+  "artist": "Stravinsky",
+  "album": "The Rite of Spring"
+ },
+ "shostakovich|symphony no. 5": {
+  "genre": "classical-orchestral",
+  "era": "1930s",
+  "region": "Russia",
+  "artist": "Shostakovich",
+  "album": "Symphony No. 5"
+ },
+ "mahler|symphony no. 5": {
+  "genre": "classical-orchestral",
+  "era": "1900s",
+  "region": "Austria",
+  "artist": "Mahler",
+  "album": "Symphony No. 5"
+ },
+ "ligeti|atmosphères / requiem": {
+  "genre": "classical-orchestral",
+  "era": "1960s",
+  "region": "Hungary",
+  "artist": "Ligeti",
+  "album": "Atmosphères / Requiem"
+ },
+ "messiaen|quartet for the end of time": {
+  "genre": "classical-chamber",
+  "era": "1940s",
+  "region": "France",
+  "artist": "Messiaen",
+  "album": "Quartet for the End of Time"
+ },
+ "bach|goldberg variations": {
+  "genre": "classical-piano",
+  "era": "1740s",
+  "region": "Germany",
+  "artist": "Bach",
+  "album": "Goldberg Variations"
+ },
+ "ligeti|études": {
+  "genre": "classical-piano",
+  "era": "1980s",
+  "region": "Hungary",
+  "artist": "Ligeti",
+  "album": "Études"
+ },
+ "ravel|gaspard de la nuit": {
+  "genre": "classical-piano",
+  "era": "1900s",
+  "region": "France",
+  "artist": "Ravel",
+  "album": "Gaspard de la nuit"
+ },
+ "chopin|the ballades": {
+  "genre": "classical-piano",
+  "era": "1830s",
+  "region": "Poland",
+  "artist": "Chopin",
+  "album": "the Ballades"
+ },
+ "rzewski|the people united will never be defeated!": {
+  "genre": "classical-piano",
+  "era": "1970s",
+  "region": "US",
+  "artist": "Rzewski",
+  "album": "The People United Will Never Be Defeated!"
+ },
+ "hans zimmer|interstellar": {
+  "genre": "film-score",
+  "era": "2010s",
+  "region": "Germany",
+  "artist": "Hans Zimmer",
+  "album": "Interstellar"
+ },
+ "hans zimmer|dune": {
+  "genre": "film-score",
+  "era": "2020s",
+  "region": "Germany",
+  "artist": "Hans Zimmer",
+  "album": "Dune"
+ },
+ "ludwig göransson|oppenheimer": {
+  "genre": "film-score",
+  "era": "2020s",
+  "region": "Sweden",
+  "artist": "Ludwig Göransson",
+  "album": "Oppenheimer"
+ },
+ "hildur guðnadóttir|chernobyl": {
+  "genre": "film-score",
+  "era": "2010s",
+  "region": "Iceland",
+  "artist": "Hildur Guðnadóttir",
+  "album": "Chernobyl"
+ },
+ "mica levi|under the skin": {
+  "genre": "film-score",
+  "era": "2010s",
+  "region": "UK",
+  "artist": "Mica Levi",
+  "album": "Under the Skin"
+ },
+ "ryuichi sakamoto|async": {
+  "genre": "modern-classical",
+  "era": "2010s",
+  "region": "Japan",
+  "artist": "Ryuichi Sakamoto",
+  "album": "async"
+ },
+ "max richter|sleep": {
+  "genre": "modern-classical",
+  "era": "2010s",
+  "region": "Germany",
+  "artist": "Max Richter",
+  "album": "Sleep"
+ },
+ "joe hisaishi|spirited away": {
+  "genre": "film-score",
+  "era": "2000s",
+  "region": "Japan",
+  "artist": "Joe Hisaishi",
+  "album": "Spirited Away"
+ },
+ "sakamoto|merry christmas mr. lawrence": {
+  "genre": "film-score",
+  "era": "1980s",
+  "region": "Japan",
+  "artist": "Sakamoto",
+  "album": "Merry Christmas Mr. Lawrence"
+ },
+ "oneohtrix point never|uncut gems": {
+  "genre": "film-score",
+  "era": "2010s",
+  "region": "US",
+  "artist": "Oneohtrix Point Never",
+  "album": "Uncut Gems"
+ }
+}
