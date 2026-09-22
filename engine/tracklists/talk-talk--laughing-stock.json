@@ -1,0 +1,71 @@
+{
+ "artist": "Talk Talk",
+ "album": "Laughing Stock",
+ "spotify_uri": "spotify:album:4YXo7p7aubyVIbNLoVlBp9",
+ "spotify_url": "https://open.spotify.com/album/4YXo7p7aubyVIbNLoVlBp9?si=iYP4gq0VRCukumNQhh5ECg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "The Rainbow - 1997 Remaster",
+   "clean_title": "The Rainbow",
+   "duration_ms": 549080,
+   "spotify_uri": "spotify:track:4k2CdsRopiwCKqO6rOSiVY",
+   "spotify_url": "https://open.spotify.com/track/4k2CdsRopiwCKqO6rOSiVY?si=sF9H3zInSkWiyZbvhKf1iA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Eden - 1997 Remaster",
+   "clean_title": "Eden",
+   "duration_ms": 394733,
+   "spotify_uri": "spotify:track:5kSAwHSqqr05MqWJ1o1KaG",
+   "spotify_url": "https://open.spotify.com/track/5kSAwHSqqr05MqWJ1o1KaG?si=psP6BsQVSzy_GHP0g6ExRA",
+   "starts_at_ms": 549080,
+   "starts_at": "9:09"
+  },
+  {
+   "n": 3,
+   "title": "Desire - 1997 Remaster",
+   "clean_title": "Desire",
+   "duration_ms": 417066,
+   "spotify_uri": "spotify:track:0VCBoaKWRtAUAOHdBdqEQX",
+   "spotify_url": "https://open.spotify.com/track/0VCBoaKWRtAUAOHdBdqEQX?si=kcwdHXTSSX2EIhZGd3jI-g",
+   "starts_at_ms": 943813,
+   "starts_at": "15:43"
+  },
+  {
+   "n": 4,
+   "title": "Inheritance - 1997 Remaster",
+   "clean_title": "Inheritance",
+   "duration_ms": 323640,
+   "spotify_uri": "spotify:track:24yHHIYVMYwN4oqfpiIh6I",
+   "spotify_url": "https://open.spotify.com/track/24yHHIYVMYwN4oqfpiIh6I?si=8Gq4NgKTTUOjlspk3FoYow",
+   "starts_at_ms": 1360879,
+   "starts_at": "22:40"
+  },
+  {
+   "n": 5,
+   "title": "I Believe in You - 1997 Remaster",
+   "clean_title": "I Believe in You",
+   "duration_ms": 370386,
+   "spotify_uri": "spotify:track:3SzoVeS9Eaxt6dmfXF0fPo",
+   "spotify_url": "https://open.spotify.com/track/3SzoVeS9Eaxt6dmfXF0fPo?si=fel1Fud8S0SyBrZWSJbH1w",
+   "starts_at_ms": 1684519,
+   "starts_at": "28:04"
+  },
+  {
+   "n": 6,
+   "title": "Wealth - 1997 Remaster",
+   "clean_title": "Wealth",
+   "duration_ms": 403826,
+   "spotify_uri": "spotify:track:3zxgN1ON3BkHSK8OIoTxr2",
+   "spotify_url": "https://open.spotify.com/track/3zxgN1ON3BkHSK8OIoTxr2?si=VmyAsYP7Qs6QVDgubAl82Q",
+   "starts_at_ms": 2054905,
+   "starts_at": "34:14"
+  }
+ ],
+ "week": 4,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:37.772987+00:00"
+}
