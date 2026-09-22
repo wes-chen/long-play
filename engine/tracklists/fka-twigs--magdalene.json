@@ -1,0 +1,101 @@
+{
+ "artist": "FKA twigs",
+ "album": "MAGDALENE",
+ "spotify_uri": "spotify:album:3DMR3yM5crnt1dG9lLaMTZ",
+ "spotify_url": "https://open.spotify.com/album/3DMR3yM5crnt1dG9lLaMTZ?si=kWQ-DcxrQMqUoqbEcdjpgQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "thousand eyes",
+   "clean_title": "thousand eyes",
+   "duration_ms": 300506,
+   "spotify_uri": "spotify:track:1xsb4ZIwzSi5dacBz9oMdA",
+   "spotify_url": "https://open.spotify.com/track/1xsb4ZIwzSi5dacBz9oMdA?si=oydGbfXNREuTQhzLCeLoWg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "home with you",
+   "clean_title": "home with you",
+   "duration_ms": 224946,
+   "spotify_uri": "spotify:track:7BpykYGkewMF00FzSJLSgH",
+   "spotify_url": "https://open.spotify.com/track/7BpykYGkewMF00FzSJLSgH?si=gh4sGTdETB6oa2xsNJcX8w",
+   "starts_at_ms": 300506,
+   "starts_at": "5:00"
+  },
+  {
+   "n": 3,
+   "title": "sad day",
+   "clean_title": "sad day",
+   "duration_ms": 255720,
+   "spotify_uri": "spotify:track:68lrQ6jAW5cOyn7GX39uzz",
+   "spotify_url": "https://open.spotify.com/track/68lrQ6jAW5cOyn7GX39uzz?si=LQIFKXEiSaK5VjhzaAgmNw",
+   "starts_at_ms": 525452,
+   "starts_at": "8:45"
+  },
+  {
+   "n": 4,
+   "title": "holy terrain",
+   "clean_title": "holy terrain",
+   "duration_ms": 243000,
+   "spotify_uri": "spotify:track:5ZmzzBiEAIVCkgsPyh80gt",
+   "spotify_url": "https://open.spotify.com/track/5ZmzzBiEAIVCkgsPyh80gt?si=z_sZczcoSdenxmZINwhgHA",
+   "starts_at_ms": 781172,
+   "starts_at": "13:01"
+  },
+  {
+   "n": 5,
+   "title": "mary magdalene",
+   "clean_title": "mary magdalene",
+   "duration_ms": 321066,
+   "spotify_uri": "spotify:track:77tQQM8iEswfiSVLbTrFPX",
+   "spotify_url": "https://open.spotify.com/track/77tQQM8iEswfiSVLbTrFPX?si=q9VhE-g8TMGAbEFxEJg80A",
+   "starts_at_ms": 1024172,
+   "starts_at": "17:04"
+  },
+  {
+   "n": 6,
+   "title": "fallen alien",
+   "clean_title": "fallen alien",
+   "duration_ms": 238960,
+   "spotify_uri": "spotify:track:2uZkWDubNphtNJxUbvCLd7",
+   "spotify_url": "https://open.spotify.com/track/2uZkWDubNphtNJxUbvCLd7?si=VGMMXwWJTvOYBp_kzFKiwA",
+   "starts_at_ms": 1345238,
+   "starts_at": "22:25"
+  },
+  {
+   "n": 7,
+   "title": "mirrored heart",
+   "clean_title": "mirrored heart",
+   "duration_ms": 272946,
+   "spotify_uri": "spotify:track:7kofQ4W8kA6nOzyXdPz7ny",
+   "spotify_url": "https://open.spotify.com/track/7kofQ4W8kA6nOzyXdPz7ny?si=0SscQ4j7QHCXGtPiattx4g",
+   "starts_at_ms": 1584198,
+   "starts_at": "26:24"
+  },
+  {
+   "n": 8,
+   "title": "daybed",
+   "clean_title": "daybed",
+   "duration_ms": 271426,
+   "spotify_uri": "spotify:track:2bciAhiIMuBIoKHNg6FZG4",
+   "spotify_url": "https://open.spotify.com/track/2bciAhiIMuBIoKHNg6FZG4?si=Vc_LB7EQQjK2tdBdwTLmCA",
+   "starts_at_ms": 1857144,
+   "starts_at": "30:57"
+  },
+  {
+   "n": 9,
+   "title": "cellophane",
+   "clean_title": "cellophane",
+   "duration_ms": 204066,
+   "spotify_uri": "spotify:track:7x8pIrhMu9FCmqqHNyuH0P",
+   "spotify_url": "https://open.spotify.com/track/7x8pIrhMu9FCmqqHNyuH0P?si=YqDjOneuQQ-gImC4B2S--w",
+   "starts_at_ms": 2128570,
+   "starts_at": "35:28"
+  }
+ ],
+ "week": 5,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:41.715162+00:00"
+}
