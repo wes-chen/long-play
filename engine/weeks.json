@@ -1,0 +1,750 @@
+{
+ "weeks": [
+  {
+   "n": 1,
+   "title": "How to listen on purpose",
+   "objective": "learn the course's core move — one close-listening assignment per album",
+   "anchor": {
+    "artist": "Pink Floyd",
+    "album": "The Dark Side of the Moon"
+   },
+   "adventurous": [
+    {
+     "artist": "Pink Floyd",
+     "album": "Animals"
+    },
+    {
+     "artist": "The Smile",
+     "album": "A Light for Attracting Attention"
+    },
+    {
+     "artist": "Four Tet",
+     "album": "Beautiful Rewind"
+    }
+   ],
+   "wild_card": {
+    "artist": "Can",
+    "album": "Tago Mago"
+   },
+   "concept": "timbre",
+   "concept_note": "tone color; why an 808 kick and a real kick playing the same pattern are different instruments",
+   "technique": "reverb",
+   "technique_note": "the sound of the room the music is \"in.\""
+  },
+  {
+   "n": 2,
+   "title": "The album as a designed object",
+   "objective": "hear sequencing — why this song follows that one",
+   "anchor": {
+    "artist": "Radiohead",
+    "album": "OK Computer"
+   },
+   "adventurous": [
+    {
+     "artist": "The Beatles",
+     "album": "Abbey Road"
+    },
+    {
+     "artist": "Kendrick Lamar",
+     "album": "To Pimp a Butterfly"
+    },
+    {
+     "artist": "SZA",
+     "album": "SOS"
+    }
+   ],
+   "wild_card": {
+    "artist": "Swans",
+    "album": "To Be Kind"
+   },
+   "concept": "groove and the pocket",
+   "concept_note": "rhythm is the pattern on paper; groove is humans agreeing how far behind the beat to sit",
+   "technique": "panning/stereo image",
+   "technique_note": "where each sound sits left-to-right; headphones required."
+  },
+  {
+   "n": 3,
+   "title": "Where Wish You Were Here comes from",
+   "objective": "",
+   "anchor": {
+    "artist": "King Crimson",
+    "album": "In the Court of the Crimson King"
+   },
+   "adventurous": [
+    {
+     "artist": "Pink Floyd",
+     "album": "Animals"
+    },
+    {
+     "artist": "Yes",
+     "album": "Close to the Edge"
+    },
+    {
+     "artist": "Genesis",
+     "album": "Selling England by the Pound"
+    }
+   ],
+   "wild_card": {
+    "artist": "Van der Graaf Generator",
+    "album": "Pawn Hearts"
+   },
+   "concept": "the Barrett story",
+   "concept_note": "the history his favorite album is built on",
+   "technique": "tape delay",
+   "technique_note": "the how behind those vast guitar spaces."
+  },
+  {
+   "n": 4,
+   "title": "Taking the rock album apart",
+   "objective": "",
+   "anchor": {
+    "artist": "Radiohead",
+    "album": "Kid A"
+   },
+   "adventurous": [
+    {
+     "artist": "Talk Talk",
+     "album": "Laughing Stock"
+    },
+    {
+     "artist": "Björk",
+     "album": "Homogenic"
+    },
+    {
+     "artist": "The Smile",
+     "album": "A Light for Attracting Attention"
+    }
+   ],
+   "wild_card": {
+    "artist": "Black Midi",
+    "album": "Hellfire"
+   },
+   "concept": "krautrock and motorik",
+   "concept_note": "1970s West Germany's relentless 4/4 pulse; the well OK Computer drinks from",
+   "technique": "sampling",
+   "technique_note": "the break, the loop, hip-hop's founding technology."
+  },
+  {
+   "n": 5,
+   "title": "Confession as craft",
+   "objective": "",
+   "anchor": {
+    "artist": "Frank Ocean",
+    "album": "Blonde"
+   },
+   "adventurous": [
+    {
+     "artist": "FKA twigs",
+     "album": "MAGDALENE"
+    },
+    {
+     "artist": "Solange",
+     "album": "A Seat at the Table"
+    },
+    {
+     "artist": "Kelela",
+     "album": "Take Me Apart"
+    }
+   ],
+   "wild_card": {
+    "artist": "Ethel Cain",
+    "album": "Preacher's Daughter"
+   },
+   "concept": "the confessional lineage",
+   "concept_note": "Lauryn Hill's Miseducation to now; songs as unsent letters",
+   "technique": "vocal layering",
+   "technique_note": "for the harmony nerd; count how many voices are really singing."
+  },
+  {
+   "n": 6,
+   "title": "Texture as an instrument",
+   "objective": "",
+   "anchor": {
+    "artist": "My Bloody Valentine",
+    "album": "Loveless"
+   },
+   "adventurous": [
+    {
+     "artist": "Cocteau Twins",
+     "album": "Heaven or Las Vegas"
+    },
+    {
+     "artist": "Slowdive",
+     "album": "Souvlaki"
+    },
+    {
+     "artist": "Ride",
+     "album": "Nowhere"
+    }
+   ],
+   "wild_card": {
+    "artist": "Have A Nice Life",
+    "album": "Deathconsciousness"
+   },
+   "concept": "shoegaze",
+   "concept_note": "staring at pedals, not the crowd; guitar as weather",
+   "technique": "distortion as texture",
+   "technique_note": "blur, not aggression."
+  },
+  {
+   "n": 7,
+   "title": "Melodic electronic, formalized",
+   "objective": "",
+   "anchor": {
+    "artist": "ODESZA",
+    "album": "A Moment Apart"
+   },
+   "adventurous": [
+    {
+     "artist": "Jamie xx",
+     "album": "In Colour"
+    },
+    {
+     "artist": "Disclosure",
+     "album": "Settle"
+    },
+    {
+     "artist": "Four Tet",
+     "album": "There Is Love in You"
+    }
+   ],
+   "wild_card": {
+    "artist": "Burial",
+    "album": "Untrue"
+   },
+   "concept": "build and drop as form",
+   "concept_note": "transfer moment: it's a crescendo and cadence in different clothes",
+   "technique": "sidechain compression",
+   "technique_note": "the \"pumping\" under every EDM kick (and where compression finally gets taught properly — not EQ)."
+  },
+  {
+   "n": 8,
+   "title": "Kraftwerk week",
+   "objective": "",
+   "anchor": {
+    "artist": "Kraftwerk",
+    "album": "Trans-Europe Express"
+   },
+   "adventurous": [
+    {
+     "artist": "Neu!",
+     "album": "Neu! 2"
+    },
+    {
+     "artist": "Can",
+     "album": "Ege Bamyasi"
+    },
+    {
+     "artist": "Tangerine Dream",
+     "album": "Phaedra"
+    }
+   ],
+   "wild_card": {
+    "artist": "Suicide",
+    "album": "Suicide"
+   },
+   "concept": "context as appreciation",
+   "concept_note": "1977 Düsseldorf inventing the future with machines; the Kraftwerk law in action",
+   "technique": "sequencers and synthesizers",
+   "technique_note": "pop built note-by-note from circuits."
+  },
+  {
+   "n": 9,
+   "title": "Ambient: music for conditions",
+   "objective": "",
+   "anchor": {
+    "artist": "Brian Eno",
+    "album": "Ambient 1: Music for Airports"
+   },
+   "adventurous": [
+    {
+     "artist": "Aphex Twin",
+     "album": "Selected Ambient Works 85–92"
+    },
+    {
+     "artist": "Tim Hecker",
+     "album": "Ravedeath, 1972"
+    },
+    {
+     "artist": "Stars of the Lid",
+     "album": "And Their Refinement of the Decline"
+    }
+   ],
+   "wild_card": {
+    "artist": "Oneohtrix Point Never",
+    "album": "R Plus Seven"
+   },
+   "concept": "furniture music",
+   "concept_note": "transfer moment: Satie's \"musique d'ameublement\" (1917), reinvented by Eno",
+   "technique": "tape loops and generative systems",
+   "technique_note": "music that plays itself."
+  },
+  {
+   "n": 10,
+   "title": "Weird electronic",
+   "objective": "",
+   "anchor": {
+    "artist": "SOPHIE",
+    "album": "Oil of Every Pearl's Un-Insides"
+   },
+   "adventurous": [
+    {
+     "artist": "Arca",
+     "album": "Kick I"
+    },
+    {
+     "artist": "Flying Lotus",
+     "album": "Cosmogramma"
+    },
+    {
+     "artist": "Iglooghost",
+     "album": "Neo Wax Bloom"
+    }
+   ],
+   "wild_card": {
+    "artist": "100 gecs",
+    "album": "1000 gecs"
+   },
+   "concept": "sound design as composition",
+   "concept_note": "when the new noise IS the piece",
+   "technique": "synthesis basics",
+   "technique_note": "oscillators and filters; the literal \"how.\""
+  },
+  {
+   "n": 11,
+   "title": "The fusion doorway",
+   "objective": "",
+   "anchor": {
+    "artist": "Weather Report",
+    "album": "Heavy Weather"
+   },
+   "adventurous": [
+    {
+     "artist": "Herbie Hancock",
+     "album": "Head Hunters"
+    },
+    {
+     "artist": "Mahavishnu Orchestra",
+     "album": "The Inner Mounting Flame"
+    },
+    {
+     "artist": "Snarky Puppy",
+     "album": "We Like It Here"
+    }
+   ],
+   "wild_card": {
+    "artist": "Jaco Pastorius",
+    "album": "Jaco Pastorius"
+   },
+   "concept": "fusion",
+   "concept_note": "jazz harmony + rock energy; follow the ii-V-I's under the distortion",
+   "technique": "follow one instrument per spin",
+   "technique_note": "the jazz listening instruction; start with the drums."
+  },
+  {
+   "n": 12,
+   "title": "The Miles doorway",
+   "objective": "",
+   "anchor": {
+    "artist": "Miles Davis",
+    "album": "Kind of Blue"
+   },
+   "adventurous": [
+    {
+     "artist": "Miles Davis",
+     "album": "In a Silent Way"
+    },
+    {
+     "artist": "John Coltrane",
+     "album": "Blue Train"
+    },
+    {
+     "artist": "Cannonball Adderley",
+     "album": "Somethin' Else"
+    }
+   ],
+   "wild_card": {
+    "artist": "Miles Davis",
+    "album": "Bitches Brew"
+   },
+   "concept": "modal playing",
+   "concept_note": "transfer moment: \"So What\" is sixteen bars of D dorian; he knows the mode, now he hears what it frees",
+   "technique": "the room as instrument",
+   "technique_note": "a converted church; reverb revisited with new ears."
+  },
+  {
+   "n": 13,
+   "title": "Coltrane and the album as statement",
+   "objective": "",
+   "anchor": {
+    "artist": "John Coltrane",
+    "album": "A Love Supreme"
+   },
+   "adventurous": [
+    {
+     "artist": "Charles Mingus",
+     "album": "Mingus Ah Um"
+    },
+    {
+     "artist": "Bill Evans",
+     "album": "Waltz for Debby"
+    },
+    {
+     "artist": "Alice Coltrane",
+     "album": "Journey in Satchidananda"
+    }
+   ],
+   "wild_card": {
+    "artist": "Kamasi Washington",
+    "album": "The Epic"
+   },
+   "concept": "the suite",
+   "concept_note": "transfer moment: four movements, one arc; he knows this shape",
+   "technique": "recorded live, no fixes",
+   "technique_note": "a jazz session vs. a pop one."
+  },
+  {
+   "n": 14,
+   "title": "The confessional songwriter",
+   "objective": "",
+   "anchor": {
+    "artist": "Jeff Buckley",
+    "album": "Grace"
+   },
+   "adventurous": [
+    {
+     "artist": "Nick Drake",
+     "album": "Pink Moon"
+    },
+    {
+     "artist": "Elliott Smith",
+     "album": "Either/Or"
+    },
+    {
+     "artist": "Phoebe Bridgers",
+     "album": "Punisher"
+    }
+   ],
+   "wild_card": {
+    "artist": "Lingua Ignota",
+    "album": "CALIGULA"
+   },
+   "concept": "vocal dynamics",
+   "concept_note": "whisper to wail as compositional range",
+   "technique": "close-mic'ing",
+   "technique_note": "intimacy as a production decision."
+  },
+  {
+   "n": 15,
+   "title": "Harmony nerd week",
+   "objective": "",
+   "anchor": {
+    "artist": "The Beach Boys",
+    "album": "Pet Sounds"
+   },
+   "adventurous": [
+    {
+     "artist": "Fleet Foxes",
+     "album": "Helplessness Blues"
+    },
+    {
+     "artist": "Bon Iver",
+     "album": "Bon Iver"
+    },
+    {
+     "artist": "The Beatles",
+     "album": "Abbey Road"
+    }
+   ],
+   "wild_card": {
+    "artist": "Dirty Projectors",
+    "album": "Bitte Orca"
+   },
+   "concept": "vocal arrangement",
+   "concept_note": "transfer moment: stacking voices like arranging for wind ensemble",
+   "technique": "multitrack tape",
+   "technique_note": "how one room becomes a choir."
+  },
+  {
+   "n": 16,
+   "title": "The piano songwriter",
+   "objective": "",
+   "anchor": {
+    "artist": "Joni Mitchell",
+    "album": "Blue"
+   },
+   "adventurous": [
+    {
+     "artist": "Sufjan Stevens",
+     "album": "Carrie & Lowell"
+    },
+    {
+     "artist": "Laura Marling",
+     "album": "Song for Our Daughter"
+    },
+    {
+     "artist": "Big Thief",
+     "album": "U.F.O.F"
+    }
+   ],
+   "wild_card": {
+    "artist": "Fiona Apple",
+    "album": "Fetch the Bolt Cutters"
+   },
+   "concept": "alternate tunings",
+   "concept_note": "Joni's fifty tunings; tuning as composition",
+   "technique": "dry recording",
+   "technique_note": "zero reverb; what intimacy costs."
+  },
+  {
+   "n": 17,
+   "title": "Alt-metal doorway",
+   "objective": "",
+   "anchor": {
+    "artist": "Deftones",
+    "album": "White Pony"
+   },
+   "adventurous": [
+    {
+     "artist": "Tool",
+     "album": "Lateralus"
+    },
+    {
+     "artist": "Mastodon",
+     "album": "Crack the Skye"
+    },
+    {
+     "artist": "Sleep Token",
+     "album": "Take Me Back to Eden"
+    }
+   ],
+   "wild_card": {
+    "artist": "Have A Nice Life",
+    "album": "Deathconsciousness"
+   },
+   "concept": "dynamics as heaviness",
+   "concept_note": "transfer moment: quiet-to-loud is orchestral thinking",
+   "technique": "odd meters",
+   "technique_note": "Tool's 5s and 7s; counting as a listening game."
+  },
+  {
+   "n": 18,
+   "title": "Heavy as texture",
+   "objective": "",
+   "anchor": {
+    "artist": "Alcest",
+    "album": "Écailles de Lune"
+   },
+   "adventurous": [
+    {
+     "artist": "Deafheaven",
+     "album": "Sunbather"
+    },
+    {
+     "artist": "Chelsea Wolfe",
+     "album": "Abyss"
+    },
+    {
+     "artist": "Boris",
+     "album": "Flood"
+    }
+   ],
+   "wild_card": {
+    "artist": "Swans",
+    "album": "To Be Kind"
+   },
+   "concept": "heaviness as texture, not aggression",
+   "concept_note": "Week 6's blur with the gain past ten",
+   "technique": "lo-fi as aesthetic",
+   "technique_note": "when bad recording is the point."
+  },
+  {
+   "n": 19,
+   "title": "The Red Velvet doorway",
+   "objective": "",
+   "anchor": {
+    "artist": "Red Velvet",
+    "album": "Perfect Velvet"
+   },
+   "adventurous": [
+    {
+     "artist": "f(x)",
+     "album": "4 Walls"
+    },
+    {
+     "artist": "SHINee",
+     "album": "Odd"
+    },
+    {
+     "artist": "ARTMS",
+     "album": "DALL"
+    }
+   ],
+   "wild_card": {
+    "artist": "NewJeans",
+    "album": "Get Up"
+   },
+   "concept": "the Red/Velvet duality",
+   "concept_note": "bright pop vs. smooth R&B as a group identity",
+   "technique": "the songwriting camp",
+   "technique_note": "ten writers, one three-minute song."
+  },
+  {
+   "n": 20,
+   "title": "The industry as context",
+   "objective": "",
+   "anchor": {
+    "artist": "BTS",
+    "album": "Love Yourself: Tear"
+   },
+   "adventurous": [
+    {
+     "artist": "Balming Tiger",
+     "album": "January Never Dies"
+    },
+    {
+     "artist": "Yaeji",
+     "album": "With a Hammer"
+    },
+    {
+     "artist": "Crush",
+     "album": "From Midnight to Sunrise"
+    }
+   ],
+   "wild_card": {
+    "artist": "the LOONA lore deep",
+    "album": "dive"
+   },
+   "concept": "the idol system",
+   "concept_note": "training, concept cycles; the industry story changes the music (cf. Barrett, Week 3)",
+   "technique": "vocal production stacks",
+   "technique_note": "the how behind the polish."
+  },
+  {
+   "n": 21,
+   "title": "Orchestral: the riot and the regime",
+   "objective": "",
+   "anchor": {
+    "artist": "Stravinsky",
+    "album": "The Rite of Spring"
+   },
+   "adventurous": [
+    {
+     "artist": "Shostakovich",
+     "album": "Symphony No. 5"
+    },
+    {
+     "artist": "Mahler",
+     "album": "Symphony No. 5"
+    },
+    {
+     "artist": "Ligeti",
+     "album": "Atmosphères / Requiem"
+    }
+   ],
+   "wild_card": {
+    "artist": "Messiaen",
+    "album": "Quartet for the End of Time"
+   },
+   "concept": "interpretation as the text",
+   "concept_note": "the same score, different performances, different pieces",
+   "technique": "the hall as studio",
+   "technique_note": "what a recording chooses to put you \"inside.\""
+  },
+  {
+   "n": 22,
+   "title": "Solo piano beyond the exam room",
+   "objective": "",
+   "anchor": {
+    "artist": "Bach",
+    "album": "Goldberg Variations",
+    "edition_note": "Glenn Gould's 1981 recording"
+   },
+   "adventurous": [
+    {
+     "artist": "Ligeti",
+     "album": "Études"
+    },
+    {
+     "artist": "Ravel",
+     "album": "Gaspard de la nuit"
+    },
+    {
+     "artist": "Chopin",
+     "album": "the Ballades"
+    }
+   ],
+   "wild_card": {
+    "artist": "Rzewski",
+    "album": "The People United Will Never Be Defeated!"
+   },
+   "concept": "the recording is the album",
+   "concept_note": "why classical listeners argue about *which* Goldberg Variations",
+   "technique": "close vs. distant mic'ing",
+   "technique_note": "Gould's piano in your lap vs. a concert grand across a hall."
+  },
+  {
+   "n": 23,
+   "title": "The Zimmer week",
+   "objective": "",
+   "anchor": {
+    "artist": "Hans Zimmer",
+    "album": "Interstellar"
+   },
+   "adventurous": [
+    {
+     "artist": "Hans Zimmer",
+     "album": "Dune"
+    },
+    {
+     "artist": "Ludwig Göransson",
+     "album": "Oppenheimer"
+    },
+    {
+     "artist": "Hildur Guðnadóttir",
+     "album": "Chernobyl"
+    }
+   ],
+   "wild_card": {
+    "artist": "Mica Levi",
+    "album": "Under the Skin"
+   },
+   "concept": "leitmotif",
+   "concept_note": "transfer moment: Wagner's invention, now Hollywood's grammar",
+   "technique": "the Shepard tone",
+   "technique_note": "the endlessly rising pitch."
+  },
+  {
+   "n": 24,
+   "title": "The composer as auteur",
+   "objective": "",
+   "anchor": {
+    "artist": "Ryuichi Sakamoto",
+    "album": "async"
+   },
+   "adventurous": [
+    {
+     "artist": "Max Richter",
+     "album": "Sleep"
+    },
+    {
+     "artist": "Joe Hisaishi",
+     "album": "Spirited Away"
+    },
+    {
+     "artist": "Sakamoto",
+     "album": "Merry Christmas Mr. Lawrence"
+    }
+   ],
+   "wild_card": {
+    "artist": "Oneohtrix Point Never",
+    "album": "Uncut Gems"
+   },
+   "concept": "ma (negative space)",
+   "concept_note": "silence as a composed element",
+   "technique": "prepared piano",
+   "technique_note": "screws, felt, and fingers on strings. **Capstone:** re-read the v1 dense write-ups. If they read clearly, the course worked."
+  }
+ ],
+ "source": "syllabus.md (parse at generation time)"
+}

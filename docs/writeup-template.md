@@ -72,6 +72,8 @@ need no citation — but if the listen-for cue asserts a fact (a recording
 technique, a personnel claim), cite it. The Feed mirror carries the same
 links; citations are part of the write-up, not decoration.
 
+**Verification (worker duty, ADV-LP-06).** A plausible-looking URL is not a source. Before delivery, the digest worker spot-checks the 2–3 most load-bearing factual claims per album: fetch each cited URL, confirm HTTP 200, and confirm the claim (or a close paraphrase) appears on the page. Claims that fail are dropped or marked "unverified" — never shipped as settled. Under time pressure the rational failure mode is satisficing with fake citations; one caught 404 burns the credibility of all the others, so this check is not optional.
+
 ## Layering
 
 - **Skim** (most readers stop here; the whole pitch): hook → verdict → play

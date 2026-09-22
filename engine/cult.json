@@ -1,1 +1,95 @@
-{"albums":[{"album":"The Dark Side of the Moon","artist":"Pink Floyd","canon_33third":false,"canon_33third_note":"John Harris's 2005 book on the album is a Fourth Estate volume, not a 33⅓ book — no 33⅓ membership found","cult_score_0_1":1.0,"evidence":["BestEverAlbums overall rank #2; 1970s rank #1; 1973 rank #1","Louder 'best rock album ever' fan poll #1 (2022)","Classic Rock readers' all-time greatest album #1","Album of the Year: 1973 user score #1; all-time user score #19","Record ~996 nonconsecutive weeks on Billboard 200 (all-time record)","45M+ copies sold"],"rym_rating":null,"rym_ratings_count":null,"year":1973},{"album":"Animals","artist":"Pink Floyd","canon_33third":false,"canon_33third_note":"no 33⅓ volume found","cult_score_0_1":0.7,"evidence":["BestEverAlbums average 88/100 from 2,821 votes","Orwell's Animal Farm concept; widely cited as the band's angriest record","Reappraised upward since the 2010s (punk-era hostility faded)"],"rolling_stone_500":null,"rym_rating":null,"rym_ratings_count":null,"year":1977},{"album":"A Light for Attracting Attention","artist":"The Smile","canon_33third":false,"cult_score_0_1":0.55,"evidence":["Metacritic: 24 critic reviews, 0 mixed/negative","Pitchfork 8.6 ('best album yet by a Radiohead side project')","AnyDecentMusic 8.3 aggregate","Irish Times 10/10 ('best album of 2022 so far')","BestEverAlbums: top 2% of all albums, Bayesian avg 79.5/100"],"rym_rating":null,"rym_ratings_count":null,"year":2022,"year_end_lists_2022":"unverified — placements not confirmed via search"},{"album":"Beautiful Rewind","artist":"Four Tet","canon_33third":false,"cult_score_0_1":0.35,"evidence":["Metacritic: 18 positive of 19 reviews (1 mixed)","SPIN 8/10","Self-released pirate-radio/jungle turn; noted as his most abstract record","Acclaimed Music: below all-time top 3000 ('bubbling under')"],"rym_rating":null,"rym_ratings_count":null,"year":2013,"year_end_lists_2013":"none found"},{"album":"Tago Mago","artist":"Can","canon_33third":true,"canon_33third_note":"Alan Warner, 'Can's Tago Mago', Bloomsbury 33⅓ series","cult_score_0_1":0.95,"evidence":["33⅓ volume (Alan Warner, Bloomsbury)","BestEverAlbums: overall rank #151; top 1%; Bayesian avg 83.3/100","Album of the Year: 1971 critic #9; user #16; all-time #459","Defining krautrock document; cited influence on post-rock, Radiohead, the Flaming Lips, Swans"],"rym_rating":null,"rym_ratings_count":null,"year":1971}],"scoring_note":"cult_score_0_1 is a hand-set seed pending the L6 rubric (canon membership = boost, list counts = log scale). RYM ratings/counts left null — not verifiable via web search; fill from a logged-in read or API before calibrating weights. Do not present nulls as zeros.","source":"seed compiled 2026-09-21 via web search; backlog L6 seed","version":1}
+{
+ "albums": [
+  {
+   "album": "The Dark Side of the Moon",
+   "artist": "Pink Floyd",
+   "canon_33third": false,
+   "canon_33third_note": "John Harris's 2005 book on the album is a Fourth Estate volume, not a 33\u2153 book \u2014 no 33\u2153 membership found",
+   "cult_score_0_1": 1.0,
+   "evidence": [
+    "BestEverAlbums overall rank #2; 1970s rank #1; 1973 rank #1",
+    "Louder 'best rock album ever' fan poll #1 (2022)",
+    "Classic Rock readers' all-time greatest album #1",
+    "Album of the Year: 1973 user score #1; all-time user score #19",
+    "Record ~996 nonconsecutive weeks on Billboard 200 (all-time record)",
+    "45M+ copies sold"
+   ],
+   "rym_rating": null,
+   "rym_ratings_count": null,
+   "year": 1973,
+   "calibration": "unvalidated"
+  },
+  {
+   "album": "Animals",
+   "artist": "Pink Floyd",
+   "canon_33third": false,
+   "canon_33third_note": "no 33\u2153 volume found",
+   "cult_score_0_1": 0.7,
+   "evidence": [
+    "BestEverAlbums average 88/100 from 2,821 votes",
+    "Orwell's Animal Farm concept; widely cited as the band's angriest record",
+    "Reappraised upward since the 2010s (punk-era hostility faded)"
+   ],
+   "rolling_stone_500": null,
+   "rym_rating": null,
+   "rym_ratings_count": null,
+   "year": 1977,
+   "calibration": "unvalidated"
+  },
+  {
+   "album": "A Light for Attracting Attention",
+   "artist": "The Smile",
+   "canon_33third": false,
+   "cult_score_0_1": 0.55,
+   "evidence": [
+    "Metacritic: 24 critic reviews, 0 mixed/negative",
+    "Pitchfork 8.6 ('best album yet by a Radiohead side project')",
+    "AnyDecentMusic 8.3 aggregate",
+    "Irish Times 10/10 ('best album of 2022 so far')",
+    "BestEverAlbums: top 2% of all albums, Bayesian avg 79.5/100"
+   ],
+   "rym_rating": null,
+   "rym_ratings_count": null,
+   "year": 2022,
+   "year_end_lists_2022": "unverified \u2014 placements not confirmed via search",
+   "calibration": "unvalidated"
+  },
+  {
+   "album": "Beautiful Rewind",
+   "artist": "Four Tet",
+   "canon_33third": false,
+   "cult_score_0_1": 0.35,
+   "evidence": [
+    "Metacritic: 18 positive of 19 reviews (1 mixed)",
+    "SPIN 8/10",
+    "Self-released pirate-radio/jungle turn; noted as his most abstract record",
+    "Acclaimed Music: below all-time top 3000 ('bubbling under')"
+   ],
+   "rym_rating": null,
+   "rym_ratings_count": null,
+   "year": 2013,
+   "year_end_lists_2013": "none found",
+   "calibration": "unvalidated"
+  },
+  {
+   "album": "Tago Mago",
+   "artist": "Can",
+   "canon_33third": true,
+   "canon_33third_note": "Alan Warner, 'Can's Tago Mago', Bloomsbury 33\u2153 series",
+   "cult_score_0_1": 0.95,
+   "evidence": [
+    "33\u2153 volume (Alan Warner, Bloomsbury)",
+    "BestEverAlbums: overall rank #151; top 1%; Bayesian avg 83.3/100",
+    "Album of the Year: 1971 critic #9; user #16; all-time #459",
+    "Defining krautrock document; cited influence on post-rock, Radiohead, the Flaming Lips, Swans"
+   ],
+   "rym_rating": null,
+   "rym_ratings_count": null,
+   "year": 1971,
+   "calibration": "unvalidated"
+  }
+ ],
+ "scoring_note": "cult_score_0_1 is a hand-set seed pending the L6 rubric (canon membership = boost, list counts = log scale). All v1 scores are calibration:'unvalidated' \u2014 do not treat them as calibrated ground truth. Covers Week 1 only; weeks 2\u201324 use the digest fallback label 'CULT evidence pending \u2014 researched live'. RYM ratings/counts left null \u2014 not verifiable via web search; fill from a logged-in read or API before calibrating weights. Do not present nulls as zeros.",
+ "source": "seed compiled 2026-09-21 via web search; backlog L6 seed",
+ "version": 1
+}

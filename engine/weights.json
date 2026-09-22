@@ -1,1 +1,42 @@
-{"formula":"score = w_rel·REL + w_nov·NOV + w_fresh·FRESH + w_div·DIV + w_cult·CULT + w_ctx·CTX","signals":{"CTX":"session fit: sampler-derived time-of-day patterns matched against album energy/duration profiles","CULT":"cultural-discourse score: canon membership, year-end-list appearances, review volume, RYM rating counts","DIV":"marginal contribution to the week's diversity (quality-diversity trade-off)","FRESH":"release recency, budgeted separately from NOV per YouTube 2607.23749","NOV":"inverse familiarity: unplayed, low co-occurrence with his library","REL":"dot product of taste vector with album embedding (collaborative core)"},"slots":{"adventurous":{"CTX":0.05,"CULT":0.1,"DIV":0.1,"FRESH":0.1,"NOV":0.25,"REL":0.4,"count":3},"anchor":{"CTX":0.1,"CULT":0.1,"DIV":0.0,"FRESH":0.05,"NOV":0.05,"REL":0.7},"wild_card":{"CTX":0.05,"CULT":0.2,"DIV":0.1,"FRESH":0.05,"NOV":0.35,"REL":0.25,"REL_floor":"hard floor — never below 0.25 regardless of tuning"}},"source":"docs/engine.md §3 — scoring formula; starting point, tuned by listener feedback","version":1}
+{
+ "formula": "score = w_rel\u00b7REL + w_nov\u00b7NOV + w_fresh\u00b7FRESH + w_div\u00b7DIV + w_cult\u00b7CULT + w_ctx\u00b7CTX",
+ "signals": {
+  "CTX": "session fit: sampler-derived time-of-day patterns matched against album energy/duration profiles",
+  "CULT": "cultural-discourse score: canon membership, year-end-list appearances, review volume, RYM rating counts",
+  "DIV": "marginal contribution to the week's diversity (quality-diversity trade-off)",
+  "FRESH": "release recency, budgeted separately from NOV per YouTube 2607.23749",
+  "NOV": "inverse familiarity: unplayed, low co-occurrence with his library",
+  "REL": "dot product of taste vector with album embedding (collaborative core). Taste vector from sampler logs + explicit feedback only \u2014 library saves are weak priors at most; Wesley's library is NOT a reliable taste proxy (2026-09-20 correction)."
+ },
+ "slots": {
+  "adventurous": {
+   "CTX": 0.05,
+   "CULT": 0.1,
+   "DIV": 0.1,
+   "FRESH": 0.1,
+   "NOV": 0.25,
+   "REL": 0.4,
+   "count": 3
+  },
+  "anchor": {
+   "CTX": 0.1,
+   "CULT": 0.1,
+   "DIV": 0.0,
+   "FRESH": 0.05,
+   "NOV": 0.05,
+   "REL": 0.7
+  },
+  "wild_card": {
+   "CTX": 0.05,
+   "CULT": 0.2,
+   "DIV": 0.1,
+   "FRESH": 0.05,
+   "NOV": 0.35,
+   "REL": 0.25,
+   "REL_floor": "hard floor \u2014 never below 0.25 regardless of tuning"
+  }
+ },
+ "source": "docs/engine.md \u00a73 \u2014 scoring formula; starting point, tuned by listener feedback",
+ "version": 1,
+ "status": "dormant \u2014 no consumer until candidate generation is built"
+}

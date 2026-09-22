@@ -9,6 +9,7 @@ Usage:
 """
 import json
 import os
+import re
 import subprocess
 import sys
 
@@ -16,8 +17,13 @@ LOG_DIR = os.path.expanduser(
     "~/workspace/goals/album-recommender-music-digest/hidden_files/sampler"
 )
 WATCHLIST = os.path.join(LOG_DIR, "watchlist.json")
+WEEKS_JSON = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                          "engine", "weeks.json")
 
 # week -> [(album, artist, slot)]
+# ADV-LP-01: the machine-readable 24-week plan lives in engine/weeks.json
+# (generated from syllabus.md by bin/syllabus_to_weeks.py). The hardcoded
+# dict below is the Week 1 fallback only.
 WEEKS = {
     1: [
         ("The Dark Side of the Moon", "Pink Floyd", "anchor"),
@@ -29,9 +35,31 @@ WEEKS = {
 }
 
 
+def load_weeks():
+    try:
+        with open(WEEKS_JSON) as f:
+            data = json.load(f)
+        weeks = {}
+        for w in data.get("weeks", []):
+            entries = [(w["anchor"]["album"], w["anchor"]["artist"], "anchor")]
+            entries += [(a["album"], a["artist"], "adventurous")
+                        for a in w["adventurous"]]
+            entries.append((w["wild_card"]["album"], w["wild_card"]["artist"],
+                            "wild card"))
+            weeks[w["n"]] = entries
+        return weeks
+    except (FileNotFoundError, json.JSONDecodeError, KeyError):
+        return WEEKS
+
+
 def sh(*args):
     out = subprocess.run(args, capture_output=True, text=True, timeout=30)
     return json.loads(out.stdout)
+
+
+def norm_title(s):
+    s = re.sub(r"\s*[\(\[][^\)\]]*[\)\]]", "", s or "").lower()
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", "", s)).strip()
 
 
 def find_album(album, artist):
@@ -41,12 +69,22 @@ def find_album(album, artist):
     for s in data.get("sections", []):
         cands.extend(s.get("items", []))
     artist_l = artist.lower()
-    for c in cands:
-        if artist_l in str(c.get("subtitle", "")).lower():
-            return c["spotify_uri"], c.get("title")
-    if cands:  # fallback: top result
-        return cands[0]["spotify_uri"], cands[0].get("title")
-    return None, None
+    artist_match = [c for c in cands
+                    if artist_l in str(c.get("subtitle", "")).lower()]
+    # ADV-LP-04: match the *album*, not just the artist — a saved album by
+    # the same artist (e.g. Wall Of Eyes) is a different record.
+    want = norm_title(album)
+    title_match = [c for c in artist_match
+                   if norm_title(c.get("title")).startswith(want)]
+    pool = title_match or artist_match
+    # Prefer the edition already in Wesley's library ("SAVED" trait): its
+    # track URIs are what his plays will carry, so watch hits attribute.
+    for c in pool:
+        if "SAVED" in (c.get("traits") or []):
+            return c["spotify_uri"], c.get("title"), True
+    if pool:
+        return pool[0]["spotify_uri"], pool[0].get("title"), False
+    return None, None, False
 
 
 def album_tracks(album_uri):
@@ -62,7 +100,7 @@ def album_tracks(album_uri):
 
 def main():
     week = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    entries = WEEKS.get(week)
+    entries = load_weeks().get(week)
     if not entries:
         print(f"no album list for week {week}")
         return 1
@@ -73,8 +111,17 @@ def main():
     except FileNotFoundError:
         wl = {"tracks": {}, "albums": {}}
 
+    # ADV-LP-04: clear stale weeks — track URIs from older weeks keep
+    # matching forever and poison watch-hit attribution. Only the current
+    # week's entries may remain.
+    wl["tracks"] = {u: e for u, e in wl.get("tracks", {}).items()
+                    if e.get("week") == week}
+    wl["albums"] = {u: e for u, e in wl.get("albums", {}).items()
+                    if e.get("week") == week}
+
+    resolved_uris = set()
     for album, artist, slot in entries:
-        album_uri, resolved = find_album(album, artist)
+        album_uri, resolved, saved = find_album(album, artist)
         if not album_uri:
             print(f"NOT FOUND: {album} by {artist}")
             continue
@@ -82,13 +129,26 @@ def main():
         wl["albums"][album_uri] = {
             "album": resolved or album, "artist": artist,
             "week": week, "slot": slot, "track_count": len(tracks),
+            "edition_from_library": saved,
         }
         for t_uri, t_title in tracks:
             wl["tracks"][t_uri] = {
                 "album": resolved or album, "artist": artist,
-                "week": week, "slot": slot,
+                "week": week, "slot": slot, "album_uri": album_uri,
+                # ADV-LP-04: track title stored for the name-normalized
+                # fallback match in poll.py (edition URI mismatches).
+                "track": t_title,
             }
-        print(f"week {week} [{slot}]: {resolved or album} — {len(tracks)} tracks")
+        tag = " [library edition]" if saved else ""
+        print(f"week {week} [{slot}]: {resolved or album} — {len(tracks)} tracks{tag}")
+        resolved_uris.add(album_uri)
+
+    # Prune anything this run did not resolve (e.g. a same-artist wrong
+    # album from an older build) — only the current week's albums may match.
+    wl["albums"] = {u: e for u, e in wl["albums"].items() if u in resolved_uris}
+    wl["tracks"] = {u: e for u, e in wl["tracks"].items()
+                    if e.get("album_uri") in resolved_uris or e.get("week") != week}
+    wl["week"] = week
     wl["week"] = week
     with open(WATCHLIST, "w") as f:
         json.dump(wl, f, indent=1)

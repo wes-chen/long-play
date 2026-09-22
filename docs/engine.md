@@ -57,8 +57,11 @@ ground truth — re-validate every dial against them.
 ## 3. long-play engine: proposed design
 
 **Candidate generation (album-level, like Deezer's production system).** Build a
-user–album interaction matrix from Liked Songs (recency-weighted) + now-playing
-sampler logs; album embeddings from playlist co-occurrence + audio-text encoder
+user–album interaction matrix from now-playing sampler logs + explicit chat
+feedback (ADV-LP-07: Wesley's 2026-09-20 correction — his Spotify library is
+NOT a reliable taste proxy, so Liked Songs / saves may serve as weak priors
+at most and must never drive the taste vector); album embeddings from
+playlist co-occurrence + audio-text encoder
 geometry. New albums get *predicted* embeddings from metadata (artist, label, genre
 tags) à la Deezer's CF-Cold-Start — refreshed as sampler data accrues. Album is the
 recommendable unit, full stop.
