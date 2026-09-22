@@ -1,0 +1,111 @@
+{
+ "artist": "Swans",
+ "album": "To Be Kind",
+ "spotify_uri": "spotify:album:4dq7JNcHKrnozzFQg5bpmn",
+ "spotify_url": "https://open.spotify.com/album/4dq7JNcHKrnozzFQg5bpmn?si=id_dUsKkQmCWuPv6yeP1ag",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Screen Shot",
+   "clean_title": "Screen Shot",
+   "duration_ms": 484532,
+   "spotify_uri": "spotify:track:23cFxNXbwYcb6gfSOzL55H",
+   "spotify_url": "https://open.spotify.com/track/23cFxNXbwYcb6gfSOzL55H?si=gyayXP1KRkWWUnXfkRizow",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Just A Little Boy (For Chester Burnett)",
+   "clean_title": "Just A Little Boy (For Chester Burnett)",
+   "duration_ms": 759748,
+   "spotify_uri": "spotify:track:29XjTmZWEF4Sqakjtb6GwP",
+   "spotify_url": "https://open.spotify.com/track/29XjTmZWEF4Sqakjtb6GwP?si=8DHII8ZqT1S9NiwFzZFY7w",
+   "starts_at_ms": 484532,
+   "starts_at": "8:04"
+  },
+  {
+   "n": 3,
+   "title": "A Little God In My Hands",
+   "clean_title": "A Little God In My Hands",
+   "duration_ms": 428173,
+   "spotify_uri": "spotify:track:0Tvwpko17Jh8sXIh9h4vth",
+   "spotify_url": "https://open.spotify.com/track/0Tvwpko17Jh8sXIh9h4vth?si=a5UyWm86RTulj5YTi5G19w",
+   "starts_at_ms": 1244280,
+   "starts_at": "20:44"
+  },
+  {
+   "n": 4,
+   "title": "Bring The Sun/Toussaint L'Ouverture",
+   "clean_title": "Bring The Sun/Toussaint L'Ouverture",
+   "duration_ms": 2045258,
+   "spotify_uri": "spotify:track:6QXQEeKlpcEtg5eOJfr8nO",
+   "spotify_url": "https://open.spotify.com/track/6QXQEeKlpcEtg5eOJfr8nO?si=Oa-X1hYJSUm8fOgcQ8zGjA",
+   "starts_at_ms": 1672453,
+   "starts_at": "27:52"
+  },
+  {
+   "n": 5,
+   "title": "Some Things We Do",
+   "clean_title": "Some Things We Do",
+   "duration_ms": 309132,
+   "spotify_uri": "spotify:track:7l6HrifbC0PTzl1aYdwMq9",
+   "spotify_url": "https://open.spotify.com/track/7l6HrifbC0PTzl1aYdwMq9?si=OZ3xu4gxQzqHNJtrKqH-TA",
+   "starts_at_ms": 3717711,
+   "starts_at": "61:57"
+  },
+  {
+   "n": 6,
+   "title": "She Loves Us",
+   "clean_title": "She Loves Us",
+   "duration_ms": 1020806,
+   "spotify_uri": "spotify:track:65zCltRw27DlLzOMfpzy5G",
+   "spotify_url": "https://open.spotify.com/track/65zCltRw27DlLzOMfpzy5G?si=X0DKaLqjSRalQVhQEGpwpA",
+   "starts_at_ms": 4026843,
+   "starts_at": "67:06"
+  },
+  {
+   "n": 7,
+   "title": "Kirsten Supine",
+   "clean_title": "Kirsten Supine",
+   "duration_ms": 632439,
+   "spotify_uri": "spotify:track:68nTx9JsVMGaKLtMT4I1RC",
+   "spotify_url": "https://open.spotify.com/track/68nTx9JsVMGaKLtMT4I1RC?si=iEHCkmKOSiSf62d_ye0P4A",
+   "starts_at_ms": 5047649,
+   "starts_at": "84:07"
+  },
+  {
+   "n": 8,
+   "title": "Oxygen",
+   "clean_title": "Oxygen",
+   "duration_ms": 479071,
+   "spotify_uri": "spotify:track:6w97drTeVpq2tIolmV1phJ",
+   "spotify_url": "https://open.spotify.com/track/6w97drTeVpq2tIolmV1phJ?si=X6IeJ80pRcGg6g2cErDPpQ",
+   "starts_at_ms": 5680088,
+   "starts_at": "94:40"
+  },
+  {
+   "n": 9,
+   "title": "Nathalie Neal",
+   "clean_title": "Nathalie Neal",
+   "duration_ms": 614965,
+   "spotify_uri": "spotify:track:2UdAXZ6NH8OdVRBlKafPIn",
+   "spotify_url": "https://open.spotify.com/track/2UdAXZ6NH8OdVRBlKafPIn?si=xLAKHKbEReaz-uQoHxKGRg",
+   "starts_at_ms": 6159159,
+   "starts_at": "102:39"
+  },
+  {
+   "n": 10,
+   "title": "To Be Kind",
+   "clean_title": "To Be Kind",
+   "duration_ms": 502540,
+   "spotify_uri": "spotify:track:6HgcMF7hqeHo2YjRzZZK51",
+   "spotify_url": "https://open.spotify.com/track/6HgcMF7hqeHo2YjRzZZK51?si=SUFQURSRSYqJUwBfWs_Vgw",
+   "starts_at_ms": 6774124,
+   "starts_at": "112:54"
+  }
+ ],
+ "week": 2,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:30:30.830148+00:00"
+}
