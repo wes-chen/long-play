@@ -1,0 +1,121 @@
+{
+ "artist": "ARTMS",
+ "album": "DALL",
+ "spotify_uri": "spotify:album:0hJloArA2Kb9xNBIv34osS",
+ "spotify_url": "https://open.spotify.com/album/0hJloArA2Kb9xNBIv34osS?si=rmVIc0-JSy6lPcHO9XBarg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "url",
+   "clean_title": "url",
+   "duration_ms": 66853,
+   "spotify_uri": "spotify:track:6TWIi8MGu6N4gCFZtsBjCR",
+   "spotify_url": "https://open.spotify.com/track/6TWIi8MGu6N4gCFZtsBjCR?si=1nDMGhyvTYC0CIlR_mzk6g",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Virtual Angel",
+   "clean_title": "Virtual Angel",
+   "duration_ms": 173640,
+   "spotify_uri": "spotify:track:1iGNZerzZHm2GLu7k1OS3J",
+   "spotify_url": "https://open.spotify.com/track/1iGNZerzZHm2GLu7k1OS3J?si=TFZ_T4tURGasqdGGAYrppQ",
+   "starts_at_ms": 66853,
+   "starts_at": "1:06"
+  },
+  {
+   "n": 3,
+   "title": "Sparkle",
+   "clean_title": "Sparkle",
+   "duration_ms": 150733,
+   "spotify_uri": "spotify:track:5Hn2XgOJmhFfFLWLUz4MQB",
+   "spotify_url": "https://open.spotify.com/track/5Hn2XgOJmhFfFLWLUz4MQB?si=MJwVYossS8qJmV2sWuc_vA",
+   "starts_at_ms": 240493,
+   "starts_at": "4:00"
+  },
+  {
+   "n": 4,
+   "title": "The Hitchhiker's Guide to the Galaxy",
+   "clean_title": "The Hitchhiker's Guide to the Galaxy",
+   "duration_ms": 211426,
+   "spotify_uri": "spotify:track:0vwWk8lrUlgAswudXqom20",
+   "spotify_url": "https://open.spotify.com/track/0vwWk8lrUlgAswudXqom20?si=uSDDiuWTRYu4ndZzfOQa3g",
+   "starts_at_ms": 391226,
+   "starts_at": "6:31"
+  },
+  {
+   "n": 5,
+   "title": "Flower Rhythm",
+   "clean_title": "Flower Rhythm",
+   "duration_ms": 159693,
+   "spotify_uri": "spotify:track:5biKl8Y9OosyY60PkACO1A",
+   "spotify_url": "https://open.spotify.com/track/5biKl8Y9OosyY60PkACO1A?si=JsCxdLGySMCWIOQVYM9lLg",
+   "starts_at_ms": 602652,
+   "starts_at": "10:02"
+  },
+  {
+   "n": 6,
+   "title": "Candy Crush",
+   "clean_title": "Candy Crush",
+   "duration_ms": 180600,
+   "spotify_uri": "spotify:track:1TsY0n1qB8s54TtB1pMajQ",
+   "spotify_url": "https://open.spotify.com/track/1TsY0n1qB8s54TtB1pMajQ?si=E6st77tmTAqaawQNXzDCJA",
+   "starts_at_ms": 762345,
+   "starts_at": "12:42"
+  },
+  {
+   "n": 7,
+   "title": "Air",
+   "clean_title": "Air",
+   "duration_ms": 147360,
+   "spotify_uri": "spotify:track:0bJA4DQKngrpExOnLsvntx",
+   "spotify_url": "https://open.spotify.com/track/0bJA4DQKngrpExOnLsvntx?si=0N_suLqFT6Kw1tJXCkRIdA",
+   "starts_at_ms": 942945,
+   "starts_at": "15:42"
+  },
+  {
+   "n": 8,
+   "title": "Unf/Air",
+   "clean_title": "Unf/Air",
+   "duration_ms": 165826,
+   "spotify_uri": "spotify:track:2cKBbpCxFG5QSsCSAvjCDo",
+   "spotify_url": "https://open.spotify.com/track/2cKBbpCxFG5QSsCSAvjCDo?si=ydpI5cviTqa2EWtmmpud_Q",
+   "starts_at_ms": 1090305,
+   "starts_at": "18:10"
+  },
+  {
+   "n": 9,
+   "title": "Distress",
+   "clean_title": "Distress",
+   "duration_ms": 177160,
+   "spotify_uri": "spotify:track:5BzccgT43QUkS3hLVDOtf6",
+   "spotify_url": "https://open.spotify.com/track/5BzccgT43QUkS3hLVDOtf6?si=ZrBViFSQTLecoZSrJkHsZg",
+   "starts_at_ms": 1256131,
+   "starts_at": "20:56"
+  },
+  {
+   "n": 10,
+   "title": "Butterfly Effect",
+   "clean_title": "Butterfly Effect",
+   "duration_ms": 206440,
+   "spotify_uri": "spotify:track:0FVRskndiDyyoTlBclPfl9",
+   "spotify_url": "https://open.spotify.com/track/0FVRskndiDyyoTlBclPfl9?si=XofU1TZ8Tc-kdtl0BcRHeA",
+   "starts_at_ms": 1433291,
+   "starts_at": "23:53"
+  },
+  {
+   "n": 11,
+   "title": "Birth",
+   "clean_title": "Birth",
+   "duration_ms": 162373,
+   "spotify_uri": "spotify:track:4ZUA6yMs1NQDpIxvk6f3qY",
+   "spotify_url": "https://open.spotify.com/track/4ZUA6yMs1NQDpIxvk6f3qY?si=01n2f6iET7GmNkXYM57atA",
+   "starts_at_ms": 1639731,
+   "starts_at": "27:19"
+  }
+ ],
+ "week": 19,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:50.038093+00:00"
+}
