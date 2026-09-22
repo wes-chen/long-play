@@ -1,0 +1,111 @@
+{
+ "artist": "Cocteau Twins",
+ "album": "Heaven or Las Vegas",
+ "spotify_uri": "spotify:album:5lEphbceIgaK1XxWeSrC9E",
+ "spotify_url": "https://open.spotify.com/album/5lEphbceIgaK1XxWeSrC9E?si=mrwYh7HZSJKTbnNT8CUPFw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Cherry-coloured Funk",
+   "clean_title": "Cherry-coloured Funk",
+   "duration_ms": 192466,
+   "spotify_uri": "spotify:track:37pKTyMwalomKCZjxTc2QZ",
+   "spotify_url": "https://open.spotify.com/track/37pKTyMwalomKCZjxTc2QZ?si=SgjyHz7WRQCiz1z7pIcg0w",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Pitch the Baby",
+   "clean_title": "Pitch the Baby",
+   "duration_ms": 194080,
+   "spotify_uri": "spotify:track:1DXD0wVXXHwUYo9AXbcMMI",
+   "spotify_url": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI?si=smNMDTgqT_egm47J02KNtg",
+   "starts_at_ms": 192466,
+   "starts_at": "3:12"
+  },
+  {
+   "n": 3,
+   "title": "Iceblink Luck",
+   "clean_title": "Iceblink Luck",
+   "duration_ms": 198666,
+   "spotify_uri": "spotify:track:0Coai3QxvjCXWMhVN1hpgE",
+   "spotify_url": "https://open.spotify.com/track/0Coai3QxvjCXWMhVN1hpgE?si=v8htnmU0SC6xyYnsvYxTUQ",
+   "starts_at_ms": 386546,
+   "starts_at": "6:26"
+  },
+  {
+   "n": 4,
+   "title": "Fifty-fifty Clown",
+   "clean_title": "Fifty-fifty Clown",
+   "duration_ms": 190213,
+   "spotify_uri": "spotify:track:2vDC9iyQpY3EsioJD8pRiW",
+   "spotify_url": "https://open.spotify.com/track/2vDC9iyQpY3EsioJD8pRiW?si=_lTnkz4mS_2HmpAxAFm7yg",
+   "starts_at_ms": 585212,
+   "starts_at": "9:45"
+  },
+  {
+   "n": 5,
+   "title": "Heaven or Las Vegas",
+   "clean_title": "Heaven or Las Vegas",
+   "duration_ms": 298400,
+   "spotify_uri": "spotify:track:0AxZUYeQ9bZwSdt1LmZuok",
+   "spotify_url": "https://open.spotify.com/track/0AxZUYeQ9bZwSdt1LmZuok?si=le31eL8hSmOnY7XqAJDS5w",
+   "starts_at_ms": 775425,
+   "starts_at": "12:55"
+  },
+  {
+   "n": 6,
+   "title": "I Wear Your Ring",
+   "clean_title": "I Wear Your Ring",
+   "duration_ms": 209346,
+   "spotify_uri": "spotify:track:20nCwr4GiOZ02PVePsuLEd",
+   "spotify_url": "https://open.spotify.com/track/20nCwr4GiOZ02PVePsuLEd?si=RTzz8_3eT1Cn9K70ZhFYqw",
+   "starts_at_ms": 1073825,
+   "starts_at": "17:53"
+  },
+  {
+   "n": 7,
+   "title": "Fotzepolitic",
+   "clean_title": "Fotzepolitic",
+   "duration_ms": 210933,
+   "spotify_uri": "spotify:track:5SuIuaAjFbaxJq9W1qKGw2",
+   "spotify_url": "https://open.spotify.com/track/5SuIuaAjFbaxJq9W1qKGw2?si=mJCp132iTqu0Ught8wP45Q",
+   "starts_at_ms": 1283171,
+   "starts_at": "21:23"
+  },
+  {
+   "n": 8,
+   "title": "Wolf in the Breast",
+   "clean_title": "Wolf in the Breast",
+   "duration_ms": 211200,
+   "spotify_uri": "spotify:track:5Cg9aQIEM2exLNBPupf6V4",
+   "spotify_url": "https://open.spotify.com/track/5Cg9aQIEM2exLNBPupf6V4?si=8mJ8mJU4Q9Sx6fpirJKGJA",
+   "starts_at_ms": 1494104,
+   "starts_at": "24:54"
+  },
+  {
+   "n": 9,
+   "title": "Road, River and Rail",
+   "clean_title": "Road, River and Rail",
+   "duration_ms": 201146,
+   "spotify_uri": "spotify:track:6MJ8YgmhMphGcCX5OVS28W",
+   "spotify_url": "https://open.spotify.com/track/6MJ8YgmhMphGcCX5OVS28W?si=hVxHEK-ZRvWqEBa6S1_QTw",
+   "starts_at_ms": 1705304,
+   "starts_at": "28:25"
+  },
+  {
+   "n": 10,
+   "title": "Frou-frou Foxes in Midsummer Fires",
+   "clean_title": "Frou-frou Foxes in Midsummer Fires",
+   "duration_ms": 338053,
+   "spotify_uri": "spotify:track:6i18oi8cbvlv9Y2QVBSzkB",
+   "spotify_url": "https://open.spotify.com/track/6i18oi8cbvlv9Y2QVBSzkB?si=ghHXKvkWRf6z8vc-UQ-jSQ",
+   "starts_at_ms": 1906450,
+   "starts_at": "31:46"
+  }
+ ],
+ "week": 6,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:46.641234+00:00"
+}
