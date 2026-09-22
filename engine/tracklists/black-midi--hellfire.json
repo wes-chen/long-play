@@ -1,0 +1,111 @@
+{
+ "artist": "Black Midi",
+ "album": "Hellfire",
+ "spotify_uri": "spotify:album:68z6MWYYNmvTcru1QMcYId",
+ "spotify_url": "https://open.spotify.com/album/68z6MWYYNmvTcru1QMcYId?si=zFyzZDXHRxWCDf_cbfXB4Q",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hellfire",
+   "clean_title": "Hellfire",
+   "duration_ms": 84288,
+   "spotify_uri": "spotify:track:6NES7mGZAlF7u4eztL5g6E",
+   "spotify_url": "https://open.spotify.com/track/6NES7mGZAlF7u4eztL5g6E?si=8Cj8ZdpcQR6pDep5xZ7WBg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Sugar/Tzu",
+   "clean_title": "Sugar/Tzu",
+   "duration_ms": 230687,
+   "spotify_uri": "spotify:track:0DkazfLyVRaMvSkwycyyfT",
+   "spotify_url": "https://open.spotify.com/track/0DkazfLyVRaMvSkwycyyfT?si=QZwTB7PDTIerI3G6MEmDKg",
+   "starts_at_ms": 84288,
+   "starts_at": "1:24"
+  },
+  {
+   "n": 3,
+   "title": "Eat Men Eat",
+   "clean_title": "Eat Men Eat",
+   "duration_ms": 188179,
+   "spotify_uri": "spotify:track:2i44vCoa0ekZb2VkLYEuvK",
+   "spotify_url": "https://open.spotify.com/track/2i44vCoa0ekZb2VkLYEuvK?si=T93bVa3dS-GdcrN6IcwnjA",
+   "starts_at_ms": 314975,
+   "starts_at": "5:14"
+  },
+  {
+   "n": 4,
+   "title": "Welcome to Hell",
+   "clean_title": "Welcome to Hell",
+   "duration_ms": 249709,
+   "spotify_uri": "spotify:track:5ON8SSEFQtnhftaRAOt9Wl",
+   "spotify_url": "https://open.spotify.com/track/5ON8SSEFQtnhftaRAOt9Wl?si=k8XJUaQpQ-aiO5u_gwlgxA",
+   "starts_at_ms": 503154,
+   "starts_at": "8:23"
+  },
+  {
+   "n": 5,
+   "title": "Still",
+   "clean_title": "Still",
+   "duration_ms": 346188,
+   "spotify_uri": "spotify:track:1WTYHbDGKGNE7ujGhXj5sD",
+   "spotify_url": "https://open.spotify.com/track/1WTYHbDGKGNE7ujGhXj5sD?si=HB5j_3ZhSEmKHrkE7-QKTA",
+   "starts_at_ms": 752863,
+   "starts_at": "12:32"
+  },
+  {
+   "n": 6,
+   "title": "Half Time",
+   "clean_title": "Half Time",
+   "duration_ms": 26106,
+   "spotify_uri": "spotify:track:7zYMJ64CH6ARJNm55Gndos",
+   "spotify_url": "https://open.spotify.com/track/7zYMJ64CH6ARJNm55Gndos?si=wUcpqcgEQH-IWHH1bg8mjQ",
+   "starts_at_ms": 1099051,
+   "starts_at": "18:19"
+  },
+  {
+   "n": 7,
+   "title": "The Race Is About To Begin",
+   "clean_title": "The Race Is About To Begin",
+   "duration_ms": 435189,
+   "spotify_uri": "spotify:track:2GBNZjl1l1PbQ2mW8dMKVk",
+   "spotify_url": "https://open.spotify.com/track/2GBNZjl1l1PbQ2mW8dMKVk?si=KC9oyz-MTt-8QD6v6IzmOA",
+   "starts_at_ms": 1125157,
+   "starts_at": "18:45"
+  },
+  {
+   "n": 8,
+   "title": "Dangerous Liaisons",
+   "clean_title": "Dangerous Liaisons",
+   "duration_ms": 254961,
+   "spotify_uri": "spotify:track:4T4IAK3DCwBfN1LsPDs0xF",
+   "spotify_url": "https://open.spotify.com/track/4T4IAK3DCwBfN1LsPDs0xF?si=JrSrFYB_ST26jH4HUKdY7Q",
+   "starts_at_ms": 1560346,
+   "starts_at": "26:00"
+  },
+  {
+   "n": 9,
+   "title": "The Defence",
+   "clean_title": "The Defence",
+   "duration_ms": 179307,
+   "spotify_uri": "spotify:track:2YFxsdENUr0JbHUcbNGys1",
+   "spotify_url": "https://open.spotify.com/track/2YFxsdENUr0JbHUcbNGys1?si=gWNRAEHGTcGiNGR3Q38uwQ",
+   "starts_at_ms": 1815307,
+   "starts_at": "30:15"
+  },
+  {
+   "n": 10,
+   "title": "27 Questions",
+   "clean_title": "27 Questions",
+   "duration_ms": 343662,
+   "spotify_uri": "spotify:track:7bNRoMMuosDagm66lErRYK",
+   "spotify_url": "https://open.spotify.com/track/7bNRoMMuosDagm66lErRYK?si=lsApL03eRsqKKbDzyq-DfQ",
+   "starts_at_ms": 1994614,
+   "starts_at": "33:14"
+  }
+ ],
+ "week": 4,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:30:39.588271+00:00"
+}
