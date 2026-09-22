@@ -1,0 +1,131 @@
+{
+ "artist": "Big Thief",
+ "album": "U.F.O.F",
+ "spotify_uri": "spotify:album:0sLnNGW4PzCYFQ4Pn7aVCP",
+ "spotify_url": "https://open.spotify.com/album/0sLnNGW4PzCYFQ4Pn7aVCP?si=TEJzu1LAQ6i_UpIqDuu_YA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Contact",
+   "clean_title": "Contact",
+   "duration_ms": 234493,
+   "spotify_uri": "spotify:track:3sVuke7aCuUQSJxwPSu3Eu",
+   "spotify_url": "https://open.spotify.com/track/3sVuke7aCuUQSJxwPSu3Eu?si=sVHJampeTsucm3CXw9jPiA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "UFOF",
+   "clean_title": "UFOF",
+   "duration_ms": 188413,
+   "spotify_uri": "spotify:track:3Hbwbuk3ChdUf7M6Cn7uQB",
+   "spotify_url": "https://open.spotify.com/track/3Hbwbuk3ChdUf7M6Cn7uQB?si=Si2Lk78KSz-p2TOjMA397A",
+   "starts_at_ms": 234493,
+   "starts_at": "3:54"
+  },
+  {
+   "n": 3,
+   "title": "Cattails",
+   "clean_title": "Cattails",
+   "duration_ms": 245640,
+   "spotify_uri": "spotify:track:1zNLILPGGfMdEnifTrnY3z",
+   "spotify_url": "https://open.spotify.com/track/1zNLILPGGfMdEnifTrnY3z?si=IBj2-3yITAKDhE4Q7xPkCQ",
+   "starts_at_ms": 422906,
+   "starts_at": "7:02"
+  },
+  {
+   "n": 4,
+   "title": "From",
+   "clean_title": "From",
+   "duration_ms": 238320,
+   "spotify_uri": "spotify:track:6pnyk7XWOC1gtgh1KI2ymo",
+   "spotify_url": "https://open.spotify.com/track/6pnyk7XWOC1gtgh1KI2ymo?si=zM9WMti0SRCXu3Mxj_TrJw",
+   "starts_at_ms": 668546,
+   "starts_at": "11:08"
+  },
+  {
+   "n": 5,
+   "title": "Open Desert",
+   "clean_title": "Open Desert",
+   "duration_ms": 227533,
+   "spotify_uri": "spotify:track:79GNPyz34aVNeAZXXVlrLv",
+   "spotify_url": "https://open.spotify.com/track/79GNPyz34aVNeAZXXVlrLv?si=hzCDUaPfRhuYgwLNdG0w1w",
+   "starts_at_ms": 906866,
+   "starts_at": "15:06"
+  },
+  {
+   "n": 6,
+   "title": "Orange",
+   "clean_title": "Orange",
+   "duration_ms": 210306,
+   "spotify_uri": "spotify:track:4xaVx8jb12zUS6l2Ckx6nW",
+   "spotify_url": "https://open.spotify.com/track/4xaVx8jb12zUS6l2Ckx6nW?si=Wm4zCcKeSWe-3yXgQI1eQw",
+   "starts_at_ms": 1134399,
+   "starts_at": "18:54"
+  },
+  {
+   "n": 7,
+   "title": "Century",
+   "clean_title": "Century",
+   "duration_ms": 187306,
+   "spotify_uri": "spotify:track:5VgHyTScSLqpTai6oQjird",
+   "spotify_url": "https://open.spotify.com/track/5VgHyTScSLqpTai6oQjird?si=ziHd2n_8RayST9CZgEnP8Q",
+   "starts_at_ms": 1344705,
+   "starts_at": "22:24"
+  },
+  {
+   "n": 8,
+   "title": "Strange",
+   "clean_title": "Strange",
+   "duration_ms": 221466,
+   "spotify_uri": "spotify:track:0y8c74ezNCYou4FrX4xI8v",
+   "spotify_url": "https://open.spotify.com/track/0y8c74ezNCYou4FrX4xI8v?si=OQRfE9dJROu4oXiZfmVo1g",
+   "starts_at_ms": 1532011,
+   "starts_at": "25:32"
+  },
+  {
+   "n": 9,
+   "title": "Betsy",
+   "clean_title": "Betsy",
+   "duration_ms": 208466,
+   "spotify_uri": "spotify:track:3gmmqbwuSVfLokKAPcBQha",
+   "spotify_url": "https://open.spotify.com/track/3gmmqbwuSVfLokKAPcBQha?si=2zCT1EklRBO9F06b2W0iHQ",
+   "starts_at_ms": 1753477,
+   "starts_at": "29:13"
+  },
+  {
+   "n": 10,
+   "title": "Terminal Paradise",
+   "clean_title": "Terminal Paradise",
+   "duration_ms": 205346,
+   "spotify_uri": "spotify:track:1O8TjQfVyFm10RjM76Vdzk",
+   "spotify_url": "https://open.spotify.com/track/1O8TjQfVyFm10RjM76Vdzk?si=7U576jzcR5i_tEgEJWyV9A",
+   "starts_at_ms": 1961943,
+   "starts_at": "32:41"
+  },
+  {
+   "n": 11,
+   "title": "Jenni",
+   "clean_title": "Jenni",
+   "duration_ms": 251693,
+   "spotify_uri": "spotify:track:3vxZeKCnE307g5mzb7ddkp",
+   "spotify_url": "https://open.spotify.com/track/3vxZeKCnE307g5mzb7ddkp?si=VXWkxDZhTV-GWZ_7DdqS3g",
+   "starts_at_ms": 2167289,
+   "starts_at": "36:07"
+  },
+  {
+   "n": 12,
+   "title": "Magic Dealer",
+   "clean_title": "Magic Dealer",
+   "duration_ms": 181800,
+   "spotify_uri": "spotify:track:4hgznG7Etsjll9qkHucCDO",
+   "spotify_url": "https://open.spotify.com/track/4hgznG7Etsjll9qkHucCDO?si=RgBFZsVhTo6QlIDau2cB_g",
+   "starts_at_ms": 2418982,
+   "starts_at": "40:18"
+  }
+ ],
+ "week": 16,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:36.619235+00:00"
+}
