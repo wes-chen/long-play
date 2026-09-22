@@ -1,0 +1,121 @@
+{
+ "artist": "Lingua Ignota",
+ "album": "CALIGULA",
+ "spotify_uri": "spotify:album:2GBJg7nTQs3go1w24ECKvy",
+ "spotify_url": "https://open.spotify.com/album/2GBJg7nTQs3go1w24ECKvy?si=Txgh4LEBSu6I9ATqc_ijog",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "FAITHFUL SERVANT FRIEND OF CHRIST",
+   "clean_title": "FAITHFUL SERVANT FRIEND OF CHRIST",
+   "duration_ms": 282092,
+   "spotify_uri": "spotify:track:1WMawd1HhdmEojY4b1Ouyi",
+   "spotify_url": "https://open.spotify.com/track/1WMawd1HhdmEojY4b1Ouyi?si=CPkybNnJSdGkMk43NFqVPw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "DO YOU DOUBT ME TRAITOR",
+   "clean_title": "DO YOU DOUBT ME TRAITOR",
+   "duration_ms": 574347,
+   "spotify_uri": "spotify:track:27mFsmEWiSablfQTyZZhgp",
+   "spotify_url": "https://open.spotify.com/track/27mFsmEWiSablfQTyZZhgp?si=QQtDjJmGTbK6x7LGMY7IeQ",
+   "starts_at_ms": 282092,
+   "starts_at": "4:42"
+  },
+  {
+   "n": 3,
+   "title": "BUTCHER OF THE WORLD",
+   "clean_title": "BUTCHER OF THE WORLD",
+   "duration_ms": 393421,
+   "spotify_uri": "spotify:track:69xWltyIPMEXVzz3CcOKjq",
+   "spotify_url": "https://open.spotify.com/track/69xWltyIPMEXVzz3CcOKjq?si=Ds1YDL-6RvWXpGaakHZIQg",
+   "starts_at_ms": 856439,
+   "starts_at": "14:16"
+  },
+  {
+   "n": 4,
+   "title": "MAY FAILURE BE YOUR NOOSE",
+   "clean_title": "MAY FAILURE BE YOUR NOOSE",
+   "duration_ms": 272707,
+   "spotify_uri": "spotify:track:2TeMJxdraHOuzkK8AczQmK",
+   "spotify_url": "https://open.spotify.com/track/2TeMJxdraHOuzkK8AczQmK?si=IVKzBiUoSNSC6QwPpKh7hQ",
+   "starts_at_ms": 1249860,
+   "starts_at": "20:49"
+  },
+  {
+   "n": 5,
+   "title": "FRAGRANT IS MY MANY FLOWER'D CROWN",
+   "clean_title": "FRAGRANT IS MY MANY FLOWER'D CROWN",
+   "duration_ms": 307153,
+   "spotify_uri": "spotify:track:3DgH8JVn8baGEGi0PqOnFQ",
+   "spotify_url": "https://open.spotify.com/track/3DgH8JVn8baGEGi0PqOnFQ?si=Yqe8A1OxRl-SwpLpkliF6w",
+   "starts_at_ms": 1522567,
+   "starts_at": "25:22"
+  },
+  {
+   "n": 6,
+   "title": "IF THE POISON WON'T TAKE YOU MY DOGS WILL",
+   "clean_title": "IF THE POISON WON'T TAKE YOU MY DOGS WILL",
+   "duration_ms": 390995,
+   "spotify_uri": "spotify:track:2PWAeDtnpreLIT8T5j8Gwx",
+   "spotify_url": "https://open.spotify.com/track/2PWAeDtnpreLIT8T5j8Gwx?si=0wOQ8yBhSCihY_QJjUlIHA",
+   "starts_at_ms": 1829720,
+   "starts_at": "30:29"
+  },
+  {
+   "n": 7,
+   "title": "DAY OF TEARS AND MOURNING",
+   "clean_title": "DAY OF TEARS AND MOURNING",
+   "duration_ms": 283205,
+   "spotify_uri": "spotify:track:7kzgewBtUcnV2znGwzXLST",
+   "spotify_url": "https://open.spotify.com/track/7kzgewBtUcnV2znGwzXLST?si=bLNSf34gQbq-qGC3l08mVQ",
+   "starts_at_ms": 2220715,
+   "starts_at": "37:00"
+  },
+  {
+   "n": 8,
+   "title": "SORROW! SORROW! SORROW!",
+   "clean_title": "SORROW! SORROW! SORROW!",
+   "duration_ms": 391737,
+   "spotify_uri": "spotify:track:36ImLZWNbfSrDwxrnJu5MW",
+   "spotify_url": "https://open.spotify.com/track/36ImLZWNbfSrDwxrnJu5MW?si=awWeM4zlT5ycYql8IEdy0g",
+   "starts_at_ms": 2503920,
+   "starts_at": "41:43"
+  },
+  {
+   "n": 9,
+   "title": "SPITE ALONE HOLDS ME ALOFT",
+   "clean_title": "SPITE ALONE HOLDS ME ALOFT",
+   "duration_ms": 444275,
+   "spotify_uri": "spotify:track:4WPhQssnzSr11cZFXtBJJo",
+   "spotify_url": "https://open.spotify.com/track/4WPhQssnzSr11cZFXtBJJo?si=mS_5VWrnRDaEYiqFHBGjug",
+   "starts_at_ms": 2895657,
+   "starts_at": "48:15"
+  },
+  {
+   "n": 10,
+   "title": "FUCKING DEATHDEALER",
+   "clean_title": "FUCKING DEATHDEALER",
+   "duration_ms": 152792,
+   "spotify_uri": "spotify:track:3AdjVNmizJU3o0UzoNTqe1",
+   "spotify_url": "https://open.spotify.com/track/3AdjVNmizJU3o0UzoNTqe1?si=5x18LDmdTHSjHsL5v_l4jQ",
+   "starts_at_ms": 3339932,
+   "starts_at": "55:39"
+  },
+  {
+   "n": 11,
+   "title": "I AM THE BEAST",
+   "clean_title": "I AM THE BEAST",
+   "duration_ms": 473270,
+   "spotify_uri": "spotify:track:3gnCUUpyd20COtouIAOMSJ",
+   "spotify_url": "https://open.spotify.com/track/3gnCUUpyd20COtouIAOMSJ?si=kIZ1UWd7SzaygxrGjUw5CA",
+   "starts_at_ms": 3492724,
+   "starts_at": "58:12"
+  }
+ ],
+ "week": 14,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:31:28.747600+00:00"
+}
