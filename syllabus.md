@@ -1,7 +1,7 @@
 # The long-play syllabus
 
 *Draft v0.1 — 24 weeks. Numbering corrected 2026-09-21 (classical 21–22, cinematic 23–24).*
-*This is a living document: weeks move as the listening log shows what lands and what bounces.*
+*This is a living document: weeks move as the listening log shows what lands and what bounces. Revision process: `reference/syllabus-revision-process.md`.*
 
 **The learner:** Wesley, 26. Trained ear, advanced classical theory, beginner on
 critic vocabulary and music history, curious beginner on production.
@@ -297,3 +297,15 @@ wild-card expedition late in the course — not an early unit.
 - **Avant-garde jazz as an opener.** Never. *Ascension* and friends only after the
 Week 11–13 doorways work.
 - **K-pop format.** Resolved 2026-9-20: bend the rule, an era's definitive release may stand in for the album.
+
+---
+
+## Syllabus changelog
+
+Append-only revision record. Process: `reference/syllabus-revision-process.md`.
+One terse entry per revision: date, weeks affected, evidence, change, run.
+
+- 2026-09-21 — numbering — weeks 21–24 renumbered (classical 21–22, cinematic
+  23–24) — run: syllabus build.
+- 2026-09-22 — no content changes — changelog section added; revision process
+  published at `reference/syllabus-revision-process.md` — run: improve-loop.
