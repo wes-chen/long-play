@@ -1,0 +1,71 @@
+{
+ "artist": "Oneohtrix Point Never",
+ "album": "Uncut Gems",
+ "spotify_uri": "spotify:album:4RF54XCPiLaVmZu9KWmzxd",
+ "spotify_url": "https://open.spotify.com/album/4RF54XCPiLaVmZu9KWmzxd?si=yeZxKsxaS_asnER3OClg3A",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Blue Drive",
+   "clean_title": "Blue Drive",
+   "duration_ms": 596314,
+   "spotify_uri": "spotify:track:0rBqE8sYjBobnAoj4DZIjO",
+   "spotify_url": "https://open.spotify.com/track/0rBqE8sYjBobnAoj4DZIjO?si=EWKGLBUGTEOnxq5lOI4yWQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "The Trouble with Being Born",
+   "clean_title": "The Trouble with Being Born",
+   "duration_ms": 270473,
+   "spotify_uri": "spotify:track:1BnWxffFl9PwT7ppfV9TH8",
+   "spotify_url": "https://open.spotify.com/track/1BnWxffFl9PwT7ppfV9TH8?si=uuXvKRmCS6yxUoM_YCodAg",
+   "starts_at_ms": 596314,
+   "starts_at": "9:56"
+  },
+  {
+   "n": 3,
+   "title": "Sand Partina",
+   "clean_title": "Sand Partina",
+   "duration_ms": 422066,
+   "spotify_uri": "spotify:track:5BGkqr3c26dtZhqfC80tEX",
+   "spotify_url": "https://open.spotify.com/track/5BGkqr3c26dtZhqfC80tEX?si=sRPFfp7WSbm6LcUBIl5PXA",
+   "starts_at_ms": 866787,
+   "starts_at": "14:26"
+  },
+  {
+   "n": 4,
+   "title": "Melancholy Descriptions of Simple 3D Environments",
+   "clean_title": "Melancholy Descriptions of Simple 3D Environments",
+   "duration_ms": 653098,
+   "spotify_uri": "spotify:track:7xQAjjYR5zAwSaegSNeSLK",
+   "spotify_url": "https://open.spotify.com/track/7xQAjjYR5zAwSaegSNeSLK?si=u17DFUB1QEK185Nfx46Q9Q",
+   "starts_at_ms": 1288853,
+   "starts_at": "21:28"
+  },
+  {
+   "n": 5,
+   "title": "Memory Vague",
+   "clean_title": "Memory Vague",
+   "duration_ms": 287050,
+   "spotify_uri": "spotify:track:4EXaTk94HAt7eGeF4gYIyk",
+   "spotify_url": "https://open.spotify.com/track/4EXaTk94HAt7eGeF4gYIyk?si=2FWH6_q8Qxmjakmib4DyDg",
+   "starts_at_ms": 1941951,
+   "starts_at": "32:21"
+  },
+  {
+   "n": 6,
+   "title": "KGB Nights",
+   "clean_title": "KGB Nights",
+   "duration_ms": 368069,
+   "spotify_uri": "spotify:track:2EMSesZLLrRnv1NxgHThKV",
+   "spotify_url": "https://open.spotify.com/track/2EMSesZLLrRnv1NxgHThKV?si=e8Ka-uHeTPy3P2avWYnUYA",
+   "starts_at_ms": 2229001,
+   "starts_at": "37:09"
+  }
+ ],
+ "week": 24,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:32:15.869176+00:00"
+}
