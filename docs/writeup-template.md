@@ -53,6 +53,25 @@ trustworthy.
 describe what the music *does*, not what it *is*. Every section earns its
 place or it's cut.
 
+## Citation policy (hard rule)
+
+Every factual claim gets a source — Wesley verifies claims, so nothing
+asserted without provenance. The fact-bearing slots are Scores, The moment,
+Lineage, and Then vs now. Each factual claim in them carries an inline named
+link on the claim itself, e.g. `[recorded in a barn over two weeks in
+1969](https://…)`. Each album ends with one compact line:
+
+Sources: [Name](url) · [Name](url) · [Name](url)
+
+One source per claim, 2–4 per album, reputable press or better (his bar:
+academia > reputable press > blogs; primary sources — liner notes, artist
+interviews — beat secondary). If a fact can't be sourced, cut it or mark it
+"unverified" explicitly, never present it as settled. Scores already carry a
+source identity; the link makes it clickable. Opinion and the listen-for cue
+need no citation — but if the listen-for cue asserts a fact (a recording
+technique, a personnel claim), cite it. The Feed mirror carries the same
+links; citations are part of the write-up, not decoration.
+
 ## Layering
 
 - **Skim** (most readers stop here; the whole pitch): hook → verdict → play
