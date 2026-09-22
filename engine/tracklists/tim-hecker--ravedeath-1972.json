@@ -1,0 +1,131 @@
+{
+ "artist": "Tim Hecker",
+ "album": "Ravedeath, 1972",
+ "spotify_uri": "spotify:album:6Iu8toVsvCc3I4INxYiVIy",
+ "spotify_url": "https://open.spotify.com/album/6Iu8toVsvCc3I4INxYiVIy?si=gn6Ng6YxRYq0xGyw6J5QcA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "The Piano Drop",
+   "clean_title": "The Piano Drop",
+   "duration_ms": 173946,
+   "spotify_uri": "spotify:track:27Wy3mCVRdW9ih3jFxRvtb",
+   "spotify_url": "https://open.spotify.com/track/27Wy3mCVRdW9ih3jFxRvtb?si=WBXQRtOfTaqXV-fYwk8cXg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "In the Fog I",
+   "clean_title": "In the Fog I",
+   "duration_ms": 292160,
+   "spotify_uri": "spotify:track:59X2sWl3SBtUgkMEE1RlEx",
+   "spotify_url": "https://open.spotify.com/track/59X2sWl3SBtUgkMEE1RlEx?si=5EkRjahzQIKWNegra6Y_ow",
+   "starts_at_ms": 173946,
+   "starts_at": "2:53"
+  },
+  {
+   "n": 3,
+   "title": "In the Fog II",
+   "clean_title": "In the Fog II",
+   "duration_ms": 361066,
+   "spotify_uri": "spotify:track:25N6tLYS1uFJ3c5lsXV3y1",
+   "spotify_url": "https://open.spotify.com/track/25N6tLYS1uFJ3c5lsXV3y1?si=2K-DBwt-SYKQUGdWCsn8cQ",
+   "starts_at_ms": 466106,
+   "starts_at": "7:46"
+  },
+  {
+   "n": 4,
+   "title": "In the Fog III",
+   "clean_title": "In the Fog III",
+   "duration_ms": 300773,
+   "spotify_uri": "spotify:track:7BidaWyDo5jkyfbVnBanhS",
+   "spotify_url": "https://open.spotify.com/track/7BidaWyDo5jkyfbVnBanhS?si=EMoqazYKRRqDcqMDAhgI9A",
+   "starts_at_ms": 827172,
+   "starts_at": "13:47"
+  },
+  {
+   "n": 5,
+   "title": "No Drums",
+   "clean_title": "No Drums",
+   "duration_ms": 204266,
+   "spotify_uri": "spotify:track:04cuyaLUTKspSKLyfcrCc1",
+   "spotify_url": "https://open.spotify.com/track/04cuyaLUTKspSKLyfcrCc1?si=-nvN8XO4Stm5UDqZyJ0fEg",
+   "starts_at_ms": 1127945,
+   "starts_at": "18:47"
+  },
+  {
+   "n": 6,
+   "title": "Hatred of Music I",
+   "clean_title": "Hatred of Music I",
+   "duration_ms": 371280,
+   "spotify_uri": "spotify:track:3VXQqKasT2ZHOS1Y3ov5fq",
+   "spotify_url": "https://open.spotify.com/track/3VXQqKasT2ZHOS1Y3ov5fq?si=hDNW3kBITMWC0FzMa3JfFQ",
+   "starts_at_ms": 1332211,
+   "starts_at": "22:12"
+  },
+  {
+   "n": 7,
+   "title": "Hatred of Music II",
+   "clean_title": "Hatred of Music II",
+   "duration_ms": 262186,
+   "spotify_uri": "spotify:track:6ortiAMTtp1BVEhmZSdzFP",
+   "spotify_url": "https://open.spotify.com/track/6ortiAMTtp1BVEhmZSdzFP?si=SSHxfEKDSeeSg66_GrTC0A",
+   "starts_at_ms": 1703491,
+   "starts_at": "28:23"
+  },
+  {
+   "n": 8,
+   "title": "Analog Paralysis, 1978",
+   "clean_title": "Analog Paralysis, 1978",
+   "duration_ms": 231906,
+   "spotify_uri": "spotify:track:3guEVTjNJHoR5D7GJRZMs5",
+   "spotify_url": "https://open.spotify.com/track/3guEVTjNJHoR5D7GJRZMs5?si=REOwOOJQTzCAa-xtLq6low",
+   "starts_at_ms": 1965677,
+   "starts_at": "32:45"
+  },
+  {
+   "n": 9,
+   "title": "Studio Suicide, 1980",
+   "clean_title": "Studio Suicide, 1980",
+   "duration_ms": 204733,
+   "spotify_uri": "spotify:track:5Lf5Up7cAooDveifotRDBA",
+   "spotify_url": "https://open.spotify.com/track/5Lf5Up7cAooDveifotRDBA?si=3cNUDFYXSe6FO564gS-Q_g",
+   "starts_at_ms": 2197583,
+   "starts_at": "36:37"
+  },
+  {
+   "n": 10,
+   "title": "In the Air I",
+   "clean_title": "In the Air I",
+   "duration_ms": 251613,
+   "spotify_uri": "spotify:track:2PFXpn5w2hAHcVrnInSFZL",
+   "spotify_url": "https://open.spotify.com/track/2PFXpn5w2hAHcVrnInSFZL?si=vUwhHFTuSFO7WOzXOwI3Pw",
+   "starts_at_ms": 2402316,
+   "starts_at": "40:02"
+  },
+  {
+   "n": 11,
+   "title": "In the Air II",
+   "clean_title": "In the Air II",
+   "duration_ms": 247706,
+   "spotify_uri": "spotify:track:08PetOZf03tZyFxXJB3F5R",
+   "spotify_url": "https://open.spotify.com/track/08PetOZf03tZyFxXJB3F5R?si=E8lLxdxRTe2O-kPMHMeYtg",
+   "starts_at_ms": 2653929,
+   "starts_at": "44:13"
+  },
+  {
+   "n": 12,
+   "title": "In the Air III",
+   "clean_title": "In the Air III",
+   "duration_ms": 241506,
+   "spotify_uri": "spotify:track:6qyWZexscIhNfJnxvc1TdN",
+   "spotify_url": "https://open.spotify.com/track/6qyWZexscIhNfJnxvc1TdN?si=EuCIpeHvR9qzMSY8un5Ytw",
+   "starts_at_ms": 2901635,
+   "starts_at": "48:21"
+  }
+ ],
+ "week": 9,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:02.522916+00:00"
+}
