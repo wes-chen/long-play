@@ -1,0 +1,111 @@
+{
+ "artist": "f(x)",
+ "album": "4 Walls",
+ "spotify_uri": "spotify:album:6yJdchE7ARS996BxRgplFH",
+ "spotify_url": "https://open.spotify.com/album/6yJdchE7ARS996BxRgplFH?si=VNSFLsikRfabkkXMR_KMpA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "4 Walls",
+   "clean_title": "4 Walls",
+   "duration_ms": 207477,
+   "spotify_uri": "spotify:track:2YkjXEab4USTV9uuAgC90E",
+   "spotify_url": "https://open.spotify.com/track/2YkjXEab4USTV9uuAgC90E?si=k6nMv5k5SlegVVIXwKJhqw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Glitter",
+   "clean_title": "Glitter",
+   "duration_ms": 179170,
+   "spotify_uri": "spotify:track:1EGdM21CGLJ39W60U3VUO7",
+   "spotify_url": "https://open.spotify.com/track/1EGdM21CGLJ39W60U3VUO7?si=dku65FCaQvShAB0gCYwCDw",
+   "starts_at_ms": 207477,
+   "starts_at": "3:27"
+  },
+  {
+   "n": 3,
+   "title": "Deja Vu",
+   "clean_title": "Deja Vu",
+   "duration_ms": 220844,
+   "spotify_uri": "spotify:track:16zvp327MLkPXbuLzYV7L3",
+   "spotify_url": "https://open.spotify.com/track/16zvp327MLkPXbuLzYV7L3?si=c36lJEwRS5OuMUoOTubWWQ",
+   "starts_at_ms": 386647,
+   "starts_at": "6:26"
+  },
+  {
+   "n": 4,
+   "title": "X",
+   "clean_title": "X",
+   "duration_ms": 203384,
+   "spotify_uri": "spotify:track:5SQOKggEVdhJGqD1ExFDCi",
+   "spotify_url": "https://open.spotify.com/track/5SQOKggEVdhJGqD1ExFDCi?si=fvNq5FfrTS6KTR1oCGbTIg",
+   "starts_at_ms": 607491,
+   "starts_at": "10:07"
+  },
+  {
+   "n": 5,
+   "title": "Rude Love",
+   "clean_title": "Rude Love",
+   "duration_ms": 258754,
+   "spotify_uri": "spotify:track:3hgnOyJFaj7RGhPeBDhonx",
+   "spotify_url": "https://open.spotify.com/track/3hgnOyJFaj7RGhPeBDhonx?si=BY-SwxaqSemyhu81SMjg5g",
+   "starts_at_ms": 810875,
+   "starts_at": "13:30"
+  },
+  {
+   "n": 6,
+   "title": "Diamond",
+   "clean_title": "Diamond",
+   "duration_ms": 239241,
+   "spotify_uri": "spotify:track:6IAFBoQofnfWJUOkha7DjA",
+   "spotify_url": "https://open.spotify.com/track/6IAFBoQofnfWJUOkha7DjA?si=6hIMxBSfQb-5M3dg2tvTBQ",
+   "starts_at_ms": 1069629,
+   "starts_at": "17:49"
+  },
+  {
+   "n": 7,
+   "title": "Traveler",
+   "clean_title": "Traveler",
+   "duration_ms": 218202,
+   "spotify_uri": "spotify:track:3EIZGrbNkBYKZpIa3YcXAt",
+   "spotify_url": "https://open.spotify.com/track/3EIZGrbNkBYKZpIa3YcXAt?si=EVtZhNVrSU-3OYsU2e1YXQ",
+   "starts_at_ms": 1308870,
+   "starts_at": "21:48"
+  },
+  {
+   "n": 8,
+   "title": "Papi",
+   "clean_title": "Papi",
+   "duration_ms": 185784,
+   "spotify_uri": "spotify:track:5G4d1PtWt3NgvUZInXSkLE",
+   "spotify_url": "https://open.spotify.com/track/5G4d1PtWt3NgvUZInXSkLE?si=sQe-4LBhSeaAcUregz6lvA",
+   "starts_at_ms": 1527072,
+   "starts_at": "25:27"
+  },
+  {
+   "n": 9,
+   "title": "Cash Me Out",
+   "clean_title": "Cash Me Out",
+   "duration_ms": 201552,
+   "spotify_uri": "spotify:track:6KmaTvFBNvM5ZVUHxP1Sr9",
+   "spotify_url": "https://open.spotify.com/track/6KmaTvFBNvM5ZVUHxP1Sr9?si=nbFodNwfTpG_9qnPKgNZKw",
+   "starts_at_ms": 1712856,
+   "starts_at": "28:32"
+  },
+  {
+   "n": 10,
+   "title": "When I\u2019m Alone",
+   "clean_title": "When I\u2019m Alone",
+   "duration_ms": 203617,
+   "spotify_uri": "spotify:track:5lNMIRdkJZn2Wzvel1SMH2",
+   "spotify_url": "https://open.spotify.com/track/5lNMIRdkJZn2Wzvel1SMH2?si=WE8L8F_IRRWDM8fu-SFnKA",
+   "starts_at_ms": 1914408,
+   "starts_at": "31:54"
+  }
+ ],
+ "week": 19,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:48.257268+00:00"
+}
