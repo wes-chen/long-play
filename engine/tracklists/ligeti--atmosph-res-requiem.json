@@ -1,0 +1,101 @@
+{
+ "artist": "Ligeti",
+ "album": "Atmosph\u00e8res / Requiem",
+ "spotify_uri": "spotify:album:6u6xyeAYduVoORqSEb2y1Y",
+ "spotify_url": "https://open.spotify.com/album/6u6xyeAYduVoORqSEb2y1Y?si=jumbSPICTlqbuahE2BP03g",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Ligeti: Lontano",
+   "clean_title": "Ligeti: Lontano",
+   "duration_ms": 697426,
+   "spotify_uri": "spotify:track:7B8CUAgtqaQXc5zq0yCcUK",
+   "spotify_url": "https://open.spotify.com/track/7B8CUAgtqaQXc5zq0yCcUK?si=uolIYLVyTy6c1CT_z-k_XA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Ligeti: Atmosph\u00e8res",
+   "clean_title": "Ligeti: Atmosph\u00e8res",
+   "duration_ms": 538800,
+   "spotify_uri": "spotify:track:3HVUDpc6RNoY4d1zF5F287",
+   "spotify_url": "https://open.spotify.com/track/3HVUDpc6RNoY4d1zF5F287?si=xrvfc755Q3C0u88X2r2LgA",
+   "starts_at_ms": 697426,
+   "starts_at": "11:37"
+  },
+  {
+   "n": 3,
+   "title": "Ligeti: Apparitions: I. Lento",
+   "clean_title": "Ligeti: Apparitions: I. Lento",
+   "duration_ms": 367773,
+   "spotify_uri": "spotify:track:7uZfEkfV1kMPELuEn46Gt1",
+   "spotify_url": "https://open.spotify.com/track/7uZfEkfV1kMPELuEn46Gt1?si=5yecRA72Sli3Mk3d7xoM7w",
+   "starts_at_ms": 1236226,
+   "starts_at": "20:36"
+  },
+  {
+   "n": 4,
+   "title": "Ligeti: Apparitions: II. Agitato",
+   "clean_title": "Ligeti: Apparitions: II. Agitato",
+   "duration_ms": 153413,
+   "spotify_uri": "spotify:track:0kOrNQVNtRwzSLqF1eH4gv",
+   "spotify_url": "https://open.spotify.com/track/0kOrNQVNtRwzSLqF1eH4gv?si=ZQI5nDtCQt2ej5fV1hfAUw",
+   "starts_at_ms": 1603999,
+   "starts_at": "26:43"
+  },
+  {
+   "n": 5,
+   "title": "Ligeti: San Francisco Polyphony",
+   "clean_title": "Ligeti: San Francisco Polyphony",
+   "duration_ms": 774653,
+   "spotify_uri": "spotify:track:7c9ZTnQwP7iGzCE03HCimm",
+   "spotify_url": "https://open.spotify.com/track/7c9ZTnQwP7iGzCE03HCimm?si=rm4BOUxbTK-mQ58JN8COUQ",
+   "starts_at_ms": 1757412,
+   "starts_at": "29:17"
+  },
+  {
+   "n": 6,
+   "title": "Ligeti: Romanian Concerto: I. Andantino",
+   "clean_title": "Ligeti: Romanian Concerto: I. Andantino",
+   "duration_ms": 181400,
+   "spotify_uri": "spotify:track:6nfuAgUkHapID6pnaOhLRp",
+   "spotify_url": "https://open.spotify.com/track/6nfuAgUkHapID6pnaOhLRp?si=qJ5X-5TiRpmkz4F2XNYAyg",
+   "starts_at_ms": 2532065,
+   "starts_at": "42:12"
+  },
+  {
+   "n": 7,
+   "title": "Ligeti: Romanian Concerto: II. Allegro vivace",
+   "clean_title": "Ligeti: Romanian Concerto: II. Allegro vivace",
+   "duration_ms": 78293,
+   "spotify_uri": "spotify:track:4jEHYAkl1APRjtRpgr5lmS",
+   "spotify_url": "https://open.spotify.com/track/4jEHYAkl1APRjtRpgr5lmS?si=OHePoDCZS2eAjKBGcJs7Pg",
+   "starts_at_ms": 2713465,
+   "starts_at": "45:13"
+  },
+  {
+   "n": 8,
+   "title": "Ligeti: Romanian Concerto: III. Adagio, ma non troppo",
+   "clean_title": "Ligeti: Romanian Concerto: III. Adagio, ma non troppo",
+   "duration_ms": 180533,
+   "spotify_uri": "spotify:track:743xVDCkd4183myXEUjymD",
+   "spotify_url": "https://open.spotify.com/track/743xVDCkd4183myXEUjymD?si=aL7huYsjQ-OEpzfL1DJ7vQ",
+   "starts_at_ms": 2791758,
+   "starts_at": "46:31"
+  },
+  {
+   "n": 9,
+   "title": "Ligeti: Romanian Concerto: IV. Molto vivace",
+   "clean_title": "Ligeti: Romanian Concerto: IV. Molto vivace",
+   "duration_ms": 298933,
+   "spotify_uri": "spotify:track:3B9vEG3urj5qu1Isl1csKr",
+   "spotify_url": "https://open.spotify.com/track/3B9vEG3urj5qu1Isl1csKr?si=iO77oWrpTL6OB4zUKm-9aA",
+   "starts_at_ms": 2972291,
+   "starts_at": "49:32"
+  }
+ ],
+ "week": 21,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:59.620328+00:00"
+}
