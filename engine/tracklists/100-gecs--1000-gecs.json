@@ -1,0 +1,201 @@
+{
+ "artist": "100 gecs",
+ "album": "1000 gecs",
+ "spotify_uri": "spotify:album:0qnExDZfz0kVeBjixPsyjS",
+ "spotify_url": "https://open.spotify.com/album/0qnExDZfz0kVeBjixPsyjS?si=rBhrEc6gS7edQ5R31UWYNQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "money machine - A.G. Cook Remix",
+   "clean_title": "money machine - A.G. Cook Remix",
+   "duration_ms": 192338,
+   "spotify_uri": "spotify:track:1rpYWdbwuSl8YLfXKxshvJ",
+   "spotify_url": "https://open.spotify.com/track/1rpYWdbwuSl8YLfXKxshvJ?si=y8F8uRu_TnOuj6DE0SyGaA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "ringtone (Remix) [feat. Charli XCX, Rico Nasty, Kero Kero Bonito]",
+   "clean_title": "ringtone (Remix) [feat. Charli XCX, Rico Nasty, Kero Kero Bonito]",
+   "duration_ms": 214529,
+   "spotify_uri": "spotify:track:2T93MtJuKMzcGRTR8fdizV",
+   "spotify_url": "https://open.spotify.com/track/2T93MtJuKMzcGRTR8fdizV?si=9nXXh9FLQIC7s6fw1N14hQ",
+   "starts_at_ms": 192338,
+   "starts_at": "3:12"
+  },
+  {
+   "n": 3,
+   "title": "745 sticky (Injury Reserve Remix)",
+   "clean_title": "745 sticky (Injury Reserve Remix)",
+   "duration_ms": 212280,
+   "spotify_uri": "spotify:track:7A8nTtXJ36UN0mjEhUJyUO",
+   "spotify_url": "https://open.spotify.com/track/7A8nTtXJ36UN0mjEhUJyUO?si=b9U4DDfvRgWDU6E8BN69wg",
+   "starts_at_ms": 406867,
+   "starts_at": "6:46"
+  },
+  {
+   "n": 4,
+   "title": "gec 2 \u00dc (Danny L Harle Harlecore Remix)",
+   "clean_title": "gec 2 \u00dc (Danny L Harle Harlecore Remix)",
+   "duration_ms": 148385,
+   "spotify_uri": "spotify:track:3wjMpxaZc4YFQaNuoj4w9Q",
+   "spotify_url": "https://open.spotify.com/track/3wjMpxaZc4YFQaNuoj4w9Q?si=JQNH2eGST8ygVuCX5OLexQ",
+   "starts_at_ms": 619147,
+   "starts_at": "10:19"
+  },
+  {
+   "n": 5,
+   "title": "hand crushed by a mallet (Remix) [feat. Fall Out Boy, Craig Owens, Nicole Dollanganger]",
+   "clean_title": "hand crushed by a mallet (Remix) [feat. Fall Out Boy, Craig Owens, Nicole Dollanganger]",
+   "duration_ms": 175699,
+   "spotify_uri": "spotify:track:5Mm2CJzNRiICC5MWRWQnBo",
+   "spotify_url": "https://open.spotify.com/track/5Mm2CJzNRiICC5MWRWQnBo?si=MmoNGeh6SVO5LcE4dOGSWA",
+   "starts_at_ms": 767532,
+   "starts_at": "12:47"
+  },
+  {
+   "n": 6,
+   "title": "800db cloud (Ricco Harver Remix)",
+   "clean_title": "800db cloud (Ricco Harver Remix)",
+   "duration_ms": 103940,
+   "spotify_uri": "spotify:track:5N7X3lGWDi4P0v2h9Vs9mF",
+   "spotify_url": "https://open.spotify.com/track/5N7X3lGWDi4P0v2h9Vs9mF?si=FzycdvfqSbWzdG2_OH7oEg",
+   "starts_at_ms": 943231,
+   "starts_at": "15:43"
+  },
+  {
+   "n": 7,
+   "title": "stupid horse (Remix) [feat. GFOTY & Count Baldor]",
+   "clean_title": "stupid horse (Remix) [feat. GFOTY & Count Baldor]",
+   "duration_ms": 132469,
+   "spotify_uri": "spotify:track:0aV4YQ18bZ9qt0PDUZIDSz",
+   "spotify_url": "https://open.spotify.com/track/0aV4YQ18bZ9qt0PDUZIDSz?si=cNz2wcysQoOJX2yomtF6bg",
+   "starts_at_ms": 1047171,
+   "starts_at": "17:27"
+  },
+  {
+   "n": 8,
+   "title": "ringtone (umru Remix)",
+   "clean_title": "ringtone (umru Remix)",
+   "duration_ms": 225968,
+   "spotify_uri": "spotify:track:0Zt2mXqXf9sCi2VqOuMZFb",
+   "spotify_url": "https://open.spotify.com/track/0Zt2mXqXf9sCi2VqOuMZFb?si=CUKFVgbdTPqqqiRK6mQ9Pw",
+   "starts_at_ms": 1179640,
+   "starts_at": "19:39"
+  },
+  {
+   "n": 9,
+   "title": "xXXi_wud_nvrst\u00f8p_\u00dcXXx (Remix) [feat. Tommy Cash & Hannah Diamond]",
+   "clean_title": "xXXi_wud_nvrst\u00f8p_\u00dcXXx (Remix) [feat. Tommy Cash & Hannah Diamond]",
+   "duration_ms": 271256,
+   "spotify_uri": "spotify:track:3bz4WlzYw6XatcaTIh0zGX",
+   "spotify_url": "https://open.spotify.com/track/3bz4WlzYw6XatcaTIh0zGX?si=AX3jgPLzQ8aqvIABT8qXrw",
+   "starts_at_ms": 1405608,
+   "starts_at": "23:25"
+  },
+  {
+   "n": 10,
+   "title": "745 sticky (Black Dresses Remix)",
+   "clean_title": "745 sticky (Black Dresses Remix)",
+   "duration_ms": 171613,
+   "spotify_uri": "spotify:track:5YgXVo1eBpGSsLFhRkrwQw",
+   "spotify_url": "https://open.spotify.com/track/5YgXVo1eBpGSsLFhRkrwQw?si=AR9IqRmVRGmKlok8nD-OwA",
+   "starts_at_ms": 1676864,
+   "starts_at": "27:56"
+  },
+  {
+   "n": 11,
+   "title": "gecgecgec (Remix) [feat. Lil West and Tony Velour]",
+   "clean_title": "gecgecgec (Remix) [feat. Lil West and Tony Velour]",
+   "duration_ms": 128714,
+   "spotify_uri": "spotify:track:6dLAFNEb2ufM0OjhPpMbFY",
+   "spotify_url": "https://open.spotify.com/track/6dLAFNEb2ufM0OjhPpMbFY?si=oRgAkc4dTru63h5bokGI0w",
+   "starts_at_ms": 1848477,
+   "starts_at": "30:48"
+  },
+  {
+   "n": 12,
+   "title": "xXXi_wud_nvrst\u00f8p_\u00dcXXx (99jakes Remix)",
+   "clean_title": "xXXi_wud_nvrst\u00f8p_\u00dcXXx (99jakes Remix)",
+   "duration_ms": 201529,
+   "spotify_uri": "spotify:track:2dG3EriZ3COuwIatqRCtY0",
+   "spotify_url": "https://open.spotify.com/track/2dG3EriZ3COuwIatqRCtY0?si=cxhCryLsTXi9OiFhWOJA4w",
+   "starts_at_ms": 1977191,
+   "starts_at": "32:57"
+  },
+  {
+   "n": 13,
+   "title": "gec 2 \u00dc (Remix) [feat. Dorian Electra]",
+   "clean_title": "gec 2 \u00dc (Remix) [feat. Dorian Electra]",
+   "duration_ms": 166356,
+   "spotify_uri": "spotify:track:4FeBA1bxkUae1aDsplsmrv",
+   "spotify_url": "https://open.spotify.com/track/4FeBA1bxkUae1aDsplsmrv?si=4fZ8KwjiSsyXHuf92zRvEQ",
+   "starts_at_ms": 2178720,
+   "starts_at": "36:18"
+  },
+  {
+   "n": 14,
+   "title": "hand crushed by a mallet (N0thanky0u Remix)",
+   "clean_title": "hand crushed by a mallet (N0thanky0u Remix)",
+   "duration_ms": 160840,
+   "spotify_uri": "spotify:track:3Kil8DEZI7WS6hN2RXltfl",
+   "spotify_url": "https://open.spotify.com/track/3Kil8DEZI7WS6hN2RXltfl?si=gG1xsn4YTjaO4K5kQdtunQ",
+   "starts_at_ms": 2345076,
+   "starts_at": "39:05"
+  },
+  {
+   "n": 15,
+   "title": "came to my show - intro",
+   "clean_title": "came to my show - intro",
+   "duration_ms": 33659,
+   "spotify_uri": "spotify:track:6XU5ROiWvy4s4nJkM9UolQ",
+   "spotify_url": "https://open.spotify.com/track/6XU5ROiWvy4s4nJkM9UolQ?si=RHbbPJ6ZSnCTuZx7_9aUbA",
+   "starts_at_ms": 2505916,
+   "starts_at": "41:45"
+  },
+  {
+   "n": 16,
+   "title": "came to my show",
+   "clean_title": "came to my show",
+   "duration_ms": 140753,
+   "spotify_uri": "spotify:track:4F6GREUxCHAw1m2Hj1b1rd",
+   "spotify_url": "https://open.spotify.com/track/4F6GREUxCHAw1m2Hj1b1rd?si=CgYfYQJbT-qguv-SbGgOiQ",
+   "starts_at_ms": 2539575,
+   "starts_at": "42:19"
+  },
+  {
+   "n": 17,
+   "title": "toothless",
+   "clean_title": "toothless",
+   "duration_ms": 157360,
+   "spotify_uri": "spotify:track:4u2jCma9zHR59lfKxBIOoy",
+   "spotify_url": "https://open.spotify.com/track/4u2jCma9zHR59lfKxBIOoy?si=Dl89XuZ1QpaMnnwVh7wjhA",
+   "starts_at_ms": 2680328,
+   "starts_at": "44:40"
+  },
+  {
+   "n": 18,
+   "title": "small pipe - live at fishcenter",
+   "clean_title": "small pipe - live at fishcenter",
+   "duration_ms": 79853,
+   "spotify_uri": "spotify:track:0tGqSYS7vc723VYaBErZgl",
+   "spotify_url": "https://open.spotify.com/track/0tGqSYS7vc723VYaBErZgl?si=SWu0_s9wR9-zHk4tWsqYdw",
+   "starts_at_ms": 2837688,
+   "starts_at": "47:17"
+  },
+  {
+   "n": 19,
+   "title": "800db cloud - live at fishcenter",
+   "clean_title": "800db cloud - live at fishcenter",
+   "duration_ms": 163960,
+   "spotify_uri": "spotify:track:1SnXfDfSalPX84fFSTo55l",
+   "spotify_url": "https://open.spotify.com/track/1SnXfDfSalPX84fFSTo55l?si=1yPLTZrlQrao5M2T9sSZ7w",
+   "starts_at_ms": 2917541,
+   "starts_at": "48:37"
+  }
+ ],
+ "week": 10,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:31:09.130961+00:00"
+}
