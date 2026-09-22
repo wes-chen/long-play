@@ -1,0 +1,151 @@
+{
+ "artist": "Kelela",
+ "album": "Take Me Apart",
+ "spotify_uri": "spotify:album:4mQ6UTM71F02O1jMVi625N",
+ "spotify_url": "https://open.spotify.com/album/4mQ6UTM71F02O1jMVi625N?si=b7VwMP9HRzyrBFVJ-Y-e7Q",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Frontline",
+   "clean_title": "Frontline",
+   "duration_ms": 339189,
+   "spotify_uri": "spotify:track:51QgyO73gGeEIpG5SqoA6n",
+   "spotify_url": "https://open.spotify.com/track/51QgyO73gGeEIpG5SqoA6n?si=dCnfBSf2SS-4ZrxjX05cTg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Waitin",
+   "clean_title": "Waitin",
+   "duration_ms": 195352,
+   "spotify_uri": "spotify:track:051vlGJEzNFMLOvLHXmsis",
+   "spotify_url": "https://open.spotify.com/track/051vlGJEzNFMLOvLHXmsis?si=RptpwCuuShmsw6aJP-GAMw",
+   "starts_at_ms": 339189,
+   "starts_at": "5:39"
+  },
+  {
+   "n": 3,
+   "title": "Take Me Apart",
+   "clean_title": "Take Me Apart",
+   "duration_ms": 242829,
+   "spotify_uri": "spotify:track:1Oq9PmXtk8PVjbHzrwM79v",
+   "spotify_url": "https://open.spotify.com/track/1Oq9PmXtk8PVjbHzrwM79v?si=EXFsmZSuS8uY2x9kC1xGRQ",
+   "starts_at_ms": 534541,
+   "starts_at": "8:54"
+  },
+  {
+   "n": 4,
+   "title": "Enough",
+   "clean_title": "Enough",
+   "duration_ms": 309001,
+   "spotify_uri": "spotify:track:5mZKv22ul72uhdfPAx9lEC",
+   "spotify_url": "https://open.spotify.com/track/5mZKv22ul72uhdfPAx9lEC?si=0AzxdAnaSOqion9pKZA_cQ",
+   "starts_at_ms": 777370,
+   "starts_at": "12:57"
+  },
+  {
+   "n": 5,
+   "title": "Jupiter",
+   "clean_title": "Jupiter",
+   "duration_ms": 125302,
+   "spotify_uri": "spotify:track:33NxCYpSe84olR0fWRUpr4",
+   "spotify_url": "https://open.spotify.com/track/33NxCYpSe84olR0fWRUpr4?si=erPRYuY_QDy5Jsal48377w",
+   "starts_at_ms": 1086371,
+   "starts_at": "18:06"
+  },
+  {
+   "n": 6,
+   "title": "Better",
+   "clean_title": "Better",
+   "duration_ms": 266040,
+   "spotify_uri": "spotify:track:0Vb6Gj5UHK6jVU4XnfmetE",
+   "spotify_url": "https://open.spotify.com/track/0Vb6Gj5UHK6jVU4XnfmetE?si=Su7kfMqUQ1yLcDQawY_3KQ",
+   "starts_at_ms": 1211673,
+   "starts_at": "20:11"
+  },
+  {
+   "n": 7,
+   "title": "LMK",
+   "clean_title": "LMK",
+   "duration_ms": 218319,
+   "spotify_uri": "spotify:track:6bt8z0LJ9okFhDqOT3Xx1i",
+   "spotify_url": "https://open.spotify.com/track/6bt8z0LJ9okFhDqOT3Xx1i?si=e6a5OUAhRQSFtcg38sw3jA",
+   "starts_at_ms": 1477713,
+   "starts_at": "24:37"
+  },
+  {
+   "n": 8,
+   "title": "Truth Or Dare",
+   "clean_title": "Truth Or Dare",
+   "duration_ms": 252329,
+   "spotify_uri": "spotify:track:5mOKrMqqTh3tZYbNymZM6r",
+   "spotify_url": "https://open.spotify.com/track/5mOKrMqqTh3tZYbNymZM6r?si=9VpALbePSGyKBZoq6yllpQ",
+   "starts_at_ms": 1696032,
+   "starts_at": "28:16"
+  },
+  {
+   "n": 9,
+   "title": "S.O.S.",
+   "clean_title": "S.O.S.",
+   "duration_ms": 142279,
+   "spotify_uri": "spotify:track:5KneIWPenv3Jp6NMpTADnb",
+   "spotify_url": "https://open.spotify.com/track/5KneIWPenv3Jp6NMpTADnb?si=dDCJ1dhGQNK_B1qHuRLIxw",
+   "starts_at_ms": 1948361,
+   "starts_at": "32:28"
+  },
+  {
+   "n": 10,
+   "title": "Blue Light",
+   "clean_title": "Blue Light",
+   "duration_ms": 216892,
+   "spotify_uri": "spotify:track:66vv7zJWgrSgteTJw53zVY",
+   "spotify_url": "https://open.spotify.com/track/66vv7zJWgrSgteTJw53zVY?si=4Q_74I3YTFitBctZJFygIA",
+   "starts_at_ms": 2090640,
+   "starts_at": "34:50"
+  },
+  {
+   "n": 11,
+   "title": "Onanon",
+   "clean_title": "Onanon",
+   "duration_ms": 271564,
+   "spotify_uri": "spotify:track:3oqzScrIFItTIOod829Rka",
+   "spotify_url": "https://open.spotify.com/track/3oqzScrIFItTIOod829Rka?si=gZbD_UJ8R6-Y48YI-FvuIw",
+   "starts_at_ms": 2307532,
+   "starts_at": "38:27"
+  },
+  {
+   "n": 12,
+   "title": "Turn To Dust",
+   "clean_title": "Turn To Dust",
+   "duration_ms": 269311,
+   "spotify_uri": "spotify:track:0HLs85IwxnJrWYF3mzRfQG",
+   "spotify_url": "https://open.spotify.com/track/0HLs85IwxnJrWYF3mzRfQG?si=T2rkiyvIThi-YAe_gUbiIA",
+   "starts_at_ms": 2579096,
+   "starts_at": "42:59"
+  },
+  {
+   "n": 13,
+   "title": "Bluff",
+   "clean_title": "Bluff",
+   "duration_ms": 72043,
+   "spotify_uri": "spotify:track:3hHOTDFrciIXTZ9SttBHNy",
+   "spotify_url": "https://open.spotify.com/track/3hHOTDFrciIXTZ9SttBHNy?si=x0iHN0EXRPuw0hthi5f9Qw",
+   "starts_at_ms": 2848407,
+   "starts_at": "47:28"
+  },
+  {
+   "n": 14,
+   "title": "Altadena",
+   "clean_title": "Altadena",
+   "duration_ms": 310800,
+   "spotify_uri": "spotify:track:6EJkMyuVaqSDCyB7b24L8p",
+   "spotify_url": "https://open.spotify.com/track/6EJkMyuVaqSDCyB7b24L8p?si=mcjcHbWCTbOXZRoDALNSVQ",
+   "starts_at_ms": 2920450,
+   "starts_at": "48:40"
+  }
+ ],
+ "week": 5,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:43.821197+00:00"
+}
