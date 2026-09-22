@@ -1,0 +1,191 @@
+{
+ "artist": "Ligeti",
+ "album": "\u00c9tudes",
+ "spotify_uri": "spotify:album:5Wc9lvzfJj6sPdOqu4HZKg",
+ "spotify_url": "https://open.spotify.com/album/5Wc9lvzfJj6sPdOqu4HZKg?si=emKXmeYHSzumPaSeL18BIQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Premier livre. \u00c9tude 1, D\u00e9sordre",
+   "clean_title": "Premier livre. \u00c9tude 1, D\u00e9sordre",
+   "duration_ms": 159973,
+   "spotify_uri": "spotify:track:6ZPy9wJTnko6l97xNzUpaW",
+   "spotify_url": "https://open.spotify.com/track/6ZPy9wJTnko6l97xNzUpaW?si=ZvklNqkuTGC-XABn9s_zog",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Premier livre. \u00c9tude 2, Cordes \u00e0 vide",
+   "clean_title": "Premier livre. \u00c9tude 2, Cordes \u00e0 vide",
+   "duration_ms": 200053,
+   "spotify_uri": "spotify:track:7gLSg194MwT6hGIuDNmZj3",
+   "spotify_url": "https://open.spotify.com/track/7gLSg194MwT6hGIuDNmZj3?si=lpmuWShER6iyQGTEK76KSw",
+   "starts_at_ms": 159973,
+   "starts_at": "2:39"
+  },
+  {
+   "n": 3,
+   "title": "Premier livre. \u00c9tude 3, Touches bloqu\u00e9es",
+   "clean_title": "Premier livre. \u00c9tude 3, Touches bloqu\u00e9es",
+   "duration_ms": 125520,
+   "spotify_uri": "spotify:track:2NHGlQeQijOqHIa7Bo4dcq",
+   "spotify_url": "https://open.spotify.com/track/2NHGlQeQijOqHIa7Bo4dcq?si=YcyCF9UEQYa3dHqeuaNEZg",
+   "starts_at_ms": 360026,
+   "starts_at": "6:00"
+  },
+  {
+   "n": 4,
+   "title": "Premier livre. \u00c9tude 4, Fanfares",
+   "clean_title": "Premier livre. \u00c9tude 4, Fanfares",
+   "duration_ms": 229986,
+   "spotify_uri": "spotify:track:52Rk11Svg4J8pSGnrRmFEl",
+   "spotify_url": "https://open.spotify.com/track/52Rk11Svg4J8pSGnrRmFEl?si=JdK0fS_1T3CO2q28_psIwQ",
+   "starts_at_ms": 485546,
+   "starts_at": "8:05"
+  },
+  {
+   "n": 5,
+   "title": "Premier livre. \u00c9tude 5, Arc-en-ciel",
+   "clean_title": "Premier livre. \u00c9tude 5, Arc-en-ciel",
+   "duration_ms": 214693,
+   "spotify_uri": "spotify:track:6xbMEVJaUMY4AFIHyfLoep",
+   "spotify_url": "https://open.spotify.com/track/6xbMEVJaUMY4AFIHyfLoep?si=GnSqL5xgT9SO1PsZxqmGoA",
+   "starts_at_ms": 715532,
+   "starts_at": "11:55"
+  },
+  {
+   "n": 6,
+   "title": "Premier livre. \u00c9tude 6, Automne \u00e0 Varsovie",
+   "clean_title": "Premier livre. \u00c9tude 6, Automne \u00e0 Varsovie",
+   "duration_ms": 273933,
+   "spotify_uri": "spotify:track:0KPvKfZvcZeFQ5LD5zPc11",
+   "spotify_url": "https://open.spotify.com/track/0KPvKfZvcZeFQ5LD5zPc11?si=0grYkztSTYGvhy4pPkVfQw",
+   "starts_at_ms": 930225,
+   "starts_at": "15:30"
+  },
+  {
+   "n": 7,
+   "title": "Deuxi\u00e8me livre. \u00c9tude 7, Galamb Borong",
+   "clean_title": "Deuxi\u00e8me livre. \u00c9tude 7, Galamb Borong",
+   "duration_ms": 168973,
+   "spotify_uri": "spotify:track:08JXc6ZGsNI1VzL0aayD3e",
+   "spotify_url": "https://open.spotify.com/track/08JXc6ZGsNI1VzL0aayD3e?si=lYJWSDb4SKi1VOD1PCb_mw",
+   "starts_at_ms": 1204158,
+   "starts_at": "20:04"
+  },
+  {
+   "n": 8,
+   "title": "Deuxi\u00e8me livre. \u00c9tude 8, F\u00e9m",
+   "clean_title": "Deuxi\u00e8me livre. \u00c9tude 8, F\u00e9m",
+   "duration_ms": 180266,
+   "spotify_uri": "spotify:track:1q6GVcwQ84N615u3iCDYxK",
+   "spotify_url": "https://open.spotify.com/track/1q6GVcwQ84N615u3iCDYxK?si=msoQycpESHKKOEkxYyXuug",
+   "starts_at_ms": 1373131,
+   "starts_at": "22:53"
+  },
+  {
+   "n": 9,
+   "title": "Deuxi\u00e8me livre. \u00c9tude 9, Vertige",
+   "clean_title": "Deuxi\u00e8me livre. \u00c9tude 9, Vertige",
+   "duration_ms": 182053,
+   "spotify_uri": "spotify:track:6dPcPnNmOyqMUorfKmyF1Z",
+   "spotify_url": "https://open.spotify.com/track/6dPcPnNmOyqMUorfKmyF1Z?si=-r-mqXgaSIWVAy8TedSu2Q",
+   "starts_at_ms": 1553397,
+   "starts_at": "25:53"
+  },
+  {
+   "n": 10,
+   "title": "Deuxi\u00e8me livre. \u00c9tude 10, Der Zauberlehrling",
+   "clean_title": "Deuxi\u00e8me livre. \u00c9tude 10, Der Zauberlehrling",
+   "duration_ms": 157386,
+   "spotify_uri": "spotify:track:3vSiTkaEFEGvW14tHxtJ29",
+   "spotify_url": "https://open.spotify.com/track/3vSiTkaEFEGvW14tHxtJ29?si=1yh3vVbYS7ii5ZFHHcBhIg",
+   "starts_at_ms": 1735450,
+   "starts_at": "28:55"
+  },
+  {
+   "n": 11,
+   "title": "Deuxi\u00e8me livre. \u00c9tude 11, En suspens",
+   "clean_title": "Deuxi\u00e8me livre. \u00c9tude 11, En suspens",
+   "duration_ms": 162746,
+   "spotify_uri": "spotify:track:2LEa16LrEjpioHaC1uk6cQ",
+   "spotify_url": "https://open.spotify.com/track/2LEa16LrEjpioHaC1uk6cQ?si=PhF103uuRoWnx1_NXCvthw",
+   "starts_at_ms": 1892836,
+   "starts_at": "31:32"
+  },
+  {
+   "n": 12,
+   "title": "Deuxi\u00e8me livre. \u00c9tude 12, Entrelacs",
+   "clean_title": "Deuxi\u00e8me livre. \u00c9tude 12, Entrelacs",
+   "duration_ms": 189306,
+   "spotify_uri": "spotify:track:3CIxw6PcatZ5EyEVRdLyMP",
+   "spotify_url": "https://open.spotify.com/track/3CIxw6PcatZ5EyEVRdLyMP?si=Es6ihxYiTMW5dii_hJm3pg",
+   "starts_at_ms": 2055582,
+   "starts_at": "34:15"
+  },
+  {
+   "n": 13,
+   "title": "Deuxi\u00e8me livre. \u00c9tude 13, L\u2019escalier du diable",
+   "clean_title": "Deuxi\u00e8me livre. \u00c9tude 13, L\u2019escalier du diable",
+   "duration_ms": 308946,
+   "spotify_uri": "spotify:track:40gAWcQiMenbOF9N9FLTXX",
+   "spotify_url": "https://open.spotify.com/track/40gAWcQiMenbOF9N9FLTXX?si=iws1ubM4TCSTdjyXgT1gNQ",
+   "starts_at_ms": 2244888,
+   "starts_at": "37:24"
+  },
+  {
+   "n": 14,
+   "title": "Deuxi\u00e8me livre. \u00c9tude 14, Coloana infinita",
+   "clean_title": "Deuxi\u00e8me livre. \u00c9tude 14, Coloana infinita",
+   "duration_ms": 119213,
+   "spotify_uri": "spotify:track:0c0ZDxJgXWA7AtyizJP7ND",
+   "spotify_url": "https://open.spotify.com/track/0c0ZDxJgXWA7AtyizJP7ND?si=5MMhLuXZQrezGT6Am3r_ow",
+   "starts_at_ms": 2553834,
+   "starts_at": "42:33"
+  },
+  {
+   "n": 15,
+   "title": "Troisi\u00e8me livre. \u00c9tude 15, White on White",
+   "clean_title": "Troisi\u00e8me livre. \u00c9tude 15, White on White",
+   "duration_ms": 225280,
+   "spotify_uri": "spotify:track:05Lp2awnDTq12tfDXFUCiT",
+   "spotify_url": "https://open.spotify.com/track/05Lp2awnDTq12tfDXFUCiT?si=ntctKD_sR7aNmT7TVOt_Lw",
+   "starts_at_ms": 2673047,
+   "starts_at": "44:33"
+  },
+  {
+   "n": 16,
+   "title": "Troisi\u00e8me livre. \u00c9tude 16, Pour Irina",
+   "clean_title": "Troisi\u00e8me livre. \u00c9tude 16, Pour Irina",
+   "duration_ms": 230480,
+   "spotify_uri": "spotify:track:2iWGyP0Kris3CBw1ZJ8v9I",
+   "spotify_url": "https://open.spotify.com/track/2iWGyP0Kris3CBw1ZJ8v9I?si=VF710kOWSo2ylTM6tS1n4Q",
+   "starts_at_ms": 2898327,
+   "starts_at": "48:18"
+  },
+  {
+   "n": 17,
+   "title": "Troisi\u00e8me livre. \u00c9tude 17, \u00c0 bout de souffle",
+   "clean_title": "Troisi\u00e8me livre. \u00c9tude 17, \u00c0 bout de souffle",
+   "duration_ms": 158360,
+   "spotify_uri": "spotify:track:173LbTdSxjChrOm2CSg7qh",
+   "spotify_url": "https://open.spotify.com/track/173LbTdSxjChrOm2CSg7qh?si=DwRK104HS1-dWeJAV4bkLA",
+   "starts_at_ms": 3128807,
+   "starts_at": "52:08"
+  },
+  {
+   "n": 18,
+   "title": "Troisi\u00e8me livre. \u00c9tude 18, Canon",
+   "clean_title": "Troisi\u00e8me livre. \u00c9tude 18, Canon",
+   "duration_ms": 109093,
+   "spotify_uri": "spotify:track:6QDLMLrguAp2vbghZwrsyX",
+   "spotify_url": "https://open.spotify.com/track/6QDLMLrguAp2vbghZwrsyX?si=fTZ4KLF_QLab3r3ld4Dd3Q",
+   "starts_at_ms": 3287167,
+   "starts_at": "54:47"
+  }
+ ],
+ "week": 22,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:32:03.195286+00:00"
+}
