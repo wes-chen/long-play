@@ -1,0 +1,121 @@
+{
+ "artist": "John Coltrane",
+ "album": "Blue Train",
+ "spotify_uri": "spotify:album:4khBAMNknbpYeck2ZwZcVq",
+ "spotify_url": "https://open.spotify.com/album/4khBAMNknbpYeck2ZwZcVq?si=wnlje2iOQYe4jyYHy3PSxg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Giant Steps",
+   "clean_title": "Giant Steps",
+   "duration_ms": 283439,
+   "spotify_uri": "spotify:track:0gCKwy3YmhKc9rzjYjTQKx",
+   "spotify_url": "https://open.spotify.com/track/0gCKwy3YmhKc9rzjYjTQKx?si=3tCRtjdaQO2cObaMruUTCg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Cousin Mary",
+   "clean_title": "Cousin Mary",
+   "duration_ms": 345453,
+   "spotify_uri": "spotify:track:2QaAqTj1TnRPR4wpq9LDd8",
+   "spotify_url": "https://open.spotify.com/track/2QaAqTj1TnRPR4wpq9LDd8?si=Ax8liAedTUWnCXh2-hlw4w",
+   "starts_at_ms": 283439,
+   "starts_at": "4:43"
+  },
+  {
+   "n": 3,
+   "title": "Naima",
+   "clean_title": "Naima",
+   "duration_ms": 258266,
+   "spotify_uri": "spotify:track:4jvCXYZwM8pR1p0vvK7PtW",
+   "spotify_url": "https://open.spotify.com/track/4jvCXYZwM8pR1p0vvK7PtW?si=n7Qk3SxsR_iTMuFeXRpG_g",
+   "starts_at_ms": 628892,
+   "starts_at": "10:28"
+  },
+  {
+   "n": 4,
+   "title": "Like Sonny",
+   "clean_title": "Like Sonny",
+   "duration_ms": 351640,
+   "spotify_uri": "spotify:track:3beVbLV2jb3zvaLrh2NwKi",
+   "spotify_url": "https://open.spotify.com/track/3beVbLV2jb3zvaLrh2NwKi?si=ehyPEM00RSOGFLZuIfBS8w",
+   "starts_at_ms": 887158,
+   "starts_at": "14:47"
+  },
+  {
+   "n": 5,
+   "title": "My Shining Hour",
+   "clean_title": "My Shining Hour",
+   "duration_ms": 288986,
+   "spotify_uri": "spotify:track:7o5KIVEqJIJJT9JefZ1TFD",
+   "spotify_url": "https://open.spotify.com/track/7o5KIVEqJIJJT9JefZ1TFD?si=PENPC7j1R76Kf-GYFTbWog",
+   "starts_at_ms": 1238798,
+   "starts_at": "20:38"
+  },
+  {
+   "n": 6,
+   "title": "My Favorite Things",
+   "clean_title": "My Favorite Things",
+   "duration_ms": 826000,
+   "spotify_uri": "spotify:track:6oVY50pmdXqLNVeK8bzomn",
+   "spotify_url": "https://open.spotify.com/track/6oVY50pmdXqLNVeK8bzomn?si=CVLmWqgsS_iPnzi-2vVKHA",
+   "starts_at_ms": 1527784,
+   "starts_at": "25:27"
+  },
+  {
+   "n": 7,
+   "title": "Central Park West",
+   "clean_title": "Central Park West",
+   "duration_ms": 251293,
+   "spotify_uri": "spotify:track:5yD1uMw9Kf0lP9OUwedSz6",
+   "spotify_url": "https://open.spotify.com/track/5yD1uMw9Kf0lP9OUwedSz6?si=rOe5CS8ZTW-jROcaujoLEw",
+   "starts_at_ms": 2353784,
+   "starts_at": "39:13"
+  },
+  {
+   "n": 8,
+   "title": "Summertime",
+   "clean_title": "Summertime",
+   "duration_ms": 697946,
+   "spotify_uri": "spotify:track:4nk99jDalj2sOkxIhrRkTB",
+   "spotify_url": "https://open.spotify.com/track/4nk99jDalj2sOkxIhrRkTB?si=TInkvFFeQJevuA6lmOPvIg",
+   "starts_at_ms": 2605077,
+   "starts_at": "43:25"
+  },
+  {
+   "n": 9,
+   "title": "Mr. Syms",
+   "clean_title": "Mr. Syms",
+   "duration_ms": 319679,
+   "spotify_uri": "spotify:track:67bFqjh0nEwzLsaRUYY5fR",
+   "spotify_url": "https://open.spotify.com/track/67bFqjh0nEwzLsaRUYY5fR?si=JtUXEe6FQJGv1dTI9CFeLw",
+   "starts_at_ms": 3303023,
+   "starts_at": "55:03"
+  },
+  {
+   "n": 10,
+   "title": "Equinox",
+   "clean_title": "Equinox",
+   "duration_ms": 487279,
+   "spotify_uri": "spotify:track:0ZzqcHBErwbWMVmKSWb3cY",
+   "spotify_url": "https://open.spotify.com/track/0ZzqcHBErwbWMVmKSWb3cY?si=l6ZzWG-pQRm2_RLmqA9qHA",
+   "starts_at_ms": 3622702,
+   "starts_at": "60:22"
+  },
+  {
+   "n": 11,
+   "title": "Body and Soul",
+   "clean_title": "Body and Soul",
+   "duration_ms": 337560,
+   "spotify_uri": "spotify:track:7Fz9ti7k3iK2j6uuqv1XKT",
+   "spotify_url": "https://open.spotify.com/track/7Fz9ti7k3iK2j6uuqv1XKT?si=9-ZUlTKaRgapj14VnSb5GA",
+   "starts_at_ms": 4109981,
+   "starts_at": "68:29"
+  }
+ ],
+ "week": 12,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:16.908725+00:00"
+}
