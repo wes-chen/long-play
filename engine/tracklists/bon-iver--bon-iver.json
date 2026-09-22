@@ -1,0 +1,111 @@
+{
+ "artist": "Bon Iver",
+ "album": "Bon Iver",
+ "spotify_uri": "spotify:album:2LpfNj3vB5rOXfaawLcOBg",
+ "spotify_url": "https://open.spotify.com/album/2LpfNj3vB5rOXfaawLcOBg?si=egzP2nbvTAqQ8MsdKFo2Hg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Perth",
+   "clean_title": "Perth",
+   "duration_ms": 262079,
+   "spotify_uri": "spotify:track:5sYAPWzsEk8pd1OFhcQ67T",
+   "spotify_url": "https://open.spotify.com/track/5sYAPWzsEk8pd1OFhcQ67T?si=RrBy7R4rSwKCUIHthEv0Ng",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Minnesota, WI",
+   "clean_title": "Minnesota, WI",
+   "duration_ms": 232440,
+   "spotify_uri": "spotify:track:6dmqnKIOvBfqjP317AT2tT",
+   "spotify_url": "https://open.spotify.com/track/6dmqnKIOvBfqjP317AT2tT?si=nVdY64wMQtWYvtboMBkANg",
+   "starts_at_ms": 262079,
+   "starts_at": "4:22"
+  },
+  {
+   "n": 3,
+   "title": "Holocene",
+   "clean_title": "Holocene",
+   "duration_ms": 336613,
+   "spotify_uri": "spotify:track:35KiiILklye1JRRctaLUb4",
+   "spotify_url": "https://open.spotify.com/track/35KiiILklye1JRRctaLUb4?si=wplyeDfWRc-g_LtII-IkCg",
+   "starts_at_ms": 494519,
+   "starts_at": "8:14"
+  },
+  {
+   "n": 4,
+   "title": "Towers",
+   "clean_title": "Towers",
+   "duration_ms": 188040,
+   "spotify_uri": "spotify:track:7CIKMtUUz31yX6MNX2nGbB",
+   "spotify_url": "https://open.spotify.com/track/7CIKMtUUz31yX6MNX2nGbB?si=t745rblwQJCWL7ydNQQpyg",
+   "starts_at_ms": 831132,
+   "starts_at": "13:51"
+  },
+  {
+   "n": 5,
+   "title": "Michicant",
+   "clean_title": "Michicant",
+   "duration_ms": 225733,
+   "spotify_uri": "spotify:track:43d83eCd7GzmVOKsLwV3QN",
+   "spotify_url": "https://open.spotify.com/track/43d83eCd7GzmVOKsLwV3QN?si=UIqy36efRPS8uDJUo6YYxg",
+   "starts_at_ms": 1019172,
+   "starts_at": "16:59"
+  },
+  {
+   "n": 6,
+   "title": "Hinnom, TX",
+   "clean_title": "Hinnom, TX",
+   "duration_ms": 165013,
+   "spotify_uri": "spotify:track:07JjtrTqsBg6hE0xoAU1xZ",
+   "spotify_url": "https://open.spotify.com/track/07JjtrTqsBg6hE0xoAU1xZ?si=lmz5kHwxSXSitrcCXcVahA",
+   "starts_at_ms": 1244905,
+   "starts_at": "20:44"
+  },
+  {
+   "n": 7,
+   "title": "Wash.",
+   "clean_title": "Wash.",
+   "duration_ms": 298586,
+   "spotify_uri": "spotify:track:7rIhp6EWLNtM8qFIQruJPT",
+   "spotify_url": "https://open.spotify.com/track/7rIhp6EWLNtM8qFIQruJPT?si=lyLXwGr7QFynPUchMaV5HQ",
+   "starts_at_ms": 1409918,
+   "starts_at": "23:29"
+  },
+  {
+   "n": 8,
+   "title": "Calgary",
+   "clean_title": "Calgary",
+   "duration_ms": 250200,
+   "spotify_uri": "spotify:track:3rL3jc6CA4SS1eqzGwR877",
+   "spotify_url": "https://open.spotify.com/track/3rL3jc6CA4SS1eqzGwR877?si=MArkkMf6QA-YL6csXTN9lQ",
+   "starts_at_ms": 1708504,
+   "starts_at": "28:28"
+  },
+  {
+   "n": 9,
+   "title": "Lisbon, OH",
+   "clean_title": "Lisbon, OH",
+   "duration_ms": 93360,
+   "spotify_uri": "spotify:track:4mm2qeRlk8Y6IuiXPEPrkK",
+   "spotify_url": "https://open.spotify.com/track/4mm2qeRlk8Y6IuiXPEPrkK?si=IigSOfQkSh6ZqRDP28EZTg",
+   "starts_at_ms": 1958704,
+   "starts_at": "32:38"
+  },
+  {
+   "n": 10,
+   "title": "Beth/Rest",
+   "clean_title": "Beth/Rest",
+   "duration_ms": 316800,
+   "spotify_uri": "spotify:track:2Eh12jPXjq0DKVQmFy3675",
+   "spotify_url": "https://open.spotify.com/track/2Eh12jPXjq0DKVQmFy3675?si=u82-DYlnRV-p062T0TpjVQ",
+   "starts_at_ms": 2052064,
+   "starts_at": "34:12"
+  }
+ ],
+ "week": 15,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:31.470699+00:00"
+}
