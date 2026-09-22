@@ -1,0 +1,141 @@
+{
+ "artist": "Aphex Twin",
+ "album": "Selected Ambient Works 85\u201392",
+ "spotify_uri": "spotify:album:7aNclGRxTysfh6z0d8671k",
+ "spotify_url": "https://open.spotify.com/album/7aNclGRxTysfh6z0d8671k?si=zSEmL_F9TcelHHtqOUyLoA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Xtal",
+   "clean_title": "Xtal",
+   "duration_ms": 293751,
+   "spotify_uri": "spotify:track:7o2AeQZzfCERsRmOM86EcB",
+   "spotify_url": "https://open.spotify.com/track/7o2AeQZzfCERsRmOM86EcB?si=BDzXGB6TTYSuY2CkrRyWpQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Tha",
+   "clean_title": "Tha",
+   "duration_ms": 547133,
+   "spotify_uri": "spotify:track:4Sxv0whUHWzHK5T8uuP66S",
+   "spotify_url": "https://open.spotify.com/track/4Sxv0whUHWzHK5T8uuP66S?si=CqBuE4_FSuGkkC0GFfSm7g",
+   "starts_at_ms": 293751,
+   "starts_at": "4:53"
+  },
+  {
+   "n": 3,
+   "title": "Pulsewidth",
+   "clean_title": "Pulsewidth",
+   "duration_ms": 228053,
+   "spotify_uri": "spotify:track:643gyipSU7dkmrFhJ8UAIm",
+   "spotify_url": "https://open.spotify.com/track/643gyipSU7dkmrFhJ8UAIm?si=kyosXiX1TyibO2lbj21whA",
+   "starts_at_ms": 840884,
+   "starts_at": "14:00"
+  },
+  {
+   "n": 4,
+   "title": "Ageispolis",
+   "clean_title": "Ageispolis",
+   "duration_ms": 323186,
+   "spotify_uri": "spotify:track:7KRQoq9GeWeCm0ZAXg5XMb",
+   "spotify_url": "https://open.spotify.com/track/7KRQoq9GeWeCm0ZAXg5XMb?si=RYB8FbQUSFCn39I9GF21MA",
+   "starts_at_ms": 1068937,
+   "starts_at": "17:48"
+  },
+  {
+   "n": 5,
+   "title": "I",
+   "clean_title": "I",
+   "duration_ms": 77346,
+   "spotify_uri": "spotify:track:2FQviMkaoixlgWuGL4u1EO",
+   "spotify_url": "https://open.spotify.com/track/2FQviMkaoixlgWuGL4u1EO?si=pfr4SMNIRdWtoIv-2LTg2w",
+   "starts_at_ms": 1392123,
+   "starts_at": "23:12"
+  },
+  {
+   "n": 6,
+   "title": "Green Calx",
+   "clean_title": "Green Calx",
+   "duration_ms": 365160,
+   "spotify_uri": "spotify:track:3fFOi1PqxGjFKmWW21uQNa",
+   "spotify_url": "https://open.spotify.com/track/3fFOi1PqxGjFKmWW21uQNa?si=h2ta7bQzQAqJ8xv94O3qbA",
+   "starts_at_ms": 1469469,
+   "starts_at": "24:29"
+  },
+  {
+   "n": 7,
+   "title": "Heliosphan",
+   "clean_title": "Heliosphan",
+   "duration_ms": 293800,
+   "spotify_uri": "spotify:track:09opLVMX7cfKVKlP3iKZR1",
+   "spotify_url": "https://open.spotify.com/track/09opLVMX7cfKVKlP3iKZR1?si=2mx2jqgUS1uQ3iVmJSd09A",
+   "starts_at_ms": 1834629,
+   "starts_at": "30:34"
+  },
+  {
+   "n": 8,
+   "title": "We Are the Music Makers",
+   "clean_title": "We Are the Music Makers",
+   "duration_ms": 463520,
+   "spotify_uri": "spotify:track:1sTzDqhcrpB2BC8TOMeInR",
+   "spotify_url": "https://open.spotify.com/track/1sTzDqhcrpB2BC8TOMeInR?si=5GrNcxpRSHSzgGNLxYfo9w",
+   "starts_at_ms": 2128429,
+   "starts_at": "35:28"
+  },
+  {
+   "n": 9,
+   "title": "Schottkey 7th Path",
+   "clean_title": "Schottkey 7th Path",
+   "duration_ms": 308720,
+   "spotify_uri": "spotify:track:6jTmcVh73XaKAklNSVX7jA",
+   "spotify_url": "https://open.spotify.com/track/6jTmcVh73XaKAklNSVX7jA?si=boE2bppeSGmUAam5G6E_9A",
+   "starts_at_ms": 2591949,
+   "starts_at": "43:11"
+  },
+  {
+   "n": 10,
+   "title": "Ptolemy",
+   "clean_title": "Ptolemy",
+   "duration_ms": 434306,
+   "spotify_uri": "spotify:track:23HiOySFOnPUXTJWnc5tAb",
+   "spotify_url": "https://open.spotify.com/track/23HiOySFOnPUXTJWnc5tAb?si=_xg7By8UR7mkNj3r8KO8zA",
+   "starts_at_ms": 2900669,
+   "starts_at": "48:20"
+  },
+  {
+   "n": 11,
+   "title": "Hedphelym",
+   "clean_title": "Hedphelym",
+   "duration_ms": 363920,
+   "spotify_uri": "spotify:track:0EK8vqmwSCqY5b7CemNc9I",
+   "spotify_url": "https://open.spotify.com/track/0EK8vqmwSCqY5b7CemNc9I?si=A59k9hVGQ5q_N5k31RUCwA",
+   "starts_at_ms": 3334975,
+   "starts_at": "55:34"
+  },
+  {
+   "n": 12,
+   "title": "Delphium",
+   "clean_title": "Delphium",
+   "duration_ms": 329266,
+   "spotify_uri": "spotify:track:54avYgPIdqFI59mW91E0Sf",
+   "spotify_url": "https://open.spotify.com/track/54avYgPIdqFI59mW91E0Sf?si=_BhthZ3gRm-lxDWnrRQ3vg",
+   "starts_at_ms": 3698895,
+   "starts_at": "61:38"
+  },
+  {
+   "n": 13,
+   "title": "Actium",
+   "clean_title": "Actium",
+   "duration_ms": 455000,
+   "spotify_uri": "spotify:track:78w0l5CJ3VwtXKBpRCktwa",
+   "spotify_url": "https://open.spotify.com/track/78w0l5CJ3VwtXKBpRCktwa?si=JOQ8MZi8RjG_C0JePKq8jw",
+   "starts_at_ms": 4028161,
+   "starts_at": "67:08"
+  }
+ ],
+ "week": 9,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:01.550227+00:00"
+}
