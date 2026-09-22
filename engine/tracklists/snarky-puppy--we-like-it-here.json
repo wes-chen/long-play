@@ -1,0 +1,91 @@
+{
+ "artist": "Snarky Puppy",
+ "album": "We Like It Here",
+ "spotify_uri": "spotify:album:4GzjQ0xXRlLl78ih481BUi",
+ "spotify_url": "https://open.spotify.com/album/4GzjQ0xXRlLl78ih481BUi?si=ceiGAwv3Skm-9iT7YNe5fg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Shofukan",
+   "clean_title": "Shofukan",
+   "duration_ms": 393053,
+   "spotify_uri": "spotify:track:1BWsQm7kOBjK2aSFYg5HQZ",
+   "spotify_url": "https://open.spotify.com/track/1BWsQm7kOBjK2aSFYg5HQZ?si=64AiJZHdRBCuvthftuR96g",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "What About Me?",
+   "clean_title": "What About Me?",
+   "duration_ms": 402266,
+   "spotify_uri": "spotify:track:1MglqgabKH4iSkw8xHJ0J9",
+   "spotify_url": "https://open.spotify.com/track/1MglqgabKH4iSkw8xHJ0J9?si=djibj3KeSmy0L9aRQ5797Q",
+   "starts_at_ms": 393053,
+   "starts_at": "6:33"
+  },
+  {
+   "n": 3,
+   "title": "Sleeper",
+   "clean_title": "Sleeper",
+   "duration_ms": 411573,
+   "spotify_uri": "spotify:track:41fiRrzEqGo4pTVqXYrfnz",
+   "spotify_url": "https://open.spotify.com/track/41fiRrzEqGo4pTVqXYrfnz?si=75f-s5Z6RxGB8iHTMdW_bA",
+   "starts_at_ms": 795319,
+   "starts_at": "13:15"
+  },
+  {
+   "n": 4,
+   "title": "Jambone",
+   "clean_title": "Jambone",
+   "duration_ms": 307440,
+   "spotify_uri": "spotify:track:3kDrC8ll5hRZvnBMXLtUjG",
+   "spotify_url": "https://open.spotify.com/track/3kDrC8ll5hRZvnBMXLtUjG?si=RRCz7fW8T4e_SkwdyClw8w",
+   "starts_at_ms": 1206892,
+   "starts_at": "20:06"
+  },
+  {
+   "n": 5,
+   "title": "Kite",
+   "clean_title": "Kite",
+   "duration_ms": 372093,
+   "spotify_uri": "spotify:track:1E6pdinDbZv57XLxOWFkH7",
+   "spotify_url": "https://open.spotify.com/track/1E6pdinDbZv57XLxOWFkH7?si=Ha769uAFTEWzfInS7NPu6g",
+   "starts_at_ms": 1514332,
+   "starts_at": "25:14"
+  },
+  {
+   "n": 6,
+   "title": "Outlier",
+   "clean_title": "Outlier",
+   "duration_ms": 405306,
+   "spotify_uri": "spotify:track:2Jim49nxjnjcTdyCJO4mr6",
+   "spotify_url": "https://open.spotify.com/track/2Jim49nxjnjcTdyCJO4mr6?si=JS9665VyTESj-h9ZC7FX6g",
+   "starts_at_ms": 1886425,
+   "starts_at": "31:26"
+  },
+  {
+   "n": 7,
+   "title": "Tio Macaco",
+   "clean_title": "Tio Macaco",
+   "duration_ms": 343453,
+   "spotify_uri": "spotify:track:08n36bdelgkTr2Xkg1O6pX",
+   "spotify_url": "https://open.spotify.com/track/08n36bdelgkTr2Xkg1O6pX?si=XDpF_FrSQa6f0UdK1a13KQ",
+   "starts_at_ms": 2291731,
+   "starts_at": "38:11"
+  },
+  {
+   "n": 8,
+   "title": "Lingus",
+   "clean_title": "Lingus",
+   "duration_ms": 645720,
+   "spotify_uri": "spotify:track:68d6ZfyMUYURol2y15Ta2Y",
+   "spotify_url": "https://open.spotify.com/track/68d6ZfyMUYURol2y15Ta2Y?si=A_vQt9KvQemph4m3ECnTSg",
+   "starts_at_ms": 2635184,
+   "starts_at": "43:55"
+  }
+ ],
+ "week": 11,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:12.873233+00:00"
+}
