@@ -1,0 +1,61 @@
+{
+ "artist": "Mahler",
+ "album": "Symphony No. 5",
+ "spotify_uri": "spotify:album:44EES7Qq2QQ7inKyl6EXAU",
+ "spotify_url": "https://open.spotify.com/album/44EES7Qq2QQ7inKyl6EXAU?si=D8-qXnwLRiqgeCwq9vu2UQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Symphony No. 5: I. Funeral March - With measured step. Strict. Like a cortege - Live",
+   "clean_title": "Symphony No. 5: I. Funeral March - With measured step. Strict. Like a cortege - Live",
+   "duration_ms": 811666,
+   "spotify_uri": "spotify:track:1VrqZwOx7U8fiV5Znnqvs5",
+   "spotify_url": "https://open.spotify.com/track/1VrqZwOx7U8fiV5Znnqvs5?si=2VdfyVt7TF6gmTEVr6zPqA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Symphony No. 5: II. Stormily. With greatest vehemence - Live",
+   "clean_title": "Symphony No. 5: II. Stormily. With greatest vehemence - Live",
+   "duration_ms": 896093,
+   "spotify_uri": "spotify:track:4rw3BXJ8qQfvRmb4IIw7hH",
+   "spotify_url": "https://open.spotify.com/track/4rw3BXJ8qQfvRmb4IIw7hH?si=4fsygszNQN-tNOrRgIAfEQ",
+   "starts_at_ms": 811666,
+   "starts_at": "13:31"
+  },
+  {
+   "n": 3,
+   "title": "Symphony No. 5: III. Scherzo - Vigorously, not too fast - Live",
+   "clean_title": "Symphony No. 5: III. Scherzo - Vigorously, not too fast - Live",
+   "duration_ms": 1059720,
+   "spotify_uri": "spotify:track:159GcPzDUrqeFcjQU0byJY",
+   "spotify_url": "https://open.spotify.com/track/159GcPzDUrqeFcjQU0byJY?si=iToPR6coTbSQshmwXLj9uA",
+   "starts_at_ms": 1707759,
+   "starts_at": "28:27"
+  },
+  {
+   "n": 4,
+   "title": "Symphony No. 5: IV. Adagietto - Very slow - Live",
+   "clean_title": "Symphony No. 5: IV. Adagietto - Very slow - Live",
+   "duration_ms": 656373,
+   "spotify_uri": "spotify:track:6SYzjlZx5tFZgrNoi6kus6",
+   "spotify_url": "https://open.spotify.com/track/6SYzjlZx5tFZgrNoi6kus6?si=3gf7gktURH-5I-PY5HsI9A",
+   "starts_at_ms": 2767479,
+   "starts_at": "46:07"
+  },
+  {
+   "n": 5,
+   "title": "Symphony No. 5: V. Rondo-Finale - Allegro giocoso. Lively - Live",
+   "clean_title": "Symphony No. 5: V. Rondo-Finale - Allegro giocoso. Lively - Live",
+   "duration_ms": 921946,
+   "spotify_uri": "spotify:track:1uy5fTAVeQeegIJn2h1SDr",
+   "spotify_url": "https://open.spotify.com/track/1uy5fTAVeQeegIJn2h1SDr?si=ql7HQscFSH-ERfmwPxzg_g",
+   "starts_at_ms": 3423852,
+   "starts_at": "57:03"
+  }
+ ],
+ "week": 21,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:58.680307+00:00"
+}
