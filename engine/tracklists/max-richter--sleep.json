@@ -1,0 +1,221 @@
+{
+ "artist": "Max Richter",
+ "album": "Sleep",
+ "spotify_uri": "spotify:album:6RpPv20iDOS4H3WO8jrrvf",
+ "spotify_url": "https://open.spotify.com/album/6RpPv20iDOS4H3WO8jrrvf?si=zoYnpVVHSvm6stsuzKEQWw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "On a Turning World",
+   "clean_title": "On a Turning World",
+   "duration_ms": 160352,
+   "spotify_uri": "spotify:track:080R3ekwb8WuuIrFszNxCM",
+   "spotify_url": "https://open.spotify.com/track/080R3ekwb8WuuIrFszNxCM?si=TaCy2-nNSh6HzpgC1vIR6g",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Faint Pulse",
+   "clean_title": "Faint Pulse",
+   "duration_ms": 48756,
+   "spotify_uri": "spotify:track:4BPURALlEJkQjbSPlQq1eg",
+   "spotify_url": "https://open.spotify.com/track/4BPURALlEJkQjbSPlQq1eg?si=qXr2P9rIQW2ab9zl7dQYBg",
+   "starts_at_ms": 160352,
+   "starts_at": "2:40"
+  },
+  {
+   "n": 3,
+   "title": "Sorrow Atoms",
+   "clean_title": "Sorrow Atoms",
+   "duration_ms": 194127,
+   "spotify_uri": "spotify:track:2cJVfrUU0CDa4U2feAWK7k",
+   "spotify_url": "https://open.spotify.com/track/2cJVfrUU0CDa4U2feAWK7k?si=dueo9DLQSb2vYQUbDBL55g",
+   "starts_at_ms": 209108,
+   "starts_at": "3:29"
+  },
+  {
+   "n": 4,
+   "title": "Frequencies, Detectors",
+   "clean_title": "Frequencies, Detectors",
+   "duration_ms": 49695,
+   "spotify_uri": "spotify:track:6AbbVMqdrL3ze5zxPSAhWs",
+   "spotify_url": "https://open.spotify.com/track/6AbbVMqdrL3ze5zxPSAhWs?si=r2DzwOLeRrew4vMmk-ZVHA",
+   "starts_at_ms": 403235,
+   "starts_at": "6:43"
+  },
+  {
+   "n": 5,
+   "title": "Tenderly the Light",
+   "clean_title": "Tenderly the Light",
+   "duration_ms": 106195,
+   "spotify_uri": "spotify:track:1bw81aZqrESuhoM7MhMdLY",
+   "spotify_url": "https://open.spotify.com/track/1bw81aZqrESuhoM7MhMdLY?si=bu7vwUzsRyuqkTmDalU6VA",
+   "starts_at_ms": 452930,
+   "starts_at": "7:32"
+  },
+  {
+   "n": 6,
+   "title": "Monologue",
+   "clean_title": "Monologue",
+   "duration_ms": 92864,
+   "spotify_uri": "spotify:track:5pUq3nujhKKYomA5q5OjwW",
+   "spotify_url": "https://open.spotify.com/track/5pUq3nujhKKYomA5q5OjwW?si=mes5cg79Rrmx3PkuptyhCg",
+   "starts_at_ms": 559125,
+   "starts_at": "9:19"
+  },
+  {
+   "n": 7,
+   "title": "The Dark Abysm of Time",
+   "clean_title": "The Dark Abysm of Time",
+   "duration_ms": 78696,
+   "spotify_uri": "spotify:track:1eno1Fhd4PB3htHAns6ceS",
+   "spotify_url": "https://open.spotify.com/track/1eno1Fhd4PB3htHAns6ceS?si=KackbG63QU2sFCnHCtGx3w",
+   "starts_at_ms": 651989,
+   "starts_at": "10:51"
+  },
+  {
+   "n": 8,
+   "title": "Love Song (Cascade)",
+   "clean_title": "Love Song (Cascade)",
+   "duration_ms": 62983,
+   "spotify_uri": "spotify:track:6yvpFBR17N2SWdUuIvMx0V",
+   "spotify_url": "https://open.spotify.com/track/6yvpFBR17N2SWdUuIvMx0V?si=F8Tn5kb5TvifOYAre8CMnQ",
+   "starts_at_ms": 730685,
+   "starts_at": "12:10"
+  },
+  {
+   "n": 9,
+   "title": "Overlooked",
+   "clean_title": "Overlooked",
+   "duration_ms": 130300,
+   "spotify_uri": "spotify:track:5NYu2KmUlPU79PXohNUUVT",
+   "spotify_url": "https://open.spotify.com/track/5NYu2KmUlPU79PXohNUUVT?si=fGDzKpi0RJeQ7VSEVOKQrA",
+   "starts_at_ms": 793668,
+   "starts_at": "13:13"
+  },
+  {
+   "n": 10,
+   "title": "Retinal",
+   "clean_title": "Retinal",
+   "duration_ms": 163534,
+   "spotify_uri": "spotify:track:7bfxTvWBpXkrTUk27bMpAk",
+   "spotify_url": "https://open.spotify.com/track/7bfxTvWBpXkrTUk27bMpAk?si=3S6oULhySNm1hRqqm2zYIQ",
+   "starts_at_ms": 923968,
+   "starts_at": "15:23"
+  },
+  {
+   "n": 11,
+   "title": "Fictions and Data",
+   "clean_title": "Fictions and Data",
+   "duration_ms": 124995,
+   "spotify_uri": "spotify:track:2HHxfTKqD3Pii8GMYb7rpb",
+   "spotify_url": "https://open.spotify.com/track/2HHxfTKqD3Pii8GMYb7rpb?si=QJEmyFJgQRWDXjSSC5PNAA",
+   "starts_at_ms": 1087502,
+   "starts_at": "18:07"
+  },
+  {
+   "n": 12,
+   "title": "A Place We Were",
+   "clean_title": "A Place We Were",
+   "duration_ms": 68533,
+   "spotify_uri": "spotify:track:2Vmw9hYqF3gzS1GlMFW5am",
+   "spotify_url": "https://open.spotify.com/track/2Vmw9hYqF3gzS1GlMFW5am?si=MhYDivn-SwyDu4-Jc9MWjA",
+   "starts_at_ms": 1212497,
+   "starts_at": "20:12"
+  },
+  {
+   "n": 13,
+   "title": "Something Under Her Skin",
+   "clean_title": "Something Under Her Skin",
+   "duration_ms": 181929,
+   "spotify_uri": "spotify:track:4F8c7YdZX46kkQGUPDep82",
+   "spotify_url": "https://open.spotify.com/track/4F8c7YdZX46kkQGUPDep82?si=1HNS-WJBQ8W4AHpAtIiZ2w",
+   "starts_at_ms": 1281030,
+   "starts_at": "21:21"
+  },
+  {
+   "n": 14,
+   "title": "All Around Us",
+   "clean_title": "All Around Us",
+   "duration_ms": 163853,
+   "spotify_uri": "spotify:track:2ROBF6PE3S59oajwfVTdaN",
+   "spotify_url": "https://open.spotify.com/track/2ROBF6PE3S59oajwfVTdaN?si=Nd9by0bNRPq0hvvB0T5lUA",
+   "starts_at_ms": 1462959,
+   "starts_at": "24:22"
+  },
+  {
+   "n": 15,
+   "title": "A Lovers Complaint",
+   "clean_title": "A Lovers Complaint",
+   "duration_ms": 214937,
+   "spotify_uri": "spotify:track:2P8QvZawPpscgPykVRdve0",
+   "spotify_url": "https://open.spotify.com/track/2P8QvZawPpscgPykVRdve0?si=sc17WcOcQCe1k83I7I59ng",
+   "starts_at_ms": 1626812,
+   "starts_at": "27:06"
+  },
+  {
+   "n": 16,
+   "title": "Overload",
+   "clean_title": "Overload",
+   "duration_ms": 152694,
+   "spotify_uri": "spotify:track:6mkaEOUf1WFrhCWyMZg3fI",
+   "spotify_url": "https://open.spotify.com/track/6mkaEOUf1WFrhCWyMZg3fI?si=Z0trek7WRKuH1n6MTent4w",
+   "starts_at_ms": 1841749,
+   "starts_at": "30:41"
+  },
+  {
+   "n": 17,
+   "title": "Things Left Behind",
+   "clean_title": "Things Left Behind",
+   "duration_ms": 201895,
+   "spotify_uri": "spotify:track:1tXW5SOZiONpsvPtRtXPVo",
+   "spotify_url": "https://open.spotify.com/track/1tXW5SOZiONpsvPtRtXPVo?si=aXgM_pT3RRSDOc7GGg2rxA",
+   "starts_at_ms": 1994443,
+   "starts_at": "33:14"
+  },
+  {
+   "n": 18,
+   "title": "Love Song (Nocturnal)",
+   "clean_title": "Love Song (Nocturnal)",
+   "duration_ms": 110575,
+   "spotify_uri": "spotify:track:32V10YUKXY8sRwZts3pdrm",
+   "spotify_url": "https://open.spotify.com/track/32V10YUKXY8sRwZts3pdrm?si=5jiFJwHHRkWz3PesPu-OcQ",
+   "starts_at_ms": 2196338,
+   "starts_at": "36:36"
+  },
+  {
+   "n": 19,
+   "title": "Eternalflowersquestionstars",
+   "clean_title": "Eternalflowersquestionstars",
+   "duration_ms": 146111,
+   "spotify_uri": "spotify:track:1UHzFtSnrQBPHOgkKWpBnR",
+   "spotify_url": "https://open.spotify.com/track/1UHzFtSnrQBPHOgkKWpBnR?si=HWEtR0mMT4CsHpJY1gE-Rw",
+   "starts_at_ms": 2306913,
+   "starts_at": "38:26"
+  },
+  {
+   "n": 20,
+   "title": "Requiem",
+   "clean_title": "Requiem",
+   "duration_ms": 106202,
+   "spotify_uri": "spotify:track:7sVN2YUSO3Mi92ilVxQ3ZE",
+   "spotify_url": "https://open.spotify.com/track/7sVN2YUSO3Mi92ilVxQ3ZE?si=3GPKE9a1RaeZztQKhSW0LA",
+   "starts_at_ms": 2453024,
+   "starts_at": "40:53"
+  },
+  {
+   "n": 21,
+   "title": "Luminous",
+   "clean_title": "Luminous",
+   "duration_ms": 305725,
+   "spotify_uri": "spotify:track:2cQ9Gu7qFvXTJcPEOjdd4V",
+   "spotify_url": "https://open.spotify.com/track/2cQ9Gu7qFvXTJcPEOjdd4V?si=80gWO_LbTMe_epIU6teQwg",
+   "starts_at_ms": 2559226,
+   "starts_at": "42:39"
+  }
+ ],
+ "week": 24,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:32:13.169479+00:00"
+}
