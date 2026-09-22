@@ -1,0 +1,111 @@
+{
+ "artist": "Bill Evans",
+ "album": "Waltz for Debby",
+ "spotify_uri": "spotify:album:5KMFvQIC2Of0UtJe9w5e0n",
+ "spotify_url": "https://open.spotify.com/album/5KMFvQIC2Of0UtJe9w5e0n?si=qI_xJ1OUTjWJ8PFQMONFNA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Funkallero",
+   "clean_title": "Funkallero",
+   "duration_ms": 465866,
+   "spotify_uri": "spotify:track:2iysTEoawFzGPtvlgDLm1O",
+   "spotify_url": "https://open.spotify.com/track/2iysTEoawFzGPtvlgDLm1O?si=4Yk_45jEQ76Nmku3DrxYrQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "The Two Lonely People",
+   "clean_title": "The Two Lonely People",
+   "duration_ms": 370200,
+   "spotify_uri": "spotify:track:2Syy6iCju7lcPLesnbEwnV",
+   "spotify_url": "https://open.spotify.com/track/2Syy6iCju7lcPLesnbEwnV?si=g0vHB9ywRCakgx-5gb2i6w",
+   "starts_at_ms": 465866,
+   "starts_at": "7:45"
+  },
+  {
+   "n": 3,
+   "title": "Sugar Plum",
+   "clean_title": "Sugar Plum",
+   "duration_ms": 422733,
+   "spotify_uri": "spotify:track:1dA0yWdHqwAi8xYxu5MkEb",
+   "spotify_url": "https://open.spotify.com/track/1dA0yWdHqwAi8xYxu5MkEb?si=TqBu1og0Q_S-evf4MeQJww",
+   "starts_at_ms": 836066,
+   "starts_at": "13:56"
+  },
+  {
+   "n": 4,
+   "title": "Waltz for Debby",
+   "clean_title": "Waltz for Debby",
+   "duration_ms": 461493,
+   "spotify_uri": "spotify:track:1tSzm6vk58gS0NZwYS18W0",
+   "spotify_url": "https://open.spotify.com/track/1tSzm6vk58gS0NZwYS18W0?si=0GjbExDZQGOJqKuRUqy3nQ",
+   "starts_at_ms": 1258799,
+   "starts_at": "20:58"
+  },
+  {
+   "n": 5,
+   "title": "T.T.T. (Twelve Tone Tune)",
+   "clean_title": "T.T.T. (Twelve Tone Tune)",
+   "duration_ms": 398040,
+   "spotify_uri": "spotify:track:2pajTGeAblfSWV3GJo5NTW",
+   "spotify_url": "https://open.spotify.com/track/2pajTGeAblfSWV3GJo5NTW?si=SCKnpmeiQ0SDesdU97N-hQ",
+   "starts_at_ms": 1720292,
+   "starts_at": "28:40"
+  },
+  {
+   "n": 6,
+   "title": "Re: Person I Knew",
+   "clean_title": "Re: Person I Knew",
+   "duration_ms": 352933,
+   "spotify_uri": "spotify:track:2HSRq1pbNWrIcvYSBJwrzp",
+   "spotify_url": "https://open.spotify.com/track/2HSRq1pbNWrIcvYSBJwrzp?si=ZWMNM8NJSbe8A6EUlhmIQA",
+   "starts_at_ms": 2118332,
+   "starts_at": "35:18"
+  },
+  {
+   "n": 7,
+   "title": "Comrade Conrad",
+   "clean_title": "Comrade Conrad",
+   "duration_ms": 454493,
+   "spotify_uri": "spotify:track:13pzbe4DDI38YroStNmWJA",
+   "spotify_url": "https://open.spotify.com/track/13pzbe4DDI38YroStNmWJA?si=ZCnrtO_tT4-sjAT5oMFtRQ",
+   "starts_at_ms": 2471265,
+   "starts_at": "41:11"
+  },
+  {
+   "n": 8,
+   "title": "Waltz For Debby (alternate)",
+   "clean_title": "Waltz For Debby (alternate)",
+   "duration_ms": 467800,
+   "spotify_uri": "spotify:track:5V7wDOYez3IjvFg4u3d666",
+   "spotify_url": "https://open.spotify.com/track/5V7wDOYez3IjvFg4u3d666?si=Ph7fXzBZRaeAresFBeT-iw",
+   "starts_at_ms": 2925758,
+   "starts_at": "48:45"
+  },
+  {
+   "n": 9,
+   "title": "Re: Person I Knew (alternate)",
+   "clean_title": "Re: Person I Knew (alternate)",
+   "duration_ms": 436866,
+   "spotify_uri": "spotify:track:5QB7gTagsKZMpzknZMC6m6",
+   "spotify_url": "https://open.spotify.com/track/5QB7gTagsKZMpzknZMC6m6?si=H-mazipbQiCEWN4_-DNlnw",
+   "starts_at_ms": 3393558,
+   "starts_at": "56:33"
+  },
+  {
+   "n": 10,
+   "title": "Funkallero (alternate)",
+   "clean_title": "Funkallero (alternate)",
+   "duration_ms": 369893,
+   "spotify_uri": "spotify:track:3X0pBG02BeVnBzNYVlPme6",
+   "spotify_url": "https://open.spotify.com/track/3X0pBG02BeVnBzNYVlPme6?si=CgeW9S_dThuHwoHe0Iwtmw",
+   "starts_at_ms": 3830424,
+   "starts_at": "63:50"
+  }
+ ],
+ "week": 13,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:21.832595+00:00"
+}
