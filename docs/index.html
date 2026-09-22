@@ -197,6 +197,15 @@
     .chassis{padding:10px;gap:10px}
     .panel{padding:18px 16px}
   }
+  @media (max-width:640px){
+    .leds{grid-template-columns:repeat(2,1fr)}
+    .led{min-width:0}
+    .seq{grid-template-columns:repeat(4,1fr);gap:6px}
+    .pad{min-height:88px}
+    .pad .anc{-webkit-line-clamp:3}
+    .topbar{gap:10px;font-size:11px}
+    .transport{flex-wrap:wrap}
+  }
 </style>
 </head>
 <body>
