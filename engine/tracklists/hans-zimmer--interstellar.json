@@ -1,0 +1,311 @@
+{
+ "artist": "Hans Zimmer",
+ "album": "Interstellar",
+ "spotify_uri": "spotify:album:3B61kSKTxlY36cYgzvf3cP",
+ "spotify_url": "https://open.spotify.com/album/3B61kSKTxlY36cYgzvf3cP?si=PRJW8m3nQnuFp-kqyBk6OA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Dreaming of the Crash",
+   "clean_title": "Dreaming of the Crash",
+   "duration_ms": 235837,
+   "spotify_uri": "spotify:track:2dDuHXxFxLsdYdBBtgjoEi",
+   "spotify_url": "https://open.spotify.com/track/2dDuHXxFxLsdYdBBtgjoEi?si=Y1FUOllFScSrsxqmZ-kPOw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Cornfield Chase",
+   "clean_title": "Cornfield Chase",
+   "duration_ms": 126959,
+   "spotify_uri": "spotify:track:6pWgRkpqVfxnj3WuIcJ7WP",
+   "spotify_url": "https://open.spotify.com/track/6pWgRkpqVfxnj3WuIcJ7WP?si=S_LJJI1oTnGu6oo9dYDwCA",
+   "starts_at_ms": 235837,
+   "starts_at": "3:55"
+  },
+  {
+   "n": 3,
+   "title": "Dust",
+   "clean_title": "Dust",
+   "duration_ms": 341396,
+   "spotify_uri": "spotify:track:1oFeXti9EanzUrHvWfRrfJ",
+   "spotify_url": "https://open.spotify.com/track/1oFeXti9EanzUrHvWfRrfJ?si=8rzAUQ2gRsy98jW7faKegg",
+   "starts_at_ms": 362796,
+   "starts_at": "6:02"
+  },
+  {
+   "n": 4,
+   "title": "Day One (Interstellar Theme)",
+   "clean_title": "Day One (Interstellar Theme)",
+   "duration_ms": 199422,
+   "spotify_uri": "spotify:track:4WmB04GBqS4xPMYN9dHgBw",
+   "spotify_url": "https://open.spotify.com/track/4WmB04GBqS4xPMYN9dHgBw?si=FNY8wQ5xRUyAPxw21LQ8hQ",
+   "starts_at_ms": 704192,
+   "starts_at": "11:44"
+  },
+  {
+   "n": 5,
+   "title": "Stay",
+   "clean_title": "Stay",
+   "duration_ms": 412424,
+   "spotify_uri": "spotify:track:1fTAs4YpBA7R21i0iB4j54",
+   "spotify_url": "https://open.spotify.com/track/1fTAs4YpBA7R21i0iB4j54?si=R8NqVojQRq-mypd0jc4xNA",
+   "starts_at_ms": 903614,
+   "starts_at": "15:03"
+  },
+  {
+   "n": 6,
+   "title": "Message from Home",
+   "clean_title": "Message from Home",
+   "duration_ms": 100877,
+   "spotify_uri": "spotify:track:7A9l2AElHS3jM8EeESsesm",
+   "spotify_url": "https://open.spotify.com/track/7A9l2AElHS3jM8EeESsesm?si=APk-8h0DSJm5qjxnZhqXnA",
+   "starts_at_ms": 1316038,
+   "starts_at": "21:56"
+  },
+  {
+   "n": 7,
+   "title": "The Wormhole",
+   "clean_title": "The Wormhole",
+   "duration_ms": 90569,
+   "spotify_uri": "spotify:track:5tWPl23tRGaEbSz3f0lTsW",
+   "spotify_url": "https://open.spotify.com/track/5tWPl23tRGaEbSz3f0lTsW?si=9WEQ48ffRueraPgO3b6iKg",
+   "starts_at_ms": 1416915,
+   "starts_at": "23:36"
+  },
+  {
+   "n": 8,
+   "title": "Mountains",
+   "clean_title": "Mountains",
+   "duration_ms": 219092,
+   "spotify_uri": "spotify:track:0Sg3UL7f40ulmTh0Xwr6qY",
+   "spotify_url": "https://open.spotify.com/track/0Sg3UL7f40ulmTh0Xwr6qY?si=5bMH1WpLTQWAB-X5CvlRWw",
+   "starts_at_ms": 1507484,
+   "starts_at": "25:07"
+  },
+  {
+   "n": 9,
+   "title": "Afraid of Time",
+   "clean_title": "Afraid of Time",
+   "duration_ms": 152672,
+   "spotify_uri": "spotify:track:1UbDqlLHBY7SxKVamO6hqJ",
+   "spotify_url": "https://open.spotify.com/track/1UbDqlLHBY7SxKVamO6hqJ?si=lsPe_38mQW-PJywlfouE4Q",
+   "starts_at_ms": 1726576,
+   "starts_at": "28:46"
+  },
+  {
+   "n": 10,
+   "title": "A Place Among the Stars",
+   "clean_title": "A Place Among the Stars",
+   "duration_ms": 207117,
+   "spotify_uri": "spotify:track:7KNoh3Bn4QfgkIGBywkAB0",
+   "spotify_url": "https://open.spotify.com/track/7KNoh3Bn4QfgkIGBywkAB0?si=5jNUvOZxRzaWxwJnisyiZg",
+   "starts_at_ms": 1879248,
+   "starts_at": "31:19"
+  },
+  {
+   "n": 11,
+   "title": "Running Out",
+   "clean_title": "Running Out",
+   "duration_ms": 117241,
+   "spotify_uri": "spotify:track:2S55wdtM46ufVMrRCQwm5o",
+   "spotify_url": "https://open.spotify.com/track/2S55wdtM46ufVMrRCQwm5o?si=jrXB4EHiSwCWprYqXRkyhA",
+   "starts_at_ms": 2086365,
+   "starts_at": "34:46"
+  },
+  {
+   "n": 12,
+   "title": "I'm Going Home",
+   "clean_title": "I'm Going Home",
+   "duration_ms": 348552,
+   "spotify_uri": "spotify:track:4GcFycJt14aqnUGiEgG3JH",
+   "spotify_url": "https://open.spotify.com/track/4GcFycJt14aqnUGiEgG3JH?si=UtzhszCrQSWELZfYATxQOA",
+   "starts_at_ms": 2203606,
+   "starts_at": "36:43"
+  },
+  {
+   "n": 13,
+   "title": "Coward",
+   "clean_title": "Coward",
+   "duration_ms": 506876,
+   "spotify_uri": "spotify:track:4GBZUZe04pHVN0TLhejCSS",
+   "spotify_url": "https://open.spotify.com/track/4GBZUZe04pHVN0TLhejCSS?si=Nv4gYupISruyawS7ujSiCw",
+   "starts_at_ms": 2552158,
+   "starts_at": "42:32"
+  },
+  {
+   "n": 14,
+   "title": "Detach",
+   "clean_title": "Detach",
+   "duration_ms": 402202,
+   "spotify_uri": "spotify:track:4LFTLsnrGGZFtHdjlrV8Gx",
+   "spotify_url": "https://open.spotify.com/track/4LFTLsnrGGZFtHdjlrV8Gx?si=BIQ1jh7yQc-qgSUJImW7qw",
+   "starts_at_ms": 3059034,
+   "starts_at": "50:59"
+  },
+  {
+   "n": 15,
+   "title": "S.T.A.Y.",
+   "clean_title": "S.T.A.Y.",
+   "duration_ms": 383513,
+   "spotify_uri": "spotify:track:6GUq9y0Iy5QrAuPYxTrFp2",
+   "spotify_url": "https://open.spotify.com/track/6GUq9y0Iy5QrAuPYxTrFp2?si=NAxgXWeoQre6jXagnlXs7A",
+   "starts_at_ms": 3461236,
+   "starts_at": "57:41"
+  },
+  {
+   "n": 16,
+   "title": "Where We're Going",
+   "clean_title": "Where We're Going",
+   "duration_ms": 461268,
+   "spotify_uri": "spotify:track:7e41gTSV9fKdsDqOgS47Wg",
+   "spotify_url": "https://open.spotify.com/track/7e41gTSV9fKdsDqOgS47Wg?si=HoWbxqj1Rfq91dUZ5RLaQA",
+   "starts_at_ms": 3844749,
+   "starts_at": "64:04"
+  },
+  {
+   "n": 17,
+   "title": "First Step",
+   "clean_title": "First Step",
+   "duration_ms": 107767,
+   "spotify_uri": "spotify:track:1gLLVtr9kIjmyoRzENZ11w",
+   "spotify_url": "https://open.spotify.com/track/1gLLVtr9kIjmyoRzENZ11w?si=Jx8pVYMqRGacsNjOimNgBQ",
+   "starts_at_ms": 4306017,
+   "starts_at": "71:46"
+  },
+  {
+   "n": 18,
+   "title": "Flying Drone",
+   "clean_title": "Flying Drone",
+   "duration_ms": 113193,
+   "spotify_uri": "spotify:track:1xdoNSWRU59XRgtOgoQ1KH",
+   "spotify_url": "https://open.spotify.com/track/1xdoNSWRU59XRgtOgoQ1KH?si=jkTsqu57QPOK-3F-AtBQSw",
+   "starts_at_ms": 4413784,
+   "starts_at": "73:33"
+  },
+  {
+   "n": 19,
+   "title": "Atmospheric Entry",
+   "clean_title": "Atmospheric Entry",
+   "duration_ms": 100985,
+   "spotify_uri": "spotify:track:3rrIDEeu3ih9dAzop5LiPk",
+   "spotify_url": "https://open.spotify.com/track/3rrIDEeu3ih9dAzop5LiPk?si=pLXOfACORo-rQ48MFUBBew",
+   "starts_at_ms": 4526977,
+   "starts_at": "75:26"
+  },
+  {
+   "n": 20,
+   "title": "No Need to Come Back",
+   "clean_title": "No Need to Come Back",
+   "duration_ms": 272909,
+   "spotify_uri": "spotify:track:31MXzK5KypH22SbSH7udKf",
+   "spotify_url": "https://open.spotify.com/track/31MXzK5KypH22SbSH7udKf?si=N61uxOryS-2B4wbyNPEIHg",
+   "starts_at_ms": 4627962,
+   "starts_at": "77:07"
+  },
+  {
+   "n": 21,
+   "title": "Imperfect Lock",
+   "clean_title": "Imperfect Lock",
+   "duration_ms": 414896,
+   "spotify_uri": "spotify:track:6PUTy3CwaxVbWuAIfAzw8X",
+   "spotify_url": "https://open.spotify.com/track/6PUTy3CwaxVbWuAIfAzw8X?si=aCjnIbRBQKWgbZ_qwI_nhQ",
+   "starts_at_ms": 4900871,
+   "starts_at": "81:40"
+  },
+  {
+   "n": 22,
+   "title": "No Time for Caution",
+   "clean_title": "No Time for Caution",
+   "duration_ms": 246271,
+   "spotify_uri": "spotify:track:5aaXqH8rgKZxg61HjECldi",
+   "spotify_url": "https://open.spotify.com/track/5aaXqH8rgKZxg61HjECldi?si=55iEnQ3lR5maAPrmulAddw",
+   "starts_at_ms": 5315767,
+   "starts_at": "88:35"
+  },
+  {
+   "n": 23,
+   "title": "What Happens Now?",
+   "clean_title": "What Happens Now?",
+   "duration_ms": 146181,
+   "spotify_uri": "spotify:track:1mFyfphkJZh8njixmeRAxF",
+   "spotify_url": "https://open.spotify.com/track/1mFyfphkJZh8njixmeRAxF?si=AVRLrgHKQ_OQQIJsRoGZJQ",
+   "starts_at_ms": 5562038,
+   "starts_at": "92:42"
+  },
+  {
+   "n": 24,
+   "title": "Who's They?",
+   "clean_title": "Who's They?",
+   "duration_ms": 437138,
+   "spotify_uri": "spotify:track:2LqPmrNUWC5xo33ONwdooI",
+   "spotify_url": "https://open.spotify.com/track/2LqPmrNUWC5xo33ONwdooI?si=373DlnBqQQyKcC0YMEgi5g",
+   "starts_at_ms": 5708219,
+   "starts_at": "95:08"
+  },
+  {
+   "n": 25,
+   "title": "Murph",
+   "clean_title": "Murph",
+   "duration_ms": 680779,
+   "spotify_uri": "spotify:track:5GQizQBj0KxTUgd3ZRzaRE",
+   "spotify_url": "https://open.spotify.com/track/5GQizQBj0KxTUgd3ZRzaRE?si=L5xUb1a3TaagXXfsWcZp3A",
+   "starts_at_ms": 6145357,
+   "starts_at": "102:25"
+  },
+  {
+   "n": 26,
+   "title": "Organ Variation",
+   "clean_title": "Organ Variation",
+   "duration_ms": 291805,
+   "spotify_uri": "spotify:track:6dkJvNZ7DJWzTFXv3KHmoT",
+   "spotify_url": "https://open.spotify.com/track/6dkJvNZ7DJWzTFXv3KHmoT?si=iT_wjeUGTzq3sTRg5xZhhA",
+   "starts_at_ms": 6826136,
+   "starts_at": "113:46"
+  },
+  {
+   "n": 27,
+   "title": "Tick-Tock",
+   "clean_title": "Tick-Tock",
+   "duration_ms": 498852,
+   "spotify_uri": "spotify:track:5Di0EOfzgABjIldD2GaMVm",
+   "spotify_url": "https://open.spotify.com/track/5Di0EOfzgABjIldD2GaMVm?si=8EvRpPp0TUCq6MPp8fwbXw",
+   "starts_at_ms": 7117941,
+   "starts_at": "118:37"
+  },
+  {
+   "n": 28,
+   "title": "Day One - Original Demo",
+   "clean_title": "Day One - Original Demo",
+   "duration_ms": 229146,
+   "spotify_uri": "spotify:track:1GelvXCuNRJkSTV8UwAAGw",
+   "spotify_url": "https://open.spotify.com/track/1GelvXCuNRJkSTV8UwAAGw?si=fA6k4ws_SCqKuoH77IdLSw",
+   "starts_at_ms": 7616793,
+   "starts_at": "126:56"
+  },
+  {
+   "n": 29,
+   "title": "Day One Dark",
+   "clean_title": "Day One Dark",
+   "duration_ms": 417240,
+   "spotify_uri": "spotify:track:1fVtXWaLht2ACju6yLRrRf",
+   "spotify_url": "https://open.spotify.com/track/1fVtXWaLht2ACju6yLRrRf?si=0wFKqr8MTH6kOWIeyiZdRg",
+   "starts_at_ms": 7845939,
+   "starts_at": "130:45"
+  },
+  {
+   "n": 30,
+   "title": "Do Not Go Gentle Into That Good Night",
+   "clean_title": "Do Not Go Gentle Into That Good Night",
+   "duration_ms": 99104,
+   "spotify_uri": "spotify:track:4vSlIeLQxLnmSMGO8VggwM",
+   "spotify_url": "https://open.spotify.com/track/4vSlIeLQxLnmSMGO8VggwM?si=jwErX27MRo2JrwE99Zf2qA",
+   "starts_at_ms": 8263179,
+   "starts_at": "137:43"
+  }
+ ],
+ "week": 23,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:32:07.326528+00:00"
+}
