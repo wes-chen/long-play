@@ -1,0 +1,81 @@
+{
+ "artist": "Suicide",
+ "album": "Suicide",
+ "spotify_uri": "spotify:album:46kw5FsFdJhNRL8wfHM9Bp",
+ "spotify_url": "https://open.spotify.com/album/46kw5FsFdJhNRL8wfHM9Bp?si=bXsQd3QNTFCB0eLZwfsSAQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Ghost Rider (2019 - Remaster)",
+   "clean_title": "Ghost Rider (2019 - Remaster)",
+   "duration_ms": 153440,
+   "spotify_uri": "spotify:track:0sTMWWSms4Mt6vy33rdqgv",
+   "spotify_url": "https://open.spotify.com/track/0sTMWWSms4Mt6vy33rdqgv?si=5Oca9wS6ShezzsBRUJG5TQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Rocket USA (2019 - Remaster)",
+   "clean_title": "Rocket USA (2019 - Remaster)",
+   "duration_ms": 256760,
+   "spotify_uri": "spotify:track:2ZA9Sw1hq8mOaFzOiPyN71",
+   "spotify_url": "https://open.spotify.com/track/2ZA9Sw1hq8mOaFzOiPyN71?si=EBQ_icdcTS-eH1KqaqCNfg",
+   "starts_at_ms": 153440,
+   "starts_at": "2:33"
+  },
+  {
+   "n": 3,
+   "title": "Cheree (2019 - Remaster)",
+   "clean_title": "Cheree (2019 - Remaster)",
+   "duration_ms": 222306,
+   "spotify_uri": "spotify:track:35ickeV5eBqwfjvMZoOb3d",
+   "spotify_url": "https://open.spotify.com/track/35ickeV5eBqwfjvMZoOb3d?si=A6aW7SwYQXG40_3bPhk8lQ",
+   "starts_at_ms": 410200,
+   "starts_at": "6:50"
+  },
+  {
+   "n": 4,
+   "title": "Johnny (2019 - Remaster)",
+   "clean_title": "Johnny (2019 - Remaster)",
+   "duration_ms": 130680,
+   "spotify_uri": "spotify:track:5q79K5JmRD4jtThKSzMNqx",
+   "spotify_url": "https://open.spotify.com/track/5q79K5JmRD4jtThKSzMNqx?si=1wOlynGETkWL3KhIfcINvQ",
+   "starts_at_ms": 632506,
+   "starts_at": "10:32"
+  },
+  {
+   "n": 5,
+   "title": "Girl (2019 - Remaster)",
+   "clean_title": "Girl (2019 - Remaster)",
+   "duration_ms": 245866,
+   "spotify_uri": "spotify:track:6yOI0Xd2ZPF2CFAKAAxwhM",
+   "spotify_url": "https://open.spotify.com/track/6yOI0Xd2ZPF2CFAKAAxwhM?si=BCXa7FmbRzKXqSs4K0xaXQ",
+   "starts_at_ms": 763186,
+   "starts_at": "12:43"
+  },
+  {
+   "n": 6,
+   "title": "Frankie Teardrop (2019 - Remaster)",
+   "clean_title": "Frankie Teardrop (2019 - Remaster)",
+   "duration_ms": 626306,
+   "spotify_uri": "spotify:track:6cIeXq9VgP8y0638xOiQpw",
+   "spotify_url": "https://open.spotify.com/track/6cIeXq9VgP8y0638xOiQpw?si=xn6un8DPTg6K5VlncXSwUg",
+   "starts_at_ms": 1009052,
+   "starts_at": "16:49"
+  },
+  {
+   "n": 7,
+   "title": "Che (2019 - Remaster)",
+   "clean_title": "Che (2019 - Remaster)",
+   "duration_ms": 289640,
+   "spotify_uri": "spotify:track:1RUnAFqAtq3A8xBIneh79O",
+   "spotify_url": "https://open.spotify.com/track/1RUnAFqAtq3A8xBIneh79O?si=Fuu94j_NQ1KLYguLGNc2Zg",
+   "starts_at_ms": 1635358,
+   "starts_at": "27:15"
+  }
+ ],
+ "week": 8,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:30:59.435464+00:00"
+}
