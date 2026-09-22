@@ -1,0 +1,121 @@
+{
+ "artist": "Neu!",
+ "album": "Neu! 2",
+ "spotify_uri": "spotify:album:0BQ6ITK2Y38ODwF7ui8Orx",
+ "spotify_url": "https://open.spotify.com/album/0BQ6ITK2Y38ODwF7ui8Orx?si=qHM4AuyFRneDtwQsiw-RDA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Fur immer",
+   "clean_title": "Fur immer",
+   "duration_ms": 677493,
+   "spotify_uri": "spotify:track:6XASrxFqm5ZZD3EQ9pIEsb",
+   "spotify_url": "https://open.spotify.com/track/6XASrxFqm5ZZD3EQ9pIEsb?si=E912VVxtTyCDfBik3Ub0Tw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Spitzenqualitat",
+   "clean_title": "Spitzenqualitat",
+   "duration_ms": 215333,
+   "spotify_uri": "spotify:track:79BpqOLH5FuuNrMOjz5Zch",
+   "spotify_url": "https://open.spotify.com/track/79BpqOLH5FuuNrMOjz5Zch?si=eHMflyeeQP6-aMlOm42Eqw",
+   "starts_at_ms": 677493,
+   "starts_at": "11:17"
+  },
+  {
+   "n": 3,
+   "title": "Gedenkminute (fuer A+K)",
+   "clean_title": "Gedenkminute (fuer A+K)",
+   "duration_ms": 126173,
+   "spotify_uri": "spotify:track:2fY2R1cwhEwARBWOWuGyrb",
+   "spotify_url": "https://open.spotify.com/track/2fY2R1cwhEwARBWOWuGyrb?si=dBUQ5KsPSXSNhy0rSVGmZw",
+   "starts_at_ms": 892826,
+   "starts_at": "14:52"
+  },
+  {
+   "n": 4,
+   "title": "Lila Engel (Lilac Angel)",
+   "clean_title": "Lila Engel (Lilac Angel)",
+   "duration_ms": 277800,
+   "spotify_uri": "spotify:track:2LyqToCGEHXbVfuWMaSHQA",
+   "spotify_url": "https://open.spotify.com/track/2LyqToCGEHXbVfuWMaSHQA?si=IDahRFajQeqE2cVX2pLsNA",
+   "starts_at_ms": 1018999,
+   "starts_at": "16:58"
+  },
+  {
+   "n": 5,
+   "title": "Neuschnee 78",
+   "clean_title": "Neuschnee 78",
+   "duration_ms": 152600,
+   "spotify_uri": "spotify:track:77rPMzhPdKzJ5PRTg0Tb0y",
+   "spotify_url": "https://open.spotify.com/track/77rPMzhPdKzJ5PRTg0Tb0y?si=jGLhJ-vORMmShatoM-Gtkg",
+   "starts_at_ms": 1296799,
+   "starts_at": "21:36"
+  },
+  {
+   "n": 6,
+   "title": "Super 16",
+   "clean_title": "Super 16",
+   "duration_ms": 219266,
+   "spotify_uri": "spotify:track:2VyXTOJA3Apf1SGAhKXtR2",
+   "spotify_url": "https://open.spotify.com/track/2VyXTOJA3Apf1SGAhKXtR2?si=6nRE0WsjRjCmPjHvq920Jw",
+   "starts_at_ms": 1449399,
+   "starts_at": "24:09"
+  },
+  {
+   "n": 7,
+   "title": "Neuschnee",
+   "clean_title": "Neuschnee",
+   "duration_ms": 247600,
+   "spotify_uri": "spotify:track:5p0eDgAbAYSK7ItavpgKjc",
+   "spotify_url": "https://open.spotify.com/track/5p0eDgAbAYSK7ItavpgKjc?si=RSzX1B9ETEe1Xk5PL4K3pg",
+   "starts_at_ms": 1668665,
+   "starts_at": "27:48"
+  },
+  {
+   "n": 8,
+   "title": "Cassetto",
+   "clean_title": "Cassetto",
+   "duration_ms": 108933,
+   "spotify_uri": "spotify:track:3tD0pmi7chP6U5JrDgEw21",
+   "spotify_url": "https://open.spotify.com/track/3tD0pmi7chP6U5JrDgEw21?si=rrADY_j5QQmbqqiY1LwQRg",
+   "starts_at_ms": 1916265,
+   "starts_at": "31:56"
+  },
+  {
+   "n": 9,
+   "title": "Super 78",
+   "clean_title": "Super 78",
+   "duration_ms": 96133,
+   "spotify_uri": "spotify:track:7Ei3RBnGz4nnD56QUlKLbl",
+   "spotify_url": "https://open.spotify.com/track/7Ei3RBnGz4nnD56QUlKLbl?si=2HccBfikR4O3vUPceZH2zg",
+   "starts_at_ms": 2025198,
+   "starts_at": "33:45"
+  },
+  {
+   "n": 10,
+   "title": "Hallo Excentrico",
+   "clean_title": "Hallo Excentrico",
+   "duration_ms": 224933,
+   "spotify_uri": "spotify:track:1V3BtyygQhseEuBvZF5YH4",
+   "spotify_url": "https://open.spotify.com/track/1V3BtyygQhseEuBvZF5YH4?si=TGYFFdNDTpi3YVrSQ3uHqw",
+   "starts_at_ms": 2121331,
+   "starts_at": "35:21"
+  },
+  {
+   "n": 11,
+   "title": "Super",
+   "clean_title": "Super",
+   "duration_ms": 191066,
+   "spotify_uri": "spotify:track:2Y7k43wwOs1xmYDwzRhYQW",
+   "spotify_url": "https://open.spotify.com/track/2Y7k43wwOs1xmYDwzRhYQW?si=L4QYVeP5QnqCDnfw3pRoYw",
+   "starts_at_ms": 2346264,
+   "starts_at": "39:06"
+  }
+ ],
+ "week": 8,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:56.844684+00:00"
+}
