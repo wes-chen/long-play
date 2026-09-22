@@ -1,0 +1,181 @@
+{
+ "artist": "The Beatles",
+ "album": "Abbey Road",
+ "spotify_uri": "spotify:album:5gRj0X8Bl2dKidoC428AoB",
+ "spotify_url": "https://open.spotify.com/album/5gRj0X8Bl2dKidoC428AoB?si=tgQ0jBFuTgO0QXemwqL3sw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Come Together",
+   "clean_title": "Come Together",
+   "duration_ms": 222650,
+   "spotify_uri": "spotify:track:2NOSdl3aFvXynz2ia4IEf5",
+   "spotify_url": "https://open.spotify.com/track/2NOSdl3aFvXynz2ia4IEf5?si=vljqhJj_S_GlnjsUOIp8OA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Something",
+   "clean_title": "Something",
+   "duration_ms": 203307,
+   "spotify_uri": "spotify:track:3VpqwTdfSsxTyN7k4SeiZG",
+   "spotify_url": "https://open.spotify.com/track/3VpqwTdfSsxTyN7k4SeiZG?si=pn2X7vVsS3Oi1BIluUuEiQ",
+   "starts_at_ms": 222650,
+   "starts_at": "3:42"
+  },
+  {
+   "n": 3,
+   "title": "Maxwell's Silver Hammer",
+   "clean_title": "Maxwell's Silver Hammer",
+   "duration_ms": 199419,
+   "spotify_uri": "spotify:track:1m6LtmYV1KJtyjIIQn68b9",
+   "spotify_url": "https://open.spotify.com/track/1m6LtmYV1KJtyjIIQn68b9?si=xxKLfV3OToO-8Dt9Fxmpkg",
+   "starts_at_ms": 425957,
+   "starts_at": "7:05"
+  },
+  {
+   "n": 4,
+   "title": "Oh Darling",
+   "clean_title": "Oh Darling",
+   "duration_ms": 140898,
+   "spotify_uri": "spotify:track:5fJSqSHyIoTC2qVE3FdxjL",
+   "spotify_url": "https://open.spotify.com/track/5fJSqSHyIoTC2qVE3FdxjL?si=xDD8xEfCQ6e-5dqgs4HjXA",
+   "starts_at_ms": 625376,
+   "starts_at": "10:25"
+  },
+  {
+   "n": 5,
+   "title": "Octopus's Garden",
+   "clean_title": "Octopus's Garden",
+   "duration_ms": 177449,
+   "spotify_uri": "spotify:track:4nvIEBfHSaafF08wFRgoaO",
+   "spotify_url": "https://open.spotify.com/track/4nvIEBfHSaafF08wFRgoaO?si=tPWCyq3PS0Cs9Oqs6KJUjw",
+   "starts_at_ms": 766274,
+   "starts_at": "12:46"
+  },
+  {
+   "n": 6,
+   "title": "Here Comes the Sun",
+   "clean_title": "Here Comes the Sun",
+   "duration_ms": 214956,
+   "spotify_uri": "spotify:track:7BiO4Rva99THM0hSvqVpdR",
+   "spotify_url": "https://open.spotify.com/track/7BiO4Rva99THM0hSvqVpdR?si=S3f77qpaQeKtqEyf3dN-Zw",
+   "starts_at_ms": 943723,
+   "starts_at": "15:43"
+  },
+  {
+   "n": 7,
+   "title": "I Want You (She's So Heavy)",
+   "clean_title": "I Want You (She's So Heavy)",
+   "duration_ms": 152820,
+   "spotify_uri": "spotify:track:5bxbzEBzCigFFCEcxBDsnm",
+   "spotify_url": "https://open.spotify.com/track/5bxbzEBzCigFFCEcxBDsnm?si=XUCaBxZXRRG3P7yFs8YInQ",
+   "starts_at_ms": 1158679,
+   "starts_at": "19:18"
+  },
+  {
+   "n": 8,
+   "title": "Because",
+   "clean_title": "Because",
+   "duration_ms": 178536,
+   "spotify_uri": "spotify:track:6KDP2Peq0lJ7Cpfl2qJA96",
+   "spotify_url": "https://open.spotify.com/track/6KDP2Peq0lJ7Cpfl2qJA96?si=I5JUM1P2TZqE_d9lrUbh3w",
+   "starts_at_ms": 1311499,
+   "starts_at": "21:51"
+  },
+  {
+   "n": 9,
+   "title": "You Never Give Me Your Money",
+   "clean_title": "You Never Give Me Your Money",
+   "duration_ms": 196588,
+   "spotify_uri": "spotify:track:6wl8dAzs4nkAWyOqJ3T02Q",
+   "spotify_url": "https://open.spotify.com/track/6wl8dAzs4nkAWyOqJ3T02Q?si=Ou0PQFlNR12c3uyBXQgctQ",
+   "starts_at_ms": 1490035,
+   "starts_at": "24:50"
+  },
+  {
+   "n": 10,
+   "title": "Sun King",
+   "clean_title": "Sun King",
+   "duration_ms": 137672,
+   "spotify_uri": "spotify:track:1elmxhHHgWZ1IfqWTuHoOQ",
+   "spotify_url": "https://open.spotify.com/track/1elmxhHHgWZ1IfqWTuHoOQ?si=S1vsMZ_rRAavGF4-kGPsOQ",
+   "starts_at_ms": 1686623,
+   "starts_at": "28:06"
+  },
+  {
+   "n": 11,
+   "title": "Mean Mr Mustard",
+   "clean_title": "Mean Mr Mustard",
+   "duration_ms": 80166,
+   "spotify_uri": "spotify:track:3izCW6OlntfCIs3PVBNaDO",
+   "spotify_url": "https://open.spotify.com/track/3izCW6OlntfCIs3PVBNaDO?si=S_7ABh2NTHG3D5-e8alDeg",
+   "starts_at_ms": 1824295,
+   "starts_at": "30:24"
+  },
+  {
+   "n": 12,
+   "title": "Polythene Pam",
+   "clean_title": "Polythene Pam",
+   "duration_ms": 122236,
+   "spotify_uri": "spotify:track:2RNwLsLJEHzpTZz14Dadrr",
+   "spotify_url": "https://open.spotify.com/track/2RNwLsLJEHzpTZz14Dadrr?si=urU2c1xwT-y52B7ln6uvmA",
+   "starts_at_ms": 1904461,
+   "starts_at": "31:44"
+  },
+  {
+   "n": 13,
+   "title": "She Came in Through the Bathroom Window",
+   "clean_title": "She Came in Through the Bathroom Window",
+   "duration_ms": 120000,
+   "spotify_uri": "spotify:track:4AZ3VRVNW2TfTedXP5tklX",
+   "spotify_url": "https://open.spotify.com/track/4AZ3VRVNW2TfTedXP5tklX?si=3E6q2SnYR2Gbc1gNlRgKbg",
+   "starts_at_ms": 2026697,
+   "starts_at": "33:46"
+  },
+  {
+   "n": 14,
+   "title": "Golden Slumbers",
+   "clean_title": "Golden Slumbers",
+   "duration_ms": 144615,
+   "spotify_uri": "spotify:track:2o5FSMZrFsVxMgzui7IA3O",
+   "spotify_url": "https://open.spotify.com/track/2o5FSMZrFsVxMgzui7IA3O?si=hONwIUxXRZeXbpwDctbnkA",
+   "starts_at_ms": 2146697,
+   "starts_at": "35:46"
+  },
+  {
+   "n": 15,
+   "title": "Carry That Weight",
+   "clean_title": "Carry That Weight",
+   "duration_ms": 90185,
+   "spotify_uri": "spotify:track:4DHBm0nIC5zpgFeR3hyJH5",
+   "spotify_url": "https://open.spotify.com/track/4DHBm0nIC5zpgFeR3hyJH5?si=zbsUyqzoTRme4V3X4sCU4A",
+   "starts_at_ms": 2291312,
+   "starts_at": "38:11"
+  },
+  {
+   "n": 16,
+   "title": "The End",
+   "clean_title": "The End",
+   "duration_ms": 52144,
+   "spotify_uri": "spotify:track:0ulRAYq4vwe4mS21tknyTP",
+   "spotify_url": "https://open.spotify.com/track/0ulRAYq4vwe4mS21tknyTP?si=18vAP1LwRlaQj1gsIC9lUg",
+   "starts_at_ms": 2381497,
+   "starts_at": "39:41"
+  },
+  {
+   "n": 17,
+   "title": "Her Majesty",
+   "clean_title": "Her Majesty",
+   "duration_ms": 142040,
+   "spotify_uri": "spotify:track:3YVddUF3Ljegi2xXkeR4bv",
+   "spotify_url": "https://open.spotify.com/track/3YVddUF3Ljegi2xXkeR4bv?si=BC6iG96MQSa9cQ0Fa8vTyQ",
+   "starts_at_ms": 2433641,
+   "starts_at": "40:33"
+  }
+ ],
+ "week": 2,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:27.570927+00:00"
+}
