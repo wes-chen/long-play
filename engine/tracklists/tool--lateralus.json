@@ -1,0 +1,141 @@
+{
+ "artist": "Tool",
+ "album": "Lateralus",
+ "spotify_uri": "spotify:album:5l5m1hnH4punS1GQXgEi3T",
+ "spotify_url": "https://open.spotify.com/album/5l5m1hnH4punS1GQXgEi3T?si=Zf08hu9YQIGpuwKZGN4oQA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "The Grudge",
+   "clean_title": "The Grudge",
+   "duration_ms": 516853,
+   "spotify_uri": "spotify:track:6ZsZxNP4Iwdyp3kd5oFFQN",
+   "spotify_url": "https://open.spotify.com/track/6ZsZxNP4Iwdyp3kd5oFFQN?si=0wRThLGWRWKAP1gAKcwnEw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Eon Blue Apocalypse",
+   "clean_title": "Eon Blue Apocalypse",
+   "duration_ms": 64120,
+   "spotify_uri": "spotify:track:5aVJ5rv7ghWSkQaqP726tE",
+   "spotify_url": "https://open.spotify.com/track/5aVJ5rv7ghWSkQaqP726tE?si=reUU_SRTQISsD3X56NqgPg",
+   "starts_at_ms": 516853,
+   "starts_at": "8:36"
+  },
+  {
+   "n": 3,
+   "title": "The Patient",
+   "clean_title": "The Patient",
+   "duration_ms": 434093,
+   "spotify_uri": "spotify:track:0Klbxk3g96Qae4DbCnUNcT",
+   "spotify_url": "https://open.spotify.com/track/0Klbxk3g96Qae4DbCnUNcT?si=qrQLB6-BSpGBjpxhM729qQ",
+   "starts_at_ms": 580973,
+   "starts_at": "9:40"
+  },
+  {
+   "n": 4,
+   "title": "Mantra",
+   "clean_title": "Mantra",
+   "duration_ms": 72672,
+   "spotify_uri": "spotify:track:4KVTRIZIj1WWIxitbREDnK",
+   "spotify_url": "https://open.spotify.com/track/4KVTRIZIj1WWIxitbREDnK?si=nOEMdaJMTGKEk18csuhA7A",
+   "starts_at_ms": 1015066,
+   "starts_at": "16:55"
+  },
+  {
+   "n": 5,
+   "title": "Schism",
+   "clean_title": "Schism",
+   "duration_ms": 407860,
+   "spotify_uri": "spotify:track:55mJleti2WfWEFNFcBduhc",
+   "spotify_url": "https://open.spotify.com/track/55mJleti2WfWEFNFcBduhc?si=UFRpk8RcR3q3KcA0qNgiGw",
+   "starts_at_ms": 1087738,
+   "starts_at": "18:07"
+  },
+  {
+   "n": 6,
+   "title": "Parabol",
+   "clean_title": "Parabol",
+   "duration_ms": 184396,
+   "spotify_uri": "spotify:track:3EeoMkZF8NhX9FdCSxG8MB",
+   "spotify_url": "https://open.spotify.com/track/3EeoMkZF8NhX9FdCSxG8MB?si=7uYYlh5fRC6p5zB-zRWpyg",
+   "starts_at_ms": 1495598,
+   "starts_at": "24:55"
+  },
+  {
+   "n": 7,
+   "title": "Parabola",
+   "clean_title": "Parabola",
+   "duration_ms": 363857,
+   "spotify_uri": "spotify:track:1vxu8vMNshg5J8z3oA7QJZ",
+   "spotify_url": "https://open.spotify.com/track/1vxu8vMNshg5J8z3oA7QJZ?si=WnPaqv0YQ6mNvGmammdfnA",
+   "starts_at_ms": 1679994,
+   "starts_at": "27:59"
+  },
+  {
+   "n": 8,
+   "title": "Ticks & Leeches",
+   "clean_title": "Ticks & Leeches",
+   "duration_ms": 490248,
+   "spotify_uri": "spotify:track:0Cnx6PGogxIE2RnDcnoeK8",
+   "spotify_url": "https://open.spotify.com/track/0Cnx6PGogxIE2RnDcnoeK8?si=TZLVhH6SR1GZqC01qMlLmg",
+   "starts_at_ms": 2043851,
+   "starts_at": "34:03"
+  },
+  {
+   "n": 9,
+   "title": "Lateralus",
+   "clean_title": "Lateralus",
+   "duration_ms": 564538,
+   "spotify_uri": "spotify:track:7tvuLLroI0n6uYBWuFig5d",
+   "spotify_url": "https://open.spotify.com/track/7tvuLLroI0n6uYBWuFig5d?si=OMB6obdrQNGd-lLh6KpBjg",
+   "starts_at_ms": 2534099,
+   "starts_at": "42:14"
+  },
+  {
+   "n": 10,
+   "title": "Disposition",
+   "clean_title": "Disposition",
+   "duration_ms": 286079,
+   "spotify_uri": "spotify:track:1FRlNrHd4OGNIEVgFuX9Fu",
+   "spotify_url": "https://open.spotify.com/track/1FRlNrHd4OGNIEVgFuX9Fu?si=ZvyqTs4GSpagbF6k3GOp-A",
+   "starts_at_ms": 3098637,
+   "starts_at": "51:38"
+  },
+  {
+   "n": 11,
+   "title": "Reflection",
+   "clean_title": "Reflection",
+   "duration_ms": 667924,
+   "spotify_uri": "spotify:track:0R7HFX1LW3E0ZR5BnAJLHz",
+   "spotify_url": "https://open.spotify.com/track/0R7HFX1LW3E0ZR5BnAJLHz?si=2uTrqlTCSuOFiWeU4URz4g",
+   "starts_at_ms": 3384716,
+   "starts_at": "56:24"
+  },
+  {
+   "n": 12,
+   "title": "Triad",
+   "clean_title": "Triad",
+   "duration_ms": 397875,
+   "spotify_uri": "spotify:track:2D9rd6TIpqmDkog5Mx8kxl",
+   "spotify_url": "https://open.spotify.com/track/2D9rd6TIpqmDkog5Mx8kxl?si=-uv6mEg6Ro6JeDWts7AByw",
+   "starts_at_ms": 4052640,
+   "starts_at": "67:32"
+  },
+  {
+   "n": 13,
+   "title": "Faaip De Oiad",
+   "clean_title": "Faaip De Oiad",
+   "duration_ms": 158999,
+   "spotify_uri": "spotify:track:3oEgMtjTzGgXTFdO0IW2M7",
+   "spotify_url": "https://open.spotify.com/track/3oEgMtjTzGgXTFdO0IW2M7?si=KDnTOiTVTuSgHkvEZl6dPw",
+   "starts_at_ms": 4450515,
+   "starts_at": "74:10"
+  }
+ ],
+ "week": 17,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:40.362503+00:00"
+}
