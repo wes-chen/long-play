@@ -1,0 +1,161 @@
+{
+ "artist": "Kendrick Lamar",
+ "album": "To Pimp a Butterfly",
+ "spotify_uri": "spotify:album:1bkN9nIkkCnXeG4yitVS1J",
+ "spotify_url": "https://open.spotify.com/album/1bkN9nIkkCnXeG4yitVS1J?si=l0UyIyTnTLuNAgYSLDbjTg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "F*ck Your Ethnicity",
+   "clean_title": "F*ck Your Ethnicity",
+   "duration_ms": 224671,
+   "spotify_uri": "spotify:track:1gXH8hT9dxsBqbRy7h2iC8",
+   "spotify_url": "https://open.spotify.com/track/1gXH8hT9dxsBqbRy7h2iC8?si=KSzQh6jrS2WktkzB7YM2vw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Hol' Up",
+   "clean_title": "Hol' Up",
+   "duration_ms": 173158,
+   "spotify_uri": "spotify:track:6cfVDaIdvDtYH91RqC6Wox",
+   "spotify_url": "https://open.spotify.com/track/6cfVDaIdvDtYH91RqC6Wox?si=I_mLE6vNRgWU0T04w4lbfQ",
+   "starts_at_ms": 224671,
+   "starts_at": "3:44"
+  },
+  {
+   "n": 3,
+   "title": "A.D.H.D",
+   "clean_title": "A.D.H.D",
+   "duration_ms": 215509,
+   "spotify_uri": "spotify:track:2Fw5S2gaOSZzdN5dFoC2dj",
+   "spotify_url": "https://open.spotify.com/track/2Fw5S2gaOSZzdN5dFoC2dj?si=UW-Kb0DeQQ2UAPIh_1Bpmw",
+   "starts_at_ms": 397829,
+   "starts_at": "6:37"
+  },
+  {
+   "n": 4,
+   "title": "No Make-Up (Her Vice) (feat. Colin Munroe)",
+   "clean_title": "No Make-Up (Her Vice) (feat. Colin Munroe)",
+   "duration_ms": 235921,
+   "spotify_uri": "spotify:track:3L2YOO6dDiB91M1AbQ0CCR",
+   "spotify_url": "https://open.spotify.com/track/3L2YOO6dDiB91M1AbQ0CCR?si=KZjxCycZQbuP16O4RKuxxw",
+   "starts_at_ms": 613338,
+   "starts_at": "10:13"
+  },
+  {
+   "n": 5,
+   "title": "Tammy's Song (Her Evils)",
+   "clean_title": "Tammy's Song (Her Evils)",
+   "duration_ms": 161670,
+   "spotify_uri": "spotify:track:22gXA7HlEd0z13zdc3hju7",
+   "spotify_url": "https://open.spotify.com/track/22gXA7HlEd0z13zdc3hju7?si=blT3QyxTSxCT0nnUY17Kxg",
+   "starts_at_ms": 849259,
+   "starts_at": "14:09"
+  },
+  {
+   "n": 6,
+   "title": "Chapter Six",
+   "clean_title": "Chapter Six",
+   "duration_ms": 161137,
+   "spotify_uri": "spotify:track:3DBFOXJKitLKUjlyOCX7ow",
+   "spotify_url": "https://open.spotify.com/track/3DBFOXJKitLKUjlyOCX7ow?si=GAN2-0-TTLG-3d5P_WKFGg",
+   "starts_at_ms": 1010929,
+   "starts_at": "16:50"
+  },
+  {
+   "n": 7,
+   "title": "Ronald Reagan Era",
+   "clean_title": "Ronald Reagan Era",
+   "duration_ms": 216899,
+   "spotify_uri": "spotify:track:71d1KcqByBe8cl0NhFUKVU",
+   "spotify_url": "https://open.spotify.com/track/71d1KcqByBe8cl0NhFUKVU?si=-vttlFUPQmGPCTunQKpN_A",
+   "starts_at_ms": 1172066,
+   "starts_at": "19:32"
+  },
+  {
+   "n": 8,
+   "title": "Poe Mans Dreams (His Vice) (feat. GLC)",
+   "clean_title": "Poe Mans Dreams (His Vice) (feat. GLC)",
+   "duration_ms": 261874,
+   "spotify_uri": "spotify:track:5eOmhymcp3AisKPVAytrs6",
+   "spotify_url": "https://open.spotify.com/track/5eOmhymcp3AisKPVAytrs6?si=NaccbQ_sQquJOLrBPgJq_g",
+   "starts_at_ms": 1388965,
+   "starts_at": "23:08"
+  },
+  {
+   "n": 9,
+   "title": "Chapter Ten",
+   "clean_title": "Chapter Ten",
+   "duration_ms": 75535,
+   "spotify_uri": "spotify:track:63OYaVrz3LIarx3l2DxCKD",
+   "spotify_url": "https://open.spotify.com/track/63OYaVrz3LIarx3l2DxCKD?si=p5tSvtIITwKufXW2cWvjgw",
+   "starts_at_ms": 1650839,
+   "starts_at": "27:30"
+  },
+  {
+   "n": 10,
+   "title": "Keisha's Song (Her Pain) (feat. Ashtro Bot)",
+   "clean_title": "Keisha's Song (Her Pain) (feat. Ashtro Bot)",
+   "duration_ms": 227291,
+   "spotify_uri": "spotify:track:7AaET28qSzlkFBcySHh4ES",
+   "spotify_url": "https://open.spotify.com/track/7AaET28qSzlkFBcySHh4ES?si=OMtoh0WkQMWL9MwAw-6y_g",
+   "starts_at_ms": 1726374,
+   "starts_at": "28:46"
+  },
+  {
+   "n": 11,
+   "title": "Rigamortus",
+   "clean_title": "Rigamortus",
+   "duration_ms": 168591,
+   "spotify_uri": "spotify:track:2lD6AoA8qf2t4Dkf2TcmNK",
+   "spotify_url": "https://open.spotify.com/track/2lD6AoA8qf2t4Dkf2TcmNK?si=YsgPKcT-SUOHaXeOuXn84w",
+   "starts_at_ms": 1953665,
+   "starts_at": "32:33"
+  },
+  {
+   "n": 12,
+   "title": "Kush & Corinthians (feat. BJ The Chicago Kid)",
+   "clean_title": "Kush & Corinthians (feat. BJ The Chicago Kid)",
+   "duration_ms": 304668,
+   "spotify_uri": "spotify:track:2QVYTN3Z0IGLVF7YEQN5EJ",
+   "spotify_url": "https://open.spotify.com/track/2QVYTN3Z0IGLVF7YEQN5EJ?si=Oww-AsSXQYyFOannxOoIqg",
+   "starts_at_ms": 2122256,
+   "starts_at": "35:22"
+  },
+  {
+   "n": 13,
+   "title": "Blow My High (Members Only)",
+   "clean_title": "Blow My High (Members Only)",
+   "duration_ms": 215791,
+   "spotify_uri": "spotify:track:1FRF0NHXBW4ecdulGkTzJY",
+   "spotify_url": "https://open.spotify.com/track/1FRF0NHXBW4ecdulGkTzJY?si=mmAwmAZaQGC0X953aTfJeg",
+   "starts_at_ms": 2426924,
+   "starts_at": "40:26"
+  },
+  {
+   "n": 14,
+   "title": "Ab-Souls Outro (feat. Ab-Soul)",
+   "clean_title": "Ab-Souls Outro (feat. Ab-Soul)",
+   "duration_ms": 350001,
+   "spotify_uri": "spotify:track:4VaL54I6TlzghRTzOhfr7L",
+   "spotify_url": "https://open.spotify.com/track/4VaL54I6TlzghRTzOhfr7L?si=p7OLG4abTwiplq9gHw6DXw",
+   "starts_at_ms": 2642715,
+   "starts_at": "44:02"
+  },
+  {
+   "n": 15,
+   "title": "HiiiPower",
+   "clean_title": "HiiiPower",
+   "duration_ms": 279854,
+   "spotify_uri": "spotify:track:4WEuEfFiczWxblHyuucSBL",
+   "spotify_url": "https://open.spotify.com/track/4WEuEfFiczWxblHyuucSBL?si=MO1_-M8ESgmBc19QG60gLg",
+   "starts_at_ms": 2992716,
+   "starts_at": "49:52"
+  }
+ ],
+ "week": 2,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:28.539801+00:00"
+}
