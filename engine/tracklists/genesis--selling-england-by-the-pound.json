@@ -1,0 +1,91 @@
+{
+ "artist": "Genesis",
+ "album": "Selling England by the Pound",
+ "spotify_uri": "spotify:album:1rZGSWC3pMmejDwYG0ZXma",
+ "spotify_url": "https://open.spotify.com/album/1rZGSWC3pMmejDwYG0ZXma?si=rkl6dhdwRl2v-G_6gkMfBA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Dancing with the Moonlit Knight - 2007 Stereo Mix",
+   "clean_title": "Dancing with the Moonlit Knight - 2007 Stereo Mix",
+   "duration_ms": 480466,
+   "spotify_uri": "spotify:track:1a1xoTlWpndO6azw57dKdJ",
+   "spotify_url": "https://open.spotify.com/track/1a1xoTlWpndO6azw57dKdJ?si=CUbf7c9pSTOZxnNkyY1CgQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "I Know What I Like (In Your Wardrobe) - 2007 Stereo Mix",
+   "clean_title": "I Know What I Like (In Your Wardrobe) - 2007 Stereo Mix",
+   "duration_ms": 250400,
+   "spotify_uri": "spotify:track:31VLSfg86NJN74rUHQi7e8",
+   "spotify_url": "https://open.spotify.com/track/31VLSfg86NJN74rUHQi7e8?si=PqbHlIuPSW2rjnAO9b8qCQ",
+   "starts_at_ms": 480466,
+   "starts_at": "8:00"
+  },
+  {
+   "n": 3,
+   "title": "Firth of Fifth - 2007 Stereo Mix",
+   "clean_title": "Firth of Fifth - 2007 Stereo Mix",
+   "duration_ms": 570986,
+   "spotify_uri": "spotify:track:6UpMG6BDOd5xecMTu5r3sj",
+   "spotify_url": "https://open.spotify.com/track/6UpMG6BDOd5xecMTu5r3sj?si=iOoEgk8NRyKfSXSHclqYdQ",
+   "starts_at_ms": 730866,
+   "starts_at": "12:10"
+  },
+  {
+   "n": 4,
+   "title": "More Fool Me - 2007 Stereo Mix",
+   "clean_title": "More Fool Me - 2007 Stereo Mix",
+   "duration_ms": 190640,
+   "spotify_uri": "spotify:track:4EoKbid1MFccC0VCtO5ehz",
+   "spotify_url": "https://open.spotify.com/track/4EoKbid1MFccC0VCtO5ehz?si=8DptbYNEReeFHqpBCane5w",
+   "starts_at_ms": 1301852,
+   "starts_at": "21:41"
+  },
+  {
+   "n": 5,
+   "title": "The Battle of Epping Forest - 2007 Stereo Mix",
+   "clean_title": "The Battle of Epping Forest - 2007 Stereo Mix",
+   "duration_ms": 703400,
+   "spotify_uri": "spotify:track:0GSNE8polfFfxGWnyx4knV",
+   "spotify_url": "https://open.spotify.com/track/0GSNE8polfFfxGWnyx4knV?si=2O5gS9LrRvaXAOf_sLBggA",
+   "starts_at_ms": 1492492,
+   "starts_at": "24:52"
+  },
+  {
+   "n": 6,
+   "title": "After the Ordeal - 2007 Stereo Mix",
+   "clean_title": "After the Ordeal - 2007 Stereo Mix",
+   "duration_ms": 255040,
+   "spotify_uri": "spotify:track:61NCzmaWiG6eF5cbWvRiU8",
+   "spotify_url": "https://open.spotify.com/track/61NCzmaWiG6eF5cbWvRiU8?si=OuGXntDKSOinaHIjYzQL9w",
+   "starts_at_ms": 2195892,
+   "starts_at": "36:35"
+  },
+  {
+   "n": 7,
+   "title": "The Cinema Show - 2007 Stereo Mix",
+   "clean_title": "The Cinema Show - 2007 Stereo Mix",
+   "duration_ms": 648680,
+   "spotify_uri": "spotify:track:5k10LV4157WEzdFmB97NQR",
+   "spotify_url": "https://open.spotify.com/track/5k10LV4157WEzdFmB97NQR?si=Fy0-TRkQSXafxdrAwUljKQ",
+   "starts_at_ms": 2450932,
+   "starts_at": "40:50"
+  },
+  {
+   "n": 8,
+   "title": "Aisle of Plenty - 2007 Stereo Mix",
+   "clean_title": "Aisle of Plenty - 2007 Stereo Mix",
+   "duration_ms": 118186,
+   "spotify_uri": "spotify:track:2a0HWU7HrAPfYmW0pUGMTJ",
+   "spotify_url": "https://open.spotify.com/track/2a0HWU7HrAPfYmW0pUGMTJ?si=Y29gebMVQ-WuySF5yhJHCw",
+   "starts_at_ms": 3099612,
+   "starts_at": "51:39"
+  }
+ ],
+ "week": 3,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:34.390131+00:00"
+}
