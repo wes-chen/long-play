@@ -1,0 +1,121 @@
+{
+ "artist": "Jeff Buckley",
+ "album": "Grace",
+ "spotify_uri": "spotify:album:7yQtjAjhtNi76KRu05XWFS",
+ "spotify_url": "https://open.spotify.com/album/7yQtjAjhtNi76KRu05XWFS?si=VksQegazSyiYBscxIuPCkQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Mojo Pin",
+   "clean_title": "Mojo Pin",
+   "duration_ms": 342466,
+   "spotify_uri": "spotify:track:3wBy12K7BHKHJspUwJw8fq",
+   "spotify_url": "https://open.spotify.com/track/3wBy12K7BHKHJspUwJw8fq?si=O7CrOCWzQve8pH1L_APzkQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Grace",
+   "clean_title": "Grace",
+   "duration_ms": 322053,
+   "spotify_uri": "spotify:track:64SIlhd3BaHCCMSfajXG7l",
+   "spotify_url": "https://open.spotify.com/track/64SIlhd3BaHCCMSfajXG7l?si=o6aL1LO5TGm0XU3tp1mf8w",
+   "starts_at_ms": 342466,
+   "starts_at": "5:42"
+  },
+  {
+   "n": 3,
+   "title": "Last Goodbye",
+   "clean_title": "Last Goodbye",
+   "duration_ms": 275733,
+   "spotify_uri": "spotify:track:0y5CnV2idm2KkQEudDjfDT",
+   "spotify_url": "https://open.spotify.com/track/0y5CnV2idm2KkQEudDjfDT?si=S_pxzKWjRjOKryU7F3JVIw",
+   "starts_at_ms": 664519,
+   "starts_at": "11:04"
+  },
+  {
+   "n": 4,
+   "title": "Lilac Wine",
+   "clean_title": "Lilac Wine",
+   "duration_ms": 272440,
+   "spotify_uri": "spotify:track:1StXVL5gClph4z4XzanYko",
+   "spotify_url": "https://open.spotify.com/track/1StXVL5gClph4z4XzanYko?si=8qa5JVA6T9Stj08I-9yD6Q",
+   "starts_at_ms": 940252,
+   "starts_at": "15:40"
+  },
+  {
+   "n": 5,
+   "title": "So Real",
+   "clean_title": "So Real",
+   "duration_ms": 283533,
+   "spotify_uri": "spotify:track:6PBzdsMi6YNdYAevzozBRi",
+   "spotify_url": "https://open.spotify.com/track/6PBzdsMi6YNdYAevzozBRi?si=PW98t2qaR8yZTV0BKozydQ",
+   "starts_at_ms": 1212692,
+   "starts_at": "20:12"
+  },
+  {
+   "n": 6,
+   "title": "Hallelujah",
+   "clean_title": "Hallelujah",
+   "duration_ms": 413813,
+   "spotify_uri": "spotify:track:3pRaLNL3b8x5uBOcsgvdqM",
+   "spotify_url": "https://open.spotify.com/track/3pRaLNL3b8x5uBOcsgvdqM?si=KpEegwyNQty9KBsLTDlYbA",
+   "starts_at_ms": 1496225,
+   "starts_at": "24:56"
+  },
+  {
+   "n": 7,
+   "title": "Lover, You Should've Come Over",
+   "clean_title": "Lover, You Should've Come Over",
+   "duration_ms": 404213,
+   "spotify_uri": "spotify:track:6Jv7kjGkhY2fT4yuBF3aTz",
+   "spotify_url": "https://open.spotify.com/track/6Jv7kjGkhY2fT4yuBF3aTz?si=aYcTPzyDT1KLQWZIHzHCgw",
+   "starts_at_ms": 1910038,
+   "starts_at": "31:50"
+  },
+  {
+   "n": 8,
+   "title": "Corpus Christi Carol",
+   "clean_title": "Corpus Christi Carol",
+   "duration_ms": 176586,
+   "spotify_uri": "spotify:track:4apuooN0LA5LZXeHog3nvb",
+   "spotify_url": "https://open.spotify.com/track/4apuooN0LA5LZXeHog3nvb?si=8Kdv-sduRq2inRfrkErsMg",
+   "starts_at_ms": 2314251,
+   "starts_at": "38:34"
+  },
+  {
+   "n": 9,
+   "title": "Eternal Life",
+   "clean_title": "Eternal Life",
+   "duration_ms": 292360,
+   "spotify_uri": "spotify:track:7bf4nfz09yp6w7L7r9hQ1V",
+   "spotify_url": "https://open.spotify.com/track/7bf4nfz09yp6w7L7r9hQ1V?si=Mwgo2VyeQoeXwkf4_-ZMZA",
+   "starts_at_ms": 2490837,
+   "starts_at": "41:30"
+  },
+  {
+   "n": 10,
+   "title": "Dream Brother",
+   "clean_title": "Dream Brother",
+   "duration_ms": 330840,
+   "spotify_uri": "spotify:track:6q3wafztoGDT3nQYWVfyuO",
+   "spotify_url": "https://open.spotify.com/track/6q3wafztoGDT3nQYWVfyuO?si=Fr4MtcseTxu1PjJQAO-RPw",
+   "starts_at_ms": 2783197,
+   "starts_at": "46:23"
+  },
+  {
+   "n": 11,
+   "title": "Forget Her",
+   "clean_title": "Forget Her",
+   "duration_ms": 314693,
+   "spotify_uri": "spotify:track:6UuVONmxXwTKN1ISepuAoQ",
+   "spotify_url": "https://open.spotify.com/track/6UuVONmxXwTKN1ISepuAoQ?si=3BMYT9TPRUWT3ZUG1v99Bg",
+   "starts_at_ms": 3114037,
+   "starts_at": "51:54"
+  }
+ ],
+ "week": 14,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:31:24.605374+00:00"
+}
