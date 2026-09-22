@@ -1,0 +1,181 @@
+{
+ "artist": "Flying Lotus",
+ "album": "Cosmogramma",
+ "spotify_uri": "spotify:album:26yWpyWgFK6xuxi1UsLUFW",
+ "spotify_url": "https://open.spotify.com/album/26yWpyWgFK6xuxi1UsLUFW?si=bkQPXn0NS_y5joP8RvthhQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Clock Catcher",
+   "clean_title": "Clock Catcher",
+   "duration_ms": 72626,
+   "spotify_uri": "spotify:track:2t4GMkKH5mNdVTsrbkyCRq",
+   "spotify_url": "https://open.spotify.com/track/2t4GMkKH5mNdVTsrbkyCRq?si=FukNIcf1SDqQZzQ3xeRdtA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Pickled!",
+   "clean_title": "Pickled!",
+   "duration_ms": 133693,
+   "spotify_uri": "spotify:track:4mk5Tk1LSDKBzwB4pIYOSa",
+   "spotify_url": "https://open.spotify.com/track/4mk5Tk1LSDKBzwB4pIYOSa?si=daz6TRj8QQ2UBFU05vdaIQ",
+   "starts_at_ms": 72626,
+   "starts_at": "1:12"
+  },
+  {
+   "n": 3,
+   "title": "Nose Art",
+   "clean_title": "Nose Art",
+   "duration_ms": 118320,
+   "spotify_uri": "spotify:track:6HIwZL7r4PilAp0U3eQlwW",
+   "spotify_url": "https://open.spotify.com/track/6HIwZL7r4PilAp0U3eQlwW?si=RjhVNn51T66zvn_C5aVNnA",
+   "starts_at_ms": 206319,
+   "starts_at": "3:26"
+  },
+  {
+   "n": 4,
+   "title": "Intro//A Cosmic Drama",
+   "clean_title": "Intro//A Cosmic Drama",
+   "duration_ms": 74760,
+   "spotify_uri": "spotify:track:11EeeXQH0Q8QGASiRZoAqW",
+   "spotify_url": "https://open.spotify.com/track/11EeeXQH0Q8QGASiRZoAqW?si=-VUzgcAuSdeMIVEQQ8WT7w",
+   "starts_at_ms": 324639,
+   "starts_at": "5:24"
+  },
+  {
+   "n": 5,
+   "title": "Zodiac Shit",
+   "clean_title": "Zodiac Shit",
+   "duration_ms": 164640,
+   "spotify_uri": "spotify:track:3v65IsDl6LDOHDu9bU4ZOn",
+   "spotify_url": "https://open.spotify.com/track/3v65IsDl6LDOHDu9bU4ZOn?si=9ekxRtVSQSq3nJwnPkqymA",
+   "starts_at_ms": 399399,
+   "starts_at": "6:39"
+  },
+  {
+   "n": 6,
+   "title": "Computer Face//Pure Being",
+   "clean_title": "Computer Face//Pure Being",
+   "duration_ms": 152840,
+   "spotify_uri": "spotify:track:0KEJW6Qn4LTjSrR2U4KUhg",
+   "spotify_url": "https://open.spotify.com/track/0KEJW6Qn4LTjSrR2U4KUhg?si=VFcMI26SQ26mTdiJ7YuRXw",
+   "starts_at_ms": 564039,
+   "starts_at": "9:24"
+  },
+  {
+   "n": 7,
+   "title": "...And The World Laughs With You",
+   "clean_title": "...And The World Laughs With You",
+   "duration_ms": 175040,
+   "spotify_uri": "spotify:track:5STqmIsYNIaupSUZrcDgaZ",
+   "spotify_url": "https://open.spotify.com/track/5STqmIsYNIaupSUZrcDgaZ?si=hgpCRHpkRti6xdE9AHblrQ",
+   "starts_at_ms": 716879,
+   "starts_at": "11:56"
+  },
+  {
+   "n": 8,
+   "title": "Arkestry",
+   "clean_title": "Arkestry",
+   "duration_ms": 171226,
+   "spotify_uri": "spotify:track:13AO8saKrUQyzsnI8bnAKe",
+   "spotify_url": "https://open.spotify.com/track/13AO8saKrUQyzsnI8bnAKe?si=p8ac4yipSTGYWzuc0U51NQ",
+   "starts_at_ms": 891919,
+   "starts_at": "14:51"
+  },
+  {
+   "n": 9,
+   "title": "MmmHmm",
+   "clean_title": "MmmHmm",
+   "duration_ms": 254840,
+   "spotify_uri": "spotify:track:2kcMElV7y5RGNL7kUDF8xv",
+   "spotify_url": "https://open.spotify.com/track/2kcMElV7y5RGNL7kUDF8xv?si=uiKKqLrcSAO68xHqCwIebw",
+   "starts_at_ms": 1063145,
+   "starts_at": "17:43"
+  },
+  {
+   "n": 10,
+   "title": "Do The Astral Plane",
+   "clean_title": "Do The Astral Plane",
+   "duration_ms": 237920,
+   "spotify_uri": "spotify:track:1TtSn2KTXMZh6iOJJ74cUv",
+   "spotify_url": "https://open.spotify.com/track/1TtSn2KTXMZh6iOJJ74cUv?si=ZoqEDVZNRRC6NQ_w7ZKmaw",
+   "starts_at_ms": 1317985,
+   "starts_at": "21:57"
+  },
+  {
+   "n": 11,
+   "title": "Satelllliiiiiiiteee",
+   "clean_title": "Satelllliiiiiiiteee",
+   "duration_ms": 229093,
+   "spotify_uri": "spotify:track:42uIrpKzbWndvkI21mfs11",
+   "spotify_url": "https://open.spotify.com/track/42uIrpKzbWndvkI21mfs11?si=v7LeWy_BST-ZE4OO7il2hA",
+   "starts_at_ms": 1555905,
+   "starts_at": "25:55"
+  },
+  {
+   "n": 12,
+   "title": "German Haircut",
+   "clean_title": "German Haircut",
+   "duration_ms": 117173,
+   "spotify_uri": "spotify:track:7da6FHZLFD2rVNQL7ccE5q",
+   "spotify_url": "https://open.spotify.com/track/7da6FHZLFD2rVNQL7ccE5q?si=ZjFtiPDqT522i-pmSKTglw",
+   "starts_at_ms": 1784998,
+   "starts_at": "29:44"
+  },
+  {
+   "n": 13,
+   "title": "Recoiled",
+   "clean_title": "Recoiled",
+   "duration_ms": 216573,
+   "spotify_uri": "spotify:track:6XWpLFadBmkIIihQDVqMiR",
+   "spotify_url": "https://open.spotify.com/track/6XWpLFadBmkIIihQDVqMiR?si=GEKoRfF2QqKncNwyFt0oJA",
+   "starts_at_ms": 1902171,
+   "starts_at": "31:42"
+  },
+  {
+   "n": 14,
+   "title": "Dance Of The Pseudo Nymph",
+   "clean_title": "Dance Of The Pseudo Nymph",
+   "duration_ms": 166640,
+   "spotify_uri": "spotify:track:09bw3bGhfImimz7sIGfrSw",
+   "spotify_url": "https://open.spotify.com/track/09bw3bGhfImimz7sIGfrSw?si=I18kYM_BThiJaDw0snEI5g",
+   "starts_at_ms": 2118744,
+   "starts_at": "35:18"
+  },
+  {
+   "n": 15,
+   "title": "Drips//Auntie's Harp",
+   "clean_title": "Drips//Auntie's Harp",
+   "duration_ms": 130412,
+   "spotify_uri": "spotify:track:0g4THD0mERaEqP64uSaXlq",
+   "spotify_url": "https://open.spotify.com/track/0g4THD0mERaEqP64uSaXlq?si=pIIUr0XKQGW1KhVdmWFB7w",
+   "starts_at_ms": 2285384,
+   "starts_at": "38:05"
+  },
+  {
+   "n": 16,
+   "title": "Table Tennis",
+   "clean_title": "Table Tennis",
+   "duration_ms": 181546,
+   "spotify_uri": "spotify:track:6fNnbIHEI7O0jsMkl6zBjh",
+   "spotify_url": "https://open.spotify.com/track/6fNnbIHEI7O0jsMkl6zBjh?si=ZwUNbUXmTgGZlUdTojQOow",
+   "starts_at_ms": 2415796,
+   "starts_at": "40:15"
+  },
+  {
+   "n": 17,
+   "title": "Galaxy In Janaki",
+   "clean_title": "Galaxy In Janaki",
+   "duration_ms": 147640,
+   "spotify_uri": "spotify:track:5qz90fqj8qIpu6CoQRi4kI",
+   "spotify_url": "https://open.spotify.com/track/5qz90fqj8qIpu6CoQRi4kI?si=BPIqpazFQimMVpOasBtj5w",
+   "starts_at_ms": 2597342,
+   "starts_at": "43:17"
+  }
+ ],
+ "week": 10,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:07.107759+00:00"
+}
