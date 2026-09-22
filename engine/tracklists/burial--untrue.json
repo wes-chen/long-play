@@ -1,0 +1,141 @@
+{
+ "artist": "Burial",
+ "album": "Untrue",
+ "spotify_uri": "spotify:album:1iRPiEYHIX2zpF8lkW54SK",
+ "spotify_url": "https://open.spotify.com/album/1iRPiEYHIX2zpF8lkW54SK?si=sNvSJ13sTMa5d0uZOFaIIg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Untitled",
+   "clean_title": "Untitled",
+   "duration_ms": 46213,
+   "spotify_uri": "spotify:track:0Ve32fZr4vgnrGzFIfvtV4",
+   "spotify_url": "https://open.spotify.com/track/0Ve32fZr4vgnrGzFIfvtV4?si=Y3qhKV9USJCrQgVZV3-MCw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Archangel",
+   "clean_title": "Archangel",
+   "duration_ms": 238426,
+   "spotify_uri": "spotify:track:55gnBQAhU5rGzLsXTAx2MM",
+   "spotify_url": "https://open.spotify.com/track/55gnBQAhU5rGzLsXTAx2MM?si=I-s6mAjGQbytl9sukUCaAw",
+   "starts_at_ms": 46213,
+   "starts_at": "0:46"
+  },
+  {
+   "n": 3,
+   "title": "Near Dark",
+   "clean_title": "Near Dark",
+   "duration_ms": 234506,
+   "spotify_uri": "spotify:track:5lxQAoqEP5QLcC5056NOYK",
+   "spotify_url": "https://open.spotify.com/track/5lxQAoqEP5QLcC5056NOYK?si=5fdrc9xgT-yLHbdY4pg28Q",
+   "starts_at_ms": 284639,
+   "starts_at": "4:44"
+  },
+  {
+   "n": 4,
+   "title": "Ghost Hardware",
+   "clean_title": "Ghost Hardware",
+   "duration_ms": 293093,
+   "spotify_uri": "spotify:track:5m1VR5YlkswXMoHSmGWFqa",
+   "spotify_url": "https://open.spotify.com/track/5m1VR5YlkswXMoHSmGWFqa?si=xDVfZMQzSSCk_K7MiNfYhA",
+   "starts_at_ms": 519145,
+   "starts_at": "8:39"
+  },
+  {
+   "n": 5,
+   "title": "Endorphin",
+   "clean_title": "Endorphin",
+   "duration_ms": 177333,
+   "spotify_uri": "spotify:track:4XsWxIKoGsECypK2V1PA8V",
+   "spotify_url": "https://open.spotify.com/track/4XsWxIKoGsECypK2V1PA8V?si=CWGoYl7_ScuLZRc7ldi48Q",
+   "starts_at_ms": 812238,
+   "starts_at": "13:32"
+  },
+  {
+   "n": 6,
+   "title": "Etched Headplate",
+   "clean_title": "Etched Headplate",
+   "duration_ms": 359760,
+   "spotify_uri": "spotify:track:6sU8lAXpyEXeDeyZ0KSNri",
+   "spotify_url": "https://open.spotify.com/track/6sU8lAXpyEXeDeyZ0KSNri?si=PqlGxtrbT0OHaIf4ZFqtCA",
+   "starts_at_ms": 989571,
+   "starts_at": "16:29"
+  },
+  {
+   "n": 7,
+   "title": "In McDonalds",
+   "clean_title": "In McDonalds",
+   "duration_ms": 126091,
+   "spotify_uri": "spotify:track:7vZTj01UKQ6OuTItkQfxuy",
+   "spotify_url": "https://open.spotify.com/track/7vZTj01UKQ6OuTItkQfxuy?si=J66dSjZoTE6t71SQaMDYYg",
+   "starts_at_ms": 1349331,
+   "starts_at": "22:29"
+  },
+  {
+   "n": 8,
+   "title": "Untrue",
+   "clean_title": "Untrue",
+   "duration_ms": 376693,
+   "spotify_uri": "spotify:track:0YPg9B9SUzo528Pqhnlt62",
+   "spotify_url": "https://open.spotify.com/track/0YPg9B9SUzo528Pqhnlt62?si=Mi-_mIvLQvaRfVEXlN4W0Q",
+   "starts_at_ms": 1475422,
+   "starts_at": "24:35"
+  },
+  {
+   "n": 9,
+   "title": "Shell of Light",
+   "clean_title": "Shell of Light",
+   "duration_ms": 280533,
+   "spotify_uri": "spotify:track:5oLDBlcP7njmPA8gqxprVZ",
+   "spotify_url": "https://open.spotify.com/track/5oLDBlcP7njmPA8gqxprVZ?si=uG0wYndTRECwWXbjb_3CTg",
+   "starts_at_ms": 1852115,
+   "starts_at": "30:52"
+  },
+  {
+   "n": 10,
+   "title": "Dog Shelter",
+   "clean_title": "Dog Shelter",
+   "duration_ms": 179213,
+   "spotify_uri": "spotify:track:615bAxPCk03PC2sTdK4XPX",
+   "spotify_url": "https://open.spotify.com/track/615bAxPCk03PC2sTdK4XPX?si=HvoRnL2bQH69zOx_5lJMgg",
+   "starts_at_ms": 2132648,
+   "starts_at": "35:32"
+  },
+  {
+   "n": 11,
+   "title": "Homeless",
+   "clean_title": "Homeless",
+   "duration_ms": 320546,
+   "spotify_uri": "spotify:track:18Znx47PDdm8uNoyljW4zQ",
+   "spotify_url": "https://open.spotify.com/track/18Znx47PDdm8uNoyljW4zQ?si=Ixj6COaDSHa8HoktPsg8aA",
+   "starts_at_ms": 2311861,
+   "starts_at": "38:31"
+  },
+  {
+   "n": 12,
+   "title": "UK",
+   "clean_title": "UK",
+   "duration_ms": 100226,
+   "spotify_uri": "spotify:track:2qSe6XMtbjHIqte1BeAdRK",
+   "spotify_url": "https://open.spotify.com/track/2qSe6XMtbjHIqte1BeAdRK?si=cOy7sy5xQaeubb5JoUvk7g",
+   "starts_at_ms": 2632407,
+   "starts_at": "43:52"
+  },
+  {
+   "n": 13,
+   "title": "Raver",
+   "clean_title": "Raver",
+   "duration_ms": 299826,
+   "spotify_uri": "spotify:track:6cDA9iqE0eD68QsdT6kJxL",
+   "spotify_url": "https://open.spotify.com/track/6cDA9iqE0eD68QsdT6kJxL?si=OSRkhCkBSEaW0QZtkJOx0g",
+   "starts_at_ms": 2732633,
+   "starts_at": "45:32"
+  }
+ ],
+ "week": 7,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:30:54.891170+00:00"
+}
