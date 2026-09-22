@@ -1,0 +1,91 @@
+{
+ "artist": "Kraftwerk",
+ "album": "Trans-Europe Express",
+ "spotify_uri": "spotify:album:0HHRIVjvBcnTepfeRVgS2f",
+ "spotify_url": "https://open.spotify.com/album/0HHRIVjvBcnTepfeRVgS2f?si=Wb7AULO8QI6AZCLWmnm5Nw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Europe Endless - 2009 Remaster",
+   "clean_title": "Europe Endless",
+   "duration_ms": 581026,
+   "spotify_uri": "spotify:track:5jEfJiugp5E2E2kxQbhRcQ",
+   "spotify_url": "https://open.spotify.com/track/5jEfJiugp5E2E2kxQbhRcQ?si=3dHbR5CmTqS36-to-PIgkQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "The Hall of Mirrors - 2009 Remaster",
+   "clean_title": "The Hall of Mirrors",
+   "duration_ms": 476493,
+   "spotify_uri": "spotify:track:5HdmaaDbEvxd8AFJNwnkWC",
+   "spotify_url": "https://open.spotify.com/track/5HdmaaDbEvxd8AFJNwnkWC?si=keYmJ1cAQwOeosjaBecx4A",
+   "starts_at_ms": 581026,
+   "starts_at": "9:41"
+  },
+  {
+   "n": 3,
+   "title": "Showroom Dummies - 2009 Remaster",
+   "clean_title": "Showroom Dummies",
+   "duration_ms": 375320,
+   "spotify_uri": "spotify:track:14WXiFyHivuF9FmGD0c7Ot",
+   "spotify_url": "https://open.spotify.com/track/14WXiFyHivuF9FmGD0c7Ot?si=Tm0Fcq5_QcG6NOJIIBtrLA",
+   "starts_at_ms": 1057519,
+   "starts_at": "17:37"
+  },
+  {
+   "n": 4,
+   "title": "Trans-Europe Express - 2009 Remaster",
+   "clean_title": "Trans-Europe Express",
+   "duration_ms": 397373,
+   "spotify_uri": "spotify:track:3UjH6apk0ogZeIqhHbjrRU",
+   "spotify_url": "https://open.spotify.com/track/3UjH6apk0ogZeIqhHbjrRU?si=y1CTqKH4SdWwDVpE6FOT5A",
+   "starts_at_ms": 1432839,
+   "starts_at": "23:52"
+  },
+  {
+   "n": 5,
+   "title": "Metal on Metal - 2009 Remaster",
+   "clean_title": "Metal on Metal",
+   "duration_ms": 131693,
+   "spotify_uri": "spotify:track:2GQwwgabX1VBacz4kP5fSX",
+   "spotify_url": "https://open.spotify.com/track/2GQwwgabX1VBacz4kP5fSX?si=B_lB_44BRii2NvYuQrINHQ",
+   "starts_at_ms": 1830212,
+   "starts_at": "30:30"
+  },
+  {
+   "n": 6,
+   "title": "Abzug - 2009 Remaster",
+   "clean_title": "Abzug",
+   "duration_ms": 293706,
+   "spotify_uri": "spotify:track:1u32K3p3J3t31I2bWw4SZN",
+   "spotify_url": "https://open.spotify.com/track/1u32K3p3J3t31I2bWw4SZN?si=Ipg3MZL3T2y3D-Zeh8y9pQ",
+   "starts_at_ms": 1961905,
+   "starts_at": "32:41"
+  },
+  {
+   "n": 7,
+   "title": "Franz Schubert - 2009 Remaster",
+   "clean_title": "Franz Schubert",
+   "duration_ms": 266253,
+   "spotify_uri": "spotify:track:4aJulXrGlrQFi2cHLc6kSd",
+   "spotify_url": "https://open.spotify.com/track/4aJulXrGlrQFi2cHLc6kSd?si=1EpgMolmSoGkke95I8gCVQ",
+   "starts_at_ms": 2255611,
+   "starts_at": "37:35"
+  },
+  {
+   "n": 8,
+   "title": "Endless Endless - 2009 Remaster",
+   "clean_title": "Endless Endless",
+   "duration_ms": 55333,
+   "spotify_uri": "spotify:track:4tfZ1qmZqykZaLQ4CWs5fj",
+   "spotify_url": "https://open.spotify.com/track/4tfZ1qmZqykZaLQ4CWs5fj?si=V7SL_M7STFChVZEZR69vYA",
+   "starts_at_ms": 2521864,
+   "starts_at": "42:01"
+  }
+ ],
+ "week": 8,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:30:55.902204+00:00"
+}
