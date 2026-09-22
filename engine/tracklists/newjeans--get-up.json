@@ -1,0 +1,71 @@
+{
+ "artist": "NewJeans",
+ "album": "Get Up",
+ "spotify_uri": "spotify:album:1ApD8OqR9g1n3BVgf8dV6G",
+ "spotify_url": "https://open.spotify.com/album/1ApD8OqR9g1n3BVgf8dV6G?si=KMCIoNxgR9Wc1HscZB4bOg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "New Jeans",
+   "clean_title": "New Jeans",
+   "duration_ms": 110556,
+   "spotify_uri": "spotify:track:3RGPBxaLItQh7tD4kBu0zz",
+   "spotify_url": "https://open.spotify.com/track/3RGPBxaLItQh7tD4kBu0zz?si=LmedB0NKSqaLGhmLqoTTLQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Super Shy",
+   "clean_title": "Super Shy",
+   "duration_ms": 157036,
+   "spotify_uri": "spotify:track:1ukPSWvw8rASwy6k9f0NH5",
+   "spotify_url": "https://open.spotify.com/track/1ukPSWvw8rASwy6k9f0NH5?si=aPEy6rSaRBOBlkXlOMhbSA",
+   "starts_at_ms": 110556,
+   "starts_at": "1:50"
+  },
+  {
+   "n": 3,
+   "title": "ETA",
+   "clean_title": "ETA",
+   "duration_ms": 152999,
+   "spotify_uri": "spotify:track:1wUdd9Z8bV5n2wL3ClrNty",
+   "spotify_url": "https://open.spotify.com/track/1wUdd9Z8bV5n2wL3ClrNty?si=b2N3Kw-LRMat39L0XpW8Tw",
+   "starts_at_ms": 267592,
+   "starts_at": "4:27"
+  },
+  {
+   "n": 4,
+   "title": "Cool With You",
+   "clean_title": "Cool With You",
+   "duration_ms": 147999,
+   "spotify_uri": "spotify:track:03TQtRrs8uU0Fz7Oo15Zvf",
+   "spotify_url": "https://open.spotify.com/track/03TQtRrs8uU0Fz7Oo15Zvf?si=sJpsME3_TUyrhCBqA43uVw",
+   "starts_at_ms": 420591,
+   "starts_at": "7:00"
+  },
+  {
+   "n": 5,
+   "title": "Get Up - Extended Ver.",
+   "clean_title": "Get Up - Extended Ver.",
+   "duration_ms": 100999,
+   "spotify_uri": "spotify:track:7mGkMRGXZvLfqzHvFs0YLT",
+   "spotify_url": "https://open.spotify.com/track/7mGkMRGXZvLfqzHvFs0YLT?si=zg1R3j-uROmuXIfaBkV7Rg",
+   "starts_at_ms": 568590,
+   "starts_at": "9:28"
+  },
+  {
+   "n": 6,
+   "title": "ASAP",
+   "clean_title": "ASAP",
+   "duration_ms": 136614,
+   "spotify_uri": "spotify:track:6gKlO8HewlHBgIuCqwkkpG",
+   "spotify_url": "https://open.spotify.com/track/6gKlO8HewlHBgIuCqwkkpG?si=paTDblOlRW6lA-iqKUU88A",
+   "starts_at_ms": 669589,
+   "starts_at": "11:09"
+  }
+ ],
+ "week": 19,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:31:50.973657+00:00"
+}
