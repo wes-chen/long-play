@@ -1,0 +1,111 @@
+{
+ "artist": "Laura Marling",
+ "album": "Song for Our Daughter",
+ "spotify_uri": "spotify:album:71ASh2z3Y2LQNsEpuW35Kc",
+ "spotify_url": "https://open.spotify.com/album/71ASh2z3Y2LQNsEpuW35Kc?si=pYclEdwFQqa2DDbk2u0haQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Alexandra",
+   "clean_title": "Alexandra",
+   "duration_ms": 199493,
+   "spotify_uri": "spotify:track:1TpOFgqL9EFLPsXSs3e1Tf",
+   "spotify_url": "https://open.spotify.com/track/1TpOFgqL9EFLPsXSs3e1Tf?si=m3g7BTP_Q8q8bEIZf_O2BQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Held Down",
+   "clean_title": "Held Down",
+   "duration_ms": 247920,
+   "spotify_uri": "spotify:track:3g8ZThoquHOjsOYbu3uKQY",
+   "spotify_url": "https://open.spotify.com/track/3g8ZThoquHOjsOYbu3uKQY?si=aAvcZwGZRfWMq_0e_uFHng",
+   "starts_at_ms": 199493,
+   "starts_at": "3:19"
+  },
+  {
+   "n": 3,
+   "title": "Strange Girl",
+   "clean_title": "Strange Girl",
+   "duration_ms": 201867,
+   "spotify_uri": "spotify:track:7H96SOWbP1a1bsM7dXUp3n",
+   "spotify_url": "https://open.spotify.com/track/7H96SOWbP1a1bsM7dXUp3n?si=VIuvpUW1RXSIwE49JRweVQ",
+   "starts_at_ms": 447413,
+   "starts_at": "7:27"
+  },
+  {
+   "n": 4,
+   "title": "Only The Strong",
+   "clean_title": "Only The Strong",
+   "duration_ms": 200160,
+   "spotify_uri": "spotify:track:31bmLrE8P87BoqTf4R0ipM",
+   "spotify_url": "https://open.spotify.com/track/31bmLrE8P87BoqTf4R0ipM?si=kbGaEat8SDOIMv1_0a0WyQ",
+   "starts_at_ms": 649280,
+   "starts_at": "10:49"
+  },
+  {
+   "n": 5,
+   "title": "Blow By Blow",
+   "clean_title": "Blow By Blow",
+   "duration_ms": 175693,
+   "spotify_uri": "spotify:track:3fkcfo96TZEXeitRnUm62Q",
+   "spotify_url": "https://open.spotify.com/track/3fkcfo96TZEXeitRnUm62Q?si=1RVJrmJ3ShSs3KpujMqzMQ",
+   "starts_at_ms": 849440,
+   "starts_at": "14:09"
+  },
+  {
+   "n": 6,
+   "title": "Song For Our Daughter",
+   "clean_title": "Song For Our Daughter",
+   "duration_ms": 246747,
+   "spotify_uri": "spotify:track:6xLWm75e8hgLV30W05jWji",
+   "spotify_url": "https://open.spotify.com/track/6xLWm75e8hgLV30W05jWji?si=4hfShSBSRG-WebpdmH56bA",
+   "starts_at_ms": 1025133,
+   "starts_at": "17:05"
+  },
+  {
+   "n": 7,
+   "title": "Fortune",
+   "clean_title": "Fortune",
+   "duration_ms": 235520,
+   "spotify_uri": "spotify:track:33IM9yhNyeZvll6NIavgmv",
+   "spotify_url": "https://open.spotify.com/track/33IM9yhNyeZvll6NIavgmv?si=wch0Cy-xRWWzp_dTPKVQAQ",
+   "starts_at_ms": 1271880,
+   "starts_at": "21:11"
+  },
+  {
+   "n": 8,
+   "title": "The End Of The Affair",
+   "clean_title": "The End Of The Affair",
+   "duration_ms": 205010,
+   "spotify_uri": "spotify:track:0gPf1YSj5JhjK1glDvSoWl",
+   "spotify_url": "https://open.spotify.com/track/0gPf1YSj5JhjK1glDvSoWl?si=PTohx8KxSeqpR4kZ2mOu1w",
+   "starts_at_ms": 1507400,
+   "starts_at": "25:07"
+  },
+  {
+   "n": 9,
+   "title": "Hope We Meet Again",
+   "clean_title": "Hope We Meet Again",
+   "duration_ms": 245293,
+   "spotify_uri": "spotify:track:0AflJsSJ3c9VrOk2HrcIgG",
+   "spotify_url": "https://open.spotify.com/track/0AflJsSJ3c9VrOk2HrcIgG?si=I0LFrF1fQD63tT-kPn867A",
+   "starts_at_ms": 1712410,
+   "starts_at": "28:32"
+  },
+  {
+   "n": 10,
+   "title": "For You",
+   "clean_title": "For You",
+   "duration_ms": 237202,
+   "spotify_uri": "spotify:track:6mQ0ahKmfTE5wBDcZw6YLi",
+   "spotify_url": "https://open.spotify.com/track/6mQ0ahKmfTE5wBDcZw6YLi?si=-_N0a7MCRaqtzZdYeR6XhA",
+   "starts_at_ms": 1957703,
+   "starts_at": "32:37"
+  }
+ ],
+ "week": 16,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:35.517794+00:00"
+}
