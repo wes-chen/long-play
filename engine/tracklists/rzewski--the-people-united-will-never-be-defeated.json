@@ -1,0 +1,381 @@
+{
+ "artist": "Rzewski",
+ "album": "The People United Will Never Be Defeated!",
+ "spotify_uri": "spotify:album:6Zeyr7TBcCaxzNrluXD1VU",
+ "spotify_url": "https://open.spotify.com/album/6Zeyr7TBcCaxzNrluXD1VU?si=z1h-q1_aT3SYiWnp4qs2Vg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "The People United Will Never Be Defeated!: Theme. With determination",
+   "clean_title": "The People United Will Never Be Defeated!: Theme. With determination",
+   "duration_ms": 83266,
+   "spotify_uri": "spotify:track:2FWz0zXLvjZobeYldYB58l",
+   "spotify_url": "https://open.spotify.com/track/2FWz0zXLvjZobeYldYB58l?si=QLVvXo44TrCehngg6rBG1A",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "The People United Will Never Be Defeated!: Variation 1. Weaving. Delicate but firm",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 1. Weaving. Delicate but firm",
+   "duration_ms": 53693,
+   "spotify_uri": "spotify:track:5Tx3OHA9aFtLgWnvairAfp",
+   "spotify_url": "https://open.spotify.com/track/5Tx3OHA9aFtLgWnvairAfp?si=7Y9vLeStTqe5QIVR6Xs3iA",
+   "starts_at_ms": 83266,
+   "starts_at": "1:23"
+  },
+  {
+   "n": 3,
+   "title": "The People United Will Never Be Defeated!: Variation 2. With firmness",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 2. With firmness",
+   "duration_ms": 53800,
+   "spotify_uri": "spotify:track:2hWDme7WoMgn9M8kH2rlOc",
+   "spotify_url": "https://open.spotify.com/track/2hWDme7WoMgn9M8kH2rlOc?si=mphn4SmjQ3KnTJGWnybF8g",
+   "starts_at_ms": 136959,
+   "starts_at": "2:16"
+  },
+  {
+   "n": 4,
+   "title": "The People United Will Never Be Defeated!: Variation 3. Slightly slower, with expressive nuances",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 3. Slightly slower, with expressive nuances",
+   "duration_ms": 67640,
+   "spotify_uri": "spotify:track:7Ioz9868ZBrlcg6isY4XDx",
+   "spotify_url": "https://open.spotify.com/track/7Ioz9868ZBrlcg6isY4XDx?si=RvmY6VjUTEKsX9AbHEQt_w",
+   "starts_at_ms": 190759,
+   "starts_at": "3:10"
+  },
+  {
+   "n": 5,
+   "title": "The People United Will Never Be Defeated!: Variation 4. Marcato",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 4. Marcato",
+   "duration_ms": 58533,
+   "spotify_uri": "spotify:track:0ge2amR44rwMxsigOv7bgu",
+   "spotify_url": "https://open.spotify.com/track/0ge2amR44rwMxsigOv7bgu?si=TpWr5KyXTNCVEBfyPVEhZw",
+   "starts_at_ms": 258399,
+   "starts_at": "4:18"
+  },
+  {
+   "n": 6,
+   "title": "The People United Will Never Be Defeated!: Variation 5. Dreamlike, frozen",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 5. Dreamlike, frozen",
+   "duration_ms": 58093,
+   "spotify_uri": "spotify:track:2s1SKHRstHa5waF1LTolGG",
+   "spotify_url": "https://open.spotify.com/track/2s1SKHRstHa5waF1LTolGG?si=cNWcdPGKTr6Q5LsEtCSjiw",
+   "starts_at_ms": 316932,
+   "starts_at": "5:16"
+  },
+  {
+   "n": 7,
+   "title": "The People United Will Never Be Defeated!: Variation 6. Same tempo as beginning",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 6. Same tempo as beginning",
+   "duration_ms": 65733,
+   "spotify_uri": "spotify:track:2Vq3S8IjUwiyxpLu8fmLx3",
+   "spotify_url": "https://open.spotify.com/track/2Vq3S8IjUwiyxpLu8fmLx3?si=NoMihHLrSPu1hx67tGKZLA",
+   "starts_at_ms": 375025,
+   "starts_at": "6:15"
+  },
+  {
+   "n": 8,
+   "title": "The People United Will Never Be Defeated!: Variation 7. Lightly, impatiently",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 7. Lightly, impatiently",
+   "duration_ms": 52933,
+   "spotify_uri": "spotify:track:4oienmp1WxWbO9ZomdSwSr",
+   "spotify_url": "https://open.spotify.com/track/4oienmp1WxWbO9ZomdSwSr?si=4-yvEG8oQ4aWm34c_9X_ZA",
+   "starts_at_ms": 440758,
+   "starts_at": "7:20"
+  },
+  {
+   "n": 9,
+   "title": "The People United Will Never Be Defeated!: Variation 8. With agility; not too much pedal; crisp",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 8. With agility; not too much pedal; crisp",
+   "duration_ms": 64333,
+   "spotify_uri": "spotify:track:52x9OZjDknghV76enAJQxh",
+   "spotify_url": "https://open.spotify.com/track/52x9OZjDknghV76enAJQxh?si=rmzjVP5zTaSIcIat4rGfjA",
+   "starts_at_ms": 493691,
+   "starts_at": "8:13"
+  },
+  {
+   "n": 10,
+   "title": "The People United Will Never Be Defeated!: Variation 9. Evenly",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 9. Evenly",
+   "duration_ms": 65800,
+   "spotify_uri": "spotify:track:3RGt4pRD3yGrnPCydCyeFH",
+   "spotify_url": "https://open.spotify.com/track/3RGt4pRD3yGrnPCydCyeFH?si=oidKjWt4QtWiZdBXsNxyjA",
+   "starts_at_ms": 558024,
+   "starts_at": "9:18"
+  },
+  {
+   "n": 11,
+   "title": "The People United Will Never Be Defeated!: Variation 10. Comodo, recklessly",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 10. Comodo, recklessly",
+   "duration_ms": 57173,
+   "spotify_uri": "spotify:track:0Tl1F58urjyNUeAgwTCfDT",
+   "spotify_url": "https://open.spotify.com/track/0Tl1F58urjyNUeAgwTCfDT?si=eX31xAoOTOWxDJJueOSk6Q",
+   "starts_at_ms": 623824,
+   "starts_at": "10:23"
+  },
+  {
+   "n": 12,
+   "title": "The People United Will Never Be Defeated!: Variation 11. Tempo I, like fragments of an absent melody - in strict time",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 11. Tempo I, like fragments of an absent melody - in strict time",
+   "duration_ms": 58026,
+   "spotify_uri": "spotify:track:49WdWWszsJSd8du1J7tvkO",
+   "spotify_url": "https://open.spotify.com/track/49WdWWszsJSd8du1J7tvkO?si=KknX8FKTRyash5Ox4ypb3A",
+   "starts_at_ms": 680997,
+   "starts_at": "11:20"
+  },
+  {
+   "n": 13,
+   "title": "The People United Will Never Be Defeated!: Variation 12",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 12",
+   "duration_ms": 69133,
+   "spotify_uri": "spotify:track:7cgFHNgZT7a4kln5S5oOB1",
+   "spotify_url": "https://open.spotify.com/track/7cgFHNgZT7a4kln5S5oOB1?si=tIjkK4a2RZq12B5HoZG6SA",
+   "starts_at_ms": 739023,
+   "starts_at": "12:19"
+  },
+  {
+   "n": 14,
+   "title": "The People United Will Never Be Defeated!: Variation 13",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 13",
+   "duration_ms": 104440,
+   "spotify_uri": "spotify:track:7Mg8FVrF9xQdN7I164oUN2",
+   "spotify_url": "https://open.spotify.com/track/7Mg8FVrF9xQdN7I164oUN2?si=8HDRpMmRS_SGN1lh_7TwDg",
+   "starts_at_ms": 808156,
+   "starts_at": "13:28"
+  },
+  {
+   "n": 15,
+   "title": "The People United Will Never Be Defeated!: Variation 14. A bit faster, optimistically",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 14. A bit faster, optimistically",
+   "duration_ms": 75200,
+   "spotify_uri": "spotify:track:4gggGGT7qxlym8vHZRn9uo",
+   "spotify_url": "https://open.spotify.com/track/4gggGGT7qxlym8vHZRn9uo?si=38gTG8E2Rd-yokYdpy6SyA",
+   "starts_at_ms": 912596,
+   "starts_at": "15:12"
+  },
+  {
+   "n": 16,
+   "title": "The People United Will Never Be Defeated!: Variation 15. Flexible, like an improvisation",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 15. Flexible, like an improvisation",
+   "duration_ms": 79373,
+   "spotify_uri": "spotify:track:6W9a8YEsc4iNA0yslWZ3Z8",
+   "spotify_url": "https://open.spotify.com/track/6W9a8YEsc4iNA0yslWZ3Z8?si=2_YqJC2_TymZ4XsDWVIArQ",
+   "starts_at_ms": 987796,
+   "starts_at": "16:27"
+  },
+  {
+   "n": 17,
+   "title": "The People United Will Never Be Defeated!: Variation 16. Same tempo as preceding, with fluctuations; much pedal / Expansive, with a victorious feeling",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 16. Same tempo as preceding, with fluctuations; much pedal / Expansive, with a victorious feeling",
+   "duration_ms": 92186,
+   "spotify_uri": "spotify:track:6NFQriPsooj33K8fcCCKaZ",
+   "spotify_url": "https://open.spotify.com/track/6NFQriPsooj33K8fcCCKaZ?si=29Mymxh2TgGiRnYphFvcGQ",
+   "starts_at_ms": 1067169,
+   "starts_at": "17:47"
+  },
+  {
+   "n": 18,
+   "title": "The People United Will Never Be Defeated!: Variation 17. Left hand strictly; right hand freely, roughly in space",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 17. Left hand strictly; right hand freely, roughly in space",
+   "duration_ms": 66600,
+   "spotify_uri": "spotify:track:7L9gTAucOr42YmxJDX2geA",
+   "spotify_url": "https://open.spotify.com/track/7L9gTAucOr42YmxJDX2geA?si=ecf3XMPQRk2QZKi2APAp4g",
+   "starts_at_ms": 1159355,
+   "starts_at": "19:19"
+  },
+  {
+   "n": 19,
+   "title": "The People United Will Never Be Defeated!: Variation 18",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 18",
+   "duration_ms": 87800,
+   "spotify_uri": "spotify:track:5w0DjN5zvuwWg3mV8LEjrR",
+   "spotify_url": "https://open.spotify.com/track/5w0DjN5zvuwWg3mV8LEjrR?si=RXGsP7YjQjWNuPqDJDqcyA",
+   "starts_at_ms": 1225955,
+   "starts_at": "20:25"
+  },
+  {
+   "n": 20,
+   "title": "The People United Will Never Be Defeated!: Variation 19. With energy",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 19. With energy",
+   "duration_ms": 38440,
+   "spotify_uri": "spotify:track:643al0TD0Iv3upIBuAQKUL",
+   "spotify_url": "https://open.spotify.com/track/643al0TD0Iv3upIBuAQKUL?si=rZjpqdKaQ3yvHkoGJT8Nzw",
+   "starts_at_ms": 1313755,
+   "starts_at": "21:53"
+  },
+  {
+   "n": 21,
+   "title": "The People United Will Never Be Defeated!: Variation 20. Crisp, precise",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 20. Crisp, precise",
+   "duration_ms": 34760,
+   "spotify_uri": "spotify:track:5GEdSl7zz3Tm0ZpgNCm3AB",
+   "spotify_url": "https://open.spotify.com/track/5GEdSl7zz3Tm0ZpgNCm3AB?si=ltCs1hu9T7SQoLzrXtBpvQ",
+   "starts_at_ms": 1352195,
+   "starts_at": "22:32"
+  },
+  {
+   "n": 22,
+   "title": "The People United Will Never Be Defeated!: Variation 21. Relentless, uncompromising",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 21. Relentless, uncompromising",
+   "duration_ms": 48600,
+   "spotify_uri": "spotify:track:4BL8xHGrcU5zh22GlSHAFY",
+   "spotify_url": "https://open.spotify.com/track/4BL8xHGrcU5zh22GlSHAFY?si=_ptkJX1DTy61Iojyvv8n5g",
+   "starts_at_ms": 1386955,
+   "starts_at": "23:06"
+  },
+  {
+   "n": 23,
+   "title": "The People United Will Never Be Defeated!: Variation 22",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 22",
+   "duration_ms": 44973,
+   "spotify_uri": "spotify:track:7DsPw6V4VVxmuiFuvCKfyd",
+   "spotify_url": "https://open.spotify.com/track/7DsPw6V4VVxmuiFuvCKfyd?si=h0AS8MHVQGK7jXQMDz5M7w",
+   "starts_at_ms": 1435555,
+   "starts_at": "23:55"
+  },
+  {
+   "n": 24,
+   "title": "The People United Will Never Be Defeated!: Variation 23. As fast as possible, with some rubato",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 23. As fast as possible, with some rubato",
+   "duration_ms": 28893,
+   "spotify_uri": "spotify:track:7n6oeA8QshsbFNKjmV5PTH",
+   "spotify_url": "https://open.spotify.com/track/7n6oeA8QshsbFNKjmV5PTH?si=Ivd4KujXTyqiFpWyyEUnZQ",
+   "starts_at_ms": 1480528,
+   "starts_at": "24:40"
+  },
+  {
+   "n": 25,
+   "title": "The People United Will Never Be Defeated!: Variation 24",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 24",
+   "duration_ms": 130132,
+   "spotify_uri": "spotify:track:0ewOFA6rmfoVhUTmmqIYcN",
+   "spotify_url": "https://open.spotify.com/track/0ewOFA6rmfoVhUTmmqIYcN?si=wJJZkjOyQlicB72VjaBvjw",
+   "starts_at_ms": 1509421,
+   "starts_at": "25:09"
+  },
+  {
+   "n": 26,
+   "title": "The People United Will Never Be Defeated!: Variation 25",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 25",
+   "duration_ms": 133600,
+   "spotify_uri": "spotify:track:0Pj6lOQCpIbVml91oaPJUS",
+   "spotify_url": "https://open.spotify.com/track/0Pj6lOQCpIbVml91oaPJUS?si=z5M02al4TzOQEcV8fRQSoA",
+   "starts_at_ms": 1639553,
+   "starts_at": "27:19"
+  },
+  {
+   "n": 27,
+   "title": "The People United Will Never Be Defeated!: Variation 26. In a militant manner",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 26. In a militant manner",
+   "duration_ms": 70533,
+   "spotify_uri": "spotify:track:5sj2NLyyZIG7Vgtbcy36TT",
+   "spotify_url": "https://open.spotify.com/track/5sj2NLyyZIG7Vgtbcy36TT?si=N7dkKC6hQqeXqUma0iKDPw",
+   "starts_at_ms": 1773153,
+   "starts_at": "29:33"
+  },
+  {
+   "n": 28,
+   "title": "The People United Will Never Be Defeated!: Variation 27. Cadenza. Tenderly, and with a hopeful expression",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 27. Cadenza. Tenderly, and with a hopeful expression",
+   "duration_ms": 294773,
+   "spotify_uri": "spotify:track:0524ekagsx2arBVCrKZxro",
+   "spotify_url": "https://open.spotify.com/track/0524ekagsx2arBVCrKZxro?si=pZZML-ZpRX-VmAZgu_OENQ",
+   "starts_at_ms": 1843686,
+   "starts_at": "30:43"
+  },
+  {
+   "n": 29,
+   "title": "The People United Will Never Be Defeated!: Variation 28",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 28",
+   "duration_ms": 82493,
+   "spotify_uri": "spotify:track:4ZZBfb3nWIb1POG3LSauG2",
+   "spotify_url": "https://open.spotify.com/track/4ZZBfb3nWIb1POG3LSauG2?si=qH-hc_n0Qlajxn8d1kLCXA",
+   "starts_at_ms": 2138459,
+   "starts_at": "35:38"
+  },
+  {
+   "n": 30,
+   "title": "The People United Will Never Be Defeated!: Variation 29",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 29",
+   "duration_ms": 34840,
+   "spotify_uri": "spotify:track:6dClyKhDCp5TuO6fnjCRb2",
+   "spotify_url": "https://open.spotify.com/track/6dClyKhDCp5TuO6fnjCRb2?si=nesuJqCGTGitcrKEiK5Asg",
+   "starts_at_ms": 2220952,
+   "starts_at": "37:00"
+  },
+  {
+   "n": 31,
+   "title": "The People United Will Never Be Defeated!: Variation 30",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 30",
+   "duration_ms": 144426,
+   "spotify_uri": "spotify:track:1q3sjTPpAjF76yM80Ekl8S",
+   "spotify_url": "https://open.spotify.com/track/1q3sjTPpAjF76yM80Ekl8S?si=EnnEh9V2RpOAeYwp1K3aUA",
+   "starts_at_ms": 2255792,
+   "starts_at": "37:35"
+  },
+  {
+   "n": 32,
+   "title": "The People United Will Never Be Defeated!: Variation 31",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 31",
+   "duration_ms": 55000,
+   "spotify_uri": "spotify:track:6rTFUMTegWOlcdQvJs6LJO",
+   "spotify_url": "https://open.spotify.com/track/6rTFUMTegWOlcdQvJs6LJO?si=nEqa1hRzRHONCoHwTRNhjw",
+   "starts_at_ms": 2400218,
+   "starts_at": "40:00"
+  },
+  {
+   "n": 33,
+   "title": "The People United Will Never Be Defeated!: Variation 32",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 32",
+   "duration_ms": 57800,
+   "spotify_uri": "spotify:track:79nFfmJ8VYrXC7dnY9jfeP",
+   "spotify_url": "https://open.spotify.com/track/79nFfmJ8VYrXC7dnY9jfeP?si=d3Tj9Q1NSAKSnsT2-D_4dg",
+   "starts_at_ms": 2455218,
+   "starts_at": "40:55"
+  },
+  {
+   "n": 34,
+   "title": "The People United Will Never Be Defeated!: Variation 33",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 33",
+   "duration_ms": 60973,
+   "spotify_uri": "spotify:track:0RyODGhX9AqmaO1BKaub36",
+   "spotify_url": "https://open.spotify.com/track/0RyODGhX9AqmaO1BKaub36?si=dEMnU2caTwmny3qbrE71jA",
+   "starts_at_ms": 2513018,
+   "starts_at": "41:53"
+  },
+  {
+   "n": 35,
+   "title": "The People United Will Never Be Defeated!: Variation 34",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 34",
+   "duration_ms": 61026,
+   "spotify_uri": "spotify:track:5FST8kgPXIhDrMCueewsov",
+   "spotify_url": "https://open.spotify.com/track/5FST8kgPXIhDrMCueewsov?si=zP1nRC5jT9qrizjzKZQXfQ",
+   "starts_at_ms": 2573991,
+   "starts_at": "42:53"
+  },
+  {
+   "n": 36,
+   "title": "The People United Will Never Be Defeated!: Variation 35",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 35",
+   "duration_ms": 61640,
+   "spotify_uri": "spotify:track:3O5AvUoedMT98KRY1ukYt3",
+   "spotify_url": "https://open.spotify.com/track/3O5AvUoedMT98KRY1ukYt3?si=Fc5byRMbS_mu--JUX1St0A",
+   "starts_at_ms": 2635017,
+   "starts_at": "43:55"
+  },
+  {
+   "n": 37,
+   "title": "The People United Will Never Be Defeated!: Variation 36. Theme. Tempo primo",
+   "clean_title": "The People United Will Never Be Defeated!: Variation 36. Theme. Tempo primo",
+   "duration_ms": 261426,
+   "spotify_uri": "spotify:track:3uees5mu98DdDS1X439rVa",
+   "spotify_url": "https://open.spotify.com/track/3uees5mu98DdDS1X439rVa?si=l6HIQBToR4CSJpfVGsJ1TQ",
+   "starts_at_ms": 2696657,
+   "starts_at": "44:56"
+  }
+ ],
+ "week": 22,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:32:06.243818+00:00"
+}
