@@ -1,0 +1,2082 @@
+{
+ "1": {
+  "pink-floyd|the-dark-side-of-the-moon": {
+   "artist": "Pink Floyd",
+   "album": "The Dark Side of the Moon",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 4,
+    "track_title": "Time",
+    "starts_at": "7:29",
+    "named_in_cue": true,
+    "cue": "Track 4 — “Time” starts at 7:29. the room each song is \"in.\" \"Time\" opens in a clock shop the size of a closet, then the band kicks in inside a hangar.",
+    "curated_moment": false,
+    "cue_text_pending": false
+   },
+   "liner": "Known ground.",
+   "liner_source": "weeks/week-01.md (verbatim, first sentence)",
+   "tracklist": "spotify"
+  },
+  "pink-floyd|animals": {
+   "artist": "Pink Floyd",
+   "album": "Animals",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 2,
+    "track_title": "Dogs",
+    "starts_at": "1:24",
+    "named_in_cue": true,
+    "cue": "Track 2 — “Dogs” starts at 1:24. how much *bigger* and emptier the guitars sound than Dark Side — that's timbre doing narrative work.",
+    "curated_moment": false,
+    "cue_text_pending": false
+   },
+   "liner": "Same band, colder rooms.",
+   "liner_source": "weeks/week-01.md (verbatim, first sentence)",
+   "tracklist": "spotify"
+  },
+  "the-smile|a-light-for-attracting-attention": {
+   "artist": "The Smile",
+   "album": "A Light for Attracting Attention",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "The Same",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “The Same” starts at 0:00. the drums.",
+    "curated_moment": false,
+    "cue_text_pending": false
+   },
+   "liner": "Yorke/Greenwood/Skinner, recorded mostly live to tape.",
+   "liner_source": "weeks/week-01.md (verbatim, first sentence)",
+   "tracklist": "spotify"
+  },
+  "four-tet|beautiful-rewind": {
+   "artist": "Four Tet",
+   "album": "Beautiful Rewind",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Gong",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Gong” starts at 0:00. reverb as glue — dozens of tiny samples that have no business sharing a track, all placed inside one smeared, imaginary space so they sound like they belong together.",
+    "curated_moment": false,
+    "cue_text_pending": false
+   },
+   "liner": "Pirate-radio textures, chopped voices, heavy low end.",
+   "liner_source": "weeks/week-01.md (verbatim, first sentence)",
+   "tracklist": "spotify"
+  },
+  "can|tago-mago": {
+   "artist": "Can",
+   "album": "Tago Mago",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Paperhouse",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Paperhouse” starts at 0:00. Jaki Liebezeit's hi-hat — the timbre barely changes for the whole album, and that's the point.",
+    "curated_moment": false,
+    "cue_text_pending": false
+   },
+   "liner": "The stretch.",
+   "liner_source": "weeks/week-01.md (verbatim, first sentence)",
+   "tracklist": "spotify"
+  }
+ },
+ "2": {
+  "radiohead|ok-computer": {
+   "artist": "Radiohead",
+   "album": "OK Computer",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Airbag",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Airbag” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "the-beatles|abbey-road": {
+   "artist": "The Beatles",
+   "album": "Abbey Road",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Come Together",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Come Together” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "kendrick-lamar|to-pimp-a-butterfly": {
+   "artist": "Kendrick Lamar",
+   "album": "To Pimp a Butterfly",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "F*ck Your Ethnicity",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “F*ck Your Ethnicity” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "sza|sos": {
+   "artist": "SZA",
+   "album": "SOS",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "SOS",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “SOS” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "swans|to-be-kind": {
+   "artist": "Swans",
+   "album": "To Be Kind",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Screen Shot",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Screen Shot” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "3": {
+  "king-crimson|in-the-court-of-the-crimson-king": {
+   "artist": "King Crimson",
+   "album": "In the Court of the Crimson King",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "21st Century Schizoid Man - Including \"Mirrors\"",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “21st Century Schizoid Man - Including \"Mirrors\"” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "pink-floyd|animals": {
+   "artist": "Pink Floyd",
+   "album": "Animals",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Pigs on the Wing 1",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Pigs on the Wing 1” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "yes|close-to-the-edge": {
+   "artist": "Yes",
+   "album": "Close to the Edge",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Close to the Edge (I. The Solid Time of Change, II. Total Mass Retain, III. I Get up I Get Down, IV. Seasons of Man)",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Close to the Edge (I. The Solid Time of Change, II. Total Mass Retain, III. I Get up I Get Down, IV. Seasons of Man)” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "genesis|selling-england-by-the-pound": {
+   "artist": "Genesis",
+   "album": "Selling England by the Pound",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Dancing with the Moonlit Knight - 2007 Stereo Mix",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Dancing with the Moonlit Knight - 2007 Stereo Mix” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "van-der-graaf-generator|pawn-hearts": {
+   "artist": "Van der Graaf Generator",
+   "album": "Pawn Hearts",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Concrete Gospel",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Concrete Gospel” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "4": {
+  "radiohead|kid-a": {
+   "artist": "Radiohead",
+   "album": "Kid A",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Everything In Its Right Place",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Everything In Its Right Place” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "talk-talk|laughing-stock": {
+   "artist": "Talk Talk",
+   "album": "Laughing Stock",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "The Rainbow",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “The Rainbow” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "bj-rk|homogenic": {
+   "artist": "Björk",
+   "album": "Homogenic",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Hunter",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Hunter” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "the-smile|a-light-for-attracting-attention": {
+   "artist": "The Smile",
+   "album": "A Light for Attracting Attention",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "The Same",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “The Same” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "black-midi|hellfire": {
+   "artist": "Black Midi",
+   "album": "Hellfire",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Hellfire",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Hellfire” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "5": {
+  "frank-ocean|blonde": {
+   "artist": "Frank Ocean",
+   "album": "Blonde",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Nikes",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Nikes” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "fka-twigs|magdalene": {
+   "artist": "FKA twigs",
+   "album": "MAGDALENE",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "thousand eyes",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “thousand eyes” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "solange|a-seat-at-the-table": {
+   "artist": "Solange",
+   "album": "A Seat at the Table",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Rise",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Rise” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "kelela|take-me-apart": {
+   "artist": "Kelela",
+   "album": "Take Me Apart",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Frontline",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Frontline” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "ethel-cain|preacher-s-daughter": {
+   "artist": "Ethel Cain",
+   "album": "Preacher's Daughter",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Family Tree (Intro)",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Family Tree (Intro)” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "6": {
+  "my-bloody-valentine|loveless": {
+   "artist": "My Bloody Valentine",
+   "album": "Loveless",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "she found now",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “she found now” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "cocteau-twins|heaven-or-las-vegas": {
+   "artist": "Cocteau Twins",
+   "album": "Heaven or Las Vegas",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Cherry-coloured Funk",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Cherry-coloured Funk” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "slowdive|souvlaki": {
+   "artist": "Slowdive",
+   "album": "Souvlaki",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Alison",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Alison” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "ride|nowhere": {
+   "artist": "Ride",
+   "album": "Nowhere",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Leave Them All Behind",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Leave Them All Behind” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "have-a-nice-life|deathconsciousness": {
+   "artist": "Have A Nice Life",
+   "album": "Deathconsciousness",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "A Quick One Before the Eternal Worm Devours Connecticut",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “A Quick One Before the Eternal Worm Devours Connecticut” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "7": {
+  "odesza|a-moment-apart": {
+   "artist": "ODESZA",
+   "album": "A Moment Apart",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Intro",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Intro” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "jamie-xx|in-colour": {
+   "artist": "Jamie xx",
+   "album": "In Colour",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Gosh",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Gosh” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "disclosure|settle": {
+   "artist": "Disclosure",
+   "album": "Settle",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Disclosure",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Disclosure” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "four-tet|there-is-love-in-you": {
+   "artist": "Four Tet",
+   "album": "There Is Love in You",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Angel Echoes",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Angel Echoes” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "burial|untrue": {
+   "artist": "Burial",
+   "album": "Untrue",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Untitled",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Untitled” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "8": {
+  "kraftwerk|trans-europe-express": {
+   "artist": "Kraftwerk",
+   "album": "Trans-Europe Express",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Europe Endless",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Europe Endless” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "neu|neu-2": {
+   "artist": "Neu!",
+   "album": "Neu! 2",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Fur immer",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Fur immer” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "can|ege-bamyasi": {
+   "artist": "Can",
+   "album": "Ege Bamyasi",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Pinch - 2004 Remastered Version",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Pinch - 2004 Remastered Version” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "tangerine-dream|phaedra": {
+   "artist": "Tangerine Dream",
+   "album": "Phaedra",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Phaedra",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Phaedra” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "suicide|suicide": {
+   "artist": "Suicide",
+   "album": "Suicide",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Ghost Rider (2019 - Remaster)",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Ghost Rider (2019 - Remaster)” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "9": {
+  "brian-eno|ambient-1-music-for-airports": {
+   "artist": "Brian Eno",
+   "album": "Ambient 1: Music for Airports",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Music for Airports, 1/2 - Bows Version",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Music for Airports, 1/2 - Bows Version” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "aphex-twin|selected-ambient-works-85-92": {
+   "artist": "Aphex Twin",
+   "album": "Selected Ambient Works 85–92",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Xtal",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Xtal” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "tim-hecker|ravedeath-1972": {
+   "artist": "Tim Hecker",
+   "album": "Ravedeath, 1972",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "The Piano Drop",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “The Piano Drop” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "stars-of-the-lid|and-their-refinement-of-the-decline": {
+   "artist": "Stars of the Lid",
+   "album": "And Their Refinement of the Decline",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Dungtitled (In a Major)",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Dungtitled (In a Major)” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "oneohtrix-point-never|r-plus-seven": {
+   "artist": "Oneohtrix Point Never",
+   "album": "R Plus Seven",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Boring Angel",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Boring Angel” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "10": {
+  "sophie|oil-of-every-pearl-s-un-insides": {
+   "artist": "SOPHIE",
+   "album": "Oil of Every Pearl's Un-Insides",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Architecture of Collapse",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Architecture of Collapse” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "arca|kick-i": {
+   "artist": "Arca",
+   "album": "Kick I",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Whoresong",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Whoresong” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "flying-lotus|cosmogramma": {
+   "artist": "Flying Lotus",
+   "album": "Cosmogramma",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Clock Catcher",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Clock Catcher” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "iglooghost|neo-wax-bloom": {
+   "artist": "Iglooghost",
+   "album": "Neo Wax Bloom",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Pale Eyes",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Pale Eyes” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "100-gecs|1000-gecs": {
+   "artist": "100 gecs",
+   "album": "1000 gecs",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "money machine - A.G. Cook Remix",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “money machine - A.G. Cook Remix” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "11": {
+  "weather-report|heavy-weather": {
+   "artist": "Weather Report",
+   "album": "Heavy Weather",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Birdland",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Birdland” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "herbie-hancock|head-hunters": {
+   "artist": "Herbie Hancock",
+   "album": "Head Hunters",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Chameleon",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Chameleon” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "mahavishnu-orchestra|the-inner-mounting-flame": {
+   "artist": "Mahavishnu Orchestra",
+   "album": "The Inner Mounting Flame",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Meeting of the Spirits (with John McLaughlin)",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Meeting of the Spirits (with John McLaughlin)” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "snarky-puppy|we-like-it-here": {
+   "artist": "Snarky Puppy",
+   "album": "We Like It Here",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Shofukan",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Shofukan” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "jaco-pastorius|jaco-pastorius": {
+   "artist": "Jaco Pastorius",
+   "album": "Jaco Pastorius",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Donna Lee",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Donna Lee” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "12": {
+  "miles-davis|kind-of-blue": {
+   "artist": "Miles Davis",
+   "album": "Kind of Blue",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "So What (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “So What (feat. John Coltrane, Cannonball Adderley & Bill Evans)” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "miles-davis|in-a-silent-way": {
+   "artist": "Miles Davis",
+   "album": "In a Silent Way",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Shhh / Peaceful",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Shhh / Peaceful” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "john-coltrane|blue-train": {
+   "artist": "John Coltrane",
+   "album": "Blue Train",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Giant Steps",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Giant Steps” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "cannonball-adderley|somethin-else": {
+   "artist": "Cannonball Adderley",
+   "album": "Somethin' Else",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "The Black Messiah - (Berliner Jazztage, Berlin November 2nd.1972 [Restauración 2023])",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “The Black Messiah - (Berliner Jazztage, Berlin November 2nd.1972 [Restauración 2023])” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "miles-davis|bitches-brew": {
+   "artist": "Miles Davis",
+   "album": "Bitches Brew",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Pharaoh's Dance",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Pharaoh's Dance” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "13": {
+  "john-coltrane|a-love-supreme": {
+   "artist": "John Coltrane",
+   "album": "A Love Supreme",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Giant Steps",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Giant Steps” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "charles-mingus|mingus-ah-um": {
+   "artist": "Charles Mingus",
+   "album": "Mingus Ah Um",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Better Get Hit In Your Soul - Instrumental",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Better Get Hit In Your Soul - Instrumental” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "bill-evans|waltz-for-debby": {
+   "artist": "Bill Evans",
+   "album": "Waltz for Debby",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Funkallero",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Funkallero” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "alice-coltrane|journey-in-satchidananda": {
+   "artist": "Alice Coltrane",
+   "album": "Journey in Satchidananda",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Radhe-Shyam",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Radhe-Shyam” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "kamasi-washington|the-epic": {
+   "artist": "Kamasi Washington",
+   "album": "The Epic",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Change of the Guard",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Change of the Guard” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "14": {
+  "jeff-buckley|grace": {
+   "artist": "Jeff Buckley",
+   "album": "Grace",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Mojo Pin",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Mojo Pin” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "nick-drake|pink-moon": {
+   "artist": "Nick Drake",
+   "album": "Pink Moon",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "' Cello Song",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “' Cello Song” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "elliott-smith|either-or": {
+   "artist": "Elliott Smith",
+   "album": "Either/Or",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Speed Trials",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Speed Trials” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "phoebe-bridgers|punisher": {
+   "artist": "Phoebe Bridgers",
+   "album": "Punisher",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "DVD Menu",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “DVD Menu” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "lingua-ignota|caligula": {
+   "artist": "Lingua Ignota",
+   "album": "CALIGULA",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "FAITHFUL SERVANT FRIEND OF CHRIST",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “FAITHFUL SERVANT FRIEND OF CHRIST” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "15": {
+  "the-beach-boys|pet-sounds": {
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Wouldn't It Be Nice",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Wouldn't It Be Nice” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "fleet-foxes|helplessness-blues": {
+   "artist": "Fleet Foxes",
+   "album": "Helplessness Blues",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Montezuma",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Montezuma” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "bon-iver|bon-iver": {
+   "artist": "Bon Iver",
+   "album": "Bon Iver",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Perth",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Perth” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "the-beatles|abbey-road": {
+   "artist": "The Beatles",
+   "album": "Abbey Road",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Come Together",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Come Together” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "dirty-projectors|bitte-orca": {
+   "artist": "Dirty Projectors",
+   "album": "Bitte Orca",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Cannibal Resource",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Cannibal Resource” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "16": {
+  "joni-mitchell|blue": {
+   "artist": "Joni Mitchell",
+   "album": "Blue",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "All I Want",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “All I Want” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "sufjan-stevens|carrie-lowell": {
+   "artist": "Sufjan Stevens",
+   "album": "Carrie & Lowell",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Death with Dignity",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Death with Dignity” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "laura-marling|song-for-our-daughter": {
+   "artist": "Laura Marling",
+   "album": "Song for Our Daughter",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Alexandra",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Alexandra” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "big-thief|u-f-o-f": {
+   "artist": "Big Thief",
+   "album": "U.F.O.F",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Contact",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Contact” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "fiona-apple|fetch-the-bolt-cutters": {
+   "artist": "Fiona Apple",
+   "album": "Fetch the Bolt Cutters",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "I Want You To Love Me",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “I Want You To Love Me” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "17": {
+  "deftones|white-pony": {
+   "artist": "Deftones",
+   "album": "White Pony",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Back to School (Mini Maggit)",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Back to School (Mini Maggit)” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "tool|lateralus": {
+   "artist": "Tool",
+   "album": "Lateralus",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "The Grudge",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “The Grudge” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "mastodon|crack-the-skye": {
+   "artist": "Mastodon",
+   "album": "Crack the Skye",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Oblivion",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Oblivion” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "sleep-token|take-me-back-to-eden": {
+   "artist": "Sleep Token",
+   "album": "Take Me Back to Eden",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Chokehold",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Chokehold” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "have-a-nice-life|deathconsciousness": {
+   "artist": "Have A Nice Life",
+   "album": "Deathconsciousness",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "A Quick One Before the Eternal Worm Devours Connecticut",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “A Quick One Before the Eternal Worm Devours Connecticut” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "18": {
+  "alcest|cailles-de-lune": {
+   "artist": "Alcest",
+   "album": "Écailles de Lune",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Ecailles de lune, Pt. 1",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Ecailles de lune, Pt. 1” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "deafheaven|sunbather": {
+   "artist": "Deafheaven",
+   "album": "Sunbather",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Dream House",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Dream House” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "chelsea-wolfe|abyss": {
+   "artist": "Chelsea Wolfe",
+   "album": "Abyss",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Carrion Flowers",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Carrion Flowers” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "boris|flood": {
+   "artist": "Boris",
+   "album": "Flood",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "flood",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “flood” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "swans|to-be-kind": {
+   "artist": "Swans",
+   "album": "To Be Kind",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Screen Shot",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Screen Shot” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "19": {
+  "red-velvet|perfect-velvet": {
+   "artist": "Red Velvet",
+   "album": "Perfect Velvet",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Peek-A-Boo",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Peek-A-Boo” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "f-x|4-walls": {
+   "artist": "f(x)",
+   "album": "4 Walls",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "4 Walls",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “4 Walls” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "shinee|odd": {
+   "artist": "SHINee",
+   "album": "Odd",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Odd Eye",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Odd Eye” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "artms|dall": {
+   "artist": "ARTMS",
+   "album": "DALL",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "url",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “url” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "newjeans|get-up": {
+   "artist": "NewJeans",
+   "album": "Get Up",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "New Jeans",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “New Jeans” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "20": {
+  "bts|love-yourself-tear": {
+   "artist": "BTS",
+   "album": "Love Yourself: Tear",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "For You",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “For You” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "balming-tiger|january-never-dies": {
+   "artist": "Balming Tiger",
+   "album": "January Never Dies",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "BTB",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “BTB” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "yaeji|with-a-hammer": {
+   "artist": "Yaeji",
+   "album": "With a Hammer",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Submerge FM",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Submerge FM” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "crush|from-midnight-to-sunrise": {
+   "artist": "Crush",
+   "album": "From Midnight to Sunrise",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "From Midnight To Sunrise",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “From Midnight To Sunrise” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "the-loona-lore-deep|dive": {
+   "artist": "the LOONA lore deep",
+   "album": "dive",
+   "slot": "wild_card",
+   "timed": null,
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "pending"
+  }
+ },
+ "21": {
+  "stravinsky|the-rite-of-spring": {
+   "artist": "Stravinsky",
+   "album": "The Rite of Spring",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "The Rite of Spring (Scenes of Pagan Russia in Two Parts): Part One - Adoration of the Earth. Introduction. Lento (1921 Version)",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “The Rite of Spring (Scenes of Pagan Russia in Two Parts): Part One - Adoration of the Earth. Introduction. Lento (1921 Version)” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "shostakovich|symphony-no-5": {
+   "artist": "Shostakovich",
+   "album": "Symphony No. 5",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Symphony No. 5 in D Minor, Op. 47: I. Moderato - 2017 Remastered Version",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Symphony No. 5 in D Minor, Op. 47: I. Moderato - 2017 Remastered Version” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "mahler|symphony-no-5": {
+   "artist": "Mahler",
+   "album": "Symphony No. 5",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Symphony No. 5: I. Funeral March - With measured step. Strict. Like a cortege - Live",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Symphony No. 5: I. Funeral March - With measured step. Strict. Like a cortege - Live” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "ligeti|atmosph-res-requiem": {
+   "artist": "Ligeti",
+   "album": "Atmosphères / Requiem",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Ligeti: Lontano",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Ligeti: Lontano” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "messiaen|quartet-for-the-end-of-time": {
+   "artist": "Messiaen",
+   "album": "Quartet for the End of Time",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Quatuor pour la fin du Temps: I. Liturgie de cristal",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Quatuor pour la fin du Temps: I. Liturgie de cristal” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "22": {
+  "bach|goldberg-variations": {
+   "artist": "Bach",
+   "album": "Goldberg Variations",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Goldberg Variations, BWV 988: Aria",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Goldberg Variations, BWV 988: Aria” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "ligeti|tudes": {
+   "artist": "Ligeti",
+   "album": "Études",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Premier livre. Étude 1, Désordre",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Premier livre. Étude 1, Désordre” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "ravel|gaspard-de-la-nuit": {
+   "artist": "Ravel",
+   "album": "Gaspard de la nuit",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Ravel: Gaspard de la nuit, M. 55: I. Ondine",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Ravel: Gaspard de la nuit, M. 55: I. Ondine” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "chopin|the-ballades": {
+   "artist": "Chopin",
+   "album": "the Ballades",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Ballade No. 1 In G Minor, Op. 23",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Ballade No. 1 In G Minor, Op. 23” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "rzewski|the-people-united-will-never-be-defeated": {
+   "artist": "Rzewski",
+   "album": "The People United Will Never Be Defeated!",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "The People United Will Never Be Defeated!: Theme. With determination",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “The People United Will Never Be Defeated!: Theme. With determination” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "23": {
+  "hans-zimmer|interstellar": {
+   "artist": "Hans Zimmer",
+   "album": "Interstellar",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Dreaming of the Crash",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Dreaming of the Crash” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "hans-zimmer|dune": {
+   "artist": "Hans Zimmer",
+   "album": "Dune",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Dream of Arrakis",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Dream of Arrakis” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "ludwig-g-ransson|oppenheimer": {
+   "artist": "Ludwig Göransson",
+   "album": "Oppenheimer",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Fission",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Fission” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "hildur-gu-nad-ttir|chernobyl": {
+   "artist": "Hildur Guðnadóttir",
+   "album": "Chernobyl",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Hoyt's Office",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Hoyt's Office” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "mica-levi|under-the-skin": {
+   "artist": "Mica Levi",
+   "album": "Under the Skin",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Creation",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Creation” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ },
+ "24": {
+  "ryuichi-sakamoto|async": {
+   "artist": "Ryuichi Sakamoto",
+   "album": "async",
+   "slot": "anchor",
+   "timed": {
+    "track_n": 1,
+    "track_title": "andata",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “andata” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "max-richter|sleep": {
+   "artist": "Max Richter",
+   "album": "Sleep",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "On a Turning World",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “On a Turning World” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "joe-hisaishi|spirited-away": {
+   "artist": "Joe Hisaishi",
+   "album": "Spirited Away",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "One Summer Day",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “One Summer Day” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "sakamoto|merry-christmas-mr-lawrence": {
+   "artist": "Sakamoto",
+   "album": "Merry Christmas Mr. Lawrence",
+   "slot": "adventurous",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Merry Christmas Mr. Lawrence",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Merry Christmas Mr. Lawrence” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  },
+  "oneohtrix-point-never|uncut-gems": {
+   "artist": "Oneohtrix Point Never",
+   "album": "Uncut Gems",
+   "slot": "wild_card",
+   "timed": {
+    "track_n": 1,
+    "track_title": "Blue Drive",
+    "starts_at": "0:00",
+    "named_in_cue": false,
+    "cue": "Track 1 — “Blue Drive” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "curated_moment": false,
+    "cue_text_pending": true
+   },
+   "liner": null,
+   "liner_source": null,
+   "tracklist": "spotify"
+  }
+ }
+}
