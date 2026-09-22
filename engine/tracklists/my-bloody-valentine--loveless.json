@@ -1,0 +1,101 @@
+{
+ "artist": "My Bloody Valentine",
+ "album": "Loveless",
+ "spotify_uri": "spotify:album:2SlSnUYW5bgtdWXVymv18a",
+ "spotify_url": "https://open.spotify.com/album/2SlSnUYW5bgtdWXVymv18a?si=HvXssytDSX-tMYW8mL0bdw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "she found now",
+   "clean_title": "she found now",
+   "duration_ms": 306093,
+   "spotify_uri": "spotify:track:4g8Hx6Jg0Qf0t0VGl60pT0",
+   "spotify_url": "https://open.spotify.com/track/4g8Hx6Jg0Qf0t0VGl60pT0?si=JQTnDXxlQ9Cu929Ul4zqGQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "only tomorrow",
+   "clean_title": "only tomorrow",
+   "duration_ms": 381626,
+   "spotify_uri": "spotify:track:7gjo7CYtOAcm0q8hGEHQ23",
+   "spotify_url": "https://open.spotify.com/track/7gjo7CYtOAcm0q8hGEHQ23?si=H-E_PqocQeaYnoEPgq73uA",
+   "starts_at_ms": 306093,
+   "starts_at": "5:06"
+  },
+  {
+   "n": 3,
+   "title": "who sees you",
+   "clean_title": "who sees you",
+   "duration_ms": 372213,
+   "spotify_uri": "spotify:track:6MGkqYuQhx5AGMINNj5ZRU",
+   "spotify_url": "https://open.spotify.com/track/6MGkqYuQhx5AGMINNj5ZRU?si=SgVfypJ-TM6QNXfSWKY2kg",
+   "starts_at_ms": 687719,
+   "starts_at": "11:27"
+  },
+  {
+   "n": 4,
+   "title": "is this and yes",
+   "clean_title": "is this and yes",
+   "duration_ms": 306600,
+   "spotify_uri": "spotify:track:0pKiRUUo88v5lIiSNZwEwj",
+   "spotify_url": "https://open.spotify.com/track/0pKiRUUo88v5lIiSNZwEwj?si=IcfJPhfCQuWlZ29iAkfoKw",
+   "starts_at_ms": 1059932,
+   "starts_at": "17:39"
+  },
+  {
+   "n": 5,
+   "title": "if i am",
+   "clean_title": "if i am",
+   "duration_ms": 234280,
+   "spotify_uri": "spotify:track:4RKalKzz6hvzrLWiQVyItO",
+   "spotify_url": "https://open.spotify.com/track/4RKalKzz6hvzrLWiQVyItO?si=ofjJjvyiS5eZHdqfkelUlg",
+   "starts_at_ms": 1366532,
+   "starts_at": "22:46"
+  },
+  {
+   "n": 6,
+   "title": "new you",
+   "clean_title": "new you",
+   "duration_ms": 298946,
+   "spotify_uri": "spotify:track:7lZIMb2AD7T09fZlqOQJ0q",
+   "spotify_url": "https://open.spotify.com/track/7lZIMb2AD7T09fZlqOQJ0q?si=GzjELAHgSyKTmTQvbWT4IQ",
+   "starts_at_ms": 1600812,
+   "starts_at": "26:40"
+  },
+  {
+   "n": 7,
+   "title": "in another way",
+   "clean_title": "in another way",
+   "duration_ms": 330906,
+   "spotify_uri": "spotify:track:06G8mgjP4x4q4ctddKbSNe",
+   "spotify_url": "https://open.spotify.com/track/06G8mgjP4x4q4ctddKbSNe?si=YOE1eIU9Rbqb_x1yH56LuQ",
+   "starts_at_ms": 1899758,
+   "starts_at": "31:39"
+  },
+  {
+   "n": 8,
+   "title": "nothing is",
+   "clean_title": "nothing is",
+   "duration_ms": 214040,
+   "spotify_uri": "spotify:track:0WdbwaMNuy2xKt78S9hOCB",
+   "spotify_url": "https://open.spotify.com/track/0WdbwaMNuy2xKt78S9hOCB?si=VvwDiD6PR66CTdqPQJSAzQ",
+   "starts_at_ms": 2230664,
+   "starts_at": "37:10"
+  },
+  {
+   "n": 9,
+   "title": "wonder 2",
+   "clean_title": "wonder 2",
+   "duration_ms": 351506,
+   "spotify_uri": "spotify:track:1BVb62zJabdiVOpOxheQoX",
+   "spotify_url": "https://open.spotify.com/track/1BVb62zJabdiVOpOxheQoX?si=YvdND1jfQ3evUaYwcuCh8w",
+   "starts_at_ms": 2444704,
+   "starts_at": "40:44"
+  }
+ ],
+ "week": 6,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:30:45.765168+00:00"
+}
