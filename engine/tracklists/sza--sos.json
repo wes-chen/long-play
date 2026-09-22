@@ -1,0 +1,241 @@
+{
+ "artist": "SZA",
+ "album": "SOS",
+ "spotify_uri": "spotify:album:07w0rG5TETcyihsEIZR3qG",
+ "spotify_url": "https://open.spotify.com/album/07w0rG5TETcyihsEIZR3qG?si=GTzr0ea3QNuUWvrbGP5AOA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "SOS",
+   "clean_title": "SOS",
+   "duration_ms": 117773,
+   "spotify_uri": "spotify:track:5xMw6qCcpd2gBXPGTegC4W",
+   "spotify_url": "https://open.spotify.com/track/5xMw6qCcpd2gBXPGTegC4W?si=WiXcx9DbQHahCoOGXYKxYw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Kill Bill",
+   "clean_title": "Kill Bill",
+   "duration_ms": 153946,
+   "spotify_uri": "spotify:track:3OHfY25tqY28d16oZczHc8",
+   "spotify_url": "https://open.spotify.com/track/3OHfY25tqY28d16oZczHc8?si=-yedmgOmQe2-AmbKDNHzVg",
+   "starts_at_ms": 117773,
+   "starts_at": "1:57"
+  },
+  {
+   "n": 3,
+   "title": "Seek & Destroy",
+   "clean_title": "Seek & Destroy",
+   "duration_ms": 203733,
+   "spotify_uri": "spotify:track:6eT2V7nKXyMf47TwPbtgAD",
+   "spotify_url": "https://open.spotify.com/track/6eT2V7nKXyMf47TwPbtgAD?si=aXL7AkULRBGik9G9ZhbqeA",
+   "starts_at_ms": 271719,
+   "starts_at": "4:31"
+  },
+  {
+   "n": 4,
+   "title": "Low",
+   "clean_title": "Low",
+   "duration_ms": 181080,
+   "spotify_uri": "spotify:track:2GAhgAjOhEmItWLfgisyOn",
+   "spotify_url": "https://open.spotify.com/track/2GAhgAjOhEmItWLfgisyOn?si=lAGrVN8BQvexjM9VYNZzhQ",
+   "starts_at_ms": 475452,
+   "starts_at": "7:55"
+  },
+  {
+   "n": 5,
+   "title": "Love Language",
+   "clean_title": "Love Language",
+   "duration_ms": 183893,
+   "spotify_uri": "spotify:track:1eIXYZWEfJO3Na2LCCnIJE",
+   "spotify_url": "https://open.spotify.com/track/1eIXYZWEfJO3Na2LCCnIJE?si=8_FqjUUuROa9GEv1542iNA",
+   "starts_at_ms": 656532,
+   "starts_at": "10:56"
+  },
+  {
+   "n": 6,
+   "title": "Blind",
+   "clean_title": "Blind",
+   "duration_ms": 150720,
+   "spotify_uri": "spotify:track:2CSRrnOEELmhpq8iaAi9cd",
+   "spotify_url": "https://open.spotify.com/track/2CSRrnOEELmhpq8iaAi9cd?si=meJr-_EARjyUYL2nc-seZA",
+   "starts_at_ms": 840425,
+   "starts_at": "14:00"
+  },
+  {
+   "n": 7,
+   "title": "Used (feat. Don Toliver)",
+   "clean_title": "Used (feat. Don Toliver)",
+   "duration_ms": 146950,
+   "spotify_uri": "spotify:track:1TweDM3JC49LNeelLVg3yX",
+   "spotify_url": "https://open.spotify.com/track/1TweDM3JC49LNeelLVg3yX?si=iqpAQFoNSkG5aEue_DElyQ",
+   "starts_at_ms": 991145,
+   "starts_at": "16:31"
+  },
+  {
+   "n": 8,
+   "title": "Snooze",
+   "clean_title": "Snooze",
+   "duration_ms": 201800,
+   "spotify_uri": "spotify:track:4iZ4pt7kvcaH6Yo8UoZ4s2",
+   "spotify_url": "https://open.spotify.com/track/4iZ4pt7kvcaH6Yo8UoZ4s2?si=7ZRaLM0TRzSrrk8-DE2atg",
+   "starts_at_ms": 1138095,
+   "starts_at": "18:58"
+  },
+  {
+   "n": 9,
+   "title": "Notice Me",
+   "clean_title": "Notice Me",
+   "duration_ms": 160920,
+   "spotify_uri": "spotify:track:4fnNBPN9W6AoOYSQS3FJxT",
+   "spotify_url": "https://open.spotify.com/track/4fnNBPN9W6AoOYSQS3FJxT?si=av2SkzxBQKeqmEg3rBKvmQ",
+   "starts_at_ms": 1339895,
+   "starts_at": "22:19"
+  },
+  {
+   "n": 10,
+   "title": "Gone Girl",
+   "clean_title": "Gone Girl",
+   "duration_ms": 244026,
+   "spotify_uri": "spotify:track:2Sjx8DWZO5zaTyTAmgo2gY",
+   "spotify_url": "https://open.spotify.com/track/2Sjx8DWZO5zaTyTAmgo2gY?si=jUtpq3v9R_qquCvK-duoxg",
+   "starts_at_ms": 1500815,
+   "starts_at": "25:00"
+  },
+  {
+   "n": 11,
+   "title": "Smoking on my Ex Pack",
+   "clean_title": "Smoking on my Ex Pack",
+   "duration_ms": 83826,
+   "spotify_uri": "spotify:track:4jTs7ny5eSRnKTzxdrFv5I",
+   "spotify_url": "https://open.spotify.com/track/4jTs7ny5eSRnKTzxdrFv5I?si=AnWLPtCTS8C2rJqzKmyNLw",
+   "starts_at_ms": 1744841,
+   "starts_at": "29:04"
+  },
+  {
+   "n": 12,
+   "title": "Ghost in the Machine (feat. Phoebe Bridgers)",
+   "clean_title": "Ghost in the Machine (feat. Phoebe Bridgers)",
+   "duration_ms": 218586,
+   "spotify_uri": "spotify:track:4h5x3XHLVYFJaItKuO2rhy",
+   "spotify_url": "https://open.spotify.com/track/4h5x3XHLVYFJaItKuO2rhy?si=Yno3TEGVTzicxSRjaIPIuA",
+   "starts_at_ms": 1828667,
+   "starts_at": "30:28"
+  },
+  {
+   "n": 13,
+   "title": "F2F",
+   "clean_title": "F2F",
+   "duration_ms": 185040,
+   "spotify_uri": "spotify:track:2e2AXpIiJpet5b4qg85Gh6",
+   "spotify_url": "https://open.spotify.com/track/2e2AXpIiJpet5b4qg85Gh6?si=aZBshVIFQ-q0QCSJRY2Z4Q",
+   "starts_at_ms": 2047253,
+   "starts_at": "34:07"
+  },
+  {
+   "n": 14,
+   "title": "Nobody Gets Me",
+   "clean_title": "Nobody Gets Me",
+   "duration_ms": 180853,
+   "spotify_uri": "spotify:track:5Y35SjAfXjjG0sFQ3KOxmm",
+   "spotify_url": "https://open.spotify.com/track/5Y35SjAfXjjG0sFQ3KOxmm?si=PYkpv8u3SMGeYUJtRShhPA",
+   "starts_at_ms": 2232293,
+   "starts_at": "37:12"
+  },
+  {
+   "n": 15,
+   "title": "Conceited",
+   "clean_title": "Conceited",
+   "duration_ms": 151413,
+   "spotify_uri": "spotify:track:4hTej08FutmriOs7S1hWWy",
+   "spotify_url": "https://open.spotify.com/track/4hTej08FutmriOs7S1hWWy?si=kNbIcR8LSJ2MR0JEHPf3XA",
+   "starts_at_ms": 2413146,
+   "starts_at": "40:13"
+  },
+  {
+   "n": 16,
+   "title": "Special",
+   "clean_title": "Special",
+   "duration_ms": 158840,
+   "spotify_uri": "spotify:track:6RQ5IwG7uADz9LDWliJGjU",
+   "spotify_url": "https://open.spotify.com/track/6RQ5IwG7uADz9LDWliJGjU?si=rx5MxG26R6mzkrbD6Sae9g",
+   "starts_at_ms": 2564559,
+   "starts_at": "42:44"
+  },
+  {
+   "n": 17,
+   "title": "Too Late",
+   "clean_title": "Too Late",
+   "duration_ms": 164426,
+   "spotify_uri": "spotify:track:4rAg5bbrdZX00mXXhLvYXj",
+   "spotify_url": "https://open.spotify.com/track/4rAg5bbrdZX00mXXhLvYXj?si=a4G-moLEQgmPi7QNepX04A",
+   "starts_at_ms": 2723399,
+   "starts_at": "45:23"
+  },
+  {
+   "n": 18,
+   "title": "Far",
+   "clean_title": "Far",
+   "duration_ms": 180680,
+   "spotify_uri": "spotify:track:74NI58MQexwZjNu1Gu6GjT",
+   "spotify_url": "https://open.spotify.com/track/74NI58MQexwZjNu1Gu6GjT?si=v78KFpadTI-fhQQlm22K1A",
+   "starts_at_ms": 2887825,
+   "starts_at": "48:07"
+  },
+  {
+   "n": 19,
+   "title": "Shirt",
+   "clean_title": "Shirt",
+   "duration_ms": 181840,
+   "spotify_uri": "spotify:track:2wSTnntOPRi7aQneobFtU4",
+   "spotify_url": "https://open.spotify.com/track/2wSTnntOPRi7aQneobFtU4?si=mZpBsKFHRZyEbd895dOO5w",
+   "starts_at_ms": 3068505,
+   "starts_at": "51:08"
+  },
+  {
+   "n": 20,
+   "title": "Open Arms (feat. Travis Scott)",
+   "clean_title": "Open Arms (feat. Travis Scott)",
+   "duration_ms": 239613,
+   "spotify_uri": "spotify:track:0xaFw2zDYf1rIJWl2dXiSF",
+   "spotify_url": "https://open.spotify.com/track/0xaFw2zDYf1rIJWl2dXiSF?si=EKjYgKHCRIezdKII77nXrA",
+   "starts_at_ms": 3250345,
+   "starts_at": "54:10"
+  },
+  {
+   "n": 21,
+   "title": "I Hate U",
+   "clean_title": "I Hate U",
+   "duration_ms": 174000,
+   "spotify_uri": "spotify:track:2aJnyNu4PQxQ2lyj5boiMG",
+   "spotify_url": "https://open.spotify.com/track/2aJnyNu4PQxQ2lyj5boiMG?si=xdGBXs0sRNmHXB_1qko8VA",
+   "starts_at_ms": 3489958,
+   "starts_at": "58:09"
+  },
+  {
+   "n": 22,
+   "title": "Good Days",
+   "clean_title": "Good Days",
+   "duration_ms": 279203,
+   "spotify_uri": "spotify:track:4PMqSO5qyjpvzhlLI5GnID",
+   "spotify_url": "https://open.spotify.com/track/4PMqSO5qyjpvzhlLI5GnID?si=eDLLIW7iR5eWkXcyz7wTjg",
+   "starts_at_ms": 3663958,
+   "starts_at": "61:03"
+  },
+  {
+   "n": 23,
+   "title": "Forgiveless (feat. Ol' Dirty Bastard)",
+   "clean_title": "Forgiveless (feat. Ol' Dirty Bastard)",
+   "duration_ms": 141960,
+   "spotify_uri": "spotify:track:5IcP1PPnleZ2kuwKDyfNC5",
+   "spotify_url": "https://open.spotify.com/track/5IcP1PPnleZ2kuwKDyfNC5?si=SQVj1NCsQWuiKcs222kTig",
+   "starts_at_ms": 3943161,
+   "starts_at": "65:43"
+  }
+ ],
+ "week": 2,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:29.732333+00:00"
+}
