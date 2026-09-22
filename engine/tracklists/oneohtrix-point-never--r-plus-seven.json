@@ -1,0 +1,111 @@
+{
+ "artist": "Oneohtrix Point Never",
+ "album": "R Plus Seven",
+ "spotify_uri": "spotify:album:0p7nH5bz0pWBor10osUBuD",
+ "spotify_url": "https://open.spotify.com/album/0p7nH5bz0pWBor10osUBuD?si=24fGeQd3RY2cOrHSfiUYjw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Boring Angel",
+   "clean_title": "Boring Angel",
+   "duration_ms": 256127,
+   "spotify_uri": "spotify:track:1FlN2fZo6ph7iQ8gkQYeep",
+   "spotify_url": "https://open.spotify.com/track/1FlN2fZo6ph7iQ8gkQYeep?si=uA5LAlhxT9iZsI3s3phw5g",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Americans",
+   "clean_title": "Americans",
+   "duration_ms": 318000,
+   "spotify_uri": "spotify:track:6uyDJOfz9zxHGcFVft44Bx",
+   "spotify_url": "https://open.spotify.com/track/6uyDJOfz9zxHGcFVft44Bx?si=3VfYd0TUSjayHzoaCxiIBQ",
+   "starts_at_ms": 256127,
+   "starts_at": "4:16"
+  },
+  {
+   "n": 3,
+   "title": "He She",
+   "clean_title": "He She",
+   "duration_ms": 93000,
+   "spotify_uri": "spotify:track:6YtmXlaoK5pktbxpf8Fiwu",
+   "spotify_url": "https://open.spotify.com/track/6YtmXlaoK5pktbxpf8Fiwu?si=TIQmvRigTrm6RO0Qhykrvg",
+   "starts_at_ms": 574127,
+   "starts_at": "9:34"
+  },
+  {
+   "n": 4,
+   "title": "Inside World",
+   "clean_title": "Inside World",
+   "duration_ms": 233124,
+   "spotify_uri": "spotify:track:46Vf14fqvG0PYgfXVtmW1X",
+   "spotify_url": "https://open.spotify.com/track/46Vf14fqvG0PYgfXVtmW1X?si=HVJz_EU3Qyubc47Ox-qURA",
+   "starts_at_ms": 667127,
+   "starts_at": "11:07"
+  },
+  {
+   "n": 5,
+   "title": "Zebra",
+   "clean_title": "Zebra",
+   "duration_ms": 404726,
+   "spotify_uri": "spotify:track:7FuOcaB9j68bnE28zxOSoI",
+   "spotify_url": "https://open.spotify.com/track/7FuOcaB9j68bnE28zxOSoI?si=c8sT4ZRITxa4EUsrgaO61Q",
+   "starts_at_ms": 900251,
+   "starts_at": "15:00"
+  },
+  {
+   "n": 6,
+   "title": "Along",
+   "clean_title": "Along",
+   "duration_ms": 323570,
+   "spotify_uri": "spotify:track:18qKVgN8Gk9mmb2fsIVy57",
+   "spotify_url": "https://open.spotify.com/track/18qKVgN8Gk9mmb2fsIVy57?si=al6aUYAoQamAcM-RTmk4vw",
+   "starts_at_ms": 1304977,
+   "starts_at": "21:44"
+  },
+  {
+   "n": 7,
+   "title": "Problem Areas",
+   "clean_title": "Problem Areas",
+   "duration_ms": 186372,
+   "spotify_uri": "spotify:track:4Ojs8vJ32ICIzMIdvfwxJ6",
+   "spotify_url": "https://open.spotify.com/track/4Ojs8vJ32ICIzMIdvfwxJ6?si=wTUBsBlPSJ6fLEpdbFnb1w",
+   "starts_at_ms": 1628547,
+   "starts_at": "27:08"
+  },
+  {
+   "n": 8,
+   "title": "Cryo",
+   "clean_title": "Cryo",
+   "duration_ms": 167212,
+   "spotify_uri": "spotify:track:3A0r8Pi9bbhLBI1OBhnzpQ",
+   "spotify_url": "https://open.spotify.com/track/3A0r8Pi9bbhLBI1OBhnzpQ?si=yICw9VMRSYaJslvg3-aAuQ",
+   "starts_at_ms": 1814919,
+   "starts_at": "30:14"
+  },
+  {
+   "n": 9,
+   "title": "Still Life",
+   "clean_title": "Still Life",
+   "duration_ms": 293767,
+   "spotify_uri": "spotify:track:6nMej5H3w4NmKynmLGfV2X",
+   "spotify_url": "https://open.spotify.com/track/6nMej5H3w4NmKynmLGfV2X?si=FJsYXz_IQ9mpWIdqTgixZw",
+   "starts_at_ms": 1982131,
+   "starts_at": "33:02"
+  },
+  {
+   "n": 10,
+   "title": "Chrome Country",
+   "clean_title": "Chrome Country",
+   "duration_ms": 305287,
+   "spotify_uri": "spotify:track:4TBVy5cFYGmK5BA3rdMGEQ",
+   "spotify_url": "https://open.spotify.com/track/4TBVy5cFYGmK5BA3rdMGEQ?si=svsCWtkDTVCCtp6-AN5fkQ",
+   "starts_at_ms": 2275898,
+   "starts_at": "37:55"
+  }
+ ],
+ "week": 9,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:31:04.344350+00:00"
+}
