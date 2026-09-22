@@ -1,0 +1,141 @@
+{
+ "artist": "Fiona Apple",
+ "album": "Fetch the Bolt Cutters",
+ "spotify_uri": "spotify:album:0fO1KemWL2uCCQmM22iKlj",
+ "spotify_url": "https://open.spotify.com/album/0fO1KemWL2uCCQmM22iKlj?si=19lakgoDQoCEtOvM5uQbcQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "I Want You To Love Me",
+   "clean_title": "I Want You To Love Me",
+   "duration_ms": 237713,
+   "spotify_uri": "spotify:track:73SBAGI4fPFm4VkB3NjXq8",
+   "spotify_url": "https://open.spotify.com/track/73SBAGI4fPFm4VkB3NjXq8?si=KxgnuzhLSiaoFpzp3V3J7A",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Shameika",
+   "clean_title": "Shameika",
+   "duration_ms": 248603,
+   "spotify_uri": "spotify:track:2pDKE8Q40TDGPl1O11DKKn",
+   "spotify_url": "https://open.spotify.com/track/2pDKE8Q40TDGPl1O11DKKn?si=__ctI3GXTT6w5F-lGQy86A",
+   "starts_at_ms": 237713,
+   "starts_at": "3:57"
+  },
+  {
+   "n": 3,
+   "title": "Fetch The Bolt Cutters",
+   "clean_title": "Fetch The Bolt Cutters",
+   "duration_ms": 298457,
+   "spotify_uri": "spotify:track:4SdubskbLiOkpsIjRVVsya",
+   "spotify_url": "https://open.spotify.com/track/4SdubskbLiOkpsIjRVVsya?si=fG1TcXyDS6WFS8Y5v6rcJA",
+   "starts_at_ms": 486316,
+   "starts_at": "8:06"
+  },
+  {
+   "n": 4,
+   "title": "Under The Table",
+   "clean_title": "Under The Table",
+   "duration_ms": 201352,
+   "spotify_uri": "spotify:track:12WhIX6MvI93bS3wPSStSY",
+   "spotify_url": "https://open.spotify.com/track/12WhIX6MvI93bS3wPSStSY?si=-kE4SyBdTH2W_MHeG1t3_Q",
+   "starts_at_ms": 784773,
+   "starts_at": "13:04"
+  },
+  {
+   "n": 5,
+   "title": "Relay",
+   "clean_title": "Relay",
+   "duration_ms": 289229,
+   "spotify_uri": "spotify:track:5hnOzmFuGltDDAm008jFDh",
+   "spotify_url": "https://open.spotify.com/track/5hnOzmFuGltDDAm008jFDh?si=GoxpyMR6SsOoeT7f31AGzw",
+   "starts_at_ms": 986125,
+   "starts_at": "16:26"
+  },
+  {
+   "n": 6,
+   "title": "Rack of His",
+   "clean_title": "Rack of His",
+   "duration_ms": 222307,
+   "spotify_uri": "spotify:track:17QLp5uadHptxnmq9clK8U",
+   "spotify_url": "https://open.spotify.com/track/17QLp5uadHptxnmq9clK8U?si=AgVBtb6nRKqfnOc9xtMgvQ",
+   "starts_at_ms": 1275354,
+   "starts_at": "21:15"
+  },
+  {
+   "n": 7,
+   "title": "Newspaper",
+   "clean_title": "Newspaper",
+   "duration_ms": 332404,
+   "spotify_uri": "spotify:track:1YsWyCYqpA8uZaR9SfYAnY",
+   "spotify_url": "https://open.spotify.com/track/1YsWyCYqpA8uZaR9SfYAnY?si=ES8iKCBNSoec4OyBv8i_Ng",
+   "starts_at_ms": 1497661,
+   "starts_at": "24:57"
+  },
+  {
+   "n": 8,
+   "title": "Ladies",
+   "clean_title": "Ladies",
+   "duration_ms": 325373,
+   "spotify_uri": "spotify:track:0jH0IsCBGackT3RmHBbSUI",
+   "spotify_url": "https://open.spotify.com/track/0jH0IsCBGackT3RmHBbSUI?si=rp8KazXURdir71jzpnOjpg",
+   "starts_at_ms": 1830065,
+   "starts_at": "30:30"
+  },
+  {
+   "n": 9,
+   "title": "Heavy Balloon",
+   "clean_title": "Heavy Balloon",
+   "duration_ms": 206262,
+   "spotify_uri": "spotify:track:2OQpQTRogZ1AhnUHJiT9Nb",
+   "spotify_url": "https://open.spotify.com/track/2OQpQTRogZ1AhnUHJiT9Nb?si=A-iMQq7yRq61L8q2tJj09g",
+   "starts_at_ms": 2155438,
+   "starts_at": "35:55"
+  },
+  {
+   "n": 10,
+   "title": "Cosmonauts",
+   "clean_title": "Cosmonauts",
+   "duration_ms": 239310,
+   "spotify_uri": "spotify:track:7eGoc6UmwiRAVnilTZajNC",
+   "spotify_url": "https://open.spotify.com/track/7eGoc6UmwiRAVnilTZajNC?si=uTaTZWurSDSZTaJAQqUcBg",
+   "starts_at_ms": 2361700,
+   "starts_at": "39:21"
+  },
+  {
+   "n": 11,
+   "title": "For Her",
+   "clean_title": "For Her",
+   "duration_ms": 163720,
+   "spotify_uri": "spotify:track:5BBWr1LUsCH1tECJLAUGnP",
+   "spotify_url": "https://open.spotify.com/track/5BBWr1LUsCH1tECJLAUGnP?si=Kbpx4pytROSXNheId2KbFg",
+   "starts_at_ms": 2601010,
+   "starts_at": "43:21"
+  },
+  {
+   "n": 12,
+   "title": "Drumset",
+   "clean_title": "Drumset",
+   "duration_ms": 160324,
+   "spotify_uri": "spotify:track:4baGw8dAfqNl7RrmlMtzb5",
+   "spotify_url": "https://open.spotify.com/track/4baGw8dAfqNl7RrmlMtzb5?si=_xDg7hidSuOh-HcMXAKoUw",
+   "starts_at_ms": 2764730,
+   "starts_at": "46:04"
+  },
+  {
+   "n": 13,
+   "title": "On I Go",
+   "clean_title": "On I Go",
+   "duration_ms": 189082,
+   "spotify_uri": "spotify:track:6VU4Ys4rbbbwJ84g1ZuYA5",
+   "spotify_url": "https://open.spotify.com/track/6VU4Ys4rbbbwJ84g1ZuYA5?si=AytIfKheTMmyzH7olb7e4A",
+   "starts_at_ms": 2925054,
+   "starts_at": "48:45"
+  }
+ ],
+ "week": 16,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:31:37.755635+00:00"
+}
