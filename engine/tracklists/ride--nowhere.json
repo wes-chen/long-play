@@ -1,0 +1,151 @@
+{
+ "artist": "Ride",
+ "album": "Nowhere",
+ "spotify_uri": "spotify:album:5l70cCHX1QzN680J68rblF",
+ "spotify_url": "https://open.spotify.com/album/5l70cCHX1QzN680J68rblF?si=Eo30K5NYQLyVDnPLlmHnqw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Leave Them All Behind - 2001 Remaster",
+   "clean_title": "Leave Them All Behind",
+   "duration_ms": 497466,
+   "spotify_uri": "spotify:track:0t4JQeO8qLKzQFcXuTitgk",
+   "spotify_url": "https://open.spotify.com/track/0t4JQeO8qLKzQFcXuTitgk?si=1p8TuwiiS7u0BpQkNTHm2w",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Twisterella - 2001 Remaster",
+   "clean_title": "Twisterella",
+   "duration_ms": 221693,
+   "spotify_uri": "spotify:track:5Aap5YVJvxkUSv0vf70GPh",
+   "spotify_url": "https://open.spotify.com/track/5Aap5YVJvxkUSv0vf70GPh?si=vxgR1D2mTqKr7n0IRsFhAw",
+   "starts_at_ms": 497466,
+   "starts_at": "8:17"
+  },
+  {
+   "n": 3,
+   "title": "Not Fazed - 2001 Remaster",
+   "clean_title": "Not Fazed",
+   "duration_ms": 263706,
+   "spotify_uri": "spotify:track:3zBuVT0kd2qhWzQ6Dys5Ag",
+   "spotify_url": "https://open.spotify.com/track/3zBuVT0kd2qhWzQ6Dys5Ag?si=aXMqIxZnQUyGwY_4MJLtoQ",
+   "starts_at_ms": 719159,
+   "starts_at": "11:59"
+  },
+  {
+   "n": 4,
+   "title": "Chrome Waves - 2001 Remaster",
+   "clean_title": "Chrome Waves",
+   "duration_ms": 233360,
+   "spotify_uri": "spotify:track:3zK6BzJeMCImVT05R5DzAh",
+   "spotify_url": "https://open.spotify.com/track/3zK6BzJeMCImVT05R5DzAh?si=XIM5eZJnRFWlNMBeb-120A",
+   "starts_at_ms": 982865,
+   "starts_at": "16:22"
+  },
+  {
+   "n": 5,
+   "title": "Mouse Trap - 2001 Remaster",
+   "clean_title": "Mouse Trap",
+   "duration_ms": 314200,
+   "spotify_uri": "spotify:track:5BkavucJnNBRLVniSCHTOu",
+   "spotify_url": "https://open.spotify.com/track/5BkavucJnNBRLVniSCHTOu?si=v8dSGWJKQP68vkpa8qVwIw",
+   "starts_at_ms": 1216225,
+   "starts_at": "20:16"
+  },
+  {
+   "n": 6,
+   "title": "Time of Her Time - 2001 Remaster",
+   "clean_title": "Time of Her Time",
+   "duration_ms": 195973,
+   "spotify_uri": "spotify:track:1FonOnMrgqht3ILbx8NhBy",
+   "spotify_url": "https://open.spotify.com/track/1FonOnMrgqht3ILbx8NhBy?si=USxUw6nfT8ixj4cN6kUVDQ",
+   "starts_at_ms": 1530425,
+   "starts_at": "25:30"
+  },
+  {
+   "n": 7,
+   "title": "Cool Your Boots - 2001 Remaster",
+   "clean_title": "Cool Your Boots",
+   "duration_ms": 360626,
+   "spotify_uri": "spotify:track:7c2zpnEh1qnEUYimGqEwBt",
+   "spotify_url": "https://open.spotify.com/track/7c2zpnEh1qnEUYimGqEwBt?si=2XY6m-JDQxaGURKZ8Ob-ZA",
+   "starts_at_ms": 1726398,
+   "starts_at": "28:46"
+  },
+  {
+   "n": 8,
+   "title": "Making Judy Smile - 2001 Remaster",
+   "clean_title": "Making Judy Smile",
+   "duration_ms": 158706,
+   "spotify_uri": "spotify:track:2UCOzJuGcoWdrYQ2RBajPs",
+   "spotify_url": "https://open.spotify.com/track/2UCOzJuGcoWdrYQ2RBajPs?si=RTrwiwPKS2umayKUGfmviw",
+   "starts_at_ms": 2087024,
+   "starts_at": "34:47"
+  },
+  {
+   "n": 9,
+   "title": "Time Machine - 2001 Remaster",
+   "clean_title": "Time Machine",
+   "duration_ms": 354026,
+   "spotify_uri": "spotify:track:4SGynRMkTAi2SQr94HI86w",
+   "spotify_url": "https://open.spotify.com/track/4SGynRMkTAi2SQr94HI86w?si=Uf9xyuVGQ-y__LyUGVzXwQ",
+   "starts_at_ms": 2245730,
+   "starts_at": "37:25"
+  },
+  {
+   "n": 10,
+   "title": "OX4 - 2001 Remaster",
+   "clean_title": "OX4",
+   "duration_ms": 423106,
+   "spotify_uri": "spotify:track:5RyB7pgxtNuFPeMy3fIYSK",
+   "spotify_url": "https://open.spotify.com/track/5RyB7pgxtNuFPeMy3fIYSK?si=GI1kJFfMSC64eQSyTJ3GRw",
+   "starts_at_ms": 2599756,
+   "starts_at": "43:19"
+  },
+  {
+   "n": 11,
+   "title": "Going Blank Again - 2001 Remaster",
+   "clean_title": "Going Blank Again",
+   "duration_ms": 201026,
+   "spotify_uri": "spotify:track:3DuMq5ZUweosvoRKq3ooEG",
+   "spotify_url": "https://open.spotify.com/track/3DuMq5ZUweosvoRKq3ooEG?si=tNaMRfE_SL-IzYR2AkT2wg",
+   "starts_at_ms": 3022862,
+   "starts_at": "50:22"
+  },
+  {
+   "n": 12,
+   "title": "Howard Hughes - 2001 Remaster",
+   "clean_title": "Howard Hughes",
+   "duration_ms": 242906,
+   "spotify_uri": "spotify:track:02bTcn9e9YvGFa5P2Ok9Tl",
+   "spotify_url": "https://open.spotify.com/track/02bTcn9e9YvGFa5P2Ok9Tl?si=2rA_fNo3RUCb18Eff9M_5w",
+   "starts_at_ms": 3223888,
+   "starts_at": "53:43"
+  },
+  {
+   "n": 13,
+   "title": "Stampede - 2001 Remaster",
+   "clean_title": "Stampede",
+   "duration_ms": 255626,
+   "spotify_uri": "spotify:track:66tdCyMDLFIjMExndsmVxr",
+   "spotify_url": "https://open.spotify.com/track/66tdCyMDLFIjMExndsmVxr?si=-tcEUe36StKbPHQh27GTzg",
+   "starts_at_ms": 3466794,
+   "starts_at": "57:46"
+  },
+  {
+   "n": 14,
+   "title": "Grasshopper - 2001 Remaster",
+   "clean_title": "Grasshopper",
+   "duration_ms": 656173,
+   "spotify_uri": "spotify:track:6dULxanEsWKgYlpiceQrcl",
+   "spotify_url": "https://open.spotify.com/track/6dULxanEsWKgYlpiceQrcl?si=JTRnSw7PTBuSd4w72m0lHg",
+   "starts_at_ms": 3722420,
+   "starts_at": "62:02"
+  }
+ ],
+ "week": 6,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:48.733110+00:00"
+}
