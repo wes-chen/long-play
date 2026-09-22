@@ -1,0 +1,131 @@
+{
+ "artist": "Crush",
+ "album": "From Midnight to Sunrise",
+ "spotify_uri": "spotify:album:4HejSNN1hxuW9AVVE9cr6h",
+ "spotify_url": "https://open.spotify.com/album/4HejSNN1hxuW9AVVE9cr6h?si=-Bp_vShUR-C43k0DqE9lvA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "From Midnight To Sunrise",
+   "clean_title": "From Midnight To Sunrise",
+   "duration_ms": 178706,
+   "spotify_uri": "spotify:track:3fm7b31sx02dMYHNjl92vD",
+   "spotify_url": "https://open.spotify.com/track/3fm7b31sx02dMYHNjl92vD?si=9lokyD28TteQ0fVPkzovUQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Wake Up (Feat. DEAN)",
+   "clean_title": "Wake Up (Feat. DEAN)",
+   "duration_ms": 201600,
+   "spotify_uri": "spotify:track:6ttHs2fIX0XM2qkEMGhLkA",
+   "spotify_url": "https://open.spotify.com/track/6ttHs2fIX0XM2qkEMGhLkA?si=1ZKeXi4URSSiO-afNH63yg",
+   "starts_at_ms": 178706,
+   "starts_at": "2:58"
+  },
+  {
+   "n": 3,
+   "title": "Wonderlust (Feat. Band Wonderlust)",
+   "clean_title": "Wonderlust (Feat. Band Wonderlust)",
+   "duration_ms": 112826,
+   "spotify_uri": "spotify:track:3BNZzwjRwM80VkrSlTtwOu",
+   "spotify_url": "https://open.spotify.com/track/3BNZzwjRwM80VkrSlTtwOu?si=6YfvHVf0TKyeJMgEN1MkFQ",
+   "starts_at_ms": 380306,
+   "starts_at": "6:20"
+  },
+  {
+   "n": 4,
+   "title": "With You",
+   "clean_title": "With You",
+   "duration_ms": 268266,
+   "spotify_uri": "spotify:track:0dZztq6ZQZEUKQHRN2geTL",
+   "spotify_url": "https://open.spotify.com/track/0dZztq6ZQZEUKQHRN2geTL?si=w2yg2lAuTou3R4R8VHPL0w",
+   "starts_at_ms": 493132,
+   "starts_at": "8:13"
+  },
+  {
+   "n": 5,
+   "title": "Alone",
+   "clean_title": "Alone",
+   "duration_ms": 264666,
+   "spotify_uri": "spotify:track:7wmCFmugk0Qj6xLlvg2ot4",
+   "spotify_url": "https://open.spotify.com/track/7wmCFmugk0Qj6xLlvg2ot4?si=a7YDsTmwT3ihNuPHXsyCig",
+   "starts_at_ms": 761398,
+   "starts_at": "12:41"
+  },
+  {
+   "n": 6,
+   "title": "Tiki-Taka (Feat. DPR LIVE)",
+   "clean_title": "Tiki-Taka (Feat. DPR LIVE)",
+   "duration_ms": 196133,
+   "spotify_uri": "spotify:track:2j4yzg8wYCZjM17oyhX5rl",
+   "spotify_url": "https://open.spotify.com/track/2j4yzg8wYCZjM17oyhX5rl?si=thLAGEzVRCeP8rjKyrjLbg",
+   "starts_at_ms": 1026064,
+   "starts_at": "17:06"
+  },
+  {
+   "n": 7,
+   "title": "Sunset",
+   "clean_title": "Sunset",
+   "duration_ms": 198600,
+   "spotify_uri": "spotify:track:1EWRa1duGXRXMgQChIAI3M",
+   "spotify_url": "https://open.spotify.com/track/1EWRa1duGXRXMgQChIAI3M?si=bVNuxJZwSPqZNQfXKDQu7w",
+   "starts_at_ms": 1222197,
+   "starts_at": "20:22"
+  },
+  {
+   "n": 8,
+   "title": "Butterfly",
+   "clean_title": "Butterfly",
+   "duration_ms": 225106,
+   "spotify_uri": "spotify:track:6GQ5skhTzAFlOf1ncjNOhk",
+   "spotify_url": "https://open.spotify.com/track/6GQ5skhTzAFlOf1ncjNOhk?si=EpzBdtSLRoO-6jd6TDnq9Q",
+   "starts_at_ms": 1420797,
+   "starts_at": "23:40"
+  },
+  {
+   "n": 9,
+   "title": "Ibiza",
+   "clean_title": "Ibiza",
+   "duration_ms": 190733,
+   "spotify_uri": "spotify:track:4C1yo2TzGevXw93iUF87cm",
+   "spotify_url": "https://open.spotify.com/track/4C1yo2TzGevXw93iUF87cm?si=DwS9lLbcR221Xko6rDFasw",
+   "starts_at_ms": 1645903,
+   "starts_at": "27:25"
+  },
+  {
+   "n": 10,
+   "title": "Cloth",
+   "clean_title": "Cloth",
+   "duration_ms": 124040,
+   "spotify_uri": "spotify:track:2LUqVcSUfGB3RRpLNyQ7GY",
+   "spotify_url": "https://open.spotify.com/track/2LUqVcSUfGB3RRpLNyQ7GY?si=hb2cA-kPQRu2z3JZYoMWIg",
+   "starts_at_ms": 1836636,
+   "starts_at": "30:36"
+  },
+  {
+   "n": 11,
+   "title": "Sleep No More",
+   "clean_title": "Sleep No More",
+   "duration_ms": 177626,
+   "spotify_uri": "spotify:track:3aFopvPg6Yckyco5E8TymC",
+   "spotify_url": "https://open.spotify.com/track/3aFopvPg6Yckyco5E8TymC?si=YdZnmIFpR2m-UeK6oMwA4Q",
+   "starts_at_ms": 1960676,
+   "starts_at": "32:40"
+  },
+  {
+   "n": 12,
+   "title": "Nighty Night (Feat. Zion.T)",
+   "clean_title": "Nighty Night (Feat. Zion.T)",
+   "duration_ms": 223213,
+   "spotify_uri": "spotify:track:4UW2LiHJa6nsazFCc8p8OH",
+   "spotify_url": "https://open.spotify.com/track/4UW2LiHJa6nsazFCc8p8OH?si=HLXReto-QkWKN_T3QBYsbA",
+   "starts_at_ms": 2138302,
+   "starts_at": "35:38"
+  }
+ ],
+ "week": 20,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:55.362401+00:00"
+}
