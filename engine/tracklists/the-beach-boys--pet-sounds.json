@@ -1,0 +1,151 @@
+{
+ "artist": "The Beach Boys",
+ "album": "Pet Sounds",
+ "spotify_uri": "spotify:album:0KOzSK4msKHMszFboxHY9E",
+ "spotify_url": "https://open.spotify.com/album/0KOzSK4msKHMszFboxHY9E?si=wHA1fXdoQVquXOs8jDS8-Q",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Wouldn't It Be Nice",
+   "clean_title": "Wouldn't It Be Nice",
+   "duration_ms": 174306,
+   "spotify_uri": "spotify:track:0P5e82kPagZq4vhEITcGnL",
+   "spotify_url": "https://open.spotify.com/track/0P5e82kPagZq4vhEITcGnL?si=q5840U4WQzm_eo883kWp5g",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "You Still Believe In Me",
+   "clean_title": "You Still Believe In Me",
+   "duration_ms": 261373,
+   "spotify_uri": "spotify:track:2yf3jjoVYO21VGRFeehiht",
+   "spotify_url": "https://open.spotify.com/track/2yf3jjoVYO21VGRFeehiht?si=SCXmaFGxSsOrln26SGz5iw",
+   "starts_at_ms": 174306,
+   "starts_at": "2:54"
+  },
+  {
+   "n": 3,
+   "title": "That's Not Me",
+   "clean_title": "That's Not Me",
+   "duration_ms": 218773,
+   "spotify_uri": "spotify:track:4q6yGR00vPF8lbbLRwtDX3",
+   "spotify_url": "https://open.spotify.com/track/4q6yGR00vPF8lbbLRwtDX3?si=L6w5bmbDTVO1s6QpJ-M5Jw",
+   "starts_at_ms": 435679,
+   "starts_at": "7:15"
+  },
+  {
+   "n": 4,
+   "title": "Don't Talk (Put Your Head On My Shoulder)",
+   "clean_title": "Don't Talk (Put Your Head On My Shoulder)",
+   "duration_ms": 198226,
+   "spotify_uri": "spotify:track:5W49c62HdNiMSS7hYEFsQI",
+   "spotify_url": "https://open.spotify.com/track/5W49c62HdNiMSS7hYEFsQI?si=2iJ3qlUlRJa4SCjPsGZCuw",
+   "starts_at_ms": 654452,
+   "starts_at": "10:54"
+  },
+  {
+   "n": 5,
+   "title": "I'm Waiting For The Day",
+   "clean_title": "I'm Waiting For The Day",
+   "duration_ms": 231626,
+   "spotify_uri": "spotify:track:6tU9I6xey8PxgBBooxr33B",
+   "spotify_url": "https://open.spotify.com/track/6tU9I6xey8PxgBBooxr33B?si=sse89jw0RE-oabyhNPqvXA",
+   "starts_at_ms": 852678,
+   "starts_at": "14:12"
+  },
+  {
+   "n": 6,
+   "title": "Let's Go Away For Awhile",
+   "clean_title": "Let's Go Away For Awhile",
+   "duration_ms": 207586,
+   "spotify_uri": "spotify:track:0ZJli9Fqv1OyfDF8ONcFbb",
+   "spotify_url": "https://open.spotify.com/track/0ZJli9Fqv1OyfDF8ONcFbb?si=akOEuRKcRHS2kV34mSOgFg",
+   "starts_at_ms": 1084304,
+   "starts_at": "18:04"
+  },
+  {
+   "n": 7,
+   "title": "Sloop John B",
+   "clean_title": "Sloop John B",
+   "duration_ms": 235120,
+   "spotify_uri": "spotify:track:0U2nICsbSEx3xZCJROTFEu",
+   "spotify_url": "https://open.spotify.com/track/0U2nICsbSEx3xZCJROTFEu?si=l75X34zaR8Oc0wC6GPVTqQ",
+   "starts_at_ms": 1291890,
+   "starts_at": "21:31"
+  },
+  {
+   "n": 8,
+   "title": "God Only Knows",
+   "clean_title": "God Only Knows",
+   "duration_ms": 170986,
+   "spotify_uri": "spotify:track:3SlxghuYSMBUa9wGeCnkqg",
+   "spotify_url": "https://open.spotify.com/track/3SlxghuYSMBUa9wGeCnkqg?si=_LqrolzJQEyXhdiYL7IUHw",
+   "starts_at_ms": 1527010,
+   "starts_at": "25:27"
+  },
+  {
+   "n": 9,
+   "title": "I Know There's An Answer",
+   "clean_title": "I Know There's An Answer",
+   "duration_ms": 204440,
+   "spotify_uri": "spotify:track:4RXIdvCXmKf6eHiY16pXft",
+   "spotify_url": "https://open.spotify.com/track/4RXIdvCXmKf6eHiY16pXft?si=aoKMZJusSZ-jDuW2unyLYg",
+   "starts_at_ms": 1697996,
+   "starts_at": "28:17"
+  },
+  {
+   "n": 10,
+   "title": "Here Today",
+   "clean_title": "Here Today",
+   "duration_ms": 181720,
+   "spotify_uri": "spotify:track:3o7MCN9MIvh48wYGe1OKJN",
+   "spotify_url": "https://open.spotify.com/track/3o7MCN9MIvh48wYGe1OKJN?si=ewcvOcI9TsmPn_m3yOeYOQ",
+   "starts_at_ms": 1902436,
+   "starts_at": "31:42"
+  },
+  {
+   "n": 11,
+   "title": "I Just Wasn't Made For These Times",
+   "clean_title": "I Just Wasn't Made For These Times",
+   "duration_ms": 215333,
+   "spotify_uri": "spotify:track:6BLlwZOMn4rq3Y4yup1H0k",
+   "spotify_url": "https://open.spotify.com/track/6BLlwZOMn4rq3Y4yup1H0k?si=Vcwhgq-ESfuBYkeqypvACw",
+   "starts_at_ms": 2084156,
+   "starts_at": "34:44"
+  },
+  {
+   "n": 12,
+   "title": "Pet Sounds",
+   "clean_title": "Pet Sounds",
+   "duration_ms": 233320,
+   "spotify_uri": "spotify:track:3T3CmCQ3DdNQbsADwPxZ6P",
+   "spotify_url": "https://open.spotify.com/track/3T3CmCQ3DdNQbsADwPxZ6P?si=W5B_jGirQAmYy6w1DvgcKQ",
+   "starts_at_ms": 2299489,
+   "starts_at": "38:19"
+  },
+  {
+   "n": 13,
+   "title": "Caroline No",
+   "clean_title": "Caroline No",
+   "duration_ms": 249653,
+   "spotify_uri": "spotify:track:3Ow1v3I21x5t9oxxC8U9jK",
+   "spotify_url": "https://open.spotify.com/track/3Ow1v3I21x5t9oxxC8U9jK?si=L2uQZv6_RIW4MjhHu8wvtw",
+   "starts_at_ms": 2532809,
+   "starts_at": "42:12"
+  },
+  {
+   "n": 14,
+   "title": "Hang On To Your Ego",
+   "clean_title": "Hang On To Your Ego",
+   "duration_ms": 217653,
+   "spotify_uri": "spotify:track:2LLaZkHfAv2KVglbHbXy2o",
+   "spotify_url": "https://open.spotify.com/track/2LLaZkHfAv2KVglbHbXy2o?si=F1tqXJT8RfyOXw7tX5F2AA",
+   "starts_at_ms": 2782462,
+   "starts_at": "46:22"
+  }
+ ],
+ "week": 15,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:31:29.766145+00:00"
+}
