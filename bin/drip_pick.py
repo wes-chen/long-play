@@ -6,6 +6,13 @@ Reads weeks/CURRENT and the delivery marker
 parses the five album sections (in file order) from weeks/week-NN.md, and
 prints today's spotlight pick as JSON.
 
+M3: the pick JSON also carries a "guided_cue" block
+({timed, track_n, track_title, starts_at, liner}) from
+engine/guided_cues.json — a real track boundary from the Spotify tracklist
+cache paired with the week's curated "Listen for" cue, plus a one-line
+liner drop verbatim from the week file. guided_cue is null when cues are
+not yet built for the week.
+
 Rotation: the five albums appear in file order; the album at index
 (week_number - 1) % 5 is skipped that week (so the anchor — known ground —
 sits out week 1, and every album gets a drip over any 5-week span). The
@@ -50,6 +57,36 @@ LISTEN_FOR_RE = re.compile(r"\*\*Listen for:\*\*\s*(.+)", re.IGNORECASE)
 def silent(reason):
     print(json.dumps({"silent": reason}))
     return 0
+
+
+def attach_guided_cue(pick):
+    """M3: attach the day's guided-listening cue from engine/guided_cues.json.
+
+    Adds {"guided_cue": {timed: {...}, liner: ...}} or {"guided_cue": None}
+    when cues are not yet built for the week. Never fabricates a cue.
+    """
+    try:
+        with open(os.path.join(REPO, "engine", "guided_cues.json")) as f:
+            cues = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        pick["guided_cue"] = None
+        return pick
+    week_cues = cues.get(str(pick.get("week")), {})
+    key = "%s|%s" % (re.sub(r"[^a-z0-9]+", "-", pick["artist"].strip().lower()).strip("-"),
+                     re.sub(r"[^a-z0-9]+", "-", pick["album"].strip().lower()).strip("-"))
+    entry = week_cues.get(key)
+    if not entry:
+        pick["guided_cue"] = None
+        return pick
+    timed = entry.get("timed") or {}
+    pick["guided_cue"] = {
+        "timed": timed.get("cue"),
+        "track_n": timed.get("track_n"),
+        "track_title": timed.get("track_title"),
+        "starts_at": timed.get("starts_at"),
+        "liner": entry.get("liner"),
+    }
+    return pick
 
 
 def read_delivered():
@@ -134,6 +171,7 @@ def main():
     pick = drip_order[DRIP_DAYS[today.weekday()]]
     pick = dict(pick)
     pick["week"] = week
+    pick = attach_guided_cue(pick)
 
     if mark_sent:
         sent[day_key] = {"album": pick["album"], "artist": pick["artist"],
