@@ -1,0 +1,121 @@
+{
+ "artist": "Phoebe Bridgers",
+ "album": "Punisher",
+ "spotify_uri": "spotify:album:6Pp6qGEywDdofgFC1oFbSH",
+ "spotify_url": "https://open.spotify.com/album/6Pp6qGEywDdofgFC1oFbSH?si=tRpuWaeXS3CT8xw70PkYcA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "DVD Menu",
+   "clean_title": "DVD Menu",
+   "duration_ms": 69931,
+   "spotify_uri": "spotify:track:0kjCtKby0lrHKmSxBa80Bq",
+   "spotify_url": "https://open.spotify.com/track/0kjCtKby0lrHKmSxBa80Bq?si=hG6mQ5DbS3KroeW44YJ8Aw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Garden Song",
+   "clean_title": "Garden Song",
+   "duration_ms": 219681,
+   "spotify_uri": "spotify:track:5bIgzvxvlefRUCQK9JPocF",
+   "spotify_url": "https://open.spotify.com/track/5bIgzvxvlefRUCQK9JPocF?si=-ArBIV9mQ9CnmtSzbv7z9A",
+   "starts_at_ms": 69931,
+   "starts_at": "1:09"
+  },
+  {
+   "n": 3,
+   "title": "Kyoto",
+   "clean_title": "Kyoto",
+   "duration_ms": 184524,
+   "spotify_uri": "spotify:track:4vjvx7Zxkb4AltGcZ0BBvI",
+   "spotify_url": "https://open.spotify.com/track/4vjvx7Zxkb4AltGcZ0BBvI?si=5PTvuuLNSrmpicPYRI4Q8w",
+   "starts_at_ms": 289612,
+   "starts_at": "4:49"
+  },
+  {
+   "n": 4,
+   "title": "Punisher",
+   "clean_title": "Punisher",
+   "duration_ms": 189622,
+   "spotify_uri": "spotify:track:5LJ4ig9cMvjui3li1mrNRl",
+   "spotify_url": "https://open.spotify.com/track/5LJ4ig9cMvjui3li1mrNRl?si=CWq1VbLWQ3uSXabepvuhww",
+   "starts_at_ms": 474136,
+   "starts_at": "7:54"
+  },
+  {
+   "n": 5,
+   "title": "Halloween",
+   "clean_title": "Halloween",
+   "duration_ms": 271266,
+   "spotify_uri": "spotify:track:2GDxR0ZGYqDQUElSQxBiNS",
+   "spotify_url": "https://open.spotify.com/track/2GDxR0ZGYqDQUElSQxBiNS?si=izFeOznTT8-9q8k0988-MA",
+   "starts_at_ms": 663758,
+   "starts_at": "11:03"
+  },
+  {
+   "n": 6,
+   "title": "Chinese Satellite",
+   "clean_title": "Chinese Satellite",
+   "duration_ms": 217070,
+   "spotify_uri": "spotify:track:1scaOnahzG7o8pfwfsL784",
+   "spotify_url": "https://open.spotify.com/track/1scaOnahzG7o8pfwfsL784?si=9u7TsOi_T0i7JOIM1Nk1pQ",
+   "starts_at_ms": 935024,
+   "starts_at": "15:35"
+  },
+  {
+   "n": 7,
+   "title": "Moon Song",
+   "clean_title": "Moon Song",
+   "duration_ms": 277676,
+   "spotify_uri": "spotify:track:46RNrAkGsqWTDrv2ZPOAbx",
+   "spotify_url": "https://open.spotify.com/track/46RNrAkGsqWTDrv2ZPOAbx?si=DHcczqKWQviaG23OaOSFjg",
+   "starts_at_ms": 1152094,
+   "starts_at": "19:12"
+  },
+  {
+   "n": 8,
+   "title": "Savior Complex",
+   "clean_title": "Savior Complex",
+   "duration_ms": 241640,
+   "spotify_uri": "spotify:track:5BN59BDczcpxstFKILIH0q",
+   "spotify_url": "https://open.spotify.com/track/5BN59BDczcpxstFKILIH0q?si=gch4bvKARB-g32Bq4fgj1A",
+   "starts_at_ms": 1429770,
+   "starts_at": "23:49"
+  },
+  {
+   "n": 9,
+   "title": "ICU",
+   "clean_title": "ICU",
+   "duration_ms": 190093,
+   "spotify_uri": "spotify:track:0Jm0RTOlF7DsbQ689QclaF",
+   "spotify_url": "https://open.spotify.com/track/0Jm0RTOlF7DsbQ689QclaF?si=lx8V-1TeRhq9VncgA8vjlA",
+   "starts_at_ms": 1671410,
+   "starts_at": "27:51"
+  },
+  {
+   "n": 10,
+   "title": "Graceland Too",
+   "clean_title": "Graceland Too",
+   "duration_ms": 236350,
+   "spotify_uri": "spotify:track:1WCjhRs2WBgyeGaybCX2Po",
+   "spotify_url": "https://open.spotify.com/track/1WCjhRs2WBgyeGaybCX2Po?si=OvYWSRCWS2GhM96Uk53HzQ",
+   "starts_at_ms": 1861503,
+   "starts_at": "31:01"
+  },
+  {
+   "n": 11,
+   "title": "I Know The End",
+   "clean_title": "I Know The End",
+   "duration_ms": 344692,
+   "spotify_uri": "spotify:track:0pJW1Xw3aY4Eh6k5iuBkfI",
+   "spotify_url": "https://open.spotify.com/track/0pJW1Xw3aY4Eh6k5iuBkfI?si=yarmVgxwQ_Go2E9QIebXZw",
+   "starts_at_ms": 2097853,
+   "starts_at": "34:57"
+  }
+ ],
+ "week": 14,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:27.797658+00:00"
+}
