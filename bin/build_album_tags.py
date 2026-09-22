@@ -23,6 +23,7 @@ TAGS = [
     ("Pink Floyd", "The Dark Side of the Moon", "prog-rock", "1970s", "UK"),
     ("Pink Floyd", "Animals", "prog-rock", "1970s", "UK"),
     ("The Smile", "A Light for Attracting Attention", "art-rock", "2020s", "UK"),
+    ("These New Puritans", "Field of Reeds", "art-rock", "2010s", "UK"),
     ("Four Tet", "Beautiful Rewind", "electronic-melodic", "2010s", "UK"),
     ("Can", "Tago Mago", "krautrock", "1970s", "Germany"),
     # week 2
