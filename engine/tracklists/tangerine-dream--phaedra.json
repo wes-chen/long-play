@@ -1,0 +1,61 @@
+{
+ "artist": "Tangerine Dream",
+ "album": "Phaedra",
+ "spotify_uri": "spotify:album:1UahWRecXUrQeuFeCzv3Hh",
+ "spotify_url": "https://open.spotify.com/album/1UahWRecXUrQeuFeCzv3Hh?si=4szuw-8JSEW3vjvTKdXMBw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Phaedra",
+   "clean_title": "Phaedra",
+   "duration_ms": 670546,
+   "spotify_uri": "spotify:track:1i4hZrlij5OW6sQphwrDMO",
+   "spotify_url": "https://open.spotify.com/track/1i4hZrlij5OW6sQphwrDMO?si=dtxopxaoRgupklGKvhn61g",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Mysterious Semblance At The Strand Of Nightmares",
+   "clean_title": "Mysterious Semblance At The Strand Of Nightmares",
+   "duration_ms": 593653,
+   "spotify_uri": "spotify:track:0HvcpdXQLNiCOll9SvPnWU",
+   "spotify_url": "https://open.spotify.com/track/0HvcpdXQLNiCOll9SvPnWU?si=7LWZbgHhQzi5l3gbY4cArQ",
+   "starts_at_ms": 670546,
+   "starts_at": "11:10"
+  },
+  {
+   "n": 3,
+   "title": "Movements Of A Visionary",
+   "clean_title": "Movements Of A Visionary",
+   "duration_ms": 478106,
+   "spotify_uri": "spotify:track:2gAiUrRDUiMVoJPFD5l4HI",
+   "spotify_url": "https://open.spotify.com/track/2gAiUrRDUiMVoJPFD5l4HI?si=40amZQ-hTxW0wKJYyxXLAw",
+   "starts_at_ms": 1264199,
+   "starts_at": "21:04"
+  },
+  {
+   "n": 4,
+   "title": "Sequent C",
+   "clean_title": "Sequent C",
+   "duration_ms": 185746,
+   "spotify_uri": "spotify:track:3y5Fisms2DdXmdZatcqz8b",
+   "spotify_url": "https://open.spotify.com/track/3y5Fisms2DdXmdZatcqz8b?si=db8Hn-lERbSa6b5VHsT3Mg",
+   "starts_at_ms": 1742305,
+   "starts_at": "29:02"
+  },
+  {
+   "n": 5,
+   "title": "Delfi",
+   "clean_title": "Delfi",
+   "duration_ms": 367826,
+   "spotify_uri": "spotify:track:3wOyziEbvGmuGZXiwbSBkl",
+   "spotify_url": "https://open.spotify.com/track/3wOyziEbvGmuGZXiwbSBkl?si=4Wz2mZsYRUGbw3mxpRtIvw",
+   "starts_at_ms": 1928051,
+   "starts_at": "32:08"
+  }
+ ],
+ "week": 8,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:58.670358+00:00"
+}
