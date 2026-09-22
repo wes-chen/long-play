@@ -312,16 +312,16 @@
    "liner_source": null,
    "tracklist": "spotify"
   },
-  "the-smile|a-light-for-attracting-attention": {
-   "artist": "The Smile",
-   "album": "A Light for Attracting Attention",
+  "these-new-puritans|field-of-reeds": {
+   "artist": "These New Puritans",
+   "album": "Field of Reeds",
    "slot": "adventurous",
    "timed": {
     "track_n": 1,
-    "track_title": "The Same",
+    "track_title": "This Guy's In Love with You",
     "starts_at": "0:00",
     "named_in_cue": false,
-    "cue": "Track 1 — “The Same” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "cue": "Track 1 — “This Guy's In Love with You” starts at 0:00. [the week's listen-for lands with the Monday digest]",
     "curated_moment": false,
     "cue_text_pending": true
    },
