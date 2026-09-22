@@ -1,0 +1,181 @@
+{
+ "artist": "Kamasi Washington",
+ "album": "The Epic",
+ "spotify_uri": "spotify:album:2j2q2ySuVk43eHB8wI5XQj",
+ "spotify_url": "https://open.spotify.com/album/2j2q2ySuVk43eHB8wI5XQj?si=0IxOKxuKTtScHfwbQF8l2w",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Change of the Guard",
+   "clean_title": "Change of the Guard",
+   "duration_ms": 735960,
+   "spotify_uri": "spotify:track:4xw8UnKYxsiRFjigtQcVAL",
+   "spotify_url": "https://open.spotify.com/track/4xw8UnKYxsiRFjigtQcVAL?si=HBj5ySwYRbq2OIe8R5m2Cw",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Askim",
+   "clean_title": "Askim",
+   "duration_ms": 754693,
+   "spotify_uri": "spotify:track:4NfKSsUxmT4rZxOLPSIGdY",
+   "spotify_url": "https://open.spotify.com/track/4NfKSsUxmT4rZxOLPSIGdY?si=u_bEIvJ9STeLcmOQ66L8GQ",
+   "starts_at_ms": 735960,
+   "starts_at": "12:15"
+  },
+  {
+   "n": 3,
+   "title": "Isabelle",
+   "clean_title": "Isabelle",
+   "duration_ms": 732533,
+   "spotify_uri": "spotify:track:2BCwZVyey3fznTOobhHYUr",
+   "spotify_url": "https://open.spotify.com/track/2BCwZVyey3fznTOobhHYUr?si=24O31UAxRFKk0h25ZeEQsg",
+   "starts_at_ms": 1490653,
+   "starts_at": "24:50"
+  },
+  {
+   "n": 4,
+   "title": "Final Thought",
+   "clean_title": "Final Thought",
+   "duration_ms": 391800,
+   "spotify_uri": "spotify:track:21q13WGjUTmzvroPyUJQdC",
+   "spotify_url": "https://open.spotify.com/track/21q13WGjUTmzvroPyUJQdC?si=SoVkN4hBRtGQOS8O9QFg3A",
+   "starts_at_ms": 2223186,
+   "starts_at": "37:03"
+  },
+  {
+   "n": 5,
+   "title": "The Next Step",
+   "clean_title": "The Next Step",
+   "duration_ms": 888866,
+   "spotify_uri": "spotify:track:60wDXeM5LsZFTUNA3ECMd8",
+   "spotify_url": "https://open.spotify.com/track/60wDXeM5LsZFTUNA3ECMd8?si=ldnK0cAYTTyvDvn9XI_xZA",
+   "starts_at_ms": 2614986,
+   "starts_at": "43:34"
+  },
+  {
+   "n": 6,
+   "title": "The Rhythm Changes",
+   "clean_title": "The Rhythm Changes",
+   "duration_ms": 464760,
+   "spotify_uri": "spotify:track:3t4DPlzLD3gRia6LjQhwSR",
+   "spotify_url": "https://open.spotify.com/track/3t4DPlzLD3gRia6LjQhwSR?si=QL2yZ_rXQdOChICf2lkbnQ",
+   "starts_at_ms": 3503852,
+   "starts_at": "58:23"
+  },
+  {
+   "n": 7,
+   "title": "Miss Understanding",
+   "clean_title": "Miss Understanding",
+   "duration_ms": 526266,
+   "spotify_uri": "spotify:track:6dZojGTd9QNpAulk8WUoeW",
+   "spotify_url": "https://open.spotify.com/track/6dZojGTd9QNpAulk8WUoeW?si=G_gSSo4CRs-cqJqU86ZqVg",
+   "starts_at_ms": 3968612,
+   "starts_at": "66:08"
+  },
+  {
+   "n": 8,
+   "title": "Leroy and Lanisha",
+   "clean_title": "Leroy and Lanisha",
+   "duration_ms": 564266,
+   "spotify_uri": "spotify:track:60Cs98m3CyNZcfOQTQANTw",
+   "spotify_url": "https://open.spotify.com/track/60Cs98m3CyNZcfOQTQANTw?si=pf1jDeEuTLm14TLx3crwpg",
+   "starts_at_ms": 4494878,
+   "starts_at": "74:54"
+  },
+  {
+   "n": 9,
+   "title": "Re Run",
+   "clean_title": "Re Run",
+   "duration_ms": 499640,
+   "spotify_uri": "spotify:track:3s2ZEQikW0gd16Oi5gjmA1",
+   "spotify_url": "https://open.spotify.com/track/3s2ZEQikW0gd16Oi5gjmA1?si=E_efjkfWSmW8JKQ1uIk_XQ",
+   "starts_at_ms": 5059144,
+   "starts_at": "84:19"
+  },
+  {
+   "n": 10,
+   "title": "Seven Prayers",
+   "clean_title": "Seven Prayers",
+   "duration_ms": 455933,
+   "spotify_uri": "spotify:track:3tF5Uim2abJg6WAACDjjQK",
+   "spotify_url": "https://open.spotify.com/track/3tF5Uim2abJg6WAACDjjQK?si=VIOseLEOTeeXJtN9d4pLyQ",
+   "starts_at_ms": 5558784,
+   "starts_at": "92:38"
+  },
+  {
+   "n": 11,
+   "title": "Henrietta Our Hero",
+   "clean_title": "Henrietta Our Hero",
+   "duration_ms": 433760,
+   "spotify_uri": "spotify:track:6u7MfJPdKanbOe5fGRah5k",
+   "spotify_url": "https://open.spotify.com/track/6u7MfJPdKanbOe5fGRah5k?si=0aoNHOAoSH2gOJyaWeDd7g",
+   "starts_at_ms": 6014717,
+   "starts_at": "100:14"
+  },
+  {
+   "n": 12,
+   "title": "The Magnificent 7",
+   "clean_title": "The Magnificent 7",
+   "duration_ms": 766600,
+   "spotify_uri": "spotify:track:50YILQTsfHxipz8Xhc3si9",
+   "spotify_url": "https://open.spotify.com/track/50YILQTsfHxipz8Xhc3si9?si=18OfGd1JT8OOKB0WX7RASQ",
+   "starts_at_ms": 6448477,
+   "starts_at": "107:28"
+  },
+  {
+   "n": 13,
+   "title": "Re Run Home",
+   "clean_title": "Re Run Home",
+   "duration_ms": 846053,
+   "spotify_uri": "spotify:track:5bQeP1BkOL9elLUTMpOqMc",
+   "spotify_url": "https://open.spotify.com/track/5bQeP1BkOL9elLUTMpOqMc?si=93dd8oOGQKSb-JB5PJisSA",
+   "starts_at_ms": 7215077,
+   "starts_at": "120:15"
+  },
+  {
+   "n": 14,
+   "title": "Cherokee",
+   "clean_title": "Cherokee",
+   "duration_ms": 494466,
+   "spotify_uri": "spotify:track:6jXAdaU4wshOAHXCUVvkn3",
+   "spotify_url": "https://open.spotify.com/track/6jXAdaU4wshOAHXCUVvkn3?si=8DCjvL-4TyuAG72Q4dJiFQ",
+   "starts_at_ms": 8061130,
+   "starts_at": "134:21"
+  },
+  {
+   "n": 15,
+   "title": "Clair de Lune",
+   "clean_title": "Clair de Lune",
+   "duration_ms": 667733,
+   "spotify_uri": "spotify:track:273VxALm722DRN4PNujOF8",
+   "spotify_url": "https://open.spotify.com/track/273VxALm722DRN4PNujOF8?si=MSaRbSwbROCxNkwaxbGu0g",
+   "starts_at_ms": 8555596,
+   "starts_at": "142:35"
+  },
+  {
+   "n": 16,
+   "title": "Malcolm\u2019s Theme",
+   "clean_title": "Malcolm\u2019s Theme",
+   "duration_ms": 520506,
+   "spotify_uri": "spotify:track:7jKZSxBKle19NDbMOgWmm5",
+   "spotify_url": "https://open.spotify.com/track/7jKZSxBKle19NDbMOgWmm5?si=l3Khnf0nT3G9MPhsB5Ib6w",
+   "starts_at_ms": 9223329,
+   "starts_at": "153:43"
+  },
+  {
+   "n": 17,
+   "title": "The Message",
+   "clean_title": "The Message",
+   "duration_ms": 669626,
+   "spotify_uri": "spotify:track:3R9Nj6ISP8DE0UKAxKfNkS",
+   "spotify_url": "https://open.spotify.com/track/3R9Nj6ISP8DE0UKAxKfNkS?si=0t2bWzuOQbaAXtp4hPQKDQ",
+   "starts_at_ms": 9743835,
+   "starts_at": "162:23"
+  }
+ ],
+ "week": 13,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:31:23.721272+00:00"
+}
