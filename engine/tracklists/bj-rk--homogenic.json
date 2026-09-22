@@ -1,0 +1,111 @@
+{
+ "artist": "Bj\u00f6rk",
+ "album": "Homogenic",
+ "spotify_uri": "spotify:album:0HMsmYvoT1h2x1C4di5faf",
+ "spotify_url": "https://open.spotify.com/album/0HMsmYvoT1h2x1C4di5faf?si=EYYUPBFGShafwO-QDTmyGw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hunter",
+   "clean_title": "Hunter",
+   "duration_ms": 253200,
+   "spotify_uri": "spotify:track:3UHuJt2WkLxGdbxn36T9vc",
+   "spotify_url": "https://open.spotify.com/track/3UHuJt2WkLxGdbxn36T9vc?si=M6jkbEi5Qeib2JIhWNOtfQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Joga",
+   "clean_title": "Joga",
+   "duration_ms": 305666,
+   "spotify_uri": "spotify:track:20ZvzoDSefcZo6bj10jgGC",
+   "spotify_url": "https://open.spotify.com/track/20ZvzoDSefcZo6bj10jgGC?si=erGrvIX0QZmLUq5hq5BbeA",
+   "starts_at_ms": 253200,
+   "starts_at": "4:13"
+  },
+  {
+   "n": 3,
+   "title": "Unravel",
+   "clean_title": "Unravel",
+   "duration_ms": 197973,
+   "spotify_uri": "spotify:track:1TtmEexOoL27br2q8ifxBl",
+   "spotify_url": "https://open.spotify.com/track/1TtmEexOoL27br2q8ifxBl?si=rN-aogBcTwWHYdJnFxIBhw",
+   "starts_at_ms": 558866,
+   "starts_at": "9:18"
+  },
+  {
+   "n": 4,
+   "title": "Bachelorette - Family Tree Version",
+   "clean_title": "Bachelorette - Family Tree Version",
+   "duration_ms": 316600,
+   "spotify_uri": "spotify:track:080thMRVMSfE5fem7HBaoF",
+   "spotify_url": "https://open.spotify.com/track/080thMRVMSfE5fem7HBaoF?si=QjxzT5jKSRu80yVXYjt08g",
+   "starts_at_ms": 756839,
+   "starts_at": "12:36"
+  },
+  {
+   "n": 5,
+   "title": "All Neon Like",
+   "clean_title": "All Neon Like",
+   "duration_ms": 352960,
+   "spotify_uri": "spotify:track:5ySEtpFdc6EmTvcozjkb9p",
+   "spotify_url": "https://open.spotify.com/track/5ySEtpFdc6EmTvcozjkb9p?si=tAi-iUk3QU2wdZzUIi7OtQ",
+   "starts_at_ms": 1073439,
+   "starts_at": "17:53"
+  },
+  {
+   "n": 6,
+   "title": "5 Years",
+   "clean_title": "5 Years",
+   "duration_ms": 269133,
+   "spotify_uri": "spotify:track:3sNK3m6weOoIe5wcVUyC1F",
+   "spotify_url": "https://open.spotify.com/track/3sNK3m6weOoIe5wcVUyC1F?si=ZVl3lIdITMqoLJA2y1u7FQ",
+   "starts_at_ms": 1426399,
+   "starts_at": "23:46"
+  },
+  {
+   "n": 7,
+   "title": "Immature",
+   "clean_title": "Immature",
+   "duration_ms": 186440,
+   "spotify_uri": "spotify:track:6WH380JPFPtxMVzePuKWhl",
+   "spotify_url": "https://open.spotify.com/track/6WH380JPFPtxMVzePuKWhl?si=vwGYq3IPRcSLrVdAZD-P6g",
+   "starts_at_ms": 1695532,
+   "starts_at": "28:15"
+  },
+  {
+   "n": 8,
+   "title": "Alarm Call",
+   "clean_title": "Alarm Call",
+   "duration_ms": 259560,
+   "spotify_uri": "spotify:track:0FXA3CxQmpjgP1VS5STnJC",
+   "spotify_url": "https://open.spotify.com/track/0FXA3CxQmpjgP1VS5STnJC?si=kyWLX4DTSIOv4j4JdINhdQ",
+   "starts_at_ms": 1881972,
+   "starts_at": "31:21"
+  },
+  {
+   "n": 9,
+   "title": "Pluto",
+   "clean_title": "Pluto",
+   "duration_ms": 199240,
+   "spotify_uri": "spotify:track:03794FHTruV54i92ZvNESw",
+   "spotify_url": "https://open.spotify.com/track/03794FHTruV54i92ZvNESw?si=SyjKOomRTMaB6fFCTwxCMA",
+   "starts_at_ms": 2141532,
+   "starts_at": "35:41"
+  },
+  {
+   "n": 10,
+   "title": "All Is Full of Love",
+   "clean_title": "All Is Full of Love",
+   "duration_ms": 272026,
+   "spotify_uri": "spotify:track:242g4wxl3FZvDYA4xYLqre",
+   "spotify_url": "https://open.spotify.com/track/242g4wxl3FZvDYA4xYLqre?si=5SgJ_P2WS2ayRiHjXgT-bw",
+   "starts_at_ms": 2340772,
+   "starts_at": "39:00"
+  }
+ ],
+ "week": 4,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:38.667108+00:00"
+}
