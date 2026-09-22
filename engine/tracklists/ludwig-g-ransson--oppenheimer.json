@@ -1,0 +1,251 @@
+{
+ "artist": "Ludwig G\u00f6ransson",
+ "album": "Oppenheimer",
+ "spotify_uri": "spotify:album:0rwbMKjNkp4ehQTwf9V2Jk",
+ "spotify_url": "https://open.spotify.com/album/0rwbMKjNkp4ehQTwf9V2Jk?si=3a8jxJdOS4WlByrrZkntUw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Fission",
+   "clean_title": "Fission",
+   "duration_ms": 278600,
+   "spotify_uri": "spotify:track:0h4LfHZuXNNYUMgkuCQRmy",
+   "spotify_url": "https://open.spotify.com/track/0h4LfHZuXNNYUMgkuCQRmy?si=Bhkn3_0ySCyvzqhg_pSHKA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Can You Hear The Music",
+   "clean_title": "Can You Hear The Music",
+   "duration_ms": 110160,
+   "spotify_uri": "spotify:track:4VnDmjYCZkyeqeb0NIKqdA",
+   "spotify_url": "https://open.spotify.com/track/4VnDmjYCZkyeqeb0NIKqdA?si=Ox3KylddQbSAQZLlEyElHg",
+   "starts_at_ms": 278600,
+   "starts_at": "4:38"
+  },
+  {
+   "n": 3,
+   "title": "A Lowly Shoe Salesman",
+   "clean_title": "A Lowly Shoe Salesman",
+   "duration_ms": 214093,
+   "spotify_uri": "spotify:track:7nYZlOq4JtGeF9fs8Zs66j",
+   "spotify_url": "https://open.spotify.com/track/7nYZlOq4JtGeF9fs8Zs66j?si=y-NF0Vc1RtafH-Jd_A8c-Q",
+   "starts_at_ms": 388760,
+   "starts_at": "6:28"
+  },
+  {
+   "n": 4,
+   "title": "Quantum Mechanics",
+   "clean_title": "Quantum Mechanics",
+   "duration_ms": 180013,
+   "spotify_uri": "spotify:track:09I8yYd9egMHOLDRFenYrV",
+   "spotify_url": "https://open.spotify.com/track/09I8yYd9egMHOLDRFenYrV?si=eLHG4nTmQMeTCXQEEcMm0g",
+   "starts_at_ms": 602853,
+   "starts_at": "10:02"
+  },
+  {
+   "n": 5,
+   "title": "Gravity Swallows Light",
+   "clean_title": "Gravity Swallows Light",
+   "duration_ms": 210600,
+   "spotify_uri": "spotify:track:1IoNr0Udmb8TleZsJ92Zid",
+   "spotify_url": "https://open.spotify.com/track/1IoNr0Udmb8TleZsJ92Zid?si=M5N2hTQYRQ2_l4pi2JAgTA",
+   "starts_at_ms": 782866,
+   "starts_at": "13:02"
+  },
+  {
+   "n": 6,
+   "title": "Meeting Kitty",
+   "clean_title": "Meeting Kitty",
+   "duration_ms": 347533,
+   "spotify_uri": "spotify:track:6iOuLRFr7G2bvUSOtYx4jw",
+   "spotify_url": "https://open.spotify.com/track/6iOuLRFr7G2bvUSOtYx4jw?si=UJ3fKVFaTLiGuOyOU-Aktw",
+   "starts_at_ms": 993466,
+   "starts_at": "16:33"
+  },
+  {
+   "n": 7,
+   "title": "Groves",
+   "clean_title": "Groves",
+   "duration_ms": 183413,
+   "spotify_uri": "spotify:track:1hAiPMWwuIqPDPu6UzFXMe",
+   "spotify_url": "https://open.spotify.com/track/1hAiPMWwuIqPDPu6UzFXMe?si=DaWVtYEfTVqN-GRDq1r-hg",
+   "starts_at_ms": 1340999,
+   "starts_at": "22:20"
+  },
+  {
+   "n": 8,
+   "title": "Manhattan Project",
+   "clean_title": "Manhattan Project",
+   "duration_ms": 181106,
+   "spotify_uri": "spotify:track:4yX2SVMLL3MV9kIYqS8B76",
+   "spotify_url": "https://open.spotify.com/track/4yX2SVMLL3MV9kIYqS8B76?si=uEfFICuRSRSfjzMZyZ9ebQ",
+   "starts_at_ms": 1524412,
+   "starts_at": "25:24"
+  },
+  {
+   "n": 9,
+   "title": "American Prometheus",
+   "clean_title": "American Prometheus",
+   "duration_ms": 157306,
+   "spotify_uri": "spotify:track:2nBqwc3h3psFgPF1J0v24T",
+   "spotify_url": "https://open.spotify.com/track/2nBqwc3h3psFgPF1J0v24T?si=dAoR9xv_RdWjnkriqGr-eg",
+   "starts_at_ms": 1705518,
+   "starts_at": "28:25"
+  },
+  {
+   "n": 10,
+   "title": "Atmospheric Ignition",
+   "clean_title": "Atmospheric Ignition",
+   "duration_ms": 208840,
+   "spotify_uri": "spotify:track:7vUB7kOvxR9UyL2XOPFo0v",
+   "spotify_url": "https://open.spotify.com/track/7vUB7kOvxR9UyL2XOPFo0v?si=iV7nsWfjRwiPPgcXdrUtmA",
+   "starts_at_ms": 1862824,
+   "starts_at": "31:02"
+  },
+  {
+   "n": 11,
+   "title": "Los Alamos",
+   "clean_title": "Los Alamos",
+   "duration_ms": 158573,
+   "spotify_uri": "spotify:track:3JbVKGhp0WXqO3DK8Xeg0n",
+   "spotify_url": "https://open.spotify.com/track/3JbVKGhp0WXqO3DK8Xeg0n?si=oCZkqrMkSvq-6j-LhcJhTg",
+   "starts_at_ms": 2071664,
+   "starts_at": "34:31"
+  },
+  {
+   "n": 12,
+   "title": "Fusion",
+   "clean_title": "Fusion",
+   "duration_ms": 235493,
+   "spotify_uri": "spotify:track:4YuGwi0qTFEnv27opGD5ZG",
+   "spotify_url": "https://open.spotify.com/track/4YuGwi0qTFEnv27opGD5ZG?si=qedrL9IKQbekLnhQibo3nw",
+   "starts_at_ms": 2230237,
+   "starts_at": "37:10"
+  },
+  {
+   "n": 13,
+   "title": "Colonel Pash",
+   "clean_title": "Colonel Pash",
+   "duration_ms": 297346,
+   "spotify_uri": "spotify:track:2C25qDOGDGlrqbbGPYCl4x",
+   "spotify_url": "https://open.spotify.com/track/2C25qDOGDGlrqbbGPYCl4x?si=ptMnvoOgTsGXJOffPjO88A",
+   "starts_at_ms": 2465730,
+   "starts_at": "41:05"
+  },
+  {
+   "n": 14,
+   "title": "Theorists",
+   "clean_title": "Theorists",
+   "duration_ms": 194493,
+   "spotify_uri": "spotify:track:0fhfQTFLs1nKdWJM9GzfMa",
+   "spotify_url": "https://open.spotify.com/track/0fhfQTFLs1nKdWJM9GzfMa?si=qOTd8E-7Q3ikX_NKSI-XHw",
+   "starts_at_ms": 2763076,
+   "starts_at": "46:03"
+  },
+  {
+   "n": 15,
+   "title": "Ground Zero",
+   "clean_title": "Ground Zero",
+   "duration_ms": 261346,
+   "spotify_uri": "spotify:track:11Dk6JUxgxD9lr8d0uPcVL",
+   "spotify_url": "https://open.spotify.com/track/11Dk6JUxgxD9lr8d0uPcVL?si=8oFGP1eASM6J2DgUP1CIwQ",
+   "starts_at_ms": 2957569,
+   "starts_at": "49:17"
+  },
+  {
+   "n": 16,
+   "title": "Trinity",
+   "clean_title": "Trinity",
+   "duration_ms": 472853,
+   "spotify_uri": "spotify:track:0U19E71w5rrYTwnqOTVKrp",
+   "spotify_url": "https://open.spotify.com/track/0U19E71w5rrYTwnqOTVKrp?si=N0WcsM0PSw2MsU6_a9tiUQ",
+   "starts_at_ms": 3218915,
+   "starts_at": "53:38"
+  },
+  {
+   "n": 17,
+   "title": "What We Have Done",
+   "clean_title": "What We Have Done",
+   "duration_ms": 345560,
+   "spotify_uri": "spotify:track:4iQ78rlMCSaWWu6N8PXCb8",
+   "spotify_url": "https://open.spotify.com/track/4iQ78rlMCSaWWu6N8PXCb8?si=vohu9p8kS9qj1eD3OJ69XQ",
+   "starts_at_ms": 3691768,
+   "starts_at": "61:31"
+  },
+  {
+   "n": 18,
+   "title": "Power Stays In The Shadows",
+   "clean_title": "Power Stays In The Shadows",
+   "duration_ms": 250866,
+   "spotify_uri": "spotify:track:7qm6j7mhZKsv3RGanY4b7Z",
+   "spotify_url": "https://open.spotify.com/track/7qm6j7mhZKsv3RGanY4b7Z?si=Fd1HD7nNQEqjdGTbLGaN-w",
+   "starts_at_ms": 4037328,
+   "starts_at": "67:17"
+  },
+  {
+   "n": 19,
+   "title": "The Trial",
+   "clean_title": "The Trial",
+   "duration_ms": 332746,
+   "spotify_uri": "spotify:track:5pBRL3nevpdxv3wbc5lRcx",
+   "spotify_url": "https://open.spotify.com/track/5pBRL3nevpdxv3wbc5lRcx?si=_R9r5LStR_ChHcDbj0bL_A",
+   "starts_at_ms": 4288194,
+   "starts_at": "71:28"
+  },
+  {
+   "n": 20,
+   "title": "Dr. Hill",
+   "clean_title": "Dr. Hill",
+   "duration_ms": 263387,
+   "spotify_uri": "spotify:track:5ZapQiC0BA0SVs4RR9vSST",
+   "spotify_url": "https://open.spotify.com/track/5ZapQiC0BA0SVs4RR9vSST?si=5VsgmCmCTsqCZ97gUL1ZNQ",
+   "starts_at_ms": 4620940,
+   "starts_at": "77:00"
+  },
+  {
+   "n": 21,
+   "title": "Kitty Comes To Testify",
+   "clean_title": "Kitty Comes To Testify",
+   "duration_ms": 292853,
+   "spotify_uri": "spotify:track:1nK1EbZNymcKExc01JavKR",
+   "spotify_url": "https://open.spotify.com/track/1nK1EbZNymcKExc01JavKR?si=ewuymf0aTfuWyOL_MEXx9w",
+   "starts_at_ms": 4884327,
+   "starts_at": "81:24"
+  },
+  {
+   "n": 22,
+   "title": "Something More Important",
+   "clean_title": "Something More Important",
+   "duration_ms": 205666,
+   "spotify_uri": "spotify:track:74swl9fzUVt9Lw7FSrnKoP",
+   "spotify_url": "https://open.spotify.com/track/74swl9fzUVt9Lw7FSrnKoP?si=YYR_otAGRjOitKZZVF1z1Q",
+   "starts_at_ms": 5177180,
+   "starts_at": "86:17"
+  },
+  {
+   "n": 23,
+   "title": "Destroyer Of Worlds",
+   "clean_title": "Destroyer Of Worlds",
+   "duration_ms": 174760,
+   "spotify_uri": "spotify:track:3NQtYTbGk64fHf8ZIppj69",
+   "spotify_url": "https://open.spotify.com/track/3NQtYTbGk64fHf8ZIppj69?si=3a7AQIxdTgiSPzB1_kIW8A",
+   "starts_at_ms": 5382846,
+   "starts_at": "89:42"
+  },
+  {
+   "n": 24,
+   "title": "Oppenheimer",
+   "clean_title": "Oppenheimer",
+   "duration_ms": 136520,
+   "spotify_uri": "spotify:track:6oJFUjqz8yKCBDunPRMQBX",
+   "spotify_url": "https://open.spotify.com/track/6oJFUjqz8yKCBDunPRMQBX?si=g7kJPzgsStWHqEcsh7F1sw",
+   "starts_at_ms": 5557606,
+   "starts_at": "92:37"
+  }
+ ],
+ "week": 23,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:32:09.546141+00:00"
+}
