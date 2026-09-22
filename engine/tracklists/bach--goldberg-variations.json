@@ -1,0 +1,331 @@
+{
+ "artist": "Bach",
+ "album": "Goldberg Variations",
+ "spotify_uri": "spotify:album:1aCpHSQE5ghxibsQ5gkBe0",
+ "spotify_url": "https://open.spotify.com/album/1aCpHSQE5ghxibsQ5gkBe0?si=YQKYSuVSQC-X8S62GxsyJA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Goldberg Variations, BWV 988: Aria",
+   "clean_title": "Goldberg Variations, BWV 988: Aria",
+   "duration_ms": 184844,
+   "spotify_uri": "spotify:track:5bu9A6uphPWg39RC3ZKeku",
+   "spotify_url": "https://open.spotify.com/track/5bu9A6uphPWg39RC3ZKeku?si=uT_c-gYCSLuF83gk4KncZA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Goldberg Variations, BWV 988: Variation 1 a 1 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 1 a 1 Clav.",
+   "duration_ms": 70388,
+   "spotify_uri": "spotify:track:14V6VqJXHZ08pM6Fu3vUsO",
+   "spotify_url": "https://open.spotify.com/track/14V6VqJXHZ08pM6Fu3vUsO?si=LxS7m9uySOuKdIuvPJBfkQ",
+   "starts_at_ms": 184844,
+   "starts_at": "3:04"
+  },
+  {
+   "n": 3,
+   "title": "Goldberg Variations, BWV 988: Variation 2 a 1 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 2 a 1 Clav.",
+   "duration_ms": 49249,
+   "spotify_uri": "spotify:track:2mXVCqoNE6otHBcmRz4IHv",
+   "spotify_url": "https://open.spotify.com/track/2mXVCqoNE6otHBcmRz4IHv?si=PwtQnIt_TgOFGbeMUe1ZCg",
+   "starts_at_ms": 255232,
+   "starts_at": "4:15"
+  },
+  {
+   "n": 4,
+   "title": "Goldberg Variations, BWV 988: Variation 3 a 1 Clav. Canone all'Unisono",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 3 a 1 Clav. Canone all'Unisono",
+   "duration_ms": 90712,
+   "spotify_uri": "spotify:track:5SJFZnECoKeTLy7PPVLLbF",
+   "spotify_url": "https://open.spotify.com/track/5SJFZnECoKeTLy7PPVLLbF?si=QMmtbS0ZQeK7IiA9q263BA",
+   "starts_at_ms": 304481,
+   "starts_at": "5:04"
+  },
+  {
+   "n": 5,
+   "title": "Goldberg Variations, BWV 988: Variation 4 a 1 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 4 a 1 Clav.",
+   "duration_ms": 50478,
+   "spotify_uri": "spotify:track:14lyZKpPu1ECQpfXhgrip6",
+   "spotify_url": "https://open.spotify.com/track/14lyZKpPu1ECQpfXhgrip6?si=BPpFVykeRlWsEgJabbhafA",
+   "starts_at_ms": 395193,
+   "starts_at": "6:35"
+  },
+  {
+   "n": 6,
+   "title": "Goldberg Variations, BWV 988: Variation 5 a 1 ovvero 2 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 5 a 1 ovvero 2 Clav.",
+   "duration_ms": 37026,
+   "spotify_uri": "spotify:track:325xUomC1NKDerrKIn0zfD",
+   "spotify_url": "https://open.spotify.com/track/325xUomC1NKDerrKIn0zfD?si=hnLJF1V6Q7-SWWpt81uvCQ",
+   "starts_at_ms": 445671,
+   "starts_at": "7:25"
+  },
+  {
+   "n": 7,
+   "title": "Goldberg Variations, BWV 988: Variation 6 a 1 Clav. Canone alla Seconda",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 6 a 1 Clav. Canone alla Seconda",
+   "duration_ms": 40069,
+   "spotify_uri": "spotify:track:0L5cUf2OgB2GeVzxwGJv3q",
+   "spotify_url": "https://open.spotify.com/track/0L5cUf2OgB2GeVzxwGJv3q?si=TL1qo2WURLGsVgd0liWaPw",
+   "starts_at_ms": 482697,
+   "starts_at": "8:02"
+  },
+  {
+   "n": 8,
+   "title": "Goldberg Variations, BWV 988: Variation 7 a 1 ovvero 2 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 7 a 1 ovvero 2 Clav.",
+   "duration_ms": 76028,
+   "spotify_uri": "spotify:track:4w3aG0qWqCQKhvsQYzX3nY",
+   "spotify_url": "https://open.spotify.com/track/4w3aG0qWqCQKhvsQYzX3nY?si=_h1Yn1JWTKeuHoYHnMVcYg",
+   "starts_at_ms": 522766,
+   "starts_at": "8:42"
+  },
+  {
+   "n": 9,
+   "title": "Goldberg Variations, BWV 988: Variation 8 a 2 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 8 a 2 Clav.",
+   "duration_ms": 53776,
+   "spotify_uri": "spotify:track:3HoLpLgT5M6U5TaWqFKgqi",
+   "spotify_url": "https://open.spotify.com/track/3HoLpLgT5M6U5TaWqFKgqi?si=KGA8pW1xTNqceUN_RHM_-g",
+   "starts_at_ms": 598794,
+   "starts_at": "9:58"
+  },
+  {
+   "n": 10,
+   "title": "Goldberg Variations, BWV 988: Variation 9 a 1 Clav. Canone alla Terza",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 9 a 1 Clav. Canone alla Terza",
+   "duration_ms": 59383,
+   "spotify_uri": "spotify:track:3DRZuYDArzcoTniRTkaax4",
+   "spotify_url": "https://open.spotify.com/track/3DRZuYDArzcoTniRTkaax4?si=aCwgrVgYRVOUpoVWtrGBHA",
+   "starts_at_ms": 652570,
+   "starts_at": "10:52"
+  },
+  {
+   "n": 11,
+   "title": "Goldberg Variations, BWV 988: Variation 10 a 1 Clav. Fughetta",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 10 a 1 Clav. Fughetta",
+   "duration_ms": 64287,
+   "spotify_uri": "spotify:track:7Aw2j9reBy7YeXiqBHvjhE",
+   "spotify_url": "https://open.spotify.com/track/7Aw2j9reBy7YeXiqBHvjhE?si=wR1o0KylRIumxfK_Q8rnwQ",
+   "starts_at_ms": 711953,
+   "starts_at": "11:51"
+  },
+  {
+   "n": 12,
+   "title": "Goldberg Variations, BWV 988: Variation 11 a 2 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 11 a 2 Clav.",
+   "duration_ms": 53454,
+   "spotify_uri": "spotify:track:73NwMH0ND2cUkLe0kn9Ljz",
+   "spotify_url": "https://open.spotify.com/track/73NwMH0ND2cUkLe0kn9Ljz?si=WG-0ioqBS-K_HOV2JSKE1Q",
+   "starts_at_ms": 776240,
+   "starts_at": "12:56"
+  },
+  {
+   "n": 13,
+   "title": "Goldberg Variations, BWV 988: Variation 12 Canone alla Quarta",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 12 Canone alla Quarta",
+   "duration_ms": 97967,
+   "spotify_uri": "spotify:track:7gAYYUV8mC5Vfsp825sqiS",
+   "spotify_url": "https://open.spotify.com/track/7gAYYUV8mC5Vfsp825sqiS?si=Szjr4DnPScCw0F_Gn8jKqw",
+   "starts_at_ms": 829694,
+   "starts_at": "13:49"
+  },
+  {
+   "n": 14,
+   "title": "Goldberg Variations, BWV 988: Variation 13 a 2 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 13 a 2 Clav.",
+   "duration_ms": 158161,
+   "spotify_uri": "spotify:track:2CI5exhYgmUhVMR8Mrunk4",
+   "spotify_url": "https://open.spotify.com/track/2CI5exhYgmUhVMR8Mrunk4?si=xr8OSO8HTO6LGEVqUaPJQw",
+   "starts_at_ms": 927661,
+   "starts_at": "15:27"
+  },
+  {
+   "n": 15,
+   "title": "Goldberg Variations, BWV 988: Variation 14 a 2 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 14 a 2 Clav.",
+   "duration_ms": 64712,
+   "spotify_uri": "spotify:track:4PqCIpr1uWNxakSW79FDaZ",
+   "spotify_url": "https://open.spotify.com/track/4PqCIpr1uWNxakSW79FDaZ?si=iHdh8ti8QWCKGsTAMO_wDQ",
+   "starts_at_ms": 1085822,
+   "starts_at": "18:05"
+  },
+  {
+   "n": 16,
+   "title": "Goldberg Variations, BWV 988: Variation 15 a 1 Clav. Canone alla Quinta. Andante",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 15 a 1 Clav. Canone alla Quinta. Andante",
+   "duration_ms": 301423,
+   "spotify_uri": "spotify:track:7cKXSyVa3TXEksYArDQRpW",
+   "spotify_url": "https://open.spotify.com/track/7cKXSyVa3TXEksYArDQRpW?si=wRaC4S5sTAKCT9KJ-z-KUQ",
+   "starts_at_ms": 1150534,
+   "starts_at": "19:10"
+  },
+  {
+   "n": 17,
+   "title": "Goldberg Variations, BWV 988: Variation 16 a 1 Clav. Overture",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 16 a 1 Clav. Overture",
+   "duration_ms": 98366,
+   "spotify_uri": "spotify:track:3Kx6ONEfaAGQ4FnzIlTd0O",
+   "spotify_url": "https://open.spotify.com/track/3Kx6ONEfaAGQ4FnzIlTd0O?si=Ipei9neyQV-TIHbYQ5IXwg",
+   "starts_at_ms": 1451957,
+   "starts_at": "24:11"
+  },
+  {
+   "n": 18,
+   "title": "Goldberg Variations, BWV 988: Variation 17 a 2 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 17 a 2 Clav.",
+   "duration_ms": 54007,
+   "spotify_uri": "spotify:track:3c7s2PsmdNUqGaOd3zHDxb",
+   "spotify_url": "https://open.spotify.com/track/3c7s2PsmdNUqGaOd3zHDxb?si=85O3JX6YQLy7Faj89NswDA",
+   "starts_at_ms": 1550323,
+   "starts_at": "25:50"
+  },
+  {
+   "n": 19,
+   "title": "Goldberg Variations, BWV 988: Variation 18 a 1 Clav. Canone alla Sesta",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 18 a 1 Clav. Canone alla Sesta",
+   "duration_ms": 63154,
+   "spotify_uri": "spotify:track:2kjMTSO59RHUp76E4QnGMW",
+   "spotify_url": "https://open.spotify.com/track/2kjMTSO59RHUp76E4QnGMW?si=CbpPRRshSMidnAY9GRvZZg",
+   "starts_at_ms": 1604330,
+   "starts_at": "26:44"
+  },
+  {
+   "n": 20,
+   "title": "Goldberg Variations, BWV 988: Variation 19 a 1 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 19 a 1 Clav.",
+   "duration_ms": 62971,
+   "spotify_uri": "spotify:track:6b1w0rV1rQ7o22QytG4MD4",
+   "spotify_url": "https://open.spotify.com/track/6b1w0rV1rQ7o22QytG4MD4?si=TYPrAHHfR76vaaEwYcHQmQ",
+   "starts_at_ms": 1667484,
+   "starts_at": "27:47"
+  },
+  {
+   "n": 21,
+   "title": "Goldberg Variations, BWV 988: Variation 20 a 2 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 20 a 2 Clav.",
+   "duration_ms": 50072,
+   "spotify_uri": "spotify:track:54VrtN6vHC3gXyqhDulUcW",
+   "spotify_url": "https://open.spotify.com/track/54VrtN6vHC3gXyqhDulUcW?si=1BnGbIgRQpe6jniDviB5Bg",
+   "starts_at_ms": 1730455,
+   "starts_at": "28:50"
+  },
+  {
+   "n": 22,
+   "title": "Goldberg Variations, BWV 988: Variation 21 Canone alla Settima",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 21 Canone alla Settima",
+   "duration_ms": 132648,
+   "spotify_uri": "spotify:track:6AAsNisZwKxgJUmMHOAYAO",
+   "spotify_url": "https://open.spotify.com/track/6AAsNisZwKxgJUmMHOAYAO?si=0uHD8gI_QGWA3Zc6sG34ow",
+   "starts_at_ms": 1780527,
+   "starts_at": "29:40"
+  },
+  {
+   "n": 23,
+   "title": "Goldberg Variations, BWV 988: Variation 22 a 1 Clav. alla breve",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 22 a 1 Clav. alla breve",
+   "duration_ms": 63275,
+   "spotify_uri": "spotify:track:0COIj47ajICK5W2See8XSr",
+   "spotify_url": "https://open.spotify.com/track/0COIj47ajICK5W2See8XSr?si=usW9tDwaS92XDLzJS6U7Nw",
+   "starts_at_ms": 1913175,
+   "starts_at": "31:53"
+  },
+  {
+   "n": 24,
+   "title": "Goldberg Variations, BWV 988: Variation 23 a 2 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 23 a 2 Clav.",
+   "duration_ms": 57983,
+   "spotify_uri": "spotify:track:3uKsFbdcE8I44qGuE0Hwas",
+   "spotify_url": "https://open.spotify.com/track/3uKsFbdcE8I44qGuE0Hwas?si=nnEYO15UTg6TdOF_lpxaXw",
+   "starts_at_ms": 1976450,
+   "starts_at": "32:56"
+  },
+  {
+   "n": 25,
+   "title": "Goldberg Variations, BWV 988: Variation 24 Canone all' Ottava a 1 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 24 Canone all' Ottava a 1 Clav.",
+   "duration_ms": 104035,
+   "spotify_uri": "spotify:track:3ibPePT3mJfjgcjwg2lSuG",
+   "spotify_url": "https://open.spotify.com/track/3ibPePT3mJfjgcjwg2lSuG?si=oIhioyJaS5u3RSc_XuUhWg",
+   "starts_at_ms": 2034433,
+   "starts_at": "33:54"
+  },
+  {
+   "n": 26,
+   "title": "Goldberg Variations, BWV 988: Variation 25 a 2 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 25 a 2 Clav.",
+   "duration_ms": 362481,
+   "spotify_uri": "spotify:track:3WtLQJEmFO5QojdOsuEOGs",
+   "spotify_url": "https://open.spotify.com/track/3WtLQJEmFO5QojdOsuEOGs?si=Nz5UtwzhS8mF04XpH265pQ",
+   "starts_at_ms": 2138468,
+   "starts_at": "35:38"
+  },
+  {
+   "n": 27,
+   "title": "Goldberg Variations, BWV 988: Variation 26 a 2 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 26 a 2 Clav.",
+   "duration_ms": 51887,
+   "spotify_uri": "spotify:track:7w1t3fHbDG3XCehlTST8mC",
+   "spotify_url": "https://open.spotify.com/track/7w1t3fHbDG3XCehlTST8mC?si=8hM0rLXJQESLsJ-1rwC0Hg",
+   "starts_at_ms": 2500949,
+   "starts_at": "41:40"
+  },
+  {
+   "n": 28,
+   "title": "Goldberg Variations, BWV 988: Variation 27 a 2 Clav. Canone alla Nona",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 27 a 2 Clav. Canone alla Nona",
+   "duration_ms": 81241,
+   "spotify_uri": "spotify:track:55Vz4uotMyR5nIzgeqSroD",
+   "spotify_url": "https://open.spotify.com/track/55Vz4uotMyR5nIzgeqSroD?si=qHzR-CzxSYKzeQ3iMyjFeQ",
+   "starts_at_ms": 2552836,
+   "starts_at": "42:32"
+  },
+  {
+   "n": 29,
+   "title": "Goldberg Variations, BWV 988: Variation 28 a 2 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 28 a 2 Clav.",
+   "duration_ms": 63263,
+   "spotify_uri": "spotify:track:0rtuph9t0tzEHZh8n5UlZ8",
+   "spotify_url": "https://open.spotify.com/track/0rtuph9t0tzEHZh8n5UlZ8?si=RdtgMB-ERN-Sl9IyHoiW7A",
+   "starts_at_ms": 2634077,
+   "starts_at": "43:54"
+  },
+  {
+   "n": 30,
+   "title": "Goldberg Variations, BWV 988: Variation 29 a 1 ovvero 2 Clav.",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 29 a 1 ovvero 2 Clav.",
+   "duration_ms": 61875,
+   "spotify_uri": "spotify:track:2cUR4W0mDmx1vOxPjO6ijc",
+   "spotify_url": "https://open.spotify.com/track/2cUR4W0mDmx1vOxPjO6ijc?si=ZYyxiMfnSpOutTC5vSi60g",
+   "starts_at_ms": 2697340,
+   "starts_at": "44:57"
+  },
+  {
+   "n": 31,
+   "title": "Goldberg Variations, BWV 988: Variation 30 a 1 Clav. Quodlibet",
+   "clean_title": "Goldberg Variations, BWV 988: Variation 30 a 1 Clav. Quodlibet",
+   "duration_ms": 90084,
+   "spotify_uri": "spotify:track:1Ef6KfsIBJpZe2OwvHHrpe",
+   "spotify_url": "https://open.spotify.com/track/1Ef6KfsIBJpZe2OwvHHrpe?si=pR6DA5AfSoqp-ZX0vu24Rg",
+   "starts_at_ms": 2759215,
+   "starts_at": "45:59"
+  },
+  {
+   "n": 32,
+   "title": "Goldberg Variations, BWV 988: Aria da capo",
+   "clean_title": "Goldberg Variations, BWV 988: Aria da capo",
+   "duration_ms": 227795,
+   "spotify_uri": "spotify:track:172J2JqVRzR74ILc2eBvta",
+   "spotify_url": "https://open.spotify.com/track/172J2JqVRzR74ILc2eBvta?si=Lzh1TfQxQKSoNoPx5D8lPw",
+   "starts_at_ms": 2849299,
+   "starts_at": "47:29"
+  }
+ ],
+ "week": 22,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:32:02.134735+00:00"
+}
