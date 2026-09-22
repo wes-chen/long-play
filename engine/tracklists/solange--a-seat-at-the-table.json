@@ -1,0 +1,221 @@
+{
+ "artist": "Solange",
+ "album": "A Seat at the Table",
+ "spotify_uri": "spotify:album:3Yko2SxDk4hc6fncIBQlcM",
+ "spotify_url": "https://open.spotify.com/album/3Yko2SxDk4hc6fncIBQlcM?si=pnSrM6SDQSmju5iozy66uQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Rise",
+   "clean_title": "Rise",
+   "duration_ms": 101815,
+   "spotify_uri": "spotify:track:688iitLNSV6Iik1QESqvth",
+   "spotify_url": "https://open.spotify.com/track/688iitLNSV6Iik1QESqvth?si=2V3mw6zVSIiPlj14UhuVIg",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Weary",
+   "clean_title": "Weary",
+   "duration_ms": 194254,
+   "spotify_uri": "spotify:track:7zbX1txfcs42K2PlhFJNNE",
+   "spotify_url": "https://open.spotify.com/track/7zbX1txfcs42K2PlhFJNNE?si=0woKXcBUSVa-Cjip2RQoHQ",
+   "starts_at_ms": 101815,
+   "starts_at": "1:41"
+  },
+  {
+   "n": 3,
+   "title": "Interlude: The Glory is in You",
+   "clean_title": "Interlude: The Glory is in You",
+   "duration_ms": 17772,
+   "spotify_uri": "spotify:track:4cvepMgER4YAbkGne2kQ6G",
+   "spotify_url": "https://open.spotify.com/track/4cvepMgER4YAbkGne2kQ6G?si=gRWY7gm0TMqv0NGPmtAboQ",
+   "starts_at_ms": 296069,
+   "starts_at": "4:56"
+  },
+  {
+   "n": 4,
+   "title": "Cranes in the Sky",
+   "clean_title": "Cranes in the Sky",
+   "duration_ms": 250970,
+   "spotify_uri": "spotify:track:48EjSdYh8wz2gBxxqzrsLe",
+   "spotify_url": "https://open.spotify.com/track/48EjSdYh8wz2gBxxqzrsLe?si=PAvtqhmsTb2Fps93vDkNHA",
+   "starts_at_ms": 313841,
+   "starts_at": "5:13"
+  },
+  {
+   "n": 5,
+   "title": "Interlude: Dad Was Mad",
+   "clean_title": "Interlude: Dad Was Mad",
+   "duration_ms": 46268,
+   "spotify_uri": "spotify:track:3VVEUP5550SmFMQkjIlZ7f",
+   "spotify_url": "https://open.spotify.com/track/3VVEUP5550SmFMQkjIlZ7f?si=leDwf2RmQTaqC6dca4iX0w",
+   "starts_at_ms": 564811,
+   "starts_at": "9:24"
+  },
+  {
+   "n": 6,
+   "title": "Mad (feat. Lil Wayne)",
+   "clean_title": "Mad (feat. Lil Wayne)",
+   "duration_ms": 235498,
+   "spotify_uri": "spotify:track:22DHmfJa31hKpc2Lg0gVBV",
+   "spotify_url": "https://open.spotify.com/track/22DHmfJa31hKpc2Lg0gVBV?si=S-8JvaapT2yYlW0r5nmJbg",
+   "starts_at_ms": 611079,
+   "starts_at": "10:11"
+  },
+  {
+   "n": 7,
+   "title": "Don't You Wait",
+   "clean_title": "Don't You Wait",
+   "duration_ms": 245910,
+   "spotify_uri": "spotify:track:4A3evD9w8QYhXBxqcj16ys",
+   "spotify_url": "https://open.spotify.com/track/4A3evD9w8QYhXBxqcj16ys?si=ukz72satQHS8lyCpUPrlVw",
+   "starts_at_ms": 846577,
+   "starts_at": "14:06"
+  },
+  {
+   "n": 8,
+   "title": "Interlude: Tina Taught Me",
+   "clean_title": "Interlude: Tina Taught Me",
+   "duration_ms": 74862,
+   "spotify_uri": "spotify:track:698avDwvnCZ69jYz3zlzoX",
+   "spotify_url": "https://open.spotify.com/track/698avDwvnCZ69jYz3zlzoX?si=lVEU0HvuRLawVerVixTRwQ",
+   "starts_at_ms": 1092487,
+   "starts_at": "18:12"
+  },
+  {
+   "n": 9,
+   "title": "Don't Touch My Hair (feat. Sampha)",
+   "clean_title": "Don't Touch My Hair (feat. Sampha)",
+   "duration_ms": 257538,
+   "spotify_uri": "spotify:track:2TyCAfhwu5tRqFW8VnGMIL",
+   "spotify_url": "https://open.spotify.com/track/2TyCAfhwu5tRqFW8VnGMIL?si=2QFy9pw1TJqQiMBsErbuBw",
+   "starts_at_ms": 1167349,
+   "starts_at": "19:27"
+  },
+  {
+   "n": 10,
+   "title": "Interlude: This Moment",
+   "clean_title": "Interlude: This Moment",
+   "duration_ms": 49457,
+   "spotify_uri": "spotify:track:7tlAWur1RNnqWbuoL5qWqG",
+   "spotify_url": "https://open.spotify.com/track/7tlAWur1RNnqWbuoL5qWqG?si=jx2WEfCCRYqeNz1Ky31LKA",
+   "starts_at_ms": 1424887,
+   "starts_at": "23:44"
+  },
+  {
+   "n": 11,
+   "title": "Where Do We Go",
+   "clean_title": "Where Do We Go",
+   "duration_ms": 264381,
+   "spotify_uri": "spotify:track:08MbvwVOZdMNESjkoVdXxE",
+   "spotify_url": "https://open.spotify.com/track/08MbvwVOZdMNESjkoVdXxE?si=lVGDbKxqQPStXRMh9EKcVQ",
+   "starts_at_ms": 1474344,
+   "starts_at": "24:34"
+  },
+  {
+   "n": 12,
+   "title": "Interlude: For Us By Us",
+   "clean_title": "Interlude: For Us By Us",
+   "duration_ms": 52670,
+   "spotify_uri": "spotify:track:3gCralqpe9SKfGH3yoYtWE",
+   "spotify_url": "https://open.spotify.com/track/3gCralqpe9SKfGH3yoYtWE?si=PcE1LOjnQiahBPAXBnpOyg",
+   "starts_at_ms": 1738725,
+   "starts_at": "28:58"
+  },
+  {
+   "n": 13,
+   "title": "F.U.B.U. (feat. The-Dream & BJ The Chicago Kid)",
+   "clean_title": "F.U.B.U. (feat. The-Dream & BJ The Chicago Kid)",
+   "duration_ms": 313892,
+   "spotify_uri": "spotify:track:2aR6SYRJxy2QsBxA459ATF",
+   "spotify_url": "https://open.spotify.com/track/2aR6SYRJxy2QsBxA459ATF?si=MnO1hk1jSsyaNJC_RloJbg",
+   "starts_at_ms": 1791395,
+   "starts_at": "29:51"
+  },
+  {
+   "n": 14,
+   "title": "Borderline (An Ode to Self Care) (feat. Q-Tip)",
+   "clean_title": "Borderline (An Ode to Self Care) (feat. Q-Tip)",
+   "duration_ms": 182744,
+   "spotify_uri": "spotify:track:6pRo1ryP9N8aFCe1YpWQLj",
+   "spotify_url": "https://open.spotify.com/track/6pRo1ryP9N8aFCe1YpWQLj?si=NGdRbnhoRH6HQRP1zaoeaQ",
+   "starts_at_ms": 2105287,
+   "starts_at": "35:05"
+  },
+  {
+   "n": 15,
+   "title": "Interlude: I Got So Much Magic, You Can Have It (feat. Kelly Rowland & Nia Andrews)",
+   "clean_title": "Interlude: I Got So Much Magic, You Can Have It (feat. Kelly Rowland & Nia Andrews)",
+   "duration_ms": 26901,
+   "spotify_uri": "spotify:track:1X2GmcZ5NIKnEyDdSzzJ4q",
+   "spotify_url": "https://open.spotify.com/track/1X2GmcZ5NIKnEyDdSzzJ4q?si=DP-7N8NGTGu8ei4fgl8-3w",
+   "starts_at_ms": 2288031,
+   "starts_at": "38:08"
+  },
+  {
+   "n": 16,
+   "title": "Junie",
+   "clean_title": "Junie",
+   "duration_ms": 186024,
+   "spotify_uri": "spotify:track:5lMugQF80AuN6uukFJLT58",
+   "spotify_url": "https://open.spotify.com/track/5lMugQF80AuN6uukFJLT58?si=rmBHVLO5RNiADXp0koUgBw",
+   "starts_at_ms": 2314932,
+   "starts_at": "38:34"
+  },
+  {
+   "n": 17,
+   "title": "Interlude: No Limits",
+   "clean_title": "Interlude: No Limits",
+   "duration_ms": 39710,
+   "spotify_uri": "spotify:track:3u8BTavdqT8zZVt5qFDZQo",
+   "spotify_url": "https://open.spotify.com/track/3u8BTavdqT8zZVt5qFDZQo?si=hkSV9mkXTs6wkPEh-tMwQA",
+   "starts_at_ms": 2500956,
+   "starts_at": "41:40"
+  },
+  {
+   "n": 18,
+   "title": "Don't Wish Me Well",
+   "clean_title": "Don't Wish Me Well",
+   "duration_ms": 255627,
+   "spotify_uri": "spotify:track:41TLFoAklLMcJPlhtGC9kr",
+   "spotify_url": "https://open.spotify.com/track/41TLFoAklLMcJPlhtGC9kr?si=qEOV_zqPQECaVLUVVyz0zw",
+   "starts_at_ms": 2540666,
+   "starts_at": "42:20"
+  },
+  {
+   "n": 19,
+   "title": "Interlude: Pedestals",
+   "clean_title": "Interlude: Pedestals",
+   "duration_ms": 57657,
+   "spotify_uri": "spotify:track:1BvomQcVidSDKCndZdBEv3",
+   "spotify_url": "https://open.spotify.com/track/1BvomQcVidSDKCndZdBEv3?si=bTtQosdqRBikAxJnQphHFA",
+   "starts_at_ms": 2796293,
+   "starts_at": "46:36"
+  },
+  {
+   "n": 20,
+   "title": "Scales (feat. Kelela)",
+   "clean_title": "Scales (feat. Kelela)",
+   "duration_ms": 219315,
+   "spotify_uri": "spotify:track:6gO8khQWeJcV7U0Kzo6Ynk",
+   "spotify_url": "https://open.spotify.com/track/6gO8khQWeJcV7U0Kzo6Ynk?si=13iRVmi2T3a1_KXR4aXLrQ",
+   "starts_at_ms": 2853950,
+   "starts_at": "47:33"
+  },
+  {
+   "n": 21,
+   "title": "Closing: The Chosen Ones",
+   "clean_title": "Closing: The Chosen Ones",
+   "duration_ms": 42165,
+   "spotify_uri": "spotify:track:2KdT8BSu7sViL2G5vQiWB6",
+   "spotify_url": "https://open.spotify.com/track/2KdT8BSu7sViL2G5vQiWB6?si=3gWLlzlSR2yHiUmFfM0Waw",
+   "starts_at_ms": 3073265,
+   "starts_at": "51:13"
+  }
+ ],
+ "week": 5,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:30:42.832250+00:00"
+}
