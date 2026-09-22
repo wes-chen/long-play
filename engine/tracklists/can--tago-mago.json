@@ -1,0 +1,81 @@
+{
+ "artist": "Can",
+ "album": "Tago Mago",
+ "spotify_uri": "spotify:album:1txmvzex0gtGwbqQCcXEtt",
+ "spotify_url": "https://open.spotify.com/album/1txmvzex0gtGwbqQCcXEtt?si=2EUcvi3MSt6VkWHYC2McPg",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Paperhouse - 2011 Remastered",
+   "clean_title": "Paperhouse",
+   "duration_ms": 448893,
+   "spotify_uri": "spotify:track:1q00odeFNf5rVzJrqfm5JS",
+   "spotify_url": "https://open.spotify.com/track/1q00odeFNf5rVzJrqfm5JS?si=wpiBaFC6TC6oYH1vfu9S4w",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Mushroom - 2011 Remastered",
+   "clean_title": "Mushroom",
+   "duration_ms": 243573,
+   "spotify_uri": "spotify:track:7M3ErRtC3Kk5C0GqI3nN16",
+   "spotify_url": "https://open.spotify.com/track/7M3ErRtC3Kk5C0GqI3nN16?si=Sx6_8cF-Ry2JLJQ7aOqxyQ",
+   "starts_at_ms": 448893,
+   "starts_at": "7:28"
+  },
+  {
+   "n": 3,
+   "title": "Oh Yeah - 2011 Remastered",
+   "clean_title": "Oh Yeah",
+   "duration_ms": 442199,
+   "spotify_uri": "spotify:track:76MmbCJxEEj5H4Dg0WVE3E",
+   "spotify_url": "https://open.spotify.com/track/76MmbCJxEEj5H4Dg0WVE3E?si=MsYTlYnnQLWjCTAKoDR6ig",
+   "starts_at_ms": 692466,
+   "starts_at": "11:32"
+  },
+  {
+   "n": 4,
+   "title": "Halleluhwah - 2011 Remastered",
+   "clean_title": "Halleluhwah",
+   "duration_ms": 1111599,
+   "spotify_uri": "spotify:track:5HO9dFj88plFIHkJJBG7hU",
+   "spotify_url": "https://open.spotify.com/track/5HO9dFj88plFIHkJJBG7hU?si=3yr4UhpZQxemCFCZwIf4pA",
+   "starts_at_ms": 1134665,
+   "starts_at": "18:54"
+  },
+  {
+   "n": 5,
+   "title": "Aumgn - 2011 Remastered",
+   "clean_title": "Aumgn",
+   "duration_ms": 1051599,
+   "spotify_uri": "spotify:track:1EMOXzz2qD8HvDVNLR6G0q",
+   "spotify_url": "https://open.spotify.com/track/1EMOXzz2qD8HvDVNLR6G0q?si=4hUsiadrQaOxVByo59e7CQ",
+   "starts_at_ms": 2246264,
+   "starts_at": "37:26"
+  },
+  {
+   "n": 6,
+   "title": "Peking O - 2011 Remastered",
+   "clean_title": "Peking O",
+   "duration_ms": 703293,
+   "spotify_uri": "spotify:track:2hDJlA1063y7kj5H9L3QW8",
+   "spotify_url": "https://open.spotify.com/track/2hDJlA1063y7kj5H9L3QW8?si=jymL_TfSS3yows_rM0eEzA",
+   "starts_at_ms": 3297863,
+   "starts_at": "54:57"
+  },
+  {
+   "n": 7,
+   "title": "Bring Me Coffee Or Tea - 2011 Remastered",
+   "clean_title": "Bring Me Coffee Or Tea",
+   "duration_ms": 409199,
+   "spotify_uri": "spotify:track:03JNknRKBaEU2ejLK3KSfs",
+   "spotify_url": "https://open.spotify.com/track/03JNknRKBaEU2ejLK3KSfs?si=ASrLOW6CTLeUzqHEvTOd6w",
+   "starts_at_ms": 4001156,
+   "starts_at": "66:41"
+  }
+ ],
+ "week": 1,
+ "slot": "wild_card",
+ "fetched_at": "2026-09-22T05:30:25.655053+00:00"
+}
