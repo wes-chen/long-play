@@ -1,0 +1,171 @@
+{
+ "artist": "ODESZA",
+ "album": "A Moment Apart",
+ "spotify_uri": "spotify:album:3VzsvmhnUb9OZ59bq2aoNZ",
+ "spotify_url": "https://open.spotify.com/album/3VzsvmhnUb9OZ59bq2aoNZ?si=DG2OWZYxQROTv1N-yodhSw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Intro",
+   "clean_title": "Intro",
+   "duration_ms": 63972,
+   "spotify_uri": "spotify:track:1aRtduEHwvk2AMR87ji9Tg",
+   "spotify_url": "https://open.spotify.com/track/1aRtduEHwvk2AMR87ji9Tg?si=1qRxnb1HQFqoK8tIimyNVA",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "A Moment Apart",
+   "clean_title": "A Moment Apart",
+   "duration_ms": 234244,
+   "spotify_uri": "spotify:track:59wlTaYOL5tDUgXnbBQ3my",
+   "spotify_url": "https://open.spotify.com/track/59wlTaYOL5tDUgXnbBQ3my?si=Cj5XkiwhRx24QQGJqm9WHA",
+   "starts_at_ms": 63972,
+   "starts_at": "1:03"
+  },
+  {
+   "n": 3,
+   "title": "Higher Ground",
+   "clean_title": "Higher Ground",
+   "duration_ms": 215130,
+   "spotify_uri": "spotify:track:7KT7VGnPU5QVXN3q1BOeqb",
+   "spotify_url": "https://open.spotify.com/track/7KT7VGnPU5QVXN3q1BOeqb?si=X3XPBRyeT6SeVoeuq-DuHg",
+   "starts_at_ms": 298216,
+   "starts_at": "4:58"
+  },
+  {
+   "n": 4,
+   "title": "Boy",
+   "clean_title": "Boy",
+   "duration_ms": 183680,
+   "spotify_uri": "spotify:track:63yesoRJgXT5QALryYFV0X",
+   "spotify_url": "https://open.spotify.com/track/63yesoRJgXT5QALryYFV0X?si=1CupdGPxREWOvG6C7HoXGw",
+   "starts_at_ms": 513346,
+   "starts_at": "8:33"
+  },
+  {
+   "n": 5,
+   "title": "Line Of Sight",
+   "clean_title": "Line Of Sight",
+   "duration_ms": 236470,
+   "spotify_uri": "spotify:track:2WWfjbHALIb3e7FMcj9mr4",
+   "spotify_url": "https://open.spotify.com/track/2WWfjbHALIb3e7FMcj9mr4?si=54is1IV4Twidf6rVApaeSA",
+   "starts_at_ms": 697026,
+   "starts_at": "11:37"
+  },
+  {
+   "n": 6,
+   "title": "Late Night",
+   "clean_title": "Late Night",
+   "duration_ms": 228590,
+   "spotify_uri": "spotify:track:5Nu5Uyoauauy9LFePYL1Z3",
+   "spotify_url": "https://open.spotify.com/track/5Nu5Uyoauauy9LFePYL1Z3?si=ZOyZJGJLQSia-djTE9bTwQ",
+   "starts_at_ms": 933496,
+   "starts_at": "15:33"
+  },
+  {
+   "n": 7,
+   "title": "Across The Room",
+   "clean_title": "Across The Room",
+   "duration_ms": 283537,
+   "spotify_uri": "spotify:track:4YaNLEPw3MrIgkGOkBrAh2",
+   "spotify_url": "https://open.spotify.com/track/4YaNLEPw3MrIgkGOkBrAh2?si=jHRk4fZeQkeWuX-2LoE25A",
+   "starts_at_ms": 1162086,
+   "starts_at": "19:22"
+  },
+  {
+   "n": 8,
+   "title": "Meridian",
+   "clean_title": "Meridian",
+   "duration_ms": 235860,
+   "spotify_uri": "spotify:track:7t7SLzJtQzD8wdJqwYD3XM",
+   "spotify_url": "https://open.spotify.com/track/7t7SLzJtQzD8wdJqwYD3XM?si=d7MOgKQaT76JTmJSccO5Ag",
+   "starts_at_ms": 1445623,
+   "starts_at": "24:05"
+  },
+  {
+   "n": 9,
+   "title": "Everything At Your Feet",
+   "clean_title": "Everything At Your Feet",
+   "duration_ms": 208017,
+   "spotify_uri": "spotify:track:3VXrpkM94UBgL4voR20tZq",
+   "spotify_url": "https://open.spotify.com/track/3VXrpkM94UBgL4voR20tZq?si=5NkwShlyRSSjGELRogZKmw",
+   "starts_at_ms": 1681483,
+   "starts_at": "28:01"
+  },
+  {
+   "n": 10,
+   "title": "Just A Memory",
+   "clean_title": "Just A Memory",
+   "duration_ms": 236794,
+   "spotify_uri": "spotify:track:0KtzMx1GbkkPyA2TQceHoM",
+   "spotify_url": "https://open.spotify.com/track/0KtzMx1GbkkPyA2TQceHoM?si=SLkcQ8JyReas4jw9kryiiw",
+   "starts_at_ms": 1889500,
+   "starts_at": "31:29"
+  },
+  {
+   "n": 11,
+   "title": "Divide",
+   "clean_title": "Divide",
+   "duration_ms": 241849,
+   "spotify_uri": "spotify:track:3CvMXAVFGmfq56tvUAa9ip",
+   "spotify_url": "https://open.spotify.com/track/3CvMXAVFGmfq56tvUAa9ip?si=11Zj7nRUQzyuwKTpzGVeSw",
+   "starts_at_ms": 2126294,
+   "starts_at": "35:26"
+  },
+  {
+   "n": 12,
+   "title": "Thin Floors And Tall Ceilings",
+   "clean_title": "Thin Floors And Tall Ceilings",
+   "duration_ms": 178307,
+   "spotify_uri": "spotify:track:1zyMwU1NtRDkuQWthUbGsL",
+   "spotify_url": "https://open.spotify.com/track/1zyMwU1NtRDkuQWthUbGsL?si=Ulxpw-cGSqmsD52ckL7C4g",
+   "starts_at_ms": 2368143,
+   "starts_at": "39:28"
+  },
+  {
+   "n": 13,
+   "title": "La Ciudad",
+   "clean_title": "La Ciudad",
+   "duration_ms": 271136,
+   "spotify_uri": "spotify:track:4x6aawsLyPkF3aGPXGvbat",
+   "spotify_url": "https://open.spotify.com/track/4x6aawsLyPkF3aGPXGvbat?si=GbGos6eURgyz9bcs8bUM_w",
+   "starts_at_ms": 2546450,
+   "starts_at": "42:26"
+  },
+  {
+   "n": 14,
+   "title": "Falls",
+   "clean_title": "Falls",
+   "duration_ms": 232936,
+   "spotify_uri": "spotify:track:6oNZ0WxqptE7V0qpjtyJ4a",
+   "spotify_url": "https://open.spotify.com/track/6oNZ0WxqptE7V0qpjtyJ4a?si=LcjUILpzSb6BGeUfoORklA",
+   "starts_at_ms": 2817586,
+   "starts_at": "46:57"
+  },
+  {
+   "n": 15,
+   "title": "Show Me",
+   "clean_title": "Show Me",
+   "duration_ms": 218548,
+   "spotify_uri": "spotify:track:5k4MVfklNSMZZHB1jxvKrr",
+   "spotify_url": "https://open.spotify.com/track/5k4MVfklNSMZZHB1jxvKrr?si=GGIQZoXQTM2eFoOGHIVY-A",
+   "starts_at_ms": 3050522,
+   "starts_at": "50:50"
+  },
+  {
+   "n": 16,
+   "title": "Corners Of The Earth",
+   "clean_title": "Corners Of The Earth",
+   "duration_ms": 305348,
+   "spotify_uri": "spotify:track:2pD1x1iL0gsvg7Kbhpuf8W",
+   "spotify_url": "https://open.spotify.com/track/2pD1x1iL0gsvg7Kbhpuf8W?si=e1o1XnoCSqy7bY8mqugKXA",
+   "starts_at_ms": 3269070,
+   "starts_at": "54:29"
+  }
+ ],
+ "week": 7,
+ "slot": "anchor",
+ "fetched_at": "2026-09-22T05:30:50.863813+00:00"
+}
