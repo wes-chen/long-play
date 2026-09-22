@@ -1,0 +1,191 @@
+{
+ "artist": "Stars of the Lid",
+ "album": "And Their Refinement of the Decline",
+ "spotify_uri": "spotify:album:6cHPEbPryLpH5VX5Eb1Vvo",
+ "spotify_url": "https://open.spotify.com/album/6cHPEbPryLpH5VX5Eb1Vvo?si=OMWtXrKrTNqFccyq8Zj1vA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Dungtitled (In a Major)",
+   "clean_title": "Dungtitled (In a Major)",
+   "duration_ms": 354120,
+   "spotify_uri": "spotify:track:3OgkfYg13Jj96E982moWje",
+   "spotify_url": "https://open.spotify.com/track/3OgkfYg13Jj96E982moWje?si=4fCVXfc8Sby_wjBcg4Cb5w",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "Articulate Silences, Pt. 1",
+   "clean_title": "Articulate Silences, Pt. 1",
+   "duration_ms": 324400,
+   "spotify_uri": "spotify:track:2Uy2p6tkVLj6vaVznKpNCs",
+   "spotify_url": "https://open.spotify.com/track/2Uy2p6tkVLj6vaVznKpNCs?si=FxyYY85XTZmFSKeOWR5wEg",
+   "starts_at_ms": 354120,
+   "starts_at": "5:54"
+  },
+  {
+   "n": 3,
+   "title": "Articulate Silences, Pt. 2",
+   "clean_title": "Articulate Silences, Pt. 2",
+   "duration_ms": 337173,
+   "spotify_uri": "spotify:track:19i0eqVS2lrRToPje5e6Rg",
+   "spotify_url": "https://open.spotify.com/track/19i0eqVS2lrRToPje5e6Rg?si=_xcqrALbREaTiWyj6w0bvA",
+   "starts_at_ms": 678520,
+   "starts_at": "11:18"
+  },
+  {
+   "n": 4,
+   "title": "The Evil That Never Arrived",
+   "clean_title": "The Evil That Never Arrived",
+   "duration_ms": 304986,
+   "spotify_uri": "spotify:track:2U9rXVRiRnRTL1Y3H1sReI",
+   "spotify_url": "https://open.spotify.com/track/2U9rXVRiRnRTL1Y3H1sReI?si=-NAuxOaGQr-8FquYJrvPFQ",
+   "starts_at_ms": 1015693,
+   "starts_at": "16:55"
+  },
+  {
+   "n": 5,
+   "title": "Apreludes (In C Sharp Major)",
+   "clean_title": "Apreludes (In C Sharp Major)",
+   "duration_ms": 224600,
+   "spotify_uri": "spotify:track:6v7oLEcOyjLodHTYKmYfFr",
+   "spotify_url": "https://open.spotify.com/track/6v7oLEcOyjLodHTYKmYfFr?si=ufw_J8fMTLWIJvquLh-m2g",
+   "starts_at_ms": 1320679,
+   "starts_at": "22:00"
+  },
+  {
+   "n": 6,
+   "title": "Don't Bother They're Here",
+   "clean_title": "Don't Bother They're Here",
+   "duration_ms": 610213,
+   "spotify_uri": "spotify:track:477naywDON3t1iAF4COlOV",
+   "spotify_url": "https://open.spotify.com/track/477naywDON3t1iAF4COlOV?si=xQ-_2ssRSc2Pzc7mQiyrMA",
+   "starts_at_ms": 1545279,
+   "starts_at": "25:45"
+  },
+  {
+   "n": 7,
+   "title": "Dopamine Clouds Over Craven Cottage",
+   "clean_title": "Dopamine Clouds Over Craven Cottage",
+   "duration_ms": 354946,
+   "spotify_uri": "spotify:track:0JY5c8mjhc3kvwsqicxTl7",
+   "spotify_url": "https://open.spotify.com/track/0JY5c8mjhc3kvwsqicxTl7?si=bEnQlRejTRShUpBqFlPkEw",
+   "starts_at_ms": 2155492,
+   "starts_at": "35:55"
+  },
+  {
+   "n": 8,
+   "title": "Even If You're Never Awake",
+   "clean_title": "Even If You're Never Awake",
+   "duration_ms": 560746,
+   "spotify_uri": "spotify:track:4hx8EYJ54QzRf7KrVrNn1H",
+   "spotify_url": "https://open.spotify.com/track/4hx8EYJ54QzRf7KrVrNn1H?si=AJosy7nZS5qn2aXzFLYVlA",
+   "starts_at_ms": 2510438,
+   "starts_at": "41:50"
+  },
+  {
+   "n": 9,
+   "title": "Even (Out) +",
+   "clean_title": "Even (Out) +",
+   "duration_ms": 291680,
+   "spotify_uri": "spotify:track:1h74tyOj7qcmjKnB64BLOR",
+   "spotify_url": "https://open.spotify.com/track/1h74tyOj7qcmjKnB64BLOR?si=UICPC_SjTvmv_Lh2AqN6Tg",
+   "starts_at_ms": 3071184,
+   "starts_at": "51:11"
+  },
+  {
+   "n": 10,
+   "title": "A Meaningful Moment Through a Meaning(less) Process",
+   "clean_title": "A Meaningful Moment Through a Meaning(less) Process",
+   "duration_ms": 272786,
+   "spotify_uri": "spotify:track:4TrCvd1PrqI14lZb7tEtYo",
+   "spotify_url": "https://open.spotify.com/track/4TrCvd1PrqI14lZb7tEtYo?si=Bj_WMgYRS5mdnLaekoUiEQ",
+   "starts_at_ms": 3362864,
+   "starts_at": "56:02"
+  },
+  {
+   "n": 11,
+   "title": "Another Ballad for Heavy Lids",
+   "clean_title": "Another Ballad for Heavy Lids",
+   "duration_ms": 272760,
+   "spotify_uri": "spotify:track:6tQryZ48dDKVU4UypjXDXT",
+   "spotify_url": "https://open.spotify.com/track/6tQryZ48dDKVU4UypjXDXT?si=NZ8mToOORt-AAFHceQ4Emg",
+   "starts_at_ms": 3635650,
+   "starts_at": "60:35"
+  },
+  {
+   "n": 12,
+   "title": "The Daughters of Quiet Minds",
+   "clean_title": "The Daughters of Quiet Minds",
+   "duration_ms": 801920,
+   "spotify_uri": "spotify:track:7enRMTKnzaeYQsBgRYmCle",
+   "spotify_url": "https://open.spotify.com/track/7enRMTKnzaeYQsBgRYmCle?si=fqRtEuUZQxuji_MhS6bmZA",
+   "starts_at_ms": 3908410,
+   "starts_at": "65:08"
+  },
+  {
+   "n": 13,
+   "title": "Hiberner Toujours",
+   "clean_title": "Hiberner Toujours",
+   "duration_ms": 109013,
+   "spotify_uri": "spotify:track:2dQLlee3j9j90ZXo9sleyD",
+   "spotify_url": "https://open.spotify.com/track/2dQLlee3j9j90ZXo9sleyD?si=1VCyKvJpS0G93bvkioiMZg",
+   "starts_at_ms": 4710330,
+   "starts_at": "78:30"
+  },
+  {
+   "n": 14,
+   "title": "That Finger On Your Temple Is the Barrel of My Raygun",
+   "clean_title": "That Finger On Your Temple Is the Barrel of My Raygun",
+   "duration_ms": 304493,
+   "spotify_uri": "spotify:track:7eQ5mlLmrET0W3YokL2tiH",
+   "spotify_url": "https://open.spotify.com/track/7eQ5mlLmrET0W3YokL2tiH?si=CqrQg4C6SQGD-r1FRVZ2sg",
+   "starts_at_ms": 4819343,
+   "starts_at": "80:19"
+  },
+  {
+   "n": 15,
+   "title": "Humectez La Mouture",
+   "clean_title": "Humectez La Mouture",
+   "duration_ms": 331106,
+   "spotify_uri": "spotify:track:4kYoZAi6P7yXNM1Bjbf4ST",
+   "spotify_url": "https://open.spotify.com/track/4kYoZAi6P7yXNM1Bjbf4ST?si=TQOTnVQ0RJmXoc_SyFZ56A",
+   "starts_at_ms": 5123836,
+   "starts_at": "85:23"
+  },
+  {
+   "n": 16,
+   "title": "Tippy's Demise",
+   "clean_title": "Tippy's Demise",
+   "duration_ms": 498760,
+   "spotify_uri": "spotify:track:7yqKXk9XNLMmPahxpK8pAo",
+   "spotify_url": "https://open.spotify.com/track/7yqKXk9XNLMmPahxpK8pAo?si=TNoHo6tzR-StDdOg0GkUTg",
+   "starts_at_ms": 5454942,
+   "starts_at": "90:54"
+  },
+  {
+   "n": 17,
+   "title": "The Mouthchew",
+   "clean_title": "The Mouthchew",
+   "duration_ms": 220880,
+   "spotify_uri": "spotify:track:2Ti4NFS26EdjvL57RPjkY6",
+   "spotify_url": "https://open.spotify.com/track/2Ti4NFS26EdjvL57RPjkY6?si=RtYe-6JiTraoZ_zngYUNbg",
+   "starts_at_ms": 5953702,
+   "starts_at": "99:13"
+  },
+  {
+   "n": 18,
+   "title": "December Hunting for Vegetarian Fuckface",
+   "clean_title": "December Hunting for Vegetarian Fuckface",
+   "duration_ms": 1065560,
+   "spotify_uri": "spotify:track:7FYbiwCEaxSEp2iAeteqUJ",
+   "spotify_url": "https://open.spotify.com/track/7FYbiwCEaxSEp2iAeteqUJ?si=xHAWO4YDQYuBVR-vifKrMQ",
+   "starts_at_ms": 6174582,
+   "starts_at": "102:54"
+  }
+ ],
+ "week": 9,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:31:03.504440+00:00"
+}
