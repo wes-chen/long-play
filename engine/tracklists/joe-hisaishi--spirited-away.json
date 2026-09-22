@@ -1,0 +1,221 @@
+{
+ "artist": "Joe Hisaishi",
+ "album": "Spirited Away",
+ "spotify_uri": "spotify:album:766a5fKJYFy9ii4Kz2bQy9",
+ "spotify_url": "https://open.spotify.com/album/766a5fKJYFy9ii4Kz2bQy9?si=UFRIol0oTd6R0yrO_s7svw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "One Summer Day",
+   "clean_title": "One Summer Day",
+   "duration_ms": 189800,
+   "spotify_uri": "spotify:track:3gFQOMoUwlR6aUZj81gCzu",
+   "spotify_url": "https://open.spotify.com/track/3gFQOMoUwlR6aUZj81gCzu?si=ME0fxI1bRSSUW7CVZb3dEQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "A Road to Somewhere",
+   "clean_title": "A Road to Somewhere",
+   "duration_ms": 127533,
+   "spotify_uri": "spotify:track:12CWJ1dvXyGikpqh02gQx7",
+   "spotify_url": "https://open.spotify.com/track/12CWJ1dvXyGikpqh02gQx7?si=g3RYBoOeS0-iu-kWuSNeEg",
+   "starts_at_ms": 189800,
+   "starts_at": "3:09"
+  },
+  {
+   "n": 3,
+   "title": "The Empty Restaurant",
+   "clean_title": "The Empty Restaurant",
+   "duration_ms": 195706,
+   "spotify_uri": "spotify:track:1i8XrHrRWOmN5flqYCVRnm",
+   "spotify_url": "https://open.spotify.com/track/1i8XrHrRWOmN5flqYCVRnm?si=aEbfcPfqTmqdQzb66v2pZQ",
+   "starts_at_ms": 317333,
+   "starts_at": "5:17"
+  },
+  {
+   "n": 4,
+   "title": "Nighttime Coming",
+   "clean_title": "Nighttime Coming",
+   "duration_ms": 120400,
+   "spotify_uri": "spotify:track:0YaBiyjRwScMlKPCtXMypa",
+   "spotify_url": "https://open.spotify.com/track/0YaBiyjRwScMlKPCtXMypa?si=PE-G1GPUSPKtEr-x9rSw_g",
+   "starts_at_ms": 513039,
+   "starts_at": "8:33"
+  },
+  {
+   "n": 5,
+   "title": "The Dragon Boy",
+   "clean_title": "The Dragon Boy",
+   "duration_ms": 132466,
+   "spotify_uri": "spotify:track:6JUWHRh6JW3qR56gCl218U",
+   "spotify_url": "https://open.spotify.com/track/6JUWHRh6JW3qR56gCl218U?si=yw-QH3SLQRyYVmL2vM23Bg",
+   "starts_at_ms": 633439,
+   "starts_at": "10:33"
+  },
+  {
+   "n": 6,
+   "title": "Sootballs",
+   "clean_title": "Sootballs",
+   "duration_ms": 153533,
+   "spotify_uri": "spotify:track:6FFQyTAzg7VuijVavalBJq",
+   "spotify_url": "https://open.spotify.com/track/6FFQyTAzg7VuijVavalBJq?si=NNpkduo5QCSHwFwX6NQTbw",
+   "starts_at_ms": 765905,
+   "starts_at": "12:45"
+  },
+  {
+   "n": 7,
+   "title": "Procession Of The Spirits",
+   "clean_title": "Procession Of The Spirits",
+   "duration_ms": 180360,
+   "spotify_uri": "spotify:track:3A08CelXmym3C9KpaG0ct4",
+   "spotify_url": "https://open.spotify.com/track/3A08CelXmym3C9KpaG0ct4?si=ctpt7xv_QPaBeHAPwqam4Q",
+   "starts_at_ms": 919438,
+   "starts_at": "15:19"
+  },
+  {
+   "n": 8,
+   "title": "Yubaba",
+   "clean_title": "Yubaba",
+   "duration_ms": 210066,
+   "spotify_uri": "spotify:track:2j4euRT9SH6PtUED9BctPR",
+   "spotify_url": "https://open.spotify.com/track/2j4euRT9SH6PtUED9BctPR?si=G6YJR1rKTRSRg-1NdeMBaA",
+   "starts_at_ms": 1099798,
+   "starts_at": "18:19"
+  },
+  {
+   "n": 9,
+   "title": "Bathhouse Morning",
+   "clean_title": "Bathhouse Morning",
+   "duration_ms": 122440,
+   "spotify_uri": "spotify:track:1uqJC1Un5tQahabsJyacV2",
+   "spotify_url": "https://open.spotify.com/track/1uqJC1Un5tQahabsJyacV2?si=ZBfRSYyfSr6ytYGi7HoR6g",
+   "starts_at_ms": 1309864,
+   "starts_at": "21:49"
+  },
+  {
+   "n": 10,
+   "title": "Day Of The River",
+   "clean_title": "Day Of The River",
+   "duration_ms": 193000,
+   "spotify_uri": "spotify:track:26W3vc21aHLaHF90gbsiq1",
+   "spotify_url": "https://open.spotify.com/track/26W3vc21aHLaHF90gbsiq1?si=7MTmrVPxRtS2V_7LJjGqCw",
+   "starts_at_ms": 1432304,
+   "starts_at": "23:52"
+  },
+  {
+   "n": 11,
+   "title": "It's Hard Work",
+   "clean_title": "It's Hard Work",
+   "duration_ms": 146933,
+   "spotify_uri": "spotify:track:1bXWzZEqzvCFOCVc39P9Jr",
+   "spotify_url": "https://open.spotify.com/track/1bXWzZEqzvCFOCVc39P9Jr?si=mCn_9CdUQMet77LTZEWSgg",
+   "starts_at_ms": 1625304,
+   "starts_at": "27:05"
+  },
+  {
+   "n": 12,
+   "title": "The Stink Spirit",
+   "clean_title": "The Stink Spirit",
+   "duration_ms": 241533,
+   "spotify_uri": "spotify:track:24LVZitJYxOax6lpaodU8a",
+   "spotify_url": "https://open.spotify.com/track/24LVZitJYxOax6lpaodU8a?si=eeqsIXG7TDGb0URuqBQZYg",
+   "starts_at_ms": 1772237,
+   "starts_at": "29:32"
+  },
+  {
+   "n": 13,
+   "title": "Sen's Courage",
+   "clean_title": "Sen's Courage",
+   "duration_ms": 165226,
+   "spotify_uri": "spotify:track:4DBfZDDcU3KbD2N8Dez0Mx",
+   "spotify_url": "https://open.spotify.com/track/4DBfZDDcU3KbD2N8Dez0Mx?si=_ZuS62DHRkKmo9JBjNI9vw",
+   "starts_at_ms": 2013770,
+   "starts_at": "33:33"
+  },
+  {
+   "n": 14,
+   "title": "The Bottomless Pit",
+   "clean_title": "The Bottomless Pit",
+   "duration_ms": 78800,
+   "spotify_uri": "spotify:track:5mdA4XPkSB6P00bxa1MF4a",
+   "spotify_url": "https://open.spotify.com/track/5mdA4XPkSB6P00bxa1MF4a?si=6HRWh-pCQeeD-QhsRY3oWA",
+   "starts_at_ms": 2178996,
+   "starts_at": "36:18"
+  },
+  {
+   "n": 15,
+   "title": "Kaonashi (No Face)",
+   "clean_title": "Kaonashi (No Face)",
+   "duration_ms": 227400,
+   "spotify_uri": "spotify:track:66yR4jNbIvTpLkPwejn6qf",
+   "spotify_url": "https://open.spotify.com/track/66yR4jNbIvTpLkPwejn6qf?si=TS9puOfMSIm2lmTpXxlqjA",
+   "starts_at_ms": 2257796,
+   "starts_at": "37:37"
+  },
+  {
+   "n": 16,
+   "title": "The Sixth Station",
+   "clean_title": "The Sixth Station",
+   "duration_ms": 218240,
+   "spotify_uri": "spotify:track:0id1qkWX2s92QjBJcQZj8r",
+   "spotify_url": "https://open.spotify.com/track/0id1qkWX2s92QjBJcQZj8r?si=BlRGkLOXSuG6ETUjqgEdNg",
+   "starts_at_ms": 2485196,
+   "starts_at": "41:25"
+  },
+  {
+   "n": 17,
+   "title": "Yubaba's Panic",
+   "clean_title": "Yubaba's Panic",
+   "duration_ms": 98026,
+   "spotify_uri": "spotify:track:72PZ5mN3J2Ts2gUl7Zie4U",
+   "spotify_url": "https://open.spotify.com/track/72PZ5mN3J2Ts2gUl7Zie4U?si=rSTD0Rc7S6uC5WlMAAWo1A",
+   "starts_at_ms": 2703436,
+   "starts_at": "45:03"
+  },
+  {
+   "n": 18,
+   "title": "The House At Swamp Bottom",
+   "clean_title": "The House At Swamp Bottom",
+   "duration_ms": 89773,
+   "spotify_uri": "spotify:track:6CCMTmUZaWAMEdK6xnkk4U",
+   "spotify_url": "https://open.spotify.com/track/6CCMTmUZaWAMEdK6xnkk4U?si=sgEyzoiMSni3Ru6nLCqu-g",
+   "starts_at_ms": 2801462,
+   "starts_at": "46:41"
+  },
+  {
+   "n": 19,
+   "title": "Reprise",
+   "clean_title": "Reprise",
+   "duration_ms": 293600,
+   "spotify_uri": "spotify:track:7cx8LQLOL4J1F0WyOehlVc",
+   "spotify_url": "https://open.spotify.com/track/7cx8LQLOL4J1F0WyOehlVc?si=ajFDR91ZRIGSMM4aRwcb4A",
+   "starts_at_ms": 2891235,
+   "starts_at": "48:11"
+  },
+  {
+   "n": 20,
+   "title": "The Return",
+   "clean_title": "The Return",
+   "duration_ms": 200666,
+   "spotify_uri": "spotify:track:2e5aMPYLOhrX4NiuPKPcjp",
+   "spotify_url": "https://open.spotify.com/track/2e5aMPYLOhrX4NiuPKPcjp?si=u23hmvyySI6HJ3lVeWYiJQ",
+   "starts_at_ms": 3184835,
+   "starts_at": "53:04"
+  },
+  {
+   "n": 21,
+   "title": "Always with Me",
+   "clean_title": "Always with Me",
+   "duration_ms": 215426,
+   "spotify_uri": "spotify:track:0FJL3Dwu8oUpwDb80qNdvP",
+   "spotify_url": "https://open.spotify.com/track/0FJL3Dwu8oUpwDb80qNdvP?si=QkhlnhkARW60on6iATujRw",
+   "starts_at_ms": 3385501,
+   "starts_at": "56:25"
+  }
+ ],
+ "week": 24,
+ "slot": "adventurous",
+ "fetched_at": "2026-09-22T05:32:14.035889+00:00"
+}
