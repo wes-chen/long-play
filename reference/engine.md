@@ -76,8 +76,13 @@ recommendable unit, full stop.
 - **DIV** — marginal contribution to the week's diversity (quality-diversity trade-off).
 - **CULT** — cultural-discourse score: 33⅓ canon membership, year-end-list appearances,
 review volume, RYM rating counts. His explicit ask, first-class signal.
-- **CTX** — session fit: sampler-derived time-of-day patterns (commute vs locked-in
-work mornings) matched against album energy/duration profiles.
+- **CTX** — session fit: sampler-derived time-of-day patterns matched against
+album energy/duration profiles. Full model in
+`reference/ctx-session-model.md`: duration tiers derived from
+`engine/tracklists/` by `bin/ctx_profiles.py`, energy as a human tag with a
+fixed rubric (Spotify's audio-features endpoint is gone, so no programmatic
+energy source exists), and a heuristic session-fit table flagged UNVALIDATED
+until 3–4 weeks of per-album completion data calibrate it.
 
 **Slot weights (starting point, tuned by feedback):**
 
@@ -94,7 +99,8 @@ adventurous slots vary week to week — the digest is a longitudinal self-experi
 **Feedback loop.** Played/loved → positive pull in embedding space; skipped/disliked →
 hard negative pushed away. Wild-card reactions weighted 2× ("discomfort means more
 meaningful feedback"). Weekly engagement state modulates the novelty budget up/down
-(saturation tracking). The now-playing sampler (hourly, weekday 7–11am + 3–6pm) is
+(saturation tracking). The now-playing sampler (daily, 07:19/08:19/09:19/10:19/
+15:19/16:19/17:19/19:19/21:19 PT) is
 the implicit-feedback stream: play counts, album completion proxies, and the session
 patterns feeding CTX.
 
