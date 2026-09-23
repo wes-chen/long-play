@@ -46,9 +46,13 @@ Only code and the public week/album lists are committed here.
 
 ## Schedule
 
-Seven daily crons (Mon–Fri effective; weekend runs exit immediately):
-07:00, 08:00, 09:00, 10:00, 15:00, 16:00, 17:00 PT — each pulls the repo and
-runs `poll.py`. One weekly rollup, Monday 06:00 PT.
+Nine daily polls (all days, no weekend exit): 07:19, 08:19, 09:19, 10:19,
+15:19, 16:19, 17:19, 19:19, 21:19 PT — each pulls the repo and runs
+`poll.py`. One weekly rollup, Monday 06:00 PT.
+
+The poll windows feed the CTX session model (`../reference/ctx-session-model.md`),
+which buckets the `hour_of_day_pt` histogram into morning (7–11am),
+afternoon (3–6pm), and evening (7–10pm) sessions.
 
 ## Known limits (v1)
 
