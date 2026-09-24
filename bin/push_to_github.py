@@ -31,6 +31,12 @@ DENYLIST = [
     "*.log", ".env", "*secret*", "*token*", "*credential*", "*private*",
 ]
 
+# Public curriculum data committed by design: tracklists resolved from the
+# syllabus (track titles + Spotify URIs; no listening data). Checked before
+# the denylist so a name can never false-positive on a secret substring
+# (e.g. the artist "Sleep Token" tripping "*token*").
+ALLOWLIST_PREFIXES = ["engine/tracklists/"]
+
 
 def api(method, path, data=None):
     body = json.dumps(data).encode() if data is not None else None
@@ -48,6 +54,8 @@ def api(method, path, data=None):
 
 
 def denied(path):
+    if any(path.startswith(p) for p in ALLOWLIST_PREFIXES):
+        return False
     return any(fnmatch.fnmatch(path, pat) or fnmatch.fnmatch(os.path.basename(path), pat)
                for pat in DENYLIST)
 
