@@ -1,0 +1,129 @@
+{
+ "artist": "Sleep Token",
+ "album": "Take Me Back to Eden",
+ "spotify_uri": "spotify:album:1gjugH97doz3HktiEjx2vY",
+ "spotify_url": "https://open.spotify.com/album/1gjugH97doz3HktiEjx2vY?si=GGITnvkVQtqSaLxbC4u-rA",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Chokehold",
+   "clean_title": "Chokehold",
+   "duration_ms": 304023,
+   "spotify_uri": "spotify:track:1Uifdytv882RtTn6Gr4xAA",
+   "spotify_url": "https://open.spotify.com/track/1Uifdytv882RtTn6Gr4xAA?si=iRMFTLeVQXSXowxCIuF2_g",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "The Summoning",
+   "clean_title": "The Summoning",
+   "duration_ms": 395716,
+   "spotify_uri": "spotify:track:0S38Oso3I9vpDXcTb7kYt9",
+   "spotify_url": "https://open.spotify.com/track/0S38Oso3I9vpDXcTb7kYt9?si=nGdhjHf4RK688AV_T6LKJg",
+   "starts_at_ms": 304023,
+   "starts_at": "5:04"
+  },
+  {
+   "n": 3,
+   "title": "Granite",
+   "clean_title": "Granite",
+   "duration_ms": 225426,
+   "spotify_uri": "spotify:track:4mxiv6HQfhqgIuN5iOONQd",
+   "spotify_url": "https://open.spotify.com/track/4mxiv6HQfhqgIuN5iOONQd?si=-oiaKu3TT-6a3fyLNENFfg",
+   "starts_at_ms": 699739,
+   "starts_at": "11:39"
+  },
+  {
+   "n": 4,
+   "title": "Aqua Regia",
+   "clean_title": "Aqua Regia",
+   "duration_ms": 236020,
+   "spotify_uri": "spotify:track:5ub6Cb5yKmgGGwjvqZM1gI",
+   "spotify_url": "https://open.spotify.com/track/5ub6Cb5yKmgGGwjvqZM1gI?si=3OP-YX9YSqqoPp1y0dn4eA",
+   "starts_at_ms": 925165,
+   "starts_at": "15:25"
+  },
+  {
+   "n": 5,
+   "title": "Vore",
+   "clean_title": "Vore",
+   "duration_ms": 339606,
+   "spotify_uri": "spotify:track:5vJIVr0ZYo8DFbfSOY4Goa",
+   "spotify_url": "https://open.spotify.com/track/5vJIVr0ZYo8DFbfSOY4Goa?si=xNQVD-IhTgmNADsZrqkY8Q",
+   "starts_at_ms": 1161185,
+   "starts_at": "19:21"
+  },
+  {
+   "n": 6,
+   "title": "Ascensionism",
+   "clean_title": "Ascensionism",
+   "duration_ms": 428713,
+   "spotify_uri": "spotify:track:2Z1eWq9VOXkCzUmcU6uoNe",
+   "spotify_url": "https://open.spotify.com/track/2Z1eWq9VOXkCzUmcU6uoNe?si=jPkbd6MeSdWfnF9xOxsTXw",
+   "starts_at_ms": 1500791,
+   "starts_at": "25:00"
+  },
+  {
+   "n": 7,
+   "title": "Are You Really Okay?",
+   "clean_title": "Are You Really Okay?",
+   "duration_ms": 306828,
+   "spotify_uri": "spotify:track:5fxt2afoPXrHop4DEi4PEN",
+   "spotify_url": "https://open.spotify.com/track/5fxt2afoPXrHop4DEi4PEN?si=F0MN6CzCRI2peXHvzDghSg",
+   "starts_at_ms": 1929504,
+   "starts_at": "32:09"
+  },
+  {
+   "n": 8,
+   "title": "The Apparition",
+   "clean_title": "The Apparition",
+   "duration_ms": 268159,
+   "spotify_uri": "spotify:track:21eMasL93nEafqRwlI851z",
+   "spotify_url": "https://open.spotify.com/track/21eMasL93nEafqRwlI851z?si=65l1FWiyTi-s20Z7UsVu5A",
+   "starts_at_ms": 2236332,
+   "starts_at": "37:16"
+  },
+  {
+   "n": 9,
+   "title": "DYWTYLM",
+   "clean_title": "DYWTYLM",
+   "duration_ms": 240737,
+   "spotify_uri": "spotify:track:0OFNCqshaxAaKkGdlu16IM",
+   "spotify_url": "https://open.spotify.com/track/0OFNCqshaxAaKkGdlu16IM?si=VUv0leVZRBqYxAkvsjNOsg",
+   "starts_at_ms": 2504491,
+   "starts_at": "41:44"
+  },
+  {
+   "n": 10,
+   "title": "Rain",
+   "clean_title": "Rain",
+   "duration_ms": 252158,
+   "spotify_uri": "spotify:track:0GXwlEXCO8qeeeOIYpsR3m",
+   "spotify_url": "https://open.spotify.com/track/0GXwlEXCO8qeeeOIYpsR3m?si=f7TQ1zrRSSWZGNvzI7oIew",
+   "starts_at_ms": 2745228,
+   "starts_at": "45:45"
+  },
+  {
+   "n": 11,
+   "title": "Take Me Back To Eden",
+   "clean_title": "Take Me Back To Eden",
+   "duration_ms": 500116,
+   "spotify_uri": "spotify:track:2Gt7fjNlx901pPRkvBiNBZ",
+   "spotify_url": "https://open.spotify.com/track/2Gt7fjNlx901pPRkvBiNBZ?si=PLT68xmtTRmwxFBMUvthKw",
+   "starts_at_ms": 2997386,
+   "starts_at": "49:57"
+  },
+  {
+   "n": 12,
+   "title": "Euclid",
+   "clean_title": "Euclid",
+   "duration_ms": 313361,
+   "spotify_uri": "spotify:track:3hZIvVYZWsuFpdWdXQFgKx",
+   "spotify_url": "https://open.spotify.com/track/3hZIvVYZWsuFpdWdXQFgKx?si=hPXmbou2RsupKcjZoxwKGA",
+   "starts_at_ms": 3497502,
+   "starts_at": "58:17"
+  }
+ ],
+ "fetched_at": "2026-09-22T05:38:47.333852+00:00"
+}
