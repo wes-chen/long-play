@@ -99,7 +99,9 @@ adventurous slots vary week to week — the digest is a longitudinal self-experi
 **Feedback loop.** Played/loved → positive pull in embedding space; skipped/disliked →
 hard negative pushed away. Wild-card reactions weighted 2× ("discomfort means more
 meaningful feedback"). Weekly engagement state modulates the novelty budget up/down
-(saturation tracking). The now-playing sampler (daily, 07:19/08:19/09:19/10:19/
+(saturation tracking) via the wild-card adaptive dial
+(`reference/wildcard-dial.md`, L4): explicit loved → widen reach, bounced/skips →
+narrow it, at most ±1 level per week, explicit feedback outranks sampler data. The now-playing sampler (daily, 07:19/08:19/09:19/10:19/
 15:19/16:19/17:19/19:19/21:19 PT) is
 the implicit-feedback stream: play counts, album completion proxies, and the session
 patterns feeding CTX.
