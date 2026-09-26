@@ -98,7 +98,7 @@ def implicit_signals(tags):
         except (json.JSONDecodeError, OSError):
             continue
         for row in roll.get("albums", []):
-            name = row.get("name", "")
+            name = row.get("name") or row.get("album", "")
             # rollup album rows key on watchlist: "Artist — Album"
             parts = re.split(r"\s+[—–-]\s+", name, maxsplit=1)
             if len(parts) != 2:
@@ -107,7 +107,7 @@ def implicit_signals(tags):
             tag = tags.get(key)
             if not tag:
                 continue
-            tracks = row.get("tracks", 0) or 0
+            tracks = row.get("tracks", 0) or row.get("distinct_tracks", 0) or 0
             completed = row.get("completed_tracks", 0) or 0
             max_prog = row.get("max_progress_pct", 0) or 0
             hits = row.get("hits", 0) or 0
