@@ -104,7 +104,8 @@ def main():
         if wh:
             album_key = f"{wh['album']} — {wh['artist']}"
             a = albums[album_key]
-            a.update({"name": wh["album"], "week": wh["week"], "slot": wh["slot"]})
+            a.update({"name": wh["album"], "artist": wh["artist"],
+                      "week": wh["week"], "slot": wh["slot"]})
             watch_hits.append({
                 "ts": r["ts"], "track": r.get("track"),
                 "album": wh["album"], "slot": wh["slot"],
@@ -134,12 +135,20 @@ def main():
         done = sum(1 for uri in a["tracks"]
                    if tracks[uri]["max_pct"] >= COMPLETION_PCT)
         completion_pct = round(100 * done / track_count, 1) if track_count else None
+        album_max = max((tracks[uri]["max_pct"] for uri in a["tracks"]), default=0)
+        artist = a.get("artist") or ""
         album_rows.append({
+            # M2 taste vector keys album rows "Artist — Album" and reads
+            # tracks / completed_tracks / max_progress_pct / hits.
+            "name": f"{artist} — {a['name']}" if artist else a["name"],
+            "artist": artist or None,
             "album": a["name"], "week": a["week"], "slot": a["slot"],
-            "hits": a["hits"], "distinct_tracks": len(a["tracks"]),
+            "hits": a["hits"], "tracks": len(a["tracks"]),
+            "distinct_tracks": len(a["tracks"]),
             "watchlist_track_count": track_count or None,
             "completed_tracks": done,
             "completion_pct": completion_pct,
+            "max_progress_pct": round(album_max, 1),
         })
 
     rollup = {
