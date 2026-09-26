@@ -14,6 +14,10 @@ Prints JSON: [{"artist", "album", "slot", "minutes", "duration_tier",
 "energy" (from album_tags.json, null when untagged), "tracklist": bool}].
 Unresolved albums appear with "minutes": null so gaps are visible, not
 silent.
+
+Also writes engine/ctx_profiles.json (profiles + the v0 session fit table
+from reference/ctx-session-model.md) — the consumer contract for
+sampler/rollup.py's per-album "session fit".
 """
 import json
 import os
@@ -24,6 +28,39 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TRACKLIST_DIR = os.path.join(REPO, "engine", "tracklists")
 WEEKS_JSON = os.path.join(REPO, "engine", "weeks.json")
 TAGS_JSON = os.path.join(REPO, "engine", "album_tags.json")
+CTX_JSON = os.path.join(REPO, "engine", "ctx_profiles.json")
+
+# v0 matching table from reference/ctx-session-model.md: fit scores 0-2,
+# session x duration_tier. Energy modifiers applied after (medium = none).
+SESSIONS = {
+    "morning": [7, 8, 9, 10],
+    "afternoon": [15, 16, 17],
+    "evening": [19, 20, 21],
+}
+FIT_TABLE = {
+    "morning": {"short": 2.0, "medium": 1.5, "long": 0.75, "epic": 0.25},
+    "afternoon": {"short": 1.5, "medium": 2.0, "long": 1.0, "epic": 0.5},
+    "evening": {"short": 1.0, "medium": 1.5, "long": 2.0, "epic": 1.75},
+}
+ENERGY_MODIFIERS = {
+    "high": {"morning": 0.5, "evening": -0.5},
+    "low": {"evening": 0.5, "morning": -0.5},
+    "medium": {},
+}
+
+
+def fit(session, duration_tier_, energy):
+    """Fit score 0-2 for one (session, album) pair per the spec table.
+
+    Energy high -> +0.5 morning, -0.5 evening; low -> the reverse; medium
+    or untagged -> no change. Clamp to [0, 2]. Absent energy tag means
+    the profile is duration-only, never "low".
+    """
+    base = FIT_TABLE.get(session, {}).get(duration_tier_)
+    if base is None:
+        return None
+    delta = ENERGY_MODIFIERS.get(energy or "medium", {}).get(session, 0.0)
+    return round(min(2.0, max(0.0, base + delta)), 2)
 
 
 def norm(s):
@@ -117,6 +154,20 @@ def main():
                 "tracklist": tl is not None,
             })
     print(json.dumps(out, indent=1))
+
+    # L5 consumer contract: persist the profiles plus the matching table
+    # so sampler/rollup.py (and the digest) can consume session fit without
+    # re-deriving it. Written atomically; stdout above keeps the old shape.
+    envelope = {
+        "sessions": SESSIONS,
+        "fit_table": FIT_TABLE,
+        "energy_modifiers": ENERGY_MODIFIERS,
+        "profiles": out,
+    }
+    tmp = CTX_JSON + ".tmp"
+    with open(tmp, "w") as f:
+        json.dump(envelope, f, indent=1)
+    os.replace(tmp, CTX_JSON)
 
 
 if __name__ == "__main__":
