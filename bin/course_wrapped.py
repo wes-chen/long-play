@@ -11,6 +11,8 @@ Sections (all from real data; anything uncomputable is marked pending):
     (explicit reactions only — ground truth)
   - Prediction accuracy: M4 record across the course, blind weeks called out
   - Wild-card verdict: the final M10 read on the 2x weight
+  - Implicit signal arc: completion % per album from the sampler rollups
+    (hidden_files/sampler/rollups/*.json)
 
 Writes a private working copy to hidden_files/wrapped.md and prints the
 chat report. Usage: python3 bin/course_wrapped.py [--save]
@@ -30,6 +32,7 @@ STREAK = os.path.join(GOAL, "hidden_files", "streak.json")
 OUT = os.path.join(GOAL, "hidden_files", "wrapped.md")
 
 REACTION_SCORE = {"loved": 1.0, "played": 0.4, "skipped": -0.2, "bounced off": -1.0}
+ROLLUPS_DIR = os.path.join(GOAL, "hidden_files", "sampler", "rollups")
 ROW_RE = re.compile(
     r"^\|\s*(\d+)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(anchor|adventurous|wild[- ]card)\s*\|\s*"
     r"(played|skipped|loved|bounced off)\b[^|]*\|\s*chat\s*\|\s*([\d.]+)\s*\|",
@@ -38,6 +41,45 @@ ROW_RE = re.compile(
 
 def norm(s):
     return " ".join(s.strip().lower().split())
+
+
+def rollup_implicit():
+    """M11 close: aggregate sampler rollups (implicit signal) across windows.
+
+    Returns (n_windows, completions) where completions maps
+    "artist|album" -> {"name": album name, "completion_pct": best pct seen,
+    "hits": max hits seen}. Rollups are weekly; the best window wins per
+    album. Empty when no rollups exist yet.
+    """
+    completions = {}
+    n_windows = 0
+    if not os.path.isdir(ROLLUPS_DIR):
+        return n_windows, completions
+    for fn in sorted(os.listdir(ROLLUPS_DIR)):
+        if not fn.endswith(".json"):
+            continue
+        try:
+            with open(os.path.join(ROLLUPS_DIR, fn)) as f:
+                r = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            continue
+        n_windows += 1
+        for a in r.get("albums", []) or []:
+            key = f"{norm(a.get('artist') or '')}|{norm(a.get('album') or '')}"
+            prev = completions.get(key)
+            pct = a.get("completion_pct")
+            if prev is None or (pct is not None and
+                                (prev["completion_pct"] is None or
+                                 pct > prev["completion_pct"])):
+                completions[key] = {
+                    "name": a.get("name"), "album": a.get("album"),
+                    "artist": a.get("artist"), "week": a.get("week"),
+                    "slot": a.get("slot"),
+                    "completion_pct": pct,
+                    "hits": max(a.get("hits") or 0,
+                                prev["hits"] if prev else 0),
+                }
+    return n_windows, completions
 
 
 def load_tags():
@@ -164,6 +206,25 @@ def main():
     L.append("## Wild-card verdict (M10)")
     L.append("- Final read: run `bin/wildcard_calibration.py` for the closing "
              "judgment on the 2× weight — the numbers above are its inputs.")
+    L.append("")
+    L.append("## Implicit signal arc (sampler rollups)")
+    n_windows, completions = rollup_implicit()
+    measured = [c for c in completions.values()
+                if c["completion_pct"] is not None]
+    if measured:
+        mean_c = sum(c["completion_pct"] for c in measured) / len(measured)
+        L.append(f"- Rollup windows with sampler data: {n_windows}; "
+                 f"{len(measured)} assigned albums measured, "
+                 f"mean completion {mean_c:.1f}%.")
+        top = sorted(measured, key=lambda c: -c["completion_pct"])[:5]
+        L.append("- Deepest listens (completion %, best weekly window):")
+        for c in top:
+            tag = (f" [week {c['week']} {c['slot']}]"
+                   if c.get("week") else "")
+            L.append(f"  - {c['name']}{tag}: "
+                     f"{c['completion_pct']}% completion, {c['hits']} samples")
+    else:
+        L.append("- Pending — no sampler rollups with completion data yet.")
     L.append("")
     L.append("_Note: the 24-week arc completed before the calendar year ended; "
              "the NL-04 year-end reckoning is a separate report._")
