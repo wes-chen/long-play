@@ -15,6 +15,10 @@
    },
    "liner": "Known ground.",
    "liner_source": "weeks/week-01.md (verbatim, first sentence)",
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "pink-floyd|animals": {
@@ -32,6 +36,10 @@
    },
    "liner": "Same band, colder rooms.",
    "liner_source": "weeks/week-01.md (verbatim, first sentence)",
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "the-smile|a-light-for-attracting-attention": {
@@ -49,6 +57,10 @@
    },
    "liner": "Yorke/Greenwood/Skinner, recorded mostly live to tape.",
    "liner_source": "weeks/week-01.md (verbatim, first sentence)",
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "four-tet|beautiful-rewind": {
@@ -66,6 +78,10 @@
    },
    "liner": "Pirate-radio textures, chopped voices, heavy low end.",
    "liner_source": "weeks/week-01.md (verbatim, first sentence)",
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "can|tago-mago": {
@@ -83,6 +99,10 @@
    },
    "liner": "The stretch.",
    "liner_source": "weeks/week-01.md (verbatim, first sentence)",
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -102,6 +122,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "the-beatles|abbey-road": {
@@ -119,6 +143,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "kendrick-lamar|to-pimp-a-butterfly": {
@@ -136,6 +164,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "sza|sos": {
@@ -153,6 +185,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "swans|to-be-kind": {
@@ -170,6 +206,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -189,6 +229,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "pink-floyd|animals": {
@@ -206,6 +250,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "yes|close-to-the-edge": {
@@ -223,6 +271,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "genesis|selling-england-by-the-pound": {
@@ -240,6 +292,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "van-der-graaf-generator|pawn-hearts": {
@@ -257,6 +313,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -276,6 +336,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "talk-talk|laughing-stock": {
@@ -293,6 +357,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "bj-rk|homogenic": {
@@ -310,6 +378,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "these-new-puritans|field-of-reeds": {
@@ -327,6 +399,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "black-midi|hellfire": {
@@ -344,6 +420,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -363,6 +443,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "fka-twigs|magdalene": {
@@ -380,6 +464,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "solange|a-seat-at-the-table": {
@@ -397,6 +485,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "kelela|take-me-apart": {
@@ -414,6 +506,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "ethel-cain|preacher-s-daughter": {
@@ -431,6 +527,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -450,6 +550,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "cocteau-twins|heaven-or-las-vegas": {
@@ -467,6 +571,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "slowdive|souvlaki": {
@@ -484,6 +592,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "ride|nowhere": {
@@ -501,6 +613,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "have-a-nice-life|deathconsciousness": {
@@ -518,6 +634,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -537,6 +657,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "jamie-xx|in-colour": {
@@ -554,6 +678,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "disclosure|settle": {
@@ -571,6 +699,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "four-tet|there-is-love-in-you": {
@@ -588,6 +720,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "burial|untrue": {
@@ -605,6 +741,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -624,6 +764,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "neu|neu-2": {
@@ -641,6 +785,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "can|ege-bamyasi": {
@@ -658,6 +806,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "tangerine-dream|phaedra": {
@@ -675,6 +827,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "suicide|suicide": {
@@ -692,6 +848,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -711,6 +871,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "aphex-twin|selected-ambient-works-85-92": {
@@ -728,6 +892,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "tim-hecker|ravedeath-1972": {
@@ -745,6 +913,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "stars-of-the-lid|and-their-refinement-of-the-decline": {
@@ -762,6 +934,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "oneohtrix-point-never|r-plus-seven": {
@@ -779,6 +955,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -798,6 +978,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "arca|kick-i": {
@@ -815,6 +999,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "flying-lotus|cosmogramma": {
@@ -832,6 +1020,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "iglooghost|neo-wax-bloom": {
@@ -849,6 +1041,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "100-gecs|1000-gecs": {
@@ -866,6 +1062,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -885,6 +1085,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "herbie-hancock|head-hunters": {
@@ -902,6 +1106,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "mahavishnu-orchestra|the-inner-mounting-flame": {
@@ -919,6 +1127,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "snarky-puppy|we-like-it-here": {
@@ -936,6 +1148,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "jaco-pastorius|jaco-pastorius": {
@@ -953,6 +1169,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -972,6 +1192,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "miles-davis|in-a-silent-way": {
@@ -989,6 +1213,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "john-coltrane|blue-train": {
@@ -1006,6 +1234,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "cannonball-adderley|somethin-else": {
@@ -1023,6 +1255,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "miles-davis|bitches-brew": {
@@ -1040,6 +1276,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -1059,6 +1299,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "charles-mingus|mingus-ah-um": {
@@ -1076,6 +1320,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "bill-evans|waltz-for-debby": {
@@ -1093,6 +1341,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "alice-coltrane|journey-in-satchidananda": {
@@ -1110,6 +1362,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "kamasi-washington|the-epic": {
@@ -1127,6 +1383,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -1146,6 +1406,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "nick-drake|pink-moon": {
@@ -1163,6 +1427,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "elliott-smith|either-or": {
@@ -1180,6 +1448,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "phoebe-bridgers|punisher": {
@@ -1197,6 +1469,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "lingua-ignota|caligula": {
@@ -1214,6 +1490,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -1233,6 +1513,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "fleet-foxes|helplessness-blues": {
@@ -1250,6 +1534,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "bon-iver|bon-iver": {
@@ -1267,6 +1555,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "the-beatles|abbey-road": {
@@ -1284,6 +1576,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "dirty-projectors|bitte-orca": {
@@ -1301,6 +1597,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -1320,6 +1620,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "sufjan-stevens|carrie-lowell": {
@@ -1337,6 +1641,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "laura-marling|song-for-our-daughter": {
@@ -1354,6 +1662,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "big-thief|u-f-o-f": {
@@ -1371,6 +1683,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "fiona-apple|fetch-the-bolt-cutters": {
@@ -1388,6 +1704,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -1407,6 +1727,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "tool|lateralus": {
@@ -1424,6 +1748,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "mastodon|crack-the-skye": {
@@ -1441,6 +1769,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "sleep-token|take-me-back-to-eden": {
@@ -1458,6 +1790,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "have-a-nice-life|deathconsciousness": {
@@ -1475,6 +1811,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -1494,6 +1834,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "deafheaven|sunbather": {
@@ -1511,6 +1855,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "chelsea-wolfe|abyss": {
@@ -1528,6 +1876,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "boris|flood": {
@@ -1545,6 +1897,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "swans|to-be-kind": {
@@ -1562,6 +1918,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -1581,6 +1941,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "f-x|4-walls": {
@@ -1598,6 +1962,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "shinee|odd": {
@@ -1615,6 +1983,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "artms|dall": {
@@ -1632,6 +2004,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "newjeans|get-up": {
@@ -1649,6 +2025,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -1668,6 +2048,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "balming-tiger|january-never-dies": {
@@ -1685,6 +2069,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "yaeji|with-a-hammer": {
@@ -1702,6 +2090,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "crush|from-midnight-to-sunrise": {
@@ -1719,6 +2111,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "the-loona-lore-deep|dive": {
@@ -1728,6 +2124,10 @@
    "timed": null,
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "pending"
   }
  },
@@ -1747,6 +2147,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "shostakovich|symphony-no-5": {
@@ -1764,6 +2168,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "mahler|symphony-no-5": {
@@ -1781,6 +2189,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "ligeti|atmosph-res-requiem": {
@@ -1798,6 +2210,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "messiaen|quartet-for-the-end-of-time": {
@@ -1815,6 +2231,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -1834,6 +2254,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "ligeti|tudes": {
@@ -1851,6 +2275,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "ravel|gaspard-de-la-nuit": {
@@ -1868,6 +2296,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "chopin|the-ballades": {
@@ -1885,6 +2317,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "rzewski|the-people-united-will-never-be-defeated": {
@@ -1902,6 +2338,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -1921,6 +2361,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "hans-zimmer|dune": {
@@ -1938,6 +2382,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "ludwig-g-ransson|oppenheimer": {
@@ -1955,6 +2403,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "hildur-gu-nad-ttir|chernobyl": {
@@ -1972,6 +2424,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "mica-levi|under-the-skin": {
@@ -1989,6 +2445,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  },
@@ -2008,6 +2468,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "max-richter|sleep": {
@@ -2025,6 +2489,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "joe-hisaishi|spirited-away": {
@@ -2042,6 +2510,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "sakamoto|merry-christmas-mr-lawrence": {
@@ -2059,6 +2531,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   },
   "oneohtrix-point-never|uncut-gems": {
@@ -2076,6 +2552,10 @@
    },
    "liner": null,
    "liner_source": null,
+   "deliver": {
+    "liner_day_offset": 1,
+    "timed_day_offset": 3
+   },
    "tracklist": "spotify"
   }
  }
