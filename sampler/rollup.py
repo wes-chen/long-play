@@ -2,8 +2,10 @@
 """Weekly rollup of sampler data: album-level listening stats.
 
 Reads the private samples.jsonl, aggregates over the trailing N days, and
-writes a rollup JSON + prints a human summary. Feeds (eventually) the engine's
-user-album interaction matrix and the CTX time-of-day model.
+writes a rollup JSON + prints a human summary. Feeds the engine's
+user-album interaction matrix and the CTX time-of-day model (L5: per-album
+session fit is read from engine/ctx_profiles.json and scored against the
+hour-of-day histogram bucketed into sessions).
 
 Usage:
     python3 rollup.py [days]     # default 7
@@ -15,9 +17,11 @@ from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOG_DIR = os.path.expanduser(
     "~/workspace/goals/album-recommender-music-digest/hidden_files/sampler"
 )
+CTX_JSON = os.path.join(REPO, "engine", "ctx_profiles.json")
 LOG_FILE = os.path.join(LOG_DIR, "samples.jsonl")
 ROLLUP_DIR = os.path.join(LOG_DIR, "rollups")
 WATCHLIST = os.path.join(LOG_DIR, "watchlist.json")
@@ -59,6 +63,71 @@ def load_watchlist():
             return json.load(f)
     except FileNotFoundError:
         return {"tracks": {}, "albums": {}}
+
+
+def load_ctx_profiles():
+    # L5: the session-fit envelope written by bin/ctx_profiles.py. Missing
+    # or malformed -> rollup runs without session fit, never crashes.
+    try:
+        with open(CTX_JSON) as f:
+            env = json.load(f)
+        profiles = {((p["week"], p["slot"], (p.get("artist") or "").lower(),
+                     (p.get("album") or "").lower())): p
+                    for p in env.get("profiles", [])
+                    if p.get("week") is not None and p.get("slot")}
+        return {
+            "sessions": env.get("sessions", {}),
+            "fit_table": env.get("fit_table", {}),
+            "energy_modifiers": env.get("energy_modifiers", {}),
+            "profiles": profiles,
+        }
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {"sessions": {}, "fit_table": {}, "energy_modifiers": {},
+                "profiles": {}}
+
+
+def session_fit_scores(ctx, profile):
+    """Fit score per session for one album profile (0-2, clamped).
+
+    Base from the envelope's fit table [session][duration_tier], plus the
+    energy modifier for that session; medium or untagged energy = no
+    change. Returns None when the profile has no duration tier.
+    """
+    tier = profile.get("duration_tier")
+    if tier is None:
+        return None
+    energy = profile.get("energy") or "medium"
+    table = ctx["fit_table"]
+    mods = ctx["energy_modifiers"].get(energy, {})
+    out = {}
+    for session, tiers in table.items():
+        base = tiers.get(tier)
+        if base is None:
+            continue
+        out[session] = round(min(2.0, max(0.0, base + mods.get(session, 0.0))), 2)
+    return out or None
+
+
+def session_shares(ctx, hours):
+    """Bucket the hour_of_day histogram into sessions; shares sum to 1.
+
+    Hours outside any session (e.g. 11-14, 22-23) are reported under
+    "off_session" and excluded from the shares.
+    """
+    sess_hours = {}
+    for session, hs in ctx.get("sessions", {}).items():
+        for h in hs:
+            sess_hours[h] = session
+    counts = Counter()
+    off = 0
+    for h, c in hours.items():
+        if h in sess_hours:
+            counts[sess_hours[h]] += c
+        else:
+            off += c
+    total = sum(counts.values())
+    shares = {s: round(c / total, 4) for s, c in counts.items()} if total else {}
+    return shares, off
 
 
 def is_track(r):
@@ -104,7 +173,7 @@ def main():
         if wh:
             album_key = f"{wh['album']} — {wh['artist']}"
             a = albums[album_key]
-            a.update({"name": wh["album"], "artist": wh["artist"],
+            a.update({"name": wh["album"], "artist": wh.get("artist"),
                       "week": wh["week"], "slot": wh["slot"]})
             watch_hits.append({
                 "ts": r["ts"], "track": r.get("track"),
@@ -151,6 +220,24 @@ def main():
             "max_progress_pct": round(album_max, 1),
         })
 
+    # L5: session fit per watched album, from engine/ctx_profiles.json.
+    # CTX(album) = sum_session session_share * fit(session, profile), the
+    # engine's mild re-rank term; null when the profile has no duration.
+    ctx = load_ctx_profiles()
+    shares, off_session = session_shares(ctx, hours)
+    for row in album_rows:
+        prof = (ctx["profiles"].get(
+            (row["week"], row["slot"], (row.get("artist") or "").lower(),
+             (row["album"] or "").lower()))
+            if row["week"] else None)
+        fits = session_fit_scores(ctx, prof) if prof else None
+        row["session_fit"] = fits
+        row["ctx_score"] = (round(sum(shares.get(s, 0) * f for s, f in fits.items()), 3)
+                            if fits and shares else None)
+        if prof:
+            row["duration_tier"] = prof.get("duration_tier")
+            row["energy"] = prof.get("energy")
+
     rollup = {
         "window_days": days,
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -168,6 +255,9 @@ def main():
         ],
         "albums": album_rows,
         "hour_of_day_pt": dict(sorted(hours.items())),
+        "session_shares": shares,  # L5: hour histogram bucketed to sessions
+        "n_off_session_samples": off_session,  # hours outside any session
+        "ctx_consumed": bool(ctx["profiles"]),  # L5: engine/ctx_profiles.json read
         "watch_hits": watch_hits,
         "n_watch_hits": len(watch_hits),
     }
@@ -193,6 +283,19 @@ def main():
     if hours:
         top_hours = sorted(hours.items(), key=lambda kv: -kv[1])[:5]
         print("peak hours (PT): " + ", ".join(f"{h}:00 ({c})" for h, c in top_hours))
+    # L5: session <-> album match section — best session per watched album
+    # per the spec's matching rule; null profile -> no row, not a guess.
+    fitted = [a for a in album_rows if a.get("session_fit")]
+    if fitted:
+        print("session fit (morning / afternoon / evening, 0-2):")
+        for a in fitted:
+            f = a["session_fit"]
+            best = max(f, key=f.get)
+            meta = f"tier={a.get('duration_tier')}, energy={a.get('energy') or 'untagged'}"
+            ctx_s = f", ctx={a['ctx_score']}" if a["ctx_score"] is not None else ""
+            print(f"  {a['album']} [{a['slot']}]: best {best} ({meta}){ctx_s}")
+    elif ctx["profiles"]:
+        print("session fit: no watched-album hits this window")
     if malformed:
         print(f"skipped {malformed} malformed sample lines")
     if n_excluded:
