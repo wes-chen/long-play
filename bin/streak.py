@@ -10,8 +10,8 @@ Full-listen week: all 5 albums have a logged chat reaction AND at least 3
 are played or loved. Data: the listening log (ground truth).
 
 Kill switch: after a celebration, the next week's log is checked. If no
-feedback was logged for the celebrated week (he's not engaging — streak
-talk is noise), the celebration counts as ignored. Two consecutive ignored
+feedback was logged for any week after the celebrated one, the
+celebration counts as ignored. Two consecutive ignored
 celebrations -> reminders DISABLE themselves permanently in the state file;
 the cron body exits silently while disabled. Wesley re-enables by saying
 so (the parent agent flips "enabled" back to true).
@@ -113,15 +113,18 @@ def check():
 def ack_ignored():
     """Kill-switch evaluation: run the week after a celebration.
 
-    If the celebrated week has no logged reactions, the celebration was
-    ignored. Two in a row -> disable permanently.
+    Engagement means feedback was logged for a week after the celebrated
+    one. The celebrated week itself always has reactions (it closed the
+    streak), so checking it would make this evaluation a no-op: the
+    ignored counter could never increment and the switch could never trip.
+    Two consecutive ignored celebrations -> disable permanently.
     """
     st = load_state()
     if not st.get("celebrated_week"):
         print(json.dumps({"ignored": st["ignored"], "note": "nothing celebrated"}))
         return
     weeks = week_reactions()
-    engaged = bool(weeks.get(st["celebrated_week"]))
+    engaged = any(w > st["celebrated_week"] for w in weeks)
     if engaged:
         st["ignored"] = 0
         msg = "engaged — counter reset"
