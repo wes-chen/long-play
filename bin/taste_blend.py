@@ -17,6 +17,14 @@ the draft says so plainly.
 Overlap: shared artists between his recent listening and the source feed
 hidden_files/taste-blend-overlap.json, which the M2 taste vector reads as
 a weak artist-affinity signal.
+
+Shared schema (producer here, consumer bin/taste_vector.py::blend_affinity):
+  {"ts": "<utc iso>", "artists": ["<lowercased artist>", ...],
+   "note": "weak artist-affinity signal for the M2 taste vector"}
+The taste vector weights each overlap artist 0.05x. Missing or
+unreadable overlap degrades gracefully (empty affinity, noted) — a draft
+never requires it. Verified 2026-09-26: writer and reader use the same
+schema and path; no publishing happens (draft-only).
 """
 import glob
 import json
