@@ -1,95 +1,1893 @@
 {
+ "version": 2,
+ "source": "seed compiled 2026-09-26 via web research; L6 rubric (reference/cult-rubric.md)",
+ "scoring_note": "cult_score_0_1 = round(0.4*canon + 0.35*min(1, log10(1+list_count)/2) + 0.25*reception, 2). canon: 1.0 major canon / 0.5 artist- or genre-canonical / 0 else. Every entry calibration:'unvalidated' — do not treat as calibrated ground truth.",
  "albums": [
   {
+   "week": 1,
+   "slot": "anchor",
+   "artist": "Pink Floyd",
    "album": "The Dark Side of the Moon",
-   "artist": "Pink Floyd",
-   "canon_33third": false,
-   "canon_33third_note": "John Harris's 2005 book on the album is a Fourth Estate volume, not a 33\u2153 book \u2014 no 33\u2153 membership found",
-   "cult_score_0_1": 1.0,
+   "cult_score_0_1": 0.77,
+   "canon": 1.0,
+   "list_count": 5,
    "evidence": [
-    "BestEverAlbums overall rank #2; 1970s rank #1; 1973 rank #1",
-    "Louder 'best rock album ever' fan poll #1 (2022)",
-    "Classic Rock readers' all-time greatest album #1",
-    "Album of the Year: 1973 user score #1; all-time user score #19",
-    "Record ~996 nonconsecutive weeks on Billboard 200 (all-time record)",
-    "45M+ copies sold"
+    "Rolling Stone 500 (2020 edition) ranked #55",
+    "Prog Magazine (UK) Top 100 Prog Albums of All Time: #4",
+    "Rolling Stone 50 Greatest Prog Rock Albums of All Time (2015): #2",
+    "Pitchfork's best progressive rock albums of all time (AOTY mirror): #4, aggregated score 93/100",
+    "uDiscover Music 50 Greatest Prog Rock Albums of All Time (2021): #30"
    ],
-   "rym_rating": null,
-   "rym_ratings_count": null,
-   "year": 1973,
+   "confidence": "high",
    "calibration": "unvalidated"
   },
   {
+   "week": 1,
+   "slot": "adventurous",
+   "artist": "Pink Floyd",
    "album": "Animals",
-   "artist": "Pink Floyd",
-   "canon_33third": false,
-   "canon_33third_note": "no 33\u2153 volume found",
-   "cult_score_0_1": 0.7,
+   "cult_score_0_1": 0.5,
+   "canon": 0.5,
+   "list_count": 1,
    "evidence": [
-    "BestEverAlbums average 88/100 from 2,821 votes",
-    "Orwell's Animal Farm concept; widely cited as the band's angriest record",
-    "Reappraised upward since the 2010s (punk-era hostility faded)"
+    "Pitchfork's best progressive rock albums of all time (AOTY mirror): #2, aggregated score 100/100",
+    "Strong genre-canon presence: routinely ranked alongside the genre's defining prog records; no 33 1/3 volume, RS 500 (2020), Grammy HOF, or NRR membership found",
+    "Pitchfork score-based aggregated critical score normalized to 1.0"
    ],
-   "rolling_stone_500": null,
-   "rym_rating": null,
-   "rym_ratings_count": null,
-   "year": 1977,
+   "confidence": "medium",
    "calibration": "unvalidated"
   },
   {
-   "album": "A Light for Attracting Attention",
+   "week": 1,
+   "slot": "adventurous",
    "artist": "The Smile",
-   "canon_33third": false,
-   "cult_score_0_1": 0.55,
+   "album": "A Light for Attracting Attention",
+   "cult_score_0_1": 0.38,
+   "canon": 0.0,
+   "list_count": 8,
    "evidence": [
-    "Metacritic: 24 critic reviews, 0 mixed/negative",
-    "Pitchfork 8.6 ('best album yet by a Radiohead side project')",
-    "AnyDecentMusic 8.3 aggregate",
-    "Irish Times 10/10 ('best album of 2022 so far')",
-    "BestEverAlbums: top 2% of all albums, Bayesian avg 79.5/100"
+    "Pitchfork 50 Best Albums of 2022: #21 (Pitchfork review 8.6/10, Best New Music)",
+    "Rolling Stone 100 Best Albums of 2022; Consequence Top 50 Albums of 2022 #27; BrooklynVegan Top 50 #28; Paste 50 Best Albums of 2022 #29",
+    "Uncut named it the best album of 2022; Rough Trade ranked it #1 (US) and #2 (UK) of 2022",
+    "Metacritic aggregate 86/100 (24 critics, 'universal acclaim'); AnyDecentMusic aggregate 8.3/10"
    ],
-   "rym_rating": null,
-   "rym_ratings_count": null,
-   "year": 2022,
-   "year_end_lists_2022": "unverified \u2014 placements not confirmed via search",
+   "confidence": "high",
    "calibration": "unvalidated"
   },
   {
-   "album": "Beautiful Rewind",
+   "week": 1,
+   "slot": "adventurous",
    "artist": "Four Tet",
-   "canon_33third": false,
-   "cult_score_0_1": 0.35,
+   "album": "Beautiful Rewind",
+   "cult_score_0_1": 0.12,
+   "canon": 0.0,
+   "list_count": 0,
    "evidence": [
-    "Metacritic: 18 positive of 19 reviews (1 mixed)",
-    "SPIN 8/10",
-    "Self-released pirate-radio/jungle turn; noted as his most abstract record",
-    "Acclaimed Music: below all-time top 3000 ('bubbling under')"
+    "No verified notable year-end or all-time list appearances found; no major-canon membership",
+    "Critical reception data not verified from a source in this pass; using neutral 0.5 with low confidence",
+    "Album exists as Four Tet's 2013 full-length (Rowlands alias set) and is the week's least-covered entry alongside the jazz fusion picks"
    ],
-   "rym_rating": null,
-   "rym_ratings_count": null,
-   "year": 2013,
-   "year_end_lists_2013": "none found",
+   "confidence": "low",
    "calibration": "unvalidated"
   },
   {
-   "album": "Tago Mago",
+   "week": 1,
+   "slot": "wild_card",
    "artist": "Can",
-   "canon_33third": true,
-   "canon_33third_note": "Alan Warner, 'Can's Tago Mago', Bloomsbury 33\u2153 series",
-   "cult_score_0_1": 0.95,
+   "album": "Tago Mago",
+   "cult_score_0_1": 0.71,
+   "canon": 1.0,
+   "list_count": 3,
    "evidence": [
-    "33\u2153 volume (Alan Warner, Bloomsbury)",
-    "BestEverAlbums: overall rank #151; top 1%; Bayesian avg 83.3/100",
-    "Album of the Year: 1971 critic #9; user #16; all-time #459",
-    "Defining krautrock document; cited influence on post-rock, Radiohead, the Flaming Lips, Swans"
+    "33 1/3 book volume dedicated to the album (Wikipedia 33 1/3 list)",
+    "Far Out Magazine's ten best krautrock albums of all time: #1",
+    "Included in Julian Cope's Krautrock Top 50 and Discogs' essential krautrock albums coverage",
+    "Genre-defining double album of the krautrock canon; reception normalized at 0.80 (medium confidence)"
    ],
-   "rym_rating": null,
-   "rym_ratings_count": null,
-   "year": 1971,
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 2,
+   "slot": "anchor",
+   "artist": "Radiohead",
+   "album": "OK Computer",
+   "cult_score_0_1": 0.7,
+   "canon": 1.0,
+   "list_count": 1,
+   "evidence": [
+    "Rolling Stone 500 (2020 edition) ranked #42",
+    "33 1/3 book volume dedicated to the album (Wikipedia 33 1/3 list)",
+    "Pitchfork perfect score database: 10/10",
+    "Rolling Stone 500 placement is the one verified notable list appearance counted here"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 2,
+   "slot": "adventurous",
+   "artist": "The Beatles",
+   "album": "Abbey Road",
+   "cult_score_0_1": 0.7,
+   "canon": 1.0,
+   "list_count": 1,
+   "evidence": [
+    "Rolling Stone 500 (2020 edition) ranked #5",
+    "Grammy Hall of Fame inductee, 1995 (Wikipedia Grammy HOF A-D list)",
+    "Standard reference rating: AllMusic 5/5 (medium confidence; not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 2,
+   "slot": "adventurous",
+   "artist": "Kendrick Lamar",
+   "album": "To Pimp a Butterfly",
+   "cult_score_0_1": 0.72,
+   "canon": 1.0,
+   "list_count": 2,
+   "evidence": [
+    "Rolling Stone 500 (2020 edition) ranked #19",
+    "Pitchfork 50 Best Albums of 2015: #1",
+    "Pitchfork's 200 Best Albums of the 2010s: #4",
+    "Album of the Year aggregate 95/100 from 47 critic reviews"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 2,
+   "slot": "adventurous",
+   "artist": "SZA",
+   "album": "SOS",
+   "cult_score_0_1": 0.33,
+   "canon": 0.0,
+   "list_count": 4,
+   "evidence": [
+    "Pitchfork #1 album of 2023 (50 Best Albums of 2023)",
+    "Rolling Stone #1 album of 2023; TIME #3 album of 2023 (AOTY critic-lists page)",
+    "Pitchfork 100 Best Albums of the 2020s so far: #4",
+    "Pitchfork review score 8.5/10"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 2,
+   "slot": "wild_card",
+   "artist": "Swans",
+   "album": "To Be Kind",
+   "cult_score_0_1": 0.47,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Artist-canonical: the defining statement of Swans' 2010s reunion era",
+    "Pitchfork 50 Best Albums of 2014: #6",
+    "Album of the Year aggregate 88/100 from 38 critic reviews",
+    "No major-canon tier membership (33 1/3, RS 500, Grammy HOF, NRR) found"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 3,
+   "slot": "anchor",
+   "artist": "King Crimson",
+   "album": "In the Court of the Crimson King",
+   "cult_score_0_1": 0.57,
+   "canon": 0.5,
+   "list_count": 4,
+   "evidence": [
+    "Rolling Stone 50 Greatest Prog Rock Albums of All Time (2015): #1",
+    "Prog Magazine (UK) Top 100 Prog Albums of All Time: #2; Louder/Prog readers' poll: #2",
+    "uDiscover Music 50 Greatest Prog Rock Albums (2021): #2",
+    "Standard reference rating: AllMusic 5/5 (medium confidence; not re-verified this pass)",
+    "Strong genre-canon presence (canon=0.5); no major-canon tier membership found"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 3,
+   "slot": "adventurous",
+   "artist": "Pink Floyd",
+   "album": "Animals",
+   "cult_score_0_1": 0.5,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Pitchfork's best progressive rock albums of all time (AOTY mirror): #2, aggregated score 100/100",
+    "Same week-1 scoring duplicated by syllabus design (weeks 1 and 3 both list this album)",
+    "No 33 1/3 volume, RS 500 (2020), Grammy HOF, or NRR membership found"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 3,
+   "slot": "adventurous",
+   "artist": "Yes",
+   "album": "Close to the Edge",
+   "cult_score_0_1": 0.57,
+   "canon": 0.5,
+   "list_count": 6,
+   "evidence": [
+    "Prog Magazine (UK) Top 100 Prog Albums of All Time: #1; Louder readers' poll of 100 greatest prog albums: #1",
+    "uDiscover Music 50 Greatest Prog Rock Albums (2021): #1",
+    "AllMusic's Best Progressive Rock Albums of All Time: #1 (AOTY mirror, score 100/100)",
+    "Rolling Stone 50 Greatest Prog Rock Albums (2015): #4; Pitchfork best prog all-time list: #6 (score 90/100)"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 3,
+   "slot": "adventurous",
+   "artist": "Genesis",
+   "album": "Selling England by the Pound",
+   "cult_score_0_1": 0.57,
+   "canon": 0.5,
+   "list_count": 4,
+   "evidence": [
+    "AllMusic's Best Progressive Rock Albums of All Time: #3 (AOTY mirror, score 100/100)",
+    "Prog Magazine (UK) Top 100 Prog Albums of All Time: #3",
+    "Rolling Stone 50 Greatest Prog Rock Albums (2015): #6; uDiscover Music 50 Greatest Prog (2021): #47",
+    "Standard reference rating: AllMusic 5/5 (medium confidence; not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 3,
+   "slot": "wild_card",
+   "artist": "Van der Graaf Generator",
+   "album": "Pawn Hearts",
+   "cult_score_0_1": 0.48,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "uDiscover Music 50 Greatest Prog Rock Albums (2021): #10",
+    "Strong genre-canon presence as Van der Graaf Generator's defining studio album",
+    "Standard reference rating: AllMusic 4.5/5 (medium confidence; not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 4,
+   "slot": "anchor",
+   "artist": "Radiohead",
+   "album": "Kid A",
+   "cult_score_0_1": 0.7,
+   "canon": 1.0,
+   "list_count": 1,
+   "evidence": [
+    "Rolling Stone 500 (2020 edition) ranked #20",
+    "33 1/3 book volume dedicated to the album (Wikipedia 33 1/3 list)",
+    "Pitchfork perfect score database: 10/10"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 4,
+   "slot": "adventurous",
+   "artist": "Talk Talk",
+   "album": "Laughing Stock",
+   "cult_score_0_1": 0.45,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Pitchfork perfect score database: 10/10",
+    "Strong genre-canon presence: landmark of post-rock; Talk Talk's canonical late work",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 4,
+   "slot": "adventurous",
+   "artist": "Björk",
+   "album": "Homogenic",
+   "cult_score_0_1": 0.45,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Pitchfork perfect score database: 10/10",
+    "Artist-canonical: Björk's defining late-90s statement",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 4,
+   "slot": "adventurous",
+   "artist": "These New Puritans",
+   "album": "Field of Reeds",
+   "cult_score_0_1": 0.12,
+   "canon": 0.0,
+   "list_count": 0,
+   "evidence": [
+    "No verified notable year-end or all-time list appearances found in this pass",
+    "No major-canon or established genre-canon membership found",
+    "Critical reception data not verified from a source in this pass; neutral 0.5, low confidence"
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 4,
+   "slot": "wild_card",
+   "artist": "Black Midi",
+   "album": "Hellfire",
+   "cult_score_0_1": 0.18,
+   "canon": 0.0,
+   "list_count": 1,
+   "evidence": [
+    "BestEverAlbums aggregate accolade: Top albums of 2022, ranked 5th (aggregator of critic lists, 2020s rank 14th, overall 878th)",
+    "No major-canon or established genre-canon membership found for this 2022 release",
+    "Critical reception aggregate not verified from a source in this pass; neutral 0.5, low confidence"
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 5,
+   "slot": "anchor",
+   "artist": "Frank Ocean",
+   "album": "Blonde",
+   "cult_score_0_1": 0.51,
+   "canon": 0.5,
+   "list_count": 2,
+   "evidence": [
+    "Pitchfork 50 Best Albums of 2016: #2",
+    "Pitchfork's 200 Best Albums of the 2010s: #1",
+    "Artist-canonical: Frank Ocean's defining album",
+    "Pitchfork review score 9.0/10 (medium confidence; standard reference score)"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 5,
+   "slot": "adventurous",
+   "artist": "FKA twigs",
+   "album": "MAGDALENE",
+   "cult_score_0_1": 0.43,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Pitchfork's highest-rated albums of 2019 aggregate (AOTY): score 94",
+    "Artist-canonical: FKA twigs' defining album",
+    "No verified notable year-end/all-time list appearances found in this pass"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 5,
+   "slot": "adventurous",
+   "artist": "Solange",
+   "album": "A Seat at the Table",
+   "cult_score_0_1": 0.48,
+   "canon": 0.5,
+   "list_count": 2,
+   "evidence": [
+    "Pitchfork 50 Best Albums of 2016: #1",
+    "Pitchfork's 200 Best Albums of the 2010s: #6",
+    "Artist-canonical: Solange's defining album",
+    "Reception normalized at 0.80 (medium confidence; widely acclaimed, exact aggregate not re-verified)"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 5,
+   "slot": "adventurous",
+   "artist": "Kelela",
+   "album": "Take Me Apart",
+   "cult_score_0_1": 0.33,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Artist-canonical: Kelela's debut and defining statement",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership",
+    "Critical reception aggregate not verified from a source in this pass; neutral 0.5, low confidence"
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 5,
+   "slot": "wild_card",
+   "artist": "Ethel Cain",
+   "album": "Preacher's Daughter",
+   "cult_score_0_1": 0.38,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "BestEverAlbums aggregate accolade: Top albums of 2022, ranked 23rd (aggregator of critic lists)",
+    "Artist-canonical: Ethel Cain's debut; record-stop/Crash Records notes it 'gained a cult following' after May 2022 release",
+    "Last.fm wiki: Pitchfork best new albums (May 2022); Gorilla vs. Bear best of year so far (June 2022) - mid-year, not year-end lists",
+    "Critical reception aggregate not verified from a source in this pass; neutral 0.5, low confidence"
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 6,
+   "slot": "anchor",
+   "artist": "My Bloody Valentine",
+   "album": "Loveless",
+   "cult_score_0_1": 0.7,
+   "canon": 1.0,
+   "list_count": 1,
+   "evidence": [
+    "Rolling Stone 500 (2020 edition) ranked #73",
+    "33 1/3 book volume dedicated to the album (Wikipedia 33 1/3 list)",
+    "Pitchfork perfect score database: 10/10"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 6,
+   "slot": "adventurous",
+   "artist": "Cocteau Twins",
+   "album": "Heaven or Las Vegas",
+   "cult_score_0_1": 0.7,
+   "canon": 1.0,
+   "list_count": 1,
+   "evidence": [
+    "Rolling Stone 500 (2020 edition) ranked #245",
+    "Pitchfork perfect score database: 10/10",
+    "Rolling Stone 500 membership qualifies for major canon tier (canon=1.0) regardless of placement"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 6,
+   "slot": "adventurous",
+   "artist": "Slowdive",
+   "album": "Souvlaki",
+   "cult_score_0_1": 0.33,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Strong genre-canon presence: canonical shoegaze album alongside Loveless",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership",
+    "Critical reception aggregate not verified from a source in this pass; neutral 0.5, low confidence"
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 6,
+   "slot": "adventurous",
+   "artist": "Ride",
+   "album": "Nowhere",
+   "cult_score_0_1": 0.33,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Strong genre-canon presence: canonical shoegaze debut",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership",
+    "Critical reception aggregate not verified from a source in this pass; neutral 0.5, low confidence"
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 6,
+   "slot": "wild_card",
+   "artist": "Have A Nice Life",
+   "album": "Deathconsciousness",
+   "cult_score_0_1": 0.12,
+   "canon": 0.0,
+   "list_count": 0,
+   "evidence": [
+    "No verified notable year-end or all-time list appearances found in this pass",
+    "No major-canon or established genre-canon membership found; underground cult status only, which the rubric does not credit",
+    "Critical reception aggregate not verified from a source in this pass; neutral 0.5, low confidence"
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 7,
+   "slot": "anchor",
+   "artist": "ODESZA",
+   "album": "A Moment Apart",
+   "cult_score_0_1": 0.33,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Artist-canonical: ODESZA's defining album",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership",
+    "Critical reception aggregate not verified from a source in this pass; neutral 0.5, low confidence"
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 7,
+   "slot": "adventurous",
+   "artist": "Jamie xx",
+   "album": "In Colour",
+   "cult_score_0_1": 0.46,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Pitchfork 50 Best Albums of 2015: #2",
+    "Album of the Year aggregate 83/100 from 46 critic reviews",
+    "Artist-canonical: Jamie xx's defining solo album"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 7,
+   "slot": "adventurous",
+   "artist": "Disclosure",
+   "album": "Settle",
+   "cult_score_0_1": 0.45,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Pitchfork's Best Albums of 2010-2014 retrospective: #24",
+    "Artist-canonical: Disclosure's defining debut",
+    "Reception normalized at 0.80 (medium confidence; exact aggregate not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 7,
+   "slot": "adventurous",
+   "artist": "Four Tet",
+   "album": "There Is Love in You",
+   "cult_score_0_1": 0.45,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Pitchfork's Best Albums of 2010-2014 retrospective: #63",
+    "Artist-canonical: Four Tet's defining album",
+    "Reception normalized at 0.80 (medium confidence; exact aggregate not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 7,
+   "slot": "wild_card",
+   "artist": "Burial",
+   "album": "Untrue",
+   "cult_score_0_1": 0.4,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Artist-canonical and dubstep genre landmark; no 33 1/3 book found (search returned vinyl-speed results only)",
+    "No verified notable year-end/all-time list appearances found in this pass",
+    "Reception normalized at 0.80 (medium confidence; exact aggregate not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 8,
+   "slot": "anchor",
+   "artist": "Kraftwerk",
+   "album": "Trans-Europe Express",
+   "cult_score_0_1": 0.73,
+   "canon": 1.0,
+   "list_count": 2,
+   "evidence": [
+    "Rolling Stone 500 (2020 edition) ranked #238",
+    "Included in Discogs' essential krautrock albums coverage and other essential-krautrock lists",
+    "Standard reference rating: AllMusic 5/5 (medium confidence; not re-verified this pass)"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 8,
+   "slot": "adventurous",
+   "artist": "Neu!",
+   "album": "Neu! 2",
+   "cult_score_0_1": 0.48,
+   "canon": 0.5,
+   "list_count": 2,
+   "evidence": [
+    "Included in Julian Cope's Krautrock Top 50",
+    "LiveAbout's top 10 best krautrock albums of all time",
+    "Strong genre-canon presence; reception normalized at 0.80 (medium confidence)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 8,
+   "slot": "adventurous",
+   "artist": "Can",
+   "album": "Ege Bamyasi",
+   "cult_score_0_1": 0.51,
+   "canon": 0.5,
+   "list_count": 2,
+   "evidence": [
+    "Included in Julian Cope's Krautrock Top 50",
+    "Included in Discogs' essential krautrock albums coverage and Far Out krautrock coverage",
+    "Reception normalized at 0.90 (medium confidence; exact aggregate not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 8,
+   "slot": "adventurous",
+   "artist": "Tangerine Dream",
+   "album": "Phaedra",
+   "cult_score_0_1": 0.4,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Artist-canonical: Tangerine Dream's defining album and an electronic-music landmark",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership",
+    "Reception normalized at 0.80 (medium confidence; exact aggregate not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 8,
+   "slot": "wild_card",
+   "artist": "Suicide",
+   "album": "Suicide",
+   "cult_score_0_1": 0.33,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Strong genre-canon presence: no-wave/electronic landmark, the duo's defining album",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership",
+    "Critical reception aggregate not verified from a source in this pass; neutral 0.5, low confidence"
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 9,
+   "slot": "anchor",
+   "artist": "Brian Eno",
+   "album": "Ambient 1: Music for Airports",
+   "cult_score_0_1": 0.45,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Strong genre-canon presence: the album that named and originated ambient music",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership",
+    "Standard reference rating: AllMusic 5/5 (medium confidence; not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 9,
+   "slot": "adventurous",
+   "artist": "Aphex Twin",
+   "album": "Selected Ambient Works 85–92",
+   "cult_score_0_1": 0.4,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Artist-canonical and electronic-music canon staple",
+    "Note: the confirmed 33 1/3 volume is for 'Selected Ambient Works Volume II', NOT this album - no major-canon credit",
+    "Reception normalized at 0.80 (medium confidence; exact aggregate not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 9,
+   "slot": "adventurous",
+   "artist": "Tim Hecker",
+   "album": "Ravedeath, 1972",
+   "cult_score_0_1": 0.42,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Artist-canonical: Tim Hecker's defining album",
+    "Pitchfork review score 8.6/10 (verified on AOTY's Pitchfork ambient page)",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 9,
+   "slot": "adventurous",
+   "artist": "Stars of the Lid",
+   "album": "And Their Refinement of the Decline",
+   "cult_score_0_1": 0.5,
+   "canon": 0.5,
+   "list_count": 2,
+   "evidence": [
+    "Pitchfork 50 Best Ambient Albums of All Time (2016): #18",
+    "Somewhere Cold 2007 awards Hall of Fame: #5",
+    "Metacritic aggregate 87/100; Pitchfork review 8.6/10; Tiny Mix Tapes 5/5 (Wikipedia)",
+    "Artist-canonical: Stars of the Lid's defining double album"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 9,
+   "slot": "wild_card",
+   "artist": "Oneohtrix Point Never",
+   "album": "R Plus Seven",
+   "cult_score_0_1": 0.12,
+   "canon": 0.0,
+   "list_count": 0,
+   "evidence": [
+    "No verified notable year-end or all-time list appearances found in this pass",
+    "No major-canon or established artist/genre-canon membership established (OPN's canonical works are usually cited as Replica/Garden of Delete)",
+    "Critical reception aggregate not verified from a source in this pass; neutral 0.5, low confidence"
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 10,
+   "slot": "anchor",
+   "artist": "SOPHIE",
+   "album": "Oil of Every Pearl's Un-Insides",
+   "cult_score_0_1": 0.58,
+   "canon": 0.5,
+   "list_count": 9,
+   "evidence": [
+    "Pitchfork 50 Best Albums of 2018: #18",
+    "2018 year-end lists: Crack #1, Dazed #3, The Guardian #11, NME #23, The Quietus #28",
+    "Decade lists: Tiny Mix Tapes #4, Crack #6, Pitchfork #74 (2010s)",
+    "AnyDecentMusic aggregate 8.2/10; artist-canonical: SOPHIE's only studio album"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 10,
+   "slot": "adventurous",
+   "artist": "Arca",
+   "album": "Kick I",
+   "cult_score_0_1": 0.45,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Pitchfork 50 Best Albums of 2020: #41",
+    "Artist-canonical: Arca's breakthrough full-length statement",
+    "Reception normalized at 0.80 (medium confidence; reviews returned scores in the 80-90 range)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 10,
+   "slot": "adventurous",
+   "artist": "Flying Lotus",
+   "album": "Cosmogramma",
+   "cult_score_0_1": 0.45,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Pitchfork's Best Albums of 2010-2014 retrospective: #19",
+    "Artist-canonical: Flying Lotus' defining album",
+    "Reception normalized at 0.80 (medium confidence; exact aggregate not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 10,
+   "slot": "adventurous",
+   "artist": "Iglooghost",
+   "album": "Neo Wax Bloom",
+   "cult_score_0_1": 0.12,
+   "canon": 0.0,
+   "list_count": 0,
+   "evidence": [
+    "No verified notable year-end or all-time list appearances found in this pass",
+    "No major-canon or established genre-canon membership found",
+    "Critical reception aggregate not verified from a source in this pass; neutral 0.5, low confidence"
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 10,
+   "slot": "wild_card",
+   "artist": "100 gecs",
+   "album": "1000 gecs",
+   "cult_score_0_1": 0.56,
+   "canon": 0.5,
+   "list_count": 9,
+   "evidence": [
+    "Pitchfork 50 Best Albums of 2019: #42; Rolling Stone 50 Best Albums of 2019: #19",
+    "2019 year-end lists: Noisey (Vice) #1, NYT Jon Caramanica #1, NYT Jon Pareles #10, Paper #6, Stereogum #27, Crack #25, PopMatters #50",
+    "Wikipedia: 'considered the first mainstream hyperpop album, being responsible for the genre's popularity' - genre-canon presence",
+    "Pitchfork review score 7.4/10 ('one of the year's most fascinating, exhilarating experimental pop albums')"
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 11,
+   "slot": "anchor",
+   "artist": "Weather Report",
+   "album": "Heavy Weather",
+   "cult_score_0_1": 0.43,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Artist-canonical: Weather Report's defining album",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership",
+    "Standard reference rating: AllMusic 4.5/5 (medium confidence; not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 11,
+   "slot": "adventurous",
+   "artist": "Herbie Hancock",
+   "album": "Head Hunters",
+   "cult_score_0_1": 0.7,
+   "canon": 1.0,
+   "list_count": 1,
+   "evidence": [
+    "Rolling Stone 500 (2020 edition) ranked #254",
+    "Standard reference rating: AllMusic 5/5 (medium confidence; not re-verified this pass)",
+    "Artist-canonical as well, but major canon tier applies via Rolling Stone 500"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 11,
+   "slot": "adventurous",
+   "artist": "Mahavishnu Orchestra",
+   "album": "The Inner Mounting Flame",
+   "cult_score_0_1": 0.43,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Artist-canonical: Mahavishnu Orchestra's defining debut; jazz-fusion canon",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership",
+    "Standard reference rating: AllMusic 4.5/5 (medium confidence; not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 11,
+   "slot": "adventurous",
+   "artist": "Snarky Puppy",
+   "album": "We Like It Here",
+   "cult_score_0_1": 0.12,
+   "canon": 0.0,
+   "list_count": 0,
+   "evidence": [
+    "No verified notable year-end or all-time list appearances found in this pass",
+    "No major-canon or established genre-canon membership found",
+    "Critical reception aggregate not verified from a source in this pass; neutral 0.5, low confidence"
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 11,
+   "slot": "wild_card",
+   "artist": "Jaco Pastorius",
+   "album": "Jaco Pastorius",
+   "cult_score_0_1": 0.43,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Artist-canonical: the defining solo statement of jazz-fusion's most influential bassist",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership",
+    "Standard reference rating: AllMusic 4.5/5 (medium confidence; not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 12,
+   "slot": "anchor",
+   "artist": "Miles Davis",
+   "album": "Kind of Blue",
+   "cult_score_0_1": 0.7,
+   "canon": 1.0,
+   "list_count": 1,
+   "evidence": [
+    "Rolling Stone 500 (2020 edition) ranked #31",
+    "National Recording Registry selection, 2002 (Library of Congress)",
+    "Standard reference rating: AllMusic 5/5 (medium confidence; not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 12,
+   "slot": "adventurous",
+   "artist": "Miles Davis",
+   "album": "In a Silent Way",
+   "cult_score_0_1": 0.45,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Artist-canonical: the album that launched jazz fusion",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership",
+    "Standard reference rating: AllMusic 5/5 (medium confidence; not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 12,
+   "slot": "adventurous",
+   "artist": "John Coltrane",
+   "album": "Blue Train",
+   "cult_score_0_1": 0.45,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Artist-canonical: Coltrane's defining hard-bop statement",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership",
+    "Standard reference rating: AllMusic 5/5 (medium confidence; not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 12,
+   "slot": "adventurous",
+   "artist": "Cannonball Adderley",
+   "album": "Somethin' Else",
+   "cult_score_0_1": 0.45,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Artist-canonical: Cannonball Adderley's defining album",
+    "No verified notable year-end/all-time list appearances found in this pass; no major-canon tier membership",
+    "Standard reference rating: AllMusic 5/5 (medium confidence; not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 12,
+   "slot": "wild_card",
+   "artist": "Miles Davis",
+   "album": "Bitches Brew",
+   "cult_score_0_1": 0.7,
+   "canon": 1.0,
+   "list_count": 1,
+   "evidence": [
+    "National Recording Registry selection, 2025 (jambands.com report on Library of Congress inductions)",
+    "Rolling Stone's older 500 list: #94 (pre-2020 edition; distinguished from the 2020 edition)",
+    "Standard reference rating: AllMusic 5/5 (medium confidence; not re-verified this pass)"
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 13,
+   "slot": "anchor",
+   "artist": "John Coltrane",
+   "album": "A Love Supreme",
+   "cult_score_0_1": 0.72,
+   "canon": 1.0,
+   "list_count": 2,
+   "evidence": [
+    "Rolling Stone 500 Greatest Albums (2020 revision): ranked #47.",
+    "Library of Congress National Recording Registry: selected for preservation in 2016.",
+    "Acclaimed Music all-time aggregate: top-tier placement (#61 all-time)."
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 13,
+   "slot": "adventurous",
+   "artist": "Charles Mingus",
+   "album": "Mingus Ah Um",
+   "cult_score_0_1": 0.48,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Routinely anthologized as Mingus's signature 1959 statement; a hard-bop canon fixture in jazz reference histories.",
+    "Contains signature compositions 'Goodbye Pork Pie Hat' and 'Fables of Faubus'."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 13,
+   "slot": "adventurous",
+   "artist": "Bill Evans",
+   "album": "Waltz for Debby",
+   "cult_score_0_1": 0.48,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Cited as the definitive document of the Bill Evans Trio's Village Vanguard residency; a piano-trio canon cornerstone.",
+    "Contains definitive readings of 'My Foolish Heart' and 'Waltz for Debby'."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 13,
+   "slot": "adventurous",
+   "artist": "Alice Coltrane",
+   "album": "Journey in Satchidananda",
+   "cult_score_0_1": 0.67,
+   "canon": 1.0,
+   "list_count": 1,
+   "evidence": [
+    "Rolling Stone 500 Greatest Albums (2020 revision): ranked #446.",
+    "Widely cited as a spiritual-jazz landmark and Alice Coltrane's canonical statement."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 13,
+   "slot": "wild_card",
+   "artist": "Kamasi Washington",
+   "album": "The Epic",
+   "cult_score_0_1": 0.65,
+   "canon": 0.5,
+   "list_count": 22,
+   "evidence": [
+    "Appeared on 22 critics' 2015 year-end best-album lists (YearEndLists aggregate).",
+    "Widely described as Washington's breakout triple-disc orchestral-jazz statement."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 14,
+   "slot": "anchor",
+   "artist": "Jeff Buckley",
+   "album": "Grace",
+   "cult_score_0_1": 0.72,
+   "canon": 1.0,
+   "list_count": 2,
+   "evidence": [
+    "Rolling Stone 500 Greatest Albums: longstanding top-tier placement.",
+    "Routinely cited as the definitive 1990s singer-songwriter canon album."
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 14,
+   "slot": "adventurous",
+   "artist": "Nick Drake",
+   "album": "Pink Moon",
+   "cult_score_0_1": 0.72,
+   "canon": 1.0,
+   "list_count": 2,
+   "evidence": [
+    "Rolling Stone 500 Greatest Albums: ranked placement.",
+    "Posthumous canonical-reappraisal fixture of the singer-songwriter tradition."
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 14,
+   "slot": "adventurous",
+   "artist": "Elliott Smith",
+   "album": "Either/Or",
+   "cult_score_0_1": 0.57,
+   "canon": 0.5,
+   "list_count": 6,
+   "evidence": [
+    "Pitchfork's 100 greatest albums of the 1990s: #59.",
+    "Spin's best albums 1987-2012: #48; Blender's 100 greatest indie-rock albums: #36.",
+    "NME 500 Greatest Albums: #149; Consequence of Sound's best albums ever: #97; Pazz & Jop 1997: #20."
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 14,
+   "slot": "adventurous",
+   "artist": "Phoebe Bridgers",
+   "album": "Punisher",
+   "cult_score_0_1": 0.55,
+   "canon": 0.5,
+   "list_count": 4,
+   "evidence": [
+    "One of the most year-end-listed albums of 2020 across major music publications.",
+    "Widely described as a defining indie singer-songwriter statement of 2020."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 14,
+   "slot": "wild_card",
+   "artist": "Lingua Ignota",
+   "album": "CALIGULA",
+   "cult_score_0_1": 0.59,
+   "canon": 0.5,
+   "list_count": 9,
+   "evidence": [
+    "Appeared on roughly nine critics' 2019 year-end best-album lists.",
+    "Cited as a landmark extreme-metal/avant-garde statement."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 15,
+   "slot": "anchor",
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds",
+   "cult_score_0_1": 0.76,
+   "canon": 1.0,
+   "list_count": 3,
+   "evidence": [
+    "Rolling Stone 500 Greatest Albums (2020 revision): ranked #2.",
+    "Library of Congress National Recording Registry selection; Grammy Hall of Fame inductee.",
+    "Acclaimed Music all-time aggregate: top-tier placement."
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 15,
+   "slot": "adventurous",
+   "artist": "Fleet Foxes",
+   "album": "Helplessness Blues",
+   "cult_score_0_1": 0.53,
+   "canon": 0.5,
+   "list_count": 4,
+   "evidence": [
+    "Rolling Stone's 50 Best Albums of 2011: #4.",
+    "Entertainment Weekly's Top 10 Albums of 2011: #2; Spin's Top 40 of 2011: #33; Uncut's 50 Best Albums of 2011: #12."
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 15,
+   "slot": "adventurous",
+   "artist": "Bon Iver",
+   "album": "Bon Iver",
+   "cult_score_0_1": 0.74,
+   "canon": 0.5,
+   "list_count": 63,
+   "evidence": [
+    "Appeared on 63 critics' 2011 year-end best-album lists (aggregate count).",
+    "Won the Grammy for Album of the Year (2012 ceremony); award noted separately from list count."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 15,
+   "slot": "adventurous",
+   "artist": "The Beatles",
+   "album": "Abbey Road",
+   "cult_score_0_1": 0.74,
+   "canon": 1.0,
+   "list_count": 3,
+   "evidence": [
+    "Rolling Stone 500 Greatest Albums (2020 revision): ranked #5.",
+    "NME 500 Greatest Albums of All Time: #34; Uncut's 500 Greatest Albums of the 1960s: top-10 placement.",
+    "Acclaimed Music all-time aggregate: top-tier placement."
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 15,
+   "slot": "wild_card",
+   "artist": "Dirty Projectors",
+   "album": "Bitte Orca",
+   "cult_score_0_1": 0.54,
+   "canon": 0.5,
+   "list_count": 5,
+   "evidence": [
+    "Appeared on roughly five critics' 2009 year-end best-album lists.",
+    "Cited as Dirty Projectors' canonical art-pop statement."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 16,
+   "slot": "anchor",
+   "artist": "Joni Mitchell",
+   "album": "Blue",
+   "cult_score_0_1": 0.76,
+   "canon": 1.0,
+   "list_count": 3,
+   "evidence": [
+    "Rolling Stone 500 Greatest Albums (2020 revision): ranked #3.",
+    "Library of Congress National Recording Registry selection.",
+    "Widely treated as the canonical confessional singer-songwriter album."
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 16,
+   "slot": "adventurous",
+   "artist": "Sufjan Stevens",
+   "album": "Carrie & Lowell",
+   "cult_score_0_1": 0.63,
+   "canon": 0.5,
+   "list_count": 11,
+   "evidence": [
+    "Appeared on at least 11 critics' 2015 year-end best-album lists.",
+    "Widely cited as Sufjan Stevens's canonical mid-career statement."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 16,
+   "slot": "adventurous",
+   "artist": "Laura Marling",
+   "album": "Song for Our Daughter",
+   "cult_score_0_1": 0.5,
+   "canon": 0.5,
+   "list_count": 2,
+   "evidence": [
+    "Shortlisted for the 2020 Mercury Prize; nominated for the Grammy for Best Folk Album.",
+    "Theartsdesk included it among its Albums of the Year 2020.",
+    "Reached #6 on the UK Albums Chart on its April 2020 release."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 16,
+   "slot": "adventurous",
+   "artist": "Big Thief",
+   "album": "U.F.O.F",
+   "cult_score_0_1": 0.56,
+   "canon": 0.5,
+   "list_count": 5,
+   "evidence": [
+    "Appeared on roughly five critics' 2019 year-end best-album lists.",
+    "Widely cited as Big Thief's canonical statement and a 2019 folk-rock landmark."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 16,
+   "slot": "wild_card",
+   "artist": "Fiona Apple",
+   "album": "Fetch the Bolt Cutters",
+   "cult_score_0_1": 0.63,
+   "canon": 0.5,
+   "list_count": 10,
+   "evidence": [
+    "Appeared on ten major publications' 2020 best-album lists.",
+    "Metacritic score 98/100, among the highest in the site's history."
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 17,
+   "slot": "anchor",
+   "artist": "Deftones",
+   "album": "White Pony",
+   "cult_score_0_1": 0.48,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Rolling Stone's best albums of the 21st century (so far): #107.",
+    "BestEverAlbums aggregate: #431 all-time and Deftones' highest-ranked album.",
+    "'Elite' won the 2001 Grammy for Best Metal Performance."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 17,
+   "slot": "adventurous",
+   "artist": "Tool",
+   "album": "Lateralus",
+   "cult_score_0_1": 0.51,
+   "canon": 0.5,
+   "list_count": 2,
+   "evidence": [
+    "Acclaimed Music all-time aggregate: #1,448; BestEverAlbums: #175 all-time.",
+    "Widely cited as Tool's canonical prog-metal statement."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 17,
+   "slot": "adventurous",
+   "artist": "Mastodon",
+   "album": "Crack the Skye",
+   "cult_score_0_1": 0.55,
+   "canon": 0.5,
+   "list_count": 6,
+   "evidence": [
+    "Appeared on at least six publications' 2009 year-end best-album lists.",
+    "Metacritic 82/100, denoting universal acclaim."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 17,
+   "slot": "adventurous",
+   "artist": "Sleep Token",
+   "album": "Take Me Back to Eden",
+   "cult_score_0_1": 0.17,
+   "canon": 0.0,
+   "list_count": 0,
+   "evidence": [
+    "Sleep Token's 2023 breakthrough full-length; thin formal critics'-list footprint.",
+    "Artist-canonical within Sleep Token's catalogue; strong genre presence in 2020s alt-metal."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 17,
+   "slot": "wild_card",
+   "artist": "Have A Nice Life",
+   "album": "Deathconsciousness",
+   "cult_score_0_1": 0.44,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Widely cited as the definitive cult doomgaze statement of Have A Nice Life.",
+    "Documented cult-canon presence across underground-metal reference coverage."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 18,
+   "slot": "anchor",
+   "artist": "Alcest",
+   "album": "Écailles de Lune",
+   "cult_score_0_1": 0.45,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Widely cited as a blackgaze landmark and Alcest's canonical statement.",
+    "Strong genre-canon presence in 2010s post-black-metal coverage."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 18,
+   "slot": "adventurous",
+   "artist": "Deafheaven",
+   "album": "Sunbather",
+   "cult_score_0_1": 0.59,
+   "canon": 0.5,
+   "list_count": 8,
+   "evidence": [
+    "Appeared on at least eight publications' 2013 year-end best-album lists.",
+    "Widely cited as Deafheaven's canonical statement and the blackgaze breakthrough."
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 18,
+   "slot": "adventurous",
+   "artist": "Chelsea Wolfe",
+   "album": "Abyss",
+   "cult_score_0_1": 0.32,
+   "canon": 0.0,
+   "list_count": 3,
+   "evidence": [
+    "Appeared on three critics' 2015 year-end lists (conservative count).",
+    "Cited as Chelsea Wolfe's canonical heavy statement within doom-folk/metal coverage."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 18,
+   "slot": "adventurous",
+   "artist": "Boris",
+   "album": "Flood",
+   "cult_score_0_1": 0.4,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Widely cited as Boris's canonical drone statement and a landmark of the band's discography.",
+    "Publication-list footprint is thin; canon value rests on genre-canon presence."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 18,
+   "slot": "wild_card",
+   "artist": "Swans",
+   "album": "To Be Kind",
+   "cult_score_0_1": 0.51,
+   "canon": 0.5,
+   "list_count": 2,
+   "evidence": [
+    "Acclaimed Music all-time aggregate: #1,004; ranked #11 of 2014.",
+    "BestEverAlbums aggregate: #270 all-time."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 19,
+   "slot": "anchor",
+   "artist": "Red Velvet",
+   "album": "Perfect Velvet",
+   "cult_score_0_1": 0.56,
+   "canon": 0.5,
+   "list_count": 6,
+   "evidence": [
+    "Appeared on at least six critics' 2017 year-end best-album lists (defensible count).",
+    "Cited as Red Velvet's canonical 'velvet' statement and a K-pop canon fixture."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 19,
+   "slot": "adventurous",
+   "artist": "f(x)",
+   "album": "4 Walls",
+   "cult_score_0_1": 0.48,
+   "canon": 0.5,
+   "list_count": 2,
+   "evidence": [
+    "Appeared on one to two critics' 2015 year-end lists; nominated at the Korean Music Awards.",
+    "Cited as f(x)'s canonical electropop statement."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 19,
+   "slot": "adventurous",
+   "artist": "SHINee",
+   "album": "Odd",
+   "cult_score_0_1": 0.19,
+   "canon": 0.0,
+   "list_count": 0,
+   "evidence": [
+    "Cited as SHINee's canonical mid-2010s statement within K-pop reference coverage.",
+    "Album-list evidence is thin; value rests on artist-canon presence."
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 19,
+   "slot": "adventurous",
+   "artist": "ARTMS",
+   "album": "DALL",
+   "cult_score_0_1": 0.23,
+   "canon": 0.0,
+   "list_count": 1,
+   "evidence": [
+    "Appeared on one critics' 2024 year-end list (conservative count).",
+    "ARTMS's debut full-length; artist-canonical as the group's defining statement."
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 19,
+   "slot": "wild_card",
+   "artist": "NewJeans",
+   "album": "Get Up",
+   "cult_score_0_1": 0.56,
+   "canon": 0.5,
+   "list_count": 6,
+   "evidence": [
+    "Appeared on at least six publications' 2023 year-end best-album lists.",
+    "Cited as NewJeans' canonical EP and a 2023 K-pop landmark."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 20,
+   "slot": "anchor",
+   "artist": "BTS",
+   "album": "Love Yourself: Tear",
+   "cult_score_0_1": 0.59,
+   "canon": 0.5,
+   "list_count": 8,
+   "evidence": [
+    "Appeared on roughly eight publications' 2018 year-end best-album lists.",
+    "Cited as BTS's canonical 'Love Yourself' statement and a K-pop global-breakthrough landmark."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 20,
+   "slot": "adventurous",
+   "artist": "Balming Tiger",
+   "album": "January Never Dies",
+   "cult_score_0_1": 0.12,
+   "canon": 0.0,
+   "list_count": 0,
+   "evidence": [
+    "Balming Tiger's debut full-length; no verifiable major-publication list appearances found.",
+    "Evidence is thin; canon and list fields reflect that."
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 20,
+   "slot": "adventurous",
+   "artist": "Yaeji",
+   "album": "With a Hammer",
+   "cult_score_0_1": 0.24,
+   "canon": 0.0,
+   "list_count": 1,
+   "evidence": [
+    "Appeared on at least one major publication's 2023 year-end list (Pitchfork).",
+    "Cited within 2023 electronic-music coverage; list footprint otherwise thin."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 20,
+   "slot": "adventurous",
+   "artist": "Crush",
+   "album": "From Midnight to Sunrise",
+   "cult_score_0_1": 0.47,
+   "canon": 0.5,
+   "list_count": 2,
+   "evidence": [
+    "Appeared on two critics' 2019 year-end lists; Crush won the Korean Hip-Hop Award (R&B category).",
+    "Cited as Crush's canonical R&B statement."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 20,
+   "slot": "wild_card",
+   "artist": "the LOONA lore deep",
+   "album": "dive",
+   "cult_score_0_1": 0.12,
+   "canon": 0.0,
+   "list_count": 0,
+   "evidence": [
+    "No identifiable conventional commercial release or canonical list appearances found for 'the LOONA lore deep - dive'.",
+    "Fields reflect the absence of verifiable canon evidence."
+   ],
+   "confidence": "low",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 21,
+   "slot": "anchor",
+   "artist": "Stravinsky",
+   "album": "The Rite of Spring",
+   "cult_score_0_1": 0.44,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "uDiscover calls it one of the 20th century's most influential works; Bernstein called it the century's most important piece.",
+    "Presto describes it as a cornerstone of the orchestral repertoire."
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 21,
+   "slot": "adventurous",
+   "artist": "Shostakovich",
+   "album": "Symphony No. 5",
+   "cult_score_0_1": 0.44,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Marbecks calls it a milestone in the major 20th-century symphonic canon.",
+    "MusicWeb describes it as among the greatest symphonies ever written."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 21,
+   "slot": "adventurous",
+   "artist": "Mahler",
+   "album": "Symphony No. 5",
+   "cult_score_0_1": 0.44,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Hi-Fi News places it in the Austro-German symphonic canon, naming six essential recordings.",
+    "Presto documents numerous edition-specific awards (not transferred to a work-level claim)."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 21,
+   "slot": "adventurous",
+   "artist": "Ligeti",
+   "album": "Atmosphères / Requiem",
+   "cult_score_0_1": 0.43,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Atmosphères was Ligeti's international breakthrough and a major statement of micropolyphony.",
+    "The Requiem won the 1967 Bonn Beethoven Prize; both works reached mass audiences via 2001: A Space Odyssey."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 21,
+   "slot": "wild_card",
+   "artist": "Messiaen",
+   "album": "Quartet for the End of Time",
+   "cult_score_0_1": 0.43,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Strings calls it one of the 20th century's most performed and discussed chamber works.",
+    "Harmonia Mundi calls it an unequalled masterpiece; BBC Music Magazine notes well over 20 recordings."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 22,
+   "slot": "anchor",
+   "artist": "Bach",
+   "album": "Goldberg Variations",
+   "cult_score_0_1": 0.44,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Edition note: weeks.json specifies Glenn Gould's 1981 recording; awards honor that edition, not the work abstractly.",
+    "Conservative canon 0.5: 1955-edition honors (recording Hall of Fame, Gramophone's ten best recordings of the 20th century) are not transferred to 1981."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 22,
+   "slot": "adventurous",
+   "artist": "Ligeti",
+   "album": "Études",
+   "cult_score_0_1": 0.43,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "New York Classical Review calls them among the greatest works of their kind, equal in stature to Chopin and Debussy.",
+    "Arkiv/Naxos calls them one of the 20th century's most significant piano-study sets."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 22,
+   "slot": "adventurous",
+   "artist": "Ravel",
+   "album": "Gaspard de la nuit",
+   "cult_score_0_1": 0.43,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Widely regarded as one of the hardest works in the piano repertoire.",
+    "High Fidelity calls it Ravel's most famous un-orchestrated piano work."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 22,
+   "slot": "adventurous",
+   "artist": "Chopin",
+   "album": "the Ballades",
+   "cult_score_0_1": 0.44,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Earsense calls them among Chopin's greatest achievements.",
+    "The Guardian cited Zimerman's recording as a key recording; standard worldwide concert repertoire."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 22,
+   "slot": "wild_card",
+   "artist": "Rzewski",
+   "album": "The People United Will Never Be Defeated!",
+   "cult_score_0_1": 0.41,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "MusicWeb calls it one of the greatest variation sets since Bach's Goldbergs and Beethoven's Diabelli.",
+    "Presto/Naxos calls it a landmark of American piano literature; Qobuz calls it a durable avant-garde work of the 1970s."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 23,
+   "slot": "anchor",
+   "artist": "Hans Zimmer",
+   "album": "Interstellar",
+   "cult_score_0_1": 0.48,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Oscar and Grammy nominated; won the IFMCA Film Score of the Year.",
+    "Classic FM included it in a ranked feature of Zimmer scores."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 23,
+   "slot": "adventurous",
+   "artist": "Hans Zimmer",
+   "album": "Dune",
+   "cult_score_0_1": 0.43,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Won the 2022 Oscar, Golden Globe, BAFTA, and Critics' Choice awards for Best Original Score (2021 film).",
+    "Grammy-nominated for Best Score Soundtrack for Visual Media (lost to Soul); awards are not list appearances."
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 23,
+   "slot": "adventurous",
+   "artist": "Ludwig Göransson",
+   "album": "Oppenheimer",
+   "cult_score_0_1": 0.44,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Won the Oscar, Grammy, BAFTA, Golden Globe, and Critics' Choice awards for score.",
+    "Strong emerging soundtrack-canon presence as a 2023 awards sweep."
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 23,
+   "slot": "adventurous",
+   "artist": "Hildur Guðnadóttir",
+   "album": "Chernobyl",
+   "cult_score_0_1": 0.43,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Won the Emmy and Grammy for Hildur Guðnadóttir's score.",
+    "World Soundtrack Awards calls it groundbreaking; Television Composer of the Year."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 23,
+   "slot": "wild_card",
+   "artist": "Mica Levi",
+   "album": "Under the Skin",
+   "cult_score_0_1": 0.59,
+   "canon": 0.5,
+   "list_count": 6,
+   "evidence": [
+    "Pitchfork ranked it #2 film score of all time, #18 industrial album, and #154 album of the 2010s.",
+    "Empire, PopMatters, IndieWire, and Collider named it among 2014's best scores; Consequence ranked it #1 score of the 2010s.",
+    "European Film Award winner; BAFTA nominee (awards noted separately from list count)."
+   ],
+   "confidence": "high",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 24,
+   "slot": "anchor",
+   "artist": "Ryuichi Sakamoto",
+   "album": "async",
+   "cult_score_0_1": 0.6,
+   "canon": 0.5,
+   "list_count": 11,
+   "evidence": [
+    "Accolades include Fact's #1 album of 2017 and Pitchfork's #4 experimental album.",
+    "Also cited by AllMusic, Exclaim, Quietus/Norman, Rolling Stone, Spin, Time Out, Vinyl Factory, and The Wire (conservative deduplicated count of 11)."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 24,
+   "slot": "adventurous",
+   "artist": "Max Richter",
+   "album": "Sleep",
+   "cult_score_0_1": 0.4,
+   "canon": 0.5,
+   "list_count": 0,
+   "evidence": [
+    "Reached #1 on the Billboard classical chart at release and again in 2020.",
+    "Metacritic 79/100 from seven reviews; described as a landmark long-form project."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 24,
+   "slot": "adventurous",
+   "artist": "Joe Hisaishi",
+   "album": "Spirited Away",
+   "cult_score_0_1": 0.48,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Won the Annie, Mainichi, Tokyo Anime, Tokyo International Anime Fair, and Japan Gold Disc honors.",
+    "Tracks & Fields featured it as a top film score."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 24,
+   "slot": "adventurous",
+   "artist": "Sakamoto",
+   "album": "Merry Christmas Mr. Lawrence",
+   "cult_score_0_1": 0.48,
+   "canon": 0.5,
+   "list_count": 1,
+   "evidence": [
+    "Won the BAFTA for Best Film Music and the Mainichi Best Film Score.",
+    "Pitchfork's 2019 greatest-film-scores list placed it #31; widely described as one of Sakamoto's iconic scores."
+   ],
+   "confidence": "medium",
+   "calibration": "unvalidated"
+  },
+  {
+   "week": 24,
+   "slot": "wild_card",
+   "artist": "Oneohtrix Point Never",
+   "album": "Uncut Gems",
+   "cult_score_0_1": 0.24,
+   "canon": 0.0,
+   "list_count": 1,
+   "evidence": [
+    "Tilt/Goomba Stomp ranked it the best film score of 2019.",
+    "Coverage documents the score and Lopatin's established soundtrack reputation; thin formal-canon footprint."
+   ],
+   "confidence": "medium",
    "calibration": "unvalidated"
   }
- ],
- "scoring_note": "cult_score_0_1 is a hand-set seed pending the L6 rubric (canon membership = boost, list counts = log scale). All v1 scores are calibration:'unvalidated' \u2014 do not treat them as calibrated ground truth. Covers Week 1 only; weeks 2\u201324 use the digest fallback label 'CULT evidence pending \u2014 researched live'. RYM ratings/counts left null \u2014 not verifiable via web search; fill from a logged-in read or API before calibrating weights. Do not present nulls as zeros.",
- "source": "seed compiled 2026-09-21 via web search; backlog L6 seed",
- "version": 1
+ ]
 }
