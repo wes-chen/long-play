@@ -67,6 +67,10 @@ not bounces); never re-queued more than once per album — the script refuses.
 - Cron: `long-play-grower`, weekly Monday ~08:30 PT, chat-only, silent when
   nothing is due. Announced as a bonus re-listen alongside the week's five
   albums — never a replacement pick.
+- Rollover wiring: `bin/rollover.py` consults `grower.due_entries(next_week)`
+  and inserts due albums into the new week file's "Second chance" section,
+  marking each re-queued. Either path (week file or Monday chat message)
+  lands the album exactly once; the other sees nothing due and stays quiet.
 
 ## M2 — Implicit-feedback taste vector
 
