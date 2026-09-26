@@ -104,12 +104,19 @@ def scan():
     print(json.dumps({"added": added, "queue_size": len(state["queue"])}))
 
 
+def due_entries(week):
+    """Queue entries whose second chance falls on or before the given week
+    and which have not been re-queued yet. Each album appears at most
+    once, ever (re-queued entries are excluded)."""
+    state = load_state()
+    return [e for e in state["queue"]
+            if not e["requeued"] and e["requeue_due_week"] <= week]
+
+
 def due():
     """Albums whose second chance falls this week (not yet requeued)."""
-    state = load_state()
     week = current_week()
-    due_list = [e for e in state["queue"]
-                if not e["requeued"] and e["requeue_due_week"] <= (week or 0)]
+    due_list = due_entries(week or 0)
     print(json.dumps({
         "current_week": week,
         "due": [{"artist": e["artist"], "album": e["album"],
