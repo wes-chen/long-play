@@ -12,9 +12,10 @@ State: ~/workspace/goals/album-recommender-music-digest/hidden_files/predictions
 
 Prediction vocabulary: love / play / bounce.
 Reaction vocabulary:  loved / played / skipped / bounced off.
-Match rules: love<->loved, play<->played, bounce<->bounced off.
-"skipped" counts as a half-miss against any prediction except bounce
-(skipping a predicted bounce is a hit).
+Match rules: love<->loved, play<->played, bounce<->bounced off (1.0).
+"skipped" scores 0.0 against any prediction except bounce, where it scores
+0.5 (the skip confirms the instinct). Unscored predictions (no log row yet)
+are skipped, not zeroed.
 
 Commands:
   --record <week> <artist> <album> <slot> <love|play|bounce>
