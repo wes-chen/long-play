@@ -14,6 +14,27 @@ Intra-track moments ("listen at 2:14 on track 4") are deliberately NOT
 generated: they need manual curation and would be invented otherwise.
 A cue carries "curated_moment": false until a human adds one.
 
+DELIVERY (timing mechanism). The JSON this script builds is static; what
+makes the cues "deliver mid-week" is the intra-week day-offset schedule
+attached to each album entry:
+
+    deliver: {"liner_day_offset": 1, "timed_day_offset": 3}
+
+Day offsets count from the Monday digest (day 0):
+    day 1 — liner drop: one-line context, early in the week while the
+            albums are still being first-heard.
+    day 3 — timed cue: the track-boundary prompt (real track start time
+            from the tracklist cache), mid-week.
+
+The mid-week flow queries "what is due now" via the sibling entry point:
+
+    python3 bin/cues_due.py --week N [--day-offset D | --today YYYY-MM-DD]
+
+Without --day-offset, D defaults to days elapsed since Monday of the
+current week. The script prints the due cues as JSON to stdout. Actual
+scheduling (cron) is owned by the coordinator — this module defines and
+builds the schedule, never runs it.
+
 Usage: python3 bin/build_guided_cues.py [--week N]
 Regenerates engine/guided_cues.json from weeks.json + tracklist cache.
 """
@@ -30,6 +51,10 @@ SECTION_RE = re.compile(
     r"^##\s+(Anchor|Adventurous|Wild card)\s+[—–-]\s+(.+?)\s+[—–-]\s+\*(.+?)\*\s*(\(\d{4}\))?",
     re.IGNORECASE)
 LISTEN_FOR_RE = re.compile(r"\*\*Listen for:\*\*\s*(.+)", re.IGNORECASE)
+
+# Intra-week delivery schedule (see module docstring). Offsets count from
+# the Monday digest (day 0): liner drops early-week, timed cues mid-week.
+DELIVERY = {"liner_day_offset": 1, "timed_day_offset": 3}
 
 
 def norm(s):
@@ -162,6 +187,7 @@ def build_week(week_n):
             "liner": liner,
             "liner_source": (f"weeks/week-{week_n:02d}.md (verbatim, first sentence)"
                              if liner else None),
+            "deliver": dict(DELIVERY),
             "tracklist": "spotify" if tl else "pending",
         }
     return cues
