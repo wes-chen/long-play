@@ -9,7 +9,8 @@ genre modifiers (e.g. ambient scores higher in late-night).
 State: ~/workspace/goals/album-recommender-music-digest/hidden_files/context-tags.jsonl
   {"ts","week","artist","album","genre","context","reaction"}
 
-Usage: python3 bin/tag_context.py <week> "<artist>" "<album>" <context> <reaction>
+Usage: python3 bin/tag_context.py [<week>] "<artist>" "<album>" <context> <reaction>
+  week: defaults to weeks/CURRENT when omitted (one tap: tag as you listen)
   context: commute | focused | background | late-night
   reaction: played | skipped | loved | bounced off
 """
@@ -30,11 +31,34 @@ def norm(s):
     return " ".join(s.strip().lower().split())
 
 
+def current_week():
+    try:
+        with open(os.path.join(REPO, "weeks", "CURRENT")) as f:
+            return int(f.read().strip())
+    except (FileNotFoundError, ValueError):
+        return None
+
+
 def main():
-    if len(sys.argv) != 6:
-        print('usage: tag_context.py <week> "<artist>" "<album>" <context> <reaction>')
+    args = sys.argv[1:]
+    if len(args) == 5:
+        week, artist, album, context, reaction = args
+    elif len(args) == 4:
+        # one-tap form: week defaults to the current week
+        week = current_week()
+        if week is None:
+            print("no week given and weeks/CURRENT is unreadable")
+            sys.exit(2)
+        artist, album, context, reaction = args
+    else:
+        print('usage: tag_context.py [<week>] "<artist>" "<album>" '
+              "<context> <reaction>")
         sys.exit(2)
-    week, artist, album, context, reaction = sys.argv[1:6]
+    try:
+        week = int(week)
+    except (TypeError, ValueError):
+        print(f"bad week: {week!r}")
+        sys.exit(2)
     context, reaction = context.lower(), reaction.lower()
     if context not in VALID:
         print(f"bad context; want one of {sorted(VALID)}")
