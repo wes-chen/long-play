@@ -1,0 +1,1253 @@
+{
+ "sessions": {
+  "morning": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "afternoon": [
+   15,
+   16,
+   17
+  ],
+  "evening": [
+   19,
+   20,
+   21
+  ]
+ },
+ "fit_table": {
+  "morning": {
+   "short": 2.0,
+   "medium": 1.5,
+   "long": 0.75,
+   "epic": 0.25
+  },
+  "afternoon": {
+   "short": 1.5,
+   "medium": 2.0,
+   "long": 1.0,
+   "epic": 0.5
+  },
+  "evening": {
+   "short": 1.0,
+   "medium": 1.5,
+   "long": 2.0,
+   "epic": 1.75
+  }
+ },
+ "energy_modifiers": {
+  "high": {
+   "morning": 0.5,
+   "evening": -0.5
+  },
+  "low": {
+   "evening": 0.5,
+   "morning": -0.5
+  },
+  "medium": {}
+ },
+ "profiles": [
+  {
+   "artist": "Pink Floyd",
+   "album": "The Dark Side of the Moon",
+   "week": 1,
+   "slot": "anchor",
+   "minutes": 42.9,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Pink Floyd",
+   "album": "Animals",
+   "week": 1,
+   "slot": "adventurous",
+   "minutes": 41.7,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "The Smile",
+   "album": "A Light for Attracting Attention",
+   "week": 1,
+   "slot": "adventurous",
+   "minutes": 53.4,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Four Tet",
+   "album": "Beautiful Rewind",
+   "week": 1,
+   "slot": "adventurous",
+   "minutes": 40.2,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Can",
+   "album": "Tago Mago",
+   "week": 1,
+   "slot": "wild_card",
+   "minutes": 73.5,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Radiohead",
+   "album": "OK Computer",
+   "week": 2,
+   "slot": "anchor",
+   "minutes": 53.7,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "The Beatles",
+   "album": "Abbey Road",
+   "week": 2,
+   "slot": "adventurous",
+   "minutes": 42.9,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Kendrick Lamar",
+   "album": "To Pimp a Butterfly",
+   "week": 2,
+   "slot": "adventurous",
+   "minutes": 54.5,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "SZA",
+   "album": "SOS",
+   "week": 2,
+   "slot": "adventurous",
+   "minutes": 68.1,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Swans",
+   "album": "To Be Kind",
+   "week": 2,
+   "slot": "wild_card",
+   "minutes": 121.3,
+   "duration_tier": "epic",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "King Crimson",
+   "album": "In the Court of the Crimson King",
+   "week": 3,
+   "slot": "anchor",
+   "minutes": 67.7,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Pink Floyd",
+   "album": "Animals",
+   "week": 3,
+   "slot": "adventurous",
+   "minutes": 41.7,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Yes",
+   "album": "Close to the Edge",
+   "week": 3,
+   "slot": "adventurous",
+   "minutes": 37.7,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Genesis",
+   "album": "Selling England by the Pound",
+   "week": 3,
+   "slot": "adventurous",
+   "minutes": 53.6,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Van der Graaf Generator",
+   "album": "Pawn Hearts",
+   "week": 3,
+   "slot": "wild_card",
+   "minutes": 50.6,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Radiohead",
+   "album": "Kid A",
+   "week": 4,
+   "slot": "anchor",
+   "minutes": 47.2,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Talk Talk",
+   "album": "Laughing Stock",
+   "week": 4,
+   "slot": "adventurous",
+   "minutes": 41.0,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Bj\u00f6rk",
+   "album": "Homogenic",
+   "week": 4,
+   "slot": "adventurous",
+   "minutes": 43.5,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "These New Puritans",
+   "album": "Field of Reeds",
+   "week": 4,
+   "slot": "adventurous",
+   "minutes": 53.0,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Black Midi",
+   "album": "Hellfire",
+   "week": 4,
+   "slot": "wild_card",
+   "minutes": 39.0,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Frank Ocean",
+   "album": "Blonde",
+   "week": 5,
+   "slot": "anchor",
+   "minutes": 60.3,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "FKA twigs",
+   "album": "MAGDALENE",
+   "week": 5,
+   "slot": "adventurous",
+   "minutes": 38.9,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Solange",
+   "album": "A Seat at the Table",
+   "week": 5,
+   "slot": "adventurous",
+   "minutes": 51.9,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Kelela",
+   "album": "Take Me Apart",
+   "week": 5,
+   "slot": "adventurous",
+   "minutes": 53.9,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Ethel Cain",
+   "album": "Preacher's Daughter",
+   "week": 5,
+   "slot": "wild_card",
+   "minutes": 75.7,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "My Bloody Valentine",
+   "album": "Loveless",
+   "week": 6,
+   "slot": "anchor",
+   "minutes": 46.6,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Cocteau Twins",
+   "album": "Heaven or Las Vegas",
+   "week": 6,
+   "slot": "adventurous",
+   "minutes": 37.4,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Slowdive",
+   "album": "Souvlaki",
+   "week": 6,
+   "slot": "adventurous",
+   "minutes": 40.6,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Ride",
+   "album": "Nowhere",
+   "week": 6,
+   "slot": "adventurous",
+   "minutes": 73.0,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Have A Nice Life",
+   "album": "Deathconsciousness",
+   "week": 6,
+   "slot": "wild_card",
+   "minutes": 84.6,
+   "duration_tier": "epic",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "ODESZA",
+   "album": "A Moment Apart",
+   "week": 7,
+   "slot": "anchor",
+   "minutes": 59.6,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Jamie xx",
+   "album": "In Colour",
+   "week": 7,
+   "slot": "adventurous",
+   "minutes": 42.8,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Disclosure",
+   "album": "Settle",
+   "week": 7,
+   "slot": "adventurous",
+   "minutes": 19.4,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Four Tet",
+   "album": "There Is Love in You",
+   "week": 7,
+   "slot": "adventurous",
+   "minutes": 117.7,
+   "duration_tier": "epic",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Burial",
+   "album": "Untrue",
+   "week": 7,
+   "slot": "wild_card",
+   "minutes": 50.5,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Kraftwerk",
+   "album": "Trans-Europe Express",
+   "week": 8,
+   "slot": "anchor",
+   "minutes": 43.0,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Neu!",
+   "album": "Neu! 2",
+   "week": 8,
+   "slot": "adventurous",
+   "minutes": 42.3,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Can",
+   "album": "Ege Bamyasi",
+   "week": 8,
+   "slot": "adventurous",
+   "minutes": 40.2,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Tangerine Dream",
+   "album": "Phaedra",
+   "week": 8,
+   "slot": "adventurous",
+   "minutes": 38.3,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Suicide",
+   "album": "Suicide",
+   "week": 8,
+   "slot": "wild_card",
+   "minutes": 32.1,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Brian Eno",
+   "album": "Ambient 1: Music for Airports",
+   "week": 9,
+   "slot": "anchor",
+   "minutes": 4.3,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Aphex Twin",
+   "album": "Selected Ambient Works 85\u201392",
+   "week": 9,
+   "slot": "adventurous",
+   "minutes": 74.7,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Tim Hecker",
+   "album": "Ravedeath, 1972",
+   "week": 9,
+   "slot": "adventurous",
+   "minutes": 52.4,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Stars of the Lid",
+   "album": "And Their Refinement of the Decline",
+   "week": 9,
+   "slot": "adventurous",
+   "minutes": 120.7,
+   "duration_tier": "epic",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Oneohtrix Point Never",
+   "album": "R Plus Seven",
+   "week": 9,
+   "slot": "wild_card",
+   "minutes": 43.0,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "SOPHIE",
+   "album": "Oil of Every Pearl's Un-Insides",
+   "week": 10,
+   "slot": "anchor",
+   "minutes": 26.1,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Arca",
+   "album": "Kick I",
+   "week": 10,
+   "slot": "adventurous",
+   "minutes": 36.7,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Flying Lotus",
+   "album": "Cosmogramma",
+   "week": 10,
+   "slot": "adventurous",
+   "minutes": 45.7,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Iglooghost",
+   "album": "Neo Wax Bloom",
+   "week": 10,
+   "slot": "adventurous",
+   "minutes": 41.1,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "100 gecs",
+   "album": "1000 gecs",
+   "week": 10,
+   "slot": "wild_card",
+   "minutes": 51.4,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Weather Report",
+   "album": "Heavy Weather",
+   "week": 11,
+   "slot": "anchor",
+   "minutes": 37.8,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Herbie Hancock",
+   "album": "Head Hunters",
+   "week": 11,
+   "slot": "adventurous",
+   "minutes": 41.8,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Mahavishnu Orchestra",
+   "album": "The Inner Mounting Flame",
+   "week": 11,
+   "slot": "adventurous",
+   "minutes": 61.7,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Snarky Puppy",
+   "album": "We Like It Here",
+   "week": 11,
+   "slot": "adventurous",
+   "minutes": 54.7,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Jaco Pastorius",
+   "album": "Jaco Pastorius",
+   "week": 11,
+   "slot": "wild_card",
+   "minutes": 55.3,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Miles Davis",
+   "album": "Kind of Blue",
+   "week": 12,
+   "slot": "anchor",
+   "minutes": 45.4,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Miles Davis",
+   "album": "In a Silent Way",
+   "week": 12,
+   "slot": "adventurous",
+   "minutes": 38.2,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "John Coltrane",
+   "album": "Blue Train",
+   "week": 12,
+   "slot": "adventurous",
+   "minutes": 74.1,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Cannonball Adderley",
+   "album": "Somethin' Else",
+   "week": 12,
+   "slot": "adventurous",
+   "minutes": 62.9,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Miles Davis",
+   "album": "Bitches Brew",
+   "week": 12,
+   "slot": "wild_card",
+   "minutes": 105.8,
+   "duration_tier": "epic",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "John Coltrane",
+   "album": "A Love Supreme",
+   "week": 13,
+   "slot": "anchor",
+   "minutes": 74.1,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Charles Mingus",
+   "album": "Mingus Ah Um",
+   "week": 13,
+   "slot": "adventurous",
+   "minutes": 46.0,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Bill Evans",
+   "album": "Waltz for Debby",
+   "week": 13,
+   "slot": "adventurous",
+   "minutes": 70.0,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Alice Coltrane",
+   "album": "Journey in Satchidananda",
+   "week": 13,
+   "slot": "adventurous",
+   "minutes": 37.7,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Kamasi Washington",
+   "album": "The Epic",
+   "week": 13,
+   "slot": "wild_card",
+   "minutes": 173.6,
+   "duration_tier": "epic",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Jeff Buckley",
+   "album": "Grace",
+   "week": 14,
+   "slot": "anchor",
+   "minutes": 57.1,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Nick Drake",
+   "album": "Pink Moon",
+   "week": 14,
+   "slot": "adventurous",
+   "minutes": 94.2,
+   "duration_tier": "epic",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Elliott Smith",
+   "album": "Either/Or",
+   "week": 14,
+   "slot": "adventurous",
+   "minutes": 37.0,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Phoebe Bridgers",
+   "album": "Punisher",
+   "week": 14,
+   "slot": "adventurous",
+   "minutes": 40.7,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Lingua Ignota",
+   "album": "CALIGULA",
+   "week": 14,
+   "slot": "wild_card",
+   "minutes": 66.1,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds",
+   "week": 15,
+   "slot": "anchor",
+   "minutes": 50.0,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Fleet Foxes",
+   "album": "Helplessness Blues",
+   "week": 15,
+   "slot": "adventurous",
+   "minutes": 50.0,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Bon Iver",
+   "album": "Bon Iver",
+   "week": 15,
+   "slot": "adventurous",
+   "minutes": 39.5,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "The Beatles",
+   "album": "Abbey Road",
+   "week": 15,
+   "slot": "adventurous",
+   "minutes": 42.9,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Dirty Projectors",
+   "album": "Bitte Orca",
+   "week": 15,
+   "slot": "wild_card",
+   "minutes": 41.2,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Joni Mitchell",
+   "album": "Blue",
+   "week": 16,
+   "slot": "anchor",
+   "minutes": 36.1,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Sufjan Stevens",
+   "album": "Carrie & Lowell",
+   "week": 16,
+   "slot": "adventurous",
+   "minutes": 43.7,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Laura Marling",
+   "album": "Song for Our Daughter",
+   "week": 16,
+   "slot": "adventurous",
+   "minutes": 36.6,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Big Thief",
+   "album": "U.F.O.F",
+   "week": 16,
+   "slot": "adventurous",
+   "minutes": 43.3,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Fiona Apple",
+   "album": "Fetch the Bolt Cutters",
+   "week": 16,
+   "slot": "wild_card",
+   "minutes": 51.9,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Deftones",
+   "album": "White Pony",
+   "week": 17,
+   "slot": "anchor",
+   "minutes": 52.8,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Tool",
+   "album": "Lateralus",
+   "week": 17,
+   "slot": "adventurous",
+   "minutes": 76.8,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Mastodon",
+   "album": "Crack the Skye",
+   "week": 17,
+   "slot": "adventurous",
+   "minutes": 50.1,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Sleep Token",
+   "album": "Take Me Back to Eden",
+   "week": 17,
+   "slot": "adventurous",
+   "minutes": 63.5,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Have A Nice Life",
+   "album": "Deathconsciousness",
+   "week": 17,
+   "slot": "wild_card",
+   "minutes": 84.6,
+   "duration_tier": "epic",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Alcest",
+   "album": "\u00c9cailles de Lune",
+   "week": 18,
+   "slot": "anchor",
+   "minutes": 41.7,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Deafheaven",
+   "album": "Sunbather",
+   "week": 18,
+   "slot": "adventurous",
+   "minutes": 60.0,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Chelsea Wolfe",
+   "album": "Abyss",
+   "week": 18,
+   "slot": "adventurous",
+   "minutes": 55.4,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Boris",
+   "album": "Flood",
+   "week": 18,
+   "slot": "adventurous",
+   "minutes": 70.5,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Swans",
+   "album": "To Be Kind",
+   "week": 18,
+   "slot": "wild_card",
+   "minutes": 121.3,
+   "duration_tier": "epic",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Red Velvet",
+   "album": "Perfect Velvet",
+   "week": 19,
+   "slot": "anchor",
+   "minutes": 31.0,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "f(x)",
+   "album": "4 Walls",
+   "week": 19,
+   "slot": "adventurous",
+   "minutes": 35.3,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "SHINee",
+   "album": "Odd",
+   "week": 19,
+   "slot": "adventurous",
+   "minutes": 39.1,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "ARTMS",
+   "album": "DALL",
+   "week": 19,
+   "slot": "adventurous",
+   "minutes": 30.0,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "NewJeans",
+   "album": "Get Up",
+   "week": 19,
+   "slot": "wild_card",
+   "minutes": 13.4,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "BTS",
+   "album": "Love Yourself: Tear",
+   "week": 20,
+   "slot": "anchor",
+   "minutes": 13.5,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Balming Tiger",
+   "album": "January Never Dies",
+   "week": 20,
+   "slot": "adventurous",
+   "minutes": 42.2,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Yaeji",
+   "album": "With a Hammer",
+   "week": 20,
+   "slot": "adventurous",
+   "minutes": 43.7,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Crush",
+   "album": "From Midnight to Sunrise",
+   "week": 20,
+   "slot": "adventurous",
+   "minutes": 39.4,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "the LOONA lore deep",
+   "album": "dive",
+   "week": 20,
+   "slot": "wild_card",
+   "minutes": null,
+   "duration_tier": null,
+   "energy": null,
+   "tracklist": false
+  },
+  {
+   "artist": "Stravinsky",
+   "album": "The Rite of Spring",
+   "week": 21,
+   "slot": "anchor",
+   "minutes": 56.6,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Shostakovich",
+   "album": "Symphony No. 5",
+   "week": 21,
+   "slot": "adventurous",
+   "minutes": 45.9,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Mahler",
+   "album": "Symphony No. 5",
+   "week": 21,
+   "slot": "adventurous",
+   "minutes": 72.4,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Ligeti",
+   "album": "Atmosph\u00e8res / Requiem",
+   "week": 21,
+   "slot": "adventurous",
+   "minutes": 54.5,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Messiaen",
+   "album": "Quartet for the End of Time",
+   "week": 21,
+   "slot": "wild_card",
+   "minutes": 46.8,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Bach",
+   "album": "Goldberg Variations",
+   "week": 22,
+   "slot": "anchor",
+   "minutes": 51.3,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Ligeti",
+   "album": "\u00c9tudes",
+   "week": 22,
+   "slot": "adventurous",
+   "minutes": 56.6,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Ravel",
+   "album": "Gaspard de la nuit",
+   "week": 22,
+   "slot": "adventurous",
+   "minutes": 23.1,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Chopin",
+   "album": "the Ballades",
+   "week": 22,
+   "slot": "adventurous",
+   "minutes": 34.3,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Rzewski",
+   "album": "The People United Will Never Be Defeated!",
+   "week": 22,
+   "slot": "wild_card",
+   "minutes": 49.3,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Hans Zimmer",
+   "album": "Interstellar",
+   "week": 23,
+   "slot": "anchor",
+   "minutes": 139.4,
+   "duration_tier": "epic",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Hans Zimmer",
+   "album": "Dune",
+   "week": 23,
+   "slot": "adventurous",
+   "minutes": 74.3,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Ludwig G\u00f6ransson",
+   "album": "Oppenheimer",
+   "week": 23,
+   "slot": "adventurous",
+   "minutes": 94.9,
+   "duration_tier": "epic",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Hildur Gu\u00f0nad\u00f3ttir",
+   "album": "Chernobyl",
+   "week": 23,
+   "slot": "adventurous",
+   "minutes": 36.6,
+   "duration_tier": "short",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Mica Levi",
+   "album": "Under the Skin",
+   "week": 23,
+   "slot": "wild_card",
+   "minutes": 47.0,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Ryuichi Sakamoto",
+   "album": "async",
+   "week": 24,
+   "slot": "anchor",
+   "minutes": 60.6,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Max Richter",
+   "album": "Sleep",
+   "week": 24,
+   "slot": "adventurous",
+   "minutes": 47.7,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Joe Hisaishi",
+   "album": "Spirited Away",
+   "week": 24,
+   "slot": "adventurous",
+   "minutes": 60.0,
+   "duration_tier": "long",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Sakamoto",
+   "album": "Merry Christmas Mr. Lawrence",
+   "week": 24,
+   "slot": "adventurous",
+   "minutes": 40.6,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  },
+  {
+   "artist": "Oneohtrix Point Never",
+   "album": "Uncut Gems",
+   "week": 24,
+   "slot": "wild_card",
+   "minutes": 43.3,
+   "duration_tier": "medium",
+   "energy": null,
+   "tracklist": true
+  }
+ ]
+}
