@@ -8,8 +8,10 @@ log (explicit chat reactions, the only ground truth):
   - reaction rate, loved rate, and mean weighted score per slot
   - discomfort signal strength: mean |weighted score| per slot
     (the standing claim is that discomfort is the most informative signal)
-  - predictive lift: how much wild-card reactions move the M2 taste vector
-    vs curated-slot reactions (reads engine/taste-vector.json when built)
+
+Per-slot predictive lift against the taste vector is NOT measured here:
+engine/taste-vector.json carries no per-slot provenance, so the comparison
+uses reaction-signal strength per slot instead.
 
 Recommendation rule (advisory only — never auto-applied):
   - wild-card mean |score| >= 1.5x curated slots' -> suggest 2.5x
@@ -26,10 +28,8 @@ import re
 import sys
 from collections import defaultdict
 
-REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GOAL = os.path.expanduser("~/workspace/goals/album-recommender-music-digest")
 LOG = os.path.join(GOAL, "listening-log.md")
-VECTOR = os.path.join(REPO, "engine", "taste-vector.json")
 OUT = os.path.join(GOAL, "hidden_files", "wildcard-calibration.json")
 
 REACTION_SCORE = {"loved": 1.0, "played": 0.4, "skipped": -0.2, "bounced off": -1.0}
@@ -37,6 +37,10 @@ ROW_RE = re.compile(
     r"^\|\s*(\d+)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(anchor|adventurous|wild[- ]card)\s*\|\s*"
     r"(played|skipped|loved|bounced off)\b[^|]*\|\s*chat\s*\|\s*([\d.]+)\s*\|",
     re.IGNORECASE)
+# Recommendation thresholds are UNVALIDATED constants: the 1.5x / 0.8x
+# signal-ratio bands and the 2.5x / 1.5x suggested weights are judgment
+# starting points, not empirically tuned values. MIN_WEEKS = 4 is likewise
+# a judgment floor for stability, not a derived optimum.
 MIN_WEEKS = 4
 
 
