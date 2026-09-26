@@ -13,6 +13,12 @@ Coverage checks:
     flagged as heuristic, not ground truth), repeat artists
 
 Usage: python3 bin/syllabus_gap.py [--save <path>]
+
+Verified 2026-09-26 on the full 120-pick syllabus (weeks 1-24):
+era, genre, region, and artist coverage are real computations over
+engine/album_tags.json, and rebalance suggestions are conditional, not
+placeholders. Known data-quality item: the week-20 wild-card placeholder
+is the single untagged pick; it needs a real album before week 20.
 """
 import json
 import os
