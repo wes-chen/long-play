@@ -10,8 +10,11 @@ M3: the pick JSON also carries a "guided_cue" block
 ({timed, track_n, track_title, starts_at, liner}) from
 engine/guided_cues.json — a real track boundary from the Spotify tracklist
 cache paired with the week's curated "Listen for" cue, plus a one-line
-liner drop verbatim from the week file. guided_cue is null when cues are
-not yet built for the week.
+liner drop verbatim from the week file. Attachment honors the M3
+day-offset delivery schedule (liner due from day offset 1, timed cue from
+day offset 3, counted from the Monday digest); parts not yet due are
+null. guided_cue is null when no cue parts are due yet for the week or
+cues are not built for the week.
 
 Rotation: the five albums appear in file order; the album at index
 (week_number - 1) % 5 is skipped that week (so the anchor — known ground —
@@ -59,32 +62,49 @@ def silent(reason):
     return 0
 
 
-def attach_guided_cue(pick):
+def _norm(s):
+    return re.sub(r"[^a-z0-9]+", "-", (s or "").strip().lower()).strip("-")
+
+
+def attach_guided_cue(pick, today=None):
     """M3: attach the day's guided-listening cue from engine/guided_cues.json.
 
-    Adds {"guided_cue": {timed: {...}, liner: ...}} or {"guided_cue": None}
-    when cues are not yet built for the week. Never fabricates a cue.
+    Honors the M3 day-offset delivery schedule: the liner drop is due from
+    day offset 1 and the timed cue from day offset 3 (offsets count from
+    the Monday digest, day 0; the drip runs Tue=1 .. Fri=4). Uses
+    cues_due.due_cues as the single schedule source, so the drip can never
+    ship a cue part the schedule says is not due yet — the day-3 timed cue
+    no longer ships on Tuesday morning.
+
+    Adds {"guided_cue": {timed, track_n, track_title, starts_at, liner}}
+    with only the due parts present (not-yet-due parts are None), or
+    {"guided_cue": None} when nothing is due yet / cues are not built for
+    the week. Never fabricates a cue.
     """
     try:
-        with open(os.path.join(REPO, "engine", "guided_cues.json")) as f:
-            cues = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
+        from cues_due import due_cues
+    except ImportError:
         pick["guided_cue"] = None
         return pick
-    week_cues = cues.get(str(pick.get("week")), {})
-    key = "%s|%s" % (re.sub(r"[^a-z0-9]+", "-", pick["artist"].strip().lower()).strip("-"),
-                     re.sub(r"[^a-z0-9]+", "-", pick["album"].strip().lower()).strip("-"))
-    entry = week_cues.get(key)
+    day_offset = (today or datetime.datetime.now(PT).date()).weekday()
+    due = due_cues(pick.get("week"), day_offset)
+    entry = None
+    for item in due.get("cues", []):
+        if (_norm(item.get("artist")) == _norm(pick.get("artist"))
+                and _norm(item.get("album")) == _norm(pick.get("album"))):
+            entry = item
+            break
     if not entry:
         pick["guided_cue"] = None
         return pick
     timed = entry.get("timed") or {}
+    liner = entry.get("liner") or {}
     pick["guided_cue"] = {
         "timed": timed.get("cue"),
         "track_n": timed.get("track_n"),
         "track_title": timed.get("track_title"),
         "starts_at": timed.get("starts_at"),
-        "liner": entry.get("liner"),
+        "liner": liner.get("text"),
     }
     return pick
 
