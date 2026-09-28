@@ -18,7 +18,9 @@ Without --day-offset, D defaults to days elapsed since Monday (weekday()
 of --today, or of today). An album's liner is due when
 deliver.liner_day_offset <= D; its timed cue when
 deliver.timed_day_offset <= D. Missing liner/timed entries are simply
-absent from the output — never fabricated.
+absent from the output — never fabricated. A timed cue flagged
+cue_text_pending (scaffold text awaiting the Monday digest's finalized
+listen-for, #25) is never due, whatever the schedule says.
 
 Relationship to the daily drip: bin/drip_pick.py (Tue-Fri spotlight) is
 one delivery surface and attaches that day's cue; this script is the
@@ -52,10 +54,15 @@ def due_cues(week, day_offset):
     out = []
     for entry in week_cues.values():
         deliver = entry.get("deliver") or {}
+        timed_entry = entry.get("timed") or {}
+        # A cue flagged cue_text_pending is scaffold text ("[the week's
+        # listen-for lands with the Monday digest]"), not a finalized cue —
+        # it is never due, whatever the schedule says (#25).
+        timed_pending = bool(timed_entry.get("cue_text_pending"))
         liner_due = (deliver.get("liner_day_offset", 99) <= day_offset
                      and entry.get("liner"))
         timed_due = (deliver.get("timed_day_offset", 99) <= day_offset
-                     and entry.get("timed"))
+                     and timed_entry and not timed_pending)
         if not (liner_due or timed_due):
             continue
         item = {"artist": entry.get("artist"), "album": entry.get("album"),
