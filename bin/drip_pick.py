@@ -79,7 +79,9 @@ def attach_guided_cue(pick, today=None):
     Adds {"guided_cue": {timed, track_n, track_title, starts_at, liner}}
     with only the due parts present (not-yet-due parts are None), or
     {"guided_cue": None} when nothing is due yet / cues are not built for
-    the week. Never fabricates a cue.
+    the week. A timed cue whose text is still pending the Monday digest's
+    finalized listen-for (cue_text_pending) is dropped — never shipped
+    as scaffold text (#25). Never fabricates a cue.
     """
     try:
         from cues_due import due_cues
@@ -99,6 +101,11 @@ def attach_guided_cue(pick, today=None):
         return pick
     timed = entry.get("timed") or {}
     liner = entry.get("liner") or {}
+    # Defense in depth (#25): due_cues already filters scaffold text, but
+    # the drip is a user-facing surface — never ship a cue whose text is
+    # still pending the Monday digest's finalized listen-for.
+    if timed.get("cue_text_pending"):
+        timed = {}
     pick["guided_cue"] = {
         "timed": timed.get("cue"),
         "track_n": timed.get("track_n"),
