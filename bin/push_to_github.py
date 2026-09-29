@@ -28,7 +28,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Never commit these, even if they appear in the working copy.
 DENYLIST = [
     "samples.jsonl", "watchlist.json", "rollups/*",
-    "*.log", ".env", "*secret*", "*token*", "*credential*", "*private*",
+    "*.log", ".env", "*secret*",
+    "*token*",
+    "*credential*",
+    "*private*",
+    "__pycache__/*",
+    "*.pyc",
 ]
 
 # Public curriculum data committed by design: tracklists resolved from the
