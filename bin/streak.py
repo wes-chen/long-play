@@ -89,7 +89,8 @@ def check():
         return
     weeks = week_reactions()
     streak, last_full, _ = compute_streak(weeks)
-    st["streak"], st["best"] = streak, max(st["best"], streak)
+    old_best = st["best"]
+    st["streak"], st["best"] = streak, max(old_best, streak)
     st["last_full_week"] = last_full
     celebrate, message = False, None
     if last_full and last_full != st.get("celebrated_week"):
@@ -98,7 +99,7 @@ def check():
             message = (f"Streak ritual: {streak} consecutive full-listen weeks. "
                        f"Week {last_full} closed the set — that's the milestone. "
                        "No lecture, just the number.")
-        elif streak >= 3 and streak == st["best"] and streak > 3:
+        elif streak >= 3 and streak > old_best:
             celebrate = True
             message = (f"New record: {streak} full-listen weeks in a row. "
                        "The course is compounding.")
