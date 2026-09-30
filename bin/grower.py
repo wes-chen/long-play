@@ -67,9 +67,15 @@ def current_week():
 
 
 def scan():
-    """Pick up bounced-off reactions not yet in the queue."""
+    """Pick up bounced-off reactions not yet in the queue.
+
+    Dedupe is on (artist, album) across ALL weeks: each album enters the
+    queue at most once, ever. A second-chance album that bounces again
+    gets a new log row under the later week, but must not re-enter —
+    the once-ever rule means a second bounce is terminal.
+    """
     state = load_state()
-    known = {(e["week"], e["artist"].lower(), e["album"].lower()) for e in state["queue"]}
+    known = {(e["artist"].lower(), e["album"].lower()) for e in state["queue"]}
     added = 0
     if not os.path.exists(LOG):
         print(json.dumps({"added": 0, "note": "no listening log yet"}))
@@ -83,7 +89,7 @@ def scan():
             week = int(week_s)
             if reaction.lower() != "bounced off":
                 continue
-            key = (week, artist.lower(), album.lower())
+            key = (artist.lower(), album.lower())
             if key in known:
                 continue
             state["queue"].append({
