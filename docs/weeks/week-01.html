@@ -5,11 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LONG-PLAY — WEEK 01: How to listen on purpose</title>
 <meta name="description" content="long-play weekly digest — Week 01: How to listen on purpose">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
   :root{
     --ink:#111111; --paper:#e9e9e6; --chassis:#0b0b0b; --panel-dark:#141414;
     --hairline:#b9b9b4; --muted:#6f6f6a; --orange:#ff4a00;
-    --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+    --mono:"Space Mono",ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+    --display:"Fraunces",Georgia,serif;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-text-size-adjust:100%}
@@ -21,15 +25,30 @@
        border-radius:8px;padding:14px 20px}
   .o{color:var(--orange)}
   .kicker{font-size:11px;letter-spacing:.18em;font-weight:700;color:var(--muted);margin-bottom:6px}
-  h1{font-size:30px;line-height:1.15;margin-bottom:10px}
+  h1{font-family:var(--display);font-weight:600;font-size:38px;line-height:1.05;
+     letter-spacing:-.01em;margin-bottom:10px}
   .concept{font-size:13px;color:#333;border-left:3px solid var(--orange);
        padding-left:12px;margin:14px 0}
-  .album{margin-top:22px;padding-top:18px;border-top:1px solid var(--hairline)}
-  .album .role{font-size:10px;letter-spacing:.2em;font-weight:700;color:var(--orange);margin-bottom:4px}
-  .album h2{font-size:19px;margin-bottom:8px}
+  .album{margin-top:26px;padding-top:20px;border-top:1px solid var(--hairline)}
+  .album .role{font-size:10px;letter-spacing:.2em;font-weight:700;color:var(--orange);margin-bottom:6px}
+  .album .artist{font-size:12px;letter-spacing:.14em;font-weight:700;color:var(--muted)}
+  .album .artist span{font-weight:400;letter-spacing:.06em}
+  .albumtitle{font-family:var(--display);font-style:italic;font-weight:500;
+       font-size:32px;line-height:1.1;letter-spacing:-.01em;margin:4px 0 12px}
   .album p{margin-bottom:10px}
   .listenfor{background:#dfdfda;border-radius:6px;padding:10px 14px;font-size:13px;margin:10px 0}
   .listenfor b{letter-spacing:.08em;font-size:11px}
+  .tracks{margin:10px 0;font-size:13px}
+  .tracks summary{cursor:pointer;font-size:11px;letter-spacing:.14em;font-weight:700;
+       color:var(--muted);padding:8px 0;list-style:none}
+  .tracks summary::-webkit-details-marker{display:none}
+  .tracks summary::before{content:"▸ ";color:var(--orange)}
+  .tracks[open] summary::before{content:"▾ "}
+  .tracks ol{list-style:none;margin:4px 0 6px}
+  .tracks li{padding:8px 0;border-top:1px dotted var(--hairline)}
+  .tracks li b{font-size:13px}
+  .tracks .t{color:var(--muted);font-size:12px;margin-left:8px;white-space:nowrap}
+  .tracks .cue{color:#333}
   .meta{font-size:12px;color:var(--muted);margin-top:8px}
   .meta a{color:var(--ink)}
   .play{display:inline-block;margin-top:6px;font-size:12px;font-weight:700;letter-spacing:.06em;
@@ -57,45 +76,106 @@
 
     <div class="album">
       <div class="role">ANCHOR</div>
-      <h2>Pink Floyd — <i>The Dark Side of the Moon</i> (1973)</h2>
+      <div class="artist">PINK FLOYD <span>1973</span></div>
+      <h2 class="albumtitle">The Dark Side of the Moon</h2>
       <p>Known ground — now hear it like a spatial-audio lab taught you. Every song sits in a different room, and reverb is the set design.</p>
       <div class="listenfor"><b>LISTEN FOR</b> — the room each song is "in." "Time" opens in a clock shop the size of a closet, then the band kicks in inside a hangar. Same album, different architecture per track.</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol>
+        <li><b>1. Speak to Me</b><span class="t">0:00</span><br><span class="cue">Heartbeat plus the album's sounds arriving one at a time, all flat and close. Notice how small the room feels before it opens up.</span></li>
+        <li><b>2. Breathe (In the Air)</b><span class="t">1:04</span><br><span class="cue">The first real room: slide guitar swimming in reverb over that same heartbeat. Same pulse, completely different air.</span></li>
+        <li><b>3. On the Run</b><span class="t">3:53</span><br><span class="cue">No band, just synthesizer — the stereo field becomes the instrument as the sequence pans ear to ear.</span></li>
+        <li><b>4. Time</b><span class="t">7:29</span><br><span class="cue">Clocks detonating in what sounds like a closet, then the band lands inside a hangar. Compare this drum room to track 1.</span></li>
+        <li><b>5. The Great Gig in the Sky</b><span class="t">14:32</span><br><span class="cue">Voice as pure timbre, no words — the reverb tail is doing half the emotional work.</span></li>
+        <li><b>6. Money</b><span class="t">19:17</span><br><span class="cue">Cash registers keeping odd meter; the sax sits bone-dry against everything else. That's a mixing decision, not an accident.</span></li>
+        <li><b>7. Us and Them</b><span class="t">25:37</span><br><span class="cue">The softest room on the record — two voices stacked until they blur into one thick one.</span></li>
+        <li><b>8. Any Colour You Like</b><span class="t">33:29</span><br><span class="cue">The keyboard tone keeps morphing while the notes barely change. Timbre carrying a whole track.</span></li>
+        <li><b>9. Brain Damage</b><span class="t">36:55</span><br><span class="cue">Laughter circling your head in stereo; the acoustic guitar underneath is the driest thing on the album.</span></li>
+        <li><b>10. Eclipse</b><span class="t">40:46</span><br><span class="cue">Everything returns at once, then the heartbeat from track 1 closes the loop.</span></li>
+      </ol></details>
       <a class="play" href="https://open.spotify.com/album/4LH4d3cOWNNsVw41Gqt2kv">PLAY ON SPOTIFY</a>
       <div class="meta">Sources: <a href="https://open.spotify.com/album/4LH4d3cOWNNsVw41Gqt2kv">Spotify</a></div>
     </div>
 
     <div class="album">
       <div class="role">ADVENTUROUS</div>
-      <h2>Pink Floyd — <i>Animals</i> (1977)</h2>
+      <div class="artist">PINK FLOYD <span>1977</span></div>
+      <h2 class="albumtitle">Animals</h2>
       <p>Same band, colder rooms. The sheep don't sound like the dogs because of the notes — they sound different because of the tone.</p>
       <div class="listenfor"><b>LISTEN FOR</b> — how much bigger and emptier the guitars sound than Dark Side — timbre doing narrative work.</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol>
+        <li><b>1. Pigs on the Wing 1</b><span class="t">0:00</span><br><span class="cue">Just voice and acoustic guitar, close-miked and dry. The whole album gets colder and bigger from here.</span></li>
+        <li><b>2. Dogs</b><span class="t">1:24</span><br><span class="cue">The long one — guitars enormous and empty next to Dark Side. Timbre doing narrative work, as promised.</span></li>
+        <li><b>3. Pigs (Three Different Ones)</b><span class="t">18:29</span><br><span class="cue">Talkbox guitar that sounds like it's mocking you; notice how the room shrinks when the funk section hits.</span></li>
+        <li><b>4. Sheep</b><span class="t">29:55</span><br><span class="cue">The sheep sounds are the joke and the point — processed voices as instruments, not effects.</span></li>
+        <li><b>5. Pigs on the Wing 2</b><span class="t">40:14</span><br><span class="cue">The bookend, same close room as track 1. After all that space, dryness feels like shelter.</span></li>
+      </ol></details>
       <a class="play" href="https://open.spotify.com/album/3b4E89rxzZQ9zkhgKpj8N4">PLAY ON SPOTIFY</a>
       <div class="meta">Sources: <a href="https://open.spotify.com/album/3b4E89rxzZQ9zkhgKpj8N4">Spotify</a></div>
     </div>
 
     <div class="album">
       <div class="role">ADVENTUROUS</div>
-      <h2>The Smile — <i>A Light for Attracting Attention</i> (2022)</h2>
+      <div class="artist">THE SMILE <span>2022</span></div>
+      <h2 class="albumtitle">A Light for Attracting Attention</h2>
       <p>Yorke / Greenwood / Skinner. Compare its drums bar-for-bar against any 808 on Four Tet's record — same job (keep time), different species.</p>
       <div class="listenfor"><b>LISTEN FOR</b> — the drums. Real kick, real room, no samples.</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol>
+        <li><b>1. The Same</b><span class="t">0:00</span><br><span class="cue">Strings sawing against a lurching groove. Compare this drum sound bar-for-bar with any 808 this week.</span></li>
+        <li><b>2. The Opposite</b><span class="t">4:19</span><br><span class="cue">The bassline does the singing; the drums stay skeletal so every hit lands.</span></li>
+        <li><b>3. You Will Never Work in Television Again</b><span class="t">7:25</span><br><span class="cue">The loud one: real kit, real room, no samples. The week's thesis in two minutes.</span></li>
+        <li><b>4. Pana-vision</b><span class="t">10:13</span><br><span class="cue">Piano-led and spacious — the reverb here is a room you could actually stand in.</span></li>
+        <li><b>5. The Smoke</b><span class="t">14:22</span><br><span class="cue">The groove is all hi-hat and bass; Yorke's voice sits on top like another percussion element.</span></li>
+        <li><b>6. Speech Bubbles</b><span class="t">18:01</span><br><span class="cue">The softest track — brushed drums and strings, everything breathing.</span></li>
+        <li><b>7. Thin Thing</b><span class="t">22:18</span><br><span class="cue">Greenwood's guitar tone does the talking: jagged, dry, close.</span></li>
+        <li><b>8. Open the Floodgates</b><span class="t">26:49</span><br><span class="cue">Ballad with orchestral weight; the piano reverb stretches for days.</span></li>
+        <li><b>9. Free in the Knowledge</b><span class="t">31:18</span><br><span class="cue">Acoustic and exposed — you can hear the room around the guitar.</span></li>
+        <li><b>10. A Hairdryer</b><span class="t">35:31</span><br><span class="cue">The rhythm stutters and reforms; listen for the kit falling apart and snapping back.</span></li>
+        <li><b>11. Waving a White Flag</b><span class="t">40:49</span><br><span class="cue">Motorik pulse, relentless — the timbre barely changes and that's the engine.</span></li>
+        <li><b>12. We Don't Know What Tomorrow Brings</b><span class="t">44:36</span><br><span class="cue">Punk brevity after all that sprawl; drums mixed like a garage.</span></li>
+        <li><b>13. Skrting on the Surface</b><span class="t">47:53</span><br><span class="cue">The comedown: piano and strings, everything receding into reverb.</span></li>
+      </ol></details>
       <a class="play" href="https://open.spotify.com/album/009EjjwUjtdjvH7UP0wHzi">PLAY ON SPOTIFY</a>
       <div class="meta">Sources: <a href="https://open.spotify.com/album/009EjjwUjtdjvH7UP0wHzi">Spotify</a></div>
     </div>
 
     <div class="album">
       <div class="role">ADVENTUROUS</div>
-      <h2>Four Tet — <i>Beautiful Rewind</i> (2013)</h2>
+      <div class="artist">FOUR TET <span>2013</span></div>
+      <h2 class="albumtitle">Beautiful Rewind</h2>
       <p>Pirate-radio textures, chopped voices, heavy low end. Dozens of tiny samples that have no business sharing a track, placed inside one smeared imaginary space so they sound like they belong together.</p>
       <div class="listenfor"><b>LISTEN FOR</b> — reverb as glue — one smeared, imaginary space holding all the fragments.</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol>
+        <li><b>1. Gong</b><span class="t">0:00</span><br><span class="cue">A struck-metal shimmer that never fully decays — the whole album lives inside that smear.</span></li>
+        <li><b>2. Parallel Jalebi</b><span class="t">3:14</span><br><span class="cue">Chopped voices folded into the low end; dozens of fragments sharing one imaginary space.</span></li>
+        <li><b>3. Our Navigation</b><span class="t">7:08</span><br><span class="cue">The bass does the navigating — reverb gluing samples that have no business coexisting.</span></li>
+        <li><b>4. Ba Teaches Yoga</b><span class="t">11:02</span><br><span class="cue">Breathy and looped; the room is entirely synthetic and it doesn't matter.</span></li>
+        <li><b>5. Kool FM</b><span class="t">14:22</span><br><span class="cue">Pirate-radio static as texture — the hiss is an instrument, not a flaw.</span></li>
+        <li><b>6. Crush</b><span class="t">19:31</span><br><span class="cue">Short burst of pressure; the kick hits harder because everything around it is smeared.</span></li>
+        <li><b>7. Buchla</b><span class="t">21:57</span><br><span class="cue">Named for the synth, and it shows — alien tones tamed by that same gluey reverb.</span></li>
+        <li><b>8. Aerial</b><span class="t">26:09</span><br><span class="cue">The most open track; fragments drift further apart before the low end pulls them back.</span></li>
+        <li><b>9. Ever Never</b><span class="t">32:06</span><br><span class="cue">A thirty-second palate cleanser. Blink and it's gone.</span></li>
+        <li><b>10. Unicorn</b><span class="t">32:37</span><br><span class="cue">Voices pitched and stretched until they're pure texture — meaning dissolves, timbre remains.</span></li>
+        <li><b>11. Your Body Feels</b><span class="t">36:08</span><br><span class="cue">The comedown groove; the reverb finally relaxes and lets the beat sit dry.</span></li>
+      </ol></details>
       <a class="play" href="https://open.spotify.com/album/7gN7gWms3Uz0GLLtLYHybk">PLAY ON SPOTIFY</a>
       <div class="meta">Sources: <a href="https://open.spotify.com/album/7gN7gWms3Uz0GLLtLYHybk">Spotify</a></div>
     </div>
 
     <div class="album">
       <div class="role">WILD CARD</div>
-      <h2>Can — <i>Tago Mago</i> (1971)</h2>
+      <div class="artist">CAN <span>1971</span></div>
+      <h2 class="albumtitle">Tago Mago</h2>
       <p>The stretch. A Cologne basement, a Japanese busker on vocals, twenty minutes of "Halleluwah" on one chord. Hypnosis through refusal to vary — if it bounces off you, that's data: note where you check out.</p>
       <div class="listenfor"><b>LISTEN FOR</b> — Jaki Liebezeit's hi-hat — the timbre barely changes for the whole album, and that's the point.</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol>
+        <li><b>1. Paperhouse</b><span class="t">0:00</span><br><span class="cue">The welcome mat — an actual song, with Jaki's hi-hat already refusing to vary.</span></li>
+        <li><b>2. Mushroom</b><span class="t">7:28</span><br><span class="cue">Damo Suzuki chanting over one chord; the timbre barely moves and the tension builds anyway.</span></li>
+        <li><b>3. Oh Yeah</b><span class="t">11:32</span><br><span class="cue">Tapes reversed, voices smeared — the drums stay stubbornly dry underneath the weirdness.</span></li>
+        <li><b>4. Halleluhwah</b><span class="t">18:54</span><br><span class="cue">The long one on a single chord. This is the hypnosis test — note exactly when you check out; that's data.</span></li>
+        <li><b>5. Aumgn</b><span class="t">37:26</span><br><span class="cue">The basement tape: grunts, static, no beat. The hi-hat's absence is deafening after track 4.</span></li>
+        <li><b>6. Peking O</b><span class="t">54:57</span><br><span class="cue">Chaos reassembles into a groove; the drums sound like they're in a concrete room.</span></li>
+        <li><b>7. Bring Me Coffee or Tea</b><span class="t">66:41</span><br><span class="cue">The gentle landing — after an hour of refusal-to-vary, a simple song feels radical.</span></li>
+      </ol></details>
       <a class="play" href="https://open.spotify.com/album/0bO4qU98i4vCpGqTElUZDQ">PLAY ON SPOTIFY</a>
       <div class="meta">Sources: <a href="https://open.spotify.com/album/0bO4qU98i4vCpGqTElUZDQ">Spotify</a></div>
     </div>
