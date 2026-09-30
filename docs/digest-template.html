@@ -5,11 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LONG-PLAY — WEEK {{WEEK_NUM}}: {{WEEK_TITLE}}</title>
 <meta name="description" content="long-play weekly digest — Week {{WEEK_NUM}}: {{WEEK_TITLE}}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
   :root{
     --ink:#111111; --paper:#e9e9e6; --chassis:#0b0b0b; --panel-dark:#141414;
     --hairline:#b9b9b4; --muted:#6f6f6a; --orange:#ff4a00;
-    --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+    --mono:"Space Mono",ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+    --display:"Fraunces",Georgia,serif;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-text-size-adjust:100%}
@@ -21,15 +25,30 @@
        border-radius:8px;padding:14px 20px}
   .o{color:var(--orange)}
   .kicker{font-size:11px;letter-spacing:.18em;font-weight:700;color:var(--muted);margin-bottom:6px}
-  h1{font-size:30px;line-height:1.15;margin-bottom:10px}
+  h1{font-family:var(--display);font-weight:600;font-size:38px;line-height:1.05;
+     letter-spacing:-.01em;margin-bottom:10px}
   .concept{font-size:13px;color:#333;border-left:3px solid var(--orange);
        padding-left:12px;margin:14px 0}
-  .album{margin-top:22px;padding-top:18px;border-top:1px solid var(--hairline)}
-  .album .role{font-size:10px;letter-spacing:.2em;font-weight:700;color:var(--orange);margin-bottom:4px}
-  .album h2{font-size:19px;margin-bottom:8px}
+  .album{margin-top:26px;padding-top:20px;border-top:1px solid var(--hairline)}
+  .album .role{font-size:10px;letter-spacing:.2em;font-weight:700;color:var(--orange);margin-bottom:6px}
+  .album .artist{font-size:12px;letter-spacing:.14em;font-weight:700;color:var(--muted)}
+  .album .artist span{font-weight:400;letter-spacing:.06em}
+  .albumtitle{font-family:var(--display);font-style:italic;font-weight:500;
+       font-size:32px;line-height:1.1;letter-spacing:-.01em;margin:4px 0 12px}
   .album p{margin-bottom:10px}
   .listenfor{background:#dfdfda;border-radius:6px;padding:10px 14px;font-size:13px;margin:10px 0}
   .listenfor b{letter-spacing:.08em;font-size:11px}
+  .tracks{margin:10px 0;font-size:13px}
+  .tracks summary{cursor:pointer;font-size:11px;letter-spacing:.14em;font-weight:700;
+       color:var(--muted);padding:8px 0;list-style:none}
+  .tracks summary::-webkit-details-marker{display:none}
+  .tracks summary::before{content:"▸ ";color:var(--orange)}
+  .tracks[open] summary::before{content:"▾ "}
+  .tracks ol{list-style:none;margin:4px 0 6px}
+  .tracks li{padding:8px 0;border-top:1px dotted var(--hairline)}
+  .tracks li b{font-size:13px}
+  .tracks .t{color:var(--muted);font-size:12px;margin-left:8px;white-space:nowrap}
+  .tracks .cue{color:#333}
   .meta{font-size:12px;color:var(--muted);margin-top:8px}
   .meta a{color:var(--ink)}
   .play{display:inline-block;margin-top:6px;font-size:12px;font-weight:700;letter-spacing:.06em;
@@ -57,45 +76,55 @@
 
     <div class="album">
       <div class="role">{{A_ROLE}}</div>
-      <h2>{{A_ARTIST}} — <i>{{A_ALBUM}}</i> ({{A_YEAR}})</h2>
+      <div class="artist">{{A_ARTIST}} <span>{{A_YEAR}}</span></div>
+      <h2 class="albumtitle">{{A_ALBUM}}</h2>
       <p>{{A_HOOK}}</p>
       <div class="listenfor"><b>LISTEN FOR</b> — {{A_LISTENFOR}}</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol>{{A_TRACKNOTES}}</ol></details>
       {{A_PLAYLINK}}
       <div class="meta">Sources: {{A_SOURCES}}</div>
     </div>
 
     <div class="album">
       <div class="role">{{B_ROLE}}</div>
-      <h2>{{B_ARTIST}} — <i>{{B_ALBUM}}</i> ({{B_YEAR}})</h2>
+      <div class="artist">{{B_ARTIST}} <span>{{B_YEAR}}</span></div>
+      <h2 class="albumtitle">{{B_ALBUM}}</h2>
       <p>{{B_HOOK}}</p>
       <div class="listenfor"><b>LISTEN FOR</b> — {{B_LISTENFOR}}</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol>{{B_TRACKNOTES}}</ol></details>
       {{B_PLAYLINK}}
       <div class="meta">Sources: {{B_SOURCES}}</div>
     </div>
 
     <div class="album">
       <div class="role">{{C_ROLE}}</div>
-      <h2>{{C_ARTIST}} — <i>{{C_ALBUM}}</i> ({{C_YEAR}})</h2>
+      <div class="artist">{{C_ARTIST}} <span>{{C_YEAR}}</span></div>
+      <h2 class="albumtitle">{{C_ALBUM}}</h2>
       <p>{{C_HOOK}}</p>
       <div class="listenfor"><b>LISTEN FOR</b> — {{C_LISTENFOR}}</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol>{{C_TRACKNOTES}}</ol></details>
       {{C_PLAYLINK}}
       <div class="meta">Sources: {{C_SOURCES}}</div>
     </div>
 
     <div class="album">
       <div class="role">{{D_ROLE}}</div>
-      <h2>{{D_ARTIST}} — <i>{{D_ALBUM}}</i> ({{D_YEAR}})</h2>
+      <div class="artist">{{D_ARTIST}} <span>{{D_YEAR}}</span></div>
+      <h2 class="albumtitle">{{D_ALBUM}}</h2>
       <p>{{D_HOOK}}</p>
       <div class="listenfor"><b>LISTEN FOR</b> — {{D_LISTENFOR}}</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol>{{D_TRACKNOTES}}</ol></details>
       {{D_PLAYLINK}}
       <div class="meta">Sources: {{D_SOURCES}}</div>
     </div>
 
     <div class="album">
       <div class="role">{{E_ROLE}}</div>
-      <h2>{{E_ARTIST}} — <i>{{E_ALBUM}}</i> ({{E_YEAR}})</h2>
+      <div class="artist">{{E_ARTIST}} <span>{{E_YEAR}}</span></div>
+      <h2 class="albumtitle">{{E_ALBUM}}</h2>
       <p>{{E_HOOK}}</p>
       <div class="listenfor"><b>LISTEN FOR</b> — {{E_LISTENFOR}}</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol>{{E_TRACKNOTES}}</ol></details>
       {{E_PLAYLINK}}
       <div class="meta">Sources: {{E_SOURCES}}</div>
     </div>
