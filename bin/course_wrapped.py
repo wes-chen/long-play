@@ -23,6 +23,9 @@ import re
 import sys
 from collections import defaultdict
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from streak import is_full_listen
+
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GOAL = os.path.expanduser("~/workspace/goals/album-recommender-music-digest")
 LOG = os.path.join(GOAL, "listening-log.md")
@@ -125,12 +128,12 @@ def main():
     for r in rs:
         by_reaction[r["reaction"]] += 1
 
-    # full-listen weeks: 5 reactions, >=3 played/loved
+    # full-listen weeks: 5 distinct albums, >=3 played/loved (streak.py contract)
     per_week = defaultdict(list)
     for r in rs:
-        per_week[r["week"]].append(r["reaction"])
-    full_weeks = [w for w, rxs in per_week.items()
-                  if len(rxs) >= 5 and sum(x in ("played", "loved") for x in rxs) >= 3]
+        per_week[r["week"]].append(
+            (f"{norm(r['artist'])}|{norm(r['album'])}", r["reaction"]))
+    full_weeks = [w for w, rxs in per_week.items() if is_full_listen(rxs)]
 
     # growers
     growers = []
