@@ -64,13 +64,28 @@ def week_reactions():
             for line in f:
                 m = ROW_RE.match(line)
                 if m:
-                    weeks[int(m.group(1))].append(m.group(5).lower())
+                    album_key = f"{m.group(2).strip().lower()}|{m.group(3).strip().lower()}"
+                    weeks[int(m.group(1))].append((album_key, m.group(5).lower()))
     return weeks
 
 
-def is_full_listen(reactions):
-    return len(reactions) >= 5 and sum(
-        r in ("played", "loved") for r in reactions) >= 3
+def album_stats(entries):
+    """Per-distinct-album rollup of (album_key, reaction) entries.
+
+    A second-chance re-listen row merges into its album's entry: the album
+    counts as played/loved if ANY of its rows was played or loved. Returns
+    (distinct_albums, distinct_played_or_loved)."""
+    by_album = defaultdict(list)
+    for album, r in entries:
+        by_album[album].append(r)
+    played = {a for a, rs in by_album.items()
+              if any(r in ("played", "loved") for r in rs)}
+    return len(by_album), len(played)
+
+
+def is_full_listen(entries):
+    n, pl = album_stats(entries)
+    return n >= 5 and pl >= 3
 
 
 def compute_streak(weeks):
