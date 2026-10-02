@@ -31,6 +31,8 @@ import os
 import re
 import sys
 
+from log_drift import drift_watch
+
 GOAL = os.path.expanduser("~/workspace/goals/album-recommender-music-digest")
 LOG = os.path.join(GOAL, "listening-log.md")
 STATE = os.path.join(GOAL, "hidden_files", "grower-state.json")
@@ -80,9 +82,10 @@ def scan():
     if not os.path.exists(LOG):
         print(json.dumps({"added": 0, "note": "no listening log yet"}))
         return
+    watch, warn = drift_watch(ROW_RE)
     with open(LOG) as f:
         for line in f:
-            m = ROW_RE.match(line)
+            m = watch(line)
             if not m:
                 continue
             week_s, album, artist, slot, reaction = m.groups()
@@ -106,6 +109,7 @@ def scan():
             })
             known.add(key)
             added += 1
+    warn()
     save_state(state)
     print(json.dumps({"added": added, "queue_size": len(state["queue"])}))
 
