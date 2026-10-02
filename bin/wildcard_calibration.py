@@ -28,6 +28,8 @@ import re
 import sys
 from collections import defaultdict
 
+from log_drift import drift_watch
+
 GOAL = os.path.expanduser("~/workspace/goals/album-recommender-music-digest")
 LOG = os.path.join(GOAL, "listening-log.md")
 OUT = os.path.join(GOAL, "hidden_files", "wildcard-calibration.json")
@@ -52,12 +54,14 @@ def slot_of(raw):
 def main():
     rows = []
     if os.path.exists(LOG):
+        watch, warn = drift_watch(ROW_RE)
         with open(LOG) as f:
             for line in f:
-                m = ROW_RE.match(line)
+                m = watch(line)
                 if m:
                     rows.append((int(m.group(1)), slot_of(m.group(4)),
                                  m.group(5).lower(), float(m.group(6))))
+        warn()
     weeks = len({r[0] for r in rows})
     per_slot = defaultdict(lambda: {"n": 0, "loved": 0, "scores": []})
     for _, slot, reaction, weight in rows:
