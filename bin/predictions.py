@@ -29,6 +29,8 @@ import re
 import sys
 from datetime import datetime, timezone
 
+from log_drift import drift_watch
+
 GOAL = os.path.expanduser("~/workspace/goals/album-recommender-music-digest")
 STATE = os.path.join(GOAL, "hidden_files", "predictions.json")
 LOG = os.path.join(GOAL, "listening-log.md")
@@ -89,12 +91,14 @@ def log_reactions(week):
     out = {}
     if not os.path.exists(LOG):
         return out
+    watch, warn = drift_watch(ROW_RE)
     with open(LOG) as f:
         for line in f:
-            m = ROW_RE.match(line)
+            m = watch(line)
             if m and int(m.group(1)) == int(week):
                 out[(m.group(3).strip().lower(), m.group(2).strip().lower())] = \
                     m.group(5).lower()
+    warn()
     return out
 
 
