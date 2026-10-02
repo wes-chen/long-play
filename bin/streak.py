@@ -31,6 +31,8 @@ import re
 import sys
 from collections import defaultdict
 
+from log_drift import drift_watch
+
 GOAL = os.path.expanduser("~/workspace/goals/album-recommender-music-digest")
 LOG = os.path.join(GOAL, "listening-log.md")
 STATE = os.path.join(GOAL, "hidden_files", "streak.json")
@@ -60,12 +62,14 @@ def save_state(s):
 def week_reactions():
     weeks = defaultdict(list)
     if os.path.exists(LOG):
+        watch, warn = drift_watch(ROW_RE)
         with open(LOG) as f:
             for line in f:
-                m = ROW_RE.match(line)
+                m = watch(line)
                 if m:
                     album_key = f"{m.group(2).strip().lower()}|{m.group(3).strip().lower()}"
                     weeks[int(m.group(1))].append((album_key, m.group(5).lower()))
+        warn()
     return weeks
 
 
