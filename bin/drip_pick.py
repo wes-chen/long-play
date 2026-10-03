@@ -25,6 +25,15 @@ Silent cases (prints {"silent": "<reason>"} and exits 0): no week delivered
 yet, week file missing/unparseable, or not a Tue-Fri run. The drip never
 alters the week's picks — read-only.
 
+Blind weeks (#20): the predictions file may flag a week blind. On a blind
+week the drip must not spoil the reveal — the pick JSON carries the A–E
+file-order label (matching the digest's labeling) in artist/album, nulls
+year/listen_for/guided_cue, and sets "blind": true. The drip worker renders
+the label only: no artist/album names, no listen-for line, no guided cue
+(the real track titles and start times stay hidden) until feedback is
+logged. Redaction happens at the JSON source, so the drip cron body needs
+no matching guard — the composition rules only ever see blind-safe text.
+
 Usage:
     python3 bin/drip_pick.py            # print today's pick (or silent reason)
     python3 bin/drip_pick.py --mark-sent  # record today's pick in the watermark
@@ -45,6 +54,10 @@ DELIVERED = os.path.expanduser(
 DRIP_SENT = os.path.expanduser(
     "~/workspace/goals/album-recommender-music-digest/hidden_files/"
     "drip-sent.json"
+)
+PREDICTIONS = os.path.expanduser(
+    "~/workspace/goals/album-recommender-music-digest/hidden_files/"
+    "predictions.json"
 )
 PT = ZoneInfo("America/Los_Angeles")
 # Tue..Fri -> position in the 4-album drip order
@@ -124,6 +137,18 @@ def read_delivered():
         return set()
 
 
+def is_blind_week(week):
+    """True when predictions.json flags this week blind. Fail-closed: any
+    read error or missing week entry means not blind."""
+    try:
+        with open(PREDICTIONS) as f:
+            weeks = json.load(f).get("weeks", {})
+    except (FileNotFoundError, json.JSONDecodeError, AttributeError):
+        return False
+    entry = weeks.get(str(week), {})
+    return bool(entry.get("blind"))
+
+
 def parse_week_file(path):
     """Return the five album sections in file order.
 
@@ -171,9 +196,9 @@ def parse_week_file(path):
     return albums if len(albums) == 5 else None
 
 
-def main():
+def main(today=None):
     mark_sent = "--mark-sent" in sys.argv
-    today = datetime.datetime.now(PT).date()
+    today = today or datetime.datetime.now(PT).date()
     delivered = read_delivered()
     if not delivered:
         return silent("no week delivered yet; staying silent until the first Monday digest")
@@ -198,7 +223,22 @@ def main():
     pick = drip_order[DRIP_DAYS[today.weekday()]]
     pick = dict(pick)
     pick["week"] = week
-    pick = attach_guided_cue(pick)
+
+    if is_blind_week(week):
+        # #20: blind week — redact identity at the JSON source. The A–E
+        # label follows file order, matching the digest's blind labeling.
+        # Stay silent on the guided cue: its track titles and start times
+        # are real tracklist data that could identify the album.
+        label = "Album " + "ABCDE"[albums.index(drip_order[DRIP_DAYS[today.weekday()]])]
+        pick["blind"] = True
+        pick["artist"] = label
+        pick["album"] = label
+        pick["year"] = ""
+        pick["listen_for"] = None
+        pick["guided_cue"] = None
+    else:
+        pick["blind"] = False
+        pick = attach_guided_cue(pick)
 
     if mark_sent:
         sent[day_key] = {"album": pick["album"], "artist": pick["artist"],
