@@ -37,17 +37,6 @@
    "epic": 1.75
   }
  },
- "energy_modifiers": {
-  "high": {
-   "morning": 0.5,
-   "evening": -0.5
-  },
-  "low": {
-   "evening": 0.5,
-   "morning": -0.5
-  },
-  "medium": {}
- },
  "profiles": [
   {
    "artist": "Pink Floyd",
@@ -56,7 +45,6 @@
    "slot": "anchor",
    "minutes": 42.9,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -66,7 +54,6 @@
    "slot": "adventurous",
    "minutes": 41.7,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -76,7 +63,6 @@
    "slot": "adventurous",
    "minutes": 53.4,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -86,7 +72,6 @@
    "slot": "adventurous",
    "minutes": 40.2,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -96,7 +81,6 @@
    "slot": "wild_card",
    "minutes": 73.5,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -106,7 +90,6 @@
    "slot": "anchor",
    "minutes": 53.7,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -116,7 +99,6 @@
    "slot": "adventurous",
    "minutes": 42.9,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -126,7 +108,6 @@
    "slot": "adventurous",
    "minutes": 54.5,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -136,7 +117,6 @@
    "slot": "adventurous",
    "minutes": 68.1,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -146,7 +126,6 @@
    "slot": "wild_card",
    "minutes": 121.3,
    "duration_tier": "epic",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -156,7 +135,6 @@
    "slot": "anchor",
    "minutes": 67.7,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -166,7 +144,6 @@
    "slot": "adventurous",
    "minutes": 41.7,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -176,7 +153,6 @@
    "slot": "adventurous",
    "minutes": 37.7,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -186,7 +162,6 @@
    "slot": "adventurous",
    "minutes": 53.6,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -196,7 +171,6 @@
    "slot": "wild_card",
    "minutes": 50.6,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -206,7 +180,6 @@
    "slot": "anchor",
    "minutes": 47.2,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -216,7 +189,6 @@
    "slot": "adventurous",
    "minutes": 41.0,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -226,7 +198,6 @@
    "slot": "adventurous",
    "minutes": 43.5,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -236,7 +207,6 @@
    "slot": "adventurous",
    "minutes": 53.0,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -246,7 +216,6 @@
    "slot": "wild_card",
    "minutes": 39.0,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -256,7 +225,6 @@
    "slot": "anchor",
    "minutes": 60.3,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -266,7 +234,6 @@
    "slot": "adventurous",
    "minutes": 38.9,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -276,7 +243,6 @@
    "slot": "adventurous",
    "minutes": 51.9,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -286,7 +252,6 @@
    "slot": "adventurous",
    "minutes": 53.9,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -296,7 +261,6 @@
    "slot": "wild_card",
    "minutes": 75.7,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -306,7 +270,6 @@
    "slot": "anchor",
    "minutes": 46.6,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -316,7 +279,6 @@
    "slot": "adventurous",
    "minutes": 37.4,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -326,7 +288,6 @@
    "slot": "adventurous",
    "minutes": 40.6,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -336,7 +297,6 @@
    "slot": "adventurous",
    "minutes": 73.0,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -346,7 +306,6 @@
    "slot": "wild_card",
    "minutes": 84.6,
    "duration_tier": "epic",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -356,7 +315,6 @@
    "slot": "anchor",
    "minutes": 59.6,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -366,7 +324,6 @@
    "slot": "adventurous",
    "minutes": 42.8,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -376,7 +333,6 @@
    "slot": "adventurous",
    "minutes": 19.4,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -386,7 +342,6 @@
    "slot": "adventurous",
    "minutes": 117.7,
    "duration_tier": "epic",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -396,7 +351,6 @@
    "slot": "wild_card",
    "minutes": 50.5,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -406,7 +360,6 @@
    "slot": "anchor",
    "minutes": 43.0,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -416,7 +369,6 @@
    "slot": "adventurous",
    "minutes": 42.3,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -426,7 +378,6 @@
    "slot": "adventurous",
    "minutes": 40.2,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -436,7 +387,6 @@
    "slot": "adventurous",
    "minutes": 38.3,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -446,7 +396,6 @@
    "slot": "wild_card",
    "minutes": 32.1,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -456,7 +405,6 @@
    "slot": "anchor",
    "minutes": 4.3,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -466,7 +414,6 @@
    "slot": "adventurous",
    "minutes": 74.7,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -476,7 +423,6 @@
    "slot": "adventurous",
    "minutes": 52.4,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -486,7 +432,6 @@
    "slot": "adventurous",
    "minutes": 120.7,
    "duration_tier": "epic",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -496,7 +441,6 @@
    "slot": "wild_card",
    "minutes": 43.0,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -506,7 +450,6 @@
    "slot": "anchor",
    "minutes": 26.1,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -516,7 +459,6 @@
    "slot": "adventurous",
    "minutes": 36.7,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -526,7 +468,6 @@
    "slot": "adventurous",
    "minutes": 45.7,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -536,7 +477,6 @@
    "slot": "adventurous",
    "minutes": 41.1,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -546,7 +486,6 @@
    "slot": "wild_card",
    "minutes": 51.4,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -556,7 +495,6 @@
    "slot": "anchor",
    "minutes": 37.8,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -566,7 +504,6 @@
    "slot": "adventurous",
    "minutes": 41.8,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -576,7 +513,6 @@
    "slot": "adventurous",
    "minutes": 61.7,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -586,7 +522,6 @@
    "slot": "adventurous",
    "minutes": 54.7,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -596,7 +531,6 @@
    "slot": "wild_card",
    "minutes": 55.3,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -606,7 +540,6 @@
    "slot": "anchor",
    "minutes": 45.4,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -616,7 +549,6 @@
    "slot": "adventurous",
    "minutes": 38.2,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -626,7 +558,6 @@
    "slot": "adventurous",
    "minutes": 74.1,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -636,7 +567,6 @@
    "slot": "adventurous",
    "minutes": 62.9,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -646,7 +576,6 @@
    "slot": "wild_card",
    "minutes": 105.8,
    "duration_tier": "epic",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -656,7 +585,6 @@
    "slot": "anchor",
    "minutes": 74.1,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -666,7 +594,6 @@
    "slot": "adventurous",
    "minutes": 46.0,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -676,7 +603,6 @@
    "slot": "adventurous",
    "minutes": 70.0,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -686,7 +612,6 @@
    "slot": "adventurous",
    "minutes": 37.7,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -696,7 +621,6 @@
    "slot": "wild_card",
    "minutes": 173.6,
    "duration_tier": "epic",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -706,7 +630,6 @@
    "slot": "anchor",
    "minutes": 57.1,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -716,7 +639,6 @@
    "slot": "adventurous",
    "minutes": 94.2,
    "duration_tier": "epic",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -726,7 +648,6 @@
    "slot": "adventurous",
    "minutes": 37.0,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -736,7 +657,6 @@
    "slot": "adventurous",
    "minutes": 40.7,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -746,7 +666,6 @@
    "slot": "wild_card",
    "minutes": 66.1,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -756,7 +675,6 @@
    "slot": "anchor",
    "minutes": 50.0,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -766,7 +684,6 @@
    "slot": "adventurous",
    "minutes": 50.0,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -776,7 +693,6 @@
    "slot": "adventurous",
    "minutes": 39.5,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -786,7 +702,6 @@
    "slot": "adventurous",
    "minutes": 42.9,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -796,7 +711,6 @@
    "slot": "wild_card",
    "minutes": 41.2,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -806,7 +720,6 @@
    "slot": "anchor",
    "minutes": 36.1,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -816,7 +729,6 @@
    "slot": "adventurous",
    "minutes": 43.7,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -826,7 +738,6 @@
    "slot": "adventurous",
    "minutes": 36.6,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -836,7 +747,6 @@
    "slot": "adventurous",
    "minutes": 43.3,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -846,7 +756,6 @@
    "slot": "wild_card",
    "minutes": 51.9,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -856,7 +765,6 @@
    "slot": "anchor",
    "minutes": 52.8,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -866,7 +774,6 @@
    "slot": "adventurous",
    "minutes": 76.8,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -876,7 +783,6 @@
    "slot": "adventurous",
    "minutes": 50.1,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -886,7 +792,6 @@
    "slot": "adventurous",
    "minutes": 63.5,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -896,7 +801,6 @@
    "slot": "wild_card",
    "minutes": 84.6,
    "duration_tier": "epic",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -906,7 +810,6 @@
    "slot": "anchor",
    "minutes": 41.7,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -916,7 +819,6 @@
    "slot": "adventurous",
    "minutes": 60.0,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -926,7 +828,6 @@
    "slot": "adventurous",
    "minutes": 55.4,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -936,7 +837,6 @@
    "slot": "adventurous",
    "minutes": 70.5,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -946,7 +846,6 @@
    "slot": "wild_card",
    "minutes": 121.3,
    "duration_tier": "epic",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -956,7 +855,6 @@
    "slot": "anchor",
    "minutes": 31.0,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -966,7 +864,6 @@
    "slot": "adventurous",
    "minutes": 35.3,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -976,7 +873,6 @@
    "slot": "adventurous",
    "minutes": 39.1,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -986,7 +882,6 @@
    "slot": "adventurous",
    "minutes": 30.0,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -996,7 +891,6 @@
    "slot": "wild_card",
    "minutes": 13.4,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1006,7 +900,6 @@
    "slot": "anchor",
    "minutes": 13.5,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1016,7 +909,6 @@
    "slot": "adventurous",
    "minutes": 42.2,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1026,7 +918,6 @@
    "slot": "adventurous",
    "minutes": 43.7,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1036,7 +927,6 @@
    "slot": "adventurous",
    "minutes": 39.4,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1046,7 +936,6 @@
    "slot": "wild_card",
    "minutes": null,
    "duration_tier": null,
-   "energy": null,
    "tracklist": false
   },
   {
@@ -1056,7 +945,6 @@
    "slot": "anchor",
    "minutes": 56.6,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1066,7 +954,6 @@
    "slot": "adventurous",
    "minutes": 45.9,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1076,7 +963,6 @@
    "slot": "adventurous",
    "minutes": 72.4,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1086,7 +972,6 @@
    "slot": "adventurous",
    "minutes": 54.5,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1096,7 +981,6 @@
    "slot": "wild_card",
    "minutes": 46.8,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1106,7 +990,6 @@
    "slot": "anchor",
    "minutes": 51.3,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1116,7 +999,6 @@
    "slot": "adventurous",
    "minutes": 56.6,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1126,7 +1008,6 @@
    "slot": "adventurous",
    "minutes": 23.1,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1136,7 +1017,6 @@
    "slot": "adventurous",
    "minutes": 34.3,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1146,7 +1026,6 @@
    "slot": "wild_card",
    "minutes": 49.3,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1156,7 +1035,6 @@
    "slot": "anchor",
    "minutes": 139.4,
    "duration_tier": "epic",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1166,7 +1044,6 @@
    "slot": "adventurous",
    "minutes": 74.3,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1176,7 +1053,6 @@
    "slot": "adventurous",
    "minutes": 94.9,
    "duration_tier": "epic",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1186,7 +1062,6 @@
    "slot": "adventurous",
    "minutes": 36.6,
    "duration_tier": "short",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1196,7 +1071,6 @@
    "slot": "wild_card",
    "minutes": 47.0,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1206,7 +1080,6 @@
    "slot": "anchor",
    "minutes": 60.6,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1216,7 +1089,6 @@
    "slot": "adventurous",
    "minutes": 47.7,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1226,7 +1098,6 @@
    "slot": "adventurous",
    "minutes": 60.0,
    "duration_tier": "long",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1236,7 +1107,6 @@
    "slot": "adventurous",
    "minutes": 40.6,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   },
   {
@@ -1246,7 +1116,6 @@
    "slot": "wild_card",
    "minutes": 43.3,
    "duration_tier": "medium",
-   "energy": null,
    "tracklist": true
   }
  ]
