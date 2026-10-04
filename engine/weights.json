@@ -1,7 +1,7 @@
 {
  "formula": "score = w_rel\u00b7REL + w_nov\u00b7NOV + w_fresh\u00b7FRESH + w_div\u00b7DIV + w_cult\u00b7CULT + w_ctx\u00b7CTX",
  "signals": {
-  "CTX": "session fit: sampler-derived time-of-day patterns matched against album energy/duration profiles",
+  "CTX": "session fit: sampler-derived time-of-day patterns matched against album duration profiles (energy axis removed 2026-10-04, #28)",
   "CULT": "cultural-discourse score: canon membership, year-end-list appearances, review volume, RYM rating counts",
   "DIV": "marginal contribution to the week's diversity (quality-diversity trade-off)",
   "FRESH": "release recency, budgeted separately from NOV per YouTube 2607.23749",
