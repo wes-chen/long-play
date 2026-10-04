@@ -1,17 +1,20 @@
 #!/usr/bin/env python3
 """L5: CTX session model — derive album duration profiles from tracklists.
 
-Duration is the one CTX axis we can compute without guessing: sum of
+Duration is the one CTX axis we compute: sum of
 track duration_ms from engine/tracklists/*.json, binned into the tiers in
-reference/ctx-session-model.md. Energy stays manual (album_tags.json),
-because Spotify's audio-features endpoint is gone.
+reference/ctx-session-model.md. The energy axis was removed (#28): it was
+documented as a manual curator tag but no writer ever produced it, so the
+schema no longer promises the field. Re-add the axis only together with a
+real writer (e.g. a curated tagging pass) and a regression test that every
+profile carries it.
 
 Usage:
     python3 bin/ctx_profiles.py            # every syllabus album
     python3 bin/ctx_profiles.py --week 1   # one week's five albums
 
 Prints JSON: [{"artist", "album", "slot", "minutes", "duration_tier",
-"energy" (from album_tags.json, null when untagged), "tracklist": bool}].
+"tracklist": bool}].
 Unresolved albums appear with "minutes": null so gaps are visible, not
 silent.
 
@@ -27,11 +30,12 @@ import sys
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TRACKLIST_DIR = os.path.join(REPO, "engine", "tracklists")
 WEEKS_JSON = os.path.join(REPO, "engine", "weeks.json")
-TAGS_JSON = os.path.join(REPO, "engine", "album_tags.json")
 CTX_JSON = os.path.join(REPO, "engine", "ctx_profiles.json")
 
 # v0 matching table from reference/ctx-session-model.md: fit scores 0-2,
-# session x duration_tier. Energy modifiers applied after (medium = none).
+# session x duration_tier. (#28: the energy axis was removed — no writer
+# ever produced it, so ENERGY_MODIFIERS is gone; profiles are
+# duration-only. Re-add together with a real energy writer.)
 SESSIONS = {
     "morning": [7, 8, 9, 10],
     "afternoon": [15, 16, 17],
@@ -42,25 +46,17 @@ FIT_TABLE = {
     "afternoon": {"short": 1.5, "medium": 2.0, "long": 1.0, "epic": 0.5},
     "evening": {"short": 1.0, "medium": 1.5, "long": 2.0, "epic": 1.75},
 }
-ENERGY_MODIFIERS = {
-    "high": {"morning": 0.5, "evening": -0.5},
-    "low": {"evening": 0.5, "morning": -0.5},
-    "medium": {},
-}
 
 
-def fit(session, duration_tier_, energy):
+def fit(session, duration_tier_):
     """Fit score 0-2 for one (session, album) pair per the spec table.
 
-    Energy high -> +0.5 morning, -0.5 evening; low -> the reverse; medium
-    or untagged -> no change. Clamp to [0, 2]. Absent energy tag means
-    the profile is duration-only, never "low".
+    Duration-only (energy axis removed, #28). Clamp to [0, 2].
     """
     base = FIT_TABLE.get(session, {}).get(duration_tier_)
     if base is None:
         return None
-    delta = ENERGY_MODIFIERS.get(energy or "medium", {}).get(session, 0.0)
-    return round(min(2.0, max(0.0, base + delta)), 2)
+    return round(min(2.0, max(0.0, base)), 2)
 
 
 def norm(s):
@@ -123,12 +119,6 @@ def main():
             week_filter = a
     week_filter = int(week_filter) if week_filter else None
 
-    try:
-        with open(TAGS_JSON) as f:
-            tags = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        tags = {}
-
     with open(WEEKS_JSON) as f:
         weeks = json.load(f)["weeks"]
 
@@ -142,7 +132,6 @@ def main():
         for slot, p in picks:
             tl = load_tracklist(p["artist"], p["album"])
             mins = minutes_of(tl) if tl else None
-            tag = tags.get(f"{p['artist'].lower()}|{p['album'].lower()}", {})
             out.append({
                 "artist": p["artist"],
                 "album": p["album"],
@@ -150,7 +139,6 @@ def main():
                 "slot": slot,
                 "minutes": mins,
                 "duration_tier": duration_tier(mins),
-                "energy": tag.get("energy"),
                 "tracklist": tl is not None,
             })
     print(json.dumps(out, indent=1))
@@ -161,7 +149,6 @@ def main():
     envelope = {
         "sessions": SESSIONS,
         "fit_table": FIT_TABLE,
-        "energy_modifiers": ENERGY_MODIFIERS,
         "profiles": out,
     }
     tmp = CTX_JSON + ".tmp"
