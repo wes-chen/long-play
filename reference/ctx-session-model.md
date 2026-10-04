@@ -23,7 +23,7 @@ comes from the rollup's `hour_of_day_pt` histogram bucketed into these
 three sessions; `bin/ctx_profiles.py --sessions` will print the shares once
 data accrues.
 
-## Album profile: two axes
+## Album profile: one axis (duration)
 
 **duration_tier** — derived, never hand-set. `bin/ctx_profiles.py` sums
 `duration_ms` across the album's `engine/tracklists/*.json`:
@@ -35,34 +35,30 @@ data accrues.
 | long   | 60–80   | needs a protected block                   |
 | epic   | > 80    | an evening commitment, or two sessions    |
 
-**energy_tier** — manual: `low` / `medium` / high`. Recorded in
-`engine/album_tags.json` as `"energy": "low"`, set by the digest worker at
-week-file build time using the rubric below. No guessing: an absent energy
-tag means the worker hasn't verified the album, and CTX scores on duration
-only. Absent ≠ low.
-
-**Energy rubric** (sensory, genre-agnostic):
-
-- **low** — sits still. Ambient, drone, solo piano, hushed folk. The room can
-  stay quiet; nothing startles.
-- **medium** — moves. Most pop, rock, jazz, funk, R&B. Has pulse, doesn't
-  demand full attention.
-- **high** — demands. Distortion walls, double-kick, club systems, free-jazz
-  blowouts, anything mixed to be felt physically.
+**Energy axis — removed 2026-10-04 (#28).** The spec originally called for
+an `energy` (low/medium/high) manual curator tag recorded in
+`engine/album_tags.json`, applied as ±0.5 modifiers on top of the fit
+table. No writer ever produced that field (0 of 116 tagged albums carried
+it), so every profile shipped `energy: null` and the modifiers never
+fired — the pipeline looked complete while one axis contributed nothing.
+The axis was removed honestly rather than left as a dead promise:
+`ENERGY_MODIFIERS` and all energy reads are gone from `ctx_profiles.py`
+and `sampler/rollup.py`, and profiles are duration-only.
 
 **Metadata-source decision (record).** Spotify's `/audio-features` and
 `/audio-analysis` endpoints are removed for new apps since the November
 2024 Web API change — no programmatic energy/danceability/tempo source
 exists, and the connected `spotify-api` CLI exposes no audio-features
 command either. So: duration is derived from our own tracklists
-(deterministic, refresh-free); energy is a human tag with a fixed rubric.
-This is a deliberate trade — a consistent human tier beats a dead API.
+(deterministic, refresh-free); energy, if it ever returns, needs a human
+curator tag with a fixed rubric. Do not re-add the energy field to the
+profile schema without a writer that actually produces it, plus a
+regression test that every profile carries it.
 
 ## v0 matching table (heuristic, UNVALIDATED)
 
-Fit scores 0–2. Session × duration_tier, with an energy modifier applied
-after: energy high → +0.5 in morning, −0.5 in evening; energy low → +0.5 in
-evening, −0.5 in morning; medium → no change. Clamp to 0–2.
+Fit scores 0–2. Session × duration_tier, no modifiers (the energy axis was
+removed 2026-10-04, #28 — the ±0.5 energy modifiers below are gone).
 
 | session   | short | medium | long | epic |
 |-----------|-------|--------|------|------|
@@ -87,7 +83,7 @@ does not gate picks. Its v1 consumers:
 2. **The Tue–Fri drip** (08:19, morning window) — when two albums are
    otherwise tied, spotlight the morning-fit one first.
 3. **The future engine** — `CTX(album) = Σ_session session_share ·
-   fit(session, duration_tier, energy_tier)`, weighted by `w_ctx` per slot
+   fit(session, duration_tier)`, weighted by `w_ctx` per slot
    (`reference/engine.md` slot table). A mild re-rank term, never a veto:
    with five albums a week the sample is too small to overfit.
 
@@ -95,8 +91,8 @@ does not gate picks. Its v1 consumers:
 
 Once the sampler has 3–4 weeks of per-album completion proxies
 (`rollup.py` album-level completion) plus explicit played/skipped feedback:
-for each (session, duration_tier, energy_tier) cell, compute the completion
-rate and replace the v0 table. If a cell has < 5 album-weeks of evidence,
+for each (session, duration_tier) cell, compute the completion rate and
+replace the v0 table. If a cell has < 5 album-weeks of evidence,
 keep the heuristic for that cell. Explicit feedback outranks sampler data
 when they disagree.
 
