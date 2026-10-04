@@ -77,11 +77,11 @@ recommendable unit, full stop.
 - **CULT** — cultural-discourse score: 33⅓ canon membership, year-end-list appearances,
 review volume, RYM rating counts. His explicit ask, first-class signal.
 - **CTX** — session fit: sampler-derived time-of-day patterns matched against
-album energy/duration profiles. Full model in
+album duration profiles. Full model in
 `reference/ctx-session-model.md`: duration tiers derived from
-`engine/tracklists/` by `bin/ctx_profiles.py`, energy as a human tag with a
-fixed rubric (Spotify's audio-features endpoint is gone, so no programmatic
-energy source exists), and a heuristic session-fit table flagged UNVALIDATED
+`engine/tracklists/` by `bin/ctx_profiles.py` (the energy axis was removed
+2026-10-04, #28 — no writer ever produced it, so the schema no longer
+promises the field), and a heuristic session-fit table flagged UNVALIDATED
 until 3–4 weeks of per-album completion data calibrate it.
 
 **Slot weights (starting point, tuned by feedback):**
