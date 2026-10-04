@@ -78,33 +78,29 @@ def load_ctx_profiles():
         return {
             "sessions": env.get("sessions", {}),
             "fit_table": env.get("fit_table", {}),
-            "energy_modifiers": env.get("energy_modifiers", {}),
             "profiles": profiles,
         }
     except (FileNotFoundError, json.JSONDecodeError):
-        return {"sessions": {}, "fit_table": {}, "energy_modifiers": {},
-                "profiles": {}}
+        return {"sessions": {}, "fit_table": {}, "profiles": {}}
 
 
 def session_fit_scores(ctx, profile):
     """Fit score per session for one album profile (0-2, clamped).
 
-    Base from the envelope's fit table [session][duration_tier], plus the
-    energy modifier for that session; medium or untagged energy = no
-    change. Returns None when the profile has no duration tier.
+    Base from the envelope's fit table [session][duration_tier]; the
+    energy axis was removed (#28) so there is no modifier term. Returns
+    None when the profile has no duration tier.
     """
     tier = profile.get("duration_tier")
     if tier is None:
         return None
-    energy = profile.get("energy") or "medium"
     table = ctx["fit_table"]
-    mods = ctx["energy_modifiers"].get(energy, {})
     out = {}
     for session, tiers in table.items():
         base = tiers.get(tier)
         if base is None:
             continue
-        out[session] = round(min(2.0, max(0.0, base + mods.get(session, 0.0))), 2)
+        out[session] = round(min(2.0, max(0.0, base)), 2)
     return out or None
 
 
@@ -236,7 +232,6 @@ def main():
                             if fits and shares else None)
         if prof:
             row["duration_tier"] = prof.get("duration_tier")
-            row["energy"] = prof.get("energy")
 
     rollup = {
         "window_days": days,
@@ -291,7 +286,7 @@ def main():
         for a in fitted:
             f = a["session_fit"]
             best = max(f, key=f.get)
-            meta = f"tier={a.get('duration_tier')}, energy={a.get('energy') or 'untagged'}"
+            meta = f"tier={a.get('duration_tier')}"
             ctx_s = f", ctx={a['ctx_score']}" if a["ctx_score"] is not None else ""
             print(f"  {a['album']} [{a['slot']}]: best {best} ({meta}){ctx_s}")
     elif ctx["profiles"]:
