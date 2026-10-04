@@ -18,7 +18,7 @@ context. From these, the rollup derives:
   are flagged as watch hits. This is the listening-capacity signal: are the
   assignments actually getting played?
 - **Time-of-day sessions** — hour-of-day histogram (PT) feeding the CTX scorer:
-  commute vs. locked-in work listening matched against album energy/duration.
+  commute vs. locked-in work listening matched against album duration profiles.
 
 ## Files
 
