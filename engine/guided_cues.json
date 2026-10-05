@@ -115,10 +115,10 @@
     "track_n": 1,
     "track_title": "Airbag",
     "starts_at": "0:00",
-    "named_in_cue": false,
-    "cue": "Track 1 — “Airbag” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "named_in_cue": true,
+    "cue": "Track 1 — “Airbag” starts at 0:00. The pocket is built, not found — on ‘Airbag’ the drums are chopped and reassembled to land just behind where your body expects; compare that designed lateness t",
     "curated_moment": false,
-    "cue_text_pending": true
+    "cue_text_pending": false
    },
    "liner": null,
    "liner_source": null,
@@ -136,10 +136,10 @@
     "track_n": 1,
     "track_title": "Come Together",
     "starts_at": "0:00",
-    "named_in_cue": false,
-    "cue": "Track 1 — “Come Together” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "named_in_cue": true,
+    "cue": "Track 1 — “Come Together” starts at 0:00. Ringo’s pocket: on ‘Come Together’ the drums sit so far behind the beat they feel lazy but never drag — that agreed lateness is the week’s concept, and this is the first Beatles album never issued in mono, so the stereo field is the only field.",
     "curated_moment": false,
-    "cue_text_pending": true
+    "cue_text_pending": false
    },
    "liner": null,
    "liner_source": null,
@@ -154,13 +154,13 @@
    "album": "To Pimp a Butterfly",
    "slot": "adventurous",
    "timed": {
-    "track_n": 1,
-    "track_title": "F*ck Your Ethnicity",
-    "starts_at": "0:00",
-    "named_in_cue": false,
-    "cue": "Track 1 — “F*ck Your Ethnicity” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "track_n": 3,
+    "track_title": "King Kunta",
+    "starts_at": "6:58",
+    "named_in_cue": true,
+    "cue": "Track 3 — “King Kunta” starts at 6:58. Live, not programmed: ‘The Blacker the Berry’ runs on real drums — hear the push-and-pull against the bass that no grid would allow, then stack it against the m",
     "curated_moment": false,
-    "cue_text_pending": true
+    "cue_text_pending": false
    },
    "liner": null,
    "liner_source": null,
@@ -175,13 +175,13 @@
    "album": "SOS",
    "slot": "adventurous",
    "timed": {
-    "track_n": 1,
-    "track_title": "SOS",
-    "starts_at": "0:00",
-    "named_in_cue": false,
-    "cue": "Track 1 — “SOS” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "track_n": 8,
+    "track_title": "Snooze",
+    "starts_at": "18:58",
+    "named_in_cue": true,
+    "cue": "Track 8 — “Snooze” starts at 18:58. Vocal stacks as architecture — the backing voices on ‘Snooze’ are tracked wide and mixed into a carved pocket; map where each voice lives left-to-right, then hu",
     "curated_moment": false,
-    "cue_text_pending": true
+    "cue_text_pending": false
    },
    "liner": null,
    "liner_source": null,
@@ -199,10 +199,10 @@
     "track_n": 1,
     "track_title": "Screen Shot",
     "starts_at": "0:00",
-    "named_in_cue": false,
-    "cue": "Track 1 — “Screen Shot” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "named_in_cue": true,
+    "cue": "Track 1 — “Screen Shot” starts at 0:00. Repetition as groove: ‘Screen Shot’ hammers one idea until the pocket deepens instead of developing — the repetition is the content, and the groove becomes ritual.",
     "curated_moment": false,
-    "cue_text_pending": true
+    "cue_text_pending": false
    },
    "liner": null,
    "liner_source": null,
