@@ -21,6 +21,16 @@ Rotation: the five albums appear in file order; the album at index
 sits out week 1, and every album gets a drip over any 5-week span). The
 remaining four map Tue -> Fri in order.
 
+M9 (#19): the drip order is re-ranked by the listener's recent context
+tags (trailing 7 days of the private context-tags log). A "focused"
+streak (dominant context >= 60% of tags, >= 3 tags) surfaces the most
+demanding albums first — demand = album minutes from the tracklist cache
+times a per-genre demand factor; a "commute" / "background" / "late-night"
+streak surfaces the least demanding first. No streak, no tags, or an
+unreadable tag log keeps file order. The four albums still each get one
+spotlight day — only the day mapping changes, never the week's picks.
+The applied streak is recorded in the pick JSON as "context_fit".
+
 Silent cases (prints {"silent": "<reason>"} and exits 0): no week delivered
 yet, week file missing/unparseable, or not a Tue-Fri run. The drip never
 alters the week's picks — read-only.
@@ -63,6 +73,35 @@ PT = ZoneInfo("America/Los_Angeles")
 # Tue..Fri -> position in the 4-album drip order
 DRIP_DAYS = {1: 0, 2: 1, 3: 2, 4: 3}  # datetime.weekday(): Tue=1 .. Fri=4
 
+# M9 (#19): context-aware drip ordering. Tag log is private state; only
+# context names and tag counts ever appear in the pick JSON.
+CONTEXT_TAGS = os.path.expanduser(
+    "~/workspace/goals/album-recommender-music-digest/hidden_files/"
+    "context-tags.jsonl"
+)
+TRACKLISTS = os.path.join(REPO, "engine", "tracklists")
+ALBUM_TAGS_PATH = os.path.join(REPO, "engine", "album_tags.json")
+RECENCY_DAYS = 7          # only recent tags steer the drip
+STREAK_MIN_TAGS = 3       # below this, no streak can form
+STREAK_MIN_SHARE = 0.6    # dominant context must clear this share
+DEFAULT_MINUTES = 45.0    # demand fallback when no tracklist cache exists
+# Per-genre listening-demand factor; 1.0 = neutral. Demand of an album =
+# minutes * factor, so long, dense records surface on "focused" streaks.
+GENRE_DEMAND = {
+    "noise-rock": 1.5, "krautrock": 1.4, "prog-rock": 1.3, "free-jazz": 1.3,
+    "art-rock": 1.2, "modern-classical": 1.1, "jazz": 1.1,
+    "rock-classic": 1.0, "hip-hop": 1.0, "electronic": 1.0,
+    "electronic-melodic": 0.9, "folk": 0.9, "soul": 0.9, "pop": 0.9,
+    "confessional-rnb": 0.8, "ambient": 0.8,
+}
+# Which end of the demand ranking each context prefers first.
+CONTEXT_DIRECTION = {
+    "focused": "desc",       # demanding first
+    "commute": "asc",        # least demanding first
+    "background": "asc",
+    "late-night": "asc",
+}
+
 SECTION_RE = re.compile(
     r"^##\s+(Anchor|Adventurous|Wild card)\s+[—–-]\s+(.+?)\s+[—–-]\s+\*(.+?)\*\s*(\(\d{4}\))?",
     re.IGNORECASE,
@@ -77,6 +116,105 @@ def silent(reason):
 
 def _norm(s):
     return re.sub(r"[^a-z0-9]+", "-", (s or "").strip().lower()).strip("-")
+
+
+def _tag_norm(s):
+    """Key form used by engine/album_tags.json ("swans|to be kind")."""
+    return " ".join((s or "").strip().lower().split())
+
+
+def album_minutes(artist, album):
+    """Total album minutes from the tracklist cache; None when uncached."""
+    path = os.path.join(TRACKLISTS, "%s--%s.json" % (_norm(artist),
+                                                    _norm(album)))
+    try:
+        with open(path) as f:
+            tracks = json.load(f).get("tracks", [])
+    except (FileNotFoundError, json.JSONDecodeError, AttributeError):
+        return None
+    total = sum(t.get("duration_ms", 0) or 0 for t in tracks
+                if isinstance(t, dict))
+    return total / 60000.0 if total > 0 else None
+
+
+def album_genre(artist, album):
+    try:
+        with open(ALBUM_TAGS_PATH) as f:
+            tags = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+    return tags.get("%s|%s" % (_tag_norm(artist), _tag_norm(album)),
+                    {}).get("genre")
+
+
+def album_demand(artist, album):
+    """Listening-demand score: minutes times the genre demand factor."""
+    minutes = album_minutes(artist, album)
+    if minutes is None:
+        minutes = DEFAULT_MINUTES
+    return minutes * GENRE_DEMAND.get(album_genre(artist, album), 1.0)
+
+
+def recent_context_streak(now=None):
+    """Dominant listening context over the trailing RECENCY_DAYS.
+
+    Returns (context, n_tags) when one context holds >= STREAK_MIN_SHARE
+    of >= STREAK_MIN_TAGS tags; otherwise (None, n_tags). Fail-closed:
+    a missing or unreadable tag log yields (None, 0) — the drip keeps
+    file order.
+    """
+    now = now or datetime.datetime.now(datetime.timezone.utc)
+    cutoff = now - datetime.timedelta(days=RECENCY_DAYS)
+    counts = {}
+    total = 0
+    try:
+        with open(CONTEXT_TAGS) as f:
+            lines = f.readlines()
+    except (FileNotFoundError, OSError):
+        return None, 0
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            e = json.loads(line)
+            ts = datetime.datetime.fromisoformat(e["ts"])
+            if ts.tzinfo is None:
+                ts = ts.replace(tzinfo=datetime.timezone.utc)
+        except (json.JSONDecodeError, KeyError, ValueError, TypeError):
+            continue
+        if ts < cutoff:
+            continue
+        ctx = (e.get("context") or "").lower()
+        if ctx not in CONTEXT_DIRECTION:
+            continue
+        counts[ctx] = counts.get(ctx, 0) + 1
+        total += 1
+    if total < STREAK_MIN_TAGS:
+        return None, total
+    top = max(counts, key=counts.get)
+    if counts[top] / total < STREAK_MIN_SHARE:
+        return None, total
+    return top, total
+
+
+def apply_context_order(drip_order):
+    """M9 (#19): re-rank the week's 4-album drip order by context streak.
+
+    Returns (order, info) where info = {"streak", "tags", "reordered"}.
+    The sort is stable, so ties and the no-streak case keep file order.
+    """
+    streak, n_tags = recent_context_streak()
+    info = {"streak": streak, "tags": n_tags, "reordered": False}
+    if streak is None:
+        return list(drip_order), info
+    reverse = CONTEXT_DIRECTION[streak] == "desc"
+    ranked = sorted(drip_order,
+                    key=lambda a: album_demand(a["artist"], a["album"]),
+                    reverse=reverse)
+    info["reordered"] = [a["album"] for a in ranked] != \
+        [a["album"] for a in drip_order]
+    return ranked, info
 
 
 def attach_guided_cue(pick, today=None):
@@ -220,9 +358,13 @@ def main(today=None):
 
     skip = (week - 1) % 5
     drip_order = [a for i, a in enumerate(albums) if i != skip]
+    # M9 (#19): context streaks re-rank the day mapping; the week's
+    # album set is unchanged.
+    drip_order, context_fit = apply_context_order(drip_order)
     pick = drip_order[DRIP_DAYS[today.weekday()]]
     pick = dict(pick)
     pick["week"] = week
+    pick["context_fit"] = context_fit
 
     if is_blind_week(week):
         # #20: blind week — redact identity at the JSON source. The A–E
