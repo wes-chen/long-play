@@ -97,6 +97,11 @@ Application rules:
 
 ## Done-when
 
-The digest builder (built separately) renders the block above verbatim and
-hands replies to the parser in §"How a reply parses into log rows". Until
-then this issue stays open.
+Met 2026-10-07: `docs/digest-template.html` renders the block above verbatim
+(A–E placeholders in file order: anchor, adventurous ×3, wild card), and the
+current week's files (`weeks/week-02.md`, `docs/weeks/week-02.html`) carry it
+filled in. The Monday digest builder fills the five lines from the week's file
+order when composing each new week; the chat delivery carries the same block
+(the reply is the parse surface), and replies parse per
+§"How a reply parses into log rows" above. The optional context-tag line
+rides along after the verbatim block — separate feature, separate parser.
