@@ -30,4 +30,12 @@
 
 ---
 
-**Log it:** played / skipped / loved / bounced off — one line per album. Wild card reactions count double.
+How was week 2? One line per album — played / skipped / loved / bounced off:
+
+- Anchor — Radiohead, OK Computer:
+- Adventurous — The Beatles, Abbey Road:
+- Adventurous — Kendrick Lamar, To Pimp a Butterfly:
+- Adventurous — SZA, SOS:
+- Wild card — Swans, To Be Kind:
+
+Anything else you want me to know goes on its own line after these five.
