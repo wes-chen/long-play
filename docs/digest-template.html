@@ -130,8 +130,22 @@
     </div>
   </section>
 
+  <!-- FEEDBACK BLOCK — verbatim per reference/feedback-prompt.md (L8).
+       The slot label on each line is load-bearing: it is how chat replies
+       parse into listening-log.md without re-resolving the slot. A-E is
+       file order: anchor, adventurous x3, wild card. The context-tag line
+       stays (feeds the CTX session model). -->
   <footer class="panel-dark feedback">
-    <b>Log it:</b> played / skipped / loved / bounced off — one line per album. Wild card reactions count double.<br>
+    How was week {{WEEK_NUM}}? One line per album — played / skipped / loved / bounced off:<br>
+    <br>
+    - Anchor — {{A_ARTIST}}, {{A_ALBUM}}:<br>
+    - Adventurous — {{B_ARTIST}}, {{B_ALBUM}}:<br>
+    - Adventurous — {{C_ARTIST}}, {{C_ALBUM}}:<br>
+    - Adventurous — {{D_ARTIST}}, {{D_ALBUM}}:<br>
+    - Wild card — {{E_ARTIST}}, {{E_ALBUM}}:<br>
+    <br>
+    Anything else you want me to know goes on its own line after these five.<br>
+    <br>
     Optional: add where you listened — commute / focused / background / late-night. Tags tune the taste vector.
   </footer>
 
