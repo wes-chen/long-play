@@ -59,7 +59,9 @@ def rollup_implicit():
     if not os.path.isdir(ROLLUPS_DIR):
         return n_windows, completions
     for fn in sorted(os.listdir(ROLLUPS_DIR)):
-        if not fn.endswith(".json"):
+        # Canonical weekly files only (YYYY-Www.json); skip window-suffixed
+        # sidecars (YYYY-Www.Nd.json) so n_windows stays weekly.
+        if not re.fullmatch(r"\d{4}-W\d{2}\.json", fn):
             continue
         try:
             with open(os.path.join(ROLLUPS_DIR, fn)) as f:
