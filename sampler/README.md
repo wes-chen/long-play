@@ -27,8 +27,10 @@ context. From these, the rollup derives:
 - `build_watchlist.py` — resolves the current week's albums to their track
   URIs (`python3 build_watchlist.py 1`). Re-run when the week changes.
 - `rollup.py` — aggregates the trailing N days (`python3 rollup.py 7`):
-  per-track and per-album stats, watch hits, peak hours. Writes to
-  `rollups/YYYY-Www.json`.
+  per-track and per-album stats, watch hits, peak hours. The 7-day run writes
+  the canonical `rollups/YYYY-Www.json`; any other N writes a sidecar
+  `rollups/YYYY-Www.Nd.json` so short-window runs never clobber the weekly
+  aggregate.
 
 ## Privacy
 
