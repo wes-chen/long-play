@@ -9,6 +9,11 @@ hour-of-day histogram bucketed into sessions).
 
 Usage:
     python3 rollup.py [days]     # default 7
+
+The 7-day run writes the canonical rollups/YYYY-Www.json -- the weekly
+aggregate the engine and capacity model read. Any other window (e.g.
+`rollup.py 1` health checks) writes a sidecar rollups/YYYY-Www.Nd.json
+instead, so a short-window run can never clobber the week's aggregate.
 """
 import json
 import os
@@ -259,7 +264,11 @@ def main():
 
     os.makedirs(ROLLUP_DIR, exist_ok=True)
     stamp = datetime.now(PT).strftime("%Y-W%V")
-    path = os.path.join(ROLLUP_DIR, f"{stamp}.json")
+    # The canonical weekly file belongs to the scheduled 7-day run only.
+    # Short windows (e.g. `rollup.py 1` health checks) write a window-suffixed
+    # sidecar so they can never clobber the week's aggregate.
+    fname = f"{stamp}.json" if days == 7 else f"{stamp}.{days}d.json"
+    path = os.path.join(ROLLUP_DIR, fname)
     with open(path, "w") as f:
         json.dump(rollup, f, indent=1)
 
