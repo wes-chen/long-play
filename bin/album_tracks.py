@@ -10,15 +10,31 @@ Track titles keep Spotify's suffixes ("- 2011 Remastered") for matching;
 a cleaned title is also stored. All timing data is real (Spotify), never
 invented — intra-track "listen at 2:14" moments are NOT generated here;
 those need manual curation.
+
+Album identity is verified, not assumed: the resolver only accepts a
+search result whose artist AND album title both match the request (a
+same-artist different-album result is refused rather than cached), and
+re-checks the fetched experience's album title before writing the cache.
+When nothing matches it fails loudly instead of writing a mislabeled
+cache — a wrong tracklist poisons guided cues, durations, and watchlist
+mapping downstream.
 """
 import json
 import os
 import re
 import subprocess
 import sys
+from difflib import SequenceMatcher
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(REPO, "engine", "tracklists")
+
+# Minimum SequenceMatcher ratio (on normalized titles) to accept a
+# search result whose title is neither equal to nor a super/substring
+# of the requested album name. Exact, substring ("Deluxe" editions,
+# remaster suffixes), and close-fuzzy titles pass; a different album
+# by the same artist does not.
+TITLE_MATCH_THRESHOLD = 0.82
 
 CLEAN_RE = re.compile(r"\s*[-–—]\s*(\d{4}\s+)?remaster(ed)?$", re.IGNORECASE)
 
@@ -33,6 +49,22 @@ def slug(artist, album):
 
 def clean_title(t):
     return CLEAN_RE.sub("", t).strip()
+
+
+def titles_match(requested, found):
+    """True when a Spotify result title plausibly names the requested album.
+
+    Compares normalized titles (lowercased, punctuation stripped). Accepts
+    exact matches, super/substring matches (covers "Deluxe"/remaster
+    suffixes on either side), and close fuzzy matches. Rejects a different
+    album title outright.
+    """
+    r, f = norm(requested), norm(found)
+    if not r or not f:
+        return False
+    if r == f or r in f or f in r:
+        return True
+    return SequenceMatcher(None, r, f).ratio() >= TITLE_MATCH_THRESHOLD
 
 
 def sh(*args):
@@ -57,10 +89,15 @@ def resolve(artist, album):
     a_low = artist.lower()
     pick = None
     for it in items:
-        if a_low in (it.get("subtitle") or "").lower():
+        if a_low not in (it.get("subtitle") or "").lower():
+            continue
+        if titles_match(album, it.get("title") or ""):
             pick = it
             break
-    pick = pick or items[0]
+    if pick is None:
+        top = ", ".join(repr(it.get("title")) for it in items[:5])
+        return None, (f"no album title match for {album!r} by {artist!r} "
+                      f"among {len(items)} results (top: {top})")
     uri = pick.get("spotify_uri")
     if not uri:
         return None, "no spotify uri in result"
@@ -71,6 +108,10 @@ def resolve(artist, album):
         exp = json.loads(r2.stdout)
     except json.JSONDecodeError:
         return None, "experience returned non-JSON"
+    exp_title = exp.get("title") or ""
+    if exp_title and not titles_match(album, exp_title):
+        return None, (f"experience album title {exp_title!r} does not match "
+                      f"requested {album!r}; refusing to cache")
     tracks = []
     n = 0
     for section in exp.get("sections", []):
