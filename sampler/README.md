@@ -26,6 +26,10 @@ context. From these, the rollup derives:
   JSON line to the private samples log. Dumb by design; never crashes the cron.
 - `build_watchlist.py` — resolves the current week's albums to their track
   URIs (`python3 build_watchlist.py 1`). Re-run when the week changes.
+  Fail-closed: a build that resolves zero albums exits nonzero and leaves
+  the existing watchlist untouched, so a transient resolver failure can
+  never wipe the working watchlist (and `bin/rollover.py` refuses to
+  advance on that failure).
 - `rollup.py` — aggregates the trailing N days (`python3 rollup.py 7`):
   per-track and per-album stats, watch hits, peak hours. The 7-day run writes
   the canonical `rollups/YYYY-Www.json`; any other N writes a sidecar
