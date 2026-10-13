@@ -105,34 +105,30 @@ def main():
         print(f"no album list for week {week}")
         return 1
     os.makedirs(LOG_DIR, exist_ok=True)
-    try:
-        with open(WATCHLIST) as f:
-            wl = json.load(f)
-    except FileNotFoundError:
-        wl = {"tracks": {}, "albums": {}}
 
-    # ADV-LP-04: clear stale weeks — track URIs from older weeks keep
-    # matching forever and poison watch-hit attribution. Only the current
-    # week's entries may remain.
-    wl["tracks"] = {u: e for u, e in wl.get("tracks", {}).items()
-                    if e.get("week") == week}
-    wl["albums"] = {u: e for u, e in wl.get("albums", {}).items()
-                    if e.get("week") == week}
-
-    resolved_uris = set()
+    # Build the new watchlist in memory first and only write it once it
+    # is proven good. A total resolve failure must never clobber the
+    # working watchlist: the old code cleared the previous week's entries
+    # up front, so one transient resolver failure (0 albums resolved) left
+    # the sampler blind for the whole week — no watch hits at all, and the
+    # rollover still advanced because the build exited 0.
+    new_tracks = {}
+    new_albums = {}
+    n_missing = 0
     for album, artist, slot in entries:
         album_uri, resolved, saved = find_album(album, artist)
         if not album_uri:
             print(f"NOT FOUND: {album} by {artist}")
+            n_missing += 1
             continue
         tracks = album_tracks(album_uri)
-        wl["albums"][album_uri] = {
+        new_albums[album_uri] = {
             "album": resolved or album, "artist": artist,
             "week": week, "slot": slot, "track_count": len(tracks),
             "edition_from_library": saved,
         }
         for t_uri, t_title in tracks:
-            wl["tracks"][t_uri] = {
+            new_tracks[t_uri] = {
                 "album": resolved or album, "artist": artist,
                 "week": week, "slot": slot, "album_uri": album_uri,
                 # ADV-LP-04: track title stored for the name-normalized
@@ -141,15 +137,21 @@ def main():
             }
         tag = " [library edition]" if saved else ""
         print(f"week {week} [{slot}]: {resolved or album} — {len(tracks)} tracks{tag}")
-        resolved_uris.add(album_uri)
 
-    # Prune anything this run did not resolve (e.g. a same-artist wrong
-    # album from an older build) — only the current week's albums may match.
-    wl["albums"] = {u: e for u, e in wl["albums"].items() if u in resolved_uris}
-    wl["tracks"] = {u: e for u, e in wl["tracks"].items()
-                    if e.get("album_uri") in resolved_uris or e.get("week") != week}
-    wl["week"] = week
-    wl["week"] = week
+    if not new_albums:
+        # Fail loudly: the existing watchlist stays untouched, and the
+        # caller (bin/rollover.py) refuses to advance on a nonzero exit,
+        # so a dead-resolver week surfaces the same day instead of
+        # silently running with zero attribution.
+        print(f"watchlist build failed: resolved 0/{len(entries)} albums "
+              f"for week {week}; leaving the existing watchlist untouched",
+              file=sys.stderr)
+        return 1
+    if n_missing:
+        print(f"warning: {n_missing}/{len(entries)} albums unresolved; "
+              f"watchlist covers the rest", file=sys.stderr)
+
+    wl = {"tracks": new_tracks, "albums": new_albums, "week": week}
     with open(WATCHLIST, "w") as f:
         json.dump(wl, f, indent=1)
     print(f"wrote {WATCHLIST}: {len(wl['tracks'])} tracks, {len(wl['albums'])} albums")
