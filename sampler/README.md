@@ -5,9 +5,9 @@ gets played and turns it into the album-level signal the engine scores on.
 
 ## What it captures
 
-Hourly snapshots of Spotify playback on weekdays during the listening windows
-(7–10am, 3–5pm PT): track, artists, progress, playing/paused, playback
-context. From these, the rollup derives:
+Nine daily Spotify playback snapshots (7–10am, 3–5pm, 7pm and 9pm PT, all days):
+track, artists, progress, playing/paused, playback context. From these, the
+rollup derives:
 
 - **Album play counts** — via the watchlist (track → album mapping) and
   album-context snapshots. The user–album interaction matrix starts here.
