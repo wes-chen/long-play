@@ -1,0 +1,289 @@
+{
+ "artist": "Yes",
+ "album": "Close to the Edge (Super Deluxe Edition)",
+ "spotify_uri": "spotify:album:1uXol4dKqzMsUiqvHpwhZh",
+ "spotify_url": "https://open.spotify.com/album/1uXol4dKqzMsUiqvHpwhZh?si=ozPAORqWTly44QXjMgzuEw",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Close to the Edge: i. The Solid Time of Change, ii. Total Mass Retain, iii. I Get up I Get Down, iv. Seasons of Man - 2025 Remaster",
+   "clean_title": "Close to the Edge: i. The Solid Time of Change, ii. Total Mass Retain, iii. I Get up I Get Down, iv. Seasons of Man",
+   "duration_ms": 1123053,
+   "spotify_uri": "spotify:track:1WBo4U3SnPN49I5lOESmYk",
+   "spotify_url": "https://open.spotify.com/track/1WBo4U3SnPN49I5lOESmYk?si=VwkYQPQcQYq3KqDqm-s1WQ",
+   "starts_at_ms": 0,
+   "starts_at": "0:00"
+  },
+  {
+   "n": 2,
+   "title": "And You and I: i. Cord of Life, ii. Eclipse, iii. The Preacher the Teacher, iv. Apocalypse - 2025 Remaster",
+   "clean_title": "And You and I: i. Cord of Life, ii. Eclipse, iii. The Preacher the Teacher, iv. Apocalypse",
+   "duration_ms": 612706,
+   "spotify_uri": "spotify:track:1SSdWBO1xePELpK27iMU5C",
+   "spotify_url": "https://open.spotify.com/track/1SSdWBO1xePELpK27iMU5C?si=wAFyaAXqQ465mLcT9HJtUQ",
+   "starts_at_ms": 1123053,
+   "starts_at": "18:43"
+  },
+  {
+   "n": 3,
+   "title": "Siberian Khatru - 2025 Remaster",
+   "clean_title": "Siberian Khatru",
+   "duration_ms": 537373,
+   "spotify_uri": "spotify:track:4NAP1NmknfmMkKuDi4fhxI",
+   "spotify_url": "https://open.spotify.com/track/4NAP1NmknfmMkKuDi4fhxI?si=YesHtUZIQ7OCKnEsOkWiNw",
+   "starts_at_ms": 1735759,
+   "starts_at": "28:55"
+  },
+  {
+   "n": 4,
+   "title": "Close to the Edge: i. The Solid Time of Change, ii. Total Mass Retain, iii. I Get up I Get Down, iv. Seasons of Man - 2025 Steven Wilson Remix",
+   "clean_title": "Close to the Edge: i. The Solid Time of Change, ii. Total Mass Retain, iii. I Get up I Get Down, iv. Seasons of Man - 2025 Steven Wilson Remix",
+   "duration_ms": 1122000,
+   "spotify_uri": "spotify:track:0albqvScVSjiJgAkirPjGa",
+   "spotify_url": "https://open.spotify.com/track/0albqvScVSjiJgAkirPjGa?si=XahZhwT4R2eVVmKBL1pzpg",
+   "starts_at_ms": 2273132,
+   "starts_at": "37:53"
+  },
+  {
+   "n": 5,
+   "title": "And You and I: i. Cord of Life, ii. Eclipse, iii. The Preacher the Teacher, iv. Apocalypse - 2025 Steven Wilson Remix",
+   "clean_title": "And You and I: i. Cord of Life, ii. Eclipse, iii. The Preacher the Teacher, iv. Apocalypse - 2025 Steven Wilson Remix",
+   "duration_ms": 610000,
+   "spotify_uri": "spotify:track:6e0hpeBeet8UR88Xjo4N0G",
+   "spotify_url": "https://open.spotify.com/track/6e0hpeBeet8UR88Xjo4N0G?si=M_Za_FyeSMuL4YQ1roFJog",
+   "starts_at_ms": 3395132,
+   "starts_at": "56:35"
+  },
+  {
+   "n": 6,
+   "title": "Siberian Khatru - 2025 Steven Wilson Remix",
+   "clean_title": "Siberian Khatru - 2025 Steven Wilson Remix",
+   "duration_ms": 551500,
+   "spotify_uri": "spotify:track:73UvEFNgVxxrI0PohRvJTc",
+   "spotify_url": "https://open.spotify.com/track/73UvEFNgVxxrI0PohRvJTc?si=rlmqj1V7Som1vSOY7ZUfDA",
+   "starts_at_ms": 4005132,
+   "starts_at": "66:45"
+  },
+  {
+   "n": 7,
+   "title": "Close to the Edge: i. The Solid Time of Change, ii. Total Mass Retain, iii. I Get up I Get Down, iv. Seasons of Man (2025 Steven Wilson Remix) - Instrumental",
+   "clean_title": "Close to the Edge: i. The Solid Time of Change, ii. Total Mass Retain, iii. I Get up I Get Down, iv. Seasons of Man (2025 Steven Wilson Remix) - Instrumental",
+   "duration_ms": 1122000,
+   "spotify_uri": "spotify:track:3rvSApLFngi8qqFwCz7qEY",
+   "spotify_url": "https://open.spotify.com/track/3rvSApLFngi8qqFwCz7qEY?si=UtFPzZR-RkirxMQNr1lJKw",
+   "starts_at_ms": 4556632,
+   "starts_at": "75:56"
+  },
+  {
+   "n": 8,
+   "title": "And You and I: i. Cord of Life, ii. Eclipse, iii. The Preacher the Teacher, iv. Apocalypse - Instrumental",
+   "clean_title": "And You and I: i. Cord of Life, ii. Eclipse, iii. The Preacher the Teacher, iv. Apocalypse - Instrumental",
+   "duration_ms": 610000,
+   "spotify_uri": "spotify:track:1O41cc5OFfUOp5oSCBGMhP",
+   "spotify_url": "https://open.spotify.com/track/1O41cc5OFfUOp5oSCBGMhP?si=-Hce595CSdqfx94mX9TKSQ",
+   "starts_at_ms": 5678632,
+   "starts_at": "94:38"
+  },
+  {
+   "n": 9,
+   "title": "Siberian Khatru (2025 Steven Wilson Remix) - Instrumental",
+   "clean_title": "Siberian Khatru (2025 Steven Wilson Remix) - Instrumental",
+   "duration_ms": 551500,
+   "spotify_uri": "spotify:track:6MNHtPMiMbS250kszlBDWq",
+   "spotify_url": "https://open.spotify.com/track/6MNHtPMiMbS250kszlBDWq?si=AcK5j-VySQK16BIFv17K1w",
+   "starts_at_ms": 6288632,
+   "starts_at": "104:48"
+  },
+  {
+   "n": 10,
+   "title": "America (Single Version) - 2025 Remaster",
+   "clean_title": "America (Single Version)",
+   "duration_ms": 249946,
+   "spotify_uri": "spotify:track:5Qc50ZVmMBTsMUlD0kx8Y6",
+   "spotify_url": "https://open.spotify.com/track/5Qc50ZVmMBTsMUlD0kx8Y6?si=4CTcJCVPRhGWHt1okjm_Ow",
+   "starts_at_ms": 6840132,
+   "starts_at": "114:00"
+  },
+  {
+   "n": 11,
+   "title": "Total Mass Retain (Single Version) - 2025 Remaster",
+   "clean_title": "Total Mass Retain (Single Version)",
+   "duration_ms": 198266,
+   "spotify_uri": "spotify:track:7HfIS2tqe2lYeyiPQYPqYr",
+   "spotify_url": "https://open.spotify.com/track/7HfIS2tqe2lYeyiPQYPqYr?si=OvSAuV0VTE-lBkDqskrtzw",
+   "starts_at_ms": 7090078,
+   "starts_at": "118:10"
+  },
+  {
+   "n": 12,
+   "title": "And You And I (Promo Radio Edit) - 2025 Remaster",
+   "clean_title": "And You And I (Promo Radio Edit)",
+   "duration_ms": 206506,
+   "spotify_uri": "spotify:track:2JDo6usIOBed2zyHP7iJXI",
+   "spotify_url": "https://open.spotify.com/track/2JDo6usIOBed2zyHP7iJXI?si=ipOYJcJJQ-eGe-0eoLleZw",
+   "starts_at_ms": 7288344,
+   "starts_at": "121:28"
+  },
+  {
+   "n": 13,
+   "title": "Siberia (Studio Run-Through of Siberian Khatru) - 2025 Remaster",
+   "clean_title": "Siberia (Studio Run-Through of Siberian Khatru)",
+   "duration_ms": 558560,
+   "spotify_uri": "spotify:track:6igVXRPmmRBamdVAzGBVCG",
+   "spotify_url": "https://open.spotify.com/track/6igVXRPmmRBamdVAzGBVCG?si=B733nzeOTQ2Fo7CkhBOEwQ",
+   "starts_at_ms": 7494850,
+   "starts_at": "124:54"
+  },
+  {
+   "n": 14,
+   "title": "Close to the Edge: i. The Solid Time of Change, ii. Total Mass Retain, iii. I Get Up I Get Down, iv. Seasons of Man (Rough Mix) - 2025 Remaster",
+   "clean_title": "Close to the Edge: i. The Solid Time of Change, ii. Total Mass Retain, iii. I Get Up I Get Down, iv. Seasons of Man (Rough Mix)",
+   "duration_ms": 1063080,
+   "spotify_uri": "spotify:track:6cwuy5bwUeo1kJiaWQXUGR",
+   "spotify_url": "https://open.spotify.com/track/6cwuy5bwUeo1kJiaWQXUGR?si=N43rrImWQGOi4-mUO_sMKg",
+   "starts_at_ms": 8053410,
+   "starts_at": "134:13"
+  },
+  {
+   "n": 15,
+   "title": "And You and I: i. Cord of Life, ii. Eclipse, iii. The Preacher the Teacher, iv. Apocalypse (Alternate Version) - 2025 Remaster",
+   "clean_title": "And You and I: i. Cord of Life, ii. Eclipse, iii. The Preacher the Teacher, iv. Apocalypse (Alternate Version)",
+   "duration_ms": 616013,
+   "spotify_uri": "spotify:track:3pS5KP25AoxdPLIdxTEXmO",
+   "spotify_url": "https://open.spotify.com/track/3pS5KP25AoxdPLIdxTEXmO?si=QQBgo9HmTUmd9_yLqHJBhg",
+   "starts_at_ms": 9116490,
+   "starts_at": "151:56"
+  },
+  {
+   "n": 16,
+   "title": "America - Dry Mix",
+   "clean_title": "America - Dry Mix",
+   "duration_ms": 630333,
+   "spotify_uri": "spotify:track:7jdSrOM1i4QsBwg3qyggEu",
+   "spotify_url": "https://open.spotify.com/track/7jdSrOM1i4QsBwg3qyggEu?si=-U0gvdPURl6f-DXjKqJLpA",
+   "starts_at_ms": 9732503,
+   "starts_at": "162:12"
+  },
+  {
+   "n": 17,
+   "title": "Siberian Khatru - 2025 Steven Wilson Edit",
+   "clean_title": "Siberian Khatru - 2025 Steven Wilson Edit",
+   "duration_ms": 299453,
+   "spotify_uri": "spotify:track:4GPpaSuMHCiXU2aAWnDTYp",
+   "spotify_url": "https://open.spotify.com/track/4GPpaSuMHCiXU2aAWnDTYp?si=Jud6ZoorT1qoowmbg98VzQ",
+   "starts_at_ms": 10362836,
+   "starts_at": "172:42"
+  },
+  {
+   "n": 18,
+   "title": "Cord of Life - Steven Wilson Edit",
+   "clean_title": "Cord of Life - Steven Wilson Edit",
+   "duration_ms": 158520,
+   "spotify_uri": "spotify:track:6T9kyPoMnutlSyMagGwC37",
+   "spotify_url": "https://open.spotify.com/track/6T9kyPoMnutlSyMagGwC37?si=4eiaFmALS0GpFtfDKE3vow",
+   "starts_at_ms": 10662289,
+   "starts_at": "177:42"
+  },
+  {
+   "n": 19,
+   "title": "Total Mass Retain - Steven Wilson Edit",
+   "clean_title": "Total Mass Retain - Steven Wilson Edit",
+   "duration_ms": 253280,
+   "spotify_uri": "spotify:track:0CvgNHE4kmlqnb3hJB4CE5",
+   "spotify_url": "https://open.spotify.com/track/0CvgNHE4kmlqnb3hJB4CE5?si=bpRxtvMDSPefv4bW_fHyvA",
+   "starts_at_ms": 10820809,
+   "starts_at": "180:20"
+  },
+  {
+   "n": 20,
+   "title": "Siberian Khatru - Live at The Rainbow, London, England, 12/16/1972",
+   "clean_title": "Siberian Khatru - Live at The Rainbow, London, England, 12/16/1972",
+   "duration_ms": 541080,
+   "spotify_uri": "spotify:track:6Ly22Ip9fYYrPdCVOscL9p",
+   "spotify_url": "https://open.spotify.com/track/6Ly22Ip9fYYrPdCVOscL9p?si=DbbrP-OFRXad2dHh_pOQyQ",
+   "starts_at_ms": 11074089,
+   "starts_at": "184:34"
+  },
+  {
+   "n": 21,
+   "title": "I've Seen All Good People: a. Your Move, b. All Good People - Live at The Rainbow, London, England, 12/16/1972",
+   "clean_title": "I've Seen All Good People: a. Your Move, b. All Good People - Live at The Rainbow, London, England, 12/16/1972",
+   "duration_ms": 428946,
+   "spotify_uri": "spotify:track:7Mc5Jb60SYxv5WutBAhlom",
+   "spotify_url": "https://open.spotify.com/track/7Mc5Jb60SYxv5WutBAhlom?si=JcnsXv_BSEqGthqoabp1Bg",
+   "starts_at_ms": 11615169,
+   "starts_at": "193:35"
+  },
+  {
+   "n": 22,
+   "title": "Heart of the Sunrise - Live at The Rainbow, London, England, 12/16/1972",
+   "clean_title": "Heart of the Sunrise - Live at The Rainbow, London, England, 12/16/1972",
+   "duration_ms": 671533,
+   "spotify_uri": "spotify:track:3C2FywYyj8i36vi0Lu5ZCS",
+   "spotify_url": "https://open.spotify.com/track/3C2FywYyj8i36vi0Lu5ZCS?si=7qR4bVc4TLK3od95B6a02Q",
+   "starts_at_ms": 12044115,
+   "starts_at": "200:44"
+  },
+  {
+   "n": 23,
+   "title": "And You and I: i. Cord of Life, ii. Eclipse, iii. The Preacher the Teacher, iv. Apocalypse - Live at The Rainbow, London, England, 12/16/1972",
+   "clean_title": "And You and I: i. Cord of Life, ii. Eclipse, iii. The Preacher the Teacher, iv. Apocalypse - Live at The Rainbow, London, England, 12/16/1972",
+   "duration_ms": 568760,
+   "spotify_uri": "spotify:track:3OcIL7wKpHWiH9r066eD9C",
+   "spotify_url": "https://open.spotify.com/track/3OcIL7wKpHWiH9r066eD9C?si=Q84VVqL6RuWZN0mgGUaREg",
+   "starts_at_ms": 12715648,
+   "starts_at": "211:55"
+  },
+  {
+   "n": 24,
+   "title": "Close to the Edge: i. The Solid Time of Change, ii. Total Mass Retain, iii. I Get Up I Get Down, iv. Seasons of Man - Live at The Rainbow, London, England, 12/16/1972",
+   "clean_title": "Close to the Edge: i. The Solid Time of Change, ii. Total Mass Retain, iii. I Get Up I Get Down, iv. Seasons of Man - Live at The Rainbow, London, England, 12/16/1972",
+   "duration_ms": 1039133,
+   "spotify_uri": "spotify:track:62UkgrM1jq5fx5GPiTMz6G",
+   "spotify_url": "https://open.spotify.com/track/62UkgrM1jq5fx5GPiTMz6G?si=Dp28I9SwS0yKVPSjKKZFkg",
+   "starts_at_ms": 13284408,
+   "starts_at": "221:24"
+  },
+  {
+   "n": 25,
+   "title": "Excerpts From The Six Wives of Henry VIII - Live at The Rainbow, London, England, 12/16/1972",
+   "clean_title": "Excerpts From The Six Wives of Henry VIII - Live at The Rainbow, London, England, 12/16/1972",
+   "duration_ms": 391653,
+   "spotify_uri": "spotify:track:18AascrrUW2B9C7Qb5QJQz",
+   "spotify_url": "https://open.spotify.com/track/18AascrrUW2B9C7Qb5QJQz?si=qCQncmthS_qstLtYVVxn5Q",
+   "starts_at_ms": 14323541,
+   "starts_at": "238:43"
+  },
+  {
+   "n": 26,
+   "title": "Roundabout - Live at The Rainbow, London, England, 12/16/1972",
+   "clean_title": "Roundabout - Live at The Rainbow, London, England, 12/16/1972",
+   "duration_ms": 488986,
+   "spotify_uri": "spotify:track:5EGcjfMrSk1Hutyp0hmaZb",
+   "spotify_url": "https://open.spotify.com/track/5EGcjfMrSk1Hutyp0hmaZb?si=h_wpKm52SWWVrWzoRt35ZQ",
+   "starts_at_ms": 14715194,
+   "starts_at": "245:15"
+  },
+  {
+   "n": 27,
+   "title": "Yours is No Disgrace - Live at The Rainbow, London, England, 12/16/1972",
+   "clean_title": "Yours is No Disgrace - Live at The Rainbow, London, England, 12/16/1972",
+   "duration_ms": 696200,
+   "spotify_uri": "spotify:track:1KjzV2ThAMS2gTbvDmY2ic",
+   "spotify_url": "https://open.spotify.com/track/1KjzV2ThAMS2gTbvDmY2ic?si=jWwM4mt4TuqqZQ-hnHewsQ",
+   "starts_at_ms": 15204180,
+   "starts_at": "253:24"
+  },
+  {
+   "n": 28,
+   "title": "Starship Trooper: a. Life Seeker, b. Disillusion, c. W\u00fcrm - Live at The Rainbow, London, England, 12/16/1972",
+   "clean_title": "Starship Trooper: a. Life Seeker, b. Disillusion, c. W\u00fcrm - Live at The Rainbow, London, England, 12/16/1972",
+   "duration_ms": 593520,
+   "spotify_uri": "spotify:track:5WtZRVdZZBfwI01L1dijFv",
+   "spotify_url": "https://open.spotify.com/track/5WtZRVdZZBfwI01L1dijFv?si=GEK_Y5IGQq2YDZ36pW4p1g",
+   "starts_at_ms": 15900380,
+   "starts_at": "265:00"
+  }
+ ],
+ "fetched_at": "2026-10-12T14:47:57.299293+00:00"
+}
