@@ -1,211 +1,89 @@
 {
  "artist": "Van der Graaf Generator",
  "album": "Pawn Hearts",
- "spotify_uri": "spotify:album:4BkiEmhvmh8J9DI4f52XPK",
- "spotify_url": "https://open.spotify.com/album/4BkiEmhvmh8J9DI4f52XPK?si=jEP6FdgQQQqUTy5XMtTKvg",
+ "spotify_uri": "spotify:album:5Lrsef2F6ZHNC5yIUEJouw",
+ "spotify_url": "https://open.spotify.com/album/5Lrsef2F6ZHNC5yIUEJouw?si=dDjkLoDOSbydb4vH1t1l3A",
  "tracks": [
   {
    "n": 1,
-   "title": "Concrete Gospel",
-   "clean_title": "Concrete Gospel",
-   "duration_ms": 156000,
-   "spotify_uri": "spotify:track:53VvRRLa7nvUNOx1iPcPl5",
-   "spotify_url": "https://open.spotify.com/track/53VvRRLa7nvUNOx1iPcPl5?si=qmzLb-NlTre74z9ye2Or1A",
+   "title": "Lemmings (Including Cog) - Remastered 2005",
+   "clean_title": "Lemmings (Including Cog) - Remastered 2005",
+   "duration_ms": 699026,
+   "spotify_uri": "spotify:track:3r8aTVJlryuF3ZcVSpWpA0",
+   "spotify_url": "https://open.spotify.com/track/3r8aTVJlryuF3ZcVSpWpA0?si=3T2Tc0bvSe6tZwKS4_26JQ",
    "starts_at_ms": 0,
    "starts_at": "0:00"
   },
   {
    "n": 2,
-   "title": "Power Moves Only",
-   "clean_title": "Power Moves Only",
-   "duration_ms": 175609,
-   "spotify_uri": "spotify:track:6o7Y74FymyCiybZgPquBZx",
-   "spotify_url": "https://open.spotify.com/track/6o7Y74FymyCiybZgPquBZx?si=hTaZPYTZQ12uuKoDzTwghw",
-   "starts_at_ms": 156000,
-   "starts_at": "2:36"
+   "title": "Man-Erg - 2005 Digital Remaster",
+   "clean_title": "Man-Erg - 2005 Digital Remaster",
+   "duration_ms": 625173,
+   "spotify_uri": "spotify:track:0PQLTQwXrwqbcaLGdvTs9a",
+   "spotify_url": "https://open.spotify.com/track/0PQLTQwXrwqbcaLGdvTs9a?si=960HKfmrQsSeMFALBO7-Dg",
+   "starts_at_ms": 699026,
+   "starts_at": "11:39"
   },
   {
    "n": 3,
-   "title": "Elevation Hustle",
-   "clean_title": "Elevation Hustle",
-   "duration_ms": 138795,
-   "spotify_uri": "spotify:track:79C8UNL2AvBqw4Ykbg2Nbx",
-   "spotify_url": "https://open.spotify.com/track/79C8UNL2AvBqw4Ykbg2Nbx?si=sqAp7f8HS1eMvTO8_RgpTg",
-   "starts_at_ms": 331609,
-   "starts_at": "5:31"
+   "title": "A Plague Of Lighthouse Keepers (Medley) - 2005 Digital Remaster",
+   "clean_title": "A Plague Of Lighthouse Keepers (Medley) - 2005 Digital Remaster",
+   "duration_ms": 1392666,
+   "spotify_uri": "spotify:track:5RYh6KA70fdHJtQElMWIna",
+   "spotify_url": "https://open.spotify.com/track/5RYh6KA70fdHJtQElMWIna?si=2-ZzRWWPT1iZyAsSAwx6nw",
+   "starts_at_ms": 1324199,
+   "starts_at": "22:04"
   },
   {
    "n": 4,
-   "title": "Tales of a Dreamer",
-   "clean_title": "Tales of a Dreamer",
-   "duration_ms": 160000,
-   "spotify_uri": "spotify:track:35P4nHWjbSfrnUAdB10Zh4",
-   "spotify_url": "https://open.spotify.com/track/35P4nHWjbSfrnUAdB10Zh4?si=zAY8RzoMSKON8LhJ5B9mPg",
-   "starts_at_ms": 470404,
-   "starts_at": "7:50"
+   "title": "Theme One - Original Version / 2005 Remaster",
+   "clean_title": "Theme One - Original Version / 2005 Remaster",
+   "duration_ms": 195026,
+   "spotify_uri": "spotify:track:5laKMHPXWIIJMsuMhSgnwV",
+   "spotify_url": "https://open.spotify.com/track/5laKMHPXWIIJMsuMhSgnwV?si=rt_laP8nTweicADgD2ieYA",
+   "starts_at_ms": 2716865,
+   "starts_at": "45:16"
   },
   {
    "n": 5,
-   "title": "Visionary Struggles",
-   "clean_title": "Visionary Struggles",
-   "duration_ms": 146823,
-   "spotify_uri": "spotify:track:2o9fBiIoet0y8428oiccy3",
-   "spotify_url": "https://open.spotify.com/track/2o9fBiIoet0y8428oiccy3?si=JdjVag_zTjSa4PpOga5B3w",
-   "starts_at_ms": 630404,
-   "starts_at": "10:30"
+   "title": "W - Alternate Take",
+   "clean_title": "W - Alternate Take",
+   "duration_ms": 303373,
+   "spotify_uri": "spotify:track:1wOekK6Aykb6cwJq9R5pdB",
+   "spotify_url": "https://open.spotify.com/track/1wOekK6Aykb6cwJq9R5pdB?si=BUoUETlMRGi5xWcxzD8XeA",
+   "starts_at_ms": 2911891,
+   "starts_at": "48:31"
   },
   {
    "n": 6,
-   "title": "Throne of Dreams",
-   "clean_title": "Throne of Dreams",
-   "duration_ms": 132000,
-   "spotify_uri": "spotify:track:34idwYGjzNJmaTJZHZnj2i",
-   "spotify_url": "https://open.spotify.com/track/34idwYGjzNJmaTJZHZnj2i?si=Qh6QGHYDQpW29e4w00Nq8A",
-   "starts_at_ms": 777227,
-   "starts_at": "12:57"
+   "title": "Angle Of Incidents",
+   "clean_title": "Angle Of Incidents",
+   "duration_ms": 288213,
+   "spotify_uri": "spotify:track:20ZCjSuGB6ZWQNT1WhvFL3",
+   "spotify_url": "https://open.spotify.com/track/20ZCjSuGB6ZWQNT1WhvFL3?si=e3K9mKTPTnyrCP5rRfphhA",
+   "starts_at_ms": 3215264,
+   "starts_at": "53:35"
   },
   {
    "n": 7,
-   "title": "Hustle Harder",
-   "clean_title": "Hustle Harder",
-   "duration_ms": 137142,
-   "spotify_uri": "spotify:track:7q39b7vXA84XmdsSI2vLbK",
-   "spotify_url": "https://open.spotify.com/track/7q39b7vXA84XmdsSI2vLbK?si=j0ReQxyjTcCT5qIjetTYOg",
-   "starts_at_ms": 909227,
-   "starts_at": "15:09"
+   "title": "Ponker's Theme",
+   "clean_title": "Ponker's Theme",
+   "duration_ms": 88266,
+   "spotify_uri": "spotify:track:6Mxqm5prOZ4bLGHC4PzOiz",
+   "spotify_url": "https://open.spotify.com/track/6Mxqm5prOZ4bLGHC4PzOiz?si=7RYsWa1fT1Gnc8ldO6bH0w",
+   "starts_at_ms": 3503477,
+   "starts_at": "58:23"
   },
   {
    "n": 8,
-   "title": "Street Dreams & Reality",
-   "clean_title": "Street Dreams & Reality",
-   "duration_ms": 135384,
-   "spotify_uri": "spotify:track:7dqHsvLzUcfH7mLlI62sso",
-   "spotify_url": "https://open.spotify.com/track/7dqHsvLzUcfH7mLlI62sso?si=CAKyPd7JSMGdPHYnBGq1iQ",
-   "starts_at_ms": 1046369,
-   "starts_at": "17:26"
-  },
-  {
-   "n": 9,
-   "title": "Raw Energy",
-   "clean_title": "Raw Energy",
-   "duration_ms": 145822,
-   "spotify_uri": "spotify:track:2cNOIbePHJPW3TKg5BsVZo",
-   "spotify_url": "https://open.spotify.com/track/2cNOIbePHJPW3TKg5BsVZo?si=Qq0aYJ1aSkeUYMjnQlxXYw",
-   "starts_at_ms": 1181753,
-   "starts_at": "19:41"
-  },
-  {
-   "n": 10,
-   "title": "Life Behind the Mic",
-   "clean_title": "Life Behind the Mic",
-   "duration_ms": 180000,
-   "spotify_uri": "spotify:track:2LjuWU9kOpPDXn18WOPy5G",
-   "spotify_url": "https://open.spotify.com/track/2LjuWU9kOpPDXn18WOPy5G?si=zexM5zFsQaSsn3plusBwJw",
-   "starts_at_ms": 1327575,
-   "starts_at": "22:07"
-  },
-  {
-   "n": 11,
-   "title": "Trap Overdose",
-   "clean_title": "Trap Overdose",
-   "duration_ms": 154074,
-   "spotify_uri": "spotify:track:6TGUqbeGauk3Az5mMEtaZf",
-   "spotify_url": "https://open.spotify.com/track/6TGUqbeGauk3Az5mMEtaZf?si=Puahrkt4TOWCFjmhQv2cPQ",
-   "starts_at_ms": 1507575,
-   "starts_at": "25:07"
-  },
-  {
-   "n": 12,
-   "title": "The Streets Know My Name",
-   "clean_title": "The Streets Know My Name",
-   "duration_ms": 152195,
-   "spotify_uri": "spotify:track:6RwPsGAE2NO83natRqvB93",
-   "spotify_url": "https://open.spotify.com/track/6RwPsGAE2NO83natRqvB93?si=egir2PzyTa247SsqynJ_MA",
-   "starts_at_ms": 1661649,
-   "starts_at": "27:41"
-  },
-  {
-   "n": 13,
-   "title": "Don\u2019t Sleep on the Game",
-   "clean_title": "Don\u2019t Sleep on the Game",
-   "duration_ms": 138795,
-   "spotify_uri": "spotify:track:5YgkB6jnAVHWFRMD8zLCVS",
-   "spotify_url": "https://open.spotify.com/track/5YgkB6jnAVHWFRMD8zLCVS?si=2gKzJa3wRHeu1MkDvfNcPw",
-   "starts_at_ms": 1813844,
-   "starts_at": "30:13"
-  },
-  {
-   "n": 14,
-   "title": "Mind Over Matter",
-   "clean_title": "Mind Over Matter",
-   "duration_ms": 160000,
-   "spotify_uri": "spotify:track:14pnTMul7E3KC1vb0DCu5n",
-   "spotify_url": "https://open.spotify.com/track/14pnTMul7E3KC1vb0DCu5n?si=72NJgVFSSDKmi9gbQD0T7w",
-   "starts_at_ms": 1952639,
-   "starts_at": "32:32"
-  },
-  {
-   "n": 15,
-   "title": "The Heart of the City",
-   "clean_title": "The Heart of the City",
-   "duration_ms": 169411,
-   "spotify_uri": "spotify:track:4bm0etdbNiMtRLcduwvXJ1",
-   "spotify_url": "https://open.spotify.com/track/4bm0etdbNiMtRLcduwvXJ1?si=6YCwy1qNQQWxIVk_UxXdqA",
-   "starts_at_ms": 2112639,
-   "starts_at": "35:12"
-  },
-  {
-   "n": 16,
-   "title": "The Concrete Path",
-   "clean_title": "The Concrete Path",
-   "duration_ms": 156279,
-   "spotify_uri": "spotify:track:7cY3CEji16A4vEvGMUzYSo",
-   "spotify_url": "https://open.spotify.com/track/7cY3CEji16A4vEvGMUzYSo?si=PNLBBij7TnumMpkUXSSDAg",
-   "starts_at_ms": 2282050,
-   "starts_at": "38:02"
-  },
-  {
-   "n": 17,
-   "title": "Rise from the Ashes",
-   "clean_title": "Rise from the Ashes",
-   "duration_ms": 132413,
-   "spotify_uri": "spotify:track:3IC8l4O2sE2qGQIMon4gWj",
-   "spotify_url": "https://open.spotify.com/track/3IC8l4O2sE2qGQIMon4gWj?si=uDTp3MvlQ8ymfMsJsgl9-Q",
-   "starts_at_ms": 2438329,
-   "starts_at": "40:38"
-  },
-  {
-   "n": 18,
-   "title": "Real Recognize Real",
-   "clean_title": "Real Recognize Real",
-   "duration_ms": 172307,
-   "spotify_uri": "spotify:track:10S5hIb1q993jtZqfdYqaW",
-   "spotify_url": "https://open.spotify.com/track/10S5hIb1q993jtZqfdYqaW?si=xrAy709ESGGQw7MKKlM4cg",
-   "starts_at_ms": 2570742,
-   "starts_at": "42:50"
-  },
-  {
-   "n": 19,
-   "title": "Beasts of the Block",
-   "clean_title": "Beasts of the Block",
-   "duration_ms": 157974,
-   "spotify_uri": "spotify:track:2WeJZ3YZIVEBNUPYgKVSJY",
-   "spotify_url": "https://open.spotify.com/track/2WeJZ3YZIVEBNUPYgKVSJY?si=_C8I4rH_RM-D8Q-mS5LzGQ",
-   "starts_at_ms": 2743049,
-   "starts_at": "45:43"
-  },
-  {
-   "n": 20,
-   "title": "All About the Grind",
-   "clean_title": "All About the Grind",
-   "duration_ms": 132000,
-   "spotify_uri": "spotify:track:1WSehFGCFWDM3xM4GbL2Tq",
-   "spotify_url": "https://open.spotify.com/track/1WSehFGCFWDM3xM4GbL2Tq?si=iQupZqjpRlqW-e45OAzbaQ",
-   "starts_at_ms": 2901023,
-   "starts_at": "48:21"
+   "title": "Diminutions",
+   "clean_title": "Diminutions",
+   "duration_ms": 359600,
+   "spotify_uri": "spotify:track:1l4uZYijHKUESvZ2Q1pSCk",
+   "spotify_url": "https://open.spotify.com/track/1l4uZYijHKUESvZ2Q1pSCk?si=uy8G_wODREeRKY48E4TmQA",
+   "starts_at_ms": 3591743,
+   "starts_at": "59:51"
   }
  ],
- "week": 3,
- "slot": "wild_card",
- "fetched_at": "2026-09-22T05:30:35.333065+00:00"
+ "fetched_at": "2026-10-12T14:32:14.975204+00:00"
 }
