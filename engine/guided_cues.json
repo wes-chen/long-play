@@ -223,9 +223,9 @@
     "track_title": "21st Century Schizoid Man - Including \"Mirrors\"",
     "starts_at": "0:00",
     "named_in_cue": false,
-    "cue": "Track 1 — “21st Century Schizoid Man - Including \"Mirrors\"” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "cue": "Track 1 — “21st Century Schizoid Man - Including \"Mirrors\"” starts at 0:00. Track the mellotron across the record — on ‘Epitaph’ it carries two parts at once, volumes shifting against each other so the sustained chords seem to breathe; on ‘21st Century Schizoid Man’ the same keyboard turns into a weapon.",
     "curated_moment": false,
-    "cue_text_pending": true
+    "cue_text_pending": false
    },
    "liner": null,
    "liner_source": null,
@@ -240,13 +240,13 @@
    "album": "Animals",
    "slot": "adventurous",
    "timed": {
-    "track_n": 1,
-    "track_title": "Pigs on the Wing 1",
-    "starts_at": "0:00",
-    "named_in_cue": false,
-    "cue": "Track 1 — “Pigs on the Wing 1” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "track_n": 2,
+    "track_title": "Dogs",
+    "starts_at": "1:24",
+    "named_in_cue": true,
+    "cue": "Track 2 — “Dogs” starts at 1:24. Gilmour’s guitar through the Binson — on ‘Dogs’ the echo repeats smear each note into the next, so the vast space is part of the riff, not decoration.",
     "curated_moment": false,
-    "cue_text_pending": true
+    "cue_text_pending": false
    },
    "liner": null,
    "liner_source": null,
@@ -260,22 +260,14 @@
    "artist": "Yes",
    "album": "Close to the Edge",
    "slot": "adventurous",
-   "timed": {
-    "track_n": 1,
-    "track_title": "Close to the Edge (I. The Solid Time of Change, II. Total Mass Retain, III. I Get up I Get Down, IV. Seasons of Man)",
-    "starts_at": "0:00",
-    "named_in_cue": false,
-    "cue": "Track 1 — “Close to the Edge (I. The Solid Time of Change, II. Total Mass Retain, III. I Get up I Get Down, IV. Seasons of Man)” starts at 0:00. [the week's listen-for lands with the Monday digest]",
-    "curated_moment": false,
-    "cue_text_pending": true
-   },
+   "timed": null,
    "liner": null,
    "liner_source": null,
    "deliver": {
     "liner_day_offset": 1,
     "timed_day_offset": 3
    },
-   "tracklist": "spotify"
+   "tracklist": "pending"
   },
   "genesis|selling-england-by-the-pound": {
    "artist": "Genesis",
@@ -286,9 +278,9 @@
     "track_title": "Dancing with the Moonlit Knight - 2007 Stereo Mix",
     "starts_at": "0:00",
     "named_in_cue": false,
-    "cue": "Track 1 — “Dancing with the Moonlit Knight - 2007 Stereo Mix” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "cue": "Track 1 — “Dancing with the Moonlit Knight - 2007 Stereo Mix” starts at 0:00. Two voices of the band in one song: on ‘Firth of Fifth’, Banks’ classical piano intro hands off to Hackett’s sustained, singing guitar lead — the composed against the improvised.",
     "curated_moment": false,
-    "cue_text_pending": true
+    "cue_text_pending": false
    },
    "liner": null,
    "liner_source": null,
@@ -304,12 +296,12 @@
    "slot": "wild_card",
    "timed": {
     "track_n": 1,
-    "track_title": "Concrete Gospel",
+    "track_title": "Lemmings (Including Cog) - Remastered 2005",
     "starts_at": "0:00",
     "named_in_cue": false,
-    "cue": "Track 1 — “Concrete Gospel” starts at 0:00. [the week's listen-for lands with the Monday digest]",
+    "cue": "Track 1 — “Lemmings (Including Cog) - Remastered 2005” starts at 0:00. Hammill’s voice as an instrument — on ‘Lemmings’ it swings from croon to scream inside a single phrase, doing the job a lead guitar would do.",
     "curated_moment": false,
-    "cue_text_pending": true
+    "cue_text_pending": false
    },
    "liner": null,
    "liner_source": null,
