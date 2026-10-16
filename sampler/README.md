@@ -19,6 +19,10 @@ rollup derives:
   assignments actually getting played?
 - **Time-of-day sessions** — hour-of-day histogram (PT) feeding the CTX scorer:
   commute vs. locked-in work listening matched against album duration profiles.
+- **Listening capacity** — per-window absorption of the watched (assigned)
+  albums: how many picks got any sampled play (`capacity` section, L12).
+  A lower bound — polls are snapshot-only — so it tunes the pick count
+  and drip cadence as a floor, never a verdict.
 
 ## Files
 
@@ -59,6 +63,21 @@ Nine daily polls (all days, no weekend exit): 07:19, 08:19, 09:19, 10:19,
 The poll windows feed the CTX session model (`../reference/ctx-session-model.md`),
 which buckets the `hour_of_day_pt` histogram into morning (7–11am),
 afternoon (3–6pm), and evening (7–10pm) sessions.
+
+## Listening capacity (L12)
+
+Each rollup's `capacity` section measures watched-album absorption for the
+window: albums/tracks touched vs. the watchlist, normalized to a per-week
+rate. Polls are snapshot-only, so every number is a lower bound — the model
+reads it as a floor for the pick count (currently 5/week) and drip cadence.
+
+Status 2026-10-16: with ~4 weeks of sampler data, observed absorption is
+below 1 album/week (1 watched track sampled across the week-3 watchlist
+period). Pick count explicitly HELD at 5 — the read is a floor, not a
+verdict, and the feedback loop is still ramping. Revisit bar: reduce the
+pick count only if `capacity_albums_per_week` stays < 1.0 for three
+consecutive 7-day rollups AND the explicit feedback log agrees
+(skipped/bounced-off rows outnumber played/loved).
 
 ## Known limits (v1)
 
