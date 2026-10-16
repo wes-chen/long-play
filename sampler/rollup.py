@@ -14,6 +14,11 @@ The 7-day run writes the canonical rollups/YYYY-Www.json -- the weekly
 aggregate the engine and capacity model read. Any other window (e.g.
 `rollup.py 1` health checks) writes a sidecar rollups/YYYY-Www.Nd.json
 instead, so a short-window run can never clobber the week's aggregate.
+
+The rollup's `capacity` section (L12) reports watched-album absorption:
+how many of the assigned picks got sampled play inside the window. It is a
+lower bound (snapshot-only polls), read as a floor for the pick count and
+drip cadence, never a verdict on its own.
 """
 import json
 import os
@@ -221,6 +226,49 @@ def main():
             "max_progress_pct": round(album_max, 1),
         })
 
+    # L12: listening-capacity model. How many of the assigned (watched)
+    # albums got any sampled play inside the window — the albums/week
+    # absorption the pick count and drip cadence are tuned against.
+    # Touched = >=1 sampled track; started = >=1 track reaching 10%
+    # (filters poll-window noise); completed = >=85% (COMPLETION_PCT).
+    # Polls are snapshot-only, so every count is a LOWER BOUND on actual
+    # listening — the model reads it as a floor, never a verdict.
+    wl_tracks = wl.get("tracks", {})
+    wl_albums = wl.get("albums", {})
+    uri_to_album = {}
+    for u, t in wl_tracks.items():
+        uri_to_album[u] = t.get("album_uri")
+    cap_per_album = {}
+    for a_uri, a in wl_albums.items():
+        uris = [u for u, au in uri_to_album.items() if au == a_uri]
+        maxed = [tracks[u]["max_pct"] for u in uris if u in tracks]
+        if not maxed:
+            continue
+        artist = a.get("artist") or ""
+        key = f"{artist} — {a['album']}" if artist else a["album"]
+        cap_per_album[key] = {
+            "week": a.get("week"),
+            "slot": a.get("slot"),
+            "tracks_touched": len(maxed),
+            "tracks_started": sum(1 for p in maxed if p >= 10.0),
+            "tracks_completed": sum(1 for p in maxed if p >= COMPLETION_PCT),
+            "max_progress_pct": round(max(maxed), 1),
+        }
+    albums_touched = len(cap_per_album)
+    albums_started = sum(1 for v in cap_per_album.values()
+                         if v["tracks_started"] > 0)
+    capacity = {
+        "window_days": days,
+        "n_watched_albums": len(wl_albums),
+        "n_watched_tracks": len(wl_tracks),
+        "albums_touched": albums_touched,
+        "albums_started": albums_started,
+        "tracks_touched": sum(v["tracks_touched"] for v in cap_per_album.values()),
+        "tracks_completed": sum(v["tracks_completed"] for v in cap_per_album.values()),
+        # absorption normalized to a 7-day week; a floor, not a rate (see above)
+        "capacity_albums_per_week": round(albums_touched * 7 / days, 2) if days else 0.0,
+        "per_album": cap_per_album,
+    }
     # L5: session fit per watched album, from engine/ctx_profiles.json.
     # CTX(album) = sum_session session_share * fit(session, profile), the
     # engine's mild re-rank term; null when the profile has no duration.
@@ -256,6 +304,7 @@ def main():
         "albums": album_rows,
         "hour_of_day_pt": dict(sorted(hours.items())),
         "session_shares": shares,  # L5: hour histogram bucketed to sessions
+        "capacity": capacity,  # L12: albums/week absorption vs watched picks
         "n_off_session_samples": off_session,  # hours outside any session
         "ctx_consumed": bool(ctx["profiles"]),  # L5: engine/ctx_profiles.json read
         "watch_hits": watch_hits,
@@ -284,6 +333,12 @@ def main():
             print(f"  {a['album']}{tag}: {a['hits']} samples, {a['distinct_tracks']} tracks{comp}")
     if watch_hits:
         print(f"WATCH HITS: {len(watch_hits)} samples on recommended albums")
+    # L12: capacity summary — absorption of the week's picks (lower bound).
+    if capacity["n_watched_albums"]:
+        print(f"capacity: {capacity['albums_touched']}/{capacity['n_watched_albums']} "
+              f"albums touched, {capacity['tracks_touched']}/"
+              f"{capacity['n_watched_tracks']} tracks, "
+              f"~{capacity['capacity_albums_per_week']}/week (floor)")
     if hours:
         top_hours = sorted(hours.items(), key=lambda kv: -kv[1])[:5]
         print("peak hours (PT): " + ", ".join(f"{h}:00 ({c})" for h, c in top_hours))
