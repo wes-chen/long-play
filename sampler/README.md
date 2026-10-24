@@ -68,12 +68,18 @@ afternoon (3–6pm), and evening (7–10pm) sessions.
 
 Each rollup's `capacity` section measures watched-album absorption for the
 window: albums/tracks touched vs. the watchlist, normalized to a per-week
-rate. Polls are snapshot-only, so every number is a lower bound — the model
-reads it as a floor for the pick count (currently 5/week) and drip cadence.
+rate. Touched = at least one sampled track at any progress; started = at
+least one track reaching 10% (filters poll-window noise); completed = at
+least one track reaching 85%. Polls are snapshot-only, so every number is
+a lower bound — the model reads it as a floor for the pick count (currently
+5/week) and drip cadence.
 
-Status 2026-10-16: with ~4 weeks of sampler data, observed absorption is
-below 1 album/week (1 watched track sampled across the week-3 watchlist
-period). Pick count explicitly HELD at 5 — the read is a floor, not a
+Status 2026-10-19 (canonical 7-day rollup, final numbers for the prior
+watchlist period): 2 of 5 watched albums touched, 0 started, 0 completed;
+highest sampled progress on any touched track 0.4%. The touches are
+fleeting starts, not absorption, so the touched-rate figure (2.0/week)
+overstates engagement on its own — read it alongside started (0).
+Pick count explicitly HELD at 5 — the read is a floor, not a
 verdict, and the feedback loop is still ramping. Revisit bar: reduce the
 pick count only if `capacity_albums_per_week` stays < 1.0 for three
 consecutive 7-day rollups AND the explicit feedback log agrees
