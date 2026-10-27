@@ -74,16 +74,17 @@ least one track reaching 85%. Polls are snapshot-only, so every number is
 a lower bound — the model reads it as a floor for the pick count (currently
 5/week) and drip cadence.
 
-Status 2026-10-19 (canonical 7-day rollup, final numbers for the prior
-watchlist period): 2 of 5 watched albums touched, 0 started, 0 completed;
-highest sampled progress on any touched track 0.4%. The touches are
-fleeting starts, not absorption, so the touched-rate figure (2.0/week)
-overstates engagement on its own — read it alongside started (0).
+Status 2026-10-26 (canonical 7-day rollup W44): 0 of 5 watched albums
+touched, 0 started, 0 completed; no sampled play of any watched track.
+The prior week (W43) showed 2 of 5 touched at 0.4% max progress — fleeting
+starts, not absorption — so its touched-rate figure (2.0/week) overstated
+engagement on its own; read it alongside started (0).
 Pick count explicitly HELD at 5 — the read is a floor, not a
 verdict, and the feedback loop is still ramping. Revisit bar: reduce the
 pick count only if `capacity_albums_per_week` stays < 1.0 for three
 consecutive 7-day rollups AND the explicit feedback log agrees
-(skipped/bounced-off rows outnumber played/loved).
+(skipped/bounced-off rows outnumber played/loved). One sub-1.0 week
+(W44, 0.0/week) does not meet the three-consecutive-week bar.
 
 ## Known limits (v1)
 
