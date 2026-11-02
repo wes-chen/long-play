@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LONG-PLAY — WEEK 06: Texture as an instrument</title>
+<meta name="description" content="long-play weekly digest — Week 06: Texture as an instrument">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#111111; --paper:#e9e9e6; --chassis:#0b0b0b; --panel-dark:#141414;
+    --hairline:#b9b9b4; --muted:#6f6f6a; --orange:#ff4a00;
+    --mono:"Space Mono",ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+    --display:"Fraunces",Georgia,serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--chassis);color:var(--paper);font-family:var(--mono);
+       font-size:14px;line-height:1.6;padding:18px}
+  .chassis{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+  .panel{background:var(--paper);color:var(--ink);border-radius:8px;padding:26px 28px;position:relative}
+  .panel-dark{background:var(--panel-dark);color:var(--paper);border:1px solid #2a2a2a;
+       border-radius:8px;padding:14px 20px}
+  .o{color:var(--orange)}
+  .kicker{font-size:11px;letter-spacing:.18em;font-weight:700;color:var(--muted);margin-bottom:6px}
+  h1{font-family:var(--display);font-weight:600;font-size:38px;line-height:1.05;
+     letter-spacing:-.01em;margin-bottom:10px}
+  .concept{font-size:13px;color:#333;border-left:3px solid var(--orange);
+       padding-left:12px;margin:14px 0}
+  .album{margin-top:26px;padding-top:20px;border-top:1px solid var(--hairline)}
+  .album .role{font-size:10px;letter-spacing:.2em;font-weight:700;color:var(--orange);margin-bottom:6px}
+  .album .artist{font-size:12px;letter-spacing:.14em;font-weight:700;color:var(--muted)}
+  .album .artist span{font-weight:400;letter-spacing:.06em}
+  .albumtitle{font-family:var(--display);font-style:italic;font-weight:500;
+       font-size:32px;line-height:1.1;letter-spacing:-.01em;margin:4px 0 12px}
+  .album p{margin-bottom:10px}
+  .listenfor{background:#dfdfda;border-radius:6px;padding:10px 14px;font-size:13px;margin:10px 0}
+  .listenfor b{letter-spacing:.08em;font-size:11px}
+  .tracks{margin:10px 0;font-size:13px}
+  .tracks summary{cursor:pointer;font-size:11px;letter-spacing:.14em;font-weight:700;
+       color:var(--muted);padding:8px 0;list-style:none}
+  .tracks summary::-webkit-details-marker{display:none}
+  .tracks summary::before{content:"▸ ";color:var(--orange)}
+  .tracks[open] summary::before{content:"▾ "}
+  .tracks ol{list-style:none;margin:4px 0 6px}
+  .tracks li{padding:8px 0;border-top:1px dotted var(--hairline)}
+  .tracks li b{font-size:13px}
+  .tracks .t{color:var(--muted);font-size:12px;margin-left:8px;white-space:nowrap}
+  .tracks .cue{color:#333}
+  .meta{font-size:12px;color:var(--muted);margin-top:8px}
+  .meta a{color:var(--ink)}
+  .play{display:inline-block;margin-top:6px;font-size:12px;font-weight:700;letter-spacing:.06em;
+       color:var(--paper);background:var(--ink);border-radius:20px;padding:8px 18px;text-decoration:none}
+  .topbar{display:flex;align-items:center;gap:12px;font-size:11px;letter-spacing:.14em}
+  .topbar .spacer{flex:1}
+  .topbar a{color:var(--paper);text-decoration:none;border:1px solid #3a3a3a;border-radius:4px;padding:6px 10px}
+  .feedback{font-size:13px}
+  .feedback b{color:var(--orange)}
+</style>
+</head>
+<body>
+<div class="chassis">
+
+  <header class="panel-dark topbar">
+    <span><span class="o">●</span> LONG-PLAY</span>
+    <span class="spacer"></span>
+    <a href="../index.html">SYLLABUS</a>
+  </header>
+
+  <section class="panel">
+    <div class="kicker">WEEK 06 <span class="o">●</span> DIGEST</div>
+    <h1>Texture as an instrument</h1>
+    <div class="concept"><b>Concept</b> — shoegaze — staring at pedals, not the crowd; guitar as weather<br><b>Technique</b> — distortion as texture — blur, not aggression.</div>
+
+    <div class="album">
+      <div class="role">ANCHOR</div>
+      <div class="artist">MY BLOODY VALENTINE <span>1991</span></div>
+      <h2 class="albumtitle">Loveless</h2>
+      <p><p>The loudest quiet album ever made. Put it on and the guitars stop sounding like guitars — they become weather, and the songs are what you hear through it.</p><p><b>Verdict:</b> the anchor — the record the whole genre is measured against, and the purest version of this week's technique.</p><p><b>Scores:</b> <a href="https://simple.wikipedia.org/wiki/Loveless_(album)">Pitchfork's #1 shoegaze album of all time</a> — the indie review publication's 2016 genre ranking. CULT evidence pending — researched live.</p><p><b>The moment:</b> <a href="https://simple.wikipedia.org/wiki/Loveless_(album)">the band's second album, released 4 November 1991 after recording stretched from February 1989 to September 1991</a> — two years in the studio for 48 minutes of music.</p><p><b>Lineage:</b> the dreamy guitar haze of late-80s British indie, pushed until the melody drowns in its own effects — a pop song heard through a wall, still singing.</p><p><b>Then vs now:</b> <a href="https://simple.wikipedia.org/wiki/Loveless_(album)">Pitchfork later named it the best album of the 1990s in its 1999 list</a>; the record that was once just the scene's high-water mark became the decade's.</p><p><b>Why you:</b> if distortion-as-texture is this week's lesson, this is the textbook — every other album here is a footnote to how far a guitar can blur before it stops being a guitar.</p></p>
+      <div class="listenfor"><b>LISTEN FOR</b> — Track the guitar, not the voice. On 'Only Shallow' and 'When You Sleep', the guitars blur into one continuous texture while the vocal sits inside it — listen for the moment you stop hearing separate instruments and start hearing weather.</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol><li><b>1. Only Shallow</b><span class="t">0:00</span><br><span class="cue"><b>Timbre:</b> A guitar chord hits and keeps ringing until it stops sounding like a chord at all. The distortion does not decorate the riff; it replaces it.</span></li><li><b>2. Loomer</b><span class="t">4:17</span><br><span class="cue"><b>Dynamics:</b> The volume drops and the song gets closer, not smaller. Two and a half minutes, no chorus to arrive at — the texture is the destination.</span></li><li><b>3. Touched</b><span class="t">6:55</span><br><span class="cue"><b>Texture:</b> Fifty-six seconds of near-silence after the opener's weight. It is not an interlude so much as the record letting you hear the room again.</span></li><li><b>4. To Here Knows When</b><span class="t">7:51</span><br><span class="cue"><b>Rhythm:</b> The beat drags behind the guitars and never catches up. That lag is the groove: everything sways instead of marching.</span></li><li><b>5. When You Sleep</b><span class="t">13:22</span><br><span class="cue"><b>Voice:</b> The vocal sits so deep in the mix it reads as another guitar line. Try to follow the words and you lose the melody; follow the melody and the words stop mattering.</span></li><li><b>6. I Only Said</b><span class="t">17:33</span><br><span class="cue"><b>Form:</b> Five and a half minutes that refuse to build to anything. The song starts blurred and stays blurred, and the refusal becomes the hook.</span></li><li><b>7. Come in Alone</b><span class="t">23:07</span><br><span class="cue"><b>Timbre:</b> A cleaner guitar figure surfaces for once, then gets pulled back under. Clarity here is a visitor, not a resident.</span></li><li><b>8. Sometimes</b><span class="t">27:05</span><br><span class="cue"><b>Dynamics:</b> The loudest stretch of the record is also its softest-sounding. Volume rises while attack falls away, so force arrives without impact.</span></li><li><b>9. Blown a Wish</b><span class="t">32:24</span><br><span class="cue"><b>Harmony:</b> Two voices trade lines over a single repeating figure. The harmonies blur at the edges until you cannot tell where one singer ends.</span></li><li><b>10. What You Want</b><span class="t">36:00</span><br><span class="cue"><b>Texture:</b> The guitars thin out into something like static on a radio between stations. It is the most fragile sound on the record, and it holds.</span></li><li><b>11. Soon</b><span class="t">41:33</span><br><span class="cue"><b>Rhythm:</b> A dance beat finally appears, seven minutes from the end, and the guitars wash straight over it. The album closes by proving blur can move your feet.</span></li></ol></details>
+      <a class="play" href="https://open.spotify.com/search/My%20Bloody%20Valentine%20Loveless">▶ PLAY ON SPOTIFY</a>
+      <div class="meta">Sources: <a href="https://simple.wikipedia.org/wiki/Loveless_(album)">Simple Wikipedia</a></div>
+    </div>
+
+    <div class="album">
+      <div class="role">ADVENTUROUS</div>
+      <div class="artist">COCTEAU TWINS <span>1990</span></div>
+      <h2 class="albumtitle">Heaven or Las Vegas</h2>
+      <p><p>A voice that stopped being a voice. Elizabeth Fraser sings in a language you mostly cannot follow, over guitars that shimmer instead of riffing — and it lands as pop music anyway.</p><p><b>Verdict:</b> the adventurous one — the week's technique turned gentle, where distortion softens edges instead of sharpening them.</p><p><b>Scores:</b> <a href="https://en.wikipedia.org/wiki/Heaven_or_Las_Vegas">Pitchfork 10/10</a> — the indie review publication's full-marks score on the 2014 reissue review. CULT evidence pending — researched live.</p><p><b>The moment:</b> <a href="https://en.wikipedia.org/wiki/Heaven_or_Las_Vegas">the band's sixth album, released 17 September 1990 by 4AD</a>, recorded while Fraser was expecting her first child and bassist Simon Raymonde's father died mid-session — birth and death in the same room as the recording.</p><p><b>Lineage:</b> the shimmering, effects-heavy guitar pop of the 4AD label, sung the way a bird sings — melody first, meaning somewhere behind it.</p><p><b>Then vs now:</b> <a href="https://en.wikipedia.org/wiki/Heaven_or_Las_Vegas">it peaked at No. 7 in the UK, the band's most commercially successful release, and Rolling Stone placed it at No. 245 of its 500 Greatest Albums in 2020</a> — the accessible one that turned out to be the landmark.</p><p><b>Why you:</b> if <i>Loveless</i> teaches blur as force, this one teaches blur as light — the same technique, pointed at beauty instead of weight.</p></p>
+      <div class="listenfor"><b>LISTEN FOR</b> — Listen for a voice used as texture. Fraser's words dissolve into vowel sounds on 'Cherry-coloured Funk' and the title track — follow the melody of her voice, not the lyrics, and hear how it becomes another instrument in the mix.</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol><li><b>1. Cherry-coloured Funk</b><span class="t">0:00</span><br><span class="cue"><b>Timbre:</b> A bass line walks in first, then a guitar that sounds wet. Fraser's voice enters on top as a third instrument, not a narrator.</span></li><li><b>2. Pitch the Baby</b><span class="t">3:12</span><br><span class="cue"><b>Rhythm:</b> The drums bounce where the last track floated. A syncopated beat gives the shimmer something to push against, and the song starts to dance.</span></li><li><b>3. Iceblink Luck</b><span class="t">6:26</span><br><span class="cue"><b>Voice:</b> Fraser sings lower here, and suddenly whole phrases surface. Clarity arrives as a surprise, not a promise — then it dissolves again.</span></li><li><b>4. Fifty-fifty Clown</b><span class="t">9:45</span><br><span class="cue"><b>Texture:</b> Layers stack until the guitar sounds like a keyboard and the keyboard sounds like a voice. The instruments trade identities mid-song.</span></li><li><b>5. Heaven or Las Vegas</b><span class="t">12:55</span><br><span class="cue"><b>Harmony:</b> Backing vocals answer the lead a half-step behind it. The title phrase is the one lyric you will catch, and the song is built to make you wait for it.</span></li><li><b>6. I Wear Your Ring</b><span class="t">17:53</span><br><span class="cue"><b>Voice:</b> The clearest singing on the record, almost conversational. After five tracks of glossolalia, plain diction lands like a confession.</span></li><li><b>7. Fotzepolitic</b><span class="t">21:23</span><br><span class="cue"><b>Guitar:</b> A jangling folk-rock figure cuts through the haze. The guitar stops shimmering and starts strumming, and the whole record gets a spine.</span></li><li><b>8. Wolf in the Breast</b><span class="t">24:54</span><br><span class="cue"><b>Dynamics:</b> The arrangement swells and recedes around the vocal instead of under it. Fraser stays level while everything else breathes.</span></li><li><b>9. Road, River and Rail</b><span class="t">28:25</span><br><span class="cue"><b>Timbre:</b> Her voice cracks once, briefly, on an exposed line. The imperfection is the point — it proves a person is inside the texture.</span></li><li><b>10. Frou-frou Foxes in Midsummer Fires</b><span class="t">31:46</span><br><span class="cue"><b>Form:</b> Piano carries the closer, written the day after Raymonde's father died. The album ends on keys, not guitars, and the shimmer finally stills.</span></li></ol></details>
+      <a class="play" href="https://open.spotify.com/album/5lEphbceIgaK1XxWeSrC9E">▶ PLAY ON SPOTIFY</a>
+      <div class="meta">Sources: <a href="https://en.wikipedia.org/wiki/Heaven_or_Las_Vegas">Wikipedia</a> · <a href="https://cocteautwins.com/heaven-or-las-vegas.html">Cocteau Twins official site</a></div>
+    </div>
+
+    <div class="album">
+      <div class="role">ADVENTUROUS</div>
+      <div class="artist">SLOWDIVE <span>1993</span></div>
+      <h2 class="albumtitle">Souvlaki</h2>
+      <p><p>A breakup album that never raises its voice. Two singers who had just split up keep singing together, quietly, over guitars that sound like weather changing — and the sadness never curdles into drama.</p><p><b>Verdict:</b> the adventurous one — the week's technique at its most melodic, where the blur carries songs you can hum.</p><p><b>Scores:</b> <a href="https://en.wikipedia.org/wiki/Souvlaki_(album)">Pitchfork 9.3/10</a> — the indie review publication's retrospective score; <a href="https://en.wikipedia.org/wiki/Souvlaki_(album)">Pitchfork also ranked it the second-best shoegaze album of all time in 2016</a>. CULT evidence pending — researched live.</p><p><b>The moment:</b> <a href="https://en.wikipedia.org/wiki/Souvlaki_(album)">the band's second album, released 1 June 1993 through Creation Records</a>, written after co-vocalists Rachel Goswell and Neil Halstead ended their relationship — and <a href="https://en.wikipedia.org/wiki/Souvlaki_(album)">Brian Eno spent a few days in the sessions, leaving his mark on "Sing" and "Here She Comes"</a>.</p><p><b>Lineage:</b> the soft, layered guitar wash of the early-90s Creation scene, sung as a duet — two voices sharing one melody the way two people share a room after a split.</p><p><b>Then vs now:</b> <a href="https://en.wikipedia.org/wiki/Souvlaki_(album)">it peaked at No. 51 in the UK and was greeted with tepid reviews — one Melody Maker critic said he would rather drown in a bath of porridge than hear it again</a>. It has since been hailed as a classic of the genre.</p><p><b>Why you:</b> the entry point if <i>Loveless</i> feels like too much weather at once — same blur, but with choruses that let you in.</p></p>
+      <div class="listenfor"><b>LISTEN FOR</b> — Listen for two voices sharing one song. Halstead and Goswell trade and overlap lines on 'Alison' and 'When the Sun Hits' — track whose voice carries the melody and when the other one takes it over, without the song breaking stride.</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol><li><b>1. Alison</b><span class="t">0:00</span><br><span class="cue"><b>Texture:</b> Muted drums sit behind a curtain of guitar and two voices. The song opens mid-haze, as if you walked into a room where it was already playing.</span></li><li><b>2. Machine Gun</b><span class="t">3:50</span><br><span class="cue"><b>Voice:</b> Goswell and Halstead alternate lines without handing the song over. The vocal changes hands and the melody never pauses to notice.</span></li><li><b>3. 40 Days</b><span class="t">8:17</span><br><span class="cue"><b>Rhythm:</b> The tempo drags to a near-standstill. A song about waiting is played at waiting speed, and the guitars fill the empty time.</span></li><li><b>4. Sing</b><span class="t">11:31</span><br><span class="cue"><b>Timbre:</b> Eno's keyboards slide underneath the guitars like a second weather system. The track gets stranger and calmer at the same time.</span></li><li><b>5. Here She Comes</b><span class="t">16:20</span><br><span class="cue"><b>Dynamics:</b> Two minutes, barely above a whisper. After the sprawl of "Sing", the record exhales — and the quiet is louder than the noise was.</span></li><li><b>6. Souvlaki Space Station</b><span class="t">18:38</span><br><span class="cue"><b>Form:</b> A loop repeats until it stops sounding like a loop and starts sounding like a place. The song builds by standing still.</span></li><li><b>7. When the Sun Hits</b><span class="t">24:35</span><br><span class="cue"><b>Harmony:</b> Both voices sing together at last, and the guitars lift underneath them. This is the album's chorus in every sense: the moment it opens up.</span></li><li><b>8. Altogether</b><span class="t">29:21</span><br><span class="cue"><b>Texture:</b> The guitars thin to a single shimmering line. What was a wall becomes a thread, and you can hear every strand of it.</span></li><li><b>9. Melon Yellow</b><span class="t">33:02</span><br><span class="cue"><b>Rhythm:</b> A lighter beat carries the penultimate track. The record lets itself move again, like someone deciding to go outside.</span></li><li><b>10. Dagger</b><span class="t">36:55</span><br><span class="cue"><b>Guitar:</b> Acoustic guitar, almost no effects, one voice nearly alone. After nine tracks of blur, the album ends with the clearest sound it has.</span></li></ol></details>
+      <a class="play" href="https://open.spotify.com/album/53eHm1f3sFiSzWMaKOl98Z">▶ PLAY ON SPOTIFY</a>
+      <div class="meta">Sources: <a href="https://en.wikipedia.org/wiki/Souvlaki_(album)">Wikipedia</a></div>
+    </div>
+
+    <div class="album">
+      <div class="role">ADVENTUROUS</div>
+      <div class="artist">RIDE <span>1990</span></div>
+      <h2 class="albumtitle">Nowhere</h2>
+      <p><p>The pop album hiding inside the noise. Ride were teenagers when they made this, and it shows in the best way — huge choruses, played at full volume through a wall of distortion, by a band that had not yet learned to be embarrassed about either.</p><p><b>Verdict:</b> the adventurous one — the week's technique with the songs left visible, proof that blur and melody are not opposites.</p><p><b>Scores:</b> <a href="https://en.wikipedia.org/wiki/Nowhere_(album)">Pitchfork 9.5/10</a> — the indie review publication's score on the 20th-anniversary reissue; <a href="https://en.wikipedia.org/wiki/Nowhere_(album)">Pitchfork ranked it No. 74 on its 2003 list of the top 100 albums of the 1990s</a>. CULT evidence pending — researched live.</p><p><b>The moment:</b> <a href="https://en.wikipedia.org/wiki/Nowhere_(album)">Ride's debut album, released 15 October 1990 on Creation Records</a>, recorded by band members <a href="https://en.wikipedia.org/wiki/Nowhere_(album)">aged between 18 and 20, working late-night sessions that left what Mark Gardener called a dark, alienated feeling in the music</a>.</p><p><b>Lineage:</b> the jangly guitar pop of late-80s British indie, played through the loudest pedals available — choruses you could sing, delivered at a volume that makes singing feel beside the point.</p><p><b>Then vs now:</b> <a href="https://en.wikipedia.org/wiki/Nowhere_(album)">Select magazine called it a phenomenal debut on release while NME stayed ambivalent</a>; retrospectively it is acclaimed as one of the greatest shoegaze albums, and <a href="https://en.wikipedia.org/wiki/Nowhere_(album)">Rolling Stone called it a masterpiece</a>.</p><p><b>Why you:</b> the one to play first if the week's premise sounds like homework — <i>Nowhere</i> proves the technique on songs that would work with the effects switched off.</p></p>
+      <div class="listenfor"><b>LISTEN FOR</b> — Listen for pop songs inside the noise. Under the distortion on 'Seagull' and 'Vapour Trail' sit clean, driving melodies — follow the bass line and the vocal hook, and hear how the blur frames them instead of burying them.</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol><li><b>1. Seagull</b><span class="t">0:00</span><br><span class="cue"><b>Bass:</b> A rubbery bass line starts the record before the guitars arrive. Follow it through the noise: it never leaves, and it is the song's spine.</span></li><li><b>2. Kaleidoscope</b><span class="t">6:10</span><br><span class="cue"><b>Rhythm:</b> Three minutes, no wasted motion. The drums drive straight ahead while the guitars swirl above them, and the contrast keeps the song upright.</span></li><li><b>3. In a Different Place</b><span class="t">9:10</span><br><span class="cue"><b>Voice:</b> Two voices harmonise so closely they sound like one voice doubled. The chorus lands as a single sound, not a blend.</span></li><li><b>4. Polar Bear</b><span class="t">14:40</span><br><span class="cue"><b>Dynamics:</b> The song escalates in steps, each verse louder than the last. Tom rolls mark the rises, and the guitars answer them instead of leading.</span></li><li><b>5. Dreams Burn Down</b><span class="t">19:25</span><br><span class="cue"><b>Guitar:</b> A tremolo effect makes the guitars shudder in place. The riff does not move; it vibrates, and that vibration carries six minutes.</span></li><li><b>6. Decay</b><span class="t">25:29</span><br><span class="cue"><b>Form:</b> The shortest full song on the record, and the strangest. It arrives like a fragment of another album and leaves before explaining itself.</span></li><li><b>7. Paralysed</b><span class="t">29:04</span><br><span class="cue"><b>Timbre:</b> The guitars get harsher here, almost metallic. The distortion stops being weather and becomes an edge — the week's technique with its teeth out.</span></li><li><b>8. Vapour Trail</b><span class="t">34:38</span><br><span class="cue"><b>Harmony:</b> Strings enter under the closing chorus, and the noise softens around them. The album's prettiest melody gets the gentlest treatment, and it ends on a lift.</span></li></ol></details>
+      <a class="play" href="https://open.spotify.com/search/Ride%20Nowhere">▶ PLAY ON SPOTIFY</a>
+      <div class="meta">Sources: <a href="https://en.wikipedia.org/wiki/Nowhere_(album)">Wikipedia</a></div>
+    </div>
+
+    <div class="album">
+      <div class="role">WILD CARD</div>
+      <div class="artist">HAVE A NICE LIFE <span>2008</span></div>
+      <h2 class="albumtitle">Deathconsciousness</h2>
+      <p><p>Two friends, less than a thousand dollars, five years, and a 70-page booklet inventing a fake religion. Nobody noticed when it came out. The internet found it anyway, and now it will not let go.</p><p><b>Verdict:</b> the wild card — the week's technique taken to its extreme, where texture is not a sound but a whole world, built from cheap gear and total commitment.</p><p><b>Scores:</b> <a href="https://en.wikipedia.org/wiki/Deathconsciousness">Ondarock 8.0/10</a> — the Italian music magazine's review score. <a href="https://en.wikipedia.org/wiki/Deathconsciousness">It received little mainstream attention on release and gained its following through online communities</a> instead. CULT evidence pending — researched live.</p><p><b>The moment:</b> <a href="https://en.wikipedia.org/wiki/Deathconsciousness">the Connecticut duo's debut, released 24 January 2008 through their own Enemies List Home Recordings</a>, <a href="https://en.wikipedia.org/wiki/Deathconsciousness">recorded over five years on a budget of less than $1,000, with the original masters later lost to a hard-drive crash</a> — then reissued seven times by 2019.</p><p><b>Lineage:</b> the heavy gloom of post-punk and the guitar wash of shoegaze, recorded in a bedroom — a record built by people who heard the whole genre and added their own wing.</p><p><b>Then vs now:</b> <a href="https://en.wikipedia.org/wiki/Deathconsciousness">the duo expected it to linger in obscurity; instead it became, in Kerrang's phrase, the stuff of internet myth</a>, and <a href="https://en.wikipedia.org/wiki/Deathconsciousness">the band performed it in full at Roadburn festival in 2019</a>.</p><p><b>Why you:</b> this is the wild-card test — not whether you like the sound, but whether a record made with nothing, about death, can hold you for 85 minutes. Play it late, lights low, start to finish.</p></p>
+      <div class="listenfor"><b>LISTEN FOR</b> — Listen for the quiet inside the loud. Across 'Bloodhail' and 'Earthmover', the loudest passages are built from soft layers stacked until they roar — track one quiet element, a synth or a bass line, from its entrance to the point it becomes the wall.</div>
+      <details class="tracks"><summary>TRACK NOTES</summary><ol><li><b>1. A Quick One Before the Eternal Worm Devours Connecticut</b><span class="t">0:00</span><br><span class="cue"><b>Texture:</b> Eight minutes of synths and acoustic guitar before a single beat. The title promises a quick one; the song refuses, and that refusal sets the album's terms.</span></li><li><b>2. Bloodhail</b><span class="t">7:52</span><br><span class="cue"><b>Bass:</b> A bass line introduces the darker mood, then layered guitars pile on. The song is built like a wall, one brick at a time, until the vocal has nowhere to stand but inside it.</span></li><li><b>3. The Big Gloom</b><span class="t">13:30</span><br><span class="cue"><b>Dynamics:</b> Percussion drives relentlessly while the vocal stays patient. The tension comes from that mismatch: hurry underneath, stillness on top.</span></li><li><b>4. Hunter</b><span class="t">21:34</span><br><span class="cue"><b>Guitar:</b> Melodic riffs carry a story about a man climbing a tower of people to shoot God. The guitars sound almost hopeful, which makes the story stranger.</span></li><li><b>5. Telephony</b><span class="t">31:17</span><br><span class="cue"><b>Timbre:</b> A high metallic snare cuts through deep guitar strumming for the whole track. One harsh sound, repeated, becomes the song's weather.</span></li><li><b>6. Who Would Leave Their Son out in the Sun?</b><span class="t">35:53</span><br><span class="cue"><b>Voice:</b> Reverb-heavy vocals blur the lyric into atmosphere. You catch phrases, not sentences, and the gaps do the emotional work.</span></li><li><b>7. There Is No Food</b><span class="t">41:10</span><br><span class="cue"><b>Texture:</b> Ambient drones and distorted vocal fragments, almost no beat. The first disc ends by dissolving, not concluding.</span></li><li><b>8. Waiting for Black Metal Records to Come in the Mail</b><span class="t">45:10</span><br><span class="cue"><b>Rhythm:</b> Post-punk pace returns, then distortion drowns it by the end. The song starts as a band and finishes as weather.</span></li><li><b>9. Holy Fucking Shit: 40,000</b><span class="t">51:25</span><br><span class="cue"><b>Form:</b> A Casio preset and a gentle melody give way to harsh noise, then an acoustic passage. Three songs in one, stitched by nerve, not logic.</span></li><li><b>10. The Future</b><span class="t">57:52</span><br><span class="cue"><b>Dynamics:</b> Synthetic drums and an upbeat rhythm carry the bleakest title on the record. The mismatch is the joke, and it is not a funny one.</span></li><li><b>11. Deep, Deep</b><span class="t">61:40</span><br><span class="cue"><b>Texture:</b> Synths and distorted guitar trade the lead without either winning. The texture thickens until melody and noise are the same substance.</span></li><li><b>12. I Don&#x27;t Love</b><span class="t">67:03</span><br><span class="cue"><b>Voice:</b> Layered vocals repeat a refusal over subdued percussion. The song says it cannot feel love, and sings that failure as carefully as a love song.</span></li><li><b>13. Earthmover</b><span class="t">73:10</span><br><span class="cue"><b>Dynamics:</b> Eleven minutes from acoustic strumming to a wall of sound, with a bass drop near the end that was an accident in the studio. The album closes by burying itself, loudly.</span></li></ol></details>
+      <a class="play" href="https://open.spotify.com/album/6MH3CAXp8AN8ELrbex18dM">▶ PLAY ON SPOTIFY</a>
+      <div class="meta">Sources: <a href="https://en.wikipedia.org/wiki/Deathconsciousness">Wikipedia</a> · <a href="https://www.brooklynvegan.com/have-a-nice-lifes-classic-deathconsciousness-out-now-on-limited-splatter-vinyl/">BrooklynVegan</a></div>
+    </div>
+  </section>
+
+  <!-- FEEDBACK BLOCK — verbatim per reference/feedback-prompt.md (L8).
+       The slot label on each line is load-bearing: it is how chat replies
+       parse into listening-log.md without re-resolving the slot. A-E is
+       file order: anchor, adventurous x3, wild card. The context-tag line
+       stays (feeds the CTX session model). -->
+  <footer class="panel-dark feedback">
+    How was week 06? One line per album — played / skipped / loved / bounced off:<br>
+    <br>
+    - Anchor — MY BLOODY VALENTINE, Loveless:<br>
+    - Adventurous — COCTEAU TWINS, Heaven or Las Vegas:<br>
+    - Adventurous — SLOWDIVE, Souvlaki:<br>
+    - Adventurous — RIDE, Nowhere:<br>
+    - Wild card — HAVE A NICE LIFE, Deathconsciousness:<br>
+    <br>
+    Anything else you want me to know goes on its own line after these five.<br>
+    <br>
+    Optional: add where you listened — commute / focused / background / late-night. Tags tune the taste vector.
+  </footer>
+
+</div>
+</body>
+</html>
