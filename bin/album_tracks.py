@@ -15,9 +15,11 @@ Album identity is verified, not assumed: the resolver only accepts a
 search result whose artist AND album title both match the request (a
 same-artist different-album result is refused rather than cached), and
 re-checks the fetched experience's album title before writing the cache.
-When nothing matches it fails loudly instead of writing a mislabeled
-cache — a wrong tracklist poisons guided cues, durations, and watchlist
-mapping downstream.
+Artist matching is word-boundary, not substring: a plain `in` check let
+"Ride" match "Jaded Juice Riders" and cache a stranger's album under the
+requested slug. When nothing matches it fails loudly instead of writing
+a mislabeled cache — a wrong tracklist poisons guided cues, durations,
+and watchlist mapping downstream.
 """
 import json
 import os
@@ -67,6 +69,17 @@ def titles_match(requested, found):
     return SequenceMatcher(None, r, f).ratio() >= TITLE_MATCH_THRESHOLD
 
 
+def artist_matches(artist, subtitle):
+    """True when the requested artist names the result's artist.
+
+    Word-boundary match on the subtitle: "Ride" matches "Ride" or
+    "Ride, Someone Else" but not "Jaded Juice Riders", where it only
+    appears as a substring of another artist's name.
+    """
+    return re.search(r"\b" + re.escape(artist.lower()) + r"\b",
+                     (subtitle or "").lower()) is not None
+
+
 def sh(*args):
     return subprocess.run(args, capture_output=True, text=True, timeout=60)
 
@@ -86,10 +99,9 @@ def resolve(artist, album):
         items.extend(section.get("items", []))
     if not items:
         return None, "no album results"
-    a_low = artist.lower()
     pick = None
     for it in items:
-        if a_low not in (it.get("subtitle") or "").lower():
+        if not artist_matches(artist, it.get("subtitle")):
             continue
         if titles_match(album, it.get("title") or ""):
             pick = it
