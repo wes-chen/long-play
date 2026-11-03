@@ -10,6 +10,8 @@ and watchlist mapping downstream.
 Rule under test:
 - resolve() only accepts a result whose artist AND album title match;
   a same-artist different-album result is refused, never cached;
+- artist matching is word-boundary, not substring: "Ride" must not match
+  "Jaded Juice Riders";
 - the fetched experience's album title is re-verified before the cache
   is written; mismatch fails loudly instead of caching;
 - a cache hit never touches the network.
@@ -134,6 +136,40 @@ def check_deluxe_suffix_accepted():
     print("ok - check_deluxe_suffix_accepted")
 
 
+def check_substring_artist_not_matched():
+    # Nov 2026 incident: "Ride" matched "Jaded Juice Riders" by substring
+    # and a stranger's album was cached under the Ride slug. The resolver
+    # must skip the substring artist and take the word-boundary match.
+    items = _search(
+        _item("Nowhere", "Jaded Juice Riders", "spotify:album:riders"),
+        _item("Nowhere", "Ride", "spotify:album:nowhere"),
+    )
+    real = _patch_sh(_mock(items, _exp("Nowhere")))
+    try:
+        (uri, url, tracks), err = album_tracks.resolve("Ride", "Nowhere")
+    finally:
+        album_tracks.sh = real
+    assert err is None, err
+    assert uri == "spotify:album:nowhere", uri
+    print("ok - check_substring_artist_not_matched")
+
+
+def check_substring_artist_only_fails_loudly():
+    # When the only title match carries the artist as a substring of
+    # another name, there is no artist match at all: fail, never cache.
+    items = _search(
+        _item("Nowhere", "Jaded Juice Riders", "spotify:album:riders"),
+    )
+    real = _patch_sh(_mock(items, _exp("Nowhere")))
+    try:
+        result, err = album_tracks.resolve("Ride", "Nowhere")
+    finally:
+        album_tracks.sh = real
+    assert result is None, result
+    assert "no album title match" in err, err
+    print("ok - check_substring_artist_only_fails_loudly")
+
+
 def check_experience_title_mismatch_refused():
     # Even if the search pick were wrong, the experience re-check catches it.
     items = _search(
@@ -180,6 +216,8 @@ def main():
     for check in (check_picks_title_match_not_first_artist_match,
                   check_no_title_match_fails_loudly_and_writes_nothing,
                   check_deluxe_suffix_accepted,
+                  check_substring_artist_not_matched,
+                  check_substring_artist_only_fails_loudly,
                   check_experience_title_mismatch_refused,
                   check_cache_hit_never_calls_api):
         check()
