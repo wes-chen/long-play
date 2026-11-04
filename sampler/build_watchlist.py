@@ -62,22 +62,41 @@ def norm_title(s):
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", "", s)).strip()
 
 
+def artist_matches(artist, subtitle):
+    """True when the requested artist is one of the result's artists.
+
+    Token-exact on the comma-separated subtitle: "Ride" matches "Ride"
+    or "Ride, Someone Else" but not "Jaded Juice Riders" or "Fly-By
+    Ride", where it only appears inside another artist's name. A
+    word-boundary regex is not enough here: hyphens are word
+    boundaries, so it still matched "Fly-By Ride" and misattributed
+    that album to Ride in the live week-6 watchlist.
+    """
+    tokens = [(t or "").strip().lower() for t in (subtitle or "").split(",")]
+    return artist.lower() in tokens
+
+
 def find_album(album, artist):
     data = sh("spotify-api", "search", "--query", f"{album} by {artist}",
               "--search-type", "ALBUMS")
     cands = []
     for s in data.get("sections", []):
         cands.extend(s.get("items", []))
-    artist_l = artist.lower()
     artist_match = [c for c in cands
-                    if artist_l in str(c.get("subtitle", "")).lower()]
+                    if artist_matches(artist, c.get("subtitle"))]
     # ADV-LP-04: match the *album*, not just the artist — a saved album by
     # the same artist (e.g. Wall Of Eyes) is a different record.
     want = norm_title(album)
     title_match = [c for c in artist_match
                    if norm_title(c.get("title")).startswith(want)]
-    pool = title_match or artist_match
-    # Prefer the edition already in Wesley's library ("SAVED" trait): its
+    # No title fallback: when no title matches, returning the first
+    # same-artist album silently misattributes a different record
+    # (live case: "Nowhere" by Ride resolved to "Songs from the Middle
+    # of Nowhere" by Fly-By Ride, and "Loveless" resolved to the
+    # "you made me realise" EP). Failing loudly keeps the watchlist
+    # honest; the caller reports the miss as a warning.
+    pool = title_match
+    # Prefer the edition already in the library ("SAVED" trait): its
     # track URIs are what his plays will carry, so watch hits attribute.
     for c in pool:
         if "SAVED" in (c.get("traits") or []):
