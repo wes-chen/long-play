@@ -25,6 +25,8 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "sampler"
 
 import build_watchlist
 
+_REAL_FIND_ALBUM = build_watchlist.find_album
+
 FAKE_WEEKS = {
     99: [
         ("First Album", "First Artist", "anchor"),
@@ -120,10 +122,53 @@ def check_partial_build_covers_resolved_only():
     print("ok - check_partial_build_covers_resolved_only")
 
 
+def check_artist_match_is_word_boundary_not_substring():
+    """A substring-only artist must not win the album resolve.
+
+    Regression test for the album_tracks.py incident class: "Ride"
+    substring-matches "Jaded Juice Riders", so a stranger's album would
+    be cached under the requested artist's watchlist entry and poison
+    watch-hit attribution. The token-exact match skips it and picks
+    the real artist's edition; a hyphenated lookalike ("Fly-By Ride")
+    is rejected too, since a hyphen is a word boundary but not an
+    artist boundary. With only lookalike artists present, or with the
+    right artist but a different album title, the resolve fails loudly
+    instead of misattributing — the old title fallback returned the
+    first same-artist record regardless of title.
+    """
+    payload = {"sections": [{"items": [
+        {"title": "Nowhere", "subtitle": "Jaded Juice Riders",
+         "spotify_uri": "spotify:album:wrong000000000000000001"},
+        {"title": "Nowhere", "subtitle": "Fly-By Ride",
+         "spotify_uri": "spotify:album:wrong000000000000000002"},
+        {"title": "Nowhere", "subtitle": "Ride, Someone Else",
+         "spotify_uri": "spotify:album:ride000000000000000001"},
+    ]}]}
+    build_watchlist.sh = lambda *a: payload
+    build_watchlist.find_album = _REAL_FIND_ALBUM
+    uri, title, saved = build_watchlist.find_album("Nowhere", "Ride")
+    assert uri == "spotify:album:ride000000000000000001", uri
+    assert title == "Nowhere", title
+    payload_only_substring = {"sections": [{"items": [
+        {"title": "Nowhere", "subtitle": "Jaded Juice Riders",
+         "spotify_uri": "spotify:album:wrong000000000000000001"},
+    ]}]}
+    build_watchlist.sh = lambda *a: payload_only_substring
+    assert build_watchlist.find_album("Nowhere", "Ride") == (None, None, False)
+    payload_wrong_title = {"sections": [{"items": [
+        {"title": "Other Album", "subtitle": "Ride",
+         "spotify_uri": "spotify:album:ride000000000000000002"},
+    ]}]}
+    build_watchlist.sh = lambda *a: payload_wrong_title
+    assert build_watchlist.find_album("Nowhere", "Ride") == (None, None, False)
+    print("ok - check_artist_match_is_word_boundary_not_substring")
+
+
 def main():
     for check in (check_total_failure_leaves_old_watchlist,
                   check_success_replaces_with_new_week_only,
-                  check_partial_build_covers_resolved_only):
+                  check_partial_build_covers_resolved_only,
+                  check_artist_match_is_word_boundary_not_substring):
         check()
     return 0
 
