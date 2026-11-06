@@ -30,6 +30,11 @@ rollup derives:
   JSON line to the private samples log. Dumb by design; never crashes the cron.
 - `build_watchlist.py` — resolves the current week's albums to their track
   URIs (`python3 build_watchlist.py 1`). Re-run when the week changes.
+  Search is artist-scoped (`--artist` with a bare-title query — the old
+  "{album} by {artist}" query text misdirected the backend and hid
+  records). Albums search cannot surface at all are pinned to verified
+  URIs in `pinned_albums.json` (currently Ride's Nowhere only; a pin is
+  added only after the album's track list is verified via experience).
   Fail-closed: a build that resolves zero albums exits nonzero and leaves
   the existing watchlist untouched, so a transient resolver failure can
   never wipe the working watchlist (and `bin/rollover.py` refuses to
