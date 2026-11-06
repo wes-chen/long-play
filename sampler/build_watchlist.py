@@ -19,6 +19,8 @@ LOG_DIR = os.path.expanduser(
 WATCHLIST = os.path.join(LOG_DIR, "watchlist.json")
 WEEKS_JSON = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                           "engine", "weeks.json")
+PINNED_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                           "pinned_albums.json")
 
 # week -> [(album, artist, slot)]
 # ADV-LP-01: the machine-readable 24-week plan lives in engine/weeks.json
@@ -76,9 +78,39 @@ def artist_matches(artist, subtitle):
     return artist.lower() in tokens
 
 
+def load_pins():
+    """(normalized album, artist) -> Spotify album URI for search-invisible
+    records. Missing or malformed file means no pins, never a crash:
+    the search path below is the default and pins are only a fallback."""
+    try:
+        with open(PINNED_FILE) as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+    pins = {}
+    for p in data.get("pins", []):
+        try:
+            pins[(norm_title(p["album"]), p["artist"].strip().lower())] = \
+                p["spotify_uri"]
+        except (KeyError, AttributeError):
+            continue
+    return pins
+
+
 def find_album(album, artist):
-    data = sh("spotify-api", "search", "--query", f"{album} by {artist}",
-              "--search-type", "ALBUMS")
+    # Pinned first: a verified URI beats a search that cannot see the
+    # record at all (live case: Ride's Nowhere — no album or artist-scoped
+    # query surfaces it, and the artist page caps at 5 recent albums).
+    pinned = load_pins().get((norm_title(album), artist.strip().lower()))
+    if pinned:
+        return pinned, album, False
+    # Artist-scoped search with a bare-title query. The old
+    # "{album} by {artist}" query text misdirects the backend: with it,
+    # Loveless by My Bloody Valentine returns the band's other records
+    # and never the album itself, while the bare title plus --artist
+    # returns it first.
+    data = sh("spotify-api", "search", "--query", album,
+              "--artist", artist, "--search-type", "ALBUMS")
     cands = []
     for s in data.get("sections", []):
         cands.extend(s.get("items", []))
