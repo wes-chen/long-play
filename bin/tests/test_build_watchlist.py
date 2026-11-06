@@ -144,6 +144,15 @@ def check_artist_match_is_word_boundary_not_substring():
         {"title": "Nowhere", "subtitle": "Ride, Someone Else",
          "spotify_uri": "spotify:album:ride000000000000000001"},
     ]}]}
+    # This check exercises the search matcher, so run it with pins
+    # disabled: the real pinned_albums.json pins Nowhere to its verified
+    # URI, which would shadow the mocked search payloads below.
+    tmp = tempfile.mkdtemp(prefix="build-watchlist-pins-")
+    empty_pins = os.path.join(tmp, "pinned_albums.json")
+    with open(empty_pins, "w") as f:
+        json.dump({"pins": []}, f)
+    real_pinned = build_watchlist.PINNED_FILE
+    build_watchlist.PINNED_FILE = empty_pins
     build_watchlist.sh = lambda *a: payload
     build_watchlist.find_album = _REAL_FIND_ALBUM
     uri, title, saved = build_watchlist.find_album("Nowhere", "Ride")
@@ -161,14 +170,109 @@ def check_artist_match_is_word_boundary_not_substring():
     ]}]}
     build_watchlist.sh = lambda *a: payload_wrong_title
     assert build_watchlist.find_album("Nowhere", "Ride") == (None, None, False)
+    build_watchlist.PINNED_FILE = real_pinned
     print("ok - check_artist_match_is_word_boundary_not_substring")
+
+
+def check_search_is_artist_scoped_with_bare_title_query():
+    """The search call must pass --artist and a bare-title query.
+
+    The old "{album} by {artist}" query text misdirects the backend:
+    for Loveless it returns the band's other records and never the
+    album itself, while the bare title plus --artist returns it first.
+    """
+    seen = {}
+
+    def _capture(*args):
+        seen["argv"] = args
+        return {"sections": [{"items": [
+            {"title": "Loveless", "subtitle": "my bloody valentine",
+             "spotify_uri": "spotify:album:loveless000000000000001"},
+        ]}]}
+
+    build_watchlist.sh = _capture
+    build_watchlist.find_album = _REAL_FIND_ALBUM
+    uri, title, saved = build_watchlist.find_album(
+        "Loveless", "My Bloody Valentine")
+    assert uri == "spotify:album:loveless000000000000001", uri
+    argv = seen["argv"]
+    assert argv[0:2] == ("spotify-api", "search"), argv
+    assert "--artist" in argv, argv
+    assert argv[argv.index("--artist") + 1] == "My Bloody Valentine", argv
+    assert argv[argv.index("--query") + 1] == "Loveless", argv
+    assert " by " not in argv[argv.index("--query") + 1], argv
+    print("ok - check_search_is_artist_scoped_with_bare_title_query")
+
+
+def check_pinned_album_resolves_without_search():
+    """A pinned album resolves from pinned_albums.json without any search.
+
+    Regression case: Ride's Nowhere — no album or artist-scoped query
+    surfaces it, so without the pin it fails loudly every rollover and
+    the sampler stays blind to it for the whole week.
+    """
+    tmp = tempfile.mkdtemp(prefix="build-watchlist-pins-")
+    pins_path = os.path.join(tmp, "pinned_albums.json")
+    with open(pins_path, "w") as f:
+        json.dump({"pins": [{
+            "album": "NOWHERE", "artist": "Ride",
+            "spotify_uri": "spotify:album:nowhere000000000000001",
+        }]}, f)
+    real_pinned = build_watchlist.PINNED_FILE
+    build_watchlist.PINNED_FILE = pins_path
+    build_watchlist.find_album = _REAL_FIND_ALBUM
+
+    def _must_not_search(*args):
+        raise AssertionError("pinned resolve must not call search")
+
+    build_watchlist.sh = _must_not_search
+    try:
+        uri, title, saved = build_watchlist.find_album("Nowhere", "Ride")
+        assert uri == "spotify:album:nowhere000000000000001", uri
+        assert title == "Nowhere", title
+        assert saved is False, saved
+        # A non-pinned album still goes through search.
+        build_watchlist.sh = lambda *a: {"sections": [{"items": [
+            {"title": "Souvlaki", "subtitle": "Slowdive",
+             "spotify_uri": "spotify:album:souvlaki00000000000001"},
+        ]}]}
+        uri, _, _ = build_watchlist.find_album("Souvlaki", "Slowdive")
+        assert uri == "spotify:album:souvlaki00000000000001", uri
+    finally:
+        build_watchlist.PINNED_FILE = real_pinned
+    print("ok - check_pinned_album_resolves_without_search")
+
+
+def check_pin_key_is_normalized():
+    """Pin lookup is title- and case-insensitive, like the matcher."""
+    tmp = tempfile.mkdtemp(prefix="build-watchlist-pins-")
+    pins_path = os.path.join(tmp, "pinned_albums.json")
+    with open(pins_path, "w") as f:
+        json.dump({"pins": [{
+            "album": "Nowhere (Expanded)", "artist": "  RIDE ",
+            "spotify_uri": "spotify:album:nowhere000000000000001",
+        }]}, f)
+    real_pinned = build_watchlist.PINNED_FILE
+    build_watchlist.PINNED_FILE = pins_path
+    build_watchlist.find_album = _REAL_FIND_ALBUM
+    build_watchlist.sh = lambda *a: (_ for _ in ()).throw(
+        AssertionError("pinned resolve must not call search"))
+    try:
+        uri, _, _ = build_watchlist.find_album("Nowhere", "Ride")
+        assert uri == "spotify:album:nowhere000000000000001", uri
+    finally:
+        build_watchlist.PINNED_FILE = real_pinned
+    print("ok - check_pin_key_is_normalized")
 
 
 def main():
     for check in (check_total_failure_leaves_old_watchlist,
                   check_success_replaces_with_new_week_only,
                   check_partial_build_covers_resolved_only,
-                  check_artist_match_is_word_boundary_not_substring):
+                  check_artist_match_is_word_boundary_not_substring,
+                  check_search_is_artist_scoped_with_bare_title_query,
+                  check_pinned_album_resolves_without_search,
+                  check_pin_key_is_normalized):
         check()
     return 0
 
