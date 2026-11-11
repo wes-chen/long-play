@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Resolve a syllabus album to its Spotify tracklist and cache it.
 
-Usage: python3 bin/album_tracks.py "<artist>" "<album>"
+Usage: python3 bin/album_tracks.py [--force] "<artist>" "<album>"
 Writes engine/tracklists/<slug>.json:
   {artist, album, spotify_uri, spotify_url, tracks: [{n, title, duration_ms,
    starts_at_ms, starts_at}], fetched_at}
@@ -20,6 +20,14 @@ Artist matching is word-boundary, not substring: a plain `in` check let
 requested slug. When nothing matches it fails loudly instead of writing
 a mislabeled cache — a wrong tracklist poisons guided cues, durations,
 and watchlist mapping downstream.
+
+A cache hit short-circuits without touching the network, so a poisoned
+cache could only be repaired by moving the file aside first (the Nov 9
+Settle incident: the wrong edition was cached and the correct one had to
+live under a separate slug). `--force` re-resolves and overwrites the
+cache in place through the same verified path; a failed re-resolve exits
+nonzero and leaves the existing cache untouched, since the file is only
+written after a successful resolve.
 """
 import json
 import os
@@ -151,12 +159,17 @@ def fmt_ms(ms):
 
 
 def main():
-    if len(sys.argv) != 3:
-        print('usage: album_tracks.py "<artist>" "<album>"')
+    args = sys.argv[1:]
+    force = False
+    if args and args[0] == "--force":
+        force = True
+        args = args[1:]
+    if len(args) != 2:
+        print('usage: album_tracks.py [--force] "<artist>" "<album>"')
         sys.exit(2)
-    artist, album = sys.argv[1], sys.argv[2]
+    artist, album = args
     path = os.path.join(CACHE, slug(artist, album) + ".json")
-    if os.path.exists(path):
+    if os.path.exists(path) and not force:
         with open(path) as f:
             cached = json.load(f)
         print(json.dumps({"cached": path, "tracks": len(cached["tracks"])}))
