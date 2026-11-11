@@ -14,7 +14,9 @@ Rule under test:
   "Jaded Juice Riders";
 - the fetched experience's album title is re-verified before the cache
   is written; mismatch fails loudly instead of caching;
-- a cache hit never touches the network.
+- a cache hit never touches the network;
+- --force re-resolves and overwrites an existing cache through the same
+  verified path, and a failed re-resolve leaves the cache untouched.
 
 Run: python3 bin/tests/test_album_tracks.py  (stdlib only)
 """
@@ -212,6 +214,78 @@ def check_cache_hit_never_calls_api():
     print("ok - check_cache_hit_never_calls_api")
 
 
+def check_force_reresolves_existing_cache():
+    # The Nov 9 Settle incident: a poisoned cache could only be repaired
+    # by moving the file aside, because a cache hit short-circuits.
+    # --force must re-resolve through the verified path and overwrite it.
+    tmp = tempfile.mkdtemp()
+    slug = album_tracks.slug("Kendrick Lamar", "To Pimp A Butterfly")
+    path = os.path.join(tmp, slug + ".json")
+    with open(path, "w") as f:
+        json.dump({"tracks": [{"n": 1, "title": "old"}],
+                   "spotify_uri": "spotify:album:old"}, f)
+    items = _search(
+        _item("To Pimp A Butterfly", "Kendrick Lamar", "spotify:album:tpab"))
+    real_cache, real_sh = album_tracks.CACHE, _patch_sh(
+        _mock(items, _exp("To Pimp A Butterfly")))
+    album_tracks.CACHE = tmp
+    old_argv = sys.argv
+    sys.argv = ["album_tracks.py", "--force",
+                "Kendrick Lamar", "To Pimp A Butterfly"]
+    try:
+        buf = io.StringIO()
+        with redirect_stdout(buf):
+            album_tracks.main()
+        out = json.loads(buf.getvalue())
+        assert out["tracks"] == 1, out
+        assert out.get("uri") == "spotify:album:tpab", out
+        with open(path) as f:
+            fresh = json.load(f)
+        assert fresh["spotify_uri"] == "spotify:album:tpab", fresh
+        assert fresh["tracks"][0]["title"] == "Track One", fresh
+    finally:
+        album_tracks.CACHE = real_cache
+        album_tracks.sh = real_sh
+        sys.argv = old_argv
+    print("ok - check_force_reresolves_existing_cache")
+
+
+def check_force_failure_leaves_cache_untouched():
+    # A failed re-resolve must not clobber the cache it was meant to fix:
+    # the write happens only after a successful resolve.
+    tmp = tempfile.mkdtemp()
+    slug = album_tracks.slug("Kendrick Lamar", "Section.80")
+    path = os.path.join(tmp, slug + ".json")
+    with open(path, "w") as f:
+        json.dump({"tracks": [{"n": 1, "title": "kept"}],
+                   "spotify_uri": "spotify:album:kept"}, f)
+    before = open(path, "rb").read()
+    items = _search(
+        _item("To Pimp A Butterfly", "Kendrick Lamar", "spotify:album:tpab"))
+    real_cache, real_sh = album_tracks.CACHE, _patch_sh(
+        _mock(items, _exp("To Pimp A Butterfly")))
+    album_tracks.CACHE = tmp
+    old_argv = sys.argv
+    sys.argv = ["album_tracks.py", "--force", "Kendrick Lamar", "Section.80"]
+    try:
+        buf = io.StringIO()
+        with redirect_stdout(buf):
+            try:
+                album_tracks.main()
+            except SystemExit as e:
+                assert e.code == 1, e.code
+            else:
+                raise AssertionError("main() did not exit(1)")
+        out = json.loads(buf.getvalue())
+        assert "no album title match" in out["error"], out
+        assert open(path, "rb").read() == before
+    finally:
+        album_tracks.CACHE = real_cache
+        album_tracks.sh = real_sh
+        sys.argv = old_argv
+    print("ok - check_force_failure_leaves_cache_untouched")
+
+
 def main():
     for check in (check_picks_title_match_not_first_artist_match,
                   check_no_title_match_fails_loudly_and_writes_nothing,
@@ -219,7 +293,9 @@ def main():
                   check_substring_artist_not_matched,
                   check_substring_artist_only_fails_loudly,
                   check_experience_title_mismatch_refused,
-                  check_cache_hit_never_calls_api):
+                  check_cache_hit_never_calls_api,
+                  check_force_reresolves_existing_cache,
+                  check_force_failure_leaves_cache_untouched):
         check()
     return 0
 
