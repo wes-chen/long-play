@@ -79,16 +79,17 @@ least one track reaching 85%. Polls are snapshot-only, so every number is
 a lower bound — the model reads it as a floor for the pick count (currently
 5/week) and drip cadence.
 
-Status 2026-11-10 (canonical 7-day rollup W46, run 2026-11-09): 0 of 5 watched albums
-touched, 0 started, 0 completed; no sampled play of any watched track.
-This is the third consecutive sub-1.0 week (W44, W45, W46, all 0.0/week),
-so the capacity side of the revisit bar below is now met. The week before
-that (W43) showed 2 of 5 touched at 0.4% max progress — fleeting starts, not
-absorption — so its touched-rate figure (2.0/week) overstated engagement on
-its own; read it alongside started (0).
+Status 2026-11-16 (canonical 7-day rollup W47, run 2026-11-16): 1 of 5 watched albums
+touched (ODESZA — A Moment Apart: 3 of 95 watched tracks, 2 started, max progress
+79.4%), 0 completed; capacity 1.0/week.
+This breaks the sub-1.0 streak — W44, W45, W46 were all 0.0/week — so the capacity
+side of the revisit bar below is no longer met and the three-consecutive counter
+resets. The W43 read still stands as a caution: 2 of 5 touched at 0.4% max progress
+— fleeting starts, not absorption — so read touched-rate alongside started.
 Pick count explicitly HELD at 5 — the revisit bar also needs the explicit
-feedback log to agree, and it holds no dated rows for weeks 3–7 (the only
-explicit reaction on record remains the week-1 bounce-off), so the capacity
+feedback log to agree, and it holds no dated rows for weeks 3–8 (the only
+explicit reaction on record remains the week-1 bounce-off; the week-8 feedback
+prompt went out 2026-11-16 and no reactions are logged yet), so the capacity
 read alone is a floor, not a verdict, and the feedback loop is still ramping.
 Revisit bar: reduce the pick count only if `capacity_albums_per_week` stays
 < 1.0 for three consecutive 7-day rollups AND the explicit feedback log
